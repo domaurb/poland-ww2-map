@@ -11,7 +11,7 @@ sources). Still to come: the 1945 batch, the top-100 Overview ranking, historica
 - **Online:** https://domaurb.github.io/poland-ww2-map/ (redeployed on every push to `main`).
 - **Download:** see [Releases](https://github.com/domaurb/poland-ww2-map/releases).
   - `poland-ww2-map.html` is the whole app in one file: download it and double-click it.
-  - `poland-ww2-map-site.zip` is the regular site, with `start.bat` / `start.sh` to serve it locally.
+  - `poland-ww2-map-site.zip` is the regular site; run its `start.bat` / `start.sh` to serve it locally (Python 3 or Node.js needed).
 
 Both need an internet connection for the OpenStreetMap base map; the event data is bundled.
 

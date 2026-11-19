@@ -2,7 +2,7 @@ Test build of the interactive WWII map of Poland (data phases 2a–2d: 190 event
 
 **Downloads**
 - `poland-ww2-map.html` — the whole app in one file. Download it and double-click to open in your browser.
-- `poland-ww2-map-site.zip` — the regular website build, with `start.bat` / `start.sh` to serve it locally if your browser blocks the single file.
+- `poland-ww2-map-site.zip` — the regular website build. Unzip it, then run `start.bat` (Windows) or `start.sh` (macOS/Linux) to serve it locally; needs Python 3 or Node.js.
 
 Both need an internet connection for the OpenStreetMap base map; the event data is bundled.
 
