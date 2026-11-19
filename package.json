@@ -9,7 +9,7 @@
     "build:portable": "tsc -b && vite build --mode portable",
     "lint": "oxlint",
     "preview": "vite preview",
-    "validate": "tsx scripts/validate-data.ts",
+    "validate": "tsx scripts/validate-data.ts --final",
     "geocode": "tsx scripts/geocode.ts",
     "test": "vitest run"
   },

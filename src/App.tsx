@@ -3,7 +3,7 @@ import { EVENT_TYPES, type EventType } from "./data/constants";
 import { ALL_EVENTS, EVENTS_BY_ID } from "./data/loadEvents";
 import { STRINGS } from "./i18n";
 import { addDays, clampIso, fromDay, LAST_DAY, toDay } from "./lib/dates";
-import { applyFilters, eventsOnDate, nextDate, prevDate, rankedEvents, startDates } from "./lib/events";
+import { applyFilters, eventsOnDate, nextDate, prevDate, significantEvents, startDates } from "./lib/events";
 import { parseUrl, toSearch, type Page, type Speed, type UrlState } from "./lib/urlState";
 import AboutPage from "./components/AboutPage";
 import type { MarkerItem } from "./components/ClusterLayer";
@@ -55,7 +55,7 @@ export default function App() {
   const filtered = useMemo(() => applyFilters(ALL_EVENTS, { types: s.types, verifiedOnly: s.verifiedOnly }), [s.types, s.verifiedOnly]);
   const dates = useMemo(() => startDates(filtered), [filtered]);
   const { began, ongoing } = useMemo(() => eventsOnDate(filtered, s.date), [filtered, s.date]);
-  const ranked = useMemo(() => rankedEvents(filtered), [filtered]);
+  const ranked = useMemo(() => significantEvents(filtered), [filtered]);
   const prevEvent = prevDate(dates, s.date);
   const nextEvent = nextDate(dates, s.date);
   const selected = s.event ? (EVENTS_BY_ID.get(s.event) ?? null) : null;
@@ -63,7 +63,7 @@ export default function App() {
   const markerItems = useMemo<MarkerItem[]>(() => {
     const label = (e: (typeof ALL_EVENTS)[number], extra = "") => `${e.title[s.lang]}${extra}${e.verified ? "" : ` (${t.unverified})`}`;
     if (s.mode === "overview")
-      return ranked.map((e) => ({ event: e, variant: "began", rank: e.significanceRank, label: label(e, ` — ${t.rank(e.significanceRank!)}`) }));
+      return ranked.map((e) => ({ event: e, variant: "began", label: label(e) }));
     return [
       ...began.map((e) => ({ event: e, variant: "began" as const, label: label(e) })),
       ...ongoing.map((e) => ({ event: e, variant: "ongoing" as const, label: label(e, ` — ${t.ongoing.toLowerCase()}`) })),

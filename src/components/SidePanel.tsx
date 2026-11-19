@@ -45,7 +45,7 @@ export default function SidePanel(p: Props) {
           <section>
             <h2 className="panel-heading">{t.rankedList}</h2>
             {p.ranked.length ? (
-              <EventList events={p.ranked} lang={p.lang} variant="began" selectedId={p.selectedId} onOpen={p.onOpen} showRank />
+              <EventList events={p.ranked} lang={p.lang} variant="began" selectedId={p.selectedId} onOpen={p.onOpen} />
             ) : (
               <p className="empty">{t.noRanking}</p>
             )}

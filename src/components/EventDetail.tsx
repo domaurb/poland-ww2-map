@@ -23,7 +23,7 @@ export default function EventDetail({ event: e, lang, onBack, onShowOnMap }: Pro
         <div>
           <p className="detail-type">
             {TYPE_LABELS[lang][e.type]}
-            {e.significanceRank !== undefined && <span className="rank-pill">{t.rank(e.significanceRank)}</span>}
+            {e.significanceRank !== undefined && <span className="rank-pill">{t.significant}</span>}
           </p>
           <h2 id="detail-title" tabIndex={-1}>
             {e.title[lang]}

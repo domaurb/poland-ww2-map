@@ -24,7 +24,7 @@ const TEXT = {
   en: {
     title: "About this map & its sources",
     intro:
-      "This map presents significant battles, crimes, acts of resistance and other events of the Second World War that took place on Polish lands between 1 September 1939 and 8 May 1945. Use the timeline to explore day by day, or the Overview to see the most significant events at once.",
+      "This map presents significant battles, crimes, acts of resistance and other events of the Second World War that took place on Polish lands between 1 September 1939 and 8 May 1945. Use the timeline to explore day by day, or open “Most significant events” to see a selection of 100 events at once. That selection is listed in date order and is not a ranking: events were chosen for the scale of human loss, their consequences for the course of the war and the Polish state, their place in Polish, Jewish and international memory, and so that every year and every major group of victims is represented.",
     geoTitle: "What counts as “Poland” here",
     geo: "The map covers the union of Polish territory as of 31 August 1939 (including Lwów, Wilno and Grodno) and present-day Poland (including areas that were German in 1939, such as Gdańsk/Danzig, Wrocław/Breslau and Szczecin/Stettin). Place names are given in Polish, with the historical German name or the present-day name in parentheses where relevant. A small number of events outside this area are included as documented exceptions — for example the Katyń massacre, whose victims were Polish prisoners of war.",
     policyTitle: "Source policy",
@@ -55,7 +55,7 @@ const TEXT = {
   pl: {
     title: "O mapie i jej źródłach",
     intro:
-      "Mapa przedstawia najważniejsze bitwy, zbrodnie, akty oporu i inne wydarzenia II wojny światowej, które rozegrały się na ziemiach polskich od 1 września 1939 r. do 8 maja 1945 r. Oś czasu pozwala przeglądać je dzień po dniu, a tryb przeglądu pokazuje od razu najważniejsze z nich.",
+      "Mapa przedstawia najważniejsze bitwy, zbrodnie, akty oporu i inne wydarzenia II wojny światowej, które rozegrały się na ziemiach polskich od 1 września 1939 r. do 8 maja 1945 r. Oś czasu pozwala przeglądać je dzień po dniu, a widok „Najważniejsze wydarzenia” pokazuje od razu wybór 100 wydarzeń. Wybór ten jest uporządkowany chronologicznie i nie stanowi rankingu: o włączeniu wydarzenia decydowały skala strat ludzkich, jego konsekwencje dla przebiegu wojny i losów państwa polskiego, miejsce w pamięci polskiej, żydowskiej i międzynarodowej, a także to, by reprezentowany był każdy rok wojny i każda większa grupa ofiar.",
     geoTitle: "Co rozumiemy przez „Polskę”",
     geo: "Mapa obejmuje sumę terytorium Polski według stanu na 31 sierpnia 1939 r. (w tym Lwów, Wilno i Grodno) oraz obszaru dzisiejszej Polski (w tym terenów należących w 1939 r. do Niemiec lub Wolnego Miasta Gdańska, np. Gdańska, Wrocławia i Szczecina). Nazwy miejscowości podajemy po polsku, w nawiasie – tam, gdzie to istotne – nazwę historyczną niemiecką lub obecną. Nieliczne wydarzenia spoza tego obszaru uwzględniono jako udokumentowane wyjątki – np. zbrodnię katyńską, której ofiarami byli polscy jeńcy wojenni.",
     policyTitle: "Zasady doboru źródeł",

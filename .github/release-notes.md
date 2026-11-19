@@ -6,4 +6,4 @@ Test build of the interactive WWII map of Poland (data phases 2a–2f: 300 event
 
 Both need an internet connection for the OpenStreetMap base map; the event data is bundled.
 
-Not yet included: top-100 Overview ranking (Phase 3), historical borders and density strip (Phase 4).
+Includes the "Most significant events" view (Phase 3). Not yet included: historical borders and density strip (Phase 4).

@@ -5,7 +5,7 @@ import "leaflet.markercluster";
 import type { HistEvent } from "../data/schema";
 import { markerSvg, type MarkerVariant } from "./markerIcon";
 
-export type MarkerItem = { event: HistEvent; variant: MarkerVariant; label: string; rank?: number };
+export type MarkerItem = { event: HistEvent; variant: MarkerVariant; label: string };
 
 type Props = {
   items: MarkerItem[];
@@ -65,7 +65,7 @@ export default function ClusterLayer({ items, selectedId, onSelect, revealToken,
     const next = new Map<string, { key: string; item: MarkerItem }>();
     for (const item of items) {
       const e = item.event;
-      const key = [item.variant, e.verified, e.id === selectedId, item.rank ?? "", item.label].join("|");
+      const key = [item.variant, e.verified, e.id === selectedId, item.label].join("|");
       next.set(e.id, { key, item });
     }
     const toRemove: L.Marker[] = [];
@@ -81,10 +81,9 @@ export default function ClusterLayer({ items, selectedId, onSelect, revealToken,
       const e = item.event;
       const selected = e.id === selectedId;
       const size = item.variant === "began" ? 28 : 22;
-      const rankBadge = item.rank !== undefined ? `<span class="evt-rank">${item.rank}</span>` : "";
       const marker = L.marker([e.location.lat, e.location.lng], {
         icon: L.divIcon({
-          html: markerSvg(e.type, item.variant, { unverified: !e.verified, selected }) + rankBadge,
+          html: markerSvg(e.type, item.variant, { unverified: !e.verified, selected }),
           className: `evt-marker${selected ? " is-selected" : ""}`,
           iconSize: [size, size],
           iconAnchor: [size / 2, size / 2],

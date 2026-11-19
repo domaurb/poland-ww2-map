@@ -29,5 +29,8 @@ export function prevDate(dates: string[], current: string) {
   return null;
 }
 
-export const rankedEvents = (events: HistEvent[]) =>
-  events.filter((e) => e.significanceRank !== undefined).sort((a, b) => a.significanceRank! - b.significanceRank!);
+/** The selection of most significant events, in date order (the internal order is never shown). */
+export const significantEvents = (events: HistEvent[]) =>
+  events
+    .filter((e) => e.significanceRank !== undefined)
+    .sort((a, b) => a.startDate.localeCompare(b.startDate) || a.id.localeCompare(b.id));

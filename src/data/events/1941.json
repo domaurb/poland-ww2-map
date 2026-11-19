@@ -272,6 +272,7 @@
       "en": "On 22 June 1941 Germany attacked the Soviet Union, and within days the Wehrmacht overran the eastern territories of pre-war Poland occupied by the USSR since 1939; the Łomża area was taken almost immediately and Lwów on 30 June. Retreating NKVD units massacred prisoners, and the German entry was followed by mass killings of Jews and the incorporation of the territories into new German administrative units such as the Białystok District.",
       "pl": "22 czerwca 1941 r. Niemcy zaatakowały Związek Sowiecki i w ciągu kilku dni Wehrmacht zajął okupowane od 1939 r. przez ZSRS wschodnie ziemie II RP; Łomżyńskie zostało zajęte niemal natychmiast, a Lwów 30 czerwca. Wycofujące się NKWD mordowało więźniów, a po wkroczeniu Niemców doszło do masowych mordów na Żydach i włączenia tych ziem do nowych niemieckich jednostek administracyjnych, takich jak Okręg Białostocki."
     },
+    "significanceRank": 35,
     "sources": [
       {
         "title": "Niemieckie zbrodnie na Żydach na ziemi łomżyńskiej latem 1941 roku",
@@ -331,6 +332,7 @@
       "en": "About 4,000 Polish citizens murdered in Lwów (IPN investigation, closed in 2015, reported by dzieje.pl/PAP).",
       "pl": "Ok. 4 tys. obywateli polskich zamordowanych we Lwowie (śledztwo IPN umorzone w 2015 r., za dzieje.pl/PAP)."
     },
+    "significanceRank": 34,
     "sources": [
       {
         "title": "IPN: po inwazji Niemiec na ZSRS NKWD zamordowało we Lwowie 4 tys. polskich obywateli",
@@ -383,6 +385,7 @@
       "en": "JHI gives about 2,000 Jews killed in the pogrom; IPN gives several thousand murdered in the first weeks of the occupation.",
       "pl": "ŻIH podaje ok. 2 tys. Żydów zamordowanych podczas pogromu; IPN – kilka tysięcy zamordowanych w pierwszych tygodniach okupacji."
     },
+    "significanceRank": 79,
     "sources": [
       {
         "title": "80. rocznica powstania w getcie białostockim",
@@ -432,6 +435,7 @@
       "en": "More than 2,000 Jews murdered during the 'Petlura Days' alone (dzieje.pl/PAP); the total for July 1941 is not given in these sources.",
       "pl": "Ponad 2 tys. Żydów zamordowanych podczas samych „Dni Petlury” (dzieje.pl/PAP); łącznej liczby ofiar z lipca 1941 r. źródła te nie podają."
     },
+    "significanceRank": 78,
     "sources": [
       {
         "title": "1 lipca 1941. Początek pogromów lwowskich",
@@ -480,6 +484,7 @@
       "en": "About 100,000 people murdered in 1941–1944; Poles are estimated at about 2% of the victims (Przystanek Historia/IPN).",
       "pl": "Ok. 100 tys. zamordowanych w latach 1941–1944; Polacy stanowili szacunkowo ok. 2% ofiar (Przystanek Historia/IPN)."
     },
+    "significanceRank": 32,
     "sources": [
       {
         "title": "Ponary – miejsce kaźni",
@@ -532,6 +537,7 @@
       "en": "40 people killed on 4 July and two more the next day (Przystanek Historia/IPN).",
       "pl": "4 lipca zamordowano 40 osób, a nazajutrz jeszcze dwie (Przystanek Historia/IPN)."
     },
+    "significanceRank": 77,
     "sources": [
       {
         "title": "Wzgórza Wuleckie spłynęły krwią",
@@ -623,6 +629,7 @@
       "en": "Not fewer than 340 Jewish victims (IPN, 2003).",
       "pl": "Nie mniej niż 340 ofiar narodowości żydowskiej (IPN, 2003)."
     },
+    "significanceRank": 33,
     "sources": [
       {
         "title": "Komunikat dot. postanowienia o umorzeniu śledztwa w sprawie zabójstwa obywateli polskich narodowości żydowskiej w Jedwabnem w dniu 10 lipca 1941 r.",
@@ -1023,6 +1030,11 @@
       "en": "Set up on Heinrich Himmler's decision of July 1941 and operating from October 1941, the camp in Lublin's Majdanek district was initially called a prisoner-of-war camp of the Waffen-SS and was renamed Konzentrationslager Lublin in February 1943. It was intended for 25,000–50,000 prisoners as slave labour and was also a killing site in Aktion Reinhardt; it functioned until July 1944.",
       "pl": "Utworzony z decyzji Heinricha Himmlera z lipca 1941 r. i działający od października 1941 r. obóz na lubelskim Majdanku nosił początkowo nazwę obozu jenieckiego Waffen-SS, a w lutym 1943 r. przemianowano go na Konzentrationslager Lublin. Przeznaczony był dla 25–50 tys. więźniów jako darmowej siły roboczej i był również miejscem kaźni w ramach akcji „Reinhardt”; funkcjonował do lipca 1944 r."
     },
+    "casualties": {
+      "en": "About 80,000 people died in the camp in 1941–1944, including about 60,000 Jews, of probably over 130,000 who passed through it (dzieje.pl/PAP).",
+      "pl": "W latach 1941–1944 zginęło w obozie ok. 80 tys. osób, w tym ok. 60 tys. Żydów, spośród prawdopodobnie ponad 130 tys., które przez niego przeszły (dzieje.pl/PAP)."
+    },
+    "significanceRank": 15,
     "sources": [
       {
         "title": "Niemieckie obozy na ziemiach polskich 1939–1945",
@@ -1036,6 +1048,13 @@
         "publisher": "Instytut Pamięci Narodowej",
         "url": "https://ipn.gov.pl/pl/dla-mediow/komunikaty/161365,80-rocznica-rozpoczecia-Akcji-Reinhardt-zaglady-Zydow-w-Generalnym-Gubernatorstw.html",
         "tier": 1,
+        "accessed": "2026-11-19"
+      },
+      {
+        "title": "81. rocznica likwidacji niemieckiego obozu koncentracyjnego na Majdanku",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/wiadomosci/81-rocznica-likwidacji-niemieckiego-obozu-koncentracyjnego-na-majdanku",
+        "tier": 2,
         "accessed": "2026-11-19"
       }
     ],
@@ -1076,6 +1095,7 @@
       "en": "10,000 to about 12,000 Jews (Przystanek Historia); 8,000–12,000 according to the USHMM.",
       "pl": "Od 10 do ok. 12 tys. Żydów (Przystanek Historia); według USHMM 8–12 tys."
     },
+    "significanceRank": 76,
     "sources": [
       {
         "title": "Największy „żydowski hotel” w Stanisławowie",
@@ -1202,6 +1222,7 @@
       "en": "On 8 December 1941 the Germans murdered with exhaust gas about 700 Jews brought the day before from nearby Koło, starting the operation of Kulmhof, the first German extermination camp in occupied Poland, set up on the order of Warthegau governor Arthur Greiser. Victims were killed in gas vans and buried in the Rzuchów forest; from 16 January 1942 Jews from the Łódź ghetto were deported there. The camp operated in this phase until 11 April 1943.",
       "pl": "8 grudnia 1941 r. Niemcy zamordowali spalinami ok. 700 Żydów przywiezionych dzień wcześniej z pobliskiego Koła, rozpoczynając działalność Kulmhof – pierwszego niemieckiego obozu zagłady na okupowanych ziemiach polskich, założonego z rozkazu namiestnika Kraju Warty Arthura Greisera. Ofiary zabijano w samochodach-komorach gazowych i grzebano w Lesie Rzuchowskim; od 16 stycznia 1942 r. deportowano tu Żydów z getta łódzkiego. W tej fazie obóz działał do 11 kwietnia 1943 r."
     },
+    "significanceRank": 14,
     "sources": [
       {
         "title": "Rozpoczęcie działalności KL Kulmhof, pierwszego niemieckiego obozu zagłady na ziemiach polskich",

@@ -1,4 +1,11 @@
-"""Generates docs/ranking-proposal.md from the proposed top-100 list below (Phase 3 review draft)."""
+"""Selection of the most significant events (Phase 3).
+
+The list R below is the agreed selection with the reason for each choice. Its order is used only
+internally (`significanceRank`, 1–100, required by the data schema); the app shows the selection in
+date order without numbers. Run without arguments to regenerate docs/most-significant-events.md;
+run with --apply to write `significanceRank` into the event files.
+"""
+import sys
 import json, glob, collections
 ev = {e["id"]: e for f in glob.glob("src/data/events/*.json") for e in json.load(open(f))}
 R = [
@@ -110,34 +117,49 @@ for i in NEAR: assert i in ev, i
 FAM={"battle":"military","siege":"military","liberation":"military","massacre":"civilian","bombing":"civilian","deportation":"civilian","camp":"civilian","occupation_policy":"civilian","uprising":"resistance","resistance_operation":"resistance","other":"other"}
 top=[ev[i] for i,_ in R]
 def title(e): return e["title"]["en"]
-L=["# Phase 3 – proposed top-100 ranking (for review)","",
-"This is a **proposal**. Nothing in the data has a `significanceRank` yet; once you approve (or edit) this list, the ranks will be written into the event files and `npm run validate -- --final` will enforce exactly 1–100.","",
-"## How the list was built","",
-"Each event was weighed on four criteria, roughly in this order:","",
-"1. **Human loss** – the scale of killing, deportation or destruction, using the casualty figures recorded in the data.",
-"2. **Historical consequence** – turning points that changed the course of the war or the fate of the Polish state (invasions, annexations, creation of occupation regimes, the end of the Home Army).",
-"3. **Place in memory** – events that anchor Polish, Jewish and international remembrance (national days of remembrance, emblematic sites and people).",
-"4. **Coverage balance** – after the first ~60 places, choices were adjusted so the Overview is not dominated by one year, one city or one kind of event, and so that every major victim group and every perpetrator appears.","",
-"Within each band the order is a judgement call; the bands matter more than adjacent positions.","",
-"## Coverage of the proposed top 100","",
+if "--apply" in sys.argv:
+    rank={i:n for n,(i,_) in enumerate(R,1)}
+    for f in glob.glob("src/data/events/*.json"):
+        arr=json.load(open(f))
+        for e in arr:
+            if e["id"] in rank:
+                items=[(k,v) for k,v in e.items() if k!="significanceRank"]
+                out={}
+                for k,v in items:
+                    if k=="sources": out["significanceRank"]=rank[e["id"]]
+                    out[k]=v
+                e.clear(); e.update(out)
+            else:
+                e.pop("significanceRank",None)
+        json.dump(arr,open(f,"w"),ensure_ascii=False,indent=2); open(f,"a").write("\n")
+    print("significanceRank written for",len(rank),"events")
+L=["# Most significant events","",
+"The app's **Most significant events** view („Najważniejsze wydarzenia”) shows a selection of 100 events from the map. They are listed **by date, without numbers or positions** – the selection is not a ranking of suffering.","",
+"## How the selection was made","",
+"Each event was weighed on four criteria:","",
+"1. **Human loss** – the scale of killing, deportation or destruction, using the figures recorded in the data.",
+"2. **Historical consequence** – turning points for the course of the war and the fate of the Polish state (invasions, annexations, occupation regimes, the end of the Home Army).",
+"3. **Place in memory** – events that anchor Polish, Jewish and international remembrance (days of remembrance, emblematic sites and people).",
+"4. **Breadth** – the selection covers every year of the war and every major group of victims and perpetrators, so it is not dominated by one place or one kind of event.","",
+"The data schema stores an internal order (`significanceRank`, 1–100) produced by `scripts/significant-events.py`; it is used only to decide what is included and is not displayed.","",
+"## Coverage","",
 ]
 yc=collections.Counter(e["startDate"][:4] for e in top); ya=collections.Counter(e["startDate"][:4] for e in ev.values())
-L+=["| Start year | In top 100 | All events |","|---|---|---|"]+[f"| {y} | {yc[y]} | {ya[y]} |" for y in sorted(ya)]+[""]
+L+=["| Start year | Selected | All events |","|---|---|---|"]+[f"| {y} | {yc[y]} | {ya[y]} |" for y in sorted(ya)]+[""]
 fc=collections.Counter(FAM[e["type"]] for e in top); fa=collections.Counter(FAM[e["type"]] for e in ev.values())
-L+=["| Family | In top 100 | All events |","|---|---|---|"]+[f"| {f} | {fc[f]} | {fa[f]} |" for f in ["military","civilian","resistance","other"]]+[""]
+L+=["| Kind | Selected | All events |","|---|---|---|"]+[f"| {f} | {fc[f]} | {fa[f]} |" for f in ["military","civilian","resistance","other"]]+[""]
 L+=["**Perpetrators represented:** Germany (incl. SS, police and auxiliary formations), the Soviet Union (Red Army, NKVD, Soviet partisans), the UPA, Polish perpetrators (local inhabitants at Jedwabne; underground units at Sahryń and Pawłokoma), Lithuanian police.","",
 "**Victim groups represented:** Poles, Jews, Roma, Ukrainians, Lithuanians, Soviet POWs (Auschwitz), Germans (Breslau, Upper Silesian deportees of German nationality).","",
-"## Proposed ranking","","| Rank | Event | Dates | Type | Why |","|---|---|---|---|---|"]
-for n,(i,why) in enumerate(R,1):
-    e=ev[i]; d=e["startDate"] if e["startDate"]==e["endDate"] else f'{e["startDate"]} – {e["endDate"]}'
-    L.append(f"| {n} | {title(e)} (`{i}`) | {d} | {e['type'].replace('_',' ')} | {why} |")
-L+=["","## Near misses (ranks 101–120, not ranked)","","These were considered and left out; any of them can be swapped in.",""]
+"## The selection (in date order)","","| Event | Dates | Kind | Why it is included |","|---|---|---|---|"]
+why={i:w for i,w in R}
+for e in sorted(top, key=lambda e:(e["startDate"],e["id"])):
+    d=e["startDate"] if e["startDate"]==e["endDate"] else f'{e["startDate"]} – {e["endDate"]}'
+    L.append(f"| {title(e)} | {d} | {e['type'].replace('_',' ')} | {why[e['id']]} |")
+L+=["","## Considered but not selected","","These remain on the map and in the timeline; any of them can replace a selected event.",""]
 for i in NEAR:
-    e=ev[i]; L.append(f"- {title(e)} (`{i}`, {e['startDate']})")
-L+=["","## Questions for you","",
-"1. **Katyń** is outside the map area (a documented exception) but ranked #4. Keep it in the Overview?",
-"2. **Balance vs. scale:** the list deliberately includes smaller but emblematic events (Szczurowa, Glinciszki, Pawłokoma, Naliboki) to cover all victim groups and perpetrators. Prefer a stricter scale-first list?",
-"3. **Battles of 1939:** six September battles are ranked (Bzura, Mokra, Wizna, Modlin, Kock, Grodno) plus Westerplatte, the Post Office and Lwów. Too many or too few?",
-"4. **Overlapping events:** the Warsaw Uprising (#3) and its sub-events (Wola #19, Ochota #82) are all ranked. Keep sub-events, or free those places for other topics?",""]
-open("docs/ranking-proposal.md","w").write("\n".join(L))
+    e=ev[i]; L.append(f"- {title(e)} ({e['startDate']})")
+L+=["","## Notes","",
+"- **Katyń** lies outside the map area (a documented exception) but is included because of its central place in Polish history.",
+"- The Warsaw Uprising and two of its massacres (Wola, Ochota) are all included, because the massacres are among the largest crimes against civilians of the war.",""]
+open("docs/most-significant-events.md","w").write("\n".join(L))
 print("written", len(R))

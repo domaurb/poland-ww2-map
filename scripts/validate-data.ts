@@ -1,6 +1,6 @@
 /**
  * Validates all event data. Run with `npm run validate` (add `--final` once the
- * Overview ranking is assigned, to require significanceRank to cover exactly 1–100).
+ * selection of most significant events is assigned, to require significanceRank to cover exactly 1–100).
  * Exits non-zero on any error; prints warnings and a summary report.
  */
 import { readFileSync, readdirSync } from "node:fs";
@@ -102,8 +102,8 @@ for (const [r, list] of rankCount) if (list.length > 1) err(list.join(", "), `sh
 const missingRanks = Array.from({ length: 100 }, (_, i) => i + 1).filter((r) => !rankCount.has(r));
 if (missingRanks.length) {
   const msg = `significanceRank must cover exactly 1–100; ${ranked.length} ranked, ${missingRanks.length} rank(s) unassigned`;
-  if (FINAL) errors.push(`ranking: ${msg}`);
-  else warnings.push(`ranking: ${msg} (assigned in Phase 3; run with --final to enforce)`);
+  if (FINAL) errors.push(`significance order: ${msg}`);
+  else warnings.push(`significance order: ${msg} (run with --final to enforce)`);
 }
 
 // ---- report ----------------------------------------------------------------

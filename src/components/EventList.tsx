@@ -9,17 +9,15 @@ type Props = {
   variant: MarkerVariant;
   selectedId: string | null;
   onOpen: (id: string) => void;
-  showRank?: boolean;
 };
 
-export default function EventList({ events, lang, variant, selectedId, onOpen, showRank }: Props) {
+export default function EventList({ events, lang, variant, selectedId, onOpen }: Props) {
   const t = STRINGS[lang];
   return (
     <ul className="event-list">
       {events.map((e) => (
         <li key={e.id}>
           <button type="button" className={`event-item${e.id === selectedId ? " is-selected" : ""}`} onClick={() => onOpen(e.id)}>
-            {showRank && e.significanceRank !== undefined && <span className="event-rank">{e.significanceRank}</span>}
             <span className="event-icon" dangerouslySetInnerHTML={{ __html: markerSvg(e.type, variant, { unverified: !e.verified, size: 24 }) }} />
             <span className="event-text">
               <span className="event-title">{e.title[lang]}</span>

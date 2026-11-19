@@ -75,7 +75,6 @@ a { color: var(--focus); }
 .event-text { display: flex; flex-direction: column; min-width: 0; }
 .event-title { font-weight: 600; }
 .event-meta { font-size: 0.82rem; color: var(--ink-2); }
-.event-rank { flex: none; width: 2rem; text-align: right; font-variant-numeric: tabular-nums; color: var(--ink-2); font-weight: 600; padding-top: 2px; }
 .unverified-tag { color: var(--unverified); font-weight: 600; }
 
 /* ---------- detail ---------- */
@@ -121,11 +120,6 @@ a { color: var(--focus); }
 .evt-marker { background: none; border: 0; }
 .evt-marker svg { display: block; filter: drop-shadow(0 1px 1px rgb(0 0 0 / 0.25)); }
 .evt-marker:focus-visible { outline: 3px solid var(--focus); border-radius: 50%; }
-.evt-rank {
-  position: absolute; left: 50%; top: 100%; transform: translate(-50%, 1px);
-  font: 700 10px/1 var(--sans); background: #fff; color: var(--ink); border: 1px solid var(--ink-3);
-  border-radius: 3px; padding: 1px 3px; white-space: nowrap;
-}
 .evt-cluster {
   background: rgb(29 29 27 / 0.85); color: #fff; border-radius: 50%; border: 2px solid #fff;
   display: flex; align-items: center; justify-content: center; font: 700 13px/1 var(--sans);
