@@ -72,7 +72,7 @@ const en = {
     german: "German-controlled, on the selected date",
     soviet: "Soviet-controlled, on the selected date",
   } as Record<"1939" | "today" | "german" | "soviet", string>,
-  bordersNote: "Tinted areas show who controlled Poland's 1939 territory: partitioned from 6 October 1939, all under German control from 22 June 1941. From January 1944 the front is approximated from the documented capture dates of about 70 towns (each place takes the date of the nearest one), so its edges are rough. The dotted brown line is the General Government. Sources: OpenHistoricalMap; IPN, Przystanek Historia, dzieje.pl.",
+  bordersNote: "Tinted areas show who controlled Poland's 1939 territory: partitioned from 6 October 1939, all under German control from 22 June 1941. From January 1944 the front is approximated from the documented capture dates of about 70 towns (each place takes the date of the nearest one), so its edges are rough; areas with no confirmed date are left untinted. The dotted brown line is the General Government. Sources: OpenHistoricalMap; IPN, Przystanek Historia, dzieje.pl.",
 };
 
 type Strings = typeof en;
@@ -151,7 +151,7 @@ const pl: Strings = {
     german: "Pod kontrolą niemiecką, w wybranym dniu",
     soviet: "Pod kontrolą sowiecką, w wybranym dniu",
   },
-  bordersNote: "Zabarwione obszary pokazują, kto kontrolował terytorium Polski z 1939 r.: podział od 6 października 1939 r., od 22 czerwca 1941 r. całość pod kontrolą niemiecką. Od stycznia 1944 r. przebieg frontu jest przybliżony na podstawie udokumentowanych dat zajęcia ok. 70 miejscowości (każde miejsce przyjmuje datę najbliższej z nich), więc jego granice są orientacyjne. Kropkowana brązowa linia to granica Generalnego Gubernatorstwa. Źródła: OpenHistoricalMap; IPN, Przystanek Historia, dzieje.pl."
+  bordersNote: "Zabarwione obszary pokazują, kto kontrolował terytorium Polski z 1939 r.: podział od 6 października 1939 r., od 22 czerwca 1941 r. całość pod kontrolą niemiecką. Od stycznia 1944 r. przebieg frontu jest przybliżony na podstawie udokumentowanych dat zajęcia ok. 70 miejscowości (każde miejsce przyjmuje datę najbliższej z nich), więc jego granice są orientacyjne; obszary bez potwierdzonej daty pozostają niezabarwione. Kropkowana brązowa linia to granica Generalnego Gubernatorstwa. Źródła: OpenHistoricalMap; IPN, Przystanek Historia, dzieje.pl."
 };
 
 export const STRINGS: Record<Lang, Strings> = { en, pl };

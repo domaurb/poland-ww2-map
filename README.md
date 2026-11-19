@@ -29,8 +29,9 @@ Both need an internet connection for the OpenStreetMap base map; the event data 
   (`scripts/front-anchors.json`, each with its source): every place takes the date of its nearest anchor town, with
   pockets for the Vistula bridgeheads, the Poznań fortress and the Hel Peninsula. Edges are therefore rough, and
   places that held out longer than their surroundings (e.g. Grudziądz) or fell earlier (e.g. Kołomyja in March 1944)
-  are not shown separately. Nine dates, mostly in the east and south-east (Kowel, Baranowicze, Lida, Pińsk, Stanisławów,
-  Przemyśl, Brześć, Rzeszów, Ostrów Wielkopolski) rest on secondary sources and are marked `secondary` in that file.
+  are not shown separately. Only dates confirmed by Polish institutional sources are used: for Kowel, Baranowicze,
+  Lida, Pińsk, Stanisławów and Brześć none was found, so the areas nearest those towns are left untinted from
+  January 1944 (marked `unconfirmed` in that file).
   Each layer can be switched off.
 - **Most significant events:** a selection of 100 events, listed in date order without numbers. How it was chosen is
   explained on the About page and in `docs/most-significant-events.md`.

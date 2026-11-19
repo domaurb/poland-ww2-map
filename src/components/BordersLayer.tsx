@@ -11,7 +11,7 @@ type Geometry =
 type Dated = { validFrom: string | null; validTo: string | null };
 type Line = Dated & { id: string; geometry: Geometry };
 type Zone = Dated & { power: "german" | "soviet"; shape: string };
-type Cell = { name: string; soviet: string | null; geometry: Geometry };
+type Cell = { name: string; soviet: string | null; unknown?: boolean; geometry: Geometry };
 type Borders = {
   layers: Line[];
   zones: Zone[];
@@ -48,11 +48,13 @@ export default function BordersLayer({ visible, date }: Props) {
     };
   }, [visible, data]);
   // From January 1944 control is approximated from dated anchor towns: each cell is Soviet-held from its date.
+  // Cells around towns with no confirmed date are left untinted.
   // All cells of one side go into a single polygon so that shared edges leave no seams.
   const front = useMemo(() => {
     if (!data || !date || date < data.frontCells.validFrom) return null;
     const sides = { german: [] as ReturnType<typeof polygonPositions>, soviet: [] as ReturnType<typeof polygonPositions> };
-    for (const c of data.frontCells.cells) sides[c.soviet && date >= c.soviet ? "soviet" : "german"].push(...polygonPositions(c.geometry));
+    for (const c of data.frontCells.cells)
+      if (!c.unknown) sides[c.soviet && date >= c.soviet ? "soviet" : "german"].push(...polygonPositions(c.geometry));
     return sides;
   }, [data, date]);
   if (!data) return null;

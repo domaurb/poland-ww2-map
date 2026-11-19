@@ -98,7 +98,8 @@ out["zones"].append({"power": "german", "validFrom": "1941-06-22", "validTo": "1
 # 4 January 1944 – 8 May 1945: no open data on the front lines exists, so control is approximated from dated anchor
 # towns (scripts/front-anchors.json). Each point of 1939 Poland belongs to its nearest anchor (a Voronoi cell, in a
 # projection that keeps distances roughly true at 52°N) and is Soviet-held from that anchor's date. Pockets override
-# the cells around them. The client tints each cell by comparing the selected date with the cell's date.
+# the cells around them. The client tints each cell by comparing the selected date with the cell's date; cells of
+# towns with no confirmed date (`unknown`) are left untinted.
 HERE = os.path.dirname(os.path.abspath(__file__))
 anchors = json.load(open(os.path.join(HERE, "front-anchors.json")))["anchors"]
 GEO_CACHE = os.path.join(HERE, "front-anchors.geo.json")
@@ -124,7 +125,7 @@ vor = voronoi_diagram(MultiPoint(pts), envelope=proj(frame))
 cells = []
 for a, pt in zip(sites, pts):
     cell = next(c for c in vor.geoms if c.contains(pt))
-    cells.append({"name": a["name"], "soviet": a["soviet"], "g": unproj(cell).intersection(poland_s)})
+    cells.append({"name": a["name"], "soviet": a["soviet"], "unknown": a["confidence"] == "unconfirmed", "g": unproj(cell).intersection(poland_s)})
 for a in anchors:
     if "radiusKm" in a:
         pocket = unproj(proj(geocode(a["query"])).buffer(a["radiusKm"] * KM, 32))
@@ -135,10 +136,11 @@ for a in anchors:
     pocket = pocket.intersection(poland_s)
     for c in cells:
         c["g"] = c["g"].difference(pocket)
-    cells.append({"name": a["name"], "soviet": a["soviet"], "g": pocket})
+    cells.append({"name": a["name"], "soviet": a["soviet"], "unknown": False, "g": pocket})
 json.dump(geo_cache, open(GEO_CACHE, "w"), ensure_ascii=False, indent=1)
 out["frontCells"] = {"validFrom": "1944-01-04", "validTo": None, "cells": [
-    {"name": c["name"], "soviet": c["soviet"], "geometry": geo(c["g"].buffer(0), simplify=False)} for c in cells if not c["g"].is_empty]}
+    {"name": c["name"], "soviet": c["soviet"], **({"unknown": True} if c["unknown"] else {}), "geometry": geo(c["g"].buffer(0), simplify=False)}
+    for c in cells if not c["g"].is_empty]}
 print("front cells:", len(out["frontCells"]["cells"]))
 # Merge consecutive Soviet-edge layers whose lines are identical (changes outside Poland only).
 merged = []
