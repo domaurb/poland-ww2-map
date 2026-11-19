@@ -1,5 +1,5 @@
 {
- "_about": "Dated anchor towns for the approximate German/Soviet control zones from 4 January 1944 to 8 May 1945 (see build-borders.py). `soviet` is the first day the town is shown as Soviet-held (null = German-held to the end of the map). `by: true` means the source gives a date by which the place had been reached, not the exact day. `confidence`: `source` = the date was read on the cited page. Polish institutional sources are used wherever they give a date; for parts of today's Belarus and Ukraine where none does, the dates come from Yad Vashem's community histories and the USHMM Holocaust Encyclopedia (`tier: 3`). Yad Vashem's page for Antopol (10 July 1944) is not used because it conflicts with every surrounding town (16–21 July). Pockets (`radiusKm`) are areas around the point that override the surrounding cells: bridgeheads held by Soviet forces, or fortresses and peninsulas held by German forces longer than their surroundings. Coordinates are filled in by geocoding `query` with OpenStreetMap Nominatim (cached in front-anchors.geo.json).",
+ "_about": "Dated anchor towns for the approximate German/Soviet control zones from 4 January 1944 to 8 May 1945 (see build-borders.py). `soviet` is the first day the town is shown as Soviet-held (null = German-held to the end of the map). `by: true` means the source gives a date by which the place had been reached, not the exact day. `confidence`: `source` = the date was read on the cited page. Polish institutional sources are used wherever they give a date; for parts of today's Belarus and Ukraine where none does, the dates come from Yad Vashem's community histories and the USHMM Holocaust Encyclopedia (`tier: 3`). Antopol's date is from the Belarusian Encyclopedia (16 July 1944); Yad Vashem's 10 July for Antopol is not used. Pockets (`radiusKm`) are areas around the point that override the surrounding cells: bridgeheads held by Soviet forces, or fortresses and peninsulas held by German forces longer than their surroundings. Coordinates are filled in by geocoding `query` with OpenStreetMap Nominatim (cached in front-anchors.geo.json).",
  "anchors": [
   {
    "name": "Sarny",
@@ -157,6 +157,15 @@
    "tier": 3,
    "source": "https://collections.yadvashem.org/en/untold-stories/community/14622268-Pohost-Zagorodski",
    "note": "Source: on or close to 15 July 1944."
+  },
+  {
+   "name": "Antopol",
+   "query": "Antopal, Belarus",
+   "soviet": "1944-07-16",
+   "confidence": "source",
+   "tier": 3,
+   "source": "https://belarusenc.by/temy/belarusinsecwar/487/",
+   "note": "Belarusian Encyclopedia: liberated on 16 July 1944 by the 12th Guards Rifle Division (61st Army, 1st Belorussian Front). Yad Vashem's community page gives 10 July 1944, which is not used."
   },
   {
    "name": "Grodno",

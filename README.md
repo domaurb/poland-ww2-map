@@ -31,7 +31,8 @@ Both need an internet connection for the OpenStreetMap base map; the event data 
   places that held out longer than their surroundings (e.g. Grudziądz) or fell earlier (e.g. Kołomyja in March 1944)
   are not shown separately. Dates come from Polish institutional sources (IPN, Przystanek Historia, dzieje.pl)
   wherever they give one; for Polesie, the Nowogródek region, Kowel, Brześć and Stanisławów, where none does, they
-  come from Yad Vashem's community histories and the USHMM Holocaust Encyclopedia (marked `tier: 3`).
+  come from Yad Vashem's community histories, the USHMM Holocaust Encyclopedia and, for Antopol, the
+  Belarusian Encyclopedia (marked `tier: 3`).
   Each layer can be switched off.
 - **Most significant events:** a selection of 100 events, listed in date order without numbers. How it was chosen is
   explained on the About page and in `docs/most-significant-events.md`.
