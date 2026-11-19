@@ -1,10 +1,15 @@
 name: Release downloads
 
-# Push a tag like v0.2.0 to publish a GitHub Release with ready-to-open builds.
+# Publishes a GitHub Release with ready-to-open builds. Either push a tag like v0.2.0,
+# or run it manually from the Actions tab and enter the tag (it is created on the chosen branch).
 on:
   push:
     tags: ["v*"]
   workflow_dispatch:
+    inputs:
+      tag:
+        description: "Release tag to create, e.g. v0.2.0"
+        required: true
 
 permissions:
   contents: write
@@ -31,17 +36,9 @@ jobs:
           chmod +x poland-ww2-map-site/start.sh
           zip -r poland-ww2-map-site.zip poland-ww2-map-site
       - name: Publish release
-        if: startsWith(github.ref, 'refs/tags/')
         env:
           GH_TOKEN: ${{ github.token }}
+          TAG: ${{ inputs.tag || github.ref_name }}
         run: |
-          gh release create "$GITHUB_REF_NAME" poland-ww2-map.html poland-ww2-map-site.zip \
-            --title "$GITHUB_REF_NAME" --notes-file .github/release-notes.md --prerelease
-      - name: Upload as workflow artifact (manual runs)
-        if: ${{ !startsWith(github.ref, 'refs/tags/') }}
-        uses: actions/upload-artifact@v4
-        with:
-          name: poland-ww2-map-downloads
-          path: |
-            poland-ww2-map.html
-            poland-ww2-map-site.zip
+          gh release create "$TAG" poland-ww2-map.html poland-ww2-map-site.zip \
+            --target "$GITHUB_SHA" --title "$TAG" --notes-file .github/release-notes.md --prerelease
