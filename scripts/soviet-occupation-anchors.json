@@ -1,0 +1,999 @@
+{
+ "_about": "Dated anchor towns for German (and Romanian) control of Soviet territory, 22 June 1941 – 8 May 1945 (see build-borders.py). `german` lists the periods each town was held, as [first day held, first day back in Soviet hands]; null as the second date means held to the end of the map; null as the first date means the source gives only a liberation date, so the occupation date of the nearest town that has one is used. An empty list means never occupied. Every place in Soviet territory takes the periods of its nearest anchor within `radiusKm` (default 150); beyond that it counts as never occupied. `approx` marks a day chosen within the month or part of month the source gives (quoted in `note`); `confidence: search-quote` marks a date read from the source's text as quoted in search results, because the site refuses automated access. Areas held by Finland are not shown.",
+ "anchors": [
+  {
+   "name": "Minsk",
+   "query": "Minsk, Belarus",
+   "german": [
+    [
+     "1941-06-28",
+     "1944-07-03"
+    ]
+   ],
+   "source": "https://collections.yadvashem.org/en/untold-stories/community/14622437-Minsk"
+  },
+  {
+   "name": "Slutsk",
+   "query": "Slutsk, Belarus",
+   "german": [
+    [
+     "1941-06-27",
+     "1944-06-30"
+    ]
+   ],
+   "source": "https://collections.yadvashem.org/en/untold-stories/community/14621542-Slutsk"
+  },
+  {
+   "name": "Bobruysk",
+   "query": "Babruysk, Belarus",
+   "german": [
+    [
+     "1941-06-28",
+     "1944-06-29"
+    ]
+   ],
+   "source": "https://collections.yadvashem.org/en/untold-stories/community/14621631"
+  },
+  {
+   "name": "Bobr",
+   "query": "Бобр, Крупский район",
+   "german": [
+    [
+     "1941-07-06",
+     "1944-06-27"
+    ]
+   ],
+   "source": "https://collections.yadvashem.org/en/untold-stories/community/14622034-Bobr"
+  },
+  {
+   "name": "Bogushevsk",
+   "query": "Багушэўск",
+   "german": [
+    [
+     "1941-07-10",
+     "1944-06-25"
+    ]
+   ],
+   "source": "https://collections.yadvashem.org/en/untold-stories/community/14622049"
+  },
+  {
+   "name": "Yanovichi",
+   "query": "Яновичи, Витебский район",
+   "german": [
+    [
+     "1941-07-12",
+     "1943-10-10"
+    ]
+   ],
+   "source": "https://collections.yadvashem.org/en/untold-stories/community/14622390-Yanovichi"
+  },
+  {
+   "name": "Chausy",
+   "query": "Чавусы",
+   "german": [
+    [
+     "1941-07-15",
+     "1944-06-26"
+    ]
+   ],
+   "source": "https://collections.yadvashem.org/en/untold-stories/community/14621505-Chausy"
+  },
+  {
+   "name": "Shamovo",
+   "query": "Шамово, Мстиславский район",
+   "german": [
+    [
+     "1941-07-15",
+     "1944-06-27"
+    ]
+   ],
+   "source": "https://collections.yadvashem.org/en/untold-stories/community/14621509-Shamovo",
+   "note": "Source: occupied in July 1941 (day not given).",
+   "approx": true
+  },
+  {
+   "name": "Dashkovka",
+   "query": "Дашковка, Могилёвский район",
+   "german": [
+    [
+     "1941-07-15",
+     "1944-06-28"
+    ]
+   ],
+   "source": "https://collections.yadvashem.org/en/untold-stories/community/14621497-Dashkovka",
+   "note": "Source: occupied in July 1941 (day not given).",
+   "approx": true
+  },
+  {
+   "name": "Ryasna",
+   "query": "Рясно, Дрибинский район",
+   "german": [
+    [
+     "1941-07-15",
+     "1943-09-30"
+    ]
+   ],
+   "source": "https://collections.yadvashem.org/en/untold-stories/community/14621498",
+   "note": "Source: occupied in July 1941 (day not given).",
+   "approx": true
+  },
+  {
+   "name": "Khotimsk",
+   "query": "Хоцімск",
+   "german": [
+    [
+     "1941-08-15",
+     "1943-09-26"
+    ]
+   ],
+   "source": "https://collections.yadvashem.org/en/untold-stories/community/14621517-Khotimsk"
+  },
+  {
+   "name": "Krasnopolye",
+   "query": "Krasnapollie, Belarus",
+   "german": [
+    [
+     "1941-08-15",
+     "1943-10-01"
+    ]
+   ],
+   "source": "https://collections.yadvashem.org/en/untold-stories/community/14621556-Krasnopolye"
+  },
+  {
+   "name": "Rechitsa",
+   "query": "Rechytsa, Belarus",
+   "german": [
+    [
+     "1941-08-23",
+     "1943-11-18"
+    ]
+   ],
+   "source": "https://collections.yadvashem.org/en/untold-stories/community/14622092-Rechitsa"
+  },
+  {
+   "name": "Mozyr",
+   "query": "Mazyr, Belarus",
+   "german": [
+    [
+     "1941-08-22",
+     "1944-01-14"
+    ]
+   ],
+   "source": "https://collections.yadvashem.org/en/untold-stories/community/14621716-Mozyr"
+  },
+  {
+   "name": "Vitebsk",
+   "query": "Vitebsk, Belarus",
+   "german": [
+    [
+     null,
+     "1944-06-26"
+    ]
+   ],
+   "source": "https://belarusenc.by/temy/belarusinsecwar/891/",
+   "note": "Liberation date from the Belarusian Encyclopedia; occupation date taken from the nearest town with one."
+  },
+  {
+   "name": "Orsha",
+   "query": "Orsha, Belarus",
+   "german": [
+    [
+     null,
+     "1944-06-27"
+    ]
+   ],
+   "source": "https://belarusenc.by/temy/belarusinsecwar/891/",
+   "note": "Liberation date from the Belarusian Encyclopedia; occupation date taken from the nearest town with one."
+  },
+  {
+   "name": "Lepel",
+   "query": "Lepel, Belarus",
+   "german": [
+    [
+     null,
+     "1944-06-28"
+    ]
+   ],
+   "source": "https://belarusenc.by/temy/belarusinsecwar/891/",
+   "note": "Liberation date from the Belarusian Encyclopedia; occupation date taken from the nearest town with one."
+  },
+  {
+   "name": "Gomel",
+   "query": "Gomel, Belarus",
+   "german": [
+    [
+     null,
+     "1943-11-26"
+    ]
+   ],
+   "source": "https://belarusenc.by/temy/belarusinsecwar/4461/",
+   "note": "Liberation date from the Belarusian Encyclopedia; occupation date taken from the nearest town with one."
+  },
+  {
+   "name": "Pskov",
+   "query": "Pskov, Russia",
+   "german": [
+    [
+     "1941-07-09",
+     "1944-07-23"
+    ]
+   ],
+   "source": "https://collections.yadvashem.org/en/untold-stories/community/14621907-Pskov"
+  },
+  {
+   "name": "Ostrov",
+   "query": "Ostrov, Pskov Oblast",
+   "german": [
+    [
+     "1941-07-06",
+     "1944-07-15"
+    ]
+   ],
+   "source": "https://collections.yadvashem.org/en/untold-stories/community/14622003",
+   "note": "Source: liberated in July 1944 (day not given).",
+   "approx": true
+  },
+  {
+   "name": "Porkhov",
+   "query": "Porkhov, Russia",
+   "german": [
+    [
+     "1941-07-11",
+     "1944-02-26"
+    ]
+   ],
+   "source": "https://collections.yadvashem.org/en/untold-stories/community/14621967-Porkhov"
+  },
+  {
+   "name": "Pustoshka",
+   "query": "Pustoshka, Russia",
+   "german": [
+    [
+     "1941-07-16",
+     "1944-02-27"
+    ]
+   ],
+   "source": "https://collections.yadvashem.org/en/untold-stories/community/14622068"
+  },
+  {
+   "name": "Sebezh",
+   "query": "Sebezh, Russia",
+   "german": [
+    [
+     "1941-07-09",
+     "1944-07-17"
+    ]
+   ],
+   "source": "https://collections.yadvashem.org/en/untold-stories/community/14622082-Sebezh"
+  },
+  {
+   "name": "Nevel",
+   "query": "Nevel, Russia",
+   "german": [
+    [
+     "1941-07-15",
+     "1943-10-06"
+    ]
+   ],
+   "source": "https://collections.yadvashem.org/en/untold-stories/community/14621717-Nevel"
+  },
+  {
+   "name": "Velizh",
+   "query": "Velizh, Russia",
+   "german": [
+    [
+     "1941-07-13",
+     "1943-09-20"
+    ]
+   ],
+   "source": "https://collections.yadvashem.org/en/untold-stories/community/14621932-Velizh",
+   "note": "Source: occupied on 13 or 15 July 1941."
+  },
+  {
+   "name": "Rudnya",
+   "query": "Rudnya, Smolensk Oblast",
+   "german": [
+    [
+     "1941-07-14",
+     "1943-09-29"
+    ]
+   ],
+   "source": "https://collections.yadvashem.org/en/untold-stories/community/14621877-Rudnya"
+  },
+  {
+   "name": "Dukhovshchina",
+   "query": "Dukhovshchina, Russia",
+   "german": [
+    [
+     "1941-07-15",
+     "1943-09-19"
+    ]
+   ],
+   "source": "https://collections.yadvashem.org/en/untold-stories/community/14621886-Dukhovshchina"
+  },
+  {
+   "name": "Krasny",
+   "query": "Krasny, Smolensk Oblast",
+   "german": [
+    [
+     "1941-07-13",
+     "1943-09-26"
+    ]
+   ],
+   "source": "https://collections.yadvashem.org/en/untold-stories/community/14621901-Krasny"
+  },
+  {
+   "name": "Monastyrshchina",
+   "query": "Monastyrshchina, Russia",
+   "german": [
+    [
+     "1941-07-15",
+     "1943-04-25"
+    ]
+   ],
+   "source": "https://collections.yadvashem.org/en/untold-stories/community/14621888-Monastyrshchina"
+  },
+  {
+   "name": "Petrovichi",
+   "query": "Петровичи, Шумячский район",
+   "german": [
+    [
+     "1941-08-02",
+     "1943-09-15"
+    ]
+   ],
+   "source": "https://collections.yadvashem.org/en/untold-stories/community/14621962",
+   "note": "Source: liberated in September 1943 (day not given).",
+   "approx": true
+  },
+  {
+   "name": "Vyazma",
+   "query": "Vyazma, Russia",
+   "german": [
+    [
+     "1941-10-10",
+     "1943-03-12"
+    ]
+   ],
+   "source": "https://collections.yadvashem.org/en/untold-stories/community/14622085-Vyazma"
+  },
+  {
+   "name": "Sychevka",
+   "query": "Sychyovka, Smolensk Oblast",
+   "german": [
+    [
+     "1941-10-10",
+     "1943-03-08"
+    ]
+   ],
+   "source": "https://collections.yadvashem.org/en/untold-stories/community/14621892-Sychevka"
+  },
+  {
+   "name": "Sukhinichi",
+   "query": "Sukhinichi, Russia",
+   "german": [
+    [
+     "1941-10-07",
+     "1942-01-29"
+    ]
+   ],
+   "source": "https://collections.yadvashem.org/en/untold-stories/community/14621894-Sukhinichi"
+  },
+  {
+   "name": "Novozybkov",
+   "query": "Novozybkov, Russia",
+   "german": [
+    [
+     "1941-08-16",
+     "1943-09-25"
+    ]
+   ],
+   "source": "https://collections.yadvashem.org/en/untold-stories/community/14621993-Novozybkov"
+  },
+  {
+   "name": "Surazh",
+   "query": "Surazh, Bryansk Oblast",
+   "german": [
+    [
+     "1941-08-17",
+     "1943-09-25"
+    ]
+   ],
+   "source": "https://collections.yadvashem.org/en/untold-stories/community/14621986-Surazh"
+  },
+  {
+   "name": "Starodub",
+   "query": "Starodub, Russia",
+   "german": [
+    [
+     "1941-08-18",
+     "1943-09-22"
+    ]
+   ],
+   "source": "https://collections.yadvashem.org/en/untold-stories/community/14621987-Starodub"
+  },
+  {
+   "name": "Klintsy",
+   "query": "Klintsy, Russia",
+   "german": [
+    [
+     "1941-08-20",
+     "1943-09-25"
+    ]
+   ],
+   "source": "https://collections.yadvashem.org/en/untold-stories/community/14621975-Klintsy"
+  },
+  {
+   "name": "Zlynka",
+   "query": "Zlynka, Russia",
+   "german": [
+    [
+     "1941-08-25",
+     "1943-09-26"
+    ]
+   ],
+   "source": "https://collections.yadvashem.org/en/untold-stories/community/14621995-Zlynka"
+  },
+  {
+   "name": "Rylsk",
+   "query": "Rylsk, Russia",
+   "german": [
+    [
+     "1941-10-05",
+     "1943-08-31"
+    ]
+   ],
+   "source": "https://collections.yadvashem.org/en/untold-stories/community/14622190-Rylsk"
+  },
+  {
+   "name": "Voronezh (right bank)",
+   "query": "Voronezh, Russia",
+   "german": [
+    [
+     "1942-07-07",
+     "1943-01-25"
+    ]
+   ],
+   "source": "https://collections.yadvashem.org/en/untold-stories/community/14622005-Voronezh",
+   "note": "Only the part of the city on the right bank of the Voronezh River was occupied.",
+   "radiusKm": 25
+  },
+  {
+   "name": "Rostov-on-Don",
+   "query": "Rostov-on-Don, Russia",
+   "german": [
+    [
+     "1942-07-24",
+     "1943-02-14"
+    ]
+   ],
+   "source": "https://collections.yadvashem.org/en/untold-stories/community/14621651-Rostov-na-Donu",
+   "note": "The first, brief German occupation from 21 November 1941 is not shown: the source does not date its end."
+  },
+  {
+   "name": "Krasnodar",
+   "query": "Krasnodar, Russia",
+   "german": [
+    [
+     "1942-08-12",
+     "1943-02-12"
+    ]
+   ],
+   "source": "https://collections.yadvashem.org/en/untold-stories/community/14622231-Krasnodar"
+  },
+  {
+   "name": "Uspenskoye",
+   "query": "Uspenskoye, Krasnodar Krai",
+   "german": [
+    [
+     "1942-08-09",
+     "1943-01-28"
+    ]
+   ],
+   "source": "https://collections.yadvashem.org/en/untold-stories/community/14622265-Uspenskoye"
+  },
+  {
+   "name": "Kursk",
+   "query": "Kursk, Russia",
+   "german": [
+    [
+     "1941-11-04",
+     "1943-02-08"
+    ]
+   ],
+   "source": "https://old.bigenc.ru/geography/text/6000734",
+   "note": "Great Russian Encyclopedia, as quoted in search results (the site refuses automated access).",
+   "confidence": "search-quote"
+  },
+  {
+   "name": "Oryol",
+   "query": "Oryol, Russia",
+   "german": [
+    [
+     "1941-10-03",
+     "1943-08-05"
+    ]
+   ],
+   "source": "https://bigenc.ru/geography/text/6035801",
+   "note": "Great Russian Encyclopedia, as quoted in search results (the site refuses automated access).",
+   "confidence": "search-quote"
+  },
+  {
+   "name": "Kozelsk",
+   "query": "Kozelsk, Russia",
+   "german": [
+    [
+     "1941-10-08",
+     "1941-12-28"
+    ]
+   ],
+   "source": "https://bigenc.ru/wiki/%D0%9A%D0%BE%D0%B7%D0%B5%D0%BB%D1%8C%D1%81%D0%BA",
+   "note": "Great Russian Encyclopedia, as quoted in search results (the site refuses automated access).",
+   "confidence": "search-quote"
+  },
+  {
+   "name": "Velikiye Luki",
+   "query": "Velikiye Luki, Russia",
+   "german": [
+    [
+     null,
+     "1943-01-17"
+    ]
+   ],
+   "source": "https://old.bigenc.ru/geography/text/1904833",
+   "note": "Great Russian Encyclopedia, as quoted in search results; occupation date taken from the nearest town with one.",
+   "confidence": "search-quote"
+  },
+  {
+   "name": "Kalinin",
+   "query": "Tver, Russia",
+   "german": [
+    [
+     null,
+     "1941-12-16"
+    ]
+   ],
+   "source": "https://old.bigenc.ru/military_science/text/2035943",
+   "note": "Great Russian Encyclopedia, as quoted in search results; occupation date taken from the nearest town with one.",
+   "confidence": "search-quote"
+  },
+  {
+   "name": "Moscow",
+   "query": "Moscow, Russia",
+   "german": [],
+   "source": "https://encyclopedia.ushmm.org/content/en/article/the-soviet-union-and-the-eastern-front",
+   "note": "Never occupied: German units reached the outskirts in early December 1941 and were driven back."
+  },
+  {
+   "name": "Leningrad",
+   "query": "Saint Petersburg, Russia",
+   "german": [],
+   "source": "https://encyclopedia.ushmm.org/content/en/article/the-soviet-union-and-the-eastern-front",
+   "note": "Never occupied: besieged from September 1941."
+  },
+  {
+   "name": "Kiev",
+   "query": "Kyiv, Ukraine",
+   "german": [
+    [
+     "1941-09-19",
+     "1943-11-06"
+    ]
+   ],
+   "source": "https://collections.yadvashem.org/en/untold-stories/community/14622099-Kiev"
+  },
+  {
+   "name": "Vinnitsa",
+   "query": "Вінниця, Вінницька міська громада",
+   "german": [
+    [
+     "1941-07-19",
+     "1944-03-20"
+    ]
+   ],
+   "source": "https://collections.yadvashem.org/en/untold-stories/community/14621890-Vinnitsa"
+  },
+  {
+   "name": "Ternovka",
+   "query": "Тернівка, Гайсинський район",
+   "german": [
+    [
+     "1941-07-29",
+     "1944-03-12"
+    ]
+   ],
+   "source": "https://collections.yadvashem.org/en/untold-stories/community/14621770"
+  },
+  {
+   "name": "Gaysin",
+   "query": "Haisyn, Ukraine",
+   "german": [
+    [
+     "1941-07-25",
+     "1944-03-14"
+    ]
+   ],
+   "source": "https://collections.yadvashem.org/en/untold-stories/community/14621653-Gaysin"
+  },
+  {
+   "name": "Radomyshl",
+   "query": "Radomyshl, Ukraine",
+   "german": [
+    [
+     "1941-07-20",
+     "1943-12-30"
+    ]
+   ],
+   "source": "https://collections.yadvashem.org/en/untold-stories/community/14622188-Radomyshl"
+  },
+  {
+   "name": "Yarun",
+   "query": "Ярунь, Звягельський район",
+   "german": [
+    [
+     "1941-07-04",
+     "1944-01-07"
+    ]
+   ],
+   "source": "https://collections.yadvashem.org/en/untold-stories/community/14622326-Yarun"
+  },
+  {
+   "name": "Krasnoarmeysk (Pulyny)",
+   "query": "Пулини, Житомирський район",
+   "german": [
+    [
+     "1941-07-10",
+     "1943-12-30"
+    ]
+   ],
+   "source": "https://collections.yadvashem.org/en/untold-stories/community/14622286-Krasnoarmeysk"
+  },
+  {
+   "name": "Belaya Tserkov",
+   "query": "Bila Tserkva, Ukraine",
+   "german": [
+    [
+     "1941-07-16",
+     "1944-01-04"
+    ]
+   ],
+   "source": "https://collections.yadvashem.org/en/untold-stories/community/14622090-Belaya-Tserkov"
+  },
+  {
+   "name": "Uman",
+   "query": "Uman, Ukraine",
+   "german": [
+    [
+     "1941-08-01",
+     "1944-03-10"
+    ]
+   ],
+   "source": "https://collections.yadvashem.org/en/untold-stories/community/14622272"
+  },
+  {
+   "name": "Novgorod-Severskiy",
+   "query": "Novhorod-Siverskyi, Ukraine",
+   "german": [
+    [
+     "1941-08-26",
+     "1943-09-16"
+    ]
+   ],
+   "source": "https://collections.yadvashem.org/en/untold-stories/community/14621733-Novgorod-Severskiy"
+  },
+  {
+   "name": "Kholmy",
+   "query": "Холми, Корюківський район",
+   "german": [
+    [
+     "1941-08-23",
+     "1943-09-15"
+    ]
+   ],
+   "source": "https://collections.yadvashem.org/en/untold-stories/community/14621727-Kholmy",
+   "note": "Source: liberated on 15 (or 19) September 1943."
+  },
+  {
+   "name": "Zolotonosha",
+   "query": "Zolotonosha, Ukraine",
+   "german": [
+    [
+     "1941-09-19",
+     "1943-09-22"
+    ]
+   ],
+   "source": "https://collections.yadvashem.org/en/untold-stories/community/14621687-Zolotonosha"
+  },
+  {
+   "name": "Khorol",
+   "query": "Khorol, Ukraine",
+   "german": [
+    [
+     "1941-09-13",
+     "1943-09-19"
+    ]
+   ],
+   "source": "https://collections.yadvashem.org/en/untold-stories/community/14621689-Khorol"
+  },
+  {
+   "name": "Kobelyaki",
+   "query": "Kobeliaky, Ukraine",
+   "german": [
+    [
+     "1941-09-15",
+     "1943-09-25"
+    ]
+   ],
+   "source": "https://collections.yadvashem.org/en/untold-stories/community/14621714-Kobelyaki"
+  },
+  {
+   "name": "Kryukov (Kremenchug)",
+   "query": "Kremenchuk, Ukraine",
+   "german": [
+    [
+     "1941-08-09",
+     "1943-10-25"
+    ]
+   ],
+   "source": "https://collections.yadvashem.org/en/untold-stories/community/14621692-Kryukov"
+  },
+  {
+   "name": "Poltava",
+   "query": "Полтава, Полтавська міська громада",
+   "german": [
+    [
+     "1941-09-18",
+     "1943-09-23"
+    ]
+   ],
+   "source": "https://resource.history.org.ua/cgi-bin/eiu/history.exe?I21DBN=EIU&P21DBN=EIU&S21STN=1&S21REF=10&S21FMT=eiu_all&C21COM=S&S21CNR=20&S21P01=0&S21P02=0&S21P03=TRN%3D&S21COLORTERMS=0&S21STR=Poltava_mst"
+  },
+  {
+   "name": "Krasnograd",
+   "query": "Krasnohrad, Ukraine",
+   "german": [
+    [
+     "1941-09-20",
+     "1943-09-18"
+    ]
+   ],
+   "source": "https://collections.yadvashem.org/en/untold-stories/community/14622513-Krasnograd"
+  },
+  {
+   "name": "Kharkov",
+   "query": "Kharkiv, Ukraine",
+   "german": [
+    [
+     "1941-10-23",
+     "1943-08-23"
+    ]
+   ],
+   "source": "https://collections.yadvashem.org/en/untold-stories/community/14622529-Kharkov",
+   "note": "The city changed hands several times in February–March 1943; the source does not date these, so they are not shown."
+  },
+  {
+   "name": "Verkhnedneprovsk",
+   "query": "Verkhnodniprovsk, Ukraine",
+   "german": [
+    [
+     "1941-08-17",
+     "1943-10-22"
+    ]
+   ],
+   "source": "https://collections.yadvashem.org/en/untold-stories/community/14621639-Verkhnedneprovsk"
+  },
+  {
+   "name": "Dnepropetrovsk",
+   "query": "Дніпро, Дніпровська міська громада",
+   "german": [
+    [
+     "1941-08-25",
+     "1943-10-25"
+    ]
+   ],
+   "source": "https://esu.com.ua/article-22236"
+  },
+  {
+   "name": "Zaporozhye",
+   "query": "Zaporizhzhia, Ukraine",
+   "german": [
+    [
+     "1941-10-03",
+     "1943-10-14"
+    ]
+   ],
+   "source": "https://collections.yadvashem.org/en/untold-stories/community/14621812-Zaporozhye"
+  },
+  {
+   "name": "Stalino",
+   "query": "Донецьк, Донецька міська громада",
+   "german": [
+    [
+     "1941-10-20",
+     "1943-09-08"
+    ]
+   ],
+   "source": "https://collections.yadvashem.org/en/untold-stories/community/14622553-Stalino"
+  },
+  {
+   "name": "Nikolaev",
+   "query": "Mykolaiv, Ukraine",
+   "german": [
+    [
+     "1941-08-17",
+     "1944-03-28"
+    ]
+   ],
+   "source": "https://esu.com.ua/article-65247"
+  },
+  {
+   "name": "Kalinindorf",
+   "query": "Kalininske, Beryslav Raion",
+   "german": [
+    [
+     "1941-08-27",
+     "1944-03-14"
+    ]
+   ],
+   "source": "https://collections.yadvashem.org/en/untold-stories/community/14621778-Kalinindorf"
+  },
+  {
+   "name": "Snigirevka",
+   "query": "Snihurivka, Ukraine",
+   "german": [
+    [
+     "1941-08-18",
+     "1944-03-14"
+    ]
+   ],
+   "source": "https://collections.yadvashem.org/en/untold-stories/community/14621834-Snigirevka"
+  },
+  {
+   "name": "Kherson",
+   "query": "Херсон, Херсонська міська громада",
+   "german": [
+    [
+     "1941-08-19",
+     "1944-03-13"
+    ]
+   ],
+   "source": "https://collections.yadvashem.org/en/untold-stories/community/14621541-Kherson"
+  },
+  {
+   "name": "Tsyurupinsk",
+   "query": "Oleshky, Ukraine",
+   "german": [
+    [
+     "1941-09-10",
+     "1943-11-04"
+    ]
+   ],
+   "source": "https://collections.yadvashem.org/en/untold-stories/community/14621836-Tsyurupinsk"
+  },
+  {
+   "name": "Kerch",
+   "query": "Kerch",
+   "german": [
+    [
+     "1941-11-16",
+     "1941-12-30"
+    ],
+    [
+     "1942-05-13",
+     "1944-04-11"
+    ]
+   ],
+   "source": "https://collections.yadvashem.org/en/untold-stories/community/14621882-Kerch"
+  },
+  {
+   "name": "Odessa",
+   "query": "Odesa, Ukraine",
+   "german": [
+    [
+     "1941-10-16",
+     "1944-04-10"
+    ]
+   ],
+   "source": "https://encyclopedia.ushmm.org/content/en/article/odessa",
+   "note": "Romanian occupation, then German from March 1944."
+  },
+  {
+   "name": "Tighina",
+   "query": "Bender, Moldova",
+   "german": [
+    [
+     "1941-07-23",
+     "1944-08-23"
+    ]
+   ],
+   "source": "https://collections.yadvashem.org/en/untold-stories/community/14622398",
+   "note": "Romanian and German troops."
+  },
+  {
+   "name": "Dubăsari",
+   "query": "Dubăsari, Moldova",
+   "german": [
+    [
+     "1941-07-24",
+     "1944-04-12"
+    ]
+   ],
+   "source": "https://collections.yadvashem.org/en/untold-stories/community/14622412",
+   "note": "Romanian and German armies."
+  },
+  {
+   "name": "Rēzekne",
+   "query": "Rēzekne, Latvia",
+   "german": [
+    [
+     "1941-07-03",
+     "1944-07-27"
+    ]
+   ],
+   "source": "https://collections.yadvashem.org/en/untold-stories/community/14621501-R%C4%93zekne"
+  },
+  {
+   "name": "Ludza",
+   "query": "Ludza, Latvia",
+   "german": [
+    [
+     "1941-07-03",
+     "1944-07-23"
+    ]
+   ],
+   "source": "https://collections.yadvashem.org/en/untold-stories/community/14621705-Ludza"
+  },
+  {
+   "name": "Riga",
+   "query": "Riga, Latvia",
+   "german": [
+    [
+     "1941-07-01",
+     "1944-10-13"
+    ]
+   ],
+   "source": "https://encyclopedia.ushmm.org/content/en/article/riga",
+   "note": "Source: occupied in early July 1941; liberated on 13 October 1944.",
+   "approx": true
+  },
+  {
+   "name": "Kaunas",
+   "query": "Kaunas, Lithuania",
+   "german": [
+    [
+     "1941-06-24",
+     "1944-08-01"
+    ]
+   ],
+   "source": "https://encyclopedia.ushmm.org/content/en/article/kovno",
+   "note": "Source: occupied in late June 1941, liberated in August 1944.",
+   "approx": true
+  },
+  {
+   "name": "Liepāja (Courland)",
+   "query": "Liepāja, Latvia",
+   "german": [
+    [
+     "1941-07-01",
+     null
+    ]
+   ],
+   "source": "https://dzieje.pl/wiadomosci/80-lat-temu-zakonczyla-sie-ii-wojna-swiatowa",
+   "note": "Occupied in June–July 1941 (USHMM, Latvia); German forces in Courland laid down their arms only with the general capitulation of 8 May 1945 (dzieje.pl).",
+   "approx": true
+  },
+  {
+   "name": "Ventspils (Courland)",
+   "query": "Ventspils, Latvia",
+   "german": [
+    [
+     "1941-07-01",
+     null
+    ]
+   ],
+   "source": "https://dzieje.pl/wiadomosci/80-lat-temu-zakonczyla-sie-ii-wojna-swiatowa",
+   "note": "As Liepāja.",
+   "approx": true
+  }
+ ]
+}

@@ -17,7 +17,10 @@ type Borders = {
   zones: Zone[];
   shapes: Record<string, Geometry>;
   frontCells: { validFrom: string; cells: Cell[] };
+  occupationCells: { validFrom: string; cells: OccCell[] };
 };
+/** A part of Soviet territory with the periods it was held by Germany or Romania: [first day, first day back]. */
+type OccCell = { name: string; german: [string, string | null][]; geometry: Geometry };
 
 const keyOf = (id: string): BorderKey =>
   id === "poland-1939"
@@ -65,10 +68,36 @@ export default function BordersLayer({ visible, date }: Props) {
       if (!c.unknown) sides[c.soviet && date >= c.soviet ? "soviet" : "german"].push(...polygonPositions(c.geometry));
     return sides;
   }, [data, date]);
+  // From 22 June 1941 Soviet territory is drawn from these cells instead of the state tint.
+  const occupation = useMemo(() => {
+    if (!data || !date || date < data.occupationCells.validFrom) return null;
+    const sides = {
+      german: [] as ReturnType<typeof polygonPositions>,
+      soviet: [] as ReturnType<typeof polygonPositions>,
+    };
+    for (const c of data.occupationCells.cells) {
+      const held = c.german.some(([from, to]) => date >= from && (!to || date < to));
+      sides[held ? "german" : "soviet"].push(...polygonPositions(c.geometry));
+    }
+    return sides;
+  }, [data, date]);
   if (!data) return null;
   return (
     <>
       <Pane name="zones" style={{ zIndex: 350 }}>
+        {occupation &&
+          (["german", "soviet"] as const).map((power) => {
+            if (!visible.has(power) || !occupation[power].length) return null;
+            const st = BORDER_STYLE[power];
+            return (
+              <Polygon
+                key={`occupation-${power}`}
+                positions={occupation[power]}
+                interactive={false}
+                pathOptions={{ stroke: false, fillColor: st.fillColor ?? st.color, fillOpacity: st.fill }}
+              />
+            );
+          })}
         {front &&
           (["german", "soviet"] as const).map((power) => {
             if (!visible.has(power) || !front[power].length) return null;

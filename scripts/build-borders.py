@@ -10,6 +10,8 @@ Output:
   the Soviet annexation of Lithuania.
 - `neighbours-1939` layer and `scope: "state"` zones: the land borders between Poland's neighbours on 31 August 1939,
   and the territory of the German Reich and the Soviet Union outside 1939 Poland on each date.
+- `occupationCells`: from 22 June 1941, German and Romanian control of Soviet territory, approximated from dated
+  anchor towns (scripts/soviet-occupation-anchors.json).
 - `frontCells`: from 4 January 1944, an approximation of the front built from dated anchor towns
   (scripts/front-anchors.json, geocoded with OpenStreetMap Nominatim and cached in front-anchors.geo.json).
 """
@@ -179,6 +181,7 @@ STATES = {
 }
 _rf = list(polygonize(unary_union([lines(2693259, WIDE).intersection(wide), wide.boundary])))
 romania_1921 = unary_union([f for f in _rf if f.contains(Point(26.10, 44.43)) or f.contains(Point(28.86, 47.01))])   # Bucharest, Chișinău
+state_area = {}
 for power, (refs, periods) in STATES.items():
     for i, (rel, vf) in enumerate(periods):
         vt = before(periods[i + 1][1]) if i + 1 < len(periods) else "1945-05-08"
@@ -192,8 +195,39 @@ for power, (refs, periods) in STATES.items():
             # Romanian (its relation 2693259, valid to 1940-06-28) until the annexation of 28 June 1940.
             area = area.difference(romania_1921)
         area = area.buffer(0)
+        state_area[(power, vf)] = area
         out["zones"].append({"power": power, "scope": "state", "relation": rel, "validFrom": vf, "validTo": vt, "geometry": geo(area, tol=0.01)})
         print("state", power, vf, vt, f"{area.area:.2f}")
+
+# 22 June 1941 – 8 May 1945: German (and Romanian) control of Soviet territory, approximated like the 1944 front in
+# Poland from dated anchor towns (scripts/soviet-occupation-anchors.json). Each place takes the periods of its nearest
+# anchor within that anchor's radius; everything else counts as never occupied. These cells replace the Soviet state
+# tint from 22 June 1941 (the Soviet borders inside the map area barely change after that).
+INVASION = "1941-06-22"
+out["zones"] = [z for z in out["zones"] if not (z.get("scope") == "state" and z["power"] == "soviet" and z["validFrom"] >= INVASION)]
+for z in out["zones"]:
+    if z.get("scope") == "state" and z["power"] == "soviet" and z["validTo"] >= INVASION:
+        z["validTo"] = before(INVASION)
+occ = json.load(open(os.path.join(HERE, "soviet-occupation-anchors.json")))["anchors"]
+soviet_s = state_area[("soviet", "1941-07-17")].simplify(0.01, preserve_topology=True).buffer(0)
+opts = [proj(geocode(a["query"])) for a in occ]
+known = [(p, a["german"][0][0]) for p, a in zip(opts, occ) if a["german"] and a["german"][0][0]]
+for p, a in zip(opts, occ):   # a town with only a liberation date takes the occupation date of the nearest town with one
+    if a["german"] and a["german"][0][0] is None:
+        a["german"][0][0] = min(known, key=lambda k: p.distance(k[0]))[1]
+ovor = voronoi_diagram(MultiPoint(opts), envelope=proj(wide))
+ocells = []
+for p, a in zip(opts, occ):
+    cell = next(c for c in ovor.geoms if c.contains(p)).intersection(p.buffer(a.get("radiusKm", 150) * KM, 32))
+    g = unproj(cell).intersection(soviet_s)
+    if not g.is_empty:
+        ocells.append({"name": a["name"], "german": a["german"], "g": g})
+rest = soviet_s.difference(unary_union([c["g"] for c in ocells]))
+ocells.append({"name": "(no occupation)", "german": [], "g": rest})
+json.dump(geo_cache, open(GEO_CACHE, "w"), ensure_ascii=False, indent=1)
+out["occupationCells"] = {"validFrom": INVASION, "cells": [
+    {"name": c["name"], "german": c["german"], "geometry": geo(c["g"].buffer(0), simplify=False)} for c in ocells if not c["g"].is_empty]}
+print("occupation cells:", len(out["occupationCells"]["cells"]))
 
 # Merge consecutive Soviet-edge layers whose lines are identical (changes outside Poland only).
 merged = []

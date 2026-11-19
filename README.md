@@ -23,8 +23,13 @@ Both need an internet connection for the OpenStreetMap base map; the event data 
 - **Neighbouring states:** the land borders between Poland's neighbours on 31 August 1939, drawn lighter than
   Poland's; on the selected date the **German Reich is tinted brown and the Soviet Union red** within their borders
   that day (OpenHistoricalMap; Bessarabia and Northern Bukovina are counted as Romanian until 28 June 1940, which
-  OpenHistoricalMap's Soviet boundary gets wrong). These are state borders, so Soviet territory occupied by Germany in
-  1941–44 stays red.
+  OpenHistoricalMap's Soviet boundary gets wrong). From 22 June 1941, Soviet land held by Germany or Romania is
+  **brown**, approximated like the 1944 front in Poland from the occupation and liberation dates of about 90 towns
+  (`scripts/soviet-occupation-anchors.json`: Yad Vashem community histories, the Belarusian Encyclopedia, Ukrainian
+  academic encyclopedias, the USHMM, and for a few Russian cities the Great Russian Encyclopedia as quoted in search
+  results). Each place takes the dates of its nearest anchor town within 150 km; Moscow and Leningrad are fixed as never
+  taken, and Courland stays German until the surrender. Areas held by Finland, and short changes of hands such as
+  Kharkov's in February–March 1943, are not shown.
 - **Borders and occupation zones:** Poland on 31 August 1939 and present-day Poland as lines; on the selected date,
   the part of 1939 Poland under **German control is tinted brown** (dotted brown line: the General Government) and
   the part under **Soviet control is tinted red** (dashed red line: the Soviet zone's edge). The zones follow the
