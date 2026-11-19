@@ -40,7 +40,9 @@
         "igo-sym-1941",
         "zegota-1942",
         "ak-founded-1942",
-        "destruction-of-warsaw-1944"
+        "destruction-of-warsaw-1944",
+        "warsaw-entry-1945",
+        "ak-dissolution-1945"
       ]
     },
     {
@@ -287,7 +289,8 @@
       "key": "krakow",
       "query": "Rynek Główny, Kraków",
       "events": [
-        "krakow-occupied-1939"
+        "krakow-occupied-1939",
+        "krakow-1945"
       ]
     },
     {
@@ -387,7 +390,8 @@
       "key": "bilgoraj",
       "query": "Biłgoraj, Poland",
       "events": [
-        "bilgoraj-bombing-1939"
+        "bilgoraj-bombing-1939",
+        "bilgoraj-prison-raid-1945"
       ]
     },
     {
@@ -521,7 +525,8 @@
       "key": "gdynia",
       "query": "Gdynia, Poland",
       "events": [
-        "gdynia-expulsions-1939"
+        "gdynia-expulsions-1939",
+        "gdynia-1945"
       ]
     },
     {
@@ -637,7 +642,8 @@
       "key": "stutthof",
       "query": "Muzeum Stutthof, Sztutowo",
       "events": [
-        "stutthof-camp-1939"
+        "stutthof-camp-1939",
+        "stutthof-death-march-1945"
       ]
     },
     {
@@ -971,7 +977,8 @@
       "key": "pruszkow",
       "query": "Pruszków, Poland",
       "events": [
-        "pruszkow-dulag-1944"
+        "pruszkow-dulag-1944",
+        "arrest-of-the-sixteen-1945"
       ]
     },
     {
@@ -993,6 +1000,230 @@
       "query": "Rynek Nowego Miasta, Warszawa",
       "events": [
         "warsaw-churches-bombing-1944"
+      ]
+    },
+    {
+      "key": "sandomierz",
+      "query": "Sandomierz, Poland",
+      "events": [
+        "vistula-oder-offensive-1945"
+      ]
+    },
+    {
+      "key": "kielce",
+      "query": "Kielce, Poland",
+      "events": [
+        "kielce-1945"
+      ]
+    },
+    {
+      "key": "radogoszcz",
+      "query": "Zgierska 147, Łódź",
+      "events": [
+        "radogoszcz-1945"
+      ]
+    },
+    {
+      "key": "wodzislaw",
+      "query": "Wodzisław Śląski, Poland",
+      "events": [
+        "auschwitz-death-marches-1945"
+      ]
+    },
+    {
+      "key": "zakopane",
+      "query": "Zakopane, Poland",
+      "events": [
+        "krzeptowski-execution-1945"
+      ]
+    },
+    {
+      "key": "olsztyn",
+      "query": "Olsztyn, Poland",
+      "events": [
+        "olsztyn-1945"
+      ]
+    },
+    {
+      "key": "leszczyny",
+      "query": "Leszczyny, Czerwionka-Leszczyny",
+      "events": [
+        "leszczyny-massacre-1945"
+      ]
+    },
+    {
+      "key": "wolfsschanze",
+      "query": "Gierłoż, gmina Kętrzyn",
+      "events": [
+        "wolfsschanze-demolition-1945"
+      ]
+    },
+    {
+      "key": "poznan-cytadela",
+      "query": "Cytadela, Poznań",
+      "events": [
+        "poznan-1945"
+      ]
+    },
+    {
+      "key": "miechowice",
+      "query": "Miechowice, Bytom",
+      "events": [
+        "miechowice-massacre-1945"
+      ]
+    },
+    {
+      "key": "przyszowice",
+      "query": "Przyszowice, Poland",
+      "events": [
+        "przyszowice-massacre-1945"
+      ]
+    },
+    {
+      "key": "katowice",
+      "query": "Katowice, Poland",
+      "events": [
+        "katowice-1945"
+      ]
+    },
+    {
+      "key": "walcz",
+      "query": "Wałcz, Poland",
+      "events": [
+        "pomeranian-wall-1945"
+      ]
+    },
+    {
+      "key": "leba",
+      "query": "Łeba, Poland",
+      "events": [
+        "wilhelm-gustloff-1945"
+      ]
+    },
+    {
+      "key": "podgaje",
+      "query": "Podgaje, gmina Okonek",
+      "events": [
+        "podgaje-1945"
+      ]
+    },
+    {
+      "key": "uscie-zielone",
+      "query": "Устя-Зелене",
+      "events": [
+        "uscie-zielone-1945"
+      ]
+    },
+    {
+      "key": "radzionkow",
+      "query": "Radzionków, Poland",
+      "events": [
+        "upper-silesia-deportations-1945"
+      ]
+    },
+    {
+      "key": "borujsko",
+      "query": "Borujsko, Poland",
+      "events": [
+        "borujsko-charge-1945"
+      ]
+    },
+    {
+      "key": "pawlokoma",
+      "query": "Pawłokoma, Poland",
+      "events": [
+        "pawlokoma-1945"
+      ]
+    },
+    {
+      "key": "milanowek",
+      "query": "Milanówek, Poland",
+      "events": [
+        "fieldorf-arrest-1945"
+      ]
+    },
+    {
+      "key": "sandomierz-zamek",
+      "query": "Zamek Królewski, Sandomierz",
+      "events": [
+        "sandomierz-prison-escape-1945"
+      ]
+    },
+    {
+      "key": "swinoujscie",
+      "query": "Świnoujście, Poland",
+      "events": [
+        "swinoujscie-bombing-1945"
+      ]
+    },
+    {
+      "key": "lambinowice",
+      "query": "Łambinowice, Poland",
+      "events": [
+        "lamsdorf-liberation-1945"
+      ]
+    },
+    {
+      "key": "gdansk",
+      "query": "Główne Miasto, Gdańsk",
+      "events": [
+        "gdansk-1945"
+      ]
+    },
+    {
+      "key": "gorajec",
+      "query": "Gorajec, gmina Cieszanów",
+      "events": [
+        "gorajec-pacification-1945"
+      ]
+    },
+    {
+      "key": "siekierki",
+      "query": "Siekierki, gmina Cedynia",
+      "events": [
+        "oder-crossing-siekierki-1945"
+      ]
+    },
+    {
+      "key": "piskorowice",
+      "query": "Piskorowice, Poland",
+      "events": [
+        "piskorowice-1945"
+      ]
+    },
+    {
+      "key": "borownica",
+      "query": "Borownica, gmina Bircza",
+      "events": [
+        "borownica-1945"
+      ]
+    },
+    {
+      "key": "pulawy",
+      "query": "Puławy, Poland",
+      "events": [
+        "pulawy-ub-raid-1945"
+      ]
+    },
+    {
+      "key": "szczecin",
+      "query": "Wały Chrobrego, Szczecin",
+      "events": [
+        "szczecin-1945"
+      ]
+    },
+    {
+      "key": "krasnosielc",
+      "query": "Krasnosielc, Poland",
+      "events": [
+        "krasnosielc-raid-1945"
+      ]
+    },
+    {
+      "key": "kurylowka",
+      "query": "Kuryłówka, Poland",
+      "events": [
+        "kurylowka-1945"
       ]
     }
   ]

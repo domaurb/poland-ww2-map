@@ -1,5 +1,680 @@
 [
   {
+    "id": "vistula-oder-offensive-1945",
+    "title": {
+      "en": "Vistula–Oder offensive begins",
+      "pl": "Początek ofensywy wiślańsko-odrzańskiej"
+    },
+    "startDate": "1945-01-12",
+    "endDate": "1945-02-03",
+    "datePrecision": "day",
+    "location": {
+      "lat": 50.67931,
+      "lng": 21.74951,
+      "name": {
+        "en": "Vistula front (marker at Sandomierz)",
+        "pl": "Front nad Wisłą (znacznik: Sandomierz)"
+      },
+      "precision": "region"
+    },
+    "type": "battle",
+    "belligerents": [
+      "Soviet Union",
+      "Poland (1st Polish Army)",
+      "Germany"
+    ],
+    "summary": {
+      "en": "On 12 January 1945 Soviet forces of over two million soldiers broke through the front that had stood on the Vistula and Narew since autumn 1944. Zhukov's 1st Belorussian Front advanced on the Warsaw–Poznań axis and Konev's 1st Ukrainian Front towards Kielce, Częstochowa and Wrocław and towards Kraków and Upper Silesia. With roughly 2.2 million Soviet and Polish soldiers against about 500,000 Germans, armoured corps bypassed fortified towns; in 23 days the front moved some 500 km west, driving the Wehrmacht out of most of the Polish lands.",
+      "pl": "12 stycznia 1945 r. wojska sowieckie liczące ponad 2 mln żołnierzy przełamały front ustabilizowany od jesieni 1944 r. na Wiśle i Narwi. 1. Front Białoruski Żukowa nacierał na kierunku Warszawa–Poznań, a 1. Front Ukraiński Koniewa – na Kielce, Częstochowę i Wrocław oraz na Kraków i Górny Śląsk. Dysponując przewagą ok. 2,2 mln żołnierzy sowieckich i polskich nad ok. 500 tys. Niemców, korpusy pancerne omijały umocnione miasta; w ciągu 23 dni front przesunął się o ok. 500 km na zachód, wypierając Wehrmacht z większości ziem polskich."
+    },
+    "sources": [
+      {
+        "title": "70 lat temu rozpoczęła się ofensywa styczniowa Armii Czerwonej",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/aktualnosci/70-lat-temu-rozpoczela-sie-ofensywa-styczniowa-armii-czerwonej",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      },
+      {
+        "title": "Kalendarz historyczny: 12 stycznia",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/kalendarz-historyczny/12/1",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "The marker at Sandomierz is representative: the offensive was launched from several bridgeheads on the Vistula and Narew. The end date follows the 23 days given by the source.",
+      "pl": "Znacznik w Sandomierzu jest reprezentatywny – ofensywa ruszyła z kilku przyczółków na Wiśle i Narwi. Data końcowa wynika z podanych w źródle 23 dni działań."
+    }
+  },
+  {
+    "id": "kielce-1945",
+    "title": {
+      "en": "Red Army takes Kielce",
+      "pl": "Armia Czerwona zajmuje Kielce"
+    },
+    "startDate": "1945-01-15",
+    "endDate": "1945-01-15",
+    "datePrecision": "day",
+    "location": {
+      "lat": 50.87199,
+      "lng": 20.63105,
+      "name": {
+        "en": "Kielce",
+        "pl": "Kielce"
+      },
+      "precision": "town"
+    },
+    "type": "liberation",
+    "belligerents": [
+      "Soviet Union",
+      "Germany"
+    ],
+    "summary": {
+      "en": "On 15 January 1945, after a tank battle with German forces around Daleszyce and on the Czarna Nida river, the Red Army entered Kielce – one of the first larger towns taken in the January offensive.",
+      "pl": "15 stycznia 1945 r., po bitwie pancernej z Niemcami w rejonie Daleszyc i nad Czarną Nidą, Armia Czerwona zajęła Kielce – jedno z pierwszych większych miast zdobytych w ofensywie styczniowej."
+    },
+    "sources": [
+      {
+        "title": "Kalendarz historyczny: 15 stycznia",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/kalendarz-historyczny/15/1",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      },
+      {
+        "title": "70 lat temu rozpoczęła się ofensywa styczniowa Armii Czerwonej",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/aktualnosci/70-lat-temu-rozpoczela-sie-ofensywa-styczniowa-armii-czerwonej",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true
+  },
+  {
+    "id": "auschwitz-death-marches-1945",
+    "title": {
+      "en": "Death marches from Auschwitz",
+      "pl": "Marsze śmierci z Auschwitz"
+    },
+    "startDate": "1945-01-17",
+    "endDate": "1945-01-23",
+    "datePrecision": "day",
+    "location": {
+      "lat": 50.00231,
+      "lng": 18.44811,
+      "name": {
+        "en": "From Oświęcim to Wodzisław Śląski and Gliwice (marker at Wodzisław Śląski)",
+        "pl": "Z Oświęcimia do Wodzisławia Śląskiego i Gliwic (znacznik: Wodzisław Śląski)"
+      },
+      "precision": "region"
+    },
+    "type": "deportation",
+    "belligerents": [
+      "Germany"
+    ],
+    "summary": {
+      "en": "Between 17 and 21 January 1945 the SS marched about 56,000 prisoners out of Auschwitz and its subcamps under armed escort. About 25,000 were driven via Pszczyna to Wodzisław Śląski and about 16,000 – mainly from Monowitz and the subcamps – via Mikołów to Gliwice. Those who fell behind were shot; graves along the routes mark where columns stopped. From Wodzisław, trains left on 21–23 January for Gross-Rosen, Buchenwald, Bergen-Belsen, Mauthausen, Ravensbrück and Sachsenhausen.",
+      "pl": "W dniach 17–21 stycznia 1945 r. esesmani wyprowadzili z Auschwitz i podobozów ok. 56 tys. więźniów pod uzbrojoną eskortą. Ok. 25 tys. pędzono przez Pszczynę do Wodzisławia Śląskiego, a ok. 16 tys. – głównie z Monowitz i podobozów – przez Mikołów do Gliwic. Opóźniających marsz zabijano; mogiły wzdłuż tras wyznaczają miejsca postojów. Z Wodzisławia 21–23 stycznia odjeżdżały pociągi do Gross-Rosen, Buchenwaldu, Bergen-Belsen, Mauthausen, Ravensbrück i Sachsenhausen."
+    },
+    "casualties": {
+      "en": "At least 9,000 prisoners died during the evacuation, most probably about 15,000 (dzieje.pl calendar).",
+      "pl": "Podczas ewakuacji zginęło co najmniej 9 tys. więźniów, najprawdopodobniej ok. 15 tys. (kalendarium dzieje.pl)."
+    },
+    "sources": [
+      {
+        "title": "Marsze śmierci z Auschwitz do Wodzisławia Śląskiego i Gliwic (podcast)",
+        "publisher": "Auschwitz-Birkenau State Museum",
+        "url": "https://www.auschwitz.org/edukacja/e-learning/podcasty/marsze-smierci-z-auschwitz-do-wodzislawia-slaskiego-i-gliwic/",
+        "tier": 1,
+        "accessed": "2026-11-19"
+      },
+      {
+        "title": "Szlakiem Marszów Śmierci",
+        "publisher": "Auschwitz-Birkenau State Museum",
+        "url": "https://www.auschwitz.org/historia/ewakuacja/szlakiem-marszow-smierci",
+        "tier": 1,
+        "accessed": "2026-11-19"
+      },
+      {
+        "title": "Kalendarz historyczny: 17 stycznia",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/kalendarz-historyczny/17/1",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true
+  },
+  {
+    "id": "radogoszcz-1945",
+    "title": {
+      "en": "Massacre in the Radogoszcz prison",
+      "pl": "Zbrodnia w więzieniu na Radogoszczu"
+    },
+    "startDate": "1945-01-17",
+    "endDate": "1945-01-18",
+    "datePrecision": "day",
+    "location": {
+      "lat": 51.80958,
+      "lng": 19.43888,
+      "name": {
+        "en": "Radogoszcz prison, Łódź",
+        "pl": "Więzienie na Radogoszczu, Łódź"
+      },
+      "precision": "exact"
+    },
+    "type": "massacre",
+    "belligerents": [
+      "Germany"
+    ],
+    "summary": {
+      "en": "In the night of 17–18 January 1945, hours before the Red Army entered Łódź, the German staff of the Radogoszcz extended police prison (Erweitertes Polizeigefängnis Radegast) began killing the inmates: first in the infirmary, then in the cells, under the pretext of a roll call. In the morning they set fire to the three-storey prison building and shot those trying to escape through windows or over the roof. The commandant, Walter Pelzhausen, was sentenced to death in 1947; most of the guards escaped justice.",
+      "pl": "W nocy z 17 na 18 stycznia 1945 r., na kilkadziesiąt godzin przed wkroczeniem Armii Czerwonej do Łodzi, niemiecka załoga Rozszerzonego Więzienia Policyjnego Radogoszcz (Erweitertes Polizeigefängnis Radegast) przystąpiła do mordowania więźniów: najpierw na izbie chorych, następnie w celach, pod pozorem apelu. Rano podpalono trzypiętrowy budynek więzienny, a do próbujących ratować się przez okna lub dach strzelano. Komendanta Waltera Pelzhausena skazano w 1947 r. na karę śmierci; większość strażników uniknęła odpowiedzialności."
+    },
+    "casualties": {
+      "en": "About 1,500 killed according to the dzieje.pl calendar; Przystanek Historia states that only about 30 of the more than a thousand prisoners survived.",
+      "pl": "Ok. 1500 zabitych według kalendarium dzieje.pl; Przystanek Historia podaje, że przeżyło zaledwie ok. 30 spośród ponad tysiąca więźniów."
+    },
+    "sources": [
+      {
+        "title": "Największa niemiecka zbrodnia na terenie Łodzi. Likwidacja więzienia na Radogoszczu 17/18 stycznia 1945 r.",
+        "publisher": "Przystanek Historia (IPN)",
+        "url": "https://przystanekhistoria.pl/pa2/tematy/zbrodnie-niemieckie/109266,Najwieksza-niemiecka-zbrodnia-na-terenie-Lodzi-Likwidacja-wiezienia-na-Radogoszc.html",
+        "tier": 1,
+        "accessed": "2026-11-19"
+      },
+      {
+        "title": "Kalendarz historyczny: 17 stycznia",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/kalendarz-historyczny/17/1",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true
+  },
+  {
+    "id": "warsaw-entry-1945",
+    "title": {
+      "en": "Soviet and Polish troops enter the ruins of Warsaw",
+      "pl": "Wkroczenie wojsk sowieckich i polskich do ruin Warszawy"
+    },
+    "startDate": "1945-01-17",
+    "endDate": "1945-01-17",
+    "datePrecision": "day",
+    "location": {
+      "lat": 52.23281,
+      "lng": 21.01907,
+      "name": {
+        "en": "Warsaw (left bank)",
+        "pl": "Warszawa (lewobrzeżna)"
+      },
+      "precision": "town"
+    },
+    "type": "liberation",
+    "belligerents": [
+      "Soviet Union",
+      "Poland (1st Polish Army)",
+      "Germany"
+    ],
+    "summary": {
+      "en": "On 17 January 1945 units of the 1st Polish Army and the Red Army entered left-bank Warsaw, meeting weak resistance; within hours the Germans, fearing encirclement, abandoned the city. They found a sea of ruins: over 80% of the buildings had been destroyed, systematically so after the Uprising, and at most about 1,000 people remained on the left bank. Communist propaganda called the day a liberation; the IPN stresses that the destruction had gone on unhindered by the Red Army, which had the city within artillery range, and that NKVD terror followed. A Polish parade was held in Aleje Jerozolimskie on 19 January.",
+      "pl": "17 stycznia 1945 r. oddziały 1. Armii WP i Armii Czerwonej wkroczyły do lewobrzeżnej Warszawy, napotykając słaby opór; po kilku godzinach Niemcy, obawiając się okrążenia, opuścili miasto. Zastano morze ruin: zniszczonych było ponad 80% zabudowy, wyburzanej systematycznie po upadku Powstania, a na lewym brzegu przebywało najwyżej ok. 1000 osób. Propaganda komunistyczna nazwała ten dzień wyzwoleniem; IPN podkreśla, że niszczenie miasta odbywało się bez przeciwdziałania Armii Czerwonej, która miała je w zasięgu artylerii, a za wojskiem przyszedł terror NKWD. 19 stycznia w Alejach Jerozolimskich odbyła się defilada polskich oddziałów."
+    },
+    "sources": [
+      {
+        "title": "77 lat temu Wojsko Polskie i Armia Czerwona wkroczyły do Warszawy",
+        "publisher": "Instytut Pamięci Narodowej",
+        "url": "https://ipn.gov.pl/pl/dla-mediow/komunikaty/157730,77-lat-temu-Wojsko-Polskie-i-Armia-Czerwona-wkroczyly-do-Warszawy.html",
+        "tier": 1,
+        "accessed": "2026-11-19"
+      },
+      {
+        "title": "Katarzyna Adamów: Zdobycie ruin. Wkroczenie Armii Czerwonej do Warszawy",
+        "publisher": "Instytut Pamięci Narodowej",
+        "url": "https://ipn.gov.pl/pl/historia-z-ipn/196045,Katarzyna-Adamow-Zdobycie-ruin-Wkroczenie-Armii-Czerwonej-do-Warszawy.html",
+        "tier": 1,
+        "accessed": "2026-11-19"
+      },
+      {
+        "title": "Kalendarz historyczny: 17 stycznia",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/kalendarz-historyczny/17/1",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "The IPN gives the scale of destruction as 84% in one text and 'over 80%' in another.",
+      "pl": "IPN podaje skalę zniszczeń jako 84% w jednym tekście i „ponad 80%” w innym."
+    }
+  },
+  {
+    "id": "krakow-1945",
+    "title": {
+      "en": "Red Army takes Kraków",
+      "pl": "Zajęcie Krakowa przez Armię Czerwoną"
+    },
+    "startDate": "1945-01-18",
+    "endDate": "1945-01-19",
+    "datePrecision": "day",
+    "location": {
+      "lat": 50.0615,
+      "lng": 19.93711,
+      "name": {
+        "en": "Kraków",
+        "pl": "Kraków"
+      },
+      "precision": "town"
+    },
+    "type": "liberation",
+    "belligerents": [
+      "Soviet Union",
+      "Germany"
+    ],
+    "summary": {
+      "en": "Kraków, prepared for defence by the Germans since summer 1944 with field fortifications based on the Austro-Hungarian forts and mined bridges, was taken by Konev's 1st Ukrainian Front in operations lasting from 16 to 23 January 1945. Soviet troops took the northern part of the city on 18 January and the southern part the next day. Historians describe the action as fast and without great losses or destruction; the communist legend that Konev saved a city fully mined for demolition is described as a myth. The IPN frames the Soviet takeover as the start of a new subjugation.",
+      "pl": "Kraków, przygotowywany przez Niemców do obrony od lata 1944 r. – z fortyfikacjami polowymi opartymi o forty austro-węgierskie i zaminowanymi mostami – został zajęty przez 1. Front Ukraiński Koniewa w działaniach trwających od 16 do 23 stycznia 1945 r. 18 stycznia wojska sowieckie zajęły północną, a dzień później południową część miasta. Historycy oceniają akcję jako szybką, bez większych strat i zniszczeń; komunistyczną legendę o uratowaniu przez Koniewa całkowicie zaminowanego miasta określają jako mit. IPN przedstawia zajęcie Krakowa jako początek nowego zniewolenia."
+    },
+    "sources": [
+      {
+        "title": "70 lat temu oddziały Armii Czerwonej zdobyły Kraków",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/aktualnosci/70-lat-temu-oddzialy-armii-czerwonej-zdobyly-krakow",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      },
+      {
+        "title": "„Wsio wystrelam”. Armia Czerwona w Małopolsce w 1945 roku (odc. 1)",
+        "publisher": "Instytut Pamięci Narodowej",
+        "url": "https://ipn.gov.pl/pl/historia-z-ipn/archiwum/143434,Wsio-wystrelam-Armia-Czerwona-w-Malopolsce-w-1945-roku-odc-1.html",
+        "tier": 1,
+        "accessed": "2026-11-19"
+      },
+      {
+        "title": "Kalendarz historyczny: 18 stycznia",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/kalendarz-historyczny/18/1",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "The dzieje.pl calendar lists the capture of Kraków under both 18 and 19 January; the IPN dates the north of the city to 18 and the south to 19 January.",
+      "pl": "Kalendarium dzieje.pl odnotowuje zajęcie Krakowa zarówno pod 18, jak i 19 stycznia; IPN datuje zajęcie północnej części miasta na 18, a południowej na 19 stycznia."
+    }
+  },
+  {
+    "id": "ak-dissolution-1945",
+    "title": {
+      "en": "Dissolution of the Home Army",
+      "pl": "Rozwiązanie Armii Krajowej"
+    },
+    "startDate": "1945-01-19",
+    "endDate": "1945-01-19",
+    "datePrecision": "day",
+    "location": {
+      "lat": 52.23281,
+      "lng": 21.01907,
+      "name": {
+        "en": "Occupied Poland (symbolic marker in Warsaw)",
+        "pl": "Polska (znacznik symboliczny w Warszawie)"
+      },
+      "precision": "region"
+    },
+    "type": "other",
+    "belligerents": [
+      "Poland (Home Army)"
+    ],
+    "summary": {
+      "en": "On 19 January 1945, with the Soviet offensive advancing rapidly, the Home Army commander Gen. Leopold Okulicki 'Niedźwiadek' issued his last orders. The public order released soldiers from their oath and dissolved the AK, warning that the Soviet victory meant exchanging one occupation for another; it called on them to keep working for full independence, each acting as their own commander. A secret order to district commanders told them to keep small, well-hidden staffs and the radio network, pay soldiers two months' wages and stay in contact with the Government Delegate. The IPN stresses that the order did not call for an end to resistance.",
+      "pl": "19 stycznia 1945 r., wobec błyskawicznych postępów ofensywy sowieckiej, komendant AK gen. Leopold Okulicki „Niedźwiadek” wydał ostatnie rozkazy. Rozkaz jawny zwalniał żołnierzy z przysięgi i rozwiązywał AK, przestrzegając, że zwycięstwo sowieckie oznacza zmianę jednej okupacji na drugą; wzywał do dalszej pracy na rzecz pełnej niepodległości – każdy miał być dla siebie dowódcą. Tajny rozkaz do komendantów nakazywał zachowanie małych, zakonspirowanych sztabów i sieci radiowej, wypłatę dwumiesięcznych poborów i utrzymanie łączności z Delegatem Rządu. IPN podkreśla, że rozkaz nie nakazywał zaprzestania oporu."
+    },
+    "sources": [
+      {
+        "title": "Piotr Niwiński: Ostatni rozkaz",
+        "publisher": "Instytut Pamięci Narodowej",
+        "url": "https://ipn.gov.pl/pl/historia-z-ipn/135772,Piotr-Niwinski-Ostatni-rozkaz.html",
+        "tier": 1,
+        "accessed": "2026-11-19"
+      },
+      {
+        "title": "Rozwiązanie Armii Krajowej",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/aktualnosci/rozwiazanie-armii-krajowej",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      },
+      {
+        "title": "Kalendarz historyczny: 19 stycznia",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/kalendarz-historyczny/19/1",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "The order applied to the whole country; the sources consulted do not say where it was issued, so the marker is symbolic.",
+      "pl": "Rozkaz dotyczył całego kraju; wykorzystane źródła nie podają miejsca jego wydania, dlatego znacznik jest symboliczny."
+    }
+  },
+  {
+    "id": "krzeptowski-execution-1945",
+    "title": {
+      "en": "Execution of Goralenvolk leader Wacław Krzeptowski",
+      "pl": "Wykonanie wyroku na przywódcy Goralenvolku Wacławie Krzeptowskim"
+    },
+    "startDate": "1945-01-20",
+    "endDate": "1945-01-20",
+    "datePrecision": "day",
+    "location": {
+      "lat": 49.29691,
+      "lng": 19.95048,
+      "name": {
+        "en": "Zakopane",
+        "pl": "Zakopane"
+      },
+      "precision": "town"
+    },
+    "type": "resistance_operation",
+    "belligerents": [
+      "Poland (Home Army)"
+    ],
+    "summary": {
+      "en": "On 20 January 1945 in Zakopane a Home Army unit hanged Wacław Krzeptowski, head of the Goralenvolk – an organisation in Podhale that collaborated with the German occupation authorities – carrying out a sentence of an underground court.",
+      "pl": "20 stycznia 1945 r. w Zakopanem oddział Armii Krajowej, na podstawie wyroku sądu podziemnego, powiesił Wacława Krzeptowskiego – szefa Goralenvolku, organizacji na Podhalu kolaborującej z niemieckimi władzami okupacyjnymi."
+    },
+    "sources": [
+      {
+        "title": "Kalendarz historyczny: 20 stycznia",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/kalendarz-historyczny/20/1",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true
+  },
+  {
+    "id": "leszczyny-massacre-1945",
+    "title": {
+      "en": "Massacre of Auschwitz prisoners at Leszczyny",
+      "pl": "Zbrodnia na więźniach Auschwitz w Leszczynach"
+    },
+    "startDate": "1945-01-22",
+    "endDate": "1945-01-22",
+    "datePrecision": "day",
+    "location": {
+      "lat": 50.13975,
+      "lng": 18.61764,
+      "name": {
+        "en": "Leszczyny-Rzędówka, near Rybnik",
+        "pl": "Leszczyny-Rzędówka koło Rybnika"
+      },
+      "precision": "town"
+    },
+    "type": "massacre",
+    "belligerents": [
+      "Germany"
+    ],
+    "summary": {
+      "en": "During the evacuation of Auschwitz, prisoners transported from Gliwice were shot by the Germans near the railway station at Leszczyny-Rzędówka. A memorial there dates the killing to 22 January 1945. Victims of the evacuation were also shot in Rybnik, where a monument marks the grave of Auschwitz prisoners and patients of the local psychiatric hospital killed in January 1945.",
+      "pl": "W czasie ewakuacji Auschwitz Niemcy rozstrzelali w pobliżu stacji kolejowej w Leszczynach-Rzędówce więźniów przewożonych z Gliwic. Tamtejszy pomnik datuje zbrodnię na 22 stycznia 1945 r. Ofiary ewakuacji rozstrzeliwano też w Rybniku, gdzie pomnik upamiętnia mogiłę więźniów Auschwitz i pacjentów miejscowego szpitala psychiatrycznego zamordowanych w styczniu 1945 r."
+    },
+    "casualties": {
+      "en": "Memorials at Leszczyny give differing numbers: 350 on the memorial plaque, 447 on a cross and 288 on a monument at the original burial site (Auschwitz Museum).",
+      "pl": "Upamiętnienia w Leszczynach podają różne liczby: 350 na tablicy pomnika, 447 na krzyżu i 288 na pomniku w miejscu pierwotnego pochówku (Muzeum Auschwitz)."
+    },
+    "sources": [
+      {
+        "title": "Szlakiem Marszów Śmierci",
+        "publisher": "Auschwitz-Birkenau State Museum",
+        "url": "https://www.auschwitz.org/historia/ewakuacja/szlakiem-marszow-smierci",
+        "tier": 1,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true
+  },
+  {
+    "id": "olsztyn-1945",
+    "title": {
+      "en": "Red Army takes Olsztyn",
+      "pl": "Armia Czerwona zajmuje Olsztyn"
+    },
+    "startDate": "1945-01-22",
+    "endDate": "1945-01-22",
+    "datePrecision": "day",
+    "location": {
+      "lat": 53.77643,
+      "lng": 20.47768,
+      "name": {
+        "en": "Olsztyn (Allenstein)",
+        "pl": "Olsztyn"
+      },
+      "precision": "town"
+    },
+    "type": "liberation",
+    "belligerents": [
+      "Soviet Union",
+      "Germany"
+    ],
+    "summary": {
+      "en": "On 22 January 1945 the Red Army took Olsztyn (Allenstein), then in German East Prussia, during the operations of the 2nd and 3rd Belorussian Fronts against German forces in East Prussia.",
+      "pl": "22 stycznia 1945 r. Armia Czerwona zajęła Olsztyn (Allenstein), leżący wówczas w niemieckich Prusach Wschodnich, w toku działań 2. i 3. Frontu Białoruskiego przeciwko wojskom niemieckim w Prusach Wschodnich."
+    },
+    "sources": [
+      {
+        "title": "Kalendarz historyczny: 22 stycznia",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/kalendarz-historyczny/22/1",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      },
+      {
+        "title": "70 lat temu rozpoczęła się ofensywa styczniowa Armii Czerwonej",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/aktualnosci/70-lat-temu-rozpoczela-sie-ofensywa-styczniowa-armii-czerwonej",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true
+  },
+  {
+    "id": "poznan-1945",
+    "title": {
+      "en": "Battle of Poznań",
+      "pl": "Bitwa o Poznań"
+    },
+    "startDate": "1945-01-22",
+    "endDate": "1945-02-23",
+    "datePrecision": "day",
+    "location": {
+      "lat": 52.42155,
+      "lng": 16.9345,
+      "name": {
+        "en": "Poznań (Citadel)",
+        "pl": "Poznań (Cytadela)"
+      },
+      "precision": "town"
+    },
+    "type": "siege",
+    "belligerents": [
+      "Soviet Union",
+      "Germany"
+    ],
+    "summary": {
+      "en": "Soviet troops reached Poznań – designated a fortress (Festung Posen) – on 22 January 1945 and attacked the same day, but failed to take it on the march and encircled the city. A garrison estimated at 15,000–20,000, including about 450 Hungarians, fought street by street; the area around the castle fell on 2 February and the Old Market quarter burned. After capturing the Hungarians' base, Red Army soldiers shot about 40 wounded and captured Hungarians. The ring around the Citadel closed on 17 February; it fell in the night of 22–23 February, after which the attackers burned wounded Germans alive with flamethrowers. About 2,000 Poznań residents helped the Soviet assault.",
+      "pl": "Wojska sowieckie stanęły pod Poznaniem – ogłoszonym twierdzą (Festung Posen) – 22 stycznia 1945 r. i jeszcze tego dnia zaatakowały, lecz nie zdołały zdobyć miasta z marszu i je okrążyły. Garnizon szacowany na 15–20 tys. żołnierzy, w tym ok. 450 Węgrów, bronił się ulica po ulicy; rejon zamku padł 2 lutego, a kwartały wokół Starego Rynku płonęły. Po zdobyciu bazy Węgrów czerwonoarmiści rozstrzelali ok. 40 rannych i wziętych do niewoli żołnierzy węgierskich. Pierścień wokół Cytadeli zamknął się 17 lutego; padła ona w nocy z 22 na 23 lutego, po czym atakujący spalili miotaczami ognia rannych Niemców. Sowietom pomagało ok. 2 tys. mieszkańców Poznania."
+    },
+    "casualties": {
+      "en": "About 6,000 Soviet and 5,000 German soldiers killed; about 650 Poznań residents died, including 100 volunteers in the assault on the Citadel; 55% of the city's buildings were ruined or badly damaged (dzieje.pl/PAP).",
+      "pl": "Zginęło ok. 6 tys. żołnierzy sowieckich i 5 tys. niemieckich oraz ok. 650 mieszkańców Poznania, w tym 100 ochotników podczas szturmu na Cytadelę; 55% budynków miasta zostało zrujnowanych lub poważnie uszkodzonych (dzieje.pl/PAP)."
+    },
+    "sources": [
+      {
+        "title": "80 lat temu Armia Czerwona zdobyła Poznań. Szturmowi towarzyszyły puszczane z głośników pieśni żałobne",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/wiadomosci/80-lat-temu-armia-czerwona-zdobyla-poznan-szturmowi-towarzyszyly-puszczane-z-glosnikow",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      },
+      {
+        "title": "Kalendarz historyczny: 23 lutego",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/kalendarz-historyczny/23/2",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true
+  },
+  {
+    "id": "wolfsschanze-demolition-1945",
+    "title": {
+      "en": "Germans blow up the Wolf's Lair",
+      "pl": "Niemcy wysadzają Wilczy Szaniec"
+    },
+    "startDate": "1945-01-24",
+    "endDate": "1945-01-24",
+    "datePrecision": "day",
+    "location": {
+      "lat": 54.07857,
+      "lng": 21.49359,
+      "name": {
+        "en": "Wolf's Lair (Wolfsschanze), Gierłoż near Kętrzyn",
+        "pl": "Wilczy Szaniec (Wolfsschanze), Gierłoż koło Kętrzyna"
+      },
+      "precision": "exact"
+    },
+    "type": "other",
+    "belligerents": [
+      "Germany"
+    ],
+    "summary": {
+      "en": "Retreating before the Red Army, the Germans blew up the installations of the Wolf's Lair (Wolfsschanze), Adolf Hitler's headquarters in the forests near Kętrzyn (Rastenburg) in East Prussia.",
+      "pl": "Wycofując się przed Armią Czerwoną, Niemcy wysadzili w powietrze obiekty Wilczego Szańca (Wolfsschanze) – kwatery głównej Adolfa Hitlera w lasach koło Kętrzyna (Rastenburga) w Prusach Wschodnich."
+    },
+    "sources": [
+      {
+        "title": "Kalendarz historyczny: 24 stycznia",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/kalendarz-historyczny/24/1",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true
+  },
+  {
+    "id": "miechowice-massacre-1945",
+    "title": {
+      "en": "Miechowice massacre",
+      "pl": "Zbrodnia w Miechowicach"
+    },
+    "startDate": "1945-01-25",
+    "endDate": "1945-01-28",
+    "datePrecision": "day",
+    "location": {
+      "lat": 50.36297,
+      "lng": 18.84247,
+      "name": {
+        "en": "Miechowice, Bytom",
+        "pl": "Miechowice, Bytom"
+      },
+      "precision": "town"
+    },
+    "type": "massacre",
+    "belligerents": [
+      "Soviet Union"
+    ],
+    "summary": {
+      "en": "From 25 to 28 January 1945 Red Army soldiers murdered civilians in Miechowice, now a district of Bytom, in what was then German Upper Silesia – nearly 200 on 27 January alone, in revenge for the alleged shooting of a Soviet officer. Men were dragged from houses and cellars and killed on the spot or shot by a nearby wood; many were beaten and bayoneted and left to die in the frost. Invalids – mostly First World War veterans and disabled miners – were singled out. The parish priest, Fr Jan Frenzel, was tortured and shot. The case was investigated by IPN prosecutors in Katowice.",
+      "pl": "W dniach 25–28 stycznia 1945 r. żołnierze Armii Czerwonej mordowali ludność cywilną w Miechowicach, obecnej dzielnicy Bytomia, leżących wówczas w niemieckiej części Górnego Śląska – tylko 27 stycznia niemal 200 osób, w odwecie za rzekome zastrzelenie sowieckiego oficera. Mężczyzn wyciągano z domów i piwnic i zabijano na miejscu lub rozstrzeliwano pod pobliskim lasem; wielu skatowano, kłuto bagnetami i pozostawiono na mrozie. Szczególnie okrutnie traktowano inwalidów – w większości weteranów I wojny światowej i górników-rencistów. Proboszcz ks. Jan Frenzel został skatowany i zastrzelony. Sprawę badali prokuratorzy IPN w Katowicach."
+    },
+    "casualties": {
+      "en": "Nearly 380 people killed according to Bogusław Tracz (IPN); the dzieje.pl calendar gives an estimate of over 200.",
+      "pl": "Według Bogusława Tracza (IPN) zamordowano prawie 380 osób; kalendarium dzieje.pl szacuje liczbę ofiar na ponad 200."
+    },
+    "sources": [
+      {
+        "title": "Bogusław Tracz: Gehenna „wyzwolenia”. Zbrodnie sowieckie na Górnym Śląsku w 1945 roku",
+        "publisher": "Instytut Pamięci Narodowej",
+        "url": "https://ipn.gov.pl/pl/historia-z-ipn/176820,Boguslaw-Tracz-Gehenna-wyzwolenia-Zbrodnie-sowieckie-na-Gornym-Slasku-w-1945-rok.html",
+        "tier": 1,
+        "accessed": "2026-11-19"
+      },
+      {
+        "title": "Kalendarz historyczny: 27 stycznia",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/kalendarz-historyczny/27/1",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true
+  },
+  {
+    "id": "stutthof-death-march-1945",
+    "title": {
+      "en": "Death march of Stutthof prisoners",
+      "pl": "Marsz śmierci więźniów KL Stutthof"
+    },
+    "startDate": "1945-01-25",
+    "endDate": "1945-02-04",
+    "datePrecision": "day",
+    "location": {
+      "lat": 54.32986,
+      "lng": 19.15772,
+      "name": {
+        "en": "From Stutthof towards Lębork (marker at Sztutowo)",
+        "pl": "Ze Stutthofu w kierunku Lęborka (znacznik: Sztutowo)"
+      },
+      "precision": "region"
+    },
+    "type": "deportation",
+    "belligerents": [
+      "Germany"
+    ],
+    "summary": {
+      "en": "On 25 January 1945, with Soviet troops 40–50 km away, the Stutthof commandant Paul Werner Hoppe ordered the land evacuation of the camp. From about 4 a.m. columns of prisoners, inadequately clothed and fed, set off westwards through Mikoszewo, Cedry Wielkie, Pruszcz Gdański, Żukowo and Przodkowo towards Lębork, covering about 20 km a day; those who could not keep up were killed. The Germans forbade any help, yet local Kashubians often aided the marchers at risk to their lives. About 11,000–11,500 prisoners were evacuated this way from the main camp, which then held 24,000.",
+      "pl": "25 stycznia 1945 r., gdy wojska sowieckie były 40–50 km od obozu, komendant KL Stutthof Paul Werner Hoppe zarządził jego ewakuację lądową. Od ok. godz. 4 rano kolumny więźniów, bez odpowiedniej odzieży i wyżywienia, wyruszały na zachód – przez Mikoszewo, Cedry Wielkie, Pruszcz Gdański, Żukowo i Przodkowo w kierunku Lęborka, pokonując ok. 20 km dziennie; niezdolnych do marszu zabijano. Niemcy zakazali udzielania pomocy, mimo to miejscowi Kaszubi często pomagali maszerującym z narażeniem życia. Z obozu głównego, w którym przebywało wówczas 24 tys. osób, wyprowadzono w ten sposób ok. 11–11,5 tys. więźniów."
+    },
+    "casualties": {
+      "en": "Over 2,000 of the roughly 11,000 marchers from the main camp died and about 2,000 escaped (Museum of WWII); of some 33,000 prisoners in the whole land evacuation of the main camp and subcamps, nearly 17,000 died (Stutthof Museum via PAP).",
+      "pl": "Spośród ok. 11 tys. maszerujących z obozu głównego zginęło ponad 2 tys., a ok. 2 tys. zbiegło (MIIWŚ); spośród ok. 33 tys. więźniów całej ewakuacji lądowej obozu głównego i podobozów zginęło blisko 17 tys. (Muzeum Stutthof za PAP)."
+    },
+    "sources": [
+      {
+        "title": "#WojennyDzień – Początek marszu śmierci więźniów KL Stutthof",
+        "publisher": "Muzeum II Wojny Światowej w Gdańsku",
+        "url": "https://muzeum1939.pl/wojennydzien-poczatek-marszu-smierci-wiezniow-kl-stutthof/aktualnosci/5103.html",
+        "tier": 1,
+        "accessed": "2026-11-19"
+      },
+      {
+        "title": "78. rocznica ewakuacji lądowej więźniów KL Stutthof",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/wiadomosci/78-rocznica-ewakuacji-ladowej-wiezniow-kl-stutthof",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "The end date reflects the 11-day march described by the Museum of WWII; columns also left the camp on 26 January.",
+      "pl": "Data końcowa odpowiada opisanemu przez MIIWŚ 11-dniowemu marszowi; kolejne kolumny opuściły obóz także 26 stycznia."
+    }
+  },
+  {
     "id": "auschwitz-liberation-1945",
     "title": {
       "en": "Liberation of Auschwitz",
@@ -36,6 +711,365 @@
       }
     ],
     "verified": true
+  },
+  {
+    "id": "katowice-1945",
+    "title": {
+      "en": "Red Army takes Katowice and the Upper Silesian industrial region",
+      "pl": "Armia Czerwona zajmuje Katowice i Górnośląski Okręg Przemysłowy"
+    },
+    "startDate": "1945-01-27",
+    "endDate": "1945-01-27",
+    "datePrecision": "day",
+    "location": {
+      "lat": 50.2599,
+      "lng": 19.02159,
+      "name": {
+        "en": "Katowice",
+        "pl": "Katowice"
+      },
+      "precision": "town"
+    },
+    "type": "liberation",
+    "belligerents": [
+      "Soviet Union",
+      "Germany"
+    ],
+    "summary": {
+      "en": "On 27 January 1945 the Red Army took Katowice. The Germans abandoned the 'Festung Oberschlesien' – the Upper Silesian industrial region, vital to them because inland industry had been bombed – under threat of encirclement by the Soviet 59th and 60th Armies. The Soviet entry into Upper Silesia was followed by mass crimes against civilians and deportations.",
+      "pl": "27 stycznia 1945 r. Armia Czerwona zajęła Katowice. Niemcy wycofali się z tzw. Festung Oberschlesien – Górnośląskiego Okręgu Przemysłowego, ważnego dla nich wobec zbombardowania ośrodków przemysłowych w głębi kraju – zagrożeni okrążeniem przez sowieckie 59. i 60. armię. Wkroczeniu Armii Czerwonej na Górny Śląsk towarzyszyły masowe zbrodnie na ludności cywilnej i deportacje."
+    },
+    "sources": [
+      {
+        "title": "Kalendarz historyczny: 27 stycznia",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/kalendarz-historyczny/27/1",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      },
+      {
+        "title": "70 lat temu rozpoczęła się ofensywa styczniowa Armii Czerwonej",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/aktualnosci/70-lat-temu-rozpoczela-sie-ofensywa-styczniowa-armii-czerwonej",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      },
+      {
+        "title": "70 lat temu oddziały Armii Czerwonej zdobyły Kraków",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/aktualnosci/70-lat-temu-oddzialy-armii-czerwonej-zdobyly-krakow",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true
+  },
+  {
+    "id": "przyszowice-massacre-1945",
+    "title": {
+      "en": "Przyszowice massacre",
+      "pl": "Zbrodnia w Przyszowicach"
+    },
+    "startDate": "1945-01-27",
+    "endDate": "1945-01-27",
+    "datePrecision": "day",
+    "location": {
+      "lat": 50.2494,
+      "lng": 18.74205,
+      "name": {
+        "en": "Przyszowice, near Gliwice",
+        "pl": "Przyszowice koło Gliwic"
+      },
+      "precision": "town"
+    },
+    "type": "massacre",
+    "belligerents": [
+      "Soviet Union"
+    ],
+    "summary": {
+      "en": "Przyszowice, a village by Gliwice that had belonged to Poland since 1922, was reached by the Soviet offensive on 26 January 1945 after a fight with a small German force supported by tanks. On 27 January Red Army soldiers began a rampage lasting over ten hours: they killed men regardless of age, raped most of the girls and women and killed people putting out fires or helping the wounded; neither pleas in Polish nor pre-war Polish documents helped. Among the victims were four Auschwitz prisoners who had escaped from a death march. Historians disagree whether it was revenge for the resistance met there or a belief that the village had been German before 1939. Around Gliwice parish records list 817 people killed by Soviet troops, mostly between 23 and 31 January.",
+      "pl": "Przyszowice, wieś pod Gliwicami należąca od 1922 r. do Polski, znalazły się na drodze sowieckiej ofensywy 26 stycznia 1945 r., po walce z nielicznymi siłami niemieckimi wspieranymi przez czołgi. 27 stycznia czerwonoarmiści rozpoczęli kilkunastogodzinną gehennę: zabijali mężczyzn bez względu na wiek, gwałcili większość dziewcząt i kobiet, zabijali gaszących pożary i pomagających rannym; nie pomagały ani prośby po polsku, ani przedwojenne polskie dokumenty. Wśród ofiar było czterech więźniów Auschwitz, którzy zbiegli z marszu śmierci. Badacze spierają się, czy była to zemsta za opór, czy skutek przekonania, że wieś leżała przed 1939 r. w Rzeszy. W gliwickich księgach parafialnych odnotowano 817 osób zabitych przez wojska sowieckie, w większości między 23 a 31 stycznia."
+    },
+    "casualties": {
+      "en": "69 people killed, aged from 10 days to 78 years; almost seventy houses and farm buildings burned (Bogusław Tracz, IPN).",
+      "pl": "Zginęło 69 osób w wieku od 10 dni do 78 lat; spłonęło prawie siedemdziesiąt domów i zabudowań gospodarczych (Bogusław Tracz, IPN)."
+    },
+    "sources": [
+      {
+        "title": "Bogusław Tracz: Gehenna „wyzwolenia”. Zbrodnie sowieckie na Górnym Śląsku w 1945 roku",
+        "publisher": "Instytut Pamięci Narodowej",
+        "url": "https://ipn.gov.pl/pl/historia-z-ipn/176820,Boguslaw-Tracz-Gehenna-wyzwolenia-Zbrodnie-sowieckie-na-Gornym-Slasku-w-1945-rok.html",
+        "tier": 1,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true
+  },
+  {
+    "id": "pomeranian-wall-1945",
+    "title": {
+      "en": "Breaking the Pomeranian Wall",
+      "pl": "Przełamanie Wału Pomorskiego"
+    },
+    "startDate": "1945-01-29",
+    "endDate": "1945-02-10",
+    "datePrecision": "day",
+    "location": {
+      "lat": 53.26975,
+      "lng": 16.46707,
+      "name": {
+        "en": "Pomeranian Wall near Wałcz",
+        "pl": "Wał Pomorski w rejonie Wałcza"
+      },
+      "precision": "region"
+    },
+    "type": "battle",
+    "belligerents": [
+      "Poland (1st Polish Army)",
+      "Soviet Union",
+      "Germany"
+    ],
+    "summary": {
+      "en": "The Pomeranian Wall was a German defensive line built on pre-war fortifications of the German–Polish border and strengthened with concrete bunkers in 1944. Soldiers of the 1st Polish Army, part of the Soviet 1st Belorussian Front, fought their first battles on its approaches in late January 1945 (see Podgaje) and on 2 February began the assault on the main line, where 45 reinforced-concrete shelters lay in their sector. The key position near Wałcz was broken on 6 February, though fighting lasted until 10 February. The breakthrough opened the way to the lower Oder and the encirclement of Kołobrzeg.",
+      "pl": "Wał Pomorski był niemiecką linią obronną zbudowaną na przedwojennych umocnieniach granicy niemiecko-polskiej i wzmocnioną w 1944 r. betonowymi schronami. Żołnierze 1. Armii WP, wchodzącej w skład sowieckiego 1. Frontu Białoruskiego, stoczyli pierwsze walki na jego przedpolu pod koniec stycznia 1945 r. (zob. Podgaje), a 2 lutego rozpoczęli szturm głównej linii, na której w ich pasie działania znajdowało się 45 schronów żelbetowych. Kluczową pozycję pod Wałczem przełamano 6 lutego, choć walki trwały do 10 lutego. Przełamanie otworzyło drogę nad dolną Odrę i do okrążenia Kołobrzegu."
+    },
+    "sources": [
+      {
+        "title": "Początek walk o Wał Pomorski",
+        "publisher": "Muzeum Wojska Polskiego",
+        "url": "https://muzeumwp.pl/timeline/poczatek-walk-o-wal-pomorski/",
+        "tier": 1,
+        "accessed": "2026-11-19"
+      },
+      {
+        "title": "Podgaje – niewyjaśniona zbrodnia",
+        "publisher": "Przystanek Historia (IPN)",
+        "url": "https://przystanekhistoria.pl/pa2/tematy/okupacja-niemiecka/32791,Podgaje-niewyjasniona-zbrodnia.html",
+        "tier": 1,
+        "accessed": "2026-11-19"
+      },
+      {
+        "title": "Kalendarz historyczny: 29 stycznia",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/kalendarz-historyczny/29/1",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      },
+      {
+        "title": "Kalendarz historyczny: 10 lutego",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/kalendarz-historyczny/10/2",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "The dzieje.pl calendar dates the start of the 1st Polish Army's fight for the Wall to 29 January; the Polish Army Museum dates the assault on the main line to 2 February.",
+      "pl": "Kalendarium dzieje.pl datuje początek walk 1. Armii WP o Wał na 29 stycznia; Muzeum Wojska Polskiego datuje szturm głównej linii na 2 lutego."
+    }
+  },
+  {
+    "id": "wilhelm-gustloff-1945",
+    "title": {
+      "en": "Sinking of the Wilhelm Gustloff",
+      "pl": "Zatopienie statku „Wilhelm Gustloff”"
+    },
+    "startDate": "1945-01-30",
+    "endDate": "1945-01-30",
+    "datePrecision": "day",
+    "location": {
+      "lat": 54.75852,
+      "lng": 17.55542,
+      "name": {
+        "en": "Baltic Sea off Łeba (marker at Łeba)",
+        "pl": "Bałtyk na wysokości Łeby (znacznik: Łeba)"
+      },
+      "precision": "region"
+    },
+    "type": "other",
+    "belligerents": [
+      "Soviet Union",
+      "Germany"
+    ],
+    "summary": {
+      "en": "On the evening of 30 January 1945 the German ship Wilhelm Gustloff, sailing west from Gdynia crowded with refugees from East Prussia and Pomerania as well as naval personnel and wounded soldiers, was hit by three torpedoes from a Soviet submarine off Łeba and sank. It is the largest recorded maritime disaster. The wreck lies at a depth of about 45 m, a dozen or so miles north-east of Łeba.",
+      "pl": "Wieczorem 30 stycznia 1945 r. niemiecki statek „Wilhelm Gustloff”, płynący z Gdyni na zachód, przepełniony uciekinierami z Prus Wschodnich i Pomorza, a także personelem Kriegsmarine i rannymi żołnierzami, został na wysokości Łeby trafiony trzema torpedami z sowieckiego okrętu podwodnego i zatonął. Jest to największa odnotowana katastrofa morska w historii. Wrak leży na głębokości ok. 45 m, kilkanaście mil na północny wschód od Łeby."
+    },
+    "casualties": {
+      "en": "Estimates of the number aboard range from over 6,000 to about 10,500; about 1,200 were rescued (dzieje.pl/PAP). The dzieje.pl calendar gives 4,500 to over 9,000 dead, mainly women and children.",
+      "pl": "Szacunki liczby osób na pokładzie wahają się od ponad 6 tys. do ok. 10,5 tys.; uratowano ok. 1200 osób (dzieje.pl/PAP). Kalendarium dzieje.pl podaje od 4,5 tys. do ponad 9 tys. ofiar, głównie kobiet i dzieci."
+    },
+    "sources": [
+      {
+        "title": "70 lat temu zatonął „Wilhelm Gustloff”: zginęło 5–9 tys. ludzi",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/aktualnosci/70-lat-temu-zatonal-wilhelm-gustloff-zginelo-5-9-tys-ludzi",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      },
+      {
+        "title": "Kalendarz historyczny: 30 stycznia",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/kalendarz-historyczny/30/1",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "A Museum of WWII historian says the true number of passengers will probably never be known.",
+      "pl": "Historyk Muzeum II Wojny Światowej uważa, że prawdziwej liczby pasażerów prawdopodobnie nigdy nie poznamy."
+    }
+  },
+  {
+    "id": "podgaje-1945",
+    "title": {
+      "en": "Podgaje: murder of captured Polish soldiers",
+      "pl": "Zbrodnia w Podgajach na polskich jeńcach"
+    },
+    "startDate": "1945-01-31",
+    "endDate": "1945-02-03",
+    "datePrecision": "day",
+    "location": {
+      "lat": 53.47515,
+      "lng": 16.87958,
+      "name": {
+        "en": "Podgaje (Flederborn), near Piła",
+        "pl": "Podgaje (Flederborn) koło Piły"
+      },
+      "precision": "town"
+    },
+    "type": "massacre",
+    "belligerents": [
+      "Germany (Waffen-SS formations)"
+    ],
+    "summary": {
+      "en": "On 31 January 1945 the 4th company of the 3rd Infantry Regiment, 1st Polish Infantry Division – some 70–80 men – was cut off and destroyed while reconnoitring the fortified village of Podgaje, a key point of German resistance on the Pomeranian Wall. About fifty were captured; the badly wounded were finished off. When Podgaje was taken on 3 February after fighting that cost over 800 killed, wounded and missing, the remains of 32 captured soldiers of the company were found in a burned barn, bound with barbed wire and chains and evidently burned alive. The main enemy force there was the Latvian 15th Waffen-SS Grenadier Division; the identity of the perpetrators was never established.",
+      "pl": "31 stycznia 1945 r. 4. kompania 3. pułku piechoty 1. Dywizji Piechoty WP – ok. 70–80 żołnierzy – rozpoznająca umocnioną wieś Podgaje, kluczowy punkt niemieckiego oporu na Wale Pomorskim, została odcięta i rozbita. Do niewoli trafiło ok. pięćdziesięciu żołnierzy; ciężko rannych dobito. Gdy po walkach, w których zginęło, zostało rannych lub zaginęło ponad 800 osób, Podgaje zdobyto 3 lutego, w spalonej stodole znaleziono szczątki 32 jeńców z kompanii – skrępowanych drutem kolczastym i łańcuchami, najpewniej spalonych żywcem. Główną siłą przeciwnika była tam łotewska 15. Dywizja Grenadierów SS; tożsamości sprawców nigdy nie ustalono."
+    },
+    "casualties": {
+      "en": "32 prisoners found burned in a barn; other captives were killed after a failed escape (Przystanek Historia).",
+      "pl": "W stodole znaleziono spalone szczątki 32 jeńców; pozostałych zamordowano prawdopodobnie po nieudanej ucieczce (Przystanek Historia)."
+    },
+    "sources": [
+      {
+        "title": "Podgaje – niewyjaśniona zbrodnia",
+        "publisher": "Przystanek Historia (IPN)",
+        "url": "https://przystanekhistoria.pl/pa2/tematy/okupacja-niemiecka/32791,Podgaje-niewyjasniona-zbrodnia.html",
+        "tier": 1,
+        "accessed": "2026-11-19"
+      },
+      {
+        "title": "Kalendarz historyczny: 2 lutego",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/kalendarz-historyczny/2/2",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "The Koszalin commission investigating the crime suspended its inquiry in 1974. Some German authors attributed the deaths to Soviet or Polish artillery fire; Przystanek Historia rejects the first version and notes that even the second would not absolve the SS formations, which held bound prisoners in the front line. The dzieje.pl calendar mentions both shooting and burning alive.",
+      "pl": "Komisja w Koszalinie badająca zbrodnię zawiesiła śledztwo w 1974 r. Część autorów niemieckich przypisywała śmierć jeńców ostrzałowi sowieckiej lub polskiej artylerii; Przystanek Historia odrzuca pierwszą wersję i zauważa, że nawet druga nie zdejmuje odpowiedzialności z formacji SS, które przetrzymywały skrępowanych jeńców na linii frontu. Kalendarium dzieje.pl wspomina zarówno o rozstrzelaniu, jak i spaleniu żywcem."
+    }
+  },
+  {
+    "id": "uscie-zielone-1945",
+    "title": {
+      "en": "Massacre in Uście Zielone",
+      "pl": "Zbrodnia w Uściu Zielonym"
+    },
+    "startDate": "1945-02-02",
+    "endDate": "1945-02-02",
+    "datePrecision": "day",
+    "location": {
+      "lat": 49.02955,
+      "lng": 24.96489,
+      "name": {
+        "en": "Uście Zielone, Buczacz county (now Ukraine)",
+        "pl": "Uście Zielone, pow. buczacki"
+      },
+      "precision": "town"
+    },
+    "type": "massacre",
+    "belligerents": [
+      "OUN and UPA"
+    ],
+    "summary": {
+      "en": "On 2 February 1945 units of the OUN and UPA murdered 133 people, mostly Poles, in the village of Uście Zielone in the former Buczacz county of Tarnopol voivodeship – one of the attacks on Poles in Eastern Galicia that continued after the front had passed.",
+      "pl": "2 lutego 1945 r. oddziały OUN i UPA zamordowały 133 osoby, przede wszystkim Polaków, we wsi Uście Zielone w dawnym powiecie buczackim województwa tarnopolskiego – jeden z ataków na Polaków w Galicji Wschodniej, które trwały także po przejściu frontu."
+    },
+    "casualties": {
+      "en": "133 people, mostly Poles (dzieje.pl calendar).",
+      "pl": "133 osoby, przede wszystkim Polacy (kalendarium dzieje.pl)."
+    },
+    "sources": [
+      {
+        "title": "Kalendarz historyczny: 2 lutego",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/kalendarz-historyczny/2/2",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "Based only on a short entry in the dzieje.pl historical calendar; to be expanded when a fuller institutional source is found.",
+      "pl": "Oparte wyłącznie na krótkiej notce kalendarium dzieje.pl; do rozszerzenia po znalezieniu pełniejszego źródła instytucjonalnego."
+    }
+  },
+  {
+    "id": "upper-silesia-deportations-1945",
+    "title": {
+      "en": "Deportations of Upper Silesians to the USSR",
+      "pl": "Deportacje Górnoślązaków do ZSRS"
+    },
+    "startDate": "1945-02-12",
+    "endDate": "1945-05-08",
+    "datePrecision": "day",
+    "location": {
+      "lat": 50.40027,
+      "lng": 18.90262,
+      "name": {
+        "en": "Upper Silesia (marker at Radzionków)",
+        "pl": "Górny Śląsk (znacznik: Radzionków)"
+      },
+      "precision": "region"
+    },
+    "type": "deportation",
+    "belligerents": [
+      "Soviet Union"
+    ],
+    "summary": {
+      "en": "After the Red Army occupied Upper Silesia in January–February 1945, mass murders, rapes and looting were followed from 12 February by an NKVD operation detaining men aged 17–50 fit for physical labour, especially in the part of the region that had been German before 1939. Under the pretext of two weeks of clean-up work, tens of thousands were interned and several thousand more detained while 'clearing the rear of the front'; most were deported to NKVD forced-labour camps, mainly in the Donbas, but also in Belarus, Russia, Siberia and Georgia. Those who survived returned until the end of the 1940s. The deportations are at the centre of the regional memory of the 'Upper Silesian Tragedy'.",
+      "pl": "Po zajęciu Górnego Śląska przez Armię Czerwoną w styczniu i lutym 1945 r. masowym mordom, gwałtom i grabieżom towarzyszyła prowadzona od 12 lutego akcja NKWD zatrzymywania mężczyzn w wieku 17–50 lat zdolnych do pracy fizycznej, zwłaszcza w części regionu należącej przed 1939 r. do Niemiec. Pod pretekstem dwutygodniowych prac porządkowych internowano kilkadziesiąt tysięcy osób, a kilka tysięcy zatrzymano w ramach tzw. oczyszczania tyłów frontu; większość wywieziono do obozów pracy przymusowej NKWD, głównie w Zagłębiu Donieckim, ale też na Białoruś, do Rosji, na Syberię i do Gruzji. Ci, którzy przeżyli, wracali do końca lat 40. Deportacje są osią regionalnej pamięci o „Tragedii Górnośląskiej”."
+    },
+    "casualties": {
+      "en": "At least 10,000 deportees recorded as dead; the real toll may have reached 30% of those deported (IPN).",
+      "pl": "Odnotowano co najmniej 10 tys. zmarłych deportowanych; w rzeczywistości ich liczba mogła sięgnąć 30% wywiezionych (IPN)."
+    },
+    "sources": [
+      {
+        "title": "Deportacje z Górnego Śląska do Związku Sowieckiego w 1945 roku. Katalog wystawy stałej (opis publikacji)",
+        "publisher": "Instytut Pamięci Narodowej",
+        "url": "https://ipn.gov.pl/pl/wydawnictwo/ksiazki/243986,Deportacje-z-Gornego-Slaska-do-Zwiazku-Sowieckiego-w-1945-roku-Katalog-wystawy-s.html",
+        "tier": 1,
+        "accessed": "2026-11-19"
+      },
+      {
+        "title": "„Tragedia Górnośląska” – pamięć historii i historia pamięci",
+        "publisher": "Instytut Pamięci Narodowej",
+        "url": "https://ipn.gov.pl/pl/historia-z-ipn/archiwum/212705,Tragedia-Gornoslaska-pamiec-historii-i-historia-pamieci.html",
+        "tier": 1,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "The IPN catalogue dates the start of the detentions to 12 February; the IPN notes only that the deportations took place before the end of the war on 8 May 1945, so the end date shown is the end of the map's range. The marker is representative: Radzionków hosts the IPN's documentation centre on the deportations.",
+      "pl": "Katalog IPN datuje początek zatrzymań na 12 lutego; IPN odnotowuje jedynie, że deportacje miały miejsce przed końcem wojny 8 maja 1945 r., dlatego data końcowa jest końcem zakresu mapy. Znacznik jest reprezentatywny – w Radzionkowie działa Centrum Dokumentacji Deportacji Górnoślązaków do ZSRR."
+    }
   },
   {
     "id": "siege-of-breslau-1945",
@@ -77,6 +1111,160 @@
     "notes": {
       "en": "The source states that 90,000 civilian refugees from Breslau died of frost during the January 1945 evacuation; this figure has not been checked against a second source here. Start date given as 15 February (encirclement closed in the night of 15–16 February).",
       "pl": "Źródło podaje, że podczas styczniowej ewakuacji 1945 r. od mrozu zginęło 90 tys. cywilnych uciekinierów z Wrocławia; liczby tej nie zweryfikowano tu w drugim źródle. Jako datę początkową przyjęto 15 lutego (okrążenie zamknięto w nocy z 15 na 16 lutego)."
+    }
+  },
+  {
+    "id": "bilgoraj-prison-raid-1945",
+    "title": {
+      "en": "Raid on the Biłgoraj prison",
+      "pl": "Rozbicie więzienia w Biłgoraju"
+    },
+    "startDate": "1945-02-28",
+    "endDate": "1945-02-28",
+    "datePrecision": "day",
+    "location": {
+      "lat": 50.54248,
+      "lng": 22.72093,
+      "name": {
+        "en": "Biłgoraj",
+        "pl": "Biłgoraj"
+      },
+      "precision": "town"
+    },
+    "type": "resistance_operation",
+    "belligerents": [
+      "Polish post-Home Army underground",
+      "Polish communist security forces"
+    ],
+    "summary": {
+      "en": "On 28 February 1945 a post-Home Army unit led by Lt Konrad Bartoszewski 'Wir' broke into the prison in Biłgoraj, one of a series of raids by the anti-communist underground on prisons and security offices in 1945.",
+      "pl": "28 lutego 1945 r. poakowski oddział por. Konrada Bartoszewskiego „Wira” rozbił więzienie w Biłgoraju – jedną z serii akcji podziemia antykomunistycznego na więzienia i urzędy bezpieczeństwa w 1945 r."
+    },
+    "sources": [
+      {
+        "title": "Kalendarz historyczny: 28 lutego",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/kalendarz-historyczny/28/2",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "Based only on a short entry in the dzieje.pl historical calendar; to be expanded when a fuller institutional source is found.",
+      "pl": "Oparte wyłącznie na krótkiej notce kalendarium dzieje.pl; do rozszerzenia po znalezieniu pełniejszego źródła instytucjonalnego."
+    }
+  },
+  {
+    "id": "borujsko-charge-1945",
+    "title": {
+      "en": "Cavalry charge at Borujsko",
+      "pl": "Szarża pod Borujskiem"
+    },
+    "startDate": "1945-03-01",
+    "endDate": "1945-03-01",
+    "datePrecision": "day",
+    "location": {
+      "lat": 53.41141,
+      "lng": 16.07853,
+      "name": {
+        "en": "Borujsko (Żeńsko), West Pomerania",
+        "pl": "Borujsko (Żeńsko), Pomorze Zachodnie"
+      },
+      "precision": "town"
+    },
+    "type": "battle",
+    "belligerents": [
+      "Poland (1st Polish Army)",
+      "Germany"
+    ],
+    "summary": {
+      "en": "On 1 March 1945, during the fighting for the third line of the Pomeranian Wall, 2nd Lt Zbigniew Starak led about 220 uhlans of the 1st Warsaw Independent Cavalry Brigade in a charge on German positions at Borujsko and Żabin, held by the 163rd Infantry Division in fortified villages. The charge succeeded, and by about 5 p.m. Borujsko was taken. It is regarded as the last charge in the history of the Polish cavalry.",
+      "pl": "1 marca 1945 r., podczas walk o trzecią linię Wału Pomorskiego, ppor. Zbigniew Starak poprowadził ok. 220 ułanów 1. Warszawskiej Samodzielnej Brygady Kawalerii do szarży na pozycje niemieckie pod Borujskiem i Żabinem, broniące się w ufortyfikowanych wsiach siły 163. Dywizji Piechoty. Szarża zakończyła się powodzeniem, a ok. godz. 17 Borujsko zostało zdobyte. Uważa się ją za ostatnią szarżę w dziejach polskiej kawalerii."
+    },
+    "casualties": {
+      "en": "Over 500 Germans killed and 50 wounded; 147 Polish soldiers killed and 349 wounded, of whom only 7 uhlans were killed in the charge itself (dzieje.pl/PAP).",
+      "pl": "Ponad 500 zabitych i 50 rannych Niemców; po stronie polskiej 147 zabitych i 349 rannych, przy czym w samej szarży poległo tylko 7 ułanów (dzieje.pl/PAP)."
+    },
+    "sources": [
+      {
+        "title": "Ostatnia szarża polskiej kawalerii; jak ułani pod Borujskiem pokonali Niemców",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/wiadomosci/ostatnia-szarza-polskiej-kawalerii-jak-ulani-pod-borujskiem-pokonali-niemcow",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      },
+      {
+        "title": "Kalendarz historyczny: 1 marca",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/kalendarz-historyczny/1/3",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "OpenStreetMap records Borujsko as an alternative name of the village of Żeńsko (gmina Wierzchowo); the marker uses that village's coordinates.",
+      "pl": "OpenStreetMap notuje Borujsko jako nazwę alternatywną wsi Żeńsko (gmina Wierzchowo); znacznik wykorzystuje współrzędne tej wsi."
+    }
+  },
+  {
+    "id": "pawlokoma-1945",
+    "title": {
+      "en": "Pawłokoma massacre",
+      "pl": "Zbrodnia w Pawłokomie"
+    },
+    "startDate": "1945-03-03",
+    "endDate": "1945-03-03",
+    "datePrecision": "day",
+    "location": {
+      "lat": 49.81184,
+      "lng": 22.28666,
+      "name": {
+        "en": "Pawłokoma, Przemyśl Foothills",
+        "pl": "Pawłokoma na Pogórzu Przemyskim"
+      },
+      "precision": "town"
+    },
+    "type": "massacre",
+    "belligerents": [
+      "Polish post-Home Army underground"
+    ],
+    "summary": {
+      "en": "In early March 1945 a post-Home Army partisan unit – identified by Przystanek Historia as that of Józef Biss 'Wacław' (or local self-defence under its cover, according to the dzieje.pl calendar) – killed Ukrainian inhabitants of Pawłokoma, including many women and children, in reprisal for the abduction and murder of 11 Poles by the UPA. The killings were followed by others in the area. In 2006 President Lech Kaczyński took part in commemorations of the victims.",
+      "pl": "Na początku marca 1945 r. poakowski oddział partyzancki – według Przystanku Historia oddział Józefa Bissa „Wacława” (według kalendarium dzieje.pl – oddział AK lub miejscowa samoobrona pod jego osłoną) – zamordował ukraińskich mieszkańców Pawłokomy, w tym wiele kobiet i dzieci, w odwecie za uprowadzenie i zamordowanie przez UPA 11 Polaków. Po tej zbrodni nastąpiły kolejne w okolicy. W 2006 r. w upamiętnieniu ofiar uczestniczył prezydent Lech Kaczyński."
+    },
+    "casualties": {
+      "en": "Estimates differ: about 350 (Przystanek Historia), 365 (dzieje.pl calendar), over 368 (IPN decision opening the investigation); the IPN investigation could document at least 109 victims.",
+      "pl": "Szacunki są rozbieżne: ok. 350 (Przystanek Historia), 365 (kalendarium dzieje.pl), ponad 368 (postanowienie IPN o wszczęciu śledztwa); śledztwo IPN zdołało udokumentować co najmniej 109 ofiar."
+    },
+    "sources": [
+      {
+        "title": "Mord w Sieniawie",
+        "publisher": "Przystanek Historia (IPN)",
+        "url": "https://przystanekhistoria.pl/pa2/teksty/71691,Mord-w-Sieniawie.html",
+        "tier": 1,
+        "accessed": "2026-11-19"
+      },
+      {
+        "title": "Pawłokoma: uroczystości 73. rocznicy rozstrzelania Ukraińców przez polskie podziemie",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/aktualnosci/pawlokoma-uroczystosci-73-rocznicy-rozstrzelania-ukraincow-przez-polskie-podziemie",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      },
+      {
+        "title": "Kalendarz historyczny: 3 marca",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/kalendarz-historyczny/3/3",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "The IPN investigation (opened 2001) concerned killings on 1–3 March 1945; it did not establish the full number of victims, the specific perpetrators or their motives. The only official document is a record of the partial exhumation of one of three graves. Most sources date the massacre to 3 March.",
+      "pl": "Śledztwo IPN (wszczęte w 2001 r.) dotyczyło zabójstw z 1–3 marca 1945 r.; nie ustalono pełnej liczby ofiar, konkretnych sprawców ani ich motywów. Jedynym dokumentem urzędowym jest protokół częściowej ekshumacji jednego z trzech grobów. Większość źródeł datuje zbrodnię na 3 marca."
     }
   },
   {
@@ -127,6 +1315,733 @@
     "notes": {
       "en": "Detailed dates come from the tier-2 source; the Polish Army Museum timeline entry confirms the capture of the city and port by the 1st Polish Army and the 'wedding to the sea' ceremony.",
       "pl": "Szczegółowe daty pochodzą ze źródła 2. kategorii; wpis na osi czasu Muzeum Wojska Polskiego potwierdza zdobycie miasta i portu przez 1. Armię WP oraz uroczystość zaślubin z morzem."
+    }
+  },
+  {
+    "id": "fieldorf-arrest-1945",
+    "title": {
+      "en": "NKVD arrests Gen. August Emil Fieldorf 'Nil'",
+      "pl": "Aresztowanie gen. Augusta Emila Fieldorfa „Nila” przez NKWD"
+    },
+    "startDate": "1945-03-07",
+    "endDate": "1945-03-07",
+    "datePrecision": "day",
+    "location": {
+      "lat": 52.12616,
+      "lng": 20.66406,
+      "name": {
+        "en": "Milanówek",
+        "pl": "Milanówek"
+      },
+      "precision": "town"
+    },
+    "type": "occupation_policy",
+    "belligerents": [
+      "Soviet Union"
+    ],
+    "summary": {
+      "en": "On 7 March 1945 the NKVD arrested in Milanówek Gen. August Emil Fieldorf 'Nil' – organiser and head of the Home Army's Kedyw and leader of the 'Nie' organisation, which was formed in January 1945 – living under the false name Walenty Gdanicki. Unrecognised, he was sent to a labour camp in the Urals, from which he returned in October 1947.",
+      "pl": "7 marca 1945 r. w Milanówku NKWD aresztowało gen. Augusta Emila Fieldorfa „Nila” – organizatora i szefa Kedywu Komendy Głównej AK oraz szefa powstałej w styczniu 1945 r. organizacji „Nie” – ukrywającego się pod nazwiskiem Walenty Gdanicki. Nierozpoznany, został zesłany do obozu pracy na Uralu, skąd wrócił w październiku 1947 r."
+    },
+    "sources": [
+      {
+        "title": "Kalendarz historyczny: 7 marca",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/kalendarz-historyczny/7/3",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      },
+      {
+        "title": "Kalendarz historyczny: 29 stycznia",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/kalendarz-historyczny/29/1",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "Based only on a short entry in the dzieje.pl historical calendar; to be expanded when a fuller institutional source is found.",
+      "pl": "Oparte wyłącznie na krótkiej notce kalendarium dzieje.pl; do rozszerzenia po znalezieniu pełniejszego źródła instytucjonalnego."
+    }
+  },
+  {
+    "id": "sandomierz-prison-escape-1945",
+    "title": {
+      "en": "Escape from the security office prison in Sandomierz",
+      "pl": "Ucieczka z więzienia UB w Sandomierzu"
+    },
+    "startDate": "1945-03-10",
+    "endDate": "1945-03-10",
+    "datePrecision": "day",
+    "location": {
+      "lat": 50.67592,
+      "lng": 21.74719,
+      "name": {
+        "en": "Sandomierz Castle",
+        "pl": "Zamek w Sandomierzu"
+      },
+      "precision": "exact"
+    },
+    "type": "resistance_operation",
+    "belligerents": [
+      "Polish anti-communist underground",
+      "Polish communist security forces"
+    ],
+    "summary": {
+      "en": "On 10 March 1945, 126 prisoners, including Home Army and National Armed Forces (NSZ) soldiers, escaped from the Security Office (UB) prison housed in Sandomierz Castle.",
+      "pl": "10 marca 1945 r. ze zorganizowanego w murach zamku w Sandomierzu więzienia Urzędu Bezpieczeństwa uciekło 126 więźniów, w tym żołnierze Armii Krajowej i Narodowych Sił Zbrojnych."
+    },
+    "sources": [
+      {
+        "title": "Kalendarz historyczny: 10 marca",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/kalendarz-historyczny/10/3",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "Based only on a short entry in the dzieje.pl historical calendar; to be expanded when a fuller institutional source is found.",
+      "pl": "Oparte wyłącznie na krótkiej notce kalendarium dzieje.pl; do rozszerzenia po znalezieniu pełniejszego źródła instytucjonalnego."
+    }
+  },
+  {
+    "id": "swinoujscie-bombing-1945",
+    "title": {
+      "en": "Bombing of Świnoujście",
+      "pl": "Bombardowanie Świnoujścia"
+    },
+    "startDate": "1945-03-12",
+    "endDate": "1945-03-12",
+    "datePrecision": "day",
+    "location": {
+      "lat": 53.90975,
+      "lng": 14.25107,
+      "name": {
+        "en": "Świnoujście (Swinemünde)",
+        "pl": "Świnoujście"
+      },
+      "precision": "town"
+    },
+    "type": "bombing",
+    "belligerents": [
+      "United States",
+      "Germany"
+    ],
+    "summary": {
+      "en": "At midday on 12 March 1945, at the request of the Red Army command, over 600 heavy bombers of the US 8th Air Force attacked Świnoujście (Swinemünde), then a German Kriegsmarine base and transport hub, dropping about 1,600 tonnes of bombs in an hour-long raid. The town of about 22,000 was overflowing with refugees fleeing the Soviet advance. None of the large military installations was hit; one theory holds that bombs fell by navigational error on the spa park, where tens of thousands of refugees and soldiers awaited evacuation.",
+      "pl": "W południe 12 marca 1945 r., na prośbę dowództwa Armii Czerwonej, ponad 600 ciężkich bombowców 8. Floty Powietrznej USA zaatakowało Świnoujście (Swinemünde), ówczesną bazę Kriegsmarine i węzeł komunikacyjny, zrzucając w ciągu godzinnego nalotu ok. 1600 ton bomb. Miasto liczące ok. 22 tys. mieszkańców było przepełnione uciekinierami przed wojskami sowieckimi. Żaden z dużych obiektów wojskowych nie został trafiony; jedna z teorii mówi o pomyłce nawigacyjnej, w wyniku której bomby spadły na park zdrojowy, gdzie na ewakuację czekały dziesiątki tysięcy uciekinierów i żołnierzy."
+    },
+    "casualties": {
+      "en": "Unknown: estimates range from several thousand to over 20,000; about ten thousand or more is considered likely (Coastal Defence Museum historian via PAP; the dzieje.pl calendar gives probably 10,000).",
+      "pl": "Nieznana: szacunki wahają się od kilku tysięcy do ponad 20 tys.; za prawdopodobną uważa się liczbę kilkunastu tysięcy (historyk Muzeum Obrony Wybrzeża za PAP; kalendarium dzieje.pl podaje prawdopodobnie 10 tys.)."
+    },
+    "sources": [
+      {
+        "title": "70. rocznica bombardowania Świnoujścia",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/aktualnosci/70-rocznica-bombardowania-swinoujscia",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      },
+      {
+        "title": "Kalendarz historyczny: 12 marca",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/kalendarz-historyczny/12/3",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true
+  },
+  {
+    "id": "gdansk-1945",
+    "title": {
+      "en": "Capture and destruction of Gdańsk",
+      "pl": "Zdobycie i zniszczenie Gdańska"
+    },
+    "startDate": "1945-03-14",
+    "endDate": "1945-03-30",
+    "datePrecision": "day",
+    "location": {
+      "lat": 54.34848,
+      "lng": 18.65348,
+      "name": {
+        "en": "Gdańsk (Main Town)",
+        "pl": "Gdańsk (Główne Miasto)"
+      },
+      "precision": "town"
+    },
+    "type": "siege",
+    "belligerents": [
+      "Soviet Union",
+      "Poland (1st Armoured Brigade)",
+      "Germany"
+    ],
+    "summary": {
+      "en": "On 14 March 1945 the 2nd Belorussian Front began its offensive on Gdańsk, declared a fortress (Festung Danzig) to cover the sea evacuation of hundreds of thousands of Germans; Western Allied aircraft had been bombing it since early March. Soviet forces entered Sopot on 23 March and Oliwa on 25 March, when the assault on the historic centre began; uncontrolled fires followed the shelling. A Polish flag was raised over the ruins of Artus Court on 28 March, and the Red Army announced the capture of the city on 30 March, though fighting on the outskirts went on until 7 April. A period of Soviet terror, rape and looting began for the remaining population, Polish and German alike; NKVD officers arrested the clergy of Oliwa, including Bishop Karol Maria Splett, and the shipyard was dismantled and shipped to the USSR.",
+      "pl": "14 marca 1945 r. 2. Front Białoruski rozpoczął ofensywę na Gdańsk, ogłoszony twierdzą (Festung Danzig), aby osłaniać morską ewakuację setek tysięcy Niemców; zachodni alianci bombardowali miasto od początku marca. Wojska sowieckie wkroczyły do Sopotu 23 marca, a do Oliwy 25 marca, gdy rozpoczął się szturm historycznego centrum; ostrzał wywołał pożary, których nie było czym gasić. Polska flaga zawisła nad ruinami Dworu Artusa 28 marca, a 30 marca Armia Czerwona ogłosiła zdobycie miasta, choć walki na obrzeżach trwały do 7 kwietnia. Dla pozostałej ludności – zarówno Polaków, jak i Niemców – rozpoczął się okres sowieckiego terroru, gwałtów i grabieży; funkcjonariusze NKWD aresztowali duchownych w Oliwie z bp. Karolem Marią Splettem, a urządzenia stoczni wywieziono do ZSRS."
+    },
+    "casualties": {
+      "en": "About 90% of the buildings of the historic centre were destroyed (Museum of WWII).",
+      "pl": "Zniszczeniu uległo ok. 90% zabudowy historycznego śródmieścia (MIIWŚ)."
+    },
+    "sources": [
+      {
+        "title": "#WojennyDzień – Zajęcie Gdańska przez wojska sowieckie",
+        "publisher": "Muzeum II Wojny Światowej w Gdańsku",
+        "url": "https://muzeum1939.pl/wojennydzien-zajecie-gdanska-przez-wojska-sowieckie/aktualnosci/4229.html",
+        "tier": 1,
+        "accessed": "2026-11-19"
+      },
+      {
+        "title": "Zdobycie Gdańska przez Armię Czerwoną z perspektywy diecezji gdańskiej",
+        "publisher": "Przystanek Historia (IPN)",
+        "url": "https://przystanekhistoria.pl/pa2/teksty/121217,Zdobycie-Gdanska-przez-Armie-Czerwona-z-perspektywy-diecezji-gdanskiej.html",
+        "tier": 1,
+        "accessed": "2026-11-19"
+      },
+      {
+        "title": "Kalendarz historyczny: 30 marca",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/kalendarz-historyczny/30/3",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "Fighting on the Vistula Spit and in the flooded Żuławy continued until 9 May (Przystanek Historia).",
+      "pl": "Walki na Mierzei Wiślanej i zalanych Żuławach trwały do 9 maja (Przystanek Historia)."
+    }
+  },
+  {
+    "id": "lamsdorf-liberation-1945",
+    "title": {
+      "en": "Red Army reaches Stalag 344 Lamsdorf",
+      "pl": "Armia Czerwona zajmuje Stalag 344 Lamsdorf"
+    },
+    "startDate": "1945-03-17",
+    "endDate": "1945-03-17",
+    "datePrecision": "day",
+    "location": {
+      "lat": 50.53844,
+      "lng": 17.55964,
+      "name": {
+        "en": "Łambinowice (Lamsdorf)",
+        "pl": "Łambinowice (Lamsdorf)"
+      },
+      "precision": "town"
+    },
+    "type": "liberation",
+    "belligerents": [
+      "Soviet Union",
+      "Germany"
+    ],
+    "summary": {
+      "en": "On 17 March 1945 Red Army units took the German prisoner-of-war camp Stalag 344 Lamsdorf at Łambinowice, freeing – by various estimates – from several hundred to 4,000 exhausted prisoners, mainly Soviet.",
+      "pl": "17 marca 1945 r. oddziały Armii Czerwonej zajęły niemiecki obóz jeniecki Stalag 344 Lamsdorf w Łambinowicach, wyzwalając według różnych szacunków od kilkuset do 4 tys. wycieńczonych jeńców, głównie sowieckich."
+    },
+    "sources": [
+      {
+        "title": "Kalendarz historyczny: 17 marca",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/kalendarz-historyczny/17/3",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "Based only on a short entry in the dzieje.pl historical calendar; to be expanded when a fuller institutional source is found.",
+      "pl": "Oparte wyłącznie na krótkiej notce kalendarium dzieje.pl; do rozszerzenia po znalezieniu pełniejszego źródła instytucjonalnego."
+    }
+  },
+  {
+    "id": "arrest-of-the-sixteen-1945",
+    "title": {
+      "en": "NKVD arrest of the sixteen leaders of the Polish Underground State",
+      "pl": "Aresztowanie szesnastu przywódców Polskiego Państwa Podziemnego"
+    },
+    "startDate": "1945-03-27",
+    "endDate": "1945-03-28",
+    "datePrecision": "day",
+    "location": {
+      "lat": 52.17196,
+      "lng": 20.80298,
+      "name": {
+        "en": "Pruszków",
+        "pl": "Pruszków"
+      },
+      "precision": "town"
+    },
+    "type": "occupation_policy",
+    "belligerents": [
+      "Soviet Union"
+    ],
+    "summary": {
+      "en": "Invited by a 'Colonel Pimenov' of the NKVD to talks with a 'General Ivanov' – in reality NKVD general Ivan Serov – on forming a new government, with guarantees of safety, the leaders of the Polish Underground State came to a villa in Pruszków. On 27 March 1945 Government Delegate Jan Stanisław Jankowski, the last AK commander Gen. Leopold Okulicki and Council of National Unity chairman Kazimierz Pużak were arrested; the others the next day – 16 people in all, including deputy delegates, most of the Council and party representatives. They were flown to the Lubyanka prison in Moscow and tried in a humiliating show trial; Okulicki, Jankowski and Stanisław Jasiukowicz died in Soviet prisons.",
+      "pl": "Zaproszeni przez „płk. Pimienowa” z NKWD na rozmowy z „gen. Iwanowem” – w rzeczywistości gen. NKWD Iwanem Sierowem – o utworzeniu nowego rządu, z gwarancją bezpieczeństwa, przywódcy Polskiego Państwa Podziemnego przybyli do willi w Pruszkowie. 27 marca 1945 r. aresztowano Delegata Rządu na Kraj Jana Stanisława Jankowskiego, ostatniego komendanta AK gen. Leopolda Okulickiego i przewodniczącego Rady Jedności Narodowej Kazimierza Pużaka, a dzień później pozostałych – łącznie 16 osób, w tym zastępców Delegata, większość składu RJN i przedstawicieli partii. Przewieziono ich do więzienia na Łubiance w Moskwie i osądzono w upokarzającym procesie; Okulicki, Jankowski i Stanisław Jasiukowicz zmarli w sowieckich więzieniach."
+    },
+    "sources": [
+      {
+        "title": "Aresztowanie szesnastu przywódców Polskiego Państwa Podziemnego",
+        "publisher": "Przystanek Historia (IPN)",
+        "url": "https://przystanekhistoria.pl/pa2/tematy/proces-szesnastu/99280,Aresztowanie-szesnastu-przywodcow-Polskiego-Panstwa-Podziemnego.html",
+        "tier": 1,
+        "accessed": "2026-11-19"
+      },
+      {
+        "title": "Kalendarz historyczny: 27 marca",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/kalendarz-historyczny/27/3",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true
+  },
+  {
+    "id": "gdynia-1945",
+    "title": {
+      "en": "Capture of Gdynia",
+      "pl": "Zdobycie Gdyni"
+    },
+    "startDate": "1945-03-28",
+    "endDate": "1945-03-28",
+    "datePrecision": "day",
+    "location": {
+      "lat": 54.5165,
+      "lng": 18.54027,
+      "name": {
+        "en": "Gdynia",
+        "pl": "Gdynia"
+      },
+      "precision": "town"
+    },
+    "type": "battle",
+    "belligerents": [
+      "Soviet Union",
+      "Poland (1st Armoured Brigade)",
+      "Germany"
+    ],
+    "summary": {
+      "en": "On 28 March 1945 troops of the 2nd Belorussian Front took Gdynia, which Hitler had ordered defended to the last together with Gdańsk; the Polish 1st Armoured Brigade 'Heroes of Westerplatte' took part in the fighting. On 8 April its soldiers held a ceremony of Poland's 'wedding to the sea' in Gdynia.",
+      "pl": "28 marca 1945 r. wojska 2. Frontu Białoruskiego zajęły Gdynię, której – podobnie jak Gdańska – Hitler kazał bronić bezwzględnie; w walkach uczestniczyła polska 1. Brygada Pancerna im. Bohaterów Westerplatte. 8 kwietnia jej żołnierze odbyli w Gdyni zaślubiny Polski z morzem."
+    },
+    "sources": [
+      {
+        "title": "Kalendarz historyczny: 28 marca",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/kalendarz-historyczny/28/3",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      },
+      {
+        "title": "Kalendarz historyczny: 8 kwietnia",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/kalendarz-historyczny/8/4",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      },
+      {
+        "title": "#WojennyDzień – Zajęcie Gdańska przez wojska sowieckie",
+        "publisher": "Muzeum II Wojny Światowej w Gdańsku",
+        "url": "https://muzeum1939.pl/wojennydzien-zajecie-gdanska-przez-wojska-sowieckie/aktualnosci/4229.html",
+        "tier": 1,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true
+  },
+  {
+    "id": "gorajec-pacification-1945",
+    "title": {
+      "en": "Pacification of Gorajec",
+      "pl": "Pacyfikacja Gorajca"
+    },
+    "startDate": "1945-04-06",
+    "endDate": "1945-04-06",
+    "datePrecision": "day",
+    "location": {
+      "lat": 50.26915,
+      "lng": 23.20502,
+      "name": {
+        "en": "Gorajec, near Lubaczów",
+        "pl": "Gorajec koło Lubaczowa"
+      },
+      "precision": "town"
+    },
+    "type": "massacre",
+    "belligerents": [
+      "Polish communist internal troops"
+    ],
+    "summary": {
+      "en": "On 6 April 1945 an Independent Battalion of the Internal Troops pacified the village of Gorajec near Lubaczów; about 150 Ukrainians were killed, most of them civilians.",
+      "pl": "6 kwietnia 1945 r. Samodzielny Batalion Wojsk Wewnętrznych dokonał pacyfikacji wsi Gorajec w okolicach Lubaczowa; zabito ok. 150 Ukraińców, w większości cywilów."
+    },
+    "casualties": {
+      "en": "About 150 Ukrainians, mostly civilians (dzieje.pl calendar).",
+      "pl": "Ok. 150 Ukraińców, w większości cywilów (kalendarium dzieje.pl)."
+    },
+    "sources": [
+      {
+        "title": "Kalendarz historyczny: 6 kwietnia",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/kalendarz-historyczny/6/4",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "Based only on a short entry in the dzieje.pl historical calendar; to be expanded when a fuller institutional source is found.",
+      "pl": "Oparte wyłącznie na krótkiej notce kalendarium dzieje.pl; do rozszerzenia po znalezieniu pełniejszego źródła instytucjonalnego."
+    }
+  },
+  {
+    "id": "oder-crossing-siekierki-1945",
+    "title": {
+      "en": "1st Polish Army crosses the Oder at Siekierki",
+      "pl": "Forsowanie Odry przez 1. Armię WP pod Siekierkami"
+    },
+    "startDate": "1945-04-16",
+    "endDate": "1945-04-20",
+    "datePrecision": "day",
+    "location": {
+      "lat": 52.809,
+      "lng": 14.24445,
+      "name": {
+        "en": "Siekierki and Gozdowice on the Oder",
+        "pl": "Siekierki i Gozdowice nad Odrą"
+      },
+      "precision": "town"
+    },
+    "type": "battle",
+    "belligerents": [
+      "Poland (1st Polish Army)",
+      "Soviet Union",
+      "Germany"
+    ],
+    "summary": {
+      "en": "On 16 April 1945, as the Red Army opened its offensive on Berlin, the 1st Polish Army under Gen. Stanisław Popławski forced the Oder near Siekierki and Gozdowice. After an artillery barrage from about 4 a.m., soldiers of the 1st Infantry Division crossed first; by the end of the day, at heavy cost, the west bank was reached and the bridgeheads linked. The fighting, with heavy losses between the arms of the river near the Old Oder, lasted until 20 April and opened the way towards Berlin. Post-war propaganda linked the battle with the medieval Polish victory at nearby Cedynia.",
+      "pl": "16 kwietnia 1945 r., gdy Armia Czerwona rozpoczęła ofensywę na Berlin, 1. Armia WP pod dowództwem gen. Stanisława Popławskiego sforsowała Odrę w rejonie Siekierek i Gozdowic. Po ostrzale artyleryjskim od ok. godz. 4 jako pierwsi przeprawili się żołnierze 1. Dywizji Piechoty; do końca dnia, przy dużych stratach, osiągnięto zachodni brzeg i połączono przyczółki. Walki, z ciężkimi stratami na międzyodrzu w rejonie Starej Odry, trwały do 20 kwietnia i otworzyły drogę na Berlin. Powojenna propaganda łączyła tę bitwę z pobliskim średniowiecznym zwycięstwem pod Cedynią."
+    },
+    "casualties": {
+      "en": "Nearly 2,000 soldiers killed in the fighting around Siekierki and Gozdowice are buried in the war cemetery at Siekierki (dzieje.pl/PAP).",
+      "pl": "Blisko 2 tys. poległych w walkach w rejonie Siekierek i Gozdowic spoczywa na cmentarzu wojennym w Siekierkach (dzieje.pl/PAP)."
+    },
+    "sources": [
+      {
+        "title": "70 lat temu żołnierze 1. Armii Wojska Polskiego sforsowali Odrę",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/aktualnosci/70-lat-temu-zolnierze-1-armii-wojska-polskiego-sforsowali-odre",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      },
+      {
+        "title": "Kalendarz historyczny: 16 kwietnia",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/kalendarz-historyczny/16/4",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true
+  },
+  {
+    "id": "piskorowice-1945",
+    "title": {
+      "en": "Piskorowice massacre",
+      "pl": "Zbrodnia w Piskorowicach"
+    },
+    "startDate": "1945-04-18",
+    "endDate": "1945-04-18",
+    "datePrecision": "day",
+    "location": {
+      "lat": 50.23509,
+      "lng": 22.53013,
+      "name": {
+        "en": "Piskorowice, near Leżajsk",
+        "pl": "Piskorowice koło Leżajska"
+      },
+      "precision": "town"
+    },
+    "type": "massacre",
+    "belligerents": [
+      "Polish anti-communist underground (NOW)"
+    ],
+    "summary": {
+      "en": "On 18 April 1945, after the front had passed, units of the National Military Organisation (NOW) commanded by Józef Zadzierski 'Wołyniak' murdered Ukrainian inhabitants of Piskorowice. The IPN describes it as the culmination of the Polish–Ukrainian conflict in the area between Kuryłówka, Tarnogród and Wiązownica, whose roots it traces to the 1943 German 'Werwolf' pacification and expulsion operation in Biłgoraj county.",
+      "pl": "18 kwietnia 1945 r., już po przejściu frontu, oddziały Narodowej Organizacji Wojskowej dowodzone przez Józefa Zadzierskiego „Wołyniaka” zamordowały ukraińskich mieszkańców Piskorowic. IPN określa tę zbrodnię jako apogeum konfliktu polsko-ukraińskiego na obszarze między Kuryłówką, Tarnogrodem i Wiązownicą, którego korzenie wiąże z niemiecką operacją pacyfikacyjno-wysiedleńczą „Werwolf” w powiecie biłgorajskim w 1943 r."
+    },
+    "casualties": {
+      "en": "About 100 people of Ukrainian nationality (IPN publication by Tomasz Bereza; dzieje.pl calendar).",
+      "pl": "Ok. 100 osób narodowości ukraińskiej (publikacja IPN Tomasza Berezy; kalendarium dzieje.pl)."
+    },
+    "sources": [
+      {
+        "title": "Wokół Piskorowic. Przyczynek do dziejów konfliktu polsko-ukraińskiego na Zasaniu w latach 1939–1945 (opis publikacji)",
+        "publisher": "Instytut Pamięci Narodowej",
+        "url": "https://ipn.gov.pl/pl/wydawnictwo/ksiazki/13133,Wokol-Piskorowic-Przyczynek-do-dziejow-konfliktu-polsko-ukrainskiego-na-Zasaniu-.html",
+        "tier": 1,
+        "accessed": "2026-11-19"
+      },
+      {
+        "title": "Kalendarz historyczny: 18 kwietnia",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/kalendarz-historyczny/18/4",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "The IPN publication notes that figures in the literature differ and attempts to verify them.",
+      "pl": "Publikacja IPN zwraca uwagę na rozbieżności liczb ofiar w literaturze i podejmuje próbę ich weryfikacji."
+    }
+  },
+  {
+    "id": "borownica-1945",
+    "title": {
+      "en": "UPA attack on Borownica",
+      "pl": "Atak UPA na Borownicę"
+    },
+    "startDate": "1945-04-20",
+    "endDate": "1945-04-20",
+    "datePrecision": "day",
+    "location": {
+      "lat": 49.70073,
+      "lng": 22.30485,
+      "name": {
+        "en": "Borownica, near Bircza",
+        "pl": "Borownica koło Birczy"
+      },
+      "precision": "town"
+    },
+    "type": "massacre",
+    "belligerents": [
+      "Ukrainian Insurgent Army (UPA)"
+    ],
+    "summary": {
+      "en": "On 20 April 1945 combined groups of the OUN security service (SB) and UPA field gendarmerie, led by Mykhailo Duda 'Hromenko', attacked the village of Borownica. Notes reading 'For Pawłokoma' were left by the bodies of the victims.",
+      "pl": "20 kwietnia 1945 r. połączone grupy Służby Bezpieczeństwa OUN i żandarmerii polowej UPA, dowodzone przez Mychajła Dudę „Hromenkę”, dokonały pacyfikacji wsi Borownica. Obok ciał ofiar pozostawiono kartki z napisem „Za Pawłokomę”."
+    },
+    "casualties": {
+      "en": "61 or 62 people killed (Przystanek Historia).",
+      "pl": "Zginęło 61 lub 62 osoby (Przystanek Historia)."
+    },
+    "sources": [
+      {
+        "title": "Mord w Sieniawie",
+        "publisher": "Przystanek Historia (IPN)",
+        "url": "https://przystanekhistoria.pl/pa2/teksty/71691,Mord-w-Sieniawie.html",
+        "tier": 1,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true
+  },
+  {
+    "id": "pulawy-ub-raid-1945",
+    "title": {
+      "en": "Raid on the security office in Puławy",
+      "pl": "Rozbicie PUBP w Puławach"
+    },
+    "startDate": "1945-04-24",
+    "endDate": "1945-04-24",
+    "datePrecision": "day",
+    "location": {
+      "lat": 51.41717,
+      "lng": 21.97206,
+      "name": {
+        "en": "Puławy",
+        "pl": "Puławy"
+      },
+      "precision": "town"
+    },
+    "type": "resistance_operation",
+    "belligerents": [
+      "Polish post-Home Army underground",
+      "Polish communist security forces"
+    ],
+    "summary": {
+      "en": "On 24 April 1945 a partisan unit under Maj. Marian Bernaciak 'Orlik' raided the District Public Security Office (PUBP) in Puławy and freed 107 prisoners.",
+      "pl": "24 kwietnia 1945 r. oddział partyzancki mjr. Mariana Bernaciaka „Orlika” rozbił Powiatowy Urząd Bezpieczeństwa Publicznego w Puławach, uwalniając 107 więźniów."
+    },
+    "sources": [
+      {
+        "title": "Kalendarz historyczny: 24 kwietnia",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/kalendarz-historyczny/24/4",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      },
+      {
+        "title": "Żołnierze wyklęci. Antykomunistyczne podziemie na Rzeszowszczyźnie po 1944 roku (wystawa)",
+        "publisher": "Instytut Pamięci Narodowej",
+        "url": "https://ipn.gov.pl/pl/edukacja-1/wystawy/13551,Zolnierze-wykleci-Antykomunistyczne-podziemie-na-Rzeszowszczyznie-po-1944-roku.html",
+        "tier": 1,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "The dzieje.pl calendar describes the unit as belonging to Freedom and Independence (WiN); according to the IPN, WiN was only founded on 2 September 1945, so in April the unit belonged to the post-Home Army underground.",
+      "pl": "Kalendarium dzieje.pl określa oddział jako należący do Zrzeszenia „Wolność i Niezawisłość”; według IPN WiN powstało dopiero 2 września 1945 r., więc w kwietniu oddział należał do podziemia poakowskiego."
+    }
+  },
+  {
+    "id": "szczecin-1945",
+    "title": {
+      "en": "Red Army takes Szczecin; first Polish city administration",
+      "pl": "Zajęcie Szczecina przez Armię Czerwoną; pierwszy polski zarząd miasta"
+    },
+    "startDate": "1945-04-26",
+    "endDate": "1945-04-30",
+    "datePrecision": "day",
+    "location": {
+      "lat": 53.42872,
+      "lng": 14.56423,
+      "name": {
+        "en": "Szczecin (Stettin)",
+        "pl": "Szczecin"
+      },
+      "precision": "town"
+    },
+    "type": "liberation",
+    "belligerents": [
+      "Soviet Union",
+      "Germany"
+    ],
+    "summary": {
+      "en": "On 26 April 1945 the Soviet 65th Army under Gen. Pavel Batov took the left-bank part of Szczecin, essentially without a fight; power passed to a Soviet military commandant, Col. Aleksandr Fedotov. On 28 April Piotr Zaremba arrived as the Provisional Government's representative and on 30 April took charge of a Polish city administration. The city's fate remained undecided for weeks: Polish settlers were few, a German municipal administration formed by German communists was set up on 5 May, and the Polish administration was forced to leave on 19 May. It formally took over the city from the Soviet commandant only on 5 July 1945.",
+      "pl": "26 kwietnia 1945 r. sowiecka 65. Armia gen. Pawła Batowa zajęła lewobrzeżny Szczecin, w zasadzie bez walki; władzę objął sowiecki komendant wojenny płk Aleksander Fiedotow. 28 kwietnia przybył do miasta przedstawiciel Rządu Tymczasowego Piotr Zaremba, który 30 kwietnia stanął na czele polskiego zarządu miasta. Los Szczecina przez kilka tygodni nie był przesądzony: polskich osadników było niewielu, 5 maja powołano niemiecki zarząd miejski utworzony przez niemieckich komunistów, a 19 maja polski zarząd został zmuszony do opuszczenia miasta. Formalnie przejął on miasto od sowieckiej komendantury dopiero 5 lipca 1945 r."
+    },
+    "sources": [
+      {
+        "title": "70 lat temu Szczecin przejęła polska administracja",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/aktualnosci/70-lat-temu-szczecin-przejela-polska-administracja",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      },
+      {
+        "title": "Kalendarz historyczny: 28 kwietnia",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/kalendarz-historyczny/28/4",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "The dzieje.pl calendar says Zaremba took over the administration at 14:15 on 28 April; the historian quoted by PAP dates his taking charge to 30 April.",
+      "pl": "Kalendarium dzieje.pl podaje, że Zaremba przejął administrację 28 kwietnia o godz. 14.15; cytowany przez PAP historyk datuje objęcie przez niego zarządu na 30 kwietnia."
+    }
+  },
+  {
+    "id": "krasnosielc-raid-1945",
+    "title": {
+      "en": "NSZ raid on the security office jail in Krasnosielc",
+      "pl": "Akcja NSZ na areszt PUBP w Krasnosielcu"
+    },
+    "startDate": "1945-05-01",
+    "endDate": "1945-05-02",
+    "datePrecision": "day",
+    "location": {
+      "lat": 53.03358,
+      "lng": 21.15753,
+      "name": {
+        "en": "Krasnosielc, near Maków Mazowiecki",
+        "pl": "Krasnosielc koło Makowa Mazowieckiego"
+      },
+      "precision": "town"
+    },
+    "type": "resistance_operation",
+    "belligerents": [
+      "Polish anti-communist underground (NSZ)",
+      "Polish communist security forces"
+    ],
+    "summary": {
+      "en": "In the night of 1–2 May 1945 a National Armed Forces (NSZ) unit under Lt Roman Dziemieszkiewicz 'Pogoda' freed several dozen NSZ and Home Army soldiers held in the jail of the District Public Security Office in Krasnosielc, who were due to be deported to the USSR.",
+      "pl": "W nocy z 1 na 2 maja 1945 r. oddział Narodowych Sił Zbrojnych por. Romana Dziemieszkiewicza „Pogody” uwolnił z aresztu Powiatowego Urzędu Bezpieczeństwa Publicznego w Krasnosielcu kilkudziesięciu żołnierzy NSZ i Armii Krajowej przeznaczonych do wywiezienia do ZSRS."
+    },
+    "sources": [
+      {
+        "title": "Kalendarz historyczny: 1 maja",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/kalendarz-historyczny/1/5",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "Based only on a short entry in the dzieje.pl historical calendar; to be expanded when a fuller institutional source is found.",
+      "pl": "Oparte wyłącznie na krótkiej notce kalendarium dzieje.pl; do rozszerzenia po znalezieniu pełniejszego źródła instytucjonalnego."
+    }
+  },
+  {
+    "id": "kurylowka-1945",
+    "title": {
+      "en": "Battle of Kuryłówka and NKVD reprisal",
+      "pl": "Bitwa pod Kuryłówką i odwet NKWD"
+    },
+    "startDate": "1945-05-06",
+    "endDate": "1945-05-08",
+    "datePrecision": "day",
+    "location": {
+      "lat": 50.29912,
+      "lng": 22.46818,
+      "name": {
+        "en": "Kuryłówka, near Leżajsk",
+        "pl": "Kuryłówka koło Leżajska"
+      },
+      "precision": "town"
+    },
+    "type": "battle",
+    "belligerents": [
+      "Polish anti-communist underground (NOW)",
+      "Soviet Union (NKVD)"
+    ],
+    "summary": {
+      "en": "Near Kuryłówka, a patrol of Stanisław Pelczar 'Majka''s unit of the National Military Organisation (NOW) ran into a line of Soviet soldiers; the fight drew in other forest units under Maj. Franciszek Przysiężniak 'Ojciec Jan'. In a battle of nearly seven hours the partisans repulsed three attacks by an NKVD expedition before withdrawing in the late afternoon, together with some of the villagers. On 8 May – the day Germany's capitulation was signed – NKVD troops entered Kuryłówka, murdered eight inhabitants and burned the village. It is counted among the largest victorious battles of the anti-communist underground in 1945.",
+      "pl": "Pod Kuryłówką patrol z oddziału Narodowej Organizacji Wojskowej Stanisława Pelczara „Majki” natknął się na tyralierę żołnierzy sowieckich; do walki włączyły się pozostałe oddziały leśne mjr. Franciszka Przysiężniaka „Ojca Jana”. W bitwie trwającej blisko siedem godzin partyzanci odparli trzy ataki ekspedycji NKWD, po czym późnym popołudniem wycofali się wraz z częścią mieszkańców. 8 maja – w dniu podpisania kapitulacji Niemiec – do Kuryłówki wkroczyli Sowieci, zamordowali ośmiu mieszkańców i spalili wieś. Zalicza się ją do największych zwycięskich bojów podziemia antykomunistycznego w 1945 r."
+    },
+    "casualties": {
+      "en": "7 NOW soldiers killed and 5 seriously wounded; 57 NKVD soldiers killed according to PAP (about 50 according to the dzieje.pl calendar); 8 villagers murdered in the reprisal.",
+      "pl": "Poległo 7 żołnierzy NOW, a 5 zostało ciężko rannych; straty NKWD według PAP 57 zabitych (według kalendarium dzieje.pl ok. 50); w odwecie zamordowano 8 mieszkańców."
+    },
+    "sources": [
+      {
+        "title": "W Kuryłówce oddano hołd poległym w walce żołnierzom NOW i pomordowanym przez NKWD mieszkańcom",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/wiadomosci/w-kurylowce-oddano-hold-poleglym-w-walce-zolnierzom-now-i-pomordowanym-przez-nkwd",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      },
+      {
+        "title": "Żołnierze wyklęci. Antykomunistyczne podziemie na Rzeszowszczyźnie po 1944 roku (wystawa)",
+        "publisher": "Instytut Pamięci Narodowej",
+        "url": "https://ipn.gov.pl/pl/edukacja-1/wystawy/13551,Zolnierze-wykleci-Antykomunistyczne-podziemie-na-Rzeszowszczyznie-po-1944-roku.html",
+        "tier": 1,
+        "accessed": "2026-11-19"
+      },
+      {
+        "title": "Kalendarz historyczny: 7 maja",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/kalendarz-historyczny/7/5",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "Sources disagree on the date of the battle: PAP gives 6 May, the IPN exhibition and the dzieje.pl calendar 7 May.",
+      "pl": "Źródła różnią się co do daty bitwy: PAP podaje 6 maja, wystawa IPN i kalendarium dzieje.pl – 7 maja."
     }
   }
 ]
