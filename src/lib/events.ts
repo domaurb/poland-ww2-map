@@ -1,10 +1,10 @@
 import type { EventIndex } from "../data/schema";
 import type { EventType } from "../data/constants";
 
-export type Filters = { types: Set<EventType>; verifiedOnly: boolean };
+export type Filters = { types: Set<EventType> };
 
 export const applyFilters = (events: EventIndex[], f: Filters) =>
-  events.filter((e) => f.types.has(e.type) && (!f.verifiedOnly || e.verified));
+  events.filter((e) => f.types.has(e.type));
 
 /** Events active on `date`, split into those that begin that day and ongoing ones. */
 export function eventsOnDate(events: EventIndex[], date: string) {

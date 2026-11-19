@@ -68,23 +68,23 @@ describe("event queries", () => {
     expect(prevDate(dates, "1944-08-05")).toBe("1944-08-01");
     expect(prevDate(dates, "1944-08-01")).toBeNull();
   });
-  it("filters by type and verification", () => {
-    expect(applyFilters(events, { types: new Set(["massacre"]), verifiedOnly: false }).map((e) => e.id)).toEqual(["wola"]);
-    expect(applyFilters(events, { types: new Set(EVENT_TYPES), verifiedOnly: true }).map((e) => e.id)).toEqual(["uprising", "other-day"]);
+  it("filters by type", () => {
+    expect(applyFilters(events, { types: new Set(["massacre"]) }).map((e) => e.id)).toEqual(["wola"]);
+    expect(applyFilters(events, { types: new Set(EVENT_TYPES) })).toHaveLength(3);
   });
 });
 
 describe("URL state", () => {
   it("round-trips a shared date link", () => {
     const s = parseUrl("?date=1944-08-01&lang=pl");
-    expect(s).toMatchObject({ date: "1944-08-01", lang: "pl", mode: "date", page: "map", event: null, verifiedOnly: false });
+    expect(s).toMatchObject({ date: "1944-08-01", lang: "pl", mode: "date", page: "map", event: null });
     expect(toSearch(s)).toBe("?date=1944-08-01&lang=pl");
   });
   it("supports overview mode and filters", () => {
-    const s = parseUrl("?mode=overview&lang=en&types=battle,siege&verified=1");
+    const s = parseUrl("?mode=overview&lang=en&types=battle,siege&verified=1"); // old links: `verified` is ignored
     expect(s.mode).toBe("overview");
     expect([...s.types].sort()).toEqual(["battle", "siege"]);
-    expect(toSearch(s)).toBe("?mode=overview&lang=en&types=battle,siege&verified=1");
+    expect(toSearch(s)).toBe("?mode=overview&lang=en&types=battle,siege");
   });
   it("rejects invalid or out-of-range dates", () => {
     expect(parseUrl("?date=1944-02-30").date).toBe("1939-09-01");

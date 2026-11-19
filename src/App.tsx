@@ -52,7 +52,7 @@ export default function App() {
   }, [s.lang, t]);
 
   // ---- derived data --------------------------------------------------------
-  const filtered = useMemo(() => applyFilters(ALL_EVENTS, { types: s.types, verifiedOnly: s.verifiedOnly }), [s.types, s.verifiedOnly]);
+  const filtered = useMemo(() => applyFilters(ALL_EVENTS, { types: s.types }), [s.types]);
   const dates = useMemo(() => startDates(filtered), [filtered]);
   const { began, ongoing } = useMemo(() => eventsOnDate(filtered, s.date), [filtered, s.date]);
   const ranked = useMemo(() => significantEvents(filtered), [filtered]);
@@ -122,10 +122,8 @@ export default function App() {
     <LegendFilters
       lang={s.lang}
       types={s.types}
-      verifiedOnly={s.verifiedOnly}
       counts={TYPE_COUNTS as Partial<Record<EventType, number>>}
       onTypes={(types) => update({ types })}
-      onVerifiedOnly={(verifiedOnly) => update({ verifiedOnly })}
       borders={s.borders}
       onBorders={(borders) => update({ borders })}
     />

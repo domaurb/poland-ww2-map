@@ -16,7 +16,6 @@ export type UrlState = {
   page: Page;
   event: string | null;
   types: Set<EventType>;
-  verifiedOnly: boolean;
   speed: Speed;
   borders: Set<BorderKey>;
 };
@@ -54,7 +53,6 @@ export function parseUrl(search: string, eventStart?: (id: string) => string | u
     page: q.get("page") === "about" ? "about" : "map",
     event,
     types,
-    verifiedOnly: q.get("verified") === "1",
     speed: speed === "week" || speed === "month" ? speed : "day",
     borders,
   };
@@ -69,7 +67,6 @@ export function toSearch(s: UrlState) {
   q.set("lang", s.lang);
   if (s.event) q.set("event", s.event);
   if (s.types.size !== EVENT_TYPES.length) q.set("types", EVENT_TYPES.filter((t) => s.types.has(t)).join(","));
-  if (s.verifiedOnly) q.set("verified", "1");
   if (s.speed !== "day") q.set("speed", s.speed);
   const isDefaultBorders = s.borders.size === DEFAULT_BORDERS.length && DEFAULT_BORDERS.every((b) => s.borders.has(b));
   if (!isDefaultBorders) q.set("borders", s.borders.size ? BORDER_KEYS.filter((b) => s.borders.has(b)).join(",") : "none");

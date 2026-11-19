@@ -111,7 +111,6 @@ a { color: var(--focus); }
 .legend-item { display: flex; align-items: center; gap: 0.45rem; padding: 0.12rem 0; cursor: pointer; }
 .legend-icon { line-height: 0; }
 .legend-count { margin-left: auto; color: var(--ink-3); font-variant-numeric: tabular-nums; font-size: 0.8rem; }
-.verified-toggle { margin-top: 0.6rem; font-weight: 600; }
 .legend-key { list-style: none; padding: 0.5rem 0 0; margin: 0.6rem 0 0; border-top: 1px dashed var(--line); color: var(--ink-2); font-size: 0.82rem; }
 .legend-key li { display: flex; align-items: center; gap: 0.45rem; padding: 0.1rem 0; }
 .legend-key span { line-height: 0; width: 22px; display: inline-flex; justify-content: center; }

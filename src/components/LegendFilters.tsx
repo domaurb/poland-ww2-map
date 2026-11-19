@@ -7,17 +7,15 @@ import { markerSvg } from "./markerIcon";
 type Props = {
   lang: Lang;
   types: Set<EventType>;
-  verifiedOnly: boolean;
   counts: Partial<Record<EventType, number>>;
   onTypes: (types: Set<EventType>) => void;
-  onVerifiedOnly: (v: boolean) => void;
   borders: Set<BorderKey>;
   onBorders: (b: Set<BorderKey>) => void;
 };
 
 const FAMILIES: Family[] = ["military", "civilian", "resistance", "other"];
 
-export default function LegendFilters({ lang, types, verifiedOnly, counts, onTypes, onVerifiedOnly, borders, onBorders }: Props) {
+export default function LegendFilters({ lang, types, counts, onTypes, borders, onBorders }: Props) {
   const t = STRINGS[lang];
   const toggle = (type: EventType) => {
     const next = new Set(types);
@@ -49,10 +47,6 @@ export default function LegendFilters({ lang, types, verifiedOnly, counts, onTyp
           ))}
         </fieldset>
       ))}
-      <label className="legend-item verified-toggle">
-        <input type="checkbox" checked={verifiedOnly} onChange={(e) => onVerifiedOnly(e.target.checked)} />
-        <span>{t.verifiedOnly}</span>
-      </label>
       <fieldset className="legend-family">
         <legend>{t.borders}</legend>
         {BORDER_KEYS.map((b) => {
