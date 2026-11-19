@@ -1,0 +1,47 @@
+name: Release downloads
+
+# Push a tag like v0.2.0 to publish a GitHub Release with ready-to-open builds.
+on:
+  push:
+    tags: ["v*"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm run validate
+      - run: npm test
+      - run: npm run build
+      - run: npm run build:portable
+      - name: Package downloads
+        run: |
+          cp dist-portable/index.html poland-ww2-map.html
+          cp -r dist poland-ww2-map-site
+          cp scripts/serve/start.sh scripts/serve/start.bat scripts/serve/README.txt poland-ww2-map-site/
+          chmod +x poland-ww2-map-site/start.sh
+          zip -r poland-ww2-map-site.zip poland-ww2-map-site
+      - name: Publish release
+        if: startsWith(github.ref, 'refs/tags/')
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create "$GITHUB_REF_NAME" poland-ww2-map.html poland-ww2-map-site.zip \
+            --title "$GITHUB_REF_NAME" --notes-file .github/release-notes.md --prerelease
+      - name: Upload as workflow artifact (manual runs)
+        if: ${{ !startsWith(github.ref, 'refs/tags/') }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: poland-ww2-map-downloads
+          path: |
+            poland-ww2-map.html
+            poland-ww2-map-site.zip

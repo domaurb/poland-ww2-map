@@ -1,0 +1,6 @@
+{
+  "_comment": "Documented exceptions to validation rules. Each entry needs a reason; the event's notes must also explain it.",
+  "outOfArea": {
+    "katyn-massacre-1940": "Execution sites (Katyń, Kharkiv, Kalinin) lie in the USSR; victims were Polish citizens captured in 1939. Included for its central significance."
+  }
+}

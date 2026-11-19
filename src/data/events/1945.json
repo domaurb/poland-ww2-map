@@ -1,0 +1,132 @@
+[
+  {
+    "id": "auschwitz-liberation-1945",
+    "title": {
+      "en": "Liberation of Auschwitz",
+      "pl": "Wyzwolenie Auschwitz"
+    },
+    "startDate": "1945-01-27",
+    "endDate": "1945-01-27",
+    "datePrecision": "day",
+    "location": {
+      "lat": 50.03891,
+      "lng": 19.1713,
+      "name": {
+        "en": "Auschwitz II-Birkenau, Brzezinka near Oświęcim",
+        "pl": "Auschwitz II-Birkenau, Brzezinka koło Oświęcimia"
+      },
+      "precision": "exact"
+    },
+    "type": "liberation",
+    "belligerents": [
+      "Soviet Union",
+      "Germany"
+    ],
+    "summary": {
+      "en": "On 27 January 1945 soldiers of the 60th Army of the First Ukrainian Front reached the Auschwitz camps, where about 7,000 prisoners still remained in the Main Camp, Birkenau and Monowitz. Around 500 more prisoners were freed in sub-camps shortly before and after that day. The soldiers found the bodies of about 600 prisoners who had been shot by the withdrawing SS or had died of exhaustion. Over 230 Soviet soldiers were killed in the fighting for the camps and the town of Oświęcim.",
+      "pl": "27 stycznia 1945 r. żołnierze 60. Armii 1. Frontu Ukraińskiego dotarli do obozów Auschwitz, w których w obozie macierzystym, Birkenau i Monowitz pozostawało ok. 7 tys. więźniów. Kolejnych ok. 500 więźniów uwolniono w podobozach krótko przed tym dniem i po nim. Żołnierze znaleźli ciała ok. 600 więźniów zastrzelonych przez wycofujących się esesmanów lub zmarłych z wycieńczenia. W walkach o obozy i Oświęcim poległo ponad 230 żołnierzy sowieckich."
+    },
+    "sources": [
+      {
+        "title": "Day of liberation",
+        "publisher": "Auschwitz-Birkenau State Museum",
+        "url": "https://www.auschwitz.org/en/history/liberation/day-of-liberation/",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      }
+    ],
+    "verified": true
+  },
+  {
+    "id": "siege-of-breslau-1945",
+    "title": {
+      "en": "Siege of Breslau (Festung Breslau)",
+      "pl": "Oblężenie Wrocławia (Festung Breslau)"
+    },
+    "startDate": "1945-02-15",
+    "endDate": "1945-05-06",
+    "datePrecision": "day",
+    "location": {
+      "lat": 51.10898,
+      "lng": 17.03267,
+      "name": {
+        "en": "Wrocław (Breslau)",
+        "pl": "Wrocław (Breslau)"
+      },
+      "precision": "town"
+    },
+    "type": "siege",
+    "belligerents": [
+      "Soviet Union",
+      "Germany"
+    ],
+    "summary": {
+      "en": "Breslau (today's Wrocław), then a German city of about a million people including refugees, had been declared a fortress. On 20 January 1945 Gauleiter Karl Hanke ordered the immediate evacuation of civilians in severe frost. In the night of 15–16 February Soviet forces of the 6th Army under Gen. Vladimir Gluzdovsky closed the encirclement. Festung Breslau held out for about 80 days and capitulated on 6 May 1945, four days after Berlin.",
+      "pl": "Breslau (dzisiejszy Wrocław), wówczas niemieckie miasto liczące wraz z uciekinierami ok. miliona mieszkańców, ogłoszono twierdzą. 20 stycznia 1945 r. gauleiter Karl Hanke wydał rozkaz natychmiastowej ewakuacji ludności cywilnej w warunkach silnego mrozu. W nocy z 15 na 16 lutego wojska sowieckiej 6. Armii gen. Władimira Głuzdowskiego zamknęły pierścień okrążenia. Festung Breslau broniła się ok. 80 dni i skapitulowała 6 maja 1945 r., cztery dni po kapitulacji Berlina."
+    },
+    "sources": [
+      {
+        "title": "Upadek Festung Breslau",
+        "publisher": "Przystanek Historia (IPN)",
+        "url": "https://przystanekhistoria.pl/pa2/tematy/niemcy/91639,Upadek-Festung-Breslau.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "The source states that 90,000 civilian refugees from Breslau died of frost during the January 1945 evacuation; this figure has not been checked against a second source here. Start date given as 15 February (encirclement closed in the night of 15–16 February).",
+      "pl": "Źródło podaje, że podczas styczniowej ewakuacji 1945 r. od mrozu zginęło 90 tys. cywilnych uciekinierów z Wrocławia; liczby tej nie zweryfikowano tu w drugim źródle. Jako datę początkową przyjęto 15 lutego (okrążenie zamknięto w nocy z 15 na 16 lutego)."
+    }
+  },
+  {
+    "id": "kolobrzeg-1945",
+    "title": {
+      "en": "Battle of Kołobrzeg (Kolberg)",
+      "pl": "Bitwa o Kołobrzeg"
+    },
+    "startDate": "1945-03-04",
+    "endDate": "1945-03-18",
+    "datePrecision": "day",
+    "location": {
+      "lat": 54.17596,
+      "lng": 15.57642,
+      "name": {
+        "en": "Kołobrzeg (Kolberg)",
+        "pl": "Kołobrzeg (Kolberg)"
+      },
+      "precision": "town"
+    },
+    "type": "battle",
+    "belligerents": [
+      "Poland (1st Polish Army)",
+      "Soviet Union",
+      "Germany"
+    ],
+    "summary": {
+      "en": "Kolberg (Kołobrzeg), declared a fortress (Festung Kolberg) and garrisoned by several thousand soldiers, sailors, police and Volkssturm, was reached by Soviet tanks on 4 March 1945. From 8 March the 1st Polish Army, fighting alongside the Red Army, took over the assault; its soldiers reached the Baltic on the morning of 9 March. After eleven days of street fighting the city and port were in Polish hands on 18 March, and that day the troops held a ceremony of Poland's 'wedding to the sea'.",
+      "pl": "Kolberg (Kołobrzeg), ogłoszony twierdzą (Festung Kolberg) i broniony przez kilka tysięcy żołnierzy, marynarzy, funkcjonariuszy i członków Volkssturmu, został osiągnięty przez sowieckie czołgi 4 marca 1945 r. Od 8 marca szturm prowadziła walcząca u boku Armii Czerwonej 1. Armia Wojska Polskiego; jej żołnierze dotarli nad Bałtyk rano 9 marca. Po jedenastu dniach walk ulicznych 18 marca miasto i port znalazły się w polskich rękach; tego dnia odbyła się uroczystość zaślubin Polski z morzem."
+    },
+    "sources": [
+      {
+        "title": "Bitwa o Kołobrzeg – jedenaście dni krwawych bojów 1 Armii Wojska Polskiego",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/aktualnosci/bitwa-o-kolobrzeg-jedenascie-dni-krwawych-bojow-1-armii-wojska-polskiego",
+        "tier": 2,
+        "accessed": "2026-11-18"
+      },
+      {
+        "title": "Oddziały 1. Armii Wojska Polskiego, po ciężkich walkach, zdobyły miasto i port Kołobrzeg. Po zakończeniu walk z Niemcami odbyła się uroczystość zaślubin Polski z morzem.",
+        "publisher": "Muzeum Wojska Polskiego",
+        "url": "https://muzeumwp.pl/timeline/oddzialy-1-armii-wojska-polskiego-po-ciezkich-walkach-zdobyly-miasto-i-port-kolobrzeg-po-zakonczeniu-walk-z-niemcami-odbyla-sie-uroczystosc-zaslubin-polski-z-morzem/",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "Detailed dates come from the tier-2 source; the Polish Army Museum timeline entry confirms the capture of the city and port by the 1st Polish Army and the 'wedding to the sea' ceremony.",
+      "pl": "Szczegółowe daty pochodzą ze źródła 2. kategorii; wpis na osi czasu Muzeum Wojska Polskiego potwierdza zdobycie miasta i portu przez 1. Armię WP oraz uroczystość zaślubin z morzem."
+    }
+  }
+]

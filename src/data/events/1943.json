@@ -1,0 +1,840 @@
+[
+  {
+    "id": "warsaw-january-resistance-1943",
+    "title": {
+      "en": "January self-defence in the Warsaw ghetto",
+      "pl": "Samoobrona styczniowa w getcie warszawskim"
+    },
+    "startDate": "1943-01-18",
+    "endDate": "1943-01-21",
+    "datePrecision": "day",
+    "location": {
+      "lat": 52.24696,
+      "lng": 20.99123,
+      "name": {
+        "en": "Warsaw ghetto (Zamenhofa and Niska streets)",
+        "pl": "Getto warszawskie (ul. Zamenhofa i Niska)"
+      },
+      "precision": "town"
+    },
+    "type": "resistance_operation",
+    "belligerents": [
+      "Jewish Combat Organization (ŻOB)",
+      "Germany"
+    ],
+    "summary": {
+      "en": "On 18 January 1943, when the Germans tried to deport about 8,000 people living in the ghetto illegally to Treblinka, Jewish conspirators for the first time resisted with arms, shooting and throwing grenades at the Germans as the crowd was led to the Umschlagplatz; fighting took place on Zamenhofa and Miła streets. Most inhabitants resisted passively by hiding.",
+      "pl": "18 stycznia 1943 r., gdy Niemcy próbowali wysiedlić do Treblinki ok. 8 tys. osób nielegalnie mieszkających w getcie, żydowscy konspiratorzy po raz pierwszy stawili zbrojny opór, strzelając i rzucając granaty w Niemców prowadzących tłum na Umschlagplatz; walczono na ulicach Zamenhofa i Miłej. Większość mieszkańców stawiała opór bierny, ukrywając się."
+    },
+    "sources": [
+      {
+        "title": "18 stycznia 1943. „Samoobrona styczniowa” w getcie warszawskim",
+        "publisher": "Żydowski Instytut Historyczny",
+        "url": "https://www.jhi.pl/artykuly/18-stycznia-1943-samoobrona-styczniowa-w-getcie-warszawskim,4820",
+        "tier": 1,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true
+  },
+  {
+    "id": "zaboreczno-1943",
+    "title": {
+      "en": "Battle of Zaboreczno",
+      "pl": "Bitwa pod Zaborecznem"
+    },
+    "startDate": "1943-02-01",
+    "endDate": "1943-02-01",
+    "datePrecision": "day",
+    "location": {
+      "lat": 50.57067,
+      "lng": 23.31305,
+      "name": {
+        "en": "Zaboreczno, Zamość region",
+        "pl": "Zaboreczno, Zamojszczyzna"
+      },
+      "precision": "town"
+    },
+    "type": "battle",
+    "belligerents": [
+      "Poland (Peasants' Battalions, BCh; Home Army)",
+      "Germany"
+    ],
+    "summary": {
+      "en": "On 1 February 1943 several Peasants' Battalions (BCh) companies supported by a Home Army platoon – 250–400 men under Capt. Franciszek Bartłomowicz 'Grzmot' – fought about 600 German gendarmes and colonists near Zaboreczno. After a day of fighting the Poles withdrew to the Krasnobród forests. The battle's most important result was a halt of almost half a year to the expulsions; a German report's use of the word 'uprising' gave rise to the term 'Zamość Uprising'.",
+      "pl": "1 lutego 1943 r. kilka kompanii Batalionów Chłopskich wspartych plutonem AK – 250–400 ludzi pod dowództwem kpt. Franciszka Bartłomowicza „Grzmota” – stoczyło pod Zaborecznem walkę z ok. 600 niemieckimi żandarmami i kolonistami. Po całodziennych zmaganiach Polacy wycofali się do lasów krasnobrodzkich. Najważniejszym skutkiem bitwy było wstrzymanie na prawie pół roku akcji wysiedleńczej; użyte w niemieckim raporcie słowo „powstanie” dało początek określeniu „powstanie zamojskie”."
+    },
+    "casualties": {
+      "en": "More than 100 German and 5 Polish dead (Przystanek Historia/IPN).",
+      "pl": "Ponad 100 zabitych Niemców i 5 Polaków (Przystanek Historia/IPN)."
+    },
+    "sources": [
+      {
+        "title": "Bitwa pod Zaborecznem",
+        "publisher": "Przystanek Historia (IPN)",
+        "url": "https://przystanekhistoria.pl/pa2/teksty/113021,Bitwa-pod-Zaborecznem.html",
+        "tier": 1,
+        "accessed": "2026-11-19"
+      },
+      {
+        "title": "Marek Wierzbicki: Partyzanckie bitwy pod Wojdą i Zaborecznem na Zamojszczyźnie",
+        "publisher": "Instytut Pamięci Narodowej",
+        "url": "https://ipn.gov.pl/pl/historia-z-ipn/176338,Marek-Wierzbicki-Partyzanckie-bitwy-pod-Wojda-i-Zaborecznem-na-Zamojszczyznie.html",
+        "tier": 1,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true
+  },
+  {
+    "id": "parosla-1943",
+    "title": {
+      "en": "Parośla massacre",
+      "pl": "Zbrodnia w Parośli"
+    },
+    "startDate": "1943-02-09",
+    "endDate": "1943-02-09",
+    "datePrecision": "day",
+    "location": {
+      "lat": 51.3337,
+      "lng": 26.20596,
+      "name": {
+        "en": "Parośla I, near Sarny (Volhynia)",
+        "pl": "Parośla I koło Sarn (Wołyń)"
+      },
+      "precision": "town"
+    },
+    "type": "massacre",
+    "belligerents": [
+      "Ukrainian Insurgent Army (UPA)"
+    ],
+    "summary": {
+      "en": "On the morning of 9 February 1943 the first UPA company, after attacking the German garrison of Włodzimierzec in the night, reached the Polish colony of Parośla I, posing as Soviet partisans. Its men murdered the inhabitants, mostly with axes. IPN describes it as the first mass killing of Poles in Volhynia.",
+      "pl": "Rankiem 9 lutego 1943 r. pierwsza sotnia UPA, po nocnym ataku na niemiecki garnizon we Włodzimierzcu, dotarła do polskiej kolonii Parośla I, podając się za oddział partyzantki sowieckiej. Napastnicy wymordowali mieszkańców, przeważnie siekierami. IPN określa to jako pierwszy masowy mord na Polakach na Wołyniu."
+    },
+    "sources": [
+      {
+        "title": "Rana Wołynia",
+        "publisher": "Przystanek Historia (IPN)",
+        "url": "https://przystanekhistoria.pl/pa2/tematy/zbrodnia-wolynska/34183,Rana-Wolynia.html",
+        "tier": 1,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true
+  },
+  {
+    "id": "volhynia-massacres-1943",
+    "title": {
+      "en": "Volhynia and Eastern Galicia massacres",
+      "pl": "Rzeź wołyńsko-galicyjska"
+    },
+    "startDate": "1943-02-09",
+    "endDate": "1945-05-08",
+    "datePrecision": "approximate",
+    "location": {
+      "lat": 50.74507,
+      "lng": 25.32008,
+      "name": {
+        "en": "Volhynia and Eastern Galicia (marker at Łuck)",
+        "pl": "Wołyń i Małopolska Wschodnia (znacznik: Łuck)"
+      },
+      "precision": "region"
+    },
+    "type": "massacre",
+    "belligerents": [
+      "Ukrainian Insurgent Army (UPA)"
+    ],
+    "summary": {
+      "en": "From early 1943 the Organisation of Ukrainian Nationalists (Bandera faction) and the Ukrainian Insurgent Army carried out a planned campaign to eliminate the Polish population of Volhynia and later Eastern Galicia, which IPN describes as genocide. After an OUN conference in February 1943 decided to remove the non-Ukrainian population from lands it considered Ukrainian, waves of attacks struck Polish villages, peaking in July 1943. Several hundred thousand Poles fled.",
+      "pl": "Od początku 1943 r. Organizacja Ukraińskich Nacjonalistów (frakcja Bandery) i Ukraińska Powstańcza Armia prowadziły zaplanowaną akcję wyniszczenia polskiej ludności Wołynia, a następnie Małopolski Wschodniej, którą IPN określa jako ludobójstwo. Po decyzji konferencji OUN z lutego 1943 r. o usunięciu ludności nieukraińskiej z ziem uznawanych za ukraińskie kolejne fale napadów spadały na polskie wsie, osiągając apogeum w lipcu 1943 r. Kilkaset tysięcy Polaków uciekło."
+    },
+    "casualties": {
+      "en": "80,000–120,000 Poles murdered in Volhynia and Eastern Galicia in 1943–1945; a precise figure cannot be established (IPN).",
+      "pl": "W latach 1943–1945 na Wołyniu i w Małopolsce Wschodniej zamordowano od 80 do 120 tys. Polaków; dokładnej liczby nie da się ustalić (IPN)."
+    },
+    "sources": [
+      {
+        "title": "Filip Musiał: Rzeź Wołyńska – ludobójstwo zapomniane",
+        "publisher": "Instytut Pamięci Narodowej",
+        "url": "https://ipn.gov.pl/pl/historia-z-ipn/167626,Filip-Musial-Rzez-Wolynska-ludobojstwo-zapomniane.html",
+        "tier": 1,
+        "accessed": "2026-11-19"
+      },
+      {
+        "title": "Rana Wołynia",
+        "publisher": "Przystanek Historia (IPN)",
+        "url": "https://przystanekhistoria.pl/pa2/tematy/zbrodnia-wolynska/34183,Rana-Wolynia.html",
+        "tier": 1,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "Umbrella event. IPN dates the crimes to 1943–1945; the start shown is the first mass killing (Parośla, 9 February 1943) and the end is the map's end date. Individual massacres are separate events.",
+      "pl": "Wydarzenie zbiorcze. IPN datuje zbrodnie na lata 1943–1945; jako początek przyjęto pierwszy masowy mord (Parośla, 9 lutego 1943 r.), a jako koniec – datę końcową mapy. Poszczególne zbrodnie są osobnymi wydarzeniami."
+    }
+  },
+  {
+    "id": "krakow-ghetto-liquidation-1943",
+    "title": {
+      "en": "Liquidation of the Kraków ghetto",
+      "pl": "Likwidacja getta krakowskiego"
+    },
+    "startDate": "1943-03-13",
+    "endDate": "1943-03-14",
+    "datePrecision": "day",
+    "location": {
+      "lat": 50.0431,
+      "lng": 19.95296,
+      "name": {
+        "en": "Podgórze, Kraków",
+        "pl": "Podgórze, Kraków"
+      },
+      "precision": "town"
+    },
+    "type": "deportation",
+    "belligerents": [
+      "Germany"
+    ],
+    "summary": {
+      "en": "The Kraków ghetto in Podgórze, which had held about 20,000 people before the June 1942 deportations to Bełżec, was liquidated by the Germans on 13–14 March 1943. People in 'ghetto A' were marched to the Płaszów camp, and the following day 'ghetto B' was liquidated; apart from those fit for work, people were murdered on the spot.",
+      "pl": "Getto krakowskie na Podgórzu, w którym przed czerwcowymi deportacjami do Bełżca w 1942 r. przebywało ok. 20 tys. osób, Niemcy zlikwidowali 13–14 marca 1943 r. Mieszkańców tzw. getta A poprowadzono do obozu w Płaszowie, a nazajutrz zlikwidowano getto B; poza zdolnymi do pracy ludzi mordowano na miejscu."
+    },
+    "sources": [
+      {
+        "title": "13 marca. Rocznica likwidacji getta w Krakowie",
+        "publisher": "Żydowski Instytut Historyczny",
+        "url": "https://www.jhi.pl/artykuly/13-marca-rocznica-likwidacji-getta-w-krakowie,579",
+        "tier": 1,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "Estimates of the number of people killed inside the ghetto during the liquidation range from about 700 to 2,500 in the literature.",
+      "pl": "Szacunki liczby osób zabitych na terenie getta podczas likwidacji wahają się w literaturze od ok. 700 do 2500."
+    }
+  },
+  {
+    "id": "arsenal-action-1943",
+    "title": {
+      "en": "Action at the Arsenal",
+      "pl": "Akcja pod Arsenałem"
+    },
+    "startDate": "1943-03-26",
+    "endDate": "1943-03-26",
+    "datePrecision": "day",
+    "location": {
+      "lat": 52.24596,
+      "lng": 21.00078,
+      "name": {
+        "en": "Arsenal, Długa Street, Warsaw",
+        "pl": "Arsenał, ul. Długa, Warszawa"
+      },
+      "precision": "exact"
+    },
+    "type": "resistance_operation",
+    "belligerents": [
+      "Poland (Grey Ranks)",
+      "Germany"
+    ],
+    "summary": {
+      "en": "On 26 March 1943, at the corner of Długa and Bielańska streets near the Arsenal in Warsaw, the Assault Groups of the Grey Ranks (Szare Szeregi) under Stanisław Broniewski 'Orsza' freed Jan Bytnar 'Rudy' from a Gestapo transport. He had been arrested days earlier after notes with his address were found on another scout leader, Henryk Ostrowski 'Heniek'.",
+      "pl": "26 marca 1943 r. u zbiegu ulic Długiej i Bielańskiej, w pobliżu Arsenału w Warszawie, członkowie Grup Szturmowych Szarych Szeregów pod dowództwem Stanisława Broniewskiego „Orszy” odbili z rąk gestapo Jana Bytnara „Rudego”. Został on aresztowany kilka dni wcześniej, po tym jak u innego harcmistrza, Henryka Ostrowskiego „Heńka”, znaleziono notatki z jego adresem."
+    },
+    "sources": [
+      {
+        "title": "Akcja pod Arsenałem 26 marca 1943 r.",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/aktualnosci/akcja-pod-arsenalem-26-marca-1943-r",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "Only a tier-2 source was used. It states that 21 prisoners were freed in the action (code-named 'Meksyk II'), while Broniewski's report written immediately afterwards gave 25.",
+      "pl": "Wykorzystano jedynie źródło 2. kategorii. Podaje ono, że w akcji (kryptonim „Meksyk II”) uwolniono 21 więźniów, natomiast w raporcie sporządzonym bezpośrednio po akcji Broniewski podał 25."
+    }
+  },
+  {
+    "id": "warsaw-ghetto-uprising-1943",
+    "title": {
+      "en": "Warsaw Ghetto Uprising",
+      "pl": "Powstanie w getcie warszawskim"
+    },
+    "startDate": "1943-04-19",
+    "endDate": "1943-05-16",
+    "datePrecision": "day",
+    "location": {
+      "lat": 52.24974,
+      "lng": 20.99422,
+      "name": {
+        "en": "Warsaw ghetto (Muranów)",
+        "pl": "Getto warszawskie (Muranów)"
+      },
+      "precision": "town"
+    },
+    "type": "uprising",
+    "belligerents": [
+      "Jewish Combat Organization (ŻOB)",
+      "Jewish Military Union (ŻZW)",
+      "Germany"
+    ],
+    "summary": {
+      "en": "On 19 April 1943, when German forces entered the ghetto to complete its liquidation, fighters of the Jewish Combat Organization (ŻOB, about 600 members, commanded by Mordechai Anielewicz) and the Jewish Military Union (ŻZW, about 260 members, led by Paweł Frenkel) resisted with arms. As the fighters withdrew, units under Jürgen Stroop burned the ghetto building by building; captured Jews were sent to labour camps or to the Treblinka extermination camp, and many were killed on the spot. On 16 May 1943 Stroop marked the end of the operation by blowing up the Great Synagogue on Tłomackie Street.",
+      "pl": "19 kwietnia 1943 r., gdy oddziały niemieckie wkroczyły do getta, by dokończyć jego likwidację, bojownicy Żydowskiej Organizacji Bojowej (ok. 600 członków, dowódca Mordechaj Anielewicz) i Żydowskiego Związku Wojskowego (ok. 260 członków, na czele z Pawłem Frenklem) podjęli walkę zbrojną. Gdy bojownicy się wycofywali, oddziały Jürgena Stroopa paliły getto dom po domu; schwytanych Żydów wysyłano do obozów pracy lub do obozu zagłady w Treblince, wielu zabijano na miejscu. 16 maja 1943 r. Stroop zaznaczył koniec akcji, wysadzając w powietrze Wielką Synagogę przy Tłomackiem."
+    },
+    "casualties": {
+      "en": "Stroop's final report claimed 56,065 Jews captured or killed; historians consider the figure inflated. About 7,000 people were sent to Treblinka and about 7,000 killed in the ghetto (Jewish Historical Institute).",
+      "pl": "Raport końcowy Stroopa podawał 56 065 ujętych lub zamordowanych Żydów; historycy uznają tę liczbę za zawyżoną. Ok. 7 tys. osób skierowano do Treblinki, a ok. 7 tys. zabito w getcie (Żydowski Instytut Historyczny)."
+    },
+    "sources": [
+      {
+        "title": "19 kwietnia – 16 maja 1943. Powstanie w getcie warszawskim",
+        "publisher": "Żydowski Instytut Historyczny",
+        "url": "https://www.jhi.pl/artykuly/powstanie-w-getcie-warszawskim,2879",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "The uprising did not end with a capitulation; 16 May is the date the Germans declared the operation over.",
+      "pl": "Powstanie nie zakończyło się kapitulacją; 16 maja to data, w której Niemcy ogłosili zakończenie akcji."
+    }
+  },
+  {
+    "id": "janowa-dolina-1943",
+    "title": {
+      "en": "Janowa Dolina massacre",
+      "pl": "Zbrodnia w Janowej Dolinie"
+    },
+    "startDate": "1943-04-23",
+    "endDate": "1943-04-23",
+    "datePrecision": "day",
+    "location": {
+      "lat": 50.92712,
+      "lng": 26.23638,
+      "name": {
+        "en": "Janowa Dolina (now Bazaltove), Volhynia",
+        "pl": "Janowa Dolina (obecnie Bazaltowe), Wołyń"
+      },
+      "precision": "town"
+    },
+    "type": "massacre",
+    "belligerents": [
+      "Ukrainian Insurgent Army (UPA)"
+    ],
+    "summary": {
+      "en": "During a wave of UPA attacks on Polish villages around the Catholic Easter of 1943, a strong Ukrainian partisan grouping surrounded the Polish settlement of Janowa Dolina on Good Friday, 23 April. Attackers doused houses with petrol and set them alight, shooting people as they fled; nearly the whole settlement was burned in a single night.",
+      "pl": "W czasie fali napadów UPA na polskie miejscowości w okresie katolickich świąt wielkanocnych 1943 r. silne zgrupowanie ukraińskiej partyzantki otoczyło w Wielki Piątek, 23 kwietnia, polskie osiedle Janowa Dolina. Napastnicy oblewali domy benzyną i podpalali je, strzelając do uciekających; w ciągu jednej nocy spłonęła niemal cała miejscowość."
+    },
+    "casualties": {
+      "en": "About 700 civilians, according to a perpetrator's account quoted by Przystanek Historia/IPN.",
+      "pl": "Ok. 700 cywilów według relacji jednego ze sprawców przytoczonej przez Przystanek Historia/IPN."
+    },
+    "sources": [
+      {
+        "title": "Rana Wołynia",
+        "publisher": "Przystanek Historia (IPN)",
+        "url": "https://przystanekhistoria.pl/pa2/tematy/zbrodnia-wolynska/34183,Rana-Wolynia.html",
+        "tier": 1,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true
+  },
+  {
+    "id": "pilecki-escape-1943",
+    "title": {
+      "en": "Witold Pilecki escapes from Auschwitz",
+      "pl": "Ucieczka Witolda Pileckiego z Auschwitz"
+    },
+    "startDate": "1943-04-26",
+    "endDate": "1943-04-27",
+    "datePrecision": "day",
+    "location": {
+      "lat": 50.0264,
+      "lng": 19.20396,
+      "name": {
+        "en": "Auschwitz I",
+        "pl": "Auschwitz I"
+      },
+      "precision": "exact"
+    },
+    "type": "resistance_operation",
+    "belligerents": [
+      "Poland"
+    ],
+    "summary": {
+      "en": "When arrests began among his closest collaborators in the camp underground he had founded, Witold Pilecki escaped from Auschwitz with Jan Redzej and Edward Ciesielski in the night of 26–27 April 1943, through the camp bakery. They followed the railway line to the Soła, crossed the Vistula in a boat they found, and reached Bochnia, where Pilecki hid for over three months.",
+      "pl": "Gdy w obozie zaczęły się aresztowania jego najbliższych współpracowników z założonej przez niego konspiracji, Witold Pilecki wraz z Janem Redzejem i Edwardem Ciesielskim uciekł z Auschwitz w nocy z 26 na 27 kwietnia 1943 r. przez obozową piekarnię. Wzdłuż toru kolejowego dotarli do Soły, znalezioną łódką przeprawili się przez Wisłę i dotarli do Bochni, gdzie Pilecki ukrywał się ponad trzy miesiące."
+    },
+    "sources": [
+      {
+        "title": "Witold Pilecki – dostał się do Auschwitz, by zaalarmować o skali zbrodni",
+        "publisher": "Instytut Pamięci Narodowej",
+        "url": "https://ipn.gov.pl/pl/historia-z-ipn/229836,Witold-Pilecki-dostal-sie-do-Auschwitz-by-zaalarmowac-o-skali-zbrodni.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      }
+    ],
+    "verified": true
+  },
+  {
+    "id": "naliboki-1943",
+    "title": {
+      "en": "Naliboki massacre",
+      "pl": "Zbrodnia w Nalibokach"
+    },
+    "startDate": "1943-05-08",
+    "endDate": "1943-05-08",
+    "datePrecision": "day",
+    "location": {
+      "lat": 53.76199,
+      "lng": 26.47127,
+      "name": {
+        "en": "Naliboki, Stołpce county (now Belarus)",
+        "pl": "Naliboki, pow. Stołpce"
+      },
+      "precision": "town"
+    },
+    "type": "massacre",
+    "belligerents": [
+      "Soviet partisans"
+    ],
+    "summary": {
+      "en": "At dawn on 8 May 1943 Soviet partisans from units based in the Naliboki Forest attacked the village of Naliboki and murdered its inhabitants. According to Soviet documents cited by IPN, the attack was carried out by the 'Stalin' Brigade together with the 'Dzerzhinsky', 'Bolshevik' and 'Suvorov' detachments. IPN is investigating it as part of a wider inquiry into crimes by Soviet partisans in the Nowogródek voivodeship in 1942–1944.",
+      "pl": "Nad ranem 8 maja 1943 r. partyzanci sowieccy z oddziałów stacjonujących w Puszczy Nalibockiej napadli na Naliboki i wymordowali ich mieszkańców. Według sowieckich dokumentów przytaczanych przez IPN atak przeprowadziła Brygada „Stalina” wraz z oddziałami „Dzierżyńskiego”, „Bolszewik” i „Suworowa”. IPN bada tę zbrodnię w ramach szerszego śledztwa w sprawie zbrodni partyzantów sowieckich w województwie nowogródzkim w latach 1942–1944."
+    },
+    "casualties": {
+      "en": "128 inhabitants killed (IPN).",
+      "pl": "Zamordowano 128 mieszkańców (IPN)."
+    },
+    "sources": [
+      {
+        "title": "Komunikat dot. śledztwa w sprawie zbrodni popełnionych przez partyzantów sowieckich w latach 1942–1944 na terenie byłego województwa nowogródzkiego",
+        "publisher": "Instytut Pamięci Narodowej",
+        "url": "https://ipn.gov.pl/pl/dla-mediow/komunikaty/10278,Komunikat-dot-sledztwa-w-sprawie-zbrodni-popelnionych-przez-partyzantow-sowiecki.html",
+        "tier": 1,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "IPN notes that some historians also point to participation by partisans of the Bielski unit; the attackers' own accounts are sparse.",
+      "pl": "IPN odnotowuje, że część historyków wskazuje także na udział partyzantów z oddziału Bielskich; relacje samych napastników są skąpe."
+    }
+  },
+  {
+    "id": "lwow-ghetto-liquidation-1943",
+    "title": {
+      "en": "Final liquidation of the Lwów ghetto",
+      "pl": "Ostateczna likwidacja getta lwowskiego"
+    },
+    "startDate": "1943-06-01",
+    "endDate": "1943-06-30",
+    "datePrecision": "month",
+    "location": {
+      "lat": 49.84195,
+      "lng": 24.03159,
+      "name": {
+        "en": "Lwów (Lviv)",
+        "pl": "Lwów"
+      },
+      "precision": "town"
+    },
+    "type": "massacre",
+    "belligerents": [
+      "Germany"
+    ],
+    "summary": {
+      "en": "In June 1943 the Germans carried out the last deportation action in the Lwów ghetto, which met unexpected resistance. In suppressing it they murdered or deported to labour camps more than 20,000 Jews; about 3,000 took their own lives. Afterwards the Germans declared Lwów 'free of Jews', although the Janowska camp continued to operate.",
+      "pl": "W czerwcu 1943 r. Niemcy przeprowadzili ostatnią akcję wysiedleńczą w getcie lwowskim, która napotkała niespodziewany opór. Podczas jego tłumienia zamordowali lub wywieźli do obozów pracy przeszło 20 tys. Żydów; ok. 3 tys. osób popełniło samobójstwo. Następnie Niemcy ogłosili Lwów miastem „wolnym od Żydów”, choć nadal funkcjonował obóz janowski."
+    },
+    "sources": [
+      {
+        "title": "10 sierpnia 1942 r. Niemcy rozpoczęli likwidację getta we Lwowie",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/aktualnosci/10-sierpnia-1942-r-niemcy-rozpoczeli-likwidacje-getta-we-lwowie",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "Only a tier-2 source was used; it gives only the month.",
+      "pl": "Wykorzystano jedynie źródło 2. kategorii; podaje ono tylko miesiąc."
+    }
+  },
+  {
+    "id": "volhynia-bloody-sunday-1943",
+    "title": {
+      "en": "'Bloody Sunday' in Volhynia",
+      "pl": "„Krwawa niedziela” na Wołyniu"
+    },
+    "startDate": "1943-07-11",
+    "endDate": "1943-07-12",
+    "datePrecision": "day",
+    "location": {
+      "lat": 50.81456,
+      "lng": 24.43249,
+      "name": {
+        "en": "Włodzimierz Wołyński (Volodymyr) district, Volhynia",
+        "pl": "Powiat włodzimierski, Wołyń"
+      },
+      "precision": "region"
+    },
+    "type": "massacre",
+    "belligerents": [
+      "Ukrainian Insurgent Army (UPA)"
+    ],
+    "summary": {
+      "en": "On Sunday 11 July 1943 the Ukrainian Insurgent Army (UPA) and associated formations launched coordinated attacks on more than 100 Polish-inhabited localities in the Włodzimierz, Horochów and Kowel counties of Volhynia, starting at 3 a.m. with the colony of Gurów. Sunday was chosen because Poles gathered in churches; worshippers at Mass were attacked in Poryck, Chrynów, Kisielin and other places. The attacks continued on 12 July. IPN describes the action as the culmination of the genocide of the Polish population of Volhynia committed by Ukrainian nationalists.",
+      "pl": "W niedzielę 11 lipca 1943 r. Ukraińska Powstańcza Armia i powiązane z nią formacje przeprowadziły skoordynowany atak na ponad 100 miejscowości zamieszkanych przez Polaków w powiatach włodzimierskim, horochowskim i kowelskim; akcja rozpoczęła się o 3 w nocy napadem na kolonię Gurów. Niedziela nie została wybrana przypadkowo – Polacy gromadzili się w kościołach; uczestników mszy zaatakowano m.in. w Porycku, Chrynowie i Kisielinie. Ataki kontynuowano 12 lipca. IPN określa tę akcję jako kulminację ludobójstwa ludności polskiej Wołynia dokonanego przez nacjonalistów ukraińskich."
+    },
+    "casualties": {
+      "en": "According to incomplete data, over 3,100 Poles were killed by the UPA on 11 July and at least 2,020 on 12 July 1943 (IPN).",
+      "pl": "Według niepełnych danych 11 lipca 1943 r. z rąk UPA zginęło ponad 3100 Polaków, a 12 lipca co najmniej 2020 osób (IPN)."
+    },
+    "sources": [
+      {
+        "title": "Paweł Naleźniak: Krwawa niedziela na Wołyniu",
+        "publisher": "Instytut Pamięci Narodowej",
+        "url": "https://ipn.gov.pl/pl/historia-z-ipn/224697,Pawel-Nalezniak-Krwawa-niedziela-na-Wolyniu.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "The marker is placed in the Włodzimierz district as a representative point; the attacks covered three counties. The wider Volhynia massacres of 1943–1944 will be added as separate events.",
+      "pl": "Znacznik umieszczono w rejonie włodzimierskim jako punkt reprezentatywny; ataki objęły trzy powiaty. Szerzej rozumiana rzeź wołyńska z lat 1943–1944 zostanie dodana jako osobne wydarzenia."
+    }
+  },
+  {
+    "id": "michniow-1943",
+    "title": {
+      "en": "Pacification of Michniów",
+      "pl": "Pacyfikacja Michniowa"
+    },
+    "startDate": "1943-07-12",
+    "endDate": "1943-07-13",
+    "datePrecision": "day",
+    "location": {
+      "lat": 51.00714,
+      "lng": 20.84498,
+      "name": {
+        "en": "Michniów, Świętokrzyskie",
+        "pl": "Michniów, Świętokrzyskie"
+      },
+      "precision": "town"
+    },
+    "type": "massacre",
+    "belligerents": [
+      "Germany"
+    ],
+    "summary": {
+      "en": "Acting on informers' reports that the village supported the Home Army partisans of Jan Piwnik 'Ponury', German police surrounded Michniów at dawn on 12 July 1943, locked dozens of men in farm buildings and set them on fire, killing about 100 people. After a partisan reprisal attack on a German train that night, the Germans returned on 13 July, murdered everyone they found regardless of age or sex, looted the village and burned it to the ground.",
+      "pl": "Na podstawie donosów, że wieś współpracuje z partyzantami AK Jana Piwnika „Ponurego”, niemiecka policja nad ranem 12 lipca 1943 r. otoczyła Michniów, zamknęła kilkudziesięciu mężczyzn w zabudowaniach gospodarczych i je podpaliła; tego dnia zginęło ok. 100 osób. Po nocnej akcji odwetowej partyzantów na niemiecki pociąg Niemcy wrócili 13 lipca, wymordowali wszystkich bez względu na płeć i wiek, zrabowali dobytek i doszczętnie spalili wieś."
+    },
+    "casualties": {
+      "en": "More than 200 people, including over 100 women and children (IPN).",
+      "pl": "Przeszło 200 osób, w tym ponad 100 kobiet i dzieci (IPN)."
+    },
+    "sources": [
+      {
+        "title": "80 lat temu Niemcy spacyfikowali Michniów",
+        "publisher": "Instytut Pamięci Narodowej",
+        "url": "https://ipn.gov.pl/pl/dla-mediow/komunikaty/188158,TEKST-AUDIO-80-lat-temu-Niemcy-spacyfikowali-Michniow.html",
+        "tier": 1,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "12 July is commemorated as the Day of Struggle and Martyrdom of the Polish Village (IPN).",
+      "pl": "12 lipca obchodzony jest jako Dzień Walki i Męczeństwa Wsi Polskiej (IPN)."
+    }
+  },
+  {
+    "id": "treblinka-revolt-1943",
+    "title": {
+      "en": "Treblinka prisoners' revolt",
+      "pl": "Bunt więźniów w Treblince"
+    },
+    "startDate": "1943-08-02",
+    "endDate": "1943-08-02",
+    "datePrecision": "day",
+    "location": {
+      "lat": 52.6351,
+      "lng": 22.05407,
+      "name": {
+        "en": "Treblinka",
+        "pl": "Treblinka"
+      },
+      "precision": "exact"
+    },
+    "type": "uprising",
+    "belligerents": [
+      "Jewish prisoners",
+      "Germany"
+    ],
+    "summary": {
+      "en": "On the afternoon of 2 August 1943 more than 800 prisoners of the Treblinka extermination camp rose up in an armed revolt, intending to put an end to the camp. Fighting began at about 16:00; most prisoners trying to cross the fences were shot from the watchtowers, but about 200 escaped. The Germans killed some of the remaining prisoners at once and used the others to liquidate the camp and erase the traces of their crimes.",
+      "pl": "Po południu 2 sierpnia 1943 r. ponad 800 więźniów obozu zagłady w Treblince podjęło zbrojny bunt, chcąc położyć kres istnieniu obozu. Walka rozpoczęła się ok. godz. 16.00; większość więźniów próbujących przedostać się przez ogrodzenie zastrzelono z wież strażniczych, ale ok. 200 zdołało uciec. Część pozostałych Niemcy natychmiast zabili, a resztę wykorzystali do likwidacji obozu i zacierania śladów zbrodni."
+    },
+    "casualties": {
+      "en": "Of about 200 escapees, no more than 100 are thought to have survived the war (dzieje.pl/PAP).",
+      "pl": "Spośród ok. 200 uciekinierów końca wojny doczekało prawdopodobnie nie więcej niż 100 (dzieje.pl/PAP)."
+    },
+    "sources": [
+      {
+        "title": "80 lat temu w obozie zagłady w Treblince wybuchł zbrojny bunt",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/aktualnosci/bunt-wiezniow-w-obozie-zaglady-w-treblince",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      },
+      {
+        "title": "Obóz zagłady w Treblince",
+        "publisher": "Instytut Pamięci Narodowej",
+        "url": "https://ipn.gov.pl/pl/historia-z-ipn/100584,Oboz-zaglady-w-Treblince.html",
+        "tier": 1,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true
+  },
+  {
+    "id": "bialystok-ghetto-uprising-1943",
+    "title": {
+      "en": "Białystok ghetto uprising",
+      "pl": "Powstanie w getcie białostockim"
+    },
+    "startDate": "1943-08-16",
+    "endDate": "1943-08-20",
+    "datePrecision": "day",
+    "location": {
+      "lat": 53.1275,
+      "lng": 23.14705,
+      "name": {
+        "en": "Białystok ghetto",
+        "pl": "Getto białostockie"
+      },
+      "precision": "town"
+    },
+    "type": "uprising",
+    "belligerents": [
+      "Jewish underground",
+      "Germany"
+    ],
+    "summary": {
+      "en": "In the night of 15–16 August 1943 German forces with Ukrainian auxiliaries surrounded the Białystok ghetto to carry out its final liquidation. On 16 August the united Jewish underground led by Mordechai Tenenbaum resisted with arms. The main fighting took place that day, and isolated pockets held out for a few more days; Tenenbaum and Daniel Moszkowicz probably took their own lives on 20 August. Historians consider it the second-largest Jewish uprising after Warsaw.",
+      "pl": "W nocy z 15 na 16 sierpnia 1943 r. Niemcy wraz z ukraińskimi formacjami pomocniczymi otoczyli getto białostockie, by przeprowadzić jego ostateczną likwidację. 16 sierpnia zjednoczona żydowska konspiracja pod dowództwem Mordechaja Tenenbauma podjęła walkę zbrojną. Główne walki toczyły się tego dnia, a pojedyncze punkty oporu broniły się jeszcze kilka dni; Tenenbaum i Daniel Moszkowicz prawdopodobnie popełnili samobójstwo 20 sierpnia. Historycy uznają to za drugi pod względem wielkości, po Warszawie, zryw ludności żydowskiej."
+    },
+    "casualties": {
+      "en": "About 30,000 Białystok Jews were deported to Treblinka II or other camps in August 1943 (IPN).",
+      "pl": "W sierpniu 1943 r. ok. 30 tys. białostockich Żydów wywieziono do Treblinki II lub innych obozów (IPN)."
+    },
+    "sources": [
+      {
+        "title": "80. rocznica powstania w getcie białostockim",
+        "publisher": "Instytut Pamięci Narodowej",
+        "url": "https://ipn.gov.pl/pl/dla-mediow/komunikaty/189220,TEKST-AUDIO-80-rocznica-powstania-w-getcie-bialostockim.html",
+        "tier": 1,
+        "accessed": "2026-11-19"
+      },
+      {
+        "title": "16 sierpnia 1943. Początek powstania w getcie w Białymstoku",
+        "publisher": "Żydowski Instytut Historyczny",
+        "url": "https://www.jhi.pl/artykuly/16-sierpnia-1943-poczatek-powstania-w-getcie-w-bialymstoku,712",
+        "tier": 1,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "IPN and JHI describe the leaders' suicide on 20 August as probable rather than certain.",
+      "pl": "IPN i ŻIH opisują samobójczą śmierć przywódców 20 sierpnia jako prawdopodobną, a nie pewną."
+    }
+  },
+  {
+    "id": "ostrowki-wola-ostrowiecka-1943",
+    "title": {
+      "en": "Massacres of Ostrówki and Wola Ostrowiecka",
+      "pl": "Zbrodnia w Ostrówkach i Woli Ostrowieckiej"
+    },
+    "startDate": "1943-08-30",
+    "endDate": "1943-08-30",
+    "datePrecision": "day",
+    "location": {
+      "lat": 51.26298,
+      "lng": 23.87765,
+      "name": {
+        "en": "Ostrówki and Wola Ostrowiecka, Lubomla county",
+        "pl": "Ostrówki i Wola Ostrowiecka, pow. lubomelski"
+      },
+      "precision": "town"
+    },
+    "type": "massacre",
+    "belligerents": [
+      "Ukrainian Insurgent Army (UPA)"
+    ],
+    "summary": {
+      "en": "On 30 August 1943 an UPA battalion (kurin) under Ivan Klymchak 'Lysyi' destroyed the Polish villages of Ostrówki and Wola Ostrowiecka, murdering their inhabitants, including a local Home Army platoon that, misled by the Ukrainians' initially conciliatory attitude, did not fight.",
+      "pl": "30 sierpnia 1943 r. kureń UPA Iwana Kłymczaka „Łysego” zniszczył polskie wsie Ostrówki i Wola Ostrowiecka, mordując ich mieszkańców, w tym miejscowy pluton Armii Krajowej, który – zmylony początkowo „pojednawczą” postawą Ukraińców – nie podjął walki."
+    },
+    "casualties": {
+      "en": "About 1,050 people (Przystanek Historia/IPN).",
+      "pl": "Ok. 1050 osób (Przystanek Historia/IPN)."
+    },
+    "sources": [
+      {
+        "title": "Rana Wołynia",
+        "publisher": "Przystanek Historia (IPN)",
+        "url": "https://przystanekhistoria.pl/pa2/tematy/zbrodnia-wolynska/34183,Rana-Wolynia.html",
+        "tier": 1,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true
+  },
+  {
+    "id": "sobibor-revolt-1943",
+    "title": {
+      "en": "Sobibór prisoners' revolt",
+      "pl": "Bunt więźniów w Sobiborze"
+    },
+    "startDate": "1943-10-14",
+    "endDate": "1943-10-14",
+    "datePrecision": "day",
+    "location": {
+      "lat": 51.44755,
+      "lng": 23.59391,
+      "name": {
+        "en": "Sobibór",
+        "pl": "Sobibór"
+      },
+      "precision": "exact"
+    },
+    "type": "uprising",
+    "belligerents": [
+      "Jewish prisoners",
+      "Germany"
+    ],
+    "summary": {
+      "en": "On 14 October 1943 prisoners of the Sobibór extermination camp, led by Alexander Pechersky, launched an armed revolt, during which about 300 escaped. Most of the escapees were later caught and killed, and only about 50 survived the war. IPN regards the revolt as one of the most heroic episodes of Jewish resistance; its success forced the Germans to destroy the camp hastily.",
+      "pl": "14 października 1943 r. w obozie zagłady w Sobiborze wybuchło zbrojne powstanie więźniów pod przywództwem Aleksandra Pieczerskiego, podczas którego uciekło ok. 300 osób. Większość uciekinierów później złapano i zabito; wojnę przeżyło zaledwie ok. 50. IPN uważa bunt za jeden z najbardziej heroicznych epizodów oporu Żydów; jego sukces zmusił Niemców do pospiesznej likwidacji obozu."
+    },
+    "sources": [
+      {
+        "title": "Bunt w niemieckim obozie zagłady w Sobiborze",
+        "publisher": "Instytut Pamięci Narodowej",
+        "url": "https://ipn.gov.pl/pl/historia-z-ipn/230978,Bunt-w-niemieckim-obozie-zaglady-w-Sobiborze.html",
+        "tier": 1,
+        "accessed": "2026-11-19"
+      },
+      {
+        "title": "Opór Żydów w niemieckich obozach zagłady",
+        "publisher": "Przystanek Historia (IPN)",
+        "url": "https://przystanekhistoria.pl/pa2/tematy/zydzi/99856,Opor-Zydow-w-niemieckich-obozach-zaglady.html",
+        "tier": 1,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true
+  },
+  {
+    "id": "erntefest-1943",
+    "title": {
+      "en": "Aktion Erntefest",
+      "pl": "Akcja „Erntefest”"
+    },
+    "startDate": "1943-11-03",
+    "endDate": "1943-11-04",
+    "datePrecision": "day",
+    "location": {
+      "lat": 51.22532,
+      "lng": 22.60626,
+      "name": {
+        "en": "Majdanek, Trawniki and Poniatowa (marker at Majdanek)",
+        "pl": "Majdanek, Trawniki i Poniatowa (znacznik: Majdanek)"
+      },
+      "precision": "region"
+    },
+    "type": "massacre",
+    "belligerents": [
+      "Germany"
+    ],
+    "summary": {
+      "en": "On 3–4 November 1943, in an operation cynically code-named 'Erntefest' (Harvest Festival), the Germans shot nearly 42,000 Jews held in the forced-labour camps of the Lublin district at Majdanek, Trawniki and Poniatowa, among them many deported from the Warsaw and Białystok ghettos. Victims were shot in pre-dug trenches, which the Germans had claimed were air-raid ditches. It was one of the last stages of the extermination of Polish Jews.",
+      "pl": "3–4 listopada 1943 r. w operacji o cynicznym kryptonimie „Erntefest” („dożynki”) Niemcy rozstrzelali na Majdanku, w Trawnikach i Poniatowej blisko 42 tys. Żydów przetrzymywanych w obozach pracy przymusowej dystryktu lubelskiego, wśród nich wielu deportowanych z gett warszawskiego i białostockiego. Ofiary rozstrzeliwano w wykopanych wcześniej rowach, przedstawianych jako rowy przeciwlotnicze. Był to jeden z ostatnich etapów zagłady polskich Żydów."
+    },
+    "casualties": {
+      "en": "Nearly 42,000 people (JHI).",
+      "pl": "Blisko 42 tys. osób (ŻIH)."
+    },
+    "sources": [
+      {
+        "title": "„Do zobaczenia na tamtym świecie”. Rocznica akcji „Erntefest”",
+        "publisher": "Żydowski Instytut Historyczny",
+        "url": "https://www.jhi.pl/artykuly/do-zobaczenia-na-tamtym-swiecie-rocznica-akcji-erntefest,4479",
+        "tier": 1,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true
+  },
+  {
+    "id": "janowska-revolt-1943",
+    "title": {
+      "en": "Revolt and liquidation of the Janowska camp",
+      "pl": "Bunt i likwidacja obozu janowskiego"
+    },
+    "startDate": "1943-11-19",
+    "endDate": "1943-11-19",
+    "datePrecision": "day",
+    "location": {
+      "lat": 49.84195,
+      "lng": 24.03159,
+      "name": {
+        "en": "Janowska camp, Lwów",
+        "pl": "Obóz janowski, Lwów"
+      },
+      "precision": "town"
+    },
+    "type": "uprising",
+    "belligerents": [
+      "Jewish prisoners",
+      "Germany"
+    ],
+    "summary": {
+      "en": "On 19 November 1943, as the Germans liquidated the concentration camp on Janowska Street in Lwów, its prisoners – among them the Sonderkommando 1005 forced to exhume and burn bodies – revolted. The camp, set up in 1941 as a forced-labour camp mainly for Jews, was the place of death of at least several tens of thousands of Jews.",
+      "pl": "19 listopada 1943 r., w czasie likwidacji przez Niemców obozu koncentracyjnego przy ul. Janowskiej we Lwowie, wybuchł bunt więźniów – wśród nich członków Sonderkommando 1005 zmuszanych do wydobywania i palenia zwłok. Obóz, utworzony w 1941 r. jako obóz pracy przymusowej głównie dla Żydów, był miejscem śmierci co najmniej kilkudziesięciu tysięcy Żydów."
+    },
+    "sources": [
+      {
+        "title": "80 lat temu wybuchł bunt więźniów w obozie przy ul. Janowskiej we Lwowie",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/wiadomosci/80-lat-temu-wybuchl-bunt-wiezniow-w-obozie-przy-ul-janowskiej-we-lwowie",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      },
+      {
+        "title": "10 sierpnia 1942 r. Niemcy rozpoczęli likwidację getta we Lwowie",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/aktualnosci/10-sierpnia-1942-r-niemcy-rozpoczeli-likwidacje-getta-we-lwowie",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "Only tier-2 sources were used. Estimates of the camp's total victims cited in the literature range up to 100,000 (IPN) or 200,000 (a Soviet commission figure considered unreliable).",
+      "pl": "Wykorzystano jedynie źródła 2. kategorii. Przytaczane w literaturze szacunki łącznej liczby ofiar obozu sięgają 100 tys. (IPN) lub 200 tys. (liczba komisji sowieckiej uznawana za mało wiarygodną)."
+    }
+  }
+]

@@ -1,0 +1,999 @@
+{
+  "_comment": "Place lookups for event coordinates. Run `npm run geocode` to resolve new entries via OpenStreetMap Nominatim; results are cached in gazetteer.json. `events` lists the event ids whose location.lat/lng must equal the resolved point.",
+  "places": [
+    {
+      "key": "westerplatte",
+      "query": "Westerplatte, Gdańsk",
+      "events": [
+        "westerplatte-1939"
+      ]
+    },
+    {
+      "key": "wielun",
+      "query": "Wieluń, Poland",
+      "events": [
+        "wielun-bombing-1939"
+      ]
+    },
+    {
+      "key": "poczta-gdansk",
+      "query": "Plac Obrońców Poczty Polskiej, Gdańsk",
+      "events": [
+        "polish-post-office-danzig-1939"
+      ]
+    },
+    {
+      "key": "kutno",
+      "query": "Kutno, Poland",
+      "events": [
+        "bzura-1939"
+      ]
+    },
+    {
+      "key": "warszawa",
+      "query": "Śródmieście, Warszawa",
+      "events": [
+        "siege-of-warsaw-1939",
+        "warsaw-uprising-1944",
+        "warsaw-bombing-25-sep-1939",
+        "szp-founded-1939",
+        "igo-sym-1941",
+        "zegota-1942",
+        "ak-founded-1942",
+        "destruction-of-warsaw-1944"
+      ]
+    },
+    {
+      "key": "sarny",
+      "query": "Sarny, Rivne Oblast, Ukraine",
+      "events": [
+        "soviet-invasion-1939",
+        "sarny-fortified-area-1939"
+      ]
+    },
+    {
+      "key": "kock",
+      "query": "Kock, Poland",
+      "events": [
+        "kock-1939"
+      ]
+    },
+    {
+      "key": "collegium-novum",
+      "query": "Collegium Novum, Kraków",
+      "events": [
+        "sonderaktion-krakau-1939"
+      ]
+    },
+    {
+      "key": "piasnica",
+      "query": "Wielka Piaśnica, Poland",
+      "events": [
+        "piasnica-1939"
+      ]
+    },
+    {
+      "key": "lwow",
+      "query": "Lviv, Ukraine",
+      "events": [
+        "soviet-deportation-feb-1940",
+        "soviet-elections-1939",
+        "nkvd-prison-massacres-1941",
+        "lwow-pogroms-1941",
+        "lwow-great-action-1942",
+        "lwow-ghetto-liquidation-1943",
+        "janowska-revolt-1943",
+        "lwow-tempest-1944"
+      ]
+    },
+    {
+      "key": "katyn",
+      "query": "Katyn, Smolensk Oblast, Russia",
+      "events": [
+        "katyn-massacre-1940"
+      ]
+    },
+    {
+      "key": "auschwitz-i",
+      "query": "Auschwitz I, Oświęcim",
+      "events": [
+        "auschwitz-camp-1940",
+        "auschwitz-first-gassing-1941",
+        "pilecki-escape-1943"
+      ]
+    },
+    {
+      "key": "auschwitz-birkenau",
+      "query": "Auschwitz II-Birkenau, Brzezinka",
+      "events": [
+        "auschwitz-liberation-1945",
+        "birkenau-construction-1941",
+        "hungarian-jews-auschwitz-1944",
+        "roma-camp-liquidation-1944",
+        "sonderkommando-revolt-1944"
+      ]
+    },
+    {
+      "key": "muranow",
+      "query": "Muranów, Warszawa",
+      "events": [
+        "warsaw-ghetto-sealed-1940",
+        "oneg-szabat-1940",
+        "warsaw-january-resistance-1943"
+      ]
+    },
+    {
+      "key": "jedwabne",
+      "query": "Jedwabne, Poland",
+      "events": [
+        "jedwabne-1941"
+      ]
+    },
+    {
+      "key": "umschlagplatz",
+      "query": "Umschlagplatz, Warszawa",
+      "events": [
+        "grossaktion-warschau-1942"
+      ]
+    },
+    {
+      "key": "ghetto-heroes",
+      "query": "Pomnik Bohaterów Getta, Warszawa",
+      "events": [
+        "warsaw-ghetto-uprising-1943"
+      ]
+    },
+    {
+      "key": "wlodzimierz",
+      "query": "Volodymyr, Volyn Oblast, Ukraine",
+      "events": [
+        "volhynia-bloody-sunday-1943"
+      ]
+    },
+    {
+      "key": "wola",
+      "query": "Wola, Warszawa",
+      "events": [
+        "wola-massacre-1944"
+      ]
+    },
+    {
+      "key": "majdanek",
+      "query": "Państwowe Muzeum na Majdanku, Lublin",
+      "events": [
+        "majdanek-liberation-1944",
+        "majdanek-camp-1941",
+        "erntefest-1943",
+        "majdanek-trial-1944"
+      ]
+    },
+    {
+      "key": "wroclaw",
+      "query": "Wrocław, Poland",
+      "events": [
+        "siege-of-breslau-1945"
+      ]
+    },
+    {
+      "key": "kolobrzeg",
+      "query": "Kołobrzeg, Poland",
+      "events": [
+        "kolobrzeg-1945"
+      ]
+    },
+    {
+      "key": "mokra",
+      "query": "Mokra, gmina Miedźno",
+      "events": [
+        "mokra-1939"
+      ]
+    },
+    {
+      "key": "krojanty",
+      "query": "Krojanty, Poland",
+      "events": [
+        "krojanty-1939"
+      ]
+    },
+    {
+      "key": "oksywie",
+      "query": "Oksywie, Gdynia",
+      "events": [
+        "defence-of-gdynia-oksywie-1939"
+      ]
+    },
+    {
+      "key": "hel",
+      "query": "Hel, powiat pucki",
+      "events": [
+        "defence-of-hel-1939",
+        "gryf-wicher-sunk-1939"
+      ]
+    },
+    {
+      "key": "jordanow",
+      "query": "Jordanów, Poland",
+      "events": [
+        "jordanow-1939"
+      ]
+    },
+    {
+      "key": "bydgoszcz",
+      "query": "Stary Rynek, Bydgoszcz",
+      "events": [
+        "bydgoszcz-diversion-1939",
+        "bydgoszcz-executions-1939"
+      ]
+    },
+    {
+      "key": "bory-tucholskie",
+      "query": "Bory Tucholskie",
+      "events": [
+        "tuchola-forest-1939"
+      ]
+    },
+    {
+      "key": "wegierska-gorka",
+      "query": "Węgierska Górka, Poland",
+      "events": [
+        "wegierska-gorka-1939"
+      ]
+    },
+    {
+      "key": "mlawa",
+      "query": "Mława, Poland",
+      "events": [
+        "mlawa-1939"
+      ]
+    },
+    {
+      "key": "czestochowa",
+      "query": "Częstochowa, Poland",
+      "events": [
+        "czestochowa-massacre-1939",
+        "czestochowa-ghetto-liquidation-1942"
+      ]
+    },
+    {
+      "key": "sulejow",
+      "query": "Sulejów, Poland",
+      "events": [
+        "sulejow-bombing-1939"
+      ]
+    },
+    {
+      "key": "piotrkow",
+      "query": "Piotrków Trybunalski, Poland",
+      "events": [
+        "borowa-gora-1939",
+        "piotrkow-ghetto-1939"
+      ]
+    },
+    {
+      "key": "serock",
+      "query": "Serock, powiat legionowski",
+      "events": [
+        "serock-pow-shooting-1939"
+      ]
+    },
+    {
+      "key": "tomaszow-maz",
+      "query": "Tomaszów Mazowiecki, Poland",
+      "events": [
+        "tomaszow-mazowiecki-1939"
+      ]
+    },
+    {
+      "key": "krakow",
+      "query": "Rynek Główny, Kraków",
+      "events": [
+        "krakow-occupied-1939"
+      ]
+    },
+    {
+      "key": "janow-lub",
+      "query": "Janów Lubelski, Poland",
+      "events": [
+        "janow-lubelski-bombing-1939"
+      ]
+    },
+    {
+      "key": "ilza",
+      "query": "Iłża, Poland",
+      "events": [
+        "ilza-1939"
+      ]
+    },
+    {
+      "key": "ciepielow",
+      "query": "Ciepielów, Poland",
+      "events": [
+        "ciepielow-1939"
+      ]
+    },
+    {
+      "key": "wizna",
+      "query": "Wizna, Poland",
+      "events": [
+        "wizna-1939"
+      ]
+    },
+    {
+      "key": "mogilno",
+      "query": "Mogilno, Poland",
+      "events": [
+        "mogilno-1939"
+      ]
+    },
+    {
+      "key": "kaluszyn",
+      "query": "Kałuszyn, Poland",
+      "events": [
+        "kaluszyn-1939"
+      ]
+    },
+    {
+      "key": "konskie",
+      "query": "Końskie, Poland",
+      "events": [
+        "konskie-1939",
+        "hubal-unit-1939"
+      ]
+    },
+    {
+      "key": "szczucin",
+      "query": "Szczucin, Poland",
+      "events": [
+        "szczucin-1939"
+      ]
+    },
+    {
+      "key": "frampol",
+      "query": "Frampol, Poland",
+      "events": [
+        "frampol-bombing-1939"
+      ]
+    },
+    {
+      "key": "zambrow",
+      "query": "Zambrów, Poland",
+      "events": [
+        "zambrow-pow-shooting-1939"
+      ]
+    },
+    {
+      "key": "modlin",
+      "query": "Twierdza Modlin",
+      "events": [
+        "modlin-1939"
+      ]
+    },
+    {
+      "key": "brest-fortress",
+      "query": "Brest Fortress, Belarus",
+      "events": [
+        "brzesc-fortress-1939"
+      ]
+    },
+    {
+      "key": "brest",
+      "query": "Brest, Belarus",
+      "events": [
+        "brzesc-parade-1939",
+        "barbarossa-1941"
+      ]
+    },
+    {
+      "key": "bilgoraj",
+      "query": "Biłgoraj, Poland",
+      "events": [
+        "bilgoraj-bombing-1939"
+      ]
+    },
+    {
+      "key": "jaworow",
+      "query": "Yavoriv, Lviv Oblast, Ukraine",
+      "events": [
+        "jaworow-1939"
+      ]
+    },
+    {
+      "key": "antoniew",
+      "query": "Antoniew, gmina Sochaczew",
+      "events": [
+        "antoniew-zdziarow-1939"
+      ]
+    },
+    {
+      "key": "tomaszow-lub",
+      "query": "Tomaszów Lubelski, Poland",
+      "events": [
+        "tomaszow-lubelski-i-1939",
+        "tomaszow-lubelski-ii-1939"
+      ]
+    },
+    {
+      "key": "sladow",
+      "query": "Śladów, gmina Brochów",
+      "events": [
+        "sladow-1939"
+      ]
+    },
+    {
+      "key": "wilno",
+      "query": "Vilnius, Lithuania",
+      "events": [
+        "wilno-1939",
+        "wilno-ghetto-1941",
+        "ostra-brama-1944",
+        "wilno-ak-arrests-1944"
+      ]
+    },
+    {
+      "key": "grodno",
+      "query": "Grodno, Belarus",
+      "events": [
+        "grodno-1939"
+      ]
+    },
+    {
+      "key": "wola-korybutowa",
+      "query": "Wola Korybutowa, Poland",
+      "events": [
+        "wola-korybutowa-1939"
+      ]
+    },
+    {
+      "key": "kodziowce",
+      "query": "Kodziowce, Belarus",
+      "events": [
+        "kodziowce-1939"
+      ]
+    },
+    {
+      "key": "sopockinie",
+      "query": "Сапоцкін",
+      "events": [
+        "olszyna-wilczynski-murder-1939"
+      ]
+    },
+    {
+      "key": "szack",
+      "query": "Shatsk, Volyn Oblast, Ukraine",
+      "events": [
+        "szack-1939"
+      ]
+    },
+    {
+      "key": "wytyczno",
+      "query": "Wytyczno, Poland",
+      "events": [
+        "wytyczno-1939"
+      ]
+    },
+    {
+      "key": "jablon",
+      "query": "Jabłoń, powiat parczewski",
+      "events": [
+        "jablon-milanow-1939"
+      ]
+    },
+    {
+      "key": "al-ujazdowskie",
+      "query": "Aleje Ujazdowskie, Warszawa",
+      "events": [
+        "hitler-parade-warsaw-1939",
+        "kutschera-1944"
+      ]
+    },
+    {
+      "key": "lwow-ratusz",
+      "query": "Ratusz, Lviv",
+      "events": [
+        "defence-of-lwow-1939"
+      ]
+    },
+    {
+      "key": "zaspa",
+      "query": "Zaspa, Gdańsk",
+      "events": [
+        "post-office-defenders-executed-1939"
+      ]
+    },
+    {
+      "key": "poznan",
+      "query": "Poznań, Poland",
+      "events": [
+        "annexation-western-poland-1939"
+      ]
+    },
+    {
+      "key": "wawel",
+      "query": "Wawel, Kraków",
+      "events": [
+        "general-government-1939",
+        "jewish-armband-decree-1939",
+        "ab-aktion-1940",
+        "death-penalty-decree-1941"
+      ]
+    },
+    {
+      "key": "gdynia",
+      "query": "Gdynia, Poland",
+      "events": [
+        "gdynia-expulsions-1939"
+      ]
+    },
+    {
+      "key": "torun",
+      "query": "Toruń, Poland",
+      "events": [
+        "pomeranian-crime-1939"
+      ]
+    },
+    {
+      "key": "fordon",
+      "query": "Fordon, Bydgoszcz",
+      "events": [
+        "fordon-valley-of-death-1939"
+      ]
+    },
+    {
+      "key": "mniszek",
+      "query": "Mniszek, gmina Dragacz",
+      "events": [
+        "swiecie-patients-mniszek-1939"
+      ]
+    },
+    {
+      "key": "szpegawsk",
+      "query": "Szpęgawsk, Poland",
+      "events": [
+        "kocborowo-patients-szpegawsk-1939"
+      ]
+    },
+    {
+      "key": "fort-vii",
+      "query": "Fort VII, Poznań",
+      "events": [
+        "fort-vii-camp-1939",
+        "fort-vii-gassings-1939"
+      ]
+    },
+    {
+      "key": "dziekanka",
+      "query": "Dziekanka, Gniezno",
+      "events": [
+        "dziekanka-patients-1939"
+      ]
+    },
+    {
+      "key": "chelm",
+      "query": "Chełm, Poland",
+      "events": [
+        "chelm-patients-1940",
+        "pkwn-1944"
+      ]
+    },
+    {
+      "key": "kochanowka",
+      "query": "Kochanówka, Łódź",
+      "events": [
+        "kochanowka-patients-1940"
+      ]
+    },
+    {
+      "key": "palmiry",
+      "query": "Palmiry, Poland",
+      "events": [
+        "palmiry-executions-1939",
+        "palmiry-june-1940"
+      ]
+    },
+    {
+      "key": "bochnia",
+      "query": "Bochnia, Poland",
+      "events": [
+        "bochnia-1939"
+      ]
+    },
+    {
+      "key": "wawer",
+      "query": "Wawer, Warszawa",
+      "events": [
+        "wawer-1939"
+      ]
+    },
+    {
+      "key": "hucisko",
+      "query": "Hucisko, gmina Stąporków",
+      "events": [
+        "hucisko-1940"
+      ]
+    },
+    {
+      "key": "skloby",
+      "query": "Skłoby, Poland",
+      "events": [
+        "hubal-pacifications-1940"
+      ]
+    },
+    {
+      "key": "anielin",
+      "query": "Anielin, gmina Poświętne",
+      "events": [
+        "hubal-death-1940"
+      ]
+    },
+    {
+      "key": "zoliborz",
+      "query": "Żoliborz, Warszawa",
+      "events": [
+        "pilecki-auschwitz-1940",
+        "zoliborz-capitulation-1944"
+      ]
+    },
+    {
+      "key": "stutthof",
+      "query": "Muzeum Stutthof, Sztutowo",
+      "events": [
+        "stutthof-camp-1939"
+      ]
+    },
+    {
+      "key": "gross-rosen",
+      "query": "Muzeum Gross-Rosen, Rogoźnica",
+      "events": [
+        "gross-rosen-camp-1940"
+      ]
+    },
+    {
+      "key": "radomsko",
+      "query": "Radomsko, Poland",
+      "events": [
+        "radomsko-ghetto-1939"
+      ]
+    },
+    {
+      "key": "baluty",
+      "query": "Bałuty, Łódź",
+      "events": [
+        "lodz-ghetto-1940",
+        "lodz-great-szpera-1942",
+        "lodz-ghetto-liquidation-1944"
+      ]
+    },
+    {
+      "key": "podgorze",
+      "query": "Podgórze, Kraków",
+      "events": [
+        "krakow-ghetto-1941",
+        "krakow-ghetto-liquidation-1943"
+      ]
+    },
+    {
+      "key": "lublin",
+      "query": "Lublin, Poland",
+      "events": [
+        "lublin-ghetto-1941",
+        "reinhardt-lublin-deportation-1942",
+        "lublin-tempest-1944"
+      ]
+    },
+    {
+      "key": "bialystok",
+      "query": "Białystok, Poland",
+      "events": [
+        "soviet-annexation-1939",
+        "soviet-deportation-apr-1940",
+        "bialystok-ghetto-1941",
+        "bialystok-ghetto-uprising-1943"
+      ]
+    },
+    {
+      "key": "czortkow",
+      "query": "Chortkiv, Ternopil Oblast, Ukraine",
+      "events": [
+        "czortkow-uprising-1940"
+      ]
+    },
+    {
+      "key": "pinsk",
+      "query": "Pinsk, Belarus",
+      "events": [
+        "soviet-deportation-jun-1940"
+      ]
+    },
+    {
+      "key": "tarnopol",
+      "query": "Тернопіль",
+      "events": [
+        "soviet-deportation-may-1941"
+      ]
+    },
+    {
+      "key": "nowogrodek",
+      "query": "Navahrudak, Belarus",
+      "events": [
+        "soviet-deportation-jun-1941"
+      ]
+    },
+    {
+      "key": "wzgorza-wuleckie",
+      "query": "Wzgórza Wuleckie, Lwów",
+      "events": [
+        "lwow-professors-1941"
+      ]
+    },
+    {
+      "key": "bialystok-synagogue",
+      "query": "Pomnik Wielkiej Synagogi, Białystok",
+      "events": [
+        "bialystok-synagogue-1941"
+      ]
+    },
+    {
+      "key": "radzilow",
+      "query": "Radziłów, Poland",
+      "events": [
+        "radzilow-1941"
+      ]
+    },
+    {
+      "key": "lopuchowo",
+      "query": "Łopuchowo, gmina Tykocin",
+      "events": [
+        "tykocin-1941"
+      ]
+    },
+    {
+      "key": "gielczyn",
+      "query": "Giełczyn, gmina Łomża",
+      "events": [
+        "gielczyn-1941"
+      ]
+    },
+    {
+      "key": "czerwony-bor",
+      "query": "Czerwony Bór, Poland",
+      "events": [
+        "czerwony-bor-1941"
+      ]
+    },
+    {
+      "key": "ponary",
+      "query": "Paneriai Memorial",
+      "events": [
+        "ponary-1941"
+      ]
+    },
+    {
+      "key": "belzec",
+      "query": "Bełżec, Poland",
+      "events": [
+        "belzec-camp-1942"
+      ]
+    },
+    {
+      "key": "chelmno",
+      "query": "Chełmno nad Nerem",
+      "events": [
+        "chelmno-camp-1941",
+        "chelmno-second-phase-1944"
+      ]
+    },
+    {
+      "key": "sobibor",
+      "query": "Muzeum i Miejsce Pamięci w Sobiborze",
+      "events": [
+        "sobibor-camp-1942",
+        "sobibor-revolt-1943"
+      ]
+    },
+    {
+      "key": "treblinka",
+      "query": "Muzeum Treblinka",
+      "events": [
+        "treblinka-camp-1942",
+        "treblinka-revolt-1943"
+      ]
+    },
+    {
+      "key": "jozefow",
+      "query": "Józefów, powiat biłgorajski",
+      "events": [
+        "jozefow-1942"
+      ]
+    },
+    {
+      "key": "skierbieszow",
+      "query": "Skierbieszów, Poland",
+      "events": [
+        "zamosc-expulsions-1942"
+      ]
+    },
+    {
+      "key": "przemyslowa",
+      "query": "Przemysłowa, Łódź",
+      "events": [
+        "przemyslowa-camp-1942"
+      ]
+    },
+    {
+      "key": "wojda",
+      "query": "Wojda, gmina Adamów",
+      "events": [
+        "wojda-1942"
+      ]
+    },
+    {
+      "key": "zaboreczno",
+      "query": "Zaboreczno, Poland",
+      "events": [
+        "zaboreczno-1943"
+      ]
+    },
+    {
+      "key": "parosla",
+      "query": "Паросля",
+      "events": [
+        "parosla-1943"
+      ]
+    },
+    {
+      "key": "arsenal",
+      "query": "Arsenał, Warszawa",
+      "events": [
+        "arsenal-action-1943"
+      ]
+    },
+    {
+      "key": "janowa-dolina",
+      "query": "Bazaltove, Rivne Oblast",
+      "events": [
+        "janowa-dolina-1943"
+      ]
+    },
+    {
+      "key": "naliboki",
+      "query": "Naliboki, Belarus",
+      "events": [
+        "naliboki-1943"
+      ]
+    },
+    {
+      "key": "michniow",
+      "query": "Michniów, Poland",
+      "events": [
+        "michniow-1943"
+      ]
+    },
+    {
+      "key": "luck",
+      "query": "Lutsk, Ukraine",
+      "events": [
+        "volhynia-massacres-1943"
+      ]
+    },
+    {
+      "key": "ostrowki",
+      "query": "Ostrówki, Рівненська сільська громада",
+      "events": [
+        "ostrowki-wola-ostrowiecka-1943"
+      ]
+    },
+    {
+      "key": "koniuchy",
+      "query": "Koniuchy, rejon solecznicki",
+      "events": [
+        "koniuchy-1944"
+      ]
+    },
+    {
+      "key": "huta-pieniacka",
+      "query": "Гута-Пеняцька",
+      "events": [
+        "huta-pieniacka-1944"
+      ]
+    },
+    {
+      "key": "markowa",
+      "query": "Markowa, powiat łańcucki",
+      "events": [
+        "ulma-family-1944"
+      ]
+    },
+    {
+      "key": "kowel",
+      "query": "Kovel, Ukraine",
+      "events": [
+        "wdp27-tempest-volhynia-1944"
+      ]
+    },
+    {
+      "key": "tarnow",
+      "query": "Tarnów, Poland",
+      "events": [
+        "most-iii-1944"
+      ]
+    },
+    {
+      "key": "pinczow",
+      "query": "Pińczów, Poland",
+      "events": [
+        "pinczow-republic-1944"
+      ]
+    },
+    {
+      "key": "ochota",
+      "query": "Ochota, Warszawa",
+      "events": [
+        "ochota-massacre-1944"
+      ]
+    },
+    {
+      "key": "stare-miasto",
+      "query": "Stare Miasto, Warszawa",
+      "events": [
+        "old-town-fall-1944"
+      ]
+    },
+    {
+      "key": "past",
+      "query": "PAST, Zielna, Warszawa",
+      "events": [
+        "past-capture-1944"
+      ]
+    },
+    {
+      "key": "praga",
+      "query": "Praga-Północ, Warszawa",
+      "events": [
+        "praga-capture-1944"
+      ]
+    },
+    {
+      "key": "czerniakow",
+      "query": "Solec, Warszawa",
+      "events": [
+        "berling-landing-1944",
+        "czerniakow-fall-1944"
+      ]
+    },
+    {
+      "key": "mokotow",
+      "query": "Mokotów, Warszawa",
+      "events": [
+        "mokotow-capitulation-1944"
+      ]
+    },
+    {
+      "key": "pruszkow",
+      "query": "Pruszków, Poland",
+      "events": [
+        "pruszkow-dulag-1944"
+      ]
+    },
+    {
+      "key": "jaktorow",
+      "query": "Jaktorów, Poland",
+      "events": [
+        "jaktorow-1944"
+      ]
+    },
+    {
+      "key": "studzianki",
+      "query": "Studzianki Pancerne",
+      "events": [
+        "studzianki-1944"
+      ]
+    },
+    {
+      "key": "sakramentki",
+      "query": "Rynek Nowego Miasta, Warszawa",
+      "events": [
+        "warsaw-churches-bombing-1944"
+      ]
+    }
+  ]
+}

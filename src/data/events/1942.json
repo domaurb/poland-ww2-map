@@ -1,0 +1,602 @@
+[
+  {
+    "id": "ak-founded-1942",
+    "title": {
+      "en": "Union of Armed Struggle renamed the Home Army (AK)",
+      "pl": "Przemianowanie ZWZ na Armię Krajową"
+    },
+    "startDate": "1942-02-14",
+    "endDate": "1942-02-14",
+    "datePrecision": "day",
+    "location": {
+      "lat": 52.23281,
+      "lng": 21.01907,
+      "name": {
+        "en": "Warsaw",
+        "pl": "Warszawa"
+      },
+      "precision": "town"
+    },
+    "type": "other",
+    "belligerents": [
+      "Poland"
+    ],
+    "summary": {
+      "en": "On 14 February 1942 a dispatch from Commander-in-Chief Gen. Władysław Sikorski reached occupied Poland ordering that the Union of Armed Struggle (ZWZ), led by Gen. Stefan Rowecki, be renamed the Home Army (Armia Krajowa). The name came to embrace almost the whole armed effort of the Polish underground.",
+      "pl": "14 lutego 1942 r. do kraju dotarła depesza Naczelnego Wodza gen. Władysława Sikorskiego, nakazująca przemianowanie Związku Walki Zbrojnej, kierowanego przez gen. Stefana Roweckiego, na Armię Krajową. Nazwa ta objęła niemal całokształt wysiłku zbrojnego polskiej konspiracji."
+    },
+    "sources": [
+      {
+        "title": "Powstanie Armii Krajowej",
+        "publisher": "Instytut Pamięci Narodowej",
+        "url": "https://ipn.gov.pl/pl/aktualnosci/38719,Powstanie-Armii-Krajowej.html",
+        "tier": 1,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true
+  },
+  {
+    "id": "reinhardt-lublin-deportation-1942",
+    "title": {
+      "en": "Start of Aktion Reinhardt: Lublin ghetto deportations to Bełżec",
+      "pl": "Początek akcji „Reinhardt”: deportacje z getta lubelskiego do Bełżca"
+    },
+    "startDate": "1942-03-16",
+    "endDate": "1942-03-17",
+    "datePrecision": "day",
+    "location": {
+      "lat": 51.21819,
+      "lng": 22.55468,
+      "name": {
+        "en": "Lublin ghetto",
+        "pl": "Getto lubelskie"
+      },
+      "precision": "town"
+    },
+    "type": "deportation",
+    "belligerents": [
+      "Germany"
+    ],
+    "summary": {
+      "en": "In the night of 16–17 March 1942 the first transports of Jews from Lublin and Lwów reached the Bełżec extermination camp. The Germans named the operation 'Aktion Reinhardt' after Reinhard Heydrich; its victims were murdered mainly in Treblinka, Bełżec and Sobibór, and also in the Majdanek camp. IPN describes it as an integral part of the 'final solution of the Jewish question' in Europe.",
+      "pl": "W nocy z 16 na 17 marca 1942 r. do obozu zagłady w Bełżcu przybyły pierwsze transporty Żydów z Lublina i Lwowa. Niemcy nadali tej operacji kryptonim „Aktion Reinhardt” od imienia Reinharda Heydricha; jej ofiary mordowano głównie w Treblince, Bełżcu i Sobiborze, a także na Majdanku. IPN określa ją jako integralną część „ostatecznego rozwiązania kwestii żydowskiej” w Europie."
+    },
+    "sources": [
+      {
+        "title": "80. rocznica rozpoczęcia Akcji Reinhardt – zagłady Żydów w Generalnym Gubernatorstwie",
+        "publisher": "Instytut Pamięci Narodowej",
+        "url": "https://ipn.gov.pl/pl/dla-mediow/komunikaty/161365,80-rocznica-rozpoczecia-Akcji-Reinhardt-zaglady-Zydow-w-Generalnym-Gubernatorstw.html",
+        "tier": 1,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true
+  },
+  {
+    "id": "belzec-camp-1942",
+    "title": {
+      "en": "Bełżec extermination camp",
+      "pl": "Obóz zagłady w Bełżcu"
+    },
+    "startDate": "1942-03-17",
+    "endDate": "1942-12-11",
+    "datePrecision": "day",
+    "location": {
+      "lat": 50.38472,
+      "lng": 23.43784,
+      "name": {
+        "en": "Bełżec",
+        "pl": "Bełżec"
+      },
+      "precision": "town"
+    },
+    "type": "camp",
+    "belligerents": [
+      "Germany"
+    ],
+    "summary": {
+      "en": "Construction began on 1 November 1941, and from 17 March 1942 transports of Jews arrived daily at Bełżec, the first German extermination centre with stationary gas chambers, where victims were killed with carbon monoxide from a tank engine. It served as a model for Treblinka and Sobibór. The last transports, from Rawa Ruska, arrived on 7–11 December 1942, and the camp was closed that month.",
+      "pl": "Budowę rozpoczęto 1 listopada 1941 r., a od 17 marca 1942 r. do Bełżca – pierwszego niemieckiego ośrodka zagłady ze stacjonarnymi komorami gazowymi, w których zabijano tlenkiem węgla z silnika czołgowego – codziennie przyjeżdżały transporty Żydów. Obóz stał się wzorem dla Treblinki i Sobiboru. Ostatnie transporty, z Rawy Ruskiej, przybyły 7–11 grudnia 1942 r., a w tym samym miesiącu obóz zamknięto."
+    },
+    "casualties": {
+      "en": "440,000–453,000 Jews deported in 179 transports according to Robert Kuwałek (cited by IPN); JHI gives up to 600,000 victims.",
+      "pl": "440–453 tys. Żydów w 179 transportach według Roberta Kuwałka (za IPN); ŻIH podaje nawet 600 tys. ofiar."
+    },
+    "sources": [
+      {
+        "title": "Michał Zajda: Bełżec. Zapomniane miejsce kaźni polskich Żydów",
+        "publisher": "Instytut Pamięci Narodowej",
+        "url": "https://ipn.gov.pl/pl/historia-z-ipn/178606,Michal-Zajda-Belzec-Zapomniane-miejsce-kazni-polskich-Zydow.html",
+        "tier": 1,
+        "accessed": "2026-11-19"
+      },
+      {
+        "title": "17 marca. Rocznica otwarcia obozu zagłady w Bełżcu",
+        "publisher": "Żydowski Instytut Historyczny",
+        "url": "https://www.jhi.pl/artykuly/17-marca-rocznica-otwarcia-obozu-zaglady-w-belzcu,581",
+        "tier": 1,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true
+  },
+  {
+    "id": "sobibor-camp-1942",
+    "title": {
+      "en": "Sobibór extermination camp",
+      "pl": "Obóz zagłady w Sobiborze"
+    },
+    "startDate": "1942-05-01",
+    "endDate": "1943-10-14",
+    "datePrecision": "approximate",
+    "location": {
+      "lat": 51.44755,
+      "lng": 23.59391,
+      "name": {
+        "en": "Sobibór",
+        "pl": "Sobibór"
+      },
+      "precision": "exact"
+    },
+    "type": "camp",
+    "belligerents": [
+      "Germany"
+    ],
+    "summary": {
+      "en": "Built mainly in spring 1942 beside Sobibór railway station on the Włodawa–Chełm line, the camp began operating at the end of spring 1942 as the second Aktion Reinhardt extermination centre after Bełżec. It operated until the prisoners' revolt of 14 October 1943, after which the Germans hastily destroyed the evidence.",
+      "pl": "Zbudowany głównie wiosną 1942 r. przy stacji kolejowej Sobibór na linii Włodawa–Chełm, obóz zaczął działać pod koniec wiosny 1942 r. jako drugi, po Bełżcu, ośrodek zagłady akcji „Reinhardt”. Funkcjonował do buntu więźniów 14 października 1943 r., po którym Niemcy pospiesznie zatarli ślady."
+    },
+    "casualties": {
+      "en": "180,000 Jews murdered, according to the State Museum at Majdanek (cited by IPN).",
+      "pl": "180 tys. zamordowanych Żydów według ustaleń Państwowego Muzeum na Majdanku (za IPN)."
+    },
+    "sources": [
+      {
+        "title": "Bunt w niemieckim obozie zagłady w Sobiborze",
+        "publisher": "Instytut Pamięci Narodowej",
+        "url": "https://ipn.gov.pl/pl/historia-z-ipn/230978,Bunt-w-niemieckim-obozie-zaglady-w-Sobiborze.html",
+        "tier": 1,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "The start is approximate: IPN says the camp began operating at the 'end of spring 1942'.",
+      "pl": "Początek przybliżony: IPN podaje, że obóz zaczął działać „pod koniec wiosny 1942 r.”."
+    }
+  },
+  {
+    "id": "jozefow-1942",
+    "title": {
+      "en": "Józefów massacre",
+      "pl": "Zbrodnia w Józefowie"
+    },
+    "startDate": "1942-07-13",
+    "endDate": "1942-07-13",
+    "datePrecision": "day",
+    "location": {
+      "lat": 50.48083,
+      "lng": 23.05406,
+      "name": {
+        "en": "Józefów, Roztocze",
+        "pl": "Józefów na Roztoczu"
+      },
+      "precision": "town"
+    },
+    "type": "massacre",
+    "belligerents": [
+      "Germany"
+    ],
+    "summary": {
+      "en": "On 13 July 1942, after a selection in which about 200–400 young men from the Józefów ghetto were sent to labour camps in Lublin, men of Reserve Police Battalion 101 shot the women, children and elderly in a mass execution on the Winiarczykowa Góra hill. In May 1942 German officers from Biłgoraj had already shot about 120 Jews in the town's streets.",
+      "pl": "13 lipca 1942 r., po selekcji, w której ok. 200–400 młodych mężczyzn z getta w Józefowie skierowano do obozów pracy w Lublinie, funkcjonariusze 101. Policyjnego Batalionu Rezerwy rozstrzelali w masowej egzekucji na Winiarczykowej Górze kobiety, dzieci i starców. Już w maju 1942 r. niemieccy funkcjonariusze z Biłgoraja zastrzelili na ulicach miasteczka ok. 120 Żydów."
+    },
+    "sources": [
+      {
+        "title": "Upamiętnienie ofiar zagłady Żydów w Józefowie",
+        "publisher": "Instytut Pamięci Narodowej",
+        "url": "https://ipn.gov.pl/pl/aktualnosci/167915,Upamietnienie-ofiar-zaglady-Zydow-w-Jozefowie-13-lipca-2022.html",
+        "tier": 1,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true
+  },
+  {
+    "id": "grossaktion-warschau-1942",
+    "title": {
+      "en": "Great Deportation from the Warsaw ghetto (Grossaktion Warschau)",
+      "pl": "Wielka Akcja deportacyjna w getcie warszawskim (Grossaktion Warschau)"
+    },
+    "startDate": "1942-07-22",
+    "endDate": "1942-09-21",
+    "datePrecision": "day",
+    "location": {
+      "lat": 52.25228,
+      "lng": 20.9891,
+      "name": {
+        "en": "Umschlagplatz, Warsaw",
+        "pl": "Umschlagplatz, Warszawa"
+      },
+      "precision": "exact"
+    },
+    "type": "deportation",
+    "belligerents": [
+      "Germany"
+    ],
+    "summary": {
+      "en": "On 22 July 1942 the Germans began the mass deportation of Jews from the Warsaw ghetto, presented to its inhabitants as 'resettlement to the east'. Through the Umschlagplatz assembly point people were loaded onto freight trains and taken to the gas chambers of the Treblinka extermination camp. Many had hoped that forced labour in German-run workshops in the ghetto would protect them. The deportations continued until 21 September 1942.",
+      "pl": "22 lipca 1942 r. Niemcy rozpoczęli masową wywózkę Żydów z getta warszawskiego, przedstawianą mieszkańcom jako „przesiedlenie na wschód”. Przez Umschlagplatz ludzi ładowano do wagonów towarowych i wywożono do komór gazowych obozu zagłady w Treblince. Wielu liczyło, że praca przymusowa w niemieckich szopach w getcie ocali ich przed wysiedleniem. Deportacje trwały do 21 września 1942 r."
+    },
+    "casualties": {
+      "en": "By 21 September the Germans had murdered nearly 300,000 Jews (Jewish Historical Institute).",
+      "pl": "Do 21 września Niemcy zamordowali blisko 300 tys. Żydów (Żydowski Instytut Historyczny)."
+    },
+    "sources": [
+      {
+        "title": "„Łapią ludzi na ulicach”. Początek wielkiej deportacji z getta warszawskiego 22 lipca 1942 roku",
+        "publisher": "Żydowski Instytut Historyczny",
+        "url": "https://www.jhi.pl/artykuly/poczatek-wielkiej-deportacji-getto-warszawskie-22-lipca-1942-roku,3865",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      }
+    ],
+    "verified": true
+  },
+  {
+    "id": "treblinka-camp-1942",
+    "title": {
+      "en": "Treblinka II extermination camp",
+      "pl": "Obóz zagłady Treblinka II"
+    },
+    "startDate": "1942-07-23",
+    "endDate": "1943-08-31",
+    "datePrecision": "day",
+    "location": {
+      "lat": 52.6351,
+      "lng": 22.05407,
+      "name": {
+        "en": "Treblinka",
+        "pl": "Treblinka"
+      },
+      "precision": "exact"
+    },
+    "type": "camp",
+    "belligerents": [
+      "Germany"
+    ],
+    "summary": {
+      "en": "Construction of the Treblinka extermination camp near Kosów Lacki began on 1 June 1942; the first transport of Jews from the Warsaw ghetto arrived on 23 July 1942. Most victims came from Poland – Warsaw, Białystok, Grodno, Kielce, Radom, Częstochowa and many smaller towns – but also from across Europe; two or three transports of Roma were murdered there as well.",
+      "pl": "Budowę obozu zagłady w Treblince koło Kosowa Lackiego rozpoczęto 1 czerwca 1942 r.; pierwszy transport Żydów z getta warszawskiego przybył 23 lipca 1942 r. Większość ofiar pochodziła z Polski – z Warszawy, Białegostoku, Grodna, Kielc, Radomia, Częstochowy i wielu mniejszych miejscowości – ale także z całej Europy; zamordowano tu również 2 lub 3 transporty Romów."
+    },
+    "casualties": {
+      "en": "About 900,000 people murdered by August 1943 (IPN).",
+      "pl": "Do sierpnia 1943 r. zamordowano ok. 900 tys. osób (IPN)."
+    },
+    "sources": [
+      {
+        "title": "Obóz zagłady w Treblince",
+        "publisher": "Instytut Pamięci Narodowej",
+        "url": "https://ipn.gov.pl/pl/historia-z-ipn/100584,Oboz-zaglady-w-Treblince.html",
+        "tier": 1,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "IPN gives the killing period as until August 1943; the end date is shown as the end of that month. The camp was liquidated after the revolt of 2 August 1943.",
+      "pl": "IPN podaje okres mordów do sierpnia 1943 r.; jako datę końcową przyjęto koniec tego miesiąca. Obóz zlikwidowano po buncie z 2 sierpnia 1943 r."
+    }
+  },
+  {
+    "id": "lwow-great-action-1942",
+    "title": {
+      "en": "'Great Action' in the Lwów ghetto",
+      "pl": "„Wielka akcja” w getcie lwowskim"
+    },
+    "startDate": "1942-08-10",
+    "endDate": "1942-08-23",
+    "datePrecision": "day",
+    "location": {
+      "lat": 49.84195,
+      "lng": 24.03159,
+      "name": {
+        "en": "Lwów (Lviv) ghetto",
+        "pl": "Getto lwowskie"
+      },
+      "precision": "town"
+    },
+    "type": "deportation",
+    "belligerents": [
+      "Germany"
+    ],
+    "summary": {
+      "en": "On 10 August 1942 the Germans began the great liquidation action in the Lwów ghetto, one of the largest Jewish quarters in occupied Europe, created in the north-western part of the city in late 1941. By 23 August they had deported 50,000 Jews to the Bełżec extermination camp.",
+      "pl": "10 sierpnia 1942 r. Niemcy rozpoczęli wielką akcję likwidacyjną w getcie lwowskim – jednej z największych dzielnic zamkniętych w okupowanej Europie, utworzonej w północno-zachodniej części miasta pod koniec 1941 r. Do 23 sierpnia wywieźli do obozu zagłady w Bełżcu 50 tys. Żydów."
+    },
+    "casualties": {
+      "en": "50,000 Jews deported to Bełżec (dzieje.pl/PAP).",
+      "pl": "50 tys. Żydów wywiezionych do Bełżca (dzieje.pl/PAP)."
+    },
+    "sources": [
+      {
+        "title": "10 sierpnia 1942 r. Niemcy rozpoczęli likwidację getta we Lwowie",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/aktualnosci/10-sierpnia-1942-r-niemcy-rozpoczeli-likwidacje-getta-we-lwowie",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "Only a tier-2 source was used. The ghetto's creation is dated to 6 November 1941 by a decree of Governor Lasch; other sources give September or October 1941.",
+      "pl": "Wykorzystano jedynie źródło 2. kategorii. Utworzenie getta datuje się na 6 listopada 1941 r. (zarządzenie gubernatora Lascha); inne źródła podają wrzesień lub październik 1941 r."
+    }
+  },
+  {
+    "id": "lodz-great-szpera-1942",
+    "title": {
+      "en": "'Great Szpera' in the Łódź ghetto",
+      "pl": "„Wielka Szpera” w getcie łódzkim"
+    },
+    "startDate": "1942-09-01",
+    "endDate": "1942-09-30",
+    "datePrecision": "month",
+    "location": {
+      "lat": 51.80159,
+      "lng": 19.44232,
+      "name": {
+        "en": "Łódź ghetto (Bałuty)",
+        "pl": "Getto łódzkie (Bałuty)"
+      },
+      "precision": "town"
+    },
+    "type": "deportation",
+    "belligerents": [
+      "Germany"
+    ],
+    "summary": {
+      "en": "In September 1942, during the so-called 'Great Szpera' (curfew) in the Łódź ghetto, the Germans sent at least 15,000 people to their deaths in the Chełmno extermination camp, mainly Jewish children under the age of ten. Deportations from the Łódź ghetto to Chełmno had begun on 16 January 1942.",
+      "pl": "We wrześniu 1942 r., w czasie tzw. Wielkiej Szpery w getcie łódzkim, Niemcy wysłali na śmierć do obozu zagłady w Chełmnie nad Nerem co najmniej 15 tys. osób, głównie żydowskie dzieci poniżej 10. roku życia. Deportacje z getta łódzkiego do Chełmna rozpoczęły się 16 stycznia 1942 r."
+    },
+    "casualties": {
+      "en": "At least 15,000 people (dzieje.pl/PAP).",
+      "pl": "Co najmniej 15 tys. osób (dzieje.pl/PAP)."
+    },
+    "sources": [
+      {
+        "title": "Rozpoczęcie działalności KL Kulmhof, pierwszego niemieckiego obozu zagłady na ziemiach polskich",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/aktualnosci/rozpoczecie-dzialalnosci-kl-kulmhof-pierwszego-niemieckiego-obozu-zaglady-na",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "Only a tier-2 source was used; it gives only the month.",
+      "pl": "Wykorzystano jedynie źródło 2. kategorii; podaje ono tylko miesiąc."
+    }
+  },
+  {
+    "id": "czestochowa-ghetto-liquidation-1942",
+    "title": {
+      "en": "Liquidation of the Częstochowa ghetto",
+      "pl": "Likwidacja getta w Częstochowie"
+    },
+    "startDate": "1942-09-22",
+    "endDate": "1942-10-07",
+    "datePrecision": "approximate",
+    "location": {
+      "lat": 50.809,
+      "lng": 19.12441,
+      "name": {
+        "en": "Częstochowa",
+        "pl": "Częstochowa"
+      },
+      "precision": "town"
+    },
+    "type": "deportation",
+    "belligerents": [
+      "Germany"
+    ],
+    "summary": {
+      "en": "The liquidation of the Częstochowa ghetto, home to over 40,000 Jews from the city and surrounding towns, began on 22 September 1942. In just over two weeks the Germans deported about 40,000 people in freight trains to the Treblinka extermination camp; those selected for work were confined in the 'small ghetto' and used as slave labour, among others for the German firm Hasag.",
+      "pl": "22 września 1942 r. rozpoczęła się likwidacja getta w Częstochowie, w którym przebywało ponad 40 tys. Żydów z miasta i okolicznych miejscowości. W ciągu nieco ponad dwóch tygodni Niemcy wywieźli pociągami towarowymi do obozu zagłady w Treblince ok. 40 tys. osób; wybranych do pracy osadzono w tzw. małym getcie i zmuszano do niewolniczej pracy, m.in. w niemieckiej firmie Hasag."
+    },
+    "sources": [
+      {
+        "title": "Mija 75 lat od rozpoczęcia likwidacji żydowskiego getta w Częstochowie",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/aktualnosci/mija-75-lat-od-rozpoczecia-likwidacji-zydowskiego-getta-w-czestochowie",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "Only a tier-2 source was used. The end date is approximate ('just over two weeks').",
+      "pl": "Wykorzystano jedynie źródło 2. kategorii. Data końcowa przybliżona („nieco ponad dwa tygodnie”)."
+    }
+  },
+  {
+    "id": "zamosc-expulsions-1942",
+    "title": {
+      "en": "Expulsions from the Zamość region (Aktion Zamość)",
+      "pl": "Wysiedlenia z Zamojszczyzny (Aktion Zamość)"
+    },
+    "startDate": "1942-11-28",
+    "endDate": "1943-08-31",
+    "datePrecision": "day",
+    "location": {
+      "lat": 50.85203,
+      "lng": 23.36726,
+      "name": {
+        "en": "Zamość region (marker at Skierbieszów)",
+        "pl": "Zamojszczyzna (znacznik: Skierbieszów)"
+      },
+      "precision": "region"
+    },
+    "type": "deportation",
+    "belligerents": [
+      "Germany"
+    ],
+    "summary": {
+      "en": "In the night of 27–28 November 1942 the Germans began expelling the Polish population of the Zamość region from their homes and farms under the Generalplan Ost, which designated the area as a German settlement zone. About 100,000 Poles were expelled from the region; families were split up and children were taken to the Reich for Germanisation. Mass partisan resistance followed, and Himmler ended 'Aktion Zamość' in August 1943.",
+      "pl": "W nocy z 27 na 28 listopada 1942 r. Niemcy rozpoczęli wysiedlanie polskiej ludności Zamojszczyzny z domów i gospodarstw w ramach Generalnego Planu Wschodniego, który przeznaczał ten obszar na niemiecki okręg osiedleńczy. Z regionu wysiedlono ok. 100 tys. Polaków; rozdzielano rodziny, a dzieci wywożono do Rzeszy w celu germanizacji. Doszło do masowego oporu partyzanckiego, a w sierpniu 1943 r. Himmler zakończył „Aktion Zamość”."
+    },
+    "casualties": {
+      "en": "About 30,000 of the roughly 100,000 people expelled died as a result of pacifications, hunger, transport and camp conditions (IPN).",
+      "pl": "Spośród ok. 100 tys. wysiedlonych ok. 30 tys. zginęło na skutek pacyfikacji, głodu oraz warunków transportu i obozów (IPN)."
+    },
+    "sources": [
+      {
+        "title": "Pacyfikacja Zamojszczyzny",
+        "publisher": "Przystanek Historia (IPN)",
+        "url": "https://przystanekhistoria.pl/pa2/tematy/dzieci/104386,Pacyfikacja-Zamojszczyzny.html",
+        "tier": 1,
+        "accessed": "2026-11-19"
+      },
+      {
+        "title": "Marek Wierzbicki: Partyzanckie bitwy pod Wojdą i Zaborecznem na Zamojszczyźnie",
+        "publisher": "Instytut Pamięci Narodowej",
+        "url": "https://ipn.gov.pl/pl/historia-z-ipn/176338,Marek-Wierzbicki-Partyzanckie-bitwy-pod-Wojda-i-Zaborecznem-na-Zamojszczyznie.html",
+        "tier": 1,
+        "accessed": "2026-11-19"
+      },
+      {
+        "title": "Bitwa pod Zaborecznem",
+        "publisher": "Przystanek Historia (IPN)",
+        "url": "https://przystanekhistoria.pl/pa2/teksty/113021,Bitwa-pod-Zaborecznem.html",
+        "tier": 1,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "Przystanek Historia dates the start to the night of 27–28 November 1942; the IPN article on Wojda and Zaboreczno gives 30 November. The end is given as August 1943 (Himmler's order) and is shown as the end of that month.",
+      "pl": "Przystanek Historia datuje początek na noc z 27 na 28 listopada 1942 r.; artykuł IPN o Wojdzie i Zaborecznie podaje 30 listopada. Koniec to sierpień 1943 r. (rozkaz Himmlera); przyjęto ostatni dzień miesiąca."
+    }
+  },
+  {
+    "id": "przemyslowa-camp-1942",
+    "title": {
+      "en": "German camp for Polish children, Przemysłowa Street, Łódź",
+      "pl": "Niemiecki obóz dla polskich dzieci przy ul. Przemysłowej w Łodzi"
+    },
+    "startDate": "1942-12-01",
+    "endDate": "1945-01-19",
+    "datePrecision": "day",
+    "location": {
+      "lat": 51.7933,
+      "lng": 19.47668,
+      "name": {
+        "en": "Przemysłowa Street, Łódź",
+        "pl": "Ul. Przemysłowa, Łódź"
+      },
+      "precision": "exact"
+    },
+    "type": "camp",
+    "belligerents": [
+      "Germany"
+    ],
+    "summary": {
+      "en": "On 1 December 1942 the Germans opened a labour camp for Polish children and youth in a fenced-off part of the Łódź ghetto on Przemysłowa Street. About 3,000 children passed through it before the war's end in the region.",
+      "pl": "1 grudnia 1942 r. Niemcy uruchomili w wydzielonej części getta łódzkiego przy ul. Przemysłowej obóz pracy dla polskich dzieci i młodzieży. Przeszło przez niego ok. 3 tys. dzieci."
+    },
+    "sources": [
+      {
+        "title": "Artur Ossowski: Niemiecki obóz pracy dla polskich dzieci przy ul. Przemysłowej w Łodzi (1942–1945)",
+        "publisher": "Instytut Pamięci Narodowej",
+        "url": "https://ipn.gov.pl/pl/historia-z-ipn/232431,Artur-Ossowski-Niemiecki-oboz-pracy-dla-polskich-dzieci-przy-ul-Przemyslowej-w-L.html",
+        "tier": 1,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "The camp operated until January 1945; the end date shown is the day the Red Army entered Łódź, used as an approximation.",
+      "pl": "Obóz działał do stycznia 1945 r.; jako datę końcową przyjęto dzień wkroczenia Armii Czerwonej do Łodzi (przybliżenie)."
+    }
+  },
+  {
+    "id": "zegota-1942",
+    "title": {
+      "en": "Council to Aid Jews 'Żegota' founded",
+      "pl": "Powołanie Rady Pomocy Żydom „Żegota”"
+    },
+    "startDate": "1942-12-04",
+    "endDate": "1942-12-04",
+    "datePrecision": "day",
+    "location": {
+      "lat": 52.23281,
+      "lng": 21.01907,
+      "name": {
+        "en": "Warsaw",
+        "pl": "Warszawa"
+      },
+      "precision": "town"
+    },
+    "type": "resistance_operation",
+    "belligerents": [
+      "Poland"
+    ],
+    "summary": {
+      "en": "On 4 December 1942 the Council to Aid Jews, code-named 'Żegota', was established – a unique clandestine organisation affiliated with the Polish authorities (the Government Delegation for Poland) whose aim was to rescue Jewish fellow citizens being murdered en masse by the German occupier. Risking their lives, its civilian members saved at least several thousand people.",
+      "pl": "4 grudnia 1942 r. powołano Radę Pomocy Żydom o kryptonimie „Żegota” – unikalną tajną organizację afiliowaną przy władzach polskich (Delegaturze Rządu na Kraj), której celem było ratowanie współobywateli żydowskich masowo mordowanych przez niemieckiego okupanta. Ryzykując życie, jej cywilni działacze ocalili co najmniej kilka tysięcy osób."
+    },
+    "sources": [
+      {
+        "title": "Rada Pomocy Żydom „Żegota” – fenomen w okupowanej Europie",
+        "publisher": "Instytut Pamięci Narodowej",
+        "url": "https://ipn.gov.pl/pl/aktualnosci/174541,Rada-Pomocy-Zydom-Zegota-fenomen-w-okupowanej-Europie.html",
+        "tier": 1,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true
+  },
+  {
+    "id": "wojda-1942",
+    "title": {
+      "en": "Battle of Wojda",
+      "pl": "Bitwa pod Wojdą"
+    },
+    "startDate": "1942-12-30",
+    "endDate": "1942-12-30",
+    "datePrecision": "day",
+    "location": {
+      "lat": 50.61053,
+      "lng": 23.10723,
+      "name": {
+        "en": "Wojda, Zamość region",
+        "pl": "Wojda, Zamojszczyzna"
+      },
+      "precision": "town"
+    },
+    "type": "battle",
+    "belligerents": [
+      "Poland (Peasants' Battalions, BCh)",
+      "Germany"
+    ],
+    "summary": {
+      "en": "On 30 December 1942 Polish partisans, largely men from expelled villages organised by the Peasants' Battalions (BCh) together with some AK soldiers and Soviet partisans, ambushed German police forces sent to pacify the village of Wojda. They held their wooded hilltop positions until evening and then withdrew; the Germans burned Wojda and shot 11 (by other accounts 20) of its inhabitants. It was the first major armed action in defence of the expelled population of the Zamość region.",
+      "pl": "30 grudnia 1942 r. polscy partyzanci – w dużej mierze mężczyźni z wysiedlonych wsi zorganizowani przez Bataliony Chłopskie, z udziałem części żołnierzy AK i partyzantów sowieckich – urządzili zasadzkę na niemieckie siły policyjne, które miały spacyfikować wieś Wojda. Do wieczora utrzymali leśne pozycje na wzgórzu, po czym się wycofali; Niemcy spalili Wojdę i rozstrzelali 11 (według innych źródeł 20) jej mieszkańców. Była to pierwsza większa walka zbrojna w obronie wysiedlanej ludności Zamojszczyzny."
+    },
+    "casualties": {
+      "en": "Probably about 20 Germans killed and 20 wounded (IPN); 11 or 20 villagers shot.",
+      "pl": "Zginęło prawdopodobnie ok. 20 Niemców, a 20 zostało rannych (IPN); rozstrzelano 11 lub 20 mieszkańców wsi."
+    },
+    "sources": [
+      {
+        "title": "Marek Wierzbicki: Partyzanckie bitwy pod Wojdą i Zaborecznem na Zamojszczyźnie",
+        "publisher": "Instytut Pamięci Narodowej",
+        "url": "https://ipn.gov.pl/pl/historia-z-ipn/176338,Marek-Wierzbicki-Partyzanckie-bitwy-pod-Wojda-i-Zaborecznem-na-Zamojszczyznie.html",
+        "tier": 1,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true
+  }
+]

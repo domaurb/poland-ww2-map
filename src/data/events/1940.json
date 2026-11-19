@@ -1,0 +1,814 @@
+[
+  {
+    "id": "chelm-patients-1940",
+    "title": {
+      "en": "Murder of the patients of the Chełm psychiatric hospital",
+      "pl": "Zamordowanie pacjentów szpitala psychiatrycznego w Chełmie"
+    },
+    "startDate": "1940-01-12",
+    "endDate": "1940-01-12",
+    "datePrecision": "day",
+    "location": {
+      "lat": 51.13392,
+      "lng": 23.47115,
+      "name": {
+        "en": "Chełm",
+        "pl": "Chełm"
+      },
+      "precision": "town"
+    },
+    "type": "massacre",
+    "belligerents": [
+      "Germany"
+    ],
+    "summary": {
+      "en": "On 12 January 1940 a unit of about 30 men, probably SS, liquidated the psychiatric hospital in Chełm, murdering all of its patients. Unlike in the annexed lands, psychiatric hospitals in the General Government were not at first subjected to direct extermination; Chełm was the exception.",
+      "pl": "12 stycznia 1940 r. oddział liczący ok. 30 ludzi, prawdopodobnie SS, zlikwidował szpital psychiatryczny w Chełmie, mordując wszystkich pacjentów. W przeciwieństwie do ziem wcielonych szpitale psychiatryczne w GG początkowo nie podlegały eksterminacji bezpośredniej; Chełm był wyjątkiem."
+    },
+    "casualties": {
+      "en": "All 440 patients, including 128 women and 18 children (Przystanek Historia/IPN).",
+      "pl": "Wszyscy 440 pacjenci, w tym 128 kobiet i 18 dzieci (Przystanek Historia/IPN)."
+    },
+    "sources": [
+      {
+        "title": "Zamordowanie pacjentów szpitala psychiatrycznego w Chełmie",
+        "publisher": "Przystanek Historia (IPN)",
+        "url": "https://przystanekhistoria.pl/pa2/tematy/zbrodnie-niemieckie/77737,Zamordowanie-pacjentow-szpitala-psychiatrycznego-w-Chelmie.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      }
+    ],
+    "verified": true
+  },
+  {
+    "id": "czortkow-uprising-1940",
+    "title": {
+      "en": "Czortków uprising",
+      "pl": "Powstanie czortkowskie"
+    },
+    "startDate": "1940-01-21",
+    "endDate": "1940-01-22",
+    "datePrecision": "day",
+    "location": {
+      "lat": 49.01606,
+      "lng": 25.79252,
+      "name": {
+        "en": "Czortków (Chortkiv), Podolia",
+        "pl": "Czortków, Podole"
+      },
+      "precision": "town"
+    },
+    "type": "uprising",
+    "belligerents": [
+      "Poland",
+      "Soviet Union"
+    ],
+    "summary": {
+      "en": "In the night of 21–22 January 1940, on the anniversary of the January Uprising, a group of young members of a Polish underground organisation in Czortków attacked the hospital, Red Army barracks and other sites, hoping to free prisoners and open a route to the Polish army in France via Romania. Poorly armed, they were scattered within a couple of hours; Przystanek Historia calls it the first Polish uprising of the Second World War. The heads of the Ukrainian and Soviet NKVD, Ivan Serov and Vsevolod Merkulov, arrived at once, and arrests followed.",
+      "pl": "W nocy z 21 na 22 stycznia 1940 r., w rocznicę Powstania Styczniowego, grupa młodych członków polskiej organizacji podziemnej w Czortkowie zaatakowała szpital, koszary Armii Czerwonej i inne obiekty, chcąc uwolnić więźniów i otworzyć drogę przez Rumunię do Wojska Polskiego we Francji. Słabo uzbrojeni, w ciągu dwóch godzin poszli w rozsypkę; Przystanek Historia nazywa to pierwszym polskim powstaniem czasów II wojny światowej. Na miejsce natychmiast przybyli szef ukraińskiego NKWD Iwan Sierow i zastępca Berii Wsiewołod Mierkułow, po czym rozpoczęły się aresztowania."
+    },
+    "sources": [
+      {
+        "title": "Powstanie w Czortkowie",
+        "publisher": "Przystanek Historia (IPN)",
+        "url": "https://przystanekhistoria.pl/pa2/teksty/61602,Powstanie-w-Czortkowie.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "The source states that 120–150 people were recruited between 9 and 21 January 1940.",
+      "pl": "Źródło podaje, że między 9 a 21 stycznia 1940 r. zwerbowano 120–150 osób."
+    }
+  },
+  {
+    "id": "lodz-ghetto-1940",
+    "title": {
+      "en": "Łódź ghetto (Litzmannstadt Ghetto)",
+      "pl": "Getto łódzkie (Litzmannstadt Getto)"
+    },
+    "startDate": "1940-02-08",
+    "endDate": "1944-08-31",
+    "datePrecision": "day",
+    "location": {
+      "lat": 51.80159,
+      "lng": 19.44232,
+      "name": {
+        "en": "Bałuty, Łódź",
+        "pl": "Bałuty, Łódź"
+      },
+      "precision": "town"
+    },
+    "type": "camp",
+    "belligerents": [
+      "Germany"
+    ],
+    "summary": {
+      "en": "The Germans established the largest ghetto in the Warthegau in Łódź on 8 February 1940, in the poor districts of Bałuty and the Old Town, and sealed it on 30 April 1940. It became the longest-existing ghetto and the second-largest concentration of Jews after Warsaw, with about 160,000 people, and served as a model for other large ghettos. It was finally liquidated in August 1944.",
+      "pl": "Największe getto w Kraju Warty Niemcy utworzyli w Łodzi 8 lutego 1940 r., w ubogich dzielnicach Bałuty i Stare Miasto, a zamknęli je 30 kwietnia 1940 r. Było najdłużej istniejącym gettem i drugim po Warszawie skupiskiem ludności żydowskiej (ok. 160 tys. osób) oraz wzorem dla innych dużych gett. Ostateczna likwidacja nastąpiła w sierpniu 1944 r."
+    },
+    "sources": [
+      {
+        "title": "Getta w okupowanej Polsce",
+        "publisher": "Żydowski Instytut Historyczny",
+        "url": "https://www.jhi.pl/artykuly/getta-w-okupowanej-polsce,4090",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "The source gives only the month of liquidation (August 1944); the end date is shown as the last day of that month. IPN material dates the sealing to the night of 30 April–1 May 1940.",
+      "pl": "Źródło podaje jedynie miesiąc likwidacji (sierpień 1944 r.); jako datę końcową przyjęto ostatni dzień miesiąca. Materiał IPN datuje zamknięcie na noc z 30 kwietnia na 1 maja 1940 r."
+    }
+  },
+  {
+    "id": "soviet-deportation-feb-1940",
+    "title": {
+      "en": "First mass Soviet deportation (10 February 1940)",
+      "pl": "Pierwsza masowa deportacja sowiecka (10 lutego 1940)"
+    },
+    "startDate": "1940-02-10",
+    "endDate": "1940-02-10",
+    "datePrecision": "day",
+    "location": {
+      "lat": 49.84195,
+      "lng": 24.03159,
+      "name": {
+        "en": "Soviet-occupied eastern Poland (marker at Lwów / Lviv)",
+        "pl": "Ziemie wschodnie pod okupacją sowiecką (znacznik: Lwów)"
+      },
+      "precision": "region"
+    },
+    "type": "deportation",
+    "belligerents": [
+      "Soviet Union"
+    ],
+    "summary": {
+      "en": "On 10 February 1940 the NKVD began the first mass deportation of Polish citizens from the Soviet-occupied eastern territories into the interior of the USSR. It targeted mainly military and civilian settlers, forestry staff, railway workers and lower- and middle-ranking state officials, together with their families. Poles made up about 70% of those deported, the rest being mainly Belarusians and Ukrainians. The deportees were placed in special settlements under NKVD supervision, most of them in the Arkhangelsk region and elsewhere in northern Russia and Siberia.",
+      "pl": "10 lutego 1940 r. NKWD rozpoczęło pierwszą masową deportację obywateli polskich z okupowanych przez Sowietów ziem wschodnich w głąb ZSRS. Objęła ona przede wszystkim osadników wojskowych i cywilnych, służbę leśną, pracowników kolei oraz urzędników państwowych średniego i niższego szczebla wraz z rodzinami. Polacy stanowili ok. 70 proc. wywiezionych, pozostali byli głównie Białorusinami i Ukraińcami. Deportowanych umieszczono w tzw. specposiołkach pod nadzorem NKWD, w większości w obwodzie archangielskim oraz w innych regionach północnej Rosji i Syberii."
+    },
+    "sources": [
+      {
+        "title": "Deportacja 10 lutego 1940 r. – początek polskiej gehenny na Wschodzie",
+        "publisher": "Instytut Pileckiego",
+        "url": "https://instytutpileckiego.pl/pl/instytut/aktualnosci/deportacja-10-lutego-1940-r-poczatek-polskiej-gehenny-na",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "Numbers: the Pilecki Institute cites A. Gurjanow's finding of 138,616 people in 98 transports in February 1940, and about 143,000 including two later transports, while stressing that the available sources do not allow a definitive figure. The marker is placed at Lwów (Lviv) as a representative location; the deportation covered all Soviet-occupied territories.",
+      "pl": "Liczby: Instytut Pileckiego przytacza ustalenia A. Gurjanowa – 138 616 osób w 98 transportach w lutym 1940 r. oraz ok. 143 tys. łącznie z dwoma późniejszymi transportami – podkreślając, że dostępne źródła nie pozwalają definitywnie określić liczby. Znacznik umieszczono we Lwowie jako lokalizację reprezentatywną; deportacja objęła wszystkie ziemie pod okupacją sowiecką."
+    }
+  },
+  {
+    "id": "kochanowka-patients-1940",
+    "title": {
+      "en": "Murder of Kochanówka hospital patients",
+      "pl": "Zamordowanie pacjentów szpitala Kochanówka"
+    },
+    "startDate": "1940-03-13",
+    "endDate": "1940-03-15",
+    "datePrecision": "day",
+    "location": {
+      "lat": 51.80859,
+      "lng": 19.34977,
+      "name": {
+        "en": "Kochanówka hospital, Łódź",
+        "pl": "Szpital Kochanówka, Łódź"
+      },
+      "precision": "town"
+    },
+    "type": "massacre",
+    "belligerents": [
+      "Germany"
+    ],
+    "summary": {
+      "en": "Between 13 and 15 March 1940 the Germans took patients of the Kochanówka psychiatric hospital near Łódź and gassed them in the forests around Lućmierz and Zgierz. In March 1941 a further 700 patients, including several dozen children, were taken from the hospital and killed.",
+      "pl": "W dniach 13–15 marca 1940 r. Niemcy wywieźli pacjentów szpitala psychiatrycznego Kochanówka koło Łodzi i zagazowali ich w lasach w okolicach Lućmierza i Zgierza. W marcu 1941 r. wywieziono i uśmiercono kolejnych 700 chorych, w tym kilkadziesiąt dzieci."
+    },
+    "casualties": {
+      "en": "About 1,500 patients in March 1940 and a further 700 in March 1941 (IPN).",
+      "pl": "Ok. 1500 pacjentów w marcu 1940 r. i kolejnych 700 w marcu 1941 r. (IPN)."
+    },
+    "sources": [
+      {
+        "title": "Eutanazja – ukryte ludobójstwo pacjentów szpitali psychiatrycznych w Kraju Warty i na Pomorzu",
+        "publisher": "Instytut Pamięci Narodowej",
+        "url": "https://ipn.gov.pl/pl/aktualnosci/585,Eutanazja-ukryte-ludobojstwo-pacjentow-szpitali-psychiatrycznych-w-Kraju-Warty-i.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      }
+    ],
+    "verified": true
+  },
+  {
+    "id": "ab-aktion-1940",
+    "title": {
+      "en": "AB-Aktion against the Polish intelligentsia",
+      "pl": "Akcja AB"
+    },
+    "startDate": "1940-03-30",
+    "endDate": "1940-07-23",
+    "datePrecision": "approximate",
+    "location": {
+      "lat": 50.05475,
+      "lng": 19.93611,
+      "name": {
+        "en": "General Government (marker at Kraków)",
+        "pl": "Generalne Gubernatorstwo (znacznik: Kraków)"
+      },
+      "precision": "region"
+    },
+    "type": "occupation_policy",
+    "belligerents": [
+      "Germany"
+    ],
+    "summary": {
+      "en": "In the spring and summer of 1940 the German authorities in the General Government carried out the 'Extraordinary Pacification Action' (AB-Aktion) to eliminate the Polish intelligentsia and political and social leaders. Mass arrests at the end of March were followed by executions, the largest at Palmiry on 20–21 June 1940. Governor-General Hans Frank announced the end of the action on 23 July 1940, but executions continued.",
+      "pl": "Wiosną i latem 1940 r. władze niemieckie w Generalnym Gubernatorstwie przeprowadziły Nadzwyczajną Akcję Pacyfikacyjną (akcję AB), której celem była eliminacja polskiej inteligencji oraz działaczy politycznych i społecznych. Po masowych aresztowaniach pod koniec marca nastąpiły egzekucje, z których największa odbyła się w Palmirach 20–21 czerwca 1940 r. Generalny gubernator Hans Frank ogłosił zakończenie akcji 23 lipca 1940 r., lecz egzekucje trwały nadal."
+    },
+    "sources": [
+      {
+        "title": "Tylko sosny były świadkami. Egzekucje w Palmirach",
+        "publisher": "Przystanek Historia (IPN)",
+        "url": "https://przystanekhistoria.pl/pa2/teksty/62949,Tylko-sosny-byly-swiadkami-Egzekucje-w-Palmirach.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      },
+      {
+        "title": "20–21 czerwca 1940 r. Niemcy dokonali największej egzekucji w Palmirach",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/aktualnosci/20-21-czerwca-1940-r-niemcy-dokonali-najwiekszej-egzekucji-w-palmirach",
+        "tier": 2,
+        "accessed": "2026-11-18"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "Dates approximate: the start is the 'end of March' 1940 mass arrests mentioned by Przystanek Historia (Maciej Rataj was arrested on 30 March); the end is Frank's announcement of 23 July 1940. The marker is a representative point for the General Government.",
+      "pl": "Daty przybliżone: początek to masowe aresztowania „pod koniec marca” 1940 r. wspomniane przez Przystanek Historia (Maciej Rataj został aresztowany 30 marca); koniec – ogłoszenie Franka z 23 lipca 1940 r. Znacznik jest punktem reprezentatywnym dla GG."
+    }
+  },
+  {
+    "id": "hubal-pacifications-1940",
+    "title": {
+      "en": "Pacification of villages on 'Hubal's route (Skłoby)",
+      "pl": "Pacyfikacje wsi na szlaku „Hubala” (Skłoby)"
+    },
+    "startDate": "1940-03-30",
+    "endDate": "1940-04-11",
+    "datePrecision": "day",
+    "location": {
+      "lat": 51.25106,
+      "lng": 20.69099,
+      "name": {
+        "en": "Skłoby and neighbouring villages",
+        "pl": "Skłoby i okoliczne wsie"
+      },
+      "precision": "region"
+    },
+    "type": "massacre",
+    "belligerents": [
+      "Germany"
+    ],
+    "summary": {
+      "en": "From 30 March to 11 April 1940, in reprisal for support given to Maj. 'Hubal's unit, the Germans carried out what IPN calls the first pacification operations in Poland and in Europe. Thirty-one villages on the unit's route – among them Skłoby, Gałki Krzczonowskie, Hucisko and Szałas Stary – were burned and their inhabitants murdered; several hundred more were beaten, imprisoned or sent to forced labour. IPN calls the Skłoby action the bloodiest of the 'Hubal' pacifications.",
+      "pl": "Od 30 marca do 11 kwietnia 1940 r., w odwecie za wspieranie oddziału mjr. „Hubala”, Niemcy przeprowadzili – jak podaje IPN – pierwsze w Polsce i w Europie akcje pacyfikacyjne. Spalono 31 wsi na szlaku oddziału – m.in. Skłoby, Gałki Krzczonowskie, Hucisko i Szałas Stary – mordując ich mieszkańców; kolejne kilkaset osób pobito, uwięziono lub wysłano na roboty przymusowe. IPN określa akcję w Skłobach jako najkrwawszą z pacyfikacji „hubalowskich”."
+    },
+    "casualties": {
+      "en": "711 or 712 civilian victims from 31 villages (IPN).",
+      "pl": "711 lub 712 ofiar cywilnych z 31 wsi (IPN)."
+    },
+    "sources": [
+      {
+        "title": "„Hubal” – legendarny dowódca na Kielecczyźnie",
+        "publisher": "Instytut Pamięci Narodowej",
+        "url": "https://ipn.gov.pl/pl/historia-z-ipn/96558,Hubal-legendarny-dowodca-na-Kielecczyznie.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      },
+      {
+        "title": "Polecamy: Pacyfikacja Skłobów – najkrwawsza pacyfikacja „hubalowska”",
+        "publisher": "Instytut Pamięci Narodowej",
+        "url": "https://ipn.gov.pl/pl/historia-z-ipn/archiwum/94299,Polecamy-Pacyfikacja-Sklobow-najkrwawsza-pacyfikacja-hubalowska.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "IPN publications give 711 and 712 victims.",
+      "pl": "Publikacje IPN podają 711 i 712 ofiar."
+    }
+  },
+  {
+    "id": "hucisko-1940",
+    "title": {
+      "en": "Battle of Hucisko",
+      "pl": "Bój pod Huciskiem"
+    },
+    "startDate": "1940-03-30",
+    "endDate": "1940-03-30",
+    "datePrecision": "day",
+    "location": {
+      "lat": 51.122,
+      "lng": 20.5813,
+      "name": {
+        "en": "Hucisko, Końskie county",
+        "pl": "Hucisko, powiat konecki"
+      },
+      "precision": "town"
+    },
+    "type": "battle",
+    "belligerents": [
+      "Poland",
+      "Germany"
+    ],
+    "summary": {
+      "en": "On 30 March 1940 German forces attacked Maj. 'Hubal's unit near Hucisko; the Poles defeated a German police battalion and broke out of the encirclement towards Szałas near Stąporków, where further fighting took place on 1 April.",
+      "pl": "30 marca 1940 r. Niemcy uderzyli na oddział mjr. „Hubala” pod Huciskiem; Polacy pokonali niemiecki batalion policji i wyrwali się z okrążenia w kierunku wsi Szałas koło Stąporkowa, gdzie 1 kwietnia doszło do kolejnej walki."
+    },
+    "sources": [
+      {
+        "title": "„Hubal” – legendarny dowódca na Kielecczyźnie",
+        "publisher": "Instytut Pamięci Narodowej",
+        "url": "https://ipn.gov.pl/pl/historia-z-ipn/96558,Hubal-legendarny-dowodca-na-Kielecczyznie.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      },
+      {
+        "title": "Polecamy: Pacyfikacja Skłobów – najkrwawsza pacyfikacja „hubalowska”",
+        "publisher": "Instytut Pamięci Narodowej",
+        "url": "https://ipn.gov.pl/pl/historia-z-ipn/archiwum/94299,Polecamy-Pacyfikacja-Sklobow-najkrwawsza-pacyfikacja-hubalowska.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      }
+    ],
+    "verified": true
+  },
+  {
+    "id": "katyn-massacre-1940",
+    "title": {
+      "en": "Katyń massacre",
+      "pl": "Zbrodnia katyńska"
+    },
+    "startDate": "1940-04-03",
+    "endDate": "1940-05-16",
+    "datePrecision": "day",
+    "location": {
+      "lat": 54.77313,
+      "lng": 31.6869,
+      "name": {
+        "en": "Katyń Forest near Smolensk (USSR; now Russia)",
+        "pl": "Las Katyński pod Smoleńskiem (ZSRS; obecnie Rosja)"
+      },
+      "precision": "town"
+    },
+    "type": "massacre",
+    "belligerents": [
+      "Soviet Union"
+    ],
+    "summary": {
+      "en": "On 5 March 1940 the Soviet Politburo approved Lavrentiy Beria's proposal to shoot, without trial, Polish prisoners of war held in special camps and prisoners held in jails in the occupied eastern territories. From early April to mid-May 1940 the NKVD sent convoys from the Kozelsk, Starobelsk and Ostashkov camps to execution sites: prisoners from Kozelsk were shot in the Katyń Forest near Smolensk, those from Starobelsk in Kharkiv and those from Ostashkov in Kalinin (Tver). The victims, most of them officers, police officers and members of other uniformed services, were killed with a shot to the back of the head.",
+      "pl": "5 marca 1940 r. Biuro Polityczne KC WKP(b) zatwierdziło wniosek Ławrientija Berii o rozstrzelaniu bez sądu polskich jeńców wojennych z obozów specjalnych oraz więźniów przetrzymywanych na okupowanych ziemiach wschodnich. Od początku kwietnia do połowy maja 1940 r. NKWD wysyłało konwoje z obozów w Kozielsku, Starobielsku i Ostaszkowie na miejsca kaźni: jeńców z Kozielska rozstrzelano w Lesie Katyńskim pod Smoleńskiem, ze Starobielska – w Charkowie, a z Ostaszkowa – w Kalininie (Twerze). Ofiary, w większości oficerowie, policjanci i funkcjonariusze innych służb mundurowych, zabijano strzałem w tył głowy."
+    },
+    "casualties": {
+      "en": "Nearly 22,000 Polish prisoners of war and prisoners murdered; 14,552 of them were killed and buried at the three main sites (IPN).",
+      "pl": "Zamordowano blisko 22 tys. polskich jeńców wojennych i więźniów; w trzech głównych miejscach zabito i pogrzebano 14 552 osoby (IPN)."
+    },
+    "sources": [
+      {
+        "title": "Filip Musiał: Katyń – pamiętamy",
+        "publisher": "Instytut Pamięci Narodowej",
+        "url": "https://archiwum.ipn.gov.pl/pl/zbrodnia-katynska/142135,Filip-Musial-Katyn-pamietamy.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      },
+      {
+        "title": "„Rozładowanie” obozów",
+        "publisher": "Katyń 1940 (IPN)",
+        "url": "https://katyn.ipn.gov.pl/kat/histori/zbrodnia/przebieg-zbrodni/12015,Rozladowanie-obozow.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      },
+      {
+        "title": "Decyzja Katyńska z 5 marca 1940 r.",
+        "publisher": "Katyń 1940 (IPN)",
+        "url": "https://katyn.ipn.gov.pl/kat/bibliografia-i-mediatek/dokumentacja-archiwalna/12378,Decyzja-Katynska-z-5-marca-1940-r.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "Dates are those of the prisoner convoys given by IPN: Kozelsk 3 April–12 May, Starobelsk 5 April–12 May, Ostashkov 4 April–16 May 1940. The execution sites lie outside both the 1939 and present-day borders of Poland; the event is included (as a validated exception) because the victims were Polish citizens captured during and after the 1939 campaign. Victims from prisons in the occupied territories were also murdered at other, partly unidentified sites.",
+      "pl": "Daty według IPN odpowiadają konwojom z obozów: Kozielsk 3 kwietnia–12 maja, Starobielsk 5 kwietnia–12 maja, Ostaszków 4 kwietnia–16 maja 1940 r. Miejsca kaźni leżą poza granicami Polski z 1939 r. i obecnymi; wydarzenie uwzględniono (jako zatwierdzony wyjątek), ponieważ ofiarami byli obywatele polscy wzięci do niewoli w trakcie i po kampanii 1939 r. Więźniów z więzień na okupowanych ziemiach mordowano także w innych, częściowo nieustalonych miejscach."
+    }
+  },
+  {
+    "id": "soviet-deportation-apr-1940",
+    "title": {
+      "en": "Second mass Soviet deportation (13 April 1940)",
+      "pl": "Druga masowa deportacja sowiecka (13 kwietnia 1940)"
+    },
+    "startDate": "1940-04-13",
+    "endDate": "1940-04-13",
+    "datePrecision": "day",
+    "location": {
+      "lat": 53.1275,
+      "lng": 23.14705,
+      "name": {
+        "en": "Soviet-occupied eastern Poland (marker at Białystok)",
+        "pl": "Ziemie wschodnie pod okupacją sowiecką (znacznik: Białystok)"
+      },
+      "precision": "region"
+    },
+    "type": "deportation",
+    "belligerents": [
+      "Soviet Union"
+    ],
+    "summary": {
+      "en": "In the night of 12–13 April 1940 the NKVD deported, mainly to Kazakhstan, the families of people previously arrested for underground activity and of officers, police officers, prison guards, gendarmes, landowners, industrialists and Polish officials – mostly town-dwellers, women, children and the elderly. IPN notes that the deportees were largely the families of those being murdered at that time in the Katyń massacre.",
+      "pl": "W nocy z 12 na 13 kwietnia 1940 r. NKWD deportowało, głównie do Kazachstanu, rodziny osób aresztowanych wcześniej za działalność konspiracyjną oraz krewnych oficerów, policjantów, strażników więziennych, żandarmów, ziemian, fabrykantów i polskich urzędników – przeważnie ludność miejską, kobiety, dzieci i osoby starsze. IPN zwraca uwagę, że byli to w dużej mierze członkowie rodzin osób mordowanych właśnie wtedy w ramach zbrodni katyńskiej."
+    },
+    "sources": [
+      {
+        "title": "Sowieckie deportacje Polaków z Kresów Wschodnich",
+        "publisher": "Przystanek Historia (IPN)",
+        "url": "https://przystanekhistoria.pl/pa2/tematy/represje/91169,Sowieckie-deportacje-Polakow-z-Kresow-Wschodnich.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      },
+      {
+        "title": "Filip Musiał: Katyń – pamiętamy",
+        "publisher": "Instytut Pamięci Narodowej",
+        "url": "https://archiwum.ipn.gov.pl/pl/zbrodnia-katynska/142135,Filip-Musial-Katyn-pamietamy.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "The deportation covered a wide area; the marker at Białystok is only a representative location.",
+      "pl": "Deportacja objęła rozległy obszar; znacznik (Białystok) jest jedynie lokalizacją reprezentatywną."
+    }
+  },
+  {
+    "id": "hubal-death-1940",
+    "title": {
+      "en": "Death of Maj. Henryk Dobrzański 'Hubal'",
+      "pl": "Śmierć mjr. Henryka Dobrzańskiego „Hubala”"
+    },
+    "startDate": "1940-04-30",
+    "endDate": "1940-04-30",
+    "datePrecision": "day",
+    "location": {
+      "lat": 51.53298,
+      "lng": 20.32484,
+      "name": {
+        "en": "Anielin, Spała Forest",
+        "pl": "Anielin, Lasy Spalskie"
+      },
+      "precision": "town"
+    },
+    "type": "battle",
+    "belligerents": [
+      "Poland",
+      "Germany"
+    ],
+    "summary": {
+      "en": "After a month of German manhunts, Maj. 'Hubal' and his men reached the Spała Forest at the end of April 1940. At dawn on 30 April 1940, near Anielin, he was killed in a clash with German forces.",
+      "pl": "Po miesiącu niemieckich obław mjr „Hubal” ze swoimi ludźmi dotarł pod koniec kwietnia 1940 r. w Lasy Spalskie. Nad ranem 30 kwietnia 1940 r. w rejonie Anielina zginął w starciu z Niemcami."
+    },
+    "sources": [
+      {
+        "title": "„Hubal” – legendarny dowódca na Kielecczyźnie",
+        "publisher": "Instytut Pamięci Narodowej",
+        "url": "https://ipn.gov.pl/pl/historia-z-ipn/96558,Hubal-legendarny-dowodca-na-Kielecczyznie.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      }
+    ],
+    "verified": true
+  },
+  {
+    "id": "auschwitz-camp-1940",
+    "title": {
+      "en": "Auschwitz concentration and extermination camp",
+      "pl": "Niemiecki obóz koncentracyjny i zagłady Auschwitz"
+    },
+    "startDate": "1940-06-14",
+    "endDate": "1945-01-27",
+    "datePrecision": "day",
+    "location": {
+      "lat": 50.0264,
+      "lng": 19.20396,
+      "name": {
+        "en": "Oświęcim (Auschwitz)",
+        "pl": "Oświęcim (Auschwitz)"
+      },
+      "precision": "exact"
+    },
+    "type": "camp",
+    "belligerents": [
+      "Germany"
+    ],
+    "summary": {
+      "en": "The German concentration camp Auschwitz in occupied Oświęcim was set up for Polish political prisoners; the first transport of 728 Poles arrived from the prison in Tarnów on 14 June 1940, the date accepted as the start of its operation. From 1942 the complex, which grew to include Birkenau and Monowitz, also functioned as the largest extermination centre for Jews deported from almost all of German-occupied Europe. Poles, Roma and Sinti, Soviet prisoners of war and prisoners of over twenty other nationalities were also imprisoned and murdered there.",
+      "pl": "Niemiecki obóz koncentracyjny Auschwitz w okupowanym Oświęcimiu utworzono dla polskich więźniów politycznych; pierwszy transport 728 Polaków przybył z więzienia w Tarnowie 14 czerwca 1940 r., co przyjmuje się za początek funkcjonowania obozu. Od 1942 r. kompleks, rozbudowany o Birkenau i Monowitz, był także największym ośrodkiem zagłady Żydów deportowanych z niemal całej okupowanej przez Niemcy Europy. Więziono i mordowano tu również Polaków, Romów i Sinti, sowieckich jeńców wojennych oraz więźniów ponad dwudziestu innych narodowości."
+    },
+    "casualties": {
+      "en": "At least 1.3 million people deported to Auschwitz; over a million died, including approximately 1 million Jews; Jews were 85% of deportees and 90% of those murdered (Auschwitz-Birkenau State Museum).",
+      "pl": "Do Auschwitz deportowano co najmniej 1,3 mln osób; zginęło ponad milion, w tym ok. 1 mln Żydów; Żydzi stanowili 85 proc. deportowanych i 90 proc. zamordowanych (Państwowe Muzeum Auschwitz-Birkenau)."
+    },
+    "sources": [
+      {
+        "title": "Poles in Auschwitz",
+        "publisher": "Auschwitz-Birkenau State Museum",
+        "url": "https://www.auschwitz.org/en/history/categories-of-prisoners/poles-in-auschwitz/",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      },
+      {
+        "title": "Basic information on Auschwitz",
+        "publisher": "Auschwitz-Birkenau State Museum",
+        "url": "https://www.auschwitz.org/en/press/basic-information-on-auschwitz/",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "Long-running event: shown as ongoing from the first transport (14 June 1940) until liberation (27 January 1945), which is a separate event.",
+      "pl": "Wydarzenie długotrwałe: pokazywane jako trwające od pierwszego transportu (14 czerwca 1940 r.) do wyzwolenia (27 stycznia 1945 r.), które jest osobnym wydarzeniem."
+    }
+  },
+  {
+    "id": "palmiry-june-1940",
+    "title": {
+      "en": "Largest Palmiry execution",
+      "pl": "Największa egzekucja w Palmirach"
+    },
+    "startDate": "1940-06-20",
+    "endDate": "1940-06-21",
+    "datePrecision": "day",
+    "location": {
+      "lat": 52.36634,
+      "lng": 20.77851,
+      "name": {
+        "en": "Palmiry, Kampinos Forest",
+        "pl": "Palmiry, Puszcza Kampinoska"
+      },
+      "precision": "town"
+    },
+    "type": "massacre",
+    "belligerents": [
+      "Germany"
+    ],
+    "summary": {
+      "en": "On 20–21 June 1940, as part of the AB-Aktion, the Germans carried out their largest execution at Palmiry, shooting prominent social and political activists, journalists, doctors, lawyers and priests. Among the victims were the former Sejm Marshal Maciej Rataj, the socialist leader Mieczysław Niedziałkowski, the Olympic 10,000 m champion Janusz Kusociński and Warsaw deputy mayor Jan Pohoski.",
+      "pl": "20–21 czerwca 1940 r., w ramach akcji AB, Niemcy przeprowadzili w Palmirach największą egzekucję, rozstrzeliwując wybitnych działaczy społecznych i politycznych, dziennikarzy, lekarzy, adwokatów i księży. Wśród ofiar byli m.in. były marszałek Sejmu Maciej Rataj, działacz socjalistyczny Mieczysław Niedziałkowski, mistrz olimpijski w biegu na 10 km Janusz Kusociński oraz wiceprezydent Warszawy Jan Pohoski."
+    },
+    "casualties": {
+      "en": "378 people (dzieje.pl/PAP).",
+      "pl": "378 osób (dzieje.pl/PAP)."
+    },
+    "sources": [
+      {
+        "title": "20–21 czerwca 1940 r. Niemcy dokonali największej egzekucji w Palmirach",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/aktualnosci/20-21-czerwca-1940-r-niemcy-dokonali-najwiekszej-egzekucji-w-palmirach",
+        "tier": 2,
+        "accessed": "2026-11-18"
+      },
+      {
+        "title": "Tylko sosny były świadkami. Egzekucje w Palmirach",
+        "publisher": "Przystanek Historia (IPN)",
+        "url": "https://przystanekhistoria.pl/pa2/teksty/62949,Tylko-sosny-byly-swiadkami-Egzekucje-w-Palmirach.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "Figures differ between publications: 358, 362 and 378 are cited; dzieje.pl gives 378.",
+      "pl": "Liczby różnią się w publikacjach: podaje się 358, 362 i 378; dzieje.pl podaje 378."
+    }
+  },
+  {
+    "id": "soviet-deportation-jun-1940",
+    "title": {
+      "en": "Third mass Soviet deportation (June 1940)",
+      "pl": "Trzecia masowa deportacja sowiecka (czerwiec 1940)"
+    },
+    "startDate": "1940-06-28",
+    "endDate": "1940-06-29",
+    "datePrecision": "day",
+    "location": {
+      "lat": 52.11139,
+      "lng": 26.10253,
+      "name": {
+        "en": "Soviet-occupied eastern Poland (marker at Pińsk)",
+        "pl": "Ziemie wschodnie pod okupacją sowiecką (znacznik: Pińsk)"
+      },
+      "precision": "region"
+    },
+    "type": "deportation",
+    "belligerents": [
+      "Soviet Union"
+    ],
+    "summary": {
+      "en": "The third wave of Soviet deportations began in the night of 28–29 June 1940 and targeted refugees from western and central Poland who had fled the German occupation to the eastern territories; they were sent to the steppes of the southern USSR.",
+      "pl": "Trzecia fala sowieckich deportacji ruszyła w nocy z 28 na 29 czerwca 1940 r. i objęła uciekinierów z zachodniej i centralnej Polski, którzy schronili się przed okupacją niemiecką na ziemiach wschodnich; wysiedlono ich na stepy południowej części ZSRS."
+    },
+    "sources": [
+      {
+        "title": "Sowieckie deportacje Polaków z Kresów Wschodnich",
+        "publisher": "Przystanek Historia (IPN)",
+        "url": "https://przystanekhistoria.pl/pa2/tematy/represje/91169,Sowieckie-deportacje-Polakow-z-Kresow-Wschodnich.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      },
+      {
+        "title": "Filip Musiał: Katyń – pamiętamy",
+        "publisher": "Instytut Pamięci Narodowej",
+        "url": "https://archiwum.ipn.gov.pl/pl/zbrodnia-katynska/142135,Filip-Musial-Katyn-pamietamy.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "The deportation covered a wide area; the marker at Pińsk is only a representative location.",
+      "pl": "Deportacja objęła rozległy obszar; znacznik (Pińsk) jest jedynie lokalizacją reprezentatywną."
+    }
+  },
+  {
+    "id": "gross-rosen-camp-1940",
+    "title": {
+      "en": "Gross-Rosen concentration camp",
+      "pl": "Obóz koncentracyjny Gross-Rosen"
+    },
+    "startDate": "1940-08-02",
+    "endDate": "1945-02-13",
+    "datePrecision": "day",
+    "location": {
+      "lat": 50.99835,
+      "lng": 16.27497,
+      "name": {
+        "en": "Rogoźnica (Gross-Rosen), near Strzegom",
+        "pl": "Rogoźnica (Gross-Rosen) koło Strzegomia"
+      },
+      "precision": "exact"
+    },
+    "type": "camp",
+    "belligerents": [
+      "Germany"
+    ],
+    "summary": {
+      "en": "Gross-Rosen was set up in August 1940 as a branch of the Sachsenhausen camp, its prisoners forced to work in the local granite quarry; the first transport arrived on 2 August 1940. It became an independent concentration camp on 1 May 1941 and was regarded as one of the harshest, with almost 100 sub-camps by 1944, mainly in Lower Silesia. Soviet troops reached the evacuated main camp on 13 February 1945.",
+      "pl": "Obóz Gross-Rosen powstał w sierpniu 1940 r. jako filia KL Sachsenhausen; więźniowie mieli pracować w miejscowym kamieniołomie granitu, a pierwszy transport przybył 2 sierpnia 1940 r. 1 maja 1941 r. uzyskał status samodzielnego obozu koncentracyjnego i uchodził za jeden z najcięższych; w 1944 r. miał blisko 100 filii, głównie na Dolnym Śląsku. Do opustoszałego obozu głównego wojska sowieckie dotarły 13 lutego 1945 r."
+    },
+    "casualties": {
+      "en": "About 125,000 prisoners in 1940–1945; an estimated 40,000 victims (dzieje.pl/PAP).",
+      "pl": "Ok. 125 tys. więźniów w latach 1940–1945; szacunkowo ok. 40 tys. ofiar (dzieje.pl/PAP)."
+    },
+    "sources": [
+      {
+        "title": "Niemieckie obozy na ziemiach polskich 1939–1945",
+        "publisher": "Przystanek Historia (IPN)",
+        "url": "https://przystanekhistoria.pl/pa2/tematy/obozy-koncentracyjne/61575,Niemieckie-obozy-na-ziemiach-polskich-1939-1945.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      },
+      {
+        "title": "70 lat temu Armia Czerwona wkroczyła do obozu Gross-Rosen",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/aktualnosci/70-lat-temu-armia-czerwona-wkroczyla-do-obozu-gross-rosen",
+        "tier": 2,
+        "accessed": "2026-11-18"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "The end date is the arrival of Soviet troops at the main camp; the last sub-camps were liberated on 7–8 May 1945 (dzieje.pl/PAP).",
+      "pl": "Data końcowa to wkroczenie wojsk sowieckich do obozu głównego; ostatnie filie wyzwolono 7–8 maja 1945 r. (dzieje.pl/PAP)."
+    }
+  },
+  {
+    "id": "pilecki-auschwitz-1940",
+    "title": {
+      "en": "Witold Pilecki lets himself be captured to enter Auschwitz",
+      "pl": "Witold Pilecki dobrowolnie trafia do Auschwitz"
+    },
+    "startDate": "1940-09-19",
+    "endDate": "1940-09-19",
+    "datePrecision": "day",
+    "location": {
+      "lat": 52.26759,
+      "lng": 20.9797,
+      "name": {
+        "en": "Żoliborz, Warsaw",
+        "pl": "Żoliborz, Warszawa"
+      },
+      "precision": "town"
+    },
+    "type": "resistance_operation",
+    "belligerents": [
+      "Poland"
+    ],
+    "summary": {
+      "en": "During a great German round-up in Warsaw on 19 September 1940, in which more than 2,000 men were arrested, Witold Pilecki deliberately allowed himself to be caught on Żoliborz under the identity of Tomasz Serafiński in order to be sent to the Auschwitz camp. There he organised the Union of Military Organisations (ZOW) and for over two years gathered and passed out information about the crimes committed in the camp, before escaping in April 1943.",
+      "pl": "19 września 1940 r., podczas wielkiej niemieckiej obławy w Warszawie, w której aresztowano ponad 2000 mężczyzn, Witold Pilecki dobrowolnie dał się zatrzymać na Żoliborzu pod nazwiskiem Tomasz Serafiński, aby trafić do obozu Auschwitz. W obozie zorganizował Związek Organizacji Wojskowych i przez ponad dwa lata zbierał oraz przekazywał informacje o popełnianych tam zbrodniach, po czym w kwietniu 1943 r. uciekł."
+    },
+    "sources": [
+      {
+        "title": "Witold Pilecki – dostał się do Auschwitz, by zaalarmować o skali zbrodni",
+        "publisher": "Instytut Pamięci Narodowej",
+        "url": "https://ipn.gov.pl/pl/historia-z-ipn/229836,Witold-Pilecki-dostal-sie-do-Auschwitz-by-zaalarmowac-o-skali-zbrodni.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      }
+    ],
+    "verified": true
+  },
+  {
+    "id": "oneg-szabat-1940",
+    "title": {
+      "en": "Founding of the Ringelblum Archive (Oneg Szabat)",
+      "pl": "Powstanie Archiwum Ringelbluma (Oneg Szabat)"
+    },
+    "startDate": "1940-09-22",
+    "endDate": "1940-12-21",
+    "datePrecision": "approximate",
+    "location": {
+      "lat": 52.24696,
+      "lng": 20.99123,
+      "name": {
+        "en": "Warsaw ghetto",
+        "pl": "Getto warszawskie"
+      },
+      "precision": "town"
+    },
+    "type": "resistance_operation",
+    "summary": {
+      "en": "In autumn 1940 the historian Emanuel Ringelblum and the clandestine group 'Oneg Szabat' began building the Underground Archive of the Warsaw Ghetto. It became one of the most important testimonies to the destruction of Polish Jewry, and Ringelblum's team recognised the nature of the German extermination relatively early. The archive is held today by the Jewish Historical Institute.",
+      "pl": "Jesienią 1940 r. historyk Emanuel Ringelblum wraz z konspiracyjną grupą „Oneg Szabat” zaczął tworzyć Podziemne Archiwum Getta Warszawy. Stało się ono jednym z najważniejszych świadectw zagłady Żydów polskich, a zespół Ringelbluma stosunkowo wcześnie rozpoznał charakter niemieckiej zagłady. Archiwum znajduje się dziś w zbiorach Żydowskiego Instytutu Historycznego."
+    },
+    "sources": [
+      {
+        "title": "Pełna edycja Archiwum Ringelbluma",
+        "publisher": "Żydowski Instytut Historyczny",
+        "url": "https://www.jhi.pl/oneg-szabat/pelna-edycja-archiwum-ringelbluma",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "The source gives 'autumn 1940'; the dates shown span that season. Type 'resistance operation' is used for this act of clandestine documentation.",
+      "pl": "Źródło podaje „jesień 1940 r.”; pokazane daty obejmują tę porę roku. Rodzaj „akcja ruchu oporu” zastosowano dla tej konspiracyjnej działalności dokumentacyjnej."
+    }
+  },
+  {
+    "id": "warsaw-ghetto-sealed-1940",
+    "title": {
+      "en": "Warsaw ghetto sealed",
+      "pl": "Zamknięcie getta warszawskiego"
+    },
+    "startDate": "1940-11-16",
+    "endDate": "1940-11-16",
+    "datePrecision": "day",
+    "location": {
+      "lat": 52.24696,
+      "lng": 20.99123,
+      "name": {
+        "en": "Muranów, Warsaw",
+        "pl": "Muranów, Warszawa"
+      },
+      "precision": "town"
+    },
+    "type": "occupation_policy",
+    "belligerents": [
+      "Germany"
+    ],
+    "summary": {
+      "en": "On 16 November 1940 the German authorities closed the boundaries of the Warsaw ghetto, shutting some 400,000 Jews behind walls and cutting them off from the rest of the city and from family on the 'Aryan side'. The order creating the ghetto had been signed by district governor Ludwig Fischer on 2 October and announced on 12 October 1940, forcing about 138,000 Jews and 113,000 Poles to move. Closure was immediately followed by a sharp rise in food prices and hunger, which hit the poorest hardest.",
+      "pl": "16 listopada 1940 r. władze niemieckie zamknęły granice getta warszawskiego, odcinając murami ok. 400 tys. Żydów od reszty miasta i od bliskich po „aryjskiej stronie”. Zarządzenie o utworzeniu getta gubernator dystryktu warszawskiego Ludwig Fischer podpisał 2 października, a ogłoszono je 12 października 1940 r.; zmusiło ono ok. 138 tys. Żydów i 113 tys. Polaków do zmiany miejsca zamieszkania. Bezpośrednim skutkiem zamknięcia getta był gwałtowny wzrost cen żywności i głód, uderzający przede wszystkim w najuboższych."
+    },
+    "sources": [
+      {
+        "title": "„Chcą nas zamurować żywcem”. Zamknięcie getta warszawskiego",
+        "publisher": "Żydowski Instytut Historyczny",
+        "url": "https://www.jhi.pl/artykuly/zamkniecie-getta-warszawskiego,544",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      }
+    ],
+    "verified": true
+  }
+]

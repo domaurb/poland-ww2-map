@@ -1,0 +1,3597 @@
+[
+  {
+    "id": "defence-of-gdynia-oksywie-1939",
+    "title": {
+      "en": "Defence of Gdynia and Kępa Oksywska",
+      "pl": "Obrona Gdyni i Kępy Oksywskiej"
+    },
+    "startDate": "1939-09-01",
+    "endDate": "1939-09-19",
+    "datePrecision": "day",
+    "location": {
+      "lat": 54.54924,
+      "lng": 18.54676,
+      "name": {
+        "en": "Oksywie, Gdynia",
+        "pl": "Oksywie, Gdynia"
+      },
+      "precision": "town"
+    },
+    "type": "battle",
+    "belligerents": [
+      "Poland",
+      "Germany"
+    ],
+    "summary": {
+      "en": "From 1 September Polish land forces of the Coastal Defence under Col. Stanisław Dąbek defended the Gdynia area; after losing the port they fought on at Kępa Oksywska, pushed steadily towards the sea. German forces broke the resistance on 19 September; Dąbek, wounded and refusing to be taken prisoner, took his own life.",
+      "pl": "Od 1 września oddziały Lądowej Obrony Wybrzeża pod dowództwem płk. Stanisława Dąbka broniły rejonu Gdyni; po utracie portu walczyły dalej na Kępie Oksywskiej, spychane w kierunku morza. 19 września Niemcy złamali opór; ranny płk Dąbek, nie chcąc iść do niewoli, popełnił samobójstwo."
+    },
+    "sources": [
+      {
+        "title": "1 września 1939 (piątek)",
+        "publisher": "Polskie miesiące (IPN)",
+        "url": "https://polskiemiesiace.ipn.gov.pl/mie/wszystkie-wydarzenia/wrzesien-1939/kalendarium/poczatek-ii-wojny-swiat/118319,1-wrzesnia-1939-piatek.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      },
+      {
+        "title": "19 września 1939 (wtorek)",
+        "publisher": "Polskie miesiące (IPN)",
+        "url": "https://polskiemiesiace.ipn.gov.pl/mie/wszystkie-wydarzenia/wrzesien-1939/kalendarium/poczatek-ii-wojny-swiat/118465,19-wrzesnia-1939-wtorek.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      },
+      {
+        "title": "Marek Gałęzowski: Agresja Niemiec i ZSRS na Polskę we wrześniu 1939 roku",
+        "publisher": "Instytut Pamięci Narodowej",
+        "url": "https://ipn.gov.pl/pl/historia-z-ipn/170522,Marek-Galezowski-Agresja-Niemiec-i-ZSRS-na-Polske-we-wrzesniu-1939-roku.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      }
+    ],
+    "verified": true
+  },
+  {
+    "id": "defence-of-hel-1939",
+    "title": {
+      "en": "Defence of the Hel Peninsula",
+      "pl": "Obrona Helu"
+    },
+    "startDate": "1939-09-01",
+    "endDate": "1939-10-02",
+    "datePrecision": "day",
+    "location": {
+      "lat": 54.62371,
+      "lng": 18.7275,
+      "name": {
+        "en": "Hel Peninsula",
+        "pl": "Półwysep Helski"
+      },
+      "precision": "town"
+    },
+    "type": "battle",
+    "belligerents": [
+      "Poland",
+      "Germany"
+    ],
+    "summary": {
+      "en": "The Hel Peninsula, where Rear Adm. Józef Unrug commanded the Polish Navy, became the last centre of resistance on the coast after Kępa Oksywska fell on 19 September. On 25 September its coastal battery fought the first of several duels with the German battleships Schleswig-Holstein and Schlesien. The garrison capitulated on 2 October 1939.",
+      "pl": "Półwysep Helski, gdzie siłami Marynarki Wojennej dowodził kontradm. Józef Unrug, po upadku Kępy Oksywskiej 19 września stał się ostatnim punktem oporu na Wybrzeżu. 25 września bateria cyplowa stoczyła pierwszy z pojedynków z niemieckimi pancernikami Schleswig-Holstein i Schlesien. Załoga Helu skapitulowała 2 października 1939 r."
+    },
+    "sources": [
+      {
+        "title": "1 września 1939 (piątek)",
+        "publisher": "Polskie miesiące (IPN)",
+        "url": "https://polskiemiesiace.ipn.gov.pl/mie/wszystkie-wydarzenia/wrzesien-1939/kalendarium/poczatek-ii-wojny-swiat/118319,1-wrzesnia-1939-piatek.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      },
+      {
+        "title": "25 września 1939 (poniedziałek)",
+        "publisher": "Polskie miesiące (IPN)",
+        "url": "https://polskiemiesiace.ipn.gov.pl/mie/wszystkie-wydarzenia/wrzesien-1939/kalendarium/poczatek-ii-wojny-swiat/118480,25-wrzesnia-1939-poniedzialek.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      },
+      {
+        "title": "Marek Gałęzowski: Agresja Niemiec i ZSRS na Polskę we wrześniu 1939 roku",
+        "publisher": "Instytut Pamięci Narodowej",
+        "url": "https://ipn.gov.pl/pl/historia-z-ipn/170522,Marek-Galezowski-Agresja-Niemiec-i-ZSRS-na-Polske-we-wrzesniu-1939-roku.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      },
+      {
+        "title": "„Wielka niemiecka kampania przeciwko Polsce”",
+        "publisher": "Przystanek Historia (IPN)",
+        "url": "https://przystanekhistoria.pl/pa2/tematy/wrzesien-1939/103062,Wielka-niemiecka-kampania-przeciwko-Polsce.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      }
+    ],
+    "verified": true
+  },
+  {
+    "id": "kocborowo-patients-szpegawsk-1939",
+    "title": {
+      "en": "Murder of Kocborowo hospital patients in the Szpęgawsk forest",
+      "pl": "Mordy na pacjentach szpitala w Kocborowie (Las Szpęgawski)"
+    },
+    "startDate": "1939-09-01",
+    "endDate": "1941-01-31",
+    "datePrecision": "month",
+    "location": {
+      "lat": 54.00313,
+      "lng": 18.60591,
+      "name": {
+        "en": "Szpęgawsk forest near Starogard Gdański",
+        "pl": "Las Szpęgawski koło Starogardu Gdańskiego"
+      },
+      "precision": "town"
+    },
+    "type": "massacre",
+    "belligerents": [
+      "Germany"
+    ],
+    "summary": {
+      "en": "Between September 1939 and January 1941 the Germans took patients of the Kocborowo psychiatric hospital near Starogard Gdański to the Szpęgawsk forest and killed them there; victims had to dig their own graves. The killings intensified after German staff and the SS doctor F. Metzner arrived to carry out selections. The largest single execution took place on 8 December 1939.",
+      "pl": "Od września 1939 r. do stycznia 1941 r. Niemcy wywozili pacjentów szpitala psychiatrycznego w Kocborowie koło Starogardu Gdańskiego do Lasu Szpęgawskiego i tam ich mordowali; ofiary musiały same kopać sobie groby. Egzekucje nasiliły się po przybyciu niemieckiego personelu i lekarza SS F. Metznera, który dokonywał selekcji. Największą egzekucję przeprowadzono 8 grudnia 1939 r."
+    },
+    "casualties": {
+      "en": "1,680 men and women killed; 357 or 402 people on 8 December 1939 alone (IPN).",
+      "pl": "Zamordowano 1680 mężczyzn i kobiet; 8 grudnia 1939 r. – 357 lub 402 osoby (IPN)."
+    },
+    "sources": [
+      {
+        "title": "Eutanazja – ukryte ludobójstwo pacjentów szpitali psychiatrycznych w Kraju Warty i na Pomorzu",
+        "publisher": "Instytut Pamięci Narodowej",
+        "url": "https://ipn.gov.pl/pl/aktualnosci/585,Eutanazja-ukryte-ludobojstwo-pacjentow-szpitali-psychiatrycznych-w-Kraju-Warty-i.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      },
+      {
+        "title": "Szpital psychiatryczny w Kocborowie podczas II wojny światowej",
+        "publisher": "Przystanek Historia (IPN)",
+        "url": "https://przystanekhistoria.pl/pa2/tematy/zbrodnie-niemieckie/85223,Szpital-psychiatryczny-w-Kocborowie-podczas-II-wojny-swiatowej.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      }
+    ],
+    "verified": true
+  },
+  {
+    "id": "krojanty-1939",
+    "title": {
+      "en": "Clash at Krojanty",
+      "pl": "Bój pod Krojantami"
+    },
+    "startDate": "1939-09-01",
+    "endDate": "1939-09-01",
+    "datePrecision": "day",
+    "location": {
+      "lat": 53.72663,
+      "lng": 17.63197,
+      "name": {
+        "en": "Krojanty near Chojnice",
+        "pl": "Krojanty koło Chojnic"
+      },
+      "precision": "town"
+    },
+    "type": "battle",
+    "belligerents": [
+      "Poland",
+      "Germany"
+    ],
+    "summary": {
+      "en": "On 1 September 1939 two squadrons of the 18th Pomeranian Uhlan Regiment carried out a cavalry action near Krojanty that slowed the advance of Gen. Heinz Guderian's XIX Panzer Corps towards the railway junction at Chojnice; the regiment's commander, Col. Kazimierz Mastalerz, was killed. The episode gave rise to the legend of Polish cavalry charging tanks with sabres, exploited by German propaganda and later in post-war debates.",
+      "pl": "1 września 1939 r. dwa szwadrony 18. Pułku Ułanów Pomorskich brawurowym manewrem kawaleryjskim pod Krojantami opóźniły marsz XIX Korpusu Pancernego gen. Heinza Guderiana w kierunku węzła kolejowego w Chojnicach; w boju zginął dowódca pułku płk Kazimierz Mastalerz. Epizod dał początek legendzie o szarży z szablami na czołgi, wykorzystywanej przez propagandę niemiecką, a po wojnie w debatach historyczno-politycznych."
+    },
+    "sources": [
+      {
+        "title": "1 września 1939 (piątek)",
+        "publisher": "Polskie miesiące (IPN)",
+        "url": "https://polskiemiesiace.ipn.gov.pl/mie/wszystkie-wydarzenia/wrzesien-1939/kalendarium/poczatek-ii-wojny-swiat/118319,1-wrzesnia-1939-piatek.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      }
+    ],
+    "verified": true
+  },
+  {
+    "id": "mlawa-1939",
+    "title": {
+      "en": "Battle of Mława",
+      "pl": "Bitwa pod Mławą"
+    },
+    "startDate": "1939-09-01",
+    "endDate": "1939-09-03",
+    "datePrecision": "day",
+    "location": {
+      "lat": 53.11162,
+      "lng": 20.38317,
+      "name": {
+        "en": "Mława",
+        "pl": "Mława"
+      },
+      "precision": "town"
+    },
+    "type": "battle",
+    "belligerents": [
+      "Poland",
+      "Germany"
+    ],
+    "summary": {
+      "en": "The 20th Infantry Division of Army 'Modlin' held fortified positions at Mława against numerically superior forces of the German 3rd Army advancing from East Prussia. After a failed night counter-attack the Polish forces withdrew under air attack. Although lost, the battle forced the Germans to postpone plans to attack Warsaw from the north and east.",
+      "pl": "20. Dywizja Piechoty z Armii „Modlin” broniła umocnionych pozycji pod Mławą przed przeważającymi siłami niemieckiej 3. Armii nacierającej z Prus Wschodnich. Po nieudanym nocnym kontrnatarciu oddziały polskie wycofały się pod bombami Luftwaffe. Choć przegrana, bitwa zmusiła Niemców do odłożenia planów ataku na Warszawę od północy i wschodu."
+    },
+    "sources": [
+      {
+        "title": "3 września 1939 (niedziela)",
+        "publisher": "Polskie miesiące (IPN)",
+        "url": "https://polskiemiesiace.ipn.gov.pl/mie/wszystkie-wydarzenia/wrzesien-1939/kalendarium/poczatek-ii-wojny-swiat/118423,3-wrzesnia-1939-niedziela.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      },
+      {
+        "title": "4 września 1939 (poniedziałek)",
+        "publisher": "Polskie miesiące (IPN)",
+        "url": "https://polskiemiesiace.ipn.gov.pl/mie/wszystkie-wydarzenia/wrzesien-1939/kalendarium/poczatek-ii-wojny-swiat/118424,4-wrzesnia-1939-poniedzialek.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      },
+      {
+        "title": "Polsko-niemieckie boje pod Mławą",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/content/polsko-niemieckie-boje-pod-m%C5%82aw%C4%85",
+        "tier": 2,
+        "accessed": "2026-11-18"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "dzieje.pl dates the battle 1–3 September; the IPN calendar records the defence continuing on 3 September and the withdrawal on 4 September.",
+      "pl": "Dzieje.pl datuje bitwę na 1–3 września; kalendarium IPN odnotowuje trwanie obrony 3 września i odwrót 4 września."
+    }
+  },
+  {
+    "id": "mokra-1939",
+    "title": {
+      "en": "Battle of Mokra",
+      "pl": "Bitwa pod Mokrą"
+    },
+    "startDate": "1939-09-01",
+    "endDate": "1939-09-01",
+    "datePrecision": "day",
+    "location": {
+      "lat": 50.96262,
+      "lng": 18.91406,
+      "name": {
+        "en": "Mokra, north-west of Częstochowa",
+        "pl": "Mokra, na północny zachód od Częstochowy"
+      },
+      "precision": "town"
+    },
+    "type": "battle",
+    "belligerents": [
+      "Poland",
+      "Germany"
+    ],
+    "summary": {
+      "en": "On the first day of the war the Wołyńska Cavalry Brigade of Army 'Łódź', commanded by Col. Julian Filipowicz, repelled frontal attacks by the German 4th Panzer Division near the village of Mokra. According to IPN the Germans lost about 100 armoured vehicles destroyed or damaged. Cpl. Leonard Żłób became the first Polish soldier of the war to be recommended for the Virtuti Militari.",
+      "pl": "Pierwszego dnia wojny Wołyńska Brygada Kawalerii z Armii „Łódź”, dowodzona przez płk. Juliana Filipowicza, odparła pod wsią Mokra czołowe ataki niemieckiej 4. Dywizji Pancernej. Według IPN Niemcy stracili ok. 100 wozów bojowych zniszczonych i uszkodzonych. Kpr. Leonard Żłób jako pierwszy żołnierz polski tej wojny został przedstawiony do orderu Virtuti Militari."
+    },
+    "sources": [
+      {
+        "title": "1 września 1939 (piątek)",
+        "publisher": "Polskie miesiące (IPN)",
+        "url": "https://polskiemiesiace.ipn.gov.pl/mie/wszystkie-wydarzenia/wrzesien-1939/kalendarium/poczatek-ii-wojny-swiat/118319,1-wrzesnia-1939-piatek.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      },
+      {
+        "title": "Kampania polska 1939 – Bitwa graniczna i wojna koalicyjna",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/aktualnosci/kampania-polska-1939-bitwa-graniczna-i-wojna-koalicyjna",
+        "tier": 2,
+        "accessed": "2026-11-18"
+      }
+    ],
+    "verified": true
+  },
+  {
+    "id": "polish-post-office-danzig-1939",
+    "title": {
+      "en": "Defence of the Polish Post Office in Danzig",
+      "pl": "Obrona Poczty Polskiej w Gdańsku"
+    },
+    "startDate": "1939-09-01",
+    "endDate": "1939-09-01",
+    "datePrecision": "day",
+    "location": {
+      "lat": 54.35542,
+      "lng": 18.65695,
+      "name": {
+        "en": "Polish Post Office, Gdańsk (Danzig)",
+        "pl": "Poczta Polska, Gdańsk (Danzig)"
+      },
+      "precision": "exact"
+    },
+    "type": "battle",
+    "belligerents": [
+      "Poland",
+      "Germany"
+    ],
+    "summary": {
+      "en": "On 1 September 1939, as the shelling of Westerplatte began, Danzig Schutzpolizei and SS units attacked the Polish Post Office on Heveliusplatz, which had been cut off from power and telephone lines shortly before. The 57 people inside, expected to hold for about six hours until relieved, defended the building for more than 14 hours before surrendering. A German field court sentenced the defenders to death for alleged partisan activity in two sham trials, and they were secretly executed at Zaspa on 5 October 1939.",
+      "pl": "1 września 1939 r., równocześnie z ostrzałem Westerplatte, oddział Schutzpolizei oraz pododdziały SS zaatakowały gmach Poczty Polskiej przy Heveliusplatz, wcześniej odcięty od prądu i łączności telefonicznej. 57 osób przebywających w budynku miało bronić się ok. 6 godzin do nadejścia odsieczy, a stawiało opór ponad 14 godzin, po czym skapitulowało. Niemiecki sąd polowy w dwóch fikcyjnych procesach skazał obrońców na śmierć za rzekomą „działalność partyzancką”; 5 października 1939 r. potajemnie rozstrzelano ich na Zaspie."
+    },
+    "sources": [
+      {
+        "title": "Egzekucja obrońców Poczty Polskiej w Gdańsku",
+        "publisher": "Instytut Pamięci Narodowej",
+        "url": "https://ipn.gov.pl/pl/historia-z-ipn/230517,Egzekucja-obroncow-Poczty-Polskiej-w-Gdansku.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      },
+      {
+        "title": "1 września 1939 (piątek)",
+        "publisher": "Polskie miesiące (IPN)",
+        "url": "https://polskiemiesiace.ipn.gov.pl/mie/wszystkie-wydarzenia/wrzesien-1939/kalendarium/poczatek-ii-wojny-swiat/118319,1-wrzesnia-1939-piatek.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "The trials were held on 8 and 29 September 1939. The execution of the defenders on 5 October is a separate event.",
+      "pl": "Procesy odbyły się 8 i 29 września 1939 r. Egzekucja obrońców 5 października jest osobnym wydarzeniem."
+    }
+  },
+  {
+    "id": "pomeranian-crime-1939",
+    "title": {
+      "en": "Pomeranian Crime of 1939",
+      "pl": "Zbrodnia Pomorska 1939"
+    },
+    "startDate": "1939-09-01",
+    "endDate": "1940-04-30",
+    "datePrecision": "approximate",
+    "location": {
+      "lat": 53.01454,
+      "lng": 18.59658,
+      "name": {
+        "en": "Gdańsk Pomerania (marker at Toruń)",
+        "pl": "Pomorze Gdańskie (znacznik: Toruń)"
+      },
+      "precision": "region"
+    },
+    "type": "massacre",
+    "belligerents": [
+      "Germany"
+    ],
+    "summary": {
+      "en": "From the first month of the war to early 1940 German units – Einsatzkommando 16, other police and SS formations, and the Selbstschutz militia of local ethnic Germans, which over 38,000 men joined – carried out planned mass killings in some 400 localities of pre-war Pomorskie voivodeship. The victims were Polish citizens of Polish and Jewish nationality: intelligentsia, clergy, workers, landowners and psychiatric patients. Major killing sites included Piaśnica, the Szpęgawsk forest, Mniszek, the Fordon 'Valley of Death', Barbarka near Toruń and Klamry near Chełmno.",
+      "pl": "Od pierwszego miesiąca wojny do początku 1940 r. niemieckie formacje – Einsatzkommando 16, inne jednostki policji i SS oraz Selbstschutz złożony z miejscowych Niemców (wstąpiło do niego ponad 38 tys. mężczyzn) – dokonywały zaplanowanych masowych mordów w ok. 400 miejscowościach przedwojennego województwa pomorskiego. Ofiarami byli obywatele polscy narodowości polskiej i żydowskiej: inteligencja, duchowieństwo, robotnicy, ziemianie oraz chorzy psychicznie. Do głównych miejsc kaźni należały Piaśnica, Las Szpęgawski, Mniszek, fordońska „Dolina Śmierci”, Barbarka pod Toruniem i Klamry koło Chełmna."
+    },
+    "casualties": {
+      "en": "About 16,000 victims established from exhumation records and name lists (a minimum figure); historians' estimates range from 20,000 to 40,000 (IPN).",
+      "pl": "Na podstawie dokumentacji ekshumacyjnej i list imiennych ustalono ok. 16 tys. ofiar (liczba minimalna); szacunki historyków wynoszą od 20 do 40 tys. (IPN)."
+    },
+    "sources": [
+      {
+        "title": "Zbrodnia Pomorska 1939 roku",
+        "publisher": "Przystanek Historia (IPN)",
+        "url": "https://przystanekhistoria.pl/pa2/teksty/73457,Zbrodnia-pomorska-1939-roku.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      },
+      {
+        "title": "Zbrodnia Pomorska – sprawa ciągle otwarta",
+        "publisher": "Instytut Pamięci Narodowej",
+        "url": "https://ipn.gov.pl/pl/historia-z-ipn/248382,Zbrodnia-Pomorska-sprawa-ciagle-otwarta.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "Dates approximate. IPN dates the crime from September to December 1939 (in places to early 1940) and states that mass killings in the Reichsgau Danzig-West Prussia continued until April 1940. Individual sites (Piaśnica, Fordon, Mniszek, Szpęgawsk) are separate events; the marker at Toruń, site of the Park of Remembrance of the Pomeranian Crime victims, is representative.",
+      "pl": "Daty przybliżone. IPN datuje zbrodnię na wrzesień–grudzień 1939 r. (miejscami do początku 1940 r.) i podaje, że masowe mordy w Okręgu Gdańsk-Prusy Zachodnie trwały do kwietnia 1940 r. Poszczególne miejsca (Piaśnica, Fordon, Mniszek, Szpęgawsk) są osobnymi wydarzeniami; znacznik w Toruniu, gdzie znajduje się Park Pamięci Ofiar Zbrodni Pomorskiej, jest reprezentatywny."
+    }
+  },
+  {
+    "id": "tuchola-forest-1939",
+    "title": {
+      "en": "Battle of the Tuchola Forest",
+      "pl": "Bitwa w Borach Tucholskich"
+    },
+    "startDate": "1939-09-01",
+    "endDate": "1939-09-03",
+    "datePrecision": "day",
+    "location": {
+      "lat": 53.81381,
+      "lng": 17.56703,
+      "name": {
+        "en": "Tuchola Forest (Bory Tucholskie), Pomerania",
+        "pl": "Bory Tucholskie, Pomorze"
+      },
+      "precision": "region"
+    },
+    "type": "battle",
+    "belligerents": [
+      "Poland",
+      "Germany"
+    ],
+    "summary": {
+      "en": "In the first three days of the war the German 4th Army broke part of Army 'Pomorze' under Gen. Władysław Bortnowski in the Tuchola Forest and reached the Vistula, cutting off the Polish coast from the rest of the country. A large part of Army 'Pomorze' nevertheless disengaged, despite heavy losses, and later joined Army 'Poznań'.",
+      "pl": "W ciągu pierwszych trzech dni wojny niemiecka 4. Armia rozbiła część sił Armii „Pomorze” gen. Władysława Bortnowskiego w Borach Tucholskich i dotarła do Wisły, odcinając Wybrzeże od reszty kraju. Dużej części Armii „Pomorze” udało się jednak, mimo wielkich strat, oderwać od przeciwnika i połączyć z Armią „Poznań”."
+    },
+    "sources": [
+      {
+        "title": "3 września 1939 (niedziela)",
+        "publisher": "Polskie miesiące (IPN)",
+        "url": "https://polskiemiesiace.ipn.gov.pl/mie/wszystkie-wydarzenia/wrzesien-1939/kalendarium/poczatek-ii-wojny-swiat/118423,3-wrzesnia-1939-niedziela.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      },
+      {
+        "title": "Marek Gałęzowski: Agresja Niemiec i ZSRS na Polskę we wrześniu 1939 roku",
+        "publisher": "Instytut Pamięci Narodowej",
+        "url": "https://ipn.gov.pl/pl/historia-z-ipn/170522,Marek-Galezowski-Agresja-Niemiec-i-ZSRS-na-Polske-we-wrzesniu-1939-roku.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      },
+      {
+        "title": "Kampania polska 1939 – Bitwa graniczna i wojna koalicyjna",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/aktualnosci/kampania-polska-1939-bitwa-graniczna-i-wojna-koalicyjna",
+        "tier": 2,
+        "accessed": "2026-11-18"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "Dates follow dzieje.pl ('the first three days of fighting') and the IPN calendar entry for 3 September; the marker is a representative point in the forest.",
+      "pl": "Daty według dzieje.pl („pierwsze trzy dni walk”) i wpisu kalendarium IPN z 3 września; znacznik wskazuje punkt reprezentatywny w Borach."
+    }
+  },
+  {
+    "id": "wegierska-gorka-1939",
+    "title": {
+      "en": "Defence of Węgierska Górka",
+      "pl": "Obrona Węgierskiej Górki"
+    },
+    "startDate": "1939-09-01",
+    "endDate": "1939-09-03",
+    "datePrecision": "day",
+    "location": {
+      "lat": 49.60882,
+      "lng": 19.11959,
+      "name": {
+        "en": "Węgierska Górka, Żywiec Beskids",
+        "pl": "Węgierska Górka, Beskid Żywiecki"
+      },
+      "precision": "town"
+    },
+    "type": "battle",
+    "belligerents": [
+      "Poland",
+      "Germany"
+    ],
+    "summary": {
+      "en": "A fortress company of about 70 men under Capt. Tadeusz Semik, spread across four bunkers, held up the German 7th Infantry Division advancing from the south. Three bunker crews withdrew on the evening of 2 September; the last, 'Wędrowiec', surrendered early on 3 September, out of water and ammunition. The defence helped Army 'Kraków' carry out its withdrawal.",
+      "pl": "Licząca ok. 70 żołnierzy kompania forteczna kpt. Tadeusza Semika, rozmieszczona w czterech schronach, powstrzymywała nacierającą od południa niemiecką 7. Dywizję Piechoty. Załogi trzech schronów wycofały się wieczorem 2 września; ostatni, „Wędrowiec”, pozbawiony wody i amunicji, skapitulował nad ranem 3 września. Obrona ułatwiła manewr odwrotowy Armii „Kraków”."
+    },
+    "casualties": {
+      "en": "11 Polish soldiers and about 200 Germans killed (dzieje.pl/PAP).",
+      "pl": "Zginęło 11 żołnierzy polskich i ok. 200 Niemców (dzieje.pl/PAP)."
+    },
+    "sources": [
+      {
+        "title": "3 września 1939 (niedziela)",
+        "publisher": "Polskie miesiące (IPN)",
+        "url": "https://polskiemiesiace.ipn.gov.pl/mie/wszystkie-wydarzenia/wrzesien-1939/kalendarium/poczatek-ii-wojny-swiat/118423,3-wrzesnia-1939-niedziela.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      },
+      {
+        "title": "Węgierska Górka/ Upamiętniono bohaterów „Westerplatte południa”",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/aktualnosci/wegierska-gorka-upamietniono-bohaterow-westerplatte-poludnia",
+        "tier": 2,
+        "accessed": "2026-11-18"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "The IPN calendar mentions the defence under 3 September (over 20 hours of resistance); dzieje.pl gives 1–3 September.",
+      "pl": "Kalendarium IPN odnotowuje obronę pod datą 3 września (ponad 20 godzin oporu); dzieje.pl podaje 1–3 września."
+    }
+  },
+  {
+    "id": "westerplatte-1939",
+    "title": {
+      "en": "Defence of Westerplatte",
+      "pl": "Obrona Westerplatte"
+    },
+    "startDate": "1939-09-01",
+    "endDate": "1939-09-07",
+    "datePrecision": "day",
+    "location": {
+      "lat": 54.40931,
+      "lng": 18.66997,
+      "name": {
+        "en": "Westerplatte, Gdańsk (Danzig)",
+        "pl": "Westerplatte, Gdańsk (Danzig)"
+      },
+      "precision": "exact"
+    },
+    "type": "battle",
+    "belligerents": [
+      "Poland",
+      "Germany"
+    ],
+    "summary": {
+      "en": "At dawn on 1 September 1939 German forces, including guns of the battleship Schleswig-Holstein, attacked the Polish Military Transit Depot on the Westerplatte peninsula in the Free City of Danzig. Polish planning assumed the small garrison could fight alone for only a matter of hours, yet it withstood air, naval and ground attacks for almost seven days. Its commander, Maj. Henryk Sucharski, ordered the surrender on 7 September.",
+      "pl": "O świcie 1 września 1939 r. siły niemieckie, w tym działa pancernika Schleswig-Holstein, zaatakowały Wojskową Składnicę Tranzytową na półwyspie Westerplatte w Wolnym Mieście Gdańsku. Polskie plany zakładały, że nieliczna załoga zdoła walczyć samodzielnie zaledwie kilka godzin, tymczasem odpierała ataki z powietrza, z morza i z lądu przez prawie siedem dni. Dowódca placówki mjr Henryk Sucharski zdecydował o kapitulacji 7 września."
+    },
+    "sources": [
+      {
+        "title": "Pamiętamy o żołnierzach broniących Westerplatte – 1 września 2022",
+        "publisher": "Instytut Pamięci Narodowej",
+        "url": "https://ipn.gov.pl/pl/aktualnosci/149209,Pamietamy-o-zolnierzach-broniacych-Westerplatte-1-wrzesnia-2022.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      },
+      {
+        "title": "85 lat temu skapitulowała polska załoga Westerplatte; Niemcy się tego nie spodziewali",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/wiadomosci/85-lat-temu-zakonczyla-sie-obrona-westerplatte-symbolu-polskiej-niezlomnosci",
+        "tier": 2,
+        "accessed": "2026-11-18"
+      },
+      {
+        "title": "1 września 1939 (piątek)",
+        "publisher": "Polskie miesiące (IPN)",
+        "url": "https://polskiemiesiace.ipn.gov.pl/mie/wszystkie-wydarzenia/wrzesien-1939/kalendarium/poczatek-ii-wojny-swiat/118319,1-wrzesnia-1939-piatek.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      },
+      {
+        "title": "7 września 1939 (czwartek)",
+        "publisher": "Polskie miesiące (IPN)",
+        "url": "https://polskiemiesiace.ipn.gov.pl/mie/wszystkie-wydarzenia/wrzesien-1939/kalendarium/poczatek-ii-wojny-swiat/118432,7-wrzesnia-1939-czwartek.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "Sources differ on how long the garrison was expected to hold out: IPN gives 12 hours, dzieje.pl (citing historians) 6 hours. dzieje.pl gives the garrison as about 200 men, noting that sources vary between 182 and 210.",
+      "pl": "Źródła różnią się co do zakładanego czasu obrony: IPN podaje 12 godzin, dzieje.pl (za historykami) 6 godzin. Według dzieje.pl załoga liczyła około 200 osób, przy czym różne źródła podają od 182 do 210."
+    }
+  },
+  {
+    "id": "wielun-bombing-1939",
+    "title": {
+      "en": "Bombing of Wieluń",
+      "pl": "Bombardowanie Wielunia"
+    },
+    "startDate": "1939-09-01",
+    "endDate": "1939-09-01",
+    "datePrecision": "day",
+    "location": {
+      "lat": 51.22045,
+      "lng": 18.5701,
+      "name": {
+        "en": "Wieluń",
+        "pl": "Wieluń"
+      },
+      "precision": "town"
+    },
+    "type": "bombing",
+    "belligerents": [
+      "Germany"
+    ],
+    "summary": {
+      "en": "On 1 September 1939 Luftwaffe dive-bombers attacked Wieluń, a town about 20 km from the German border with no Polish army units or anti-aircraft defences. Some 380 bombs fell on the town; the first struck the All Saints hospital, killing 32 patients and staff. Historians quoted by PAP consider the civilian population to have been the target, and about three-quarters of the town was destroyed.",
+      "pl": "1 września 1939 r. niemieckie bombowce nurkujące zaatakowały Wieluń – miasto położone ok. 20 km od granicy z Niemcami, w którym nie stacjonowały oddziały Wojska Polskiego ani obrona przeciwlotnicza. Na miasto spadło ok. 380 bomb; pierwsze trafiły w Szpital Wszystkich Świętych, gdzie zginęły 32 osoby – pacjenci i personel. Cytowani przez PAP historycy uznają, że celem ataku była ludność cywilna; zniszczeniu uległo ok. 75 proc. miasta."
+    },
+    "casualties": {
+      "en": "More than 1,200 killed; some sources give as many as 2,000 (dzieje.pl/PAP).",
+      "pl": "Ponad 1200 zabitych; niektóre źródła podają nawet 2000 (dzieje.pl/PAP)."
+    },
+    "sources": [
+      {
+        "title": "Luftwaffe zbombardowało Wieluń, by przetestować sprzęt i zastraszyć ludność",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/aktualnosci/luftwaffe-zbombardowalo-wielun-przetestowac-sprzet-i-zastraszyc-ludnosc",
+        "tier": 2,
+        "accessed": "2026-11-18"
+      },
+      {
+        "title": "1 września 1939 (piątek)",
+        "publisher": "Polskie miesiące (IPN)",
+        "url": "https://polskiemiesiace.ipn.gov.pl/mie/wszystkie-wydarzenia/wrzesien-1939/kalendarium/poczatek-ii-wojny-swiat/118319,1-wrzesnia-1939-piatek.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "Death-toll estimates vary: the IPN calendar gives about 1,200 civilians; dzieje.pl gives over 1,200, noting that some sources give up to 2,000.",
+      "pl": "Szacunki liczby ofiar są różne: kalendarium IPN podaje ok. 1200 cywilów; dzieje.pl – ponad 1200, zaznaczając, że niektóre źródła podają nawet 2000."
+    }
+  },
+  {
+    "id": "jordanow-1939",
+    "title": {
+      "en": "Battle of Jordanów",
+      "pl": "Bój pod Jordanowem"
+    },
+    "startDate": "1939-09-02",
+    "endDate": "1939-09-02",
+    "datePrecision": "day",
+    "location": {
+      "lat": 49.64929,
+      "lng": 19.82995,
+      "name": {
+        "en": "Jordanów",
+        "pl": "Jordanów"
+      },
+      "precision": "town"
+    },
+    "type": "battle",
+    "belligerents": [
+      "Poland",
+      "Germany"
+    ],
+    "summary": {
+      "en": "Covering the withdrawal of Army 'Kraków', the 10th Cavalry Brigade of Col. Stanisław Maczek – in practice the Polish Army's only fully capable armoured-motorised unit – fought the German XXII Panzer Corps at Jordanów, destroying about 50 German armoured vehicles according to IPN.",
+      "pl": "Ubezpieczając odwrót Armii „Kraków”, 10. Brygada Kawalerii płk. Stanisława Maczka – w istocie jedyna w pełni wartościowa jednostka pancerno-motorowa Wojska Polskiego – walczyła pod Jordanowem z niemieckim XXII Korpusem Pancernym, niszcząc według IPN 50 niemieckich pojazdów pancernych."
+    },
+    "sources": [
+      {
+        "title": "2 września 1939 (sobota)",
+        "publisher": "Polskie miesiące (IPN)",
+        "url": "https://polskiemiesiace.ipn.gov.pl/mie/wszystkie-wydarzenia/wrzesien-1939/kalendarium/poczatek-ii-wojny-swiat/118421,2-wrzesnia-1939-sobota.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      }
+    ],
+    "verified": true
+  },
+  {
+    "id": "stutthof-camp-1939",
+    "title": {
+      "en": "Stutthof camp",
+      "pl": "Obóz Stutthof"
+    },
+    "startDate": "1939-09-02",
+    "endDate": "1945-05-08",
+    "datePrecision": "day",
+    "location": {
+      "lat": 54.32986,
+      "lng": 19.15772,
+      "name": {
+        "en": "Sztutowo (Stutthof)",
+        "pl": "Sztutowo (Stutthof)"
+      },
+      "precision": "exact"
+    },
+    "type": "camp",
+    "belligerents": [
+      "Germany"
+    ],
+    "summary": {
+      "en": "On 2 September 1939 a first transport of about 135–150 Polish residents of the Free City of Danzig, arrested the day before, was brought to the newly created civilian prisoners' camp at Stutthof, set up on the initiative of Gauleiter Albert Forster. Prisoners were murdered by shooting, hanging, gassing and phenol injections, and through starvation, hard labour and disease. From January 1942 Stutthof was part of the concentration camp system, with sub-camps from Riga to Police near Szczecin; on 25 January 1945 the Germans began evacuating prisoners on foot, during which many died.",
+      "pl": "2 września 1939 r. pierwszy transport ok. 135–150 polskich mieszkańców Wolnego Miasta Gdańska, aresztowanych dzień wcześniej, dotarł do utworzonego z inicjatywy gauleitera Alberta Forstera obozu dla jeńców cywilnych Stutthof. Więźniów zabijano przez rozstrzelanie, powieszenie, w komorze gazowej i zastrzykami fenolu, a także głodem, ciężką pracą i chorobami. Od stycznia 1942 r. Stutthof należał do systemu obozów koncentracyjnych, z podobozami od Rygi po Police koło Szczecina; 25 stycznia 1945 r. Niemcy rozpoczęli pieszą ewakuację więźniów, podczas której wielu zginęło."
+    },
+    "casualties": {
+      "en": "About 110,000 prisoners passed through the camp; an estimated 63,000–65,000 were killed, including 28,000 Jews (IPN).",
+      "pl": "Przez obóz przeszło ok. 110 tys. więźniów; liczbę zabitych szacuje się na 63–65 tys., w tym 28 tys. Żydów (IPN)."
+    },
+    "sources": [
+      {
+        "title": "Stutthof znaczy śmierć",
+        "publisher": "Instytut Pamięci Narodowej",
+        "url": "https://ipn.gov.pl/pl/historia-z-ipn/228125,Stutthof-znaczy-smierc.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      },
+      {
+        "title": "Niemieckie obozy na ziemiach polskich 1939–1945",
+        "publisher": "Przystanek Historia (IPN)",
+        "url": "https://przystanekhistoria.pl/pa2/tematy/obozy-koncentracyjne/61575,Niemieckie-obozy-na-ziemiach-polskich-1939-1945.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "Soviet units entered the camp on 9 May 1945, finding only 140 prisoners (IPN). Because the map's range ends on 8 May 1945, the event is shown as ongoing until that date.",
+      "pl": "Oddziały sowieckie wkroczyły do obozu 9 maja 1945 r., zastając tylko 140 więźniów (IPN). Ponieważ zakres mapy kończy się 8 maja 1945 r., wydarzenie pokazano jako trwające do tej daty."
+    }
+  },
+  {
+    "id": "bydgoszcz-diversion-1939",
+    "title": {
+      "en": "Suppression of German diversion in Bydgoszcz (Bromberg)",
+      "pl": "Stłumienie dywersji niemieckiej w Bydgoszczy"
+    },
+    "startDate": "1939-09-03",
+    "endDate": "1939-09-03",
+    "datePrecision": "day",
+    "location": {
+      "lat": 53.12196,
+      "lng": 18.00027,
+      "name": {
+        "en": "Bydgoszcz (Bromberg)",
+        "pl": "Bydgoszcz (Bromberg)"
+      },
+      "precision": "town"
+    },
+    "type": "other",
+    "summary": {
+      "en": "On 3 September 1939, behind the Polish front, an attempt by German diversionists to start an uprising in Bydgoszcz was put down by units of the 15th Infantry Division supported by civilian volunteers. IPN puts the dead on both sides at about 300, mostly Germans. Nazi propaganda called the events 'Bromberg Bloody Sunday' and used them as a pretext for mass killings of the city's Polish population after the Wehrmacht took it.",
+      "pl": "3 września 1939 r. na tyłach polskiego frontu próba wywołania rebelii w Bydgoszczy przez niemieckich dywersantów została stłumiona przez oddziały 15. Dywizji Piechoty wspierane przez cywilnych ochotników. Według IPN po obu stronach zginęło ok. 300 osób, głównie Niemców. Propaganda hitlerowska nazwała te wydarzenia „bydgoską krwawą niedzielą” i wykorzystała jako pretekst do masowych mordów na polskiej ludności miasta po jego zajęciu przez Wehrmacht."
+    },
+    "sources": [
+      {
+        "title": "3 września 1939 (niedziela)",
+        "publisher": "Polskie miesiące (IPN)",
+        "url": "https://polskiemiesiace.ipn.gov.pl/mie/wszystkie-wydarzenia/wrzesien-1939/kalendarium/poczatek-ii-wojny-swiat/118423,3-wrzesnia-1939-niedziela.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "This entry follows the IPN account. Historians interpret the events of 3 September differently; a second source covering the debate should be added.",
+      "pl": "Wpis opiera się na relacji IPN. Historycy różnie interpretują wydarzenia 3 września; należy dodać drugie źródło omawiające tę dyskusję."
+    }
+  },
+  {
+    "id": "gryf-wicher-sunk-1939",
+    "title": {
+      "en": "Sinking of ORP Gryf and ORP Wicher",
+      "pl": "Zatopienie ORP „Gryf” i ORP „Wicher”"
+    },
+    "startDate": "1939-09-03",
+    "endDate": "1939-09-03",
+    "datePrecision": "day",
+    "location": {
+      "lat": 54.62371,
+      "lng": 18.7275,
+      "name": {
+        "en": "Port of Hel",
+        "pl": "Port na Helu"
+      },
+      "precision": "town"
+    },
+    "type": "battle",
+    "belligerents": [
+      "Poland",
+      "Germany"
+    ],
+    "summary": {
+      "en": "On 3 September 1939 Luftwaffe bombing in the port of Hel sank the two largest ships of the Polish Navy, the minelayer ORP Gryf and the destroyer ORP Wicher. Polish submarines continued operations in the Baltic (Operation 'Worek'), without success.",
+      "pl": "3 września 1939 r. w wyniku bombardowania przez Luftwaffe w porcie na Helu zatonęły dwa największe okręty polskiej Marynarki Wojennej – stawiacz min ORP „Gryf” i niszczyciel ORP „Wicher”. Polskie okręty podwodne kontynuowały działania na Bałtyku (operacja „Worek”), jednak bez powodzenia."
+    },
+    "sources": [
+      {
+        "title": "3 września 1939 (niedziela)",
+        "publisher": "Polskie miesiące (IPN)",
+        "url": "https://polskiemiesiace.ipn.gov.pl/mie/wszystkie-wydarzenia/wrzesien-1939/kalendarium/poczatek-ii-wojny-swiat/118423,3-wrzesnia-1939-niedziela.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      },
+      {
+        "title": "Marek Gałęzowski: Agresja Niemiec i ZSRS na Polskę we wrześniu 1939 roku",
+        "publisher": "Instytut Pamięci Narodowej",
+        "url": "https://ipn.gov.pl/pl/historia-z-ipn/170522,Marek-Galezowski-Agresja-Niemiec-i-ZSRS-na-Polske-we-wrzesniu-1939-roku.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      }
+    ],
+    "verified": true
+  },
+  {
+    "id": "borowa-gora-1939",
+    "title": {
+      "en": "Battle of Borowa Góra",
+      "pl": "Walki o Borową Górę"
+    },
+    "startDate": "1939-09-04",
+    "endDate": "1939-09-05",
+    "datePrecision": "day",
+    "location": {
+      "lat": 51.41285,
+      "lng": 19.68868,
+      "name": {
+        "en": "Borowa Góra near Piotrków Trybunalski (marker at Piotrków)",
+        "pl": "Borowa Góra koło Piotrkowa Trybunalskiego (znacznik: Piotrków)"
+      },
+      "precision": "region"
+    },
+    "type": "battle",
+    "belligerents": [
+      "Poland",
+      "Germany"
+    ],
+    "summary": {
+      "en": "In the sector of Army 'Łódź' near Piotrków Trybunalski, the 2nd Legions Infantry Regiment of Col. Ludwik Czyżewski held off superior forces of the German 4th Panzer Division at Borowa Góra; the fighting peaked on 4 September. The position was abandoned on 5 September, and defeats of Army 'Łódź' and the reserve Army 'Prusy' around Piotrków opened the road to Warsaw for the Germans.",
+      "pl": "W pasie działania Armii „Łódź” pod Piotrkowem Trybunalskim 2. Pułk Piechoty Legionów płk. Ludwika Czyżewskiego powstrzymywał przeważające siły niemieckiej 4. Dywizji Pancernej w walkach o Borową Górę, których apogeum przypadło na 4 września. 5 września pozycję opuszczono, a klęski Armii „Łódź” i odwodowej Armii „Prusy” pod Piotrkowem otworzyły Niemcom drogę na Warszawę."
+    },
+    "sources": [
+      {
+        "title": "4 września 1939 (poniedziałek)",
+        "publisher": "Polskie miesiące (IPN)",
+        "url": "https://polskiemiesiace.ipn.gov.pl/mie/wszystkie-wydarzenia/wrzesien-1939/kalendarium/poczatek-ii-wojny-swiat/118424,4-wrzesnia-1939-poniedzialek.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      },
+      {
+        "title": "5 września 1939 (wtorek)",
+        "publisher": "Polskie miesiące (IPN)",
+        "url": "https://polskiemiesiace.ipn.gov.pl/mie/wszystkie-wydarzenia/wrzesien-1939/kalendarium/poczatek-ii-wojny-swiat/118427,5-wrzesnia-1939-wtorek.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "The IPN calendar describes several days of fighting with the climax on 4 September but gives no start date, so only 4–5 September are shown. Borowa Góra is not in OpenStreetMap; the marker is placed at Piotrków Trybunalski.",
+      "pl": "Kalendarium IPN opisuje kilkudniowe walki z apogeum 4 września, ale nie podaje daty rozpoczęcia, dlatego pokazano tylko 4–5 września. Borowej Góry nie ma w OpenStreetMap; znacznik umieszczono w Piotrkowie Trybunalskim."
+    }
+  },
+  {
+    "id": "czestochowa-massacre-1939",
+    "title": {
+      "en": "Wehrmacht killings in Częstochowa",
+      "pl": "Mord na ludności cywilnej Częstochowy"
+    },
+    "startDate": "1939-09-04",
+    "endDate": "1939-09-04",
+    "datePrecision": "day",
+    "location": {
+      "lat": 50.809,
+      "lng": 19.12441,
+      "name": {
+        "en": "Częstochowa",
+        "pl": "Częstochowa"
+      },
+      "precision": "town"
+    },
+    "type": "massacre",
+    "belligerents": [
+      "Germany"
+    ],
+    "summary": {
+      "en": "On 4 September 1939, a day after occupying Częstochowa, Wehrmacht soldiers murdered civilians in the city; a witness quoted by IPN described about 200 people being shot with machine guns on Strażacka Street. On the same day Wehrmacht soldiers also killed civilians in Sieradz.",
+      "pl": "4 września 1939 r., dzień po zajęciu Częstochowy, żołnierze Wehrmachtu dokonali mordu na ludności cywilnej miasta; świadek cytowany przez IPN opisał rozstrzelanie z broni maszynowej ok. 200 osób na ulicy Strażackiej. Tego samego dnia żołnierze Wehrmachtu mordowali cywilów także w Sieradzu."
+    },
+    "casualties": {
+      "en": "IPN states that the Wehrmacht murdered several hundred people in Częstochowa and Sieradz together.",
+      "pl": "Według IPN Wehrmacht zamordował w Częstochowie i Sieradzu łącznie kilkaset osób."
+    },
+    "sources": [
+      {
+        "title": "4 września 1939 (poniedziałek)",
+        "publisher": "Polskie miesiące (IPN)",
+        "url": "https://polskiemiesiace.ipn.gov.pl/mie/wszystkie-wydarzenia/wrzesien-1939/kalendarium/poczatek-ii-wojny-swiat/118424,4-wrzesnia-1939-poniedzialek.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      }
+    ],
+    "verified": true
+  },
+  {
+    "id": "serock-pow-shooting-1939",
+    "title": {
+      "en": "Shooting of prisoners at Serock",
+      "pl": "Strzelanina na punkcie zbornym jeńców w Serocku"
+    },
+    "startDate": "1939-09-04",
+    "endDate": "1939-09-05",
+    "datePrecision": "day",
+    "location": {
+      "lat": 52.51352,
+      "lng": 21.07312,
+      "name": {
+        "en": "Serock",
+        "pl": "Serock"
+      },
+      "precision": "town"
+    },
+    "type": "massacre",
+    "belligerents": [
+      "Germany"
+    ],
+    "summary": {
+      "en": "In the night of 4–5 September 1939, at a German assembly point for prisoners in Serock, guards opened fire on the prisoners lying on the ground after unrest broke out among them. Both prisoners of war and civilians were among the dead.",
+      "pl": "W nocy z 4 na 5 września 1939 r. na niemieckim punkcie zbornym jeńców w Serocku, po wybuchu niepokoju wśród leżących na ziemi więźniów, strażnicy otworzyli do nich ogień. Wśród zabitych byli zarówno jeńcy wojenni, jak i cywile."
+    },
+    "casualties": {
+      "en": "66 killed (IPN).",
+      "pl": "Zginęło 66 osób (IPN)."
+    },
+    "sources": [
+      {
+        "title": "5 września 1939 (wtorek)",
+        "publisher": "Polskie miesiące (IPN)",
+        "url": "https://polskiemiesiace.ipn.gov.pl/mie/wszystkie-wydarzenia/wrzesien-1939/kalendarium/poczatek-ii-wojny-swiat/118427,5-wrzesnia-1939-wtorek.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "The IPN entry is filed under 5 September and describes the night of 4–5 September; a German witness quoted there dates it to about 23:00 on 5 September.",
+      "pl": "Wpis IPN znajduje się pod datą 5 września i dotyczy nocy z 4 na 5 września; cytowany tam świadek niemiecki podaje godz. ok. 23.00 5 września."
+    }
+  },
+  {
+    "id": "sulejow-bombing-1939",
+    "title": {
+      "en": "Bombing of Sulejów",
+      "pl": "Bombardowanie Sulejowa"
+    },
+    "startDate": "1939-09-04",
+    "endDate": "1939-09-04",
+    "datePrecision": "day",
+    "location": {
+      "lat": 51.35492,
+      "lng": 19.88908,
+      "name": {
+        "en": "Sulejów",
+        "pl": "Sulejów"
+      },
+      "precision": "town"
+    },
+    "type": "bombing",
+    "belligerents": [
+      "Germany"
+    ],
+    "summary": {
+      "en": "On 4 September 1939 the Luftwaffe bombed Sulejów, a town where no Polish military units were stationed. About 70 per cent of the town was destroyed.",
+      "pl": "4 września 1939 r. Luftwaffe zbombardowała Sulejów, w którym nie stacjonowały polskie jednostki wojskowe. Miasto zostało zniszczone w ok. 70 proc."
+    },
+    "casualties": {
+      "en": "About 700 killed (IPN).",
+      "pl": "Zginęło ok. 700 osób (IPN)."
+    },
+    "sources": [
+      {
+        "title": "4 września 1939 (poniedziałek)",
+        "publisher": "Polskie miesiące (IPN)",
+        "url": "https://polskiemiesiace.ipn.gov.pl/mie/wszystkie-wydarzenia/wrzesien-1939/kalendarium/poczatek-ii-wojny-swiat/118424,4-wrzesnia-1939-poniedzialek.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      }
+    ],
+    "verified": true
+  },
+  {
+    "id": "bydgoszcz-executions-1939",
+    "title": {
+      "en": "Mass executions in Bydgoszcz",
+      "pl": "Masowe egzekucje w Bydgoszczy"
+    },
+    "startDate": "1939-09-05",
+    "endDate": "1939-09-05",
+    "datePrecision": "day",
+    "location": {
+      "lat": 53.12196,
+      "lng": 18.00027,
+      "name": {
+        "en": "Bydgoszcz (Bromberg)",
+        "pl": "Bydgoszcz (Bromberg)"
+      },
+      "precision": "town"
+    },
+    "type": "massacre",
+    "belligerents": [
+      "Germany"
+    ],
+    "summary": {
+      "en": "German troops entered Bydgoszcz on 5 September 1939 and began mass shootings of Poles in reprisal for the suppression of the diversion of 3 September. On the same day the German commander-in-chief Walther von Brauchitsch introduced 'special courts' and German criminal law in the occupied Polish territories.",
+      "pl": "5 września 1939 r. Niemcy wkroczyli do Bydgoszczy i rozpoczęli masowe rozstrzeliwania Polaków w odwecie za stłumienie dywersji z 3 września. Tego samego dnia głównodowodzący niemieckich sił zbrojnych Walther von Brauchitsch wprowadził na zajmowanych terenach polskich „sądy wyjątkowe” i niemieckie prawo karne."
+    },
+    "casualties": {
+      "en": "About 1,600 victims (IPN).",
+      "pl": "Ok. 1600 ofiar (IPN)."
+    },
+    "sources": [
+      {
+        "title": "5 września 1939 (wtorek)",
+        "publisher": "Polskie miesiące (IPN)",
+        "url": "https://polskiemiesiace.ipn.gov.pl/mie/wszystkie-wydarzenia/wrzesien-1939/kalendarium/poczatek-ii-wojny-swiat/118427,5-wrzesnia-1939-wtorek.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "The source dates the beginning of the executions; killings continued over the following period, which is not shown here.",
+      "pl": "Źródło datuje początek egzekucji; mordy trwały także w kolejnym okresie, który nie został tu ujęty."
+    }
+  },
+  {
+    "id": "krakow-occupied-1939",
+    "title": {
+      "en": "German troops enter Kraków",
+      "pl": "Wkroczenie Niemców do Krakowa"
+    },
+    "startDate": "1939-09-06",
+    "endDate": "1939-09-06",
+    "datePrecision": "day",
+    "location": {
+      "lat": 50.0615,
+      "lng": 19.93711,
+      "name": {
+        "en": "Kraków",
+        "pl": "Kraków"
+      },
+      "precision": "town"
+    },
+    "type": "other",
+    "belligerents": [
+      "Germany"
+    ],
+    "summary": {
+      "en": "On 6 September 1939 German troops occupied Kraków, as well as Kielce and Nowy Sącz, while Army 'Kraków' under Gen. Antoni Szylling carried out a successful planned withdrawal.",
+      "pl": "6 września 1939 r. Niemcy zajęli Kraków, a także Kielce i Nowy Sącz, podczas gdy Armia „Kraków” gen. Antoniego Szyllinga przeprowadzała pomyślny planowy odwrót."
+    },
+    "sources": [
+      {
+        "title": "6 września 1939 (środa)",
+        "publisher": "Polskie miesiące (IPN)",
+        "url": "https://polskiemiesiace.ipn.gov.pl/mie/wszystkie-wydarzenia/wrzesien-1939/kalendarium/poczatek-ii-wojny-swiat/118430,6-wrzesnia-1939-sroda.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      }
+    ],
+    "verified": true
+  },
+  {
+    "id": "tomaszow-mazowiecki-1939",
+    "title": {
+      "en": "Battle of Tomaszów Mazowiecki",
+      "pl": "Bój pod Tomaszowem Mazowieckim"
+    },
+    "startDate": "1939-09-06",
+    "endDate": "1939-09-06",
+    "datePrecision": "day",
+    "location": {
+      "lat": 51.51949,
+      "lng": 20.03375,
+      "name": {
+        "en": "Tomaszów Mazowiecki",
+        "pl": "Tomaszów Mazowiecki"
+      },
+      "precision": "town"
+    },
+    "type": "battle",
+    "belligerents": [
+      "Poland",
+      "Germany"
+    ],
+    "summary": {
+      "en": "On 6 September 1939 the 13th Kresy Infantry Division of Col. Władysław Zubosz-Kaliński, part of the reserve Army 'Prusy', stood in the way of the German XVI Panzer Corps near Tomaszów Mazowiecki. After a day of fighting the Germans broke through and took the town, opening the road to Warsaw from the south-west.",
+      "pl": "6 września 1939 r. 13. Kresowa Dywizja Piechoty płk. Władysława Zubosza-Kalińskiego z odwodowej Armii „Prusy” stanęła w okolicach Tomaszowa Mazowieckiego na drodze XVI Korpusu Pancernego. Po całodziennej walce Niemcom udało się przełamać polską obronę i zająć Tomaszów, co otworzyło im drogę na Warszawę od południowego zachodu."
+    },
+    "sources": [
+      {
+        "title": "6 września 1939 (środa)",
+        "publisher": "Polskie miesiące (IPN)",
+        "url": "https://polskiemiesiace.ipn.gov.pl/mie/wszystkie-wydarzenia/wrzesien-1939/kalendarium/poczatek-ii-wojny-swiat/118430,6-wrzesnia-1939-sroda.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      }
+    ],
+    "verified": true
+  },
+  {
+    "id": "wizna-1939",
+    "title": {
+      "en": "Defence of Wizna",
+      "pl": "Obrona Wizny"
+    },
+    "startDate": "1939-09-07",
+    "endDate": "1939-09-10",
+    "datePrecision": "day",
+    "location": {
+      "lat": 53.19438,
+      "lng": 22.38409,
+      "name": {
+        "en": "Wizna",
+        "pl": "Wizna"
+      },
+      "precision": "town"
+    },
+    "type": "battle",
+    "belligerents": [
+      "Poland",
+      "Germany"
+    ],
+    "summary": {
+      "en": "The 9-km fortified sector of Wizna on the Narew, held by a garrison of roughly 650–720 men under Capt. Władysław Raginis, was attacked by Gen. Heinz Guderian's XIX Corps. The first skirmishes began on the afternoon of 7 September and the main fighting took place on 9–10 September. The sector fell on 10 September and Raginis took his own life; the defence became known as the 'Polish Thermopylae'.",
+      "pl": "Liczący 9 km odcinek umocniony „Wizna” nad Narwią, broniony przez ok. 650–720 żołnierzy pod dowództwem kpt. Władysława Raginisa, został zaatakowany przez XIX Korpus gen. Heinza Guderiana. Pierwsze niewielkie walki rozpoczęły się po południu 7 września, a główne starcia toczyły się 9–10 września. 10 września odcinek upadł, a kpt. Raginis popełnił samobójstwo; obronę nazwano „polskimi Termopilami”."
+    },
+    "sources": [
+      {
+        "title": "Obrona Wizny",
+        "publisher": "Przystanek Historia (IPN)",
+        "url": "https://przystanekhistoria.pl/pa2/teksty/73517,Obrona-Wizny.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      },
+      {
+        "title": "10 września 1939 (niedziela)",
+        "publisher": "Polskie miesiące (IPN)",
+        "url": "https://polskiemiesiace.ipn.gov.pl/mie/wszystkie-wydarzenia/wrzesien-1939/kalendarium/poczatek-ii-wojny-swiat/118439,10-wrzesnia-1939-niedziela.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "Garrison size: about 720 soldiers according to most accounts cited by Przystanek Historia; Dr Tomasz Wesołowski gives fewer than 650.",
+      "pl": "Liczebność załogi: według większości ustaleń przytaczanych przez Przystanek Historia ok. 720 żołnierzy; dr Tomasz Wesołowski podaje niecałe 650."
+    }
+  },
+  {
+    "id": "ciepielow-1939",
+    "title": {
+      "en": "Ciepielów massacre of prisoners of war",
+      "pl": "Zbrodnia pod Ciepielowem"
+    },
+    "startDate": "1939-09-08",
+    "endDate": "1939-09-08",
+    "datePrecision": "day",
+    "location": {
+      "lat": 51.24823,
+      "lng": 21.57412,
+      "name": {
+        "en": "Ciepielów",
+        "pl": "Ciepielów"
+      },
+      "precision": "town"
+    },
+    "type": "massacre",
+    "belligerents": [
+      "Germany"
+    ],
+    "summary": {
+      "en": "After fighting around Ciepielów and Lipsko on 8 September 1939, soldiers of the German 29th Infantry Division murdered Polish soldiers taken prisoner, including by shooting a group of prisoners in a roadside ditch after an escape or escape attempt. IPN prosecutors in Lublin are investigating crimes committed there on 8 September and the following days.",
+      "pl": "Po walkach w rejonie Ciepielowa i Lipska 8 września 1939 r. żołnierze niemieckiej 29. Dywizji Piechoty zamordowali wziętych do niewoli żołnierzy polskich, m.in. rozstrzeliwując grupę jeńców w przydrożnym rowie po ucieczce lub próbie ucieczki. Prokuratorzy IPN w Lublinie prowadzą śledztwo w sprawie zbrodni popełnionych tam 8 września i w dniach następnych."
+    },
+    "casualties": {
+      "en": "The IPN investigation concerns the execution of at least 250 Polish prisoners of war.",
+      "pl": "Śledztwo IPN dotyczy egzekucji co najmniej 250 polskich jeńców wojennych."
+    },
+    "sources": [
+      {
+        "title": "8 września 1939 (piątek)",
+        "publisher": "Polskie miesiące (IPN)",
+        "url": "https://polskiemiesiace.ipn.gov.pl/mie/wszystkie-wydarzenia/wrzesien-1939/kalendarium/poczatek-ii-wojny-swiat/118435,8-wrzesnia-1939-piatek.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      },
+      {
+        "title": "OKŚZpNP w Lublinie poszukuje osób mających wiedzę dot. zbrodni popełnionych we wrześniu 1939 przez żołnierzy 29 Dywizji Wehrmachtu na terenie Lipska, Ciepielowa i okolic",
+        "publisher": "Instytut Pamięci Narodowej",
+        "url": "https://ipn.gov.pl/pl/sledztwa/poszukiwani-swiadkowie/24182,OKSZpNP-w-Lublinie-poszukuje-osob-majacych-wiedze-dot-zbrodni-popelnionych-we-wr.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "The IPN calendar mentions 'several dozen' prisoners; the IPN prosecutors' investigation (sygn. S 25/09/Zn) concerns at least 250. The course and scale of the events are still being established.",
+      "pl": "Kalendarium IPN mówi o „kilkudziesięciu” jeńcach; śledztwo prokuratorów IPN (sygn. S 25/09/Zn) dotyczy co najmniej 250. Przebieg i skala wydarzeń są nadal ustalane."
+    }
+  },
+  {
+    "id": "ilza-1939",
+    "title": {
+      "en": "Battle of Iłża",
+      "pl": "Bitwa pod Iłżą"
+    },
+    "startDate": "1939-09-08",
+    "endDate": "1939-09-09",
+    "datePrecision": "day",
+    "location": {
+      "lat": 51.16242,
+      "lng": 21.23732,
+      "name": {
+        "en": "Iłża",
+        "pl": "Iłża"
+      },
+      "precision": "town"
+    },
+    "type": "battle",
+    "belligerents": [
+      "Poland",
+      "Germany"
+    ],
+    "summary": {
+      "en": "In a two-day battle near Iłża three divisions of the reserve Army 'Prusy' tried to force a way through for their planned withdrawal to the Vistula. The operation ended with the Polish units broken up, though the Germans also suffered heavy losses, including armour.",
+      "pl": "W dwudniowej bitwie pod Iłżą trzy dywizje odwodowej Armii „Prusy” próbowały siłą otworzyć sobie drogę do planowego odwrotu za Wisłę. Operacja zakończyła się rozbiciem polskich jednostek, choć strona niemiecka również poniosła duże straty, m.in. w sprzęcie pancernym."
+    },
+    "sources": [
+      {
+        "title": "8 września 1939 (piątek)",
+        "publisher": "Polskie miesiące (IPN)",
+        "url": "https://polskiemiesiace.ipn.gov.pl/mie/wszystkie-wydarzenia/wrzesien-1939/kalendarium/poczatek-ii-wojny-swiat/118435,8-wrzesnia-1939-piatek.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      }
+    ],
+    "verified": true
+  },
+  {
+    "id": "janow-lubelski-bombing-1939",
+    "title": {
+      "en": "Bombing of Janów Lubelski",
+      "pl": "Bombardowanie Janowa Lubelskiego"
+    },
+    "startDate": "1939-09-08",
+    "endDate": "1939-09-08",
+    "datePrecision": "day",
+    "location": {
+      "lat": 50.70659,
+      "lng": 22.41107,
+      "name": {
+        "en": "Janów Lubelski",
+        "pl": "Janów Lubelski"
+      },
+      "precision": "town"
+    },
+    "type": "bombing",
+    "belligerents": [
+      "Germany"
+    ],
+    "summary": {
+      "en": "On 8 September 1939 the Luftwaffe bombed Janów Lubelski three times. An account by a local priest, quoted by IPN, describes the first bombs falling during a solemn High Mass in a crowded church, in a town with no soldiers, and the town burning after repeated raids.",
+      "pl": "8 września 1939 r. Luftwaffe trzykrotnie zbombardowała Janów Lubelski. Cytowana przez IPN relacja miejscowego księdza opisuje pierwsze bomby spadające w trakcie uroczystej sumy w przepełnionym kościele, w mieście bez żołnierzy, oraz miasto płonące po kolejnych nalotach."
+    },
+    "casualties": {
+      "en": "About 350 civilians killed (IPN).",
+      "pl": "Zginęło ok. 350 osób cywilnych (IPN)."
+    },
+    "sources": [
+      {
+        "title": "8 września 1939 (piątek)",
+        "publisher": "Polskie miesiące (IPN)",
+        "url": "https://polskiemiesiace.ipn.gov.pl/mie/wszystkie-wydarzenia/wrzesien-1939/kalendarium/poczatek-ii-wojny-swiat/118435,8-wrzesnia-1939-piatek.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      }
+    ],
+    "verified": true
+  },
+  {
+    "id": "siege-of-warsaw-1939",
+    "title": {
+      "en": "Siege of Warsaw",
+      "pl": "Obrona Warszawy"
+    },
+    "startDate": "1939-09-08",
+    "endDate": "1939-09-28",
+    "datePrecision": "day",
+    "location": {
+      "lat": 52.23281,
+      "lng": 21.01907,
+      "name": {
+        "en": "Warsaw",
+        "pl": "Warszawa"
+      },
+      "precision": "town"
+    },
+    "type": "siege",
+    "belligerents": [
+      "Poland",
+      "Germany"
+    ],
+    "summary": {
+      "en": "A first German armoured attack on Warsaw on 8 September 1939 broke down against Polish anti-tank defences, and by 13–15 September the city was encircled. It was defended by Army 'Warszawa' under Gen. Juliusz Rómmel, with Gen. Walerian Czuma commanding the defence of the city in close cooperation with Mayor Stefan Starzyński. After heavy fighting and a massive air raid on 25 September that caused severe civilian losses, Gen. Tadeusz Kutrzeba and Gen. Johannes Blaskowitz signed the capitulation on 28 September at the former Skoda aero-engine factory in Rakowiec.",
+      "pl": "Pierwszy niemiecki atak pancerny na Warszawę 8 września 1939 r. załamał się na polskiej obronie przeciwpancernej, a w dniach 13–15 września miasto zostało okrążone. Bronili go żołnierze Armii „Warszawa” gen. Juliusza Rómmla; obroną miasta dowodził gen. Walerian Czuma, ściśle współpracujący z prezydentem Stefanem Starzyńskim. Po ciężkich walkach i nalocie dywanowym 25 września, który spowodował wysokie straty wśród ludności cywilnej, 28 września gen. Tadeusz Kutrzeba i gen. Johannes Blaskowitz podpisali akt kapitulacji w dawnej Fabryce Silników Lotniczych Skody na Rakowcu."
+    },
+    "sources": [
+      {
+        "title": "Kapitulacja Warszawy we wrześniu 1939 roku",
+        "publisher": "Przystanek Historia (IPN)",
+        "url": "https://przystanekhistoria.pl/pa2/tematy/wrzesien-1939/103515,Kapitulacja-Warszawy-we-wrzesniu-1939-roku.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      },
+      {
+        "title": "8 września 1939 (piątek)",
+        "publisher": "Polskie miesiące (IPN)",
+        "url": "https://polskiemiesiace.ipn.gov.pl/mie/wszystkie-wydarzenia/wrzesien-1939/kalendarium/poczatek-ii-wojny-swiat/118435,8-wrzesnia-1939-piatek.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      },
+      {
+        "title": "15 września 1939 (piątek)",
+        "publisher": "Polskie miesiące (IPN)",
+        "url": "https://polskiemiesiace.ipn.gov.pl/mie/wszystkie-wydarzenia/wrzesien-1939/kalendarium/poczatek-ii-wojny-swiat/118456,15-wrzesnia-1939-piatek.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      },
+      {
+        "title": "28 września 1939 (czwartek)",
+        "publisher": "Polskie miesiące (IPN)",
+        "url": "https://polskiemiesiace.ipn.gov.pl/mie/wszystkie-wydarzenia/wrzesien-1939/kalendarium/poczatek-ii-wojny-swiat/118486,28-wrzesnia-1939-czwartek.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "The start date is the first German ground attack on the city; air raids on Warsaw began on 1 September.",
+      "pl": "Data początkowa to pierwszy niemiecki atak lądowy na miasto; naloty na Warszawę trwały od 1 września."
+    }
+  },
+  {
+    "id": "bzura-1939",
+    "title": {
+      "en": "Battle of the Bzura",
+      "pl": "Bitwa nad Bzurą"
+    },
+    "startDate": "1939-09-09",
+    "endDate": "1939-09-20",
+    "datePrecision": "day",
+    "location": {
+      "lat": 52.22221,
+      "lng": 19.38746,
+      "name": {
+        "en": "Bzura river, Kutno area",
+        "pl": "Nad Bzurą, rejon Kutna"
+      },
+      "precision": "region"
+    },
+    "type": "battle",
+    "belligerents": [
+      "Poland",
+      "Germany"
+    ],
+    "summary": {
+      "en": "On 9 September 1939 Army 'Poznań' under Gen. Tadeusz Kutrzeba, together with Army 'Pomorze' under Gen. Władysław Bortnowski, struck the flank of the German 8th Army from the Łęczyca area, beginning the largest battle of the September Campaign. After early gains, including the capture of Łęczyca, Piątek and Ozorków, the Polish forces were checked by German reinforcements, encircled from 16 September and broken up; only about 30,000 men reached Warsaw and Modlin. Though a defeat, the battle disrupted the German advance and eased pressure on besieged Warsaw.",
+      "pl": "9 września 1939 r. Armia „Poznań” gen. Tadeusza Kutrzeby wraz z Armią „Pomorze” gen. Władysława Bortnowskiego uderzyła z rejonu Łęczycy na skrzydło niemieckiej 8. Armii, rozpoczynając największą bitwę kampanii wrześniowej. Po początkowych sukcesach, m.in. zdobyciu Łęczycy, Piątku i Ozorkowa, polskie natarcie zostało zatrzymane przez niemieckie posiłki; od 16 września oddziały polskie były okrążane i rozbijane, a do Warszawy i Modlina przebiło się tylko ok. 30 tys. żołnierzy. Choć zakończona klęską, bitwa zdezorganizowała niemieckie natarcie i odciążyła oblężoną Warszawę."
+    },
+    "sources": [
+      {
+        "title": "Bitwa nad Bzurą – największa bitwa kampanii 1939 r.",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/aktualnosci/bitwa-nad-bzura-najwieksza-bitwa-kampanii-1939-r",
+        "tier": 2,
+        "accessed": "2026-11-18"
+      },
+      {
+        "title": "Kapitulacja Warszawy we wrześniu 1939 roku",
+        "publisher": "Przystanek Historia (IPN)",
+        "url": "https://przystanekhistoria.pl/pa2/tematy/wrzesien-1939/103515,Kapitulacja-Warszawy-we-wrzesniu-1939-roku.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      },
+      {
+        "title": "9 września 1939 (sobota)",
+        "publisher": "Polskie miesiące (IPN)",
+        "url": "https://polskiemiesiace.ipn.gov.pl/mie/wszystkie-wydarzenia/wrzesien-1939/kalendarium/poczatek-ii-wojny-swiat/118438,9-wrzesnia-1939-sobota.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      },
+      {
+        "title": "10 września 1939 (niedziela)",
+        "publisher": "Polskie miesiące (IPN)",
+        "url": "https://polskiemiesiace.ipn.gov.pl/mie/wszystkie-wydarzenia/wrzesien-1939/kalendarium/poczatek-ii-wojny-swiat/118439,10-wrzesnia-1939-niedziela.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "dzieje.pl dates the battle 9–20 September; it also records that surviving units and Gen. Bortnowski were taken prisoner between 18 and 22 September, and other accounts end the battle on 22 September. The IPN source confirms the 9 September start and the battle's effect on the defence of Warsaw. The marker is a representative point (Kutno; the battle is also called the Battle of Kutno).",
+      "pl": "Dzieje.pl datuje bitwę na 9–20 września; podaje też, że ocalali żołnierze i gen. Bortnowski dostali się do niewoli w dniach 18–22 września, a inne opracowania kończą bitwę 22 września. Źródło IPN potwierdza datę rozpoczęcia 9 września oraz znaczenie bitwy dla obrony Warszawy. Znacznik umieszczono w punkcie reprezentatywnym (Kutno; bitwa nazywana jest też bitwą pod Kutnem)."
+    }
+  },
+  {
+    "id": "mogilno-1939",
+    "title": {
+      "en": "Wehrmacht reprisal killings in Mogilno",
+      "pl": "Mord na mieszkańcach Mogilna"
+    },
+    "startDate": "1939-09-11",
+    "endDate": "1939-09-11",
+    "datePrecision": "day",
+    "location": {
+      "lat": 52.65734,
+      "lng": 17.95007,
+      "name": {
+        "en": "Mogilno",
+        "pl": "Mogilno"
+      },
+      "precision": "town"
+    },
+    "type": "massacre",
+    "belligerents": [
+      "Germany"
+    ],
+    "summary": {
+      "en": "In reprisal for the town's determined defence, the Wehrmacht murdered more than 100 Polish inhabitants of Mogilno in north-eastern Greater Poland.",
+      "pl": "W odwecie za zaciętą obronę miasta Wehrmacht zamordował ponad 100 polskich mieszkańców Mogilna w północno-wschodniej Wielkopolsce."
+    },
+    "casualties": {
+      "en": "More than 100 killed (IPN).",
+      "pl": "Ponad 100 zamordowanych (IPN)."
+    },
+    "sources": [
+      {
+        "title": "11 września 1939 (poniedziałek)",
+        "publisher": "Polskie miesiące (IPN)",
+        "url": "https://polskiemiesiace.ipn.gov.pl/mie/wszystkie-wydarzenia/wrzesien-1939/kalendarium/poczatek-ii-wojny-swiat/118450,11-wrzesnia-1939-poniedzialek.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      }
+    ],
+    "verified": true
+  },
+  {
+    "id": "defence-of-lwow-1939",
+    "title": {
+      "en": "Defence of Lwów",
+      "pl": "Obrona Lwowa"
+    },
+    "startDate": "1939-09-12",
+    "endDate": "1939-09-22",
+    "datePrecision": "day",
+    "location": {
+      "lat": 49.84191,
+      "lng": 24.03114,
+      "name": {
+        "en": "Lwów (Lviv)",
+        "pl": "Lwów"
+      },
+      "precision": "town"
+    },
+    "type": "siege",
+    "belligerents": [
+      "Poland",
+      "Germany",
+      "Soviet Union"
+    ],
+    "summary": {
+      "en": "A German attempt to seize Lwów from the march was repulsed after heavy fighting on 12 September 1939, and the city was besieged; from 18 September Soviet forces joined the troops around it. On 22 September Lwów capitulated to the Red Army, which guaranteed Polish officers personal freedom and the option to leave the country. These terms were not kept: most of the officer defenders ended up in the Starobelsk camp and were later murdered in Kharkiv.",
+      "pl": "12 września 1939 r. po ciężkich walkach na przedpolach odparto niemiecką próbę zajęcia Lwowa z marszu i miasto znalazło się w oblężeniu; od 18 września do wojsk wokół niego dołączyły oddziały sowieckie. 22 września Lwów skapitulował przed Armią Czerwoną, która zagwarantowała oficerom WP „osobistą swobodę” i możliwość wyjazdu za granicę. Warunków nie dotrzymano: większość oficerów, obrońców Lwowa, trafiła do obozu w Starobielsku, a następnie została zamordowana w Charkowie."
+    },
+    "sources": [
+      {
+        "title": "12 września 1939 (wtorek)",
+        "publisher": "Polskie miesiące (IPN)",
+        "url": "https://polskiemiesiace.ipn.gov.pl/mie/wszystkie-wydarzenia/wrzesien-1939/kalendarium/poczatek-ii-wojny-swiat/118451,12-wrzesnia-1939-wtorek.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      },
+      {
+        "title": "18 września 1939 (poniedziałek)",
+        "publisher": "Polskie miesiące (IPN)",
+        "url": "https://polskiemiesiace.ipn.gov.pl/mie/wszystkie-wydarzenia/wrzesien-1939/kalendarium/poczatek-ii-wojny-swiat/118462,18-wrzesnia-1939-poniedzialek.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      },
+      {
+        "title": "22 września 1939 (piątek)",
+        "publisher": "Polskie miesiące (IPN)",
+        "url": "https://polskiemiesiace.ipn.gov.pl/mie/wszystkie-wydarzenia/wrzesien-1939/kalendarium/poczatek-ii-wojny-swiat/118471,22-wrzesnia-1939-piatek.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      }
+    ],
+    "verified": true
+  },
+  {
+    "id": "kaluszyn-1939",
+    "title": {
+      "en": "Battle of Kałuszyn",
+      "pl": "Bitwa pod Kałuszynem"
+    },
+    "startDate": "1939-09-12",
+    "endDate": "1939-09-12",
+    "datePrecision": "day",
+    "location": {
+      "lat": 52.20878,
+      "lng": 21.81188,
+      "name": {
+        "en": "Kałuszyn",
+        "pl": "Kałuszyn"
+      },
+      "precision": "town"
+    },
+    "type": "battle",
+    "belligerents": [
+      "Poland",
+      "Germany"
+    ],
+    "summary": {
+      "en": "The 1st Legions Infantry Division, withdrawing south-east as part of the Northern Front, retook Kałuszyn from the Germans after a day of fighting on 12 September 1939.",
+      "pl": "Doborowa 1. Dywizja Piechoty Legionów, wycofująca się na południowy wschód w składzie Frontu Północnego, po całodziennej walce 12 września 1939 r. odbiła Kałuszyn z rąk niemieckich."
+    },
+    "sources": [
+      {
+        "title": "12 września 1939 (wtorek)",
+        "publisher": "Polskie miesiące (IPN)",
+        "url": "https://polskiemiesiace.ipn.gov.pl/mie/wszystkie-wydarzenia/wrzesien-1939/kalendarium/poczatek-ii-wojny-swiat/118451,12-wrzesnia-1939-wtorek.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      }
+    ],
+    "verified": true
+  },
+  {
+    "id": "konskie-1939",
+    "title": {
+      "en": "Killing of Jews in Końskie",
+      "pl": "Zabójstwo Żydów w Końskich"
+    },
+    "startDate": "1939-09-12",
+    "endDate": "1939-09-12",
+    "datePrecision": "day",
+    "location": {
+      "lat": 51.19102,
+      "lng": 20.40718,
+      "name": {
+        "en": "Końskie",
+        "pl": "Końskie"
+      },
+      "precision": "town"
+    },
+    "type": "massacre",
+    "belligerents": [
+      "Germany"
+    ],
+    "summary": {
+      "en": "In Końskie German soldiers killed 22 Jews and seriously wounded 8 others, who had first been forced to dig graves for fallen Wehrmacht soldiers.",
+      "pl": "W Końskich żołnierze niemieccy zabili 22 i ciężko ranili 8 Żydów, zmuszonych wcześniej do kopania grobów dla poległych żołnierzy Wehrmachtu."
+    },
+    "casualties": {
+      "en": "22 killed, 8 seriously wounded (IPN).",
+      "pl": "22 zabitych, 8 ciężko rannych (IPN)."
+    },
+    "sources": [
+      {
+        "title": "12 września 1939 (wtorek)",
+        "publisher": "Polskie miesiące (IPN)",
+        "url": "https://polskiemiesiace.ipn.gov.pl/mie/wszystkie-wydarzenia/wrzesien-1939/kalendarium/poczatek-ii-wojny-swiat/118451,12-wrzesnia-1939-wtorek.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      }
+    ],
+    "verified": true
+  },
+  {
+    "id": "szczucin-1939",
+    "title": {
+      "en": "Killings of prisoners of war and Jews in Szczucin",
+      "pl": "Mordy na jeńcach i Żydach w Szczucinie"
+    },
+    "startDate": "1939-09-12",
+    "endDate": "1939-09-13",
+    "datePrecision": "day",
+    "location": {
+      "lat": 50.30903,
+      "lng": 21.07516,
+      "name": {
+        "en": "Szczucin",
+        "pl": "Szczucin"
+      },
+      "precision": "town"
+    },
+    "type": "massacre",
+    "belligerents": [
+      "Germany"
+    ],
+    "summary": {
+      "en": "On 12 September 1939 Wehrmacht soldiers murdered Polish prisoners of war held at an assembly point in a school in Szczucin, allegedly in reprisal for a revolt by one of them. The next day they shot 25 Jews who had been forced to bury the bodies of the murdered prisoners.",
+      "pl": "12 września 1939 r. żołnierze Wehrmachtu zamordowali polskich jeńców wojennych przetrzymywanych na punkcie zbornym w szkole w Szczucinie, rzekomo w odwecie za bunt jednego z nich. Następnego dnia zastrzelili 25 Żydów zmuszonych do pochowania ciał zamordowanych jeńców."
+    },
+    "casualties": {
+      "en": "25 Jews shot on 13 September; the number of murdered prisoners is not given in the source (IPN).",
+      "pl": "25 Żydów zastrzelonych 13 września; liczby zamordowanych jeńców źródło nie podaje (IPN)."
+    },
+    "sources": [
+      {
+        "title": "12 września 1939 (wtorek)",
+        "publisher": "Polskie miesiące (IPN)",
+        "url": "https://polskiemiesiace.ipn.gov.pl/mie/wszystkie-wydarzenia/wrzesien-1939/kalendarium/poczatek-ii-wojny-swiat/118451,12-wrzesnia-1939-wtorek.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      },
+      {
+        "title": "13 września 1939 (środa)",
+        "publisher": "Polskie miesiące (IPN)",
+        "url": "https://polskiemiesiace.ipn.gov.pl/mie/wszystkie-wydarzenia/wrzesien-1939/kalendarium/poczatek-ii-wojny-swiat/118453,13-wrzesnia-1939-sroda.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      }
+    ],
+    "verified": true
+  },
+  {
+    "id": "frampol-bombing-1939",
+    "title": {
+      "en": "Bombing of Frampol",
+      "pl": "Zbombardowanie Frampola"
+    },
+    "startDate": "1939-09-13",
+    "endDate": "1939-09-13",
+    "datePrecision": "day",
+    "location": {
+      "lat": 50.67183,
+      "lng": 22.66987,
+      "name": {
+        "en": "Frampol",
+        "pl": "Frampol"
+      },
+      "precision": "town"
+    },
+    "type": "bombing",
+    "belligerents": [
+      "Germany"
+    ],
+    "summary": {
+      "en": "On 13 September 1939 the Luftwaffe bombed the small Roztocze town of Frampol, testing new incendiary bombs and the proficiency of its crews; the resulting fire destroyed the town almost completely.",
+      "pl": "13 września 1939 r. Luftwaffe zbombardowała niewielkie miasteczko Frampol na Roztoczu, testując skuteczność nowych bomb zapalających i sprawność załóg; wywołany pożar niemal całkowicie zniszczył miasteczko."
+    },
+    "sources": [
+      {
+        "title": "13 września 1939 (środa)",
+        "publisher": "Polskie miesiące (IPN)",
+        "url": "https://polskiemiesiace.ipn.gov.pl/mie/wszystkie-wydarzenia/wrzesien-1939/kalendarium/poczatek-ii-wojny-swiat/118453,13-wrzesnia-1939-sroda.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      }
+    ],
+    "verified": true
+  },
+  {
+    "id": "modlin-1939",
+    "title": {
+      "en": "Defence of Modlin Fortress",
+      "pl": "Obrona twierdzy Modlin"
+    },
+    "startDate": "1939-09-13",
+    "endDate": "1939-09-29",
+    "datePrecision": "day",
+    "location": {
+      "lat": 52.43786,
+      "lng": 20.67693,
+      "name": {
+        "en": "Modlin Fortress",
+        "pl": "Twierdza Modlin"
+      },
+      "precision": "exact"
+    },
+    "type": "siege",
+    "belligerents": [
+      "Poland",
+      "Germany"
+    ],
+    "summary": {
+      "en": "On 13 September 1939 the remnants of Army 'Łódź' under Gen. Wiktor Thommée broke through to the Modlin fortress, and Thommée took command of the fortified area and the troops there. Modlin held out until 29 September, the day after Warsaw's capitulation; under the agreed terms officers were to be released to their homes, and some of them later joined the underground.",
+      "pl": "13 września 1939 r. resztki Armii „Łódź” pod dowództwem gen. Wiktora Thommée przedarły się do twierdzy Modlin, a gen. Thommée stanął na czele Obozu Warownego „Modlin” i znajdujących się w nim wojsk. Modlin bronił się do 29 września, dzień po kapitulacji Warszawy; zgodnie z uzgodnionymi warunkami oficerowie mieli zostać zwolnieni do domów, a część z nich przeszła następnie do konspiracji."
+    },
+    "sources": [
+      {
+        "title": "13 września 1939 (środa)",
+        "publisher": "Polskie miesiące (IPN)",
+        "url": "https://polskiemiesiace.ipn.gov.pl/mie/wszystkie-wydarzenia/wrzesien-1939/kalendarium/poczatek-ii-wojny-swiat/118453,13-wrzesnia-1939-sroda.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      },
+      {
+        "title": "28 września 1939 (czwartek)",
+        "publisher": "Polskie miesiące (IPN)",
+        "url": "https://polskiemiesiace.ipn.gov.pl/mie/wszystkie-wydarzenia/wrzesien-1939/kalendarium/poczatek-ii-wojny-swiat/118486,28-wrzesnia-1939-czwartek.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      },
+      {
+        "title": "29 września 1939 (piątek)",
+        "publisher": "Polskie miesiące (IPN)",
+        "url": "https://polskiemiesiace.ipn.gov.pl/mie/wszystkie-wydarzenia/wrzesien-1939/kalendarium/poczatek-ii-wojny-swiat/118489,29-wrzesnia-1939-piatek.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "The start date is when Gen. Thommée took command of the fortress; fighting in the Modlin area had begun earlier.",
+      "pl": "Data początkowa to objęcie dowództwa twierdzy przez gen. Thommée; walki w rejonie Modlina toczyły się już wcześniej."
+    }
+  },
+  {
+    "id": "zambrow-pow-shooting-1939",
+    "title": {
+      "en": "Shooting of prisoners in Zambrów",
+      "pl": "Strzelanina w punkcie zbornym jeńców w Zambrowie"
+    },
+    "startDate": "1939-09-13",
+    "endDate": "1939-09-14",
+    "datePrecision": "day",
+    "location": {
+      "lat": 52.98552,
+      "lng": 22.24117,
+      "name": {
+        "en": "Zambrów",
+        "pl": "Zambrów"
+      },
+      "precision": "town"
+    },
+    "type": "massacre",
+    "belligerents": [
+      "Germany"
+    ],
+    "summary": {
+      "en": "In the night of 13–14 September 1939 chaotic shooting broke out on the barracks square in Zambrów, where the Germans had set up an assembly point for prisoners of war. A doctor was allowed to help the wounded only in the morning.",
+      "pl": "W nocy z 13 na 14 września 1939 r. na placu koszarowym w Zambrowie, gdzie Niemcy urządzili punkt zborny jeńców, doszło do chaotycznej strzelaniny. Na udzielenie pomocy rannym przez lekarza zgodzono się dopiero rano."
+    },
+    "casualties": {
+      "en": "Probably about 200 Polish soldiers killed and 100 wounded (IPN).",
+      "pl": "Zginęło przypuszczalnie ok. 200 żołnierzy polskich, a 100 zostało rannych (IPN)."
+    },
+    "sources": [
+      {
+        "title": "13 września 1939 (środa)",
+        "publisher": "Polskie miesiące (IPN)",
+        "url": "https://polskiemiesiace.ipn.gov.pl/mie/wszystkie-wydarzenia/wrzesien-1939/kalendarium/poczatek-ii-wojny-swiat/118453,13-wrzesnia-1939-sroda.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      }
+    ],
+    "verified": true
+  },
+  {
+    "id": "bilgoraj-bombing-1939",
+    "title": {
+      "en": "Bombing of Biłgoraj",
+      "pl": "Bombardowanie Biłgoraja"
+    },
+    "startDate": "1939-09-14",
+    "endDate": "1939-09-14",
+    "datePrecision": "day",
+    "location": {
+      "lat": 50.54248,
+      "lng": 22.72093,
+      "name": {
+        "en": "Biłgoraj",
+        "pl": "Biłgoraj"
+      },
+      "precision": "town"
+    },
+    "type": "bombing",
+    "belligerents": [
+      "Germany"
+    ],
+    "summary": {
+      "en": "On 14 September 1939 German aircraft bombed Biłgoraj, killing about 100 people and wounding many.",
+      "pl": "14 września 1939 r. lotnictwo niemieckie zbombardowało Biłgoraj; zginęło ok. 100 osób, a wiele zostało rannych."
+    },
+    "casualties": {
+      "en": "About 100 killed, many wounded (IPN).",
+      "pl": "Ok. 100 zabitych, wielu rannych (IPN)."
+    },
+    "sources": [
+      {
+        "title": "14 września 1939 (czwartek)",
+        "publisher": "Polskie miesiące (IPN)",
+        "url": "https://polskiemiesiace.ipn.gov.pl/mie/wszystkie-wydarzenia/wrzesien-1939/kalendarium/poczatek-ii-wojny-swiat/118454,14-wrzesnia-1939-czwartek.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      }
+    ],
+    "verified": true
+  },
+  {
+    "id": "brzesc-fortress-1939",
+    "title": {
+      "en": "Defence of the Brześć fortress",
+      "pl": "Obrona twierdzy brzeskiej"
+    },
+    "startDate": "1939-09-14",
+    "endDate": "1939-09-17",
+    "datePrecision": "day",
+    "location": {
+      "lat": 52.08715,
+      "lng": 23.65472,
+      "name": {
+        "en": "Brześć nad Bugiem (Brest), Belarus",
+        "pl": "Brześć nad Bugiem"
+      },
+      "precision": "exact"
+    },
+    "type": "siege",
+    "belligerents": [
+      "Poland",
+      "Germany"
+    ],
+    "summary": {
+      "en": "Gen. Heinz Guderian's XIX Corps reached Brześć nad Bugiem on 14 September 1939, beginning three days of fighting for the old fortress, defended under Gen. Konstanty Plisowski. On 17 September the Germans took the fortress after the Polish garrison had slipped out of the encirclement to join Gen. Franciszek Kleeberg's Operational Group 'Polesie'.",
+      "pl": "14 września 1939 r. niemiecki XIX Korpus gen. Heinza Guderiana dotarł do Brześcia nad Bugiem, rozpoczynając trzydniowe walki o dawną twierdzę, której obroną dowodził gen. Konstanty Plisowski. 17 września Niemcy zajęli twierdzę po tym, jak polska załoga wymknęła się z okrążenia i połączyła z Grupą Operacyjną „Polesie” gen. Franciszka Kleeberga."
+    },
+    "sources": [
+      {
+        "title": "14 września 1939 (czwartek)",
+        "publisher": "Polskie miesiące (IPN)",
+        "url": "https://polskiemiesiace.ipn.gov.pl/mie/wszystkie-wydarzenia/wrzesien-1939/kalendarium/poczatek-ii-wojny-swiat/118454,14-wrzesnia-1939-czwartek.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      },
+      {
+        "title": "17 września 1939 (niedziela)",
+        "publisher": "Polskie miesiące (IPN)",
+        "url": "https://polskiemiesiace.ipn.gov.pl/mie/wszystkie-wydarzenia/wrzesien-1939/kalendarium/poczatek-ii-wojny-swiat/118460,17-wrzesnia-1939-niedziela.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      }
+    ],
+    "verified": true
+  },
+  {
+    "id": "jaworow-1939",
+    "title": {
+      "en": "Battle of Jaworów",
+      "pl": "Bój pod Jaworowem"
+    },
+    "startDate": "1939-09-15",
+    "endDate": "1939-09-15",
+    "datePrecision": "day",
+    "location": {
+      "lat": 49.9456,
+      "lng": 23.38863,
+      "name": {
+        "en": "Jaworów (Yavoriv), near Lwów",
+        "pl": "Jaworów koło Lwowa"
+      },
+      "precision": "town"
+    },
+    "type": "battle",
+    "belligerents": [
+      "Poland",
+      "Germany"
+    ],
+    "summary": {
+      "en": "On 15 September 1939 the 11th Infantry Division under Col. Bronisław Prugar-Ketling defeated a detachment of the SS regiment 'Germania' near Jaworów, west of Lwów.",
+      "pl": "15 września 1939 r. 11. Dywizja Piechoty płk. Bronisława Prugara-Ketlinga rozbiła pod Jaworowem, na zachód od Lwowa, oddział wydzielony z pułku SS „Germania”."
+    },
+    "sources": [
+      {
+        "title": "15 września 1939 (piątek)",
+        "publisher": "Polskie miesiące (IPN)",
+        "url": "https://polskiemiesiace.ipn.gov.pl/mie/wszystkie-wydarzenia/wrzesien-1939/kalendarium/poczatek-ii-wojny-swiat/118456,15-wrzesnia-1939-piatek.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      }
+    ],
+    "verified": true
+  },
+  {
+    "id": "antoniew-zdziarow-1939",
+    "title": {
+      "en": "Battery action at Antoniew-Żdżarów",
+      "pl": "Walka baterii pod Antoniewem-Żdżarowem"
+    },
+    "startDate": "1939-09-16",
+    "endDate": "1939-09-16",
+    "datePrecision": "day",
+    "location": {
+      "lat": 52.24928,
+      "lng": 20.18084,
+      "name": {
+        "en": "Antoniew, near Sochaczew",
+        "pl": "Antoniew koło Sochaczewa"
+      },
+      "precision": "town"
+    },
+    "type": "battle",
+    "belligerents": [
+      "Poland",
+      "Germany"
+    ],
+    "summary": {
+      "en": "During the Battle of the Bzura, a battery of the 17th Light Artillery Regiment with four 100 mm guns stopped a German attack by the 4th Panzer Division, including the SS regiment Leibstandarte 'Adolf Hitler', at Antoniew-Żdżarów near Sochaczew, destroying or damaging 22 tanks and armoured cars.",
+      "pl": "W trakcie bitwy nad Bzurą bateria 17. Pułku Artylerii Lekkiej (cztery działa 100 mm) zatrzymała pod Antoniewem-Żdżarowem koło Sochaczewa natarcie niemieckiej 4. Dywizji Pancernej, w tym pułku SS Leibstandarte „Adolf Hitler”, niszcząc i uszkadzając 22 czołgi i samochody pancerne."
+    },
+    "sources": [
+      {
+        "title": "16 września 1939 (sobota)",
+        "publisher": "Polskie miesiące (IPN)",
+        "url": "https://polskiemiesiace.ipn.gov.pl/mie/wszystkie-wydarzenia/wrzesien-1939/kalendarium/poczatek-ii-wojny-swiat/118459,16-wrzesnia-1939-sobota.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      }
+    ],
+    "verified": true
+  },
+  {
+    "id": "sarny-fortified-area-1939",
+    "title": {
+      "en": "Defence of the Sarny Fortified Area",
+      "pl": "Obrona Rejonu Umocnionego „Sarny”"
+    },
+    "startDate": "1939-09-17",
+    "endDate": "1939-09-20",
+    "datePrecision": "day",
+    "location": {
+      "lat": 51.335,
+      "lng": 26.61713,
+      "name": {
+        "en": "Sarny, Volhynia",
+        "pl": "Sarny, Wołyń"
+      },
+      "precision": "town"
+    },
+    "type": "battle",
+    "belligerents": [
+      "Poland",
+      "Soviet Union"
+    ],
+    "summary": {
+      "en": "From the first day of the Soviet invasion, the Border Protection Corps (KOP) regiment 'Sarny' fought Soviet forces in the Sarny Fortified Area. After four days of fierce fighting it left the area on 20 September and joined the group of Gen. Wilhelm Orlik-Rückemann.",
+      "pl": "Od pierwszego dnia agresji sowieckiej pułk KOP „Sarny” walczył z wojskami sowieckimi w Rejonie Umocnionym „Sarny”. Po czterodniowych zażartych walkach 20 września opuścił rejon i dołączył do zgrupowania gen. Wilhelma Orlika-Rückemanna."
+    },
+    "sources": [
+      {
+        "title": "17 września 1939 (niedziela)",
+        "publisher": "Polskie miesiące (IPN)",
+        "url": "https://polskiemiesiace.ipn.gov.pl/mie/wszystkie-wydarzenia/wrzesien-1939/kalendarium/poczatek-ii-wojny-swiat/118460,17-wrzesnia-1939-niedziela.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      },
+      {
+        "title": "20 września 1939 (środa)",
+        "publisher": "Polskie miesiące (IPN)",
+        "url": "https://polskiemiesiace.ipn.gov.pl/mie/wszystkie-wydarzenia/wrzesien-1939/kalendarium/poczatek-ii-wojny-swiat/118466,20-wrzesnia-1939-sroda.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      }
+    ],
+    "verified": true
+  },
+  {
+    "id": "soviet-invasion-1939",
+    "title": {
+      "en": "Soviet invasion of Poland",
+      "pl": "Agresja sowiecka na Polskę"
+    },
+    "startDate": "1939-09-17",
+    "endDate": "1939-09-17",
+    "datePrecision": "day",
+    "location": {
+      "lat": 51.335,
+      "lng": 26.61713,
+      "name": {
+        "en": "Eastern border of Poland (marker at Sarny)",
+        "pl": "Wschodnia granica II RP (znacznik: Sarny)"
+      },
+      "precision": "region"
+    },
+    "type": "battle",
+    "belligerents": [
+      "Soviet Union",
+      "Poland"
+    ],
+    "summary": {
+      "en": "In consequence of the Molotov–Ribbentrop Pact, the Red Army crossed Poland's eastern border on 17 September 1939, a few hours after a note justifying the attack was read to the Polish ambassador Wacław Grzybowski in Moscow; he refused to accept it. Over 600,000 Soviet troops took part, with about 4,700 tanks and 3,300 combat aircraft. Although the Commander-in-Chief ordered his troops to avoid fighting the Red Army unless attacked, Border Protection Corps (KOP) units and other forces resisted in many places, including Wilno, Grodno and Szack. The invasion began almost two years of Soviet occupation of eastern Poland.",
+      "pl": "W konsekwencji paktu Ribbentrop–Mołotow 17 września 1939 r. Armia Czerwona przekroczyła wschodnią granicę Polski – kilka godzin po tym, jak w Moskwie odczytano ambasadorowi Wacławowi Grzybowskiemu notę uzasadniającą atak, której przyjęcia odmówił. W agresji wzięło udział ponad 600 tys. żołnierzy sowieckich, ok. 4700 czołgów i 3300 samolotów bojowych. Choć Naczelny Wódz nakazał unikać walk z Armią Czerwoną, chyba że w razie ataku, oddziały Korpusu Ochrony Pogranicza i inne jednostki stawiały opór w wielu miejscach, m.in. w Wilnie, Grodnie i pod Szackiem. Agresja zapoczątkowała prawie dwuletnią sowiecką okupację wschodnich ziem Rzeczypospolitej."
+    },
+    "sources": [
+      {
+        "title": "Sowiecka agresja na Polskę 17 września 1939 r.",
+        "publisher": "Przystanek Historia (IPN)",
+        "url": "https://przystanekhistoria.pl/pa2/tematy/wrzesien-1939/66870,Sowiecka-agresja-na-Polske-17-wrzesnia-1939-r.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      },
+      {
+        "title": "17 września 1939 (niedziela)",
+        "publisher": "Polskie miesiące (IPN)",
+        "url": "https://polskiemiesiace.ipn.gov.pl/mie/wszystkie-wydarzenia/wrzesien-1939/kalendarium/poczatek-ii-wojny-swiat/118460,17-wrzesnia-1939-niedziela.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "The invasion took place along the whole eastern border. The marker is placed at Sarny, one of the places of resistance named by the source, purely as a representative location. Individual battles (Sarny, Wilno, Grodno, Kodziowce, Szack, Wytyczno and others) are separate events.",
+      "pl": "Agresja objęła całą wschodnią granicę. Znacznik umieszczono w Sarnach – jednym z miejsc oporu wymienionych w źródle – wyłącznie jako lokalizację reprezentatywną. Poszczególne walki (Sarny, Wilno, Grodno, Kodziowce, Szack, Wytyczno i inne) są osobnymi wydarzeniami."
+    }
+  },
+  {
+    "id": "tomaszow-lubelski-i-1939",
+    "title": {
+      "en": "First Battle of Tomaszów Lubelski",
+      "pl": "I bitwa pod Tomaszowem Lubelskim"
+    },
+    "startDate": "1939-09-17",
+    "endDate": "1939-09-20",
+    "datePrecision": "day",
+    "location": {
+      "lat": 50.44792,
+      "lng": 23.4292,
+      "name": {
+        "en": "Tomaszów Lubelski",
+        "pl": "Tomaszów Lubelski"
+      },
+      "precision": "town"
+    },
+    "type": "battle",
+    "belligerents": [
+      "Poland",
+      "Germany"
+    ],
+    "summary": {
+      "en": "From 17 September 1939 the Army Group of Gen. Tadeusz Piskor – the combined armies 'Lublin' and 'Kraków' – fought near Tomaszów Lubelski to break through towards Lwów and the Romanian border, in what IPN calls the largest battle of the campaign after the Bzura. Defeated, Piskor capitulated on 20 September.",
+      "pl": "Od 17 września 1939 r. Grupa Armii gen. Tadeusza Piskora – połączone armie „Lublin” i „Kraków” – walczyła pod Tomaszowem Lubelskim, próbując przebić się w kierunku Lwowa i granicy rumuńskiej; IPN określa ją jako największą bitwę kampanii po bitwie nad Bzurą. Po klęsce gen. Piskor skapitulował 20 września."
+    },
+    "sources": [
+      {
+        "title": "17 września 1939 (niedziela)",
+        "publisher": "Polskie miesiące (IPN)",
+        "url": "https://polskiemiesiace.ipn.gov.pl/mie/wszystkie-wydarzenia/wrzesien-1939/kalendarium/poczatek-ii-wojny-swiat/118460,17-wrzesnia-1939-niedziela.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      },
+      {
+        "title": "20 września 1939 (środa)",
+        "publisher": "Polskie miesiące (IPN)",
+        "url": "https://polskiemiesiace.ipn.gov.pl/mie/wszystkie-wydarzenia/wrzesien-1939/kalendarium/poczatek-ii-wojny-swiat/118466,20-wrzesnia-1939-sroda.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      }
+    ],
+    "verified": true
+  },
+  {
+    "id": "sladow-1939",
+    "title": {
+      "en": "Śladów massacre",
+      "pl": "Zbrodnia w Śladowie"
+    },
+    "startDate": "1939-09-18",
+    "endDate": "1939-09-18",
+    "datePrecision": "day",
+    "location": {
+      "lat": 52.37816,
+      "lng": 20.3026,
+      "name": {
+        "en": "Śladów, near Sochaczew",
+        "pl": "Śladów koło Sochaczewa"
+      },
+      "precision": "town"
+    },
+    "type": "massacre",
+    "belligerents": [
+      "Germany"
+    ],
+    "summary": {
+      "en": "On 18 September 1939, at the end of the Battle of the Bzura, Wehrmacht soldiers murdered prisoners of war and civilians at Śladów near Sochaczew.",
+      "pl": "18 września 1939 r., w końcowej fazie bitwy nad Bzurą, żołnierze Wehrmachtu dokonali w Śladowie koło Sochaczewa zbrodni na jeńcach wojennych i cywilach."
+    },
+    "casualties": {
+      "en": "The number of victims is difficult to establish (IPN).",
+      "pl": "Liczba ofiar jest trudna do ustalenia (IPN)."
+    },
+    "sources": [
+      {
+        "title": "18 września 1939 (poniedziałek)",
+        "publisher": "Polskie miesiące (IPN)",
+        "url": "https://polskiemiesiace.ipn.gov.pl/mie/wszystkie-wydarzenia/wrzesien-1939/kalendarium/poczatek-ii-wojny-swiat/118462,18-wrzesnia-1939-poniedzialek.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "The phrase 'at the end of the Battle of the Bzura' is context drawn from the Bzura entry (battle dated 9–20 September); the IPN calendar records only the crime itself.",
+      "pl": "Sformułowanie „w końcowej fazie bitwy nad Bzurą” to kontekst z wpisu o bitwie (datowanej na 9–20 września); kalendarium IPN odnotowuje jedynie samą zbrodnię."
+    }
+  },
+  {
+    "id": "wilno-1939",
+    "title": {
+      "en": "Defence of Wilno",
+      "pl": "Obrona Wilna"
+    },
+    "startDate": "1939-09-18",
+    "endDate": "1939-09-19",
+    "datePrecision": "day",
+    "location": {
+      "lat": 54.68705,
+      "lng": 25.28291,
+      "name": {
+        "en": "Wilno (Vilnius), Lithuania",
+        "pl": "Wilno"
+      },
+      "precision": "town"
+    },
+    "type": "battle",
+    "belligerents": [
+      "Poland",
+      "Soviet Union"
+    ],
+    "summary": {
+      "en": "On 18 September 1939 an improvised Polish garrison and the city's inhabitants began defending Wilno against the advancing Red Army; the same day the Soviets took Lida and Nowogródek. The defence lasted until 19 September and became one of the symbols of resistance to the Soviet invasion.",
+      "pl": "18 września 1939 r. improwizowana polska załoga i mieszkańcy rozpoczęli obronę Wilna przed nacierającą Armią Czerwoną; tego samego dnia Sowieci zajęli Lidę i Nowogródek. Obrona trwała do 19 września i stała się jednym z symboli oporu wobec agresji sowieckiej."
+    },
+    "sources": [
+      {
+        "title": "18 września 1939 (poniedziałek)",
+        "publisher": "Polskie miesiące (IPN)",
+        "url": "https://polskiemiesiace.ipn.gov.pl/mie/wszystkie-wydarzenia/wrzesien-1939/kalendarium/poczatek-ii-wojny-swiat/118462,18-wrzesnia-1939-poniedzialek.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      },
+      {
+        "title": "Sowiecka agresja na Polskę 17 września 1939 r.",
+        "publisher": "Przystanek Historia (IPN)",
+        "url": "https://przystanekhistoria.pl/pa2/tematy/wrzesien-1939/66870,Sowiecka-agresja-na-Polske-17-wrzesnia-1939-r.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      }
+    ],
+    "verified": true
+  },
+  {
+    "id": "grodno-1939",
+    "title": {
+      "en": "Defence of Grodno",
+      "pl": "Obrona Grodna"
+    },
+    "startDate": "1939-09-20",
+    "endDate": "1939-09-21",
+    "datePrecision": "day",
+    "location": {
+      "lat": 53.68346,
+      "lng": 23.83426,
+      "name": {
+        "en": "Grodno, Belarus",
+        "pl": "Grodno"
+      },
+      "precision": "town"
+    },
+    "type": "battle",
+    "belligerents": [
+      "Poland",
+      "Soviet Union"
+    ],
+    "summary": {
+      "en": "From 20 September 1939 Grodno was defended against the Red Army by Polish soldiers and civilians, including scouts. After two days of dramatic fighting, in which IPN states the Soviets lost several dozen tanks and several hundred soldiers, the defence ended on 21 September. In revenge, mass killings of Polish civilians and prisoners of war followed.",
+      "pl": "Od 20 września 1939 r. Grodna bronili przed Armią Czerwoną żołnierze polscy i cywile, w tym harcerze. Po dramatycznych dwudniowych walkach, w których według IPN Sowieci stracili kilkadziesiąt czołgów i kilkuset żołnierzy, obrona zakończyła się 21 września. W zemście doszło do zbiorowych mordów na ludności polskiej i jeńcach wojennych."
+    },
+    "sources": [
+      {
+        "title": "20 września 1939 (środa)",
+        "publisher": "Polskie miesiące (IPN)",
+        "url": "https://polskiemiesiace.ipn.gov.pl/mie/wszystkie-wydarzenia/wrzesien-1939/kalendarium/poczatek-ii-wojny-swiat/118466,20-wrzesnia-1939-sroda.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      },
+      {
+        "title": "21 września 1939 (czwartek)",
+        "publisher": "Polskie miesiące (IPN)",
+        "url": "https://polskiemiesiace.ipn.gov.pl/mie/wszystkie-wydarzenia/wrzesien-1939/kalendarium/poczatek-ii-wojny-swiat/118468,21-wrzesnia-1939-czwartek.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      },
+      {
+        "title": "Sowiecka agresja na Polskę 17 września 1939 r.",
+        "publisher": "Przystanek Historia (IPN)",
+        "url": "https://przystanekhistoria.pl/pa2/tematy/wrzesien-1939/66870,Sowiecka-agresja-na-Polske-17-wrzesnia-1939-r.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      },
+      {
+        "title": "Filip Musiał: Katyń – pamiętamy",
+        "publisher": "Instytut Pamięci Narodowej",
+        "url": "https://archiwum.ipn.gov.pl/pl/zbrodnia-katynska/142135,Filip-Musial-Katyn-pamietamy.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "The IPN Katyń article lists the mass killings in Grodno among the symbols of Soviet terror in September 1939; the number of victims is not given in these sources.",
+      "pl": "Artykuł IPN o zbrodni katyńskiej wymienia mordy w Grodnie wśród symboli sowieckiego terroru we wrześniu 1939 r.; liczby ofiar te źródła nie podają."
+    }
+  },
+  {
+    "id": "tomaszow-lubelski-ii-1939",
+    "title": {
+      "en": "Second Battle of Tomaszów Lubelski",
+      "pl": "II bitwa pod Tomaszowem Lubelskim"
+    },
+    "startDate": "1939-09-20",
+    "endDate": "1939-09-23",
+    "datePrecision": "day",
+    "location": {
+      "lat": 50.44792,
+      "lng": 23.4292,
+      "name": {
+        "en": "Tomaszów Lubelski",
+        "pl": "Tomaszów Lubelski"
+      },
+      "precision": "town"
+    },
+    "type": "battle",
+    "belligerents": [
+      "Poland",
+      "Germany"
+    ],
+    "summary": {
+      "en": "From 20 September 1939 the Northern Front of Gen. Stefan Dąb-Biernacki also tried to break through near Tomaszów Lubelski towards Lwów and the Romanian border. Despite tactical successes – including the 25th Greater Poland Uhlan Regiment's capture of about 100 prisoners at Krasnobród on 22 September – only some cavalry units broke through, and the Northern Front capitulated on 23 September.",
+      "pl": "Od 20 września 1939 r. pod Tomaszowem Lubelskim próbowały przebić się w kierunku Lwowa i granicy rumuńskiej także wojska Frontu Północnego gen. Stefana Dąb-Biernackiego. Mimo sukcesów taktycznych – m.in. wzięcia ok. 100 jeńców przez 25. Pułk Ułanów Wielkopolskich pod Krasnobrodem 22 września – przedarły się jedynie niektóre oddziały kawalerii, a 23 września wojska Frontu Północnego skapitulowały."
+    },
+    "sources": [
+      {
+        "title": "20 września 1939 (środa)",
+        "publisher": "Polskie miesiące (IPN)",
+        "url": "https://polskiemiesiace.ipn.gov.pl/mie/wszystkie-wydarzenia/wrzesien-1939/kalendarium/poczatek-ii-wojny-swiat/118466,20-wrzesnia-1939-sroda.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      },
+      {
+        "title": "22 września 1939 (piątek)",
+        "publisher": "Polskie miesiące (IPN)",
+        "url": "https://polskiemiesiace.ipn.gov.pl/mie/wszystkie-wydarzenia/wrzesien-1939/kalendarium/poczatek-ii-wojny-swiat/118471,22-wrzesnia-1939-piatek.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      },
+      {
+        "title": "23 września 1939 (sobota)",
+        "publisher": "Polskie miesiące (IPN)",
+        "url": "https://polskiemiesiace.ipn.gov.pl/mie/wszystkie-wydarzenia/wrzesien-1939/kalendarium/poczatek-ii-wojny-swiat/118474,23-wrzesnia-1939-sobota.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      }
+    ],
+    "verified": true
+  },
+  {
+    "id": "wola-korybutowa-1939",
+    "title": {
+      "en": "Killing of wounded soldiers at Wola Korybutowa",
+      "pl": "Dobicie rannych żołnierzy pod Wolą Korybutową"
+    },
+    "startDate": "1939-09-20",
+    "endDate": "1939-09-20",
+    "datePrecision": "day",
+    "location": {
+      "lat": 51.22929,
+      "lng": 23.083,
+      "name": {
+        "en": "Wola Korybutowa, near Chełm",
+        "pl": "Wola Korybutowa koło Chełma"
+      },
+      "precision": "town"
+    },
+    "type": "massacre",
+    "belligerents": [
+      "Germany"
+    ],
+    "summary": {
+      "en": "After an inconclusive skirmish between Polish and German units at Wola Korybutowa on 20 September 1939, Wehrmacht soldiers killed some of the wounded Polish soldiers lying on the battlefield.",
+      "pl": "Po nierozstrzygniętej potyczce oddziałów polskich i niemieckich pod Wolą Korybutową 20 września 1939 r. żołnierze Wehrmachtu dobili część rannych żołnierzy polskich pozostających na polu walki."
+    },
+    "sources": [
+      {
+        "title": "20 września 1939 (środa)",
+        "publisher": "Polskie miesiące (IPN)",
+        "url": "https://polskiemiesiace.ipn.gov.pl/mie/wszystkie-wydarzenia/wrzesien-1939/kalendarium/poczatek-ii-wojny-swiat/118466,20-wrzesnia-1939-sroda.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      }
+    ],
+    "verified": true
+  },
+  {
+    "id": "kodziowce-1939",
+    "title": {
+      "en": "Battle of Kodziowce",
+      "pl": "Bitwa pod Kodziowcami"
+    },
+    "startDate": "1939-09-21",
+    "endDate": "1939-09-22",
+    "datePrecision": "day",
+    "location": {
+      "lat": 53.82663,
+      "lng": 23.75503,
+      "name": {
+        "en": "Kodziowce, Augustów Forest (now Belarus)",
+        "pl": "Kodziowce, Puszcza Augustowska"
+      },
+      "precision": "town"
+    },
+    "type": "battle",
+    "belligerents": [
+      "Poland",
+      "Soviet Union"
+    ],
+    "summary": {
+      "en": "In the night of 21–22 September 1939 the 101st Reserve Uhlan Regiment, withdrawing from Grodno, fought a Soviet armoured unit near Kodziowce in the Augustów Forest; IPN states that the regiment destroyed about 20 Soviet tanks.",
+      "pl": "W nocy z 21 na 22 września 1939 r. wycofujący się spod Grodna 101. rezerwowy pułk ułanów stoczył pod Kodziowcami w Puszczy Augustowskiej bój z sowieckim oddziałem pancernym; według IPN pułk zniszczył ok. 20 czołgów sowieckich."
+    },
+    "sources": [
+      {
+        "title": "22 września 1939 (piątek)",
+        "publisher": "Polskie miesiące (IPN)",
+        "url": "https://polskiemiesiace.ipn.gov.pl/mie/wszystkie-wydarzenia/wrzesien-1939/kalendarium/poczatek-ii-wojny-swiat/118471,22-wrzesnia-1939-piatek.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      },
+      {
+        "title": "Sowiecka agresja na Polskę 17 września 1939 r.",
+        "publisher": "Przystanek Historia (IPN)",
+        "url": "https://przystanekhistoria.pl/pa2/tematy/wrzesien-1939/66870,Sowiecka-agresja-na-Polske-17-wrzesnia-1939-r.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      }
+    ],
+    "verified": true
+  },
+  {
+    "id": "brzesc-parade-1939",
+    "title": {
+      "en": "German–Soviet parade in Brześć",
+      "pl": "Defilada niemiecko-sowiecka w Brześciu"
+    },
+    "startDate": "1939-09-22",
+    "endDate": "1939-09-22",
+    "datePrecision": "day",
+    "location": {
+      "lat": 52.09375,
+      "lng": 23.68519,
+      "name": {
+        "en": "Brześć nad Bugiem (Brest), Belarus",
+        "pl": "Brześć nad Bugiem"
+      },
+      "precision": "town"
+    },
+    "type": "other",
+    "belligerents": [
+      "Germany",
+      "Soviet Union"
+    ],
+    "summary": {
+      "en": "On 22 September 1939 German and Soviet troops held a joint parade in Brześć nad Bugiem before Gen. Heinz Guderian and Kombrig Semyon Krivoshein, and the city and fortress were handed over to the Soviets.",
+      "pl": "22 września 1939 r. w Brześciu nad Bugiem odbyła się defilada niemiecko-sowiecka przed gen. Heinzem Guderianem i kombrigiem Siemionem Kriwoszeinem; miasto i twierdzę przekazano Sowietom."
+    },
+    "sources": [
+      {
+        "title": "22 września 1939 (piątek)",
+        "publisher": "Polskie miesiące (IPN)",
+        "url": "https://polskiemiesiace.ipn.gov.pl/mie/wszystkie-wydarzenia/wrzesien-1939/kalendarium/poczatek-ii-wojny-swiat/118471,22-wrzesnia-1939-piatek.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      }
+    ],
+    "verified": true
+  },
+  {
+    "id": "olszyna-wilczynski-murder-1939",
+    "title": {
+      "en": "Murder of Gen. Józef Olszyna-Wilczyński",
+      "pl": "Zamordowanie gen. Józefa Olszyny-Wilczyńskiego"
+    },
+    "startDate": "1939-09-22",
+    "endDate": "1939-09-22",
+    "datePrecision": "day",
+    "location": {
+      "lat": 53.83123,
+      "lng": 23.65596,
+      "name": {
+        "en": "Sopoćkinie, near Grodno (now Belarus)",
+        "pl": "Sopoćkinie koło Grodna"
+      },
+      "precision": "town"
+    },
+    "type": "massacre",
+    "belligerents": [
+      "Soviet Union"
+    ],
+    "summary": {
+      "en": "On 22 September 1939, near Sopoćkinie on the edge of the Augustów Forest, Soviet soldiers murdered Gen. Józef Olszyna-Wilczyński, commander of Operational Group 'Grodno'.",
+      "pl": "22 września 1939 r. pod Sopoćkiniami, na skraju Puszczy Augustowskiej, żołnierze sowieccy zamordowali gen. Józefa Olszynę-Wilczyńskiego, dowódcę Grupy Operacyjnej „Grodno”."
+    },
+    "sources": [
+      {
+        "title": "22 września 1939 (piątek)",
+        "publisher": "Polskie miesiące (IPN)",
+        "url": "https://polskiemiesiace.ipn.gov.pl/mie/wszystkie-wydarzenia/wrzesien-1939/kalendarium/poczatek-ii-wojny-swiat/118471,22-wrzesnia-1939-piatek.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      }
+    ],
+    "verified": true
+  },
+  {
+    "id": "warsaw-bombing-25-sep-1939",
+    "title": {
+      "en": "Air raid on Warsaw of 25 September 1939",
+      "pl": "Nalot na Warszawę 25 września 1939"
+    },
+    "startDate": "1939-09-25",
+    "endDate": "1939-09-25",
+    "datePrecision": "day",
+    "location": {
+      "lat": 52.23281,
+      "lng": 21.01907,
+      "name": {
+        "en": "Warsaw",
+        "pl": "Warszawa"
+      },
+      "precision": "town"
+    },
+    "type": "bombing",
+    "belligerents": [
+      "Germany"
+    ],
+    "summary": {
+      "en": "On 25 September 1939 the Germans subjected besieged Warsaw to a massive air and artillery bombardment, observed by Adolf Hitler, which caused heavy losses among the civilian population. The next day the Germans assaulted the city, and the decision to capitulate followed.",
+      "pl": "25 września 1939 r. Niemcy poddali oblężoną Warszawę zmasowanemu bombardowaniu lotniczemu i artyleryjskiemu, które obserwował Adolf Hitler; nalot dywanowy spowodował wysokie straty wśród ludności cywilnej. Następnego dnia Niemcy przystąpili do szturmu, po czym zapadła decyzja o kapitulacji miasta."
+    },
+    "sources": [
+      {
+        "title": "25 września 1939 (poniedziałek)",
+        "publisher": "Polskie miesiące (IPN)",
+        "url": "https://polskiemiesiace.ipn.gov.pl/mie/wszystkie-wydarzenia/wrzesien-1939/kalendarium/poczatek-ii-wojny-swiat/118480,25-wrzesnia-1939-poniedzialek.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      },
+      {
+        "title": "26 września 1939 (wtorek)",
+        "publisher": "Polskie miesiące (IPN)",
+        "url": "https://polskiemiesiace.ipn.gov.pl/mie/wszystkie-wydarzenia/wrzesien-1939/kalendarium/poczatek-ii-wojny-swiat/118481,26-wrzesnia-1939-wtorek.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      },
+      {
+        "title": "Kapitulacja Warszawy we wrześniu 1939 roku",
+        "publisher": "Przystanek Historia (IPN)",
+        "url": "https://przystanekhistoria.pl/pa2/tematy/wrzesien-1939/103515,Kapitulacja-Warszawy-we-wrzesniu-1939-roku.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      }
+    ],
+    "verified": true
+  },
+  {
+    "id": "szp-founded-1939",
+    "title": {
+      "en": "Founding of Service for Poland's Victory (SZP)",
+      "pl": "Utworzenie Służby Zwycięstwu Polski (SZP)"
+    },
+    "startDate": "1939-09-27",
+    "endDate": "1939-09-27",
+    "datePrecision": "day",
+    "location": {
+      "lat": 52.23281,
+      "lng": 21.01907,
+      "name": {
+        "en": "Warsaw",
+        "pl": "Warszawa"
+      },
+      "precision": "town"
+    },
+    "type": "other",
+    "belligerents": [
+      "Poland"
+    ],
+    "summary": {
+      "en": "On 27 September 1939, as fighting in Warsaw ended, the underground military organisation Service for Poland's Victory (SZP) was created in the city under Gen. Michał Karaszewicz-Tokarzewski; it was later transformed into the Union of Armed Struggle (ZWZ) and the Home Army (AK). The day before, Maj. Edmund Galinat had flown in from Romania with the Commander-in-Chief's order to form an underground organisation.",
+      "pl": "27 września 1939 r., wraz z zakończeniem walk w Warszawie, utworzono w mieście wojskową organizację konspiracyjną Służba Zwycięstwu Polski (SZP), przekształconą następnie w Związek Walki Zbrojnej i Armię Krajową; na jej czele stanął gen. Michał Karaszewicz-Tokarzewski. Dzień wcześniej z Rumunii przyleciał do Warszawy mjr Edmund Galinat z rozkazem Naczelnego Wodza utworzenia organizacji konspiracyjnej."
+    },
+    "sources": [
+      {
+        "title": "26 września 1939 (wtorek)",
+        "publisher": "Polskie miesiące (IPN)",
+        "url": "https://polskiemiesiace.ipn.gov.pl/mie/wszystkie-wydarzenia/wrzesien-1939/kalendarium/poczatek-ii-wojny-swiat/118481,26-wrzesnia-1939-wtorek.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      },
+      {
+        "title": "27 września 1939 (środa)",
+        "publisher": "Polskie miesiące (IPN)",
+        "url": "https://polskiemiesiace.ipn.gov.pl/mie/wszystkie-wydarzenia/wrzesien-1939/kalendarium/poczatek-ii-wojny-swiat/118484,27-wrzesnia-1939-sroda.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      }
+    ],
+    "verified": true
+  },
+  {
+    "id": "szack-1939",
+    "title": {
+      "en": "Battle of Szack",
+      "pl": "Bitwa pod Szackiem"
+    },
+    "startDate": "1939-09-28",
+    "endDate": "1939-09-29",
+    "datePrecision": "day",
+    "location": {
+      "lat": 51.49095,
+      "lng": 23.92193,
+      "name": {
+        "en": "Szack (Shatsk), Volhynia",
+        "pl": "Szack, Wołyń"
+      },
+      "precision": "town"
+    },
+    "type": "battle",
+    "belligerents": [
+      "Poland",
+      "Soviet Union"
+    ],
+    "summary": {
+      "en": "On 28–29 September 1939 Border Protection Corps (KOP) units under Gen. Wilhelm Orlik-Rückemann fought a successful two-day battle against Soviet troops near Szack, inflicting considerable losses, before withdrawing towards the Bug to try to join Gen. Kleeberg's Operational Group 'Polesie'.",
+      "pl": "28–29 września 1939 r. oddziały Korpusu Ochrony Pogranicza pod dowództwem gen. Wilhelma Orlika-Rückemanna stoczyły pod Szackiem zwycięską dwudniową bitwę z wojskami sowieckimi, zadając im spore straty, po czym wycofały się w kierunku Bugu, by dołączyć do Grupy Operacyjnej „Polesie” gen. Kleeberga."
+    },
+    "sources": [
+      {
+        "title": "28 września 1939 (czwartek)",
+        "publisher": "Polskie miesiące (IPN)",
+        "url": "https://polskiemiesiace.ipn.gov.pl/mie/wszystkie-wydarzenia/wrzesien-1939/kalendarium/poczatek-ii-wojny-swiat/118486,28-wrzesnia-1939-czwartek.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      },
+      {
+        "title": "Sowiecka agresja na Polskę 17 września 1939 r.",
+        "publisher": "Przystanek Historia (IPN)",
+        "url": "https://przystanekhistoria.pl/pa2/tematy/wrzesien-1939/66870,Sowiecka-agresja-na-Polske-17-wrzesnia-1939-r.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      }
+    ],
+    "verified": true
+  },
+  {
+    "id": "jablon-milanow-1939",
+    "title": {
+      "en": "Battles of Jabłoń and Milanów",
+      "pl": "Walki pod Jabłonią i Milanowem"
+    },
+    "startDate": "1939-09-30",
+    "endDate": "1939-09-30",
+    "datePrecision": "day",
+    "location": {
+      "lat": 51.72595,
+      "lng": 23.08062,
+      "name": {
+        "en": "Jabłoń, near Parczew",
+        "pl": "Jabłoń koło Parczewa"
+      },
+      "precision": "town"
+    },
+    "type": "battle",
+    "belligerents": [
+      "Poland",
+      "Soviet Union"
+    ],
+    "summary": {
+      "en": "On 30 September 1939 Gen. Franciszek Kleeberg's Independent Operational Group 'Polesie' fought successful engagements against Soviet troops near Jabłoń and Milanów.",
+      "pl": "30 września 1939 r. Samodzielna Grupa Operacyjna „Polesie” gen. Franciszka Kleeberga stoczyła zwycięskie walki z wojskami sowieckimi pod Jabłonią i Milanowem."
+    },
+    "sources": [
+      {
+        "title": "30 września 1939 (sobota)",
+        "publisher": "Polskie miesiące (IPN)",
+        "url": "https://polskiemiesiace.ipn.gov.pl/mie/wszystkie-wydarzenia/wrzesien-1939/kalendarium/poczatek-ii-wojny-swiat/118492,30-wrzesnia-1939-sobota.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "The marker is at Jabłoń; Milanów lies nearby.",
+      "pl": "Znacznik wskazuje Jabłoń; Milanów leży w pobliżu."
+    }
+  },
+  {
+    "id": "fordon-valley-of-death-1939",
+    "title": {
+      "en": "Fordon 'Valley of Death' executions",
+      "pl": "Egzekucje w fordońskiej „Dolinie Śmierci”"
+    },
+    "startDate": "1939-10-01",
+    "endDate": "1939-10-31",
+    "datePrecision": "month",
+    "location": {
+      "lat": 53.14716,
+      "lng": 18.17402,
+      "name": {
+        "en": "Fordon, Bydgoszcz",
+        "pl": "Fordon, Bydgoszcz"
+      },
+      "precision": "town"
+    },
+    "type": "massacre",
+    "belligerents": [
+      "Germany"
+    ],
+    "summary": {
+      "en": "In October 1939 the Germans shot Polish inhabitants of Bydgoszcz and the surrounding area in a valley near Fordon that became known as the 'Valley of Death'. Among those murdered there were Bydgoszcz teachers, the Olympic medal-winning rower Edmund Jankowski and the politician Tytus Jemielewski.",
+      "pl": "W październiku 1939 r. Niemcy rozstrzeliwali polskich mieszkańców Bydgoszczy i okolic w dolinie pod Fordonem, nazwanej „Doliną Śmierci”. Zginęli tam m.in. bydgoscy nauczyciele, wioślarz i medalista olimpijski Edmund Jankowski oraz polityk Tytus Jemielewski."
+    },
+    "sources": [
+      {
+        "title": "Zbrodnia Pomorska – sprawa ciągle otwarta",
+        "publisher": "Instytut Pamięci Narodowej",
+        "url": "https://ipn.gov.pl/pl/historia-z-ipn/248382,Zbrodnia-Pomorska-sprawa-ciagle-otwarta.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      },
+      {
+        "title": "Zbrodnia Pomorska 1939 roku",
+        "publisher": "Przystanek Historia (IPN)",
+        "url": "https://przystanekhistoria.pl/pa2/teksty/73457,Zbrodnia-pomorska-1939-roku.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "Dated to October 1939 by the sources' photo captions and text; the exact days of the executions are not given.",
+      "pl": "Datowane na październik 1939 r. według tekstu i podpisów zdjęć w źródłach; dokładne dni egzekucji nie są podane."
+    }
+  },
+  {
+    "id": "hubal-unit-1939",
+    "title": {
+      "en": "Maj. 'Hubal's Separate Unit of the Polish Army",
+      "pl": "Oddział Wydzielony Wojska Polskiego mjr. „Hubala”"
+    },
+    "startDate": "1939-10-01",
+    "endDate": "1940-04-30",
+    "datePrecision": "approximate",
+    "location": {
+      "lat": 51.19102,
+      "lng": 20.40718,
+      "name": {
+        "en": "Kielce region (marker at Końskie)",
+        "pl": "Kielecczyzna (znacznik: Końskie)"
+      },
+      "precision": "region"
+    },
+    "type": "resistance_operation",
+    "belligerents": [
+      "Poland",
+      "Germany"
+    ],
+    "summary": {
+      "en": "In early October 1939 Maj. Henryk Dobrzański, 'Hubal', who had refused to lay down arms, reached the Bodzentyn area with 36 soldiers and decided to hold out in the Świętokrzyskie Mountains until an expected Allied offensive in spring 1940. His Separate Unit of the Polish Army kept a regular military structure, moved constantly between friendly villages and fought mainly in self-defence. In March 1940 the ZWZ ordered it to demobilise, and most officers left; Hubal and the rest fought on until his death on 30 April 1940.",
+      "pl": "Na początku października 1939 r. mjr Henryk Dobrzański „Hubal”, który nie złożył broni, dotarł z 36 żołnierzami w rejon Bodzentyna i postanowił przetrwać w Górach Świętokrzyskich do spodziewanej wiosną 1940 r. ofensywy aliantów. Oddział Wydzielony Wojska Polskiego zachował strukturę regularnego wojska, stale przemieszczał się między sprzyjającymi wsiami i prowadził głównie działania samoobronne. W marcu 1940 r. ZWZ nakazał demobilizację i większość oficerów odeszła; „Hubal” z pozostałymi walczył aż do swojej śmierci 30 kwietnia 1940 r."
+    },
+    "sources": [
+      {
+        "title": "„Hubal” – legendarny dowódca na Kielecczyźnie",
+        "publisher": "Instytut Pamięci Narodowej",
+        "url": "https://ipn.gov.pl/pl/historia-z-ipn/96558,Hubal-legendarny-dowodca-na-Kielecczyznie.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "The start date is approximate ('early October 1939', when the unit reached Bodzentyn). The marker is representative of the unit's area of operations.",
+      "pl": "Data początkowa przybliżona („początek października 1939 r.”, gdy oddział dotarł w rejon Bodzentyna). Znacznik jest reprezentatywny dla obszaru działania oddziału."
+    }
+  },
+  {
+    "id": "wytyczno-1939",
+    "title": {
+      "en": "Battle of Wytyczno",
+      "pl": "Bitwa pod Wytycznem"
+    },
+    "startDate": "1939-10-01",
+    "endDate": "1939-10-01",
+    "datePrecision": "day",
+    "location": {
+      "lat": 51.42877,
+      "lng": 23.25963,
+      "name": {
+        "en": "Wytyczno, near Włodawa",
+        "pl": "Wytyczno koło Włodawy"
+      },
+      "precision": "town"
+    },
+    "type": "battle",
+    "belligerents": [
+      "Poland",
+      "Soviet Union"
+    ],
+    "summary": {
+      "en": "After defeat in a battle with Soviet troops at Wytyczno near Włodawa on 1 October 1939, Gen. Wilhelm Orlik-Rückemann disbanded the remnants of his Border Protection Corps units and left for Lithuania.",
+      "pl": "Po porażce w bitwie z wojskami sowieckimi pod Wytycznem koło Włodawy 1 października 1939 r. gen. Wilhelm Orlik-Rückemann rozwiązał resztki swoich oddziałów KOP i udał się na Litwę."
+    },
+    "sources": [
+      {
+        "title": "1 października 1939 (niedziela)",
+        "publisher": "Polskie miesiące (IPN)",
+        "url": "https://polskiemiesiace.ipn.gov.pl/mie/wszystkie-wydarzenia/wrzesien-1939/kalendarium/poczatek-ii-wojny-swiat/118493,1-pazdziernika-1939-niedziela.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      }
+    ],
+    "verified": true
+  },
+  {
+    "id": "kock-1939",
+    "title": {
+      "en": "Battle of Kock",
+      "pl": "Bitwa pod Kockiem"
+    },
+    "startDate": "1939-10-02",
+    "endDate": "1939-10-05",
+    "datePrecision": "day",
+    "location": {
+      "lat": 51.63839,
+      "lng": 22.44782,
+      "name": {
+        "en": "Kock",
+        "pl": "Kock"
+      },
+      "precision": "town"
+    },
+    "type": "battle",
+    "belligerents": [
+      "Poland",
+      "Germany"
+    ],
+    "summary": {
+      "en": "The last battle of the 1939 campaign was fought near Kock by Independent Operational Group 'Polesie' under Gen. Franciszek Kleeberg. After the Soviet invasion the group had first turned west to relieve Warsaw and, after the capital fell, headed for the Świętokrzyskie Mountains to continue the fight as partisans. Engaged by German forces from 2 to 5 October 1939, surrounded and short of ammunition and food, Kleeberg ordered his troops to lay down their arms.",
+      "pl": "Ostatnią bitwę kampanii 1939 r. stoczyła pod Kockiem Samodzielna Grupa Operacyjna „Polesie” gen. Franciszka Kleeberga. Po agresji sowieckiej zgrupowanie ruszyło najpierw na pomoc Warszawie, a po jej kapitulacji skierowało się w Góry Świętokrzyskie, by kontynuować walkę w partyzantce. Po walkach z Niemcami w dniach 2–5 października 1939 r., w okrążeniu i bez amunicji oraz żywności, gen. Kleeberg wydał rozkaz złożenia broni."
+    },
+    "sources": [
+      {
+        "title": "Generał Franciszek Kleeberg",
+        "publisher": "Instytut Pamięci Narodowej",
+        "url": "https://ipn.gov.pl/pl/historia-z-ipn/237033,General-Franciszek-Kleeberg.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      },
+      {
+        "title": "2 października 1939 (poniedziałek)",
+        "publisher": "Polskie miesiące (IPN)",
+        "url": "https://polskiemiesiace.ipn.gov.pl/mie/wszystkie-wydarzenia/wrzesien-1939/kalendarium/poczatek-ii-wojny-swiat/118496,2-pazdziernika-1939-poniedzialek.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      }
+    ],
+    "verified": true
+  },
+  {
+    "id": "hitler-parade-warsaw-1939",
+    "title": {
+      "en": "Hitler's victory parade in Warsaw",
+      "pl": "Defilada Hitlera w Warszawie"
+    },
+    "startDate": "1939-10-05",
+    "endDate": "1939-10-05",
+    "datePrecision": "day",
+    "location": {
+      "lat": 52.22148,
+      "lng": 21.02469,
+      "name": {
+        "en": "Aleje Ujazdowskie, Warsaw",
+        "pl": "Aleje Ujazdowskie, Warszawa"
+      },
+      "precision": "exact"
+    },
+    "type": "other",
+    "belligerents": [
+      "Germany"
+    ],
+    "summary": {
+      "en": "On 5 October 1939 Adolf Hitler took the salute at a parade of German troops in Aleje Ujazdowskie in occupied Warsaw. An assassination attempt prepared against him was called off.",
+      "pl": "5 października 1939 r. Adolf Hitler przyjął w Alejach Ujazdowskich w okupowanej Warszawie defiladę wojsk niemieckich. Przygotowany na niego zamach został odwołany."
+    },
+    "sources": [
+      {
+        "title": "5 października 1939 (czwartek)",
+        "publisher": "Polskie miesiące (IPN)",
+        "url": "https://polskiemiesiace.ipn.gov.pl/mie/wszystkie-wydarzenia/wrzesien-1939/kalendarium/poczatek-ii-wojny-swiat/118502,5-pazdziernika-1939-czwartek.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      }
+    ],
+    "verified": true
+  },
+  {
+    "id": "piotrkow-ghetto-1939",
+    "title": {
+      "en": "First ghetto in occupied Poland, Piotrków Trybunalski",
+      "pl": "Pierwsze getto w okupowanej Polsce – Piotrków Trybunalski"
+    },
+    "startDate": "1939-10-05",
+    "endDate": "1939-10-05",
+    "datePrecision": "day",
+    "location": {
+      "lat": 51.41285,
+      "lng": 19.68868,
+      "name": {
+        "en": "Piotrków Trybunalski",
+        "pl": "Piotrków Trybunalski"
+      },
+      "precision": "town"
+    },
+    "type": "occupation_policy",
+    "belligerents": [
+      "Germany"
+    ],
+    "summary": {
+      "en": "On 5 October 1939 the Germans established the first ghetto in occupied Poland in Piotrków Trybunalski, in the area that would become the General Government. The next was set up in Radomsko on 20 December; the creation of most ghettos in the General Government continued until the end of 1941, reflecting local initiative rather than a centralised policy.",
+      "pl": "5 października 1939 r. Niemcy założyli w Piotrkowie Trybunalskim, na obszarze późniejszego Generalnego Gubernatorstwa, pierwsze getto w okupowanej Polsce. Kolejne powstało w Radomsku 20 grudnia; tworzenie większości gett w GG trwało do końca 1941 r. i wynikało raczej z inicjatywy lokalnej administracji niż ze scentralizowanej polityki."
+    },
+    "sources": [
+      {
+        "title": "Getta w okupowanej Polsce",
+        "publisher": "Żydowski Instytut Historyczny",
+        "url": "https://www.jhi.pl/artykuly/getta-w-okupowanej-polsce,4090",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      }
+    ],
+    "verified": true
+  },
+  {
+    "id": "post-office-defenders-executed-1939",
+    "title": {
+      "en": "Execution of the Polish Post Office defenders",
+      "pl": "Egzekucja obrońców Poczty Polskiej"
+    },
+    "startDate": "1939-10-05",
+    "endDate": "1939-10-05",
+    "datePrecision": "day",
+    "location": {
+      "lat": 54.39987,
+      "lng": 18.59545,
+      "name": {
+        "en": "Zaspa, Gdańsk (Danzig)",
+        "pl": "Zaspa, Gdańsk"
+      },
+      "precision": "town"
+    },
+    "type": "massacre",
+    "belligerents": [
+      "Germany"
+    ],
+    "summary": {
+      "en": "Sentenced to death in two sham trials by the field court of 'Gruppe Eberhardt' for alleged partisan activity – in breach of international conventions and of the law in force in the Free City of Danzig – the defenders of the Polish Post Office were secretly shot on 5 October 1939 on a training ground at Zaspa in Danzig. Their mass grave was found by chance only in 1991; the judges responsible were never punished.",
+      "pl": "Skazani na śmierć w dwóch fikcyjnych procesach przez sąd polowy „Grupy Eberhardta” za rzekomą „działalność partyzancką” – wbrew konwencjom międzynarodowym i prawu obowiązującemu w Wolnym Mieście Gdańsku – obrońcy Poczty Polskiej zostali potajemnie rozstrzelani 5 października 1939 r. na poligonie na gdańskiej Zaspie. Ich zbiorowy grób odnaleziono przypadkowo dopiero w 1991 r.; odpowiedzialni sędziowie nigdy nie zostali ukarani."
+    },
+    "sources": [
+      {
+        "title": "Egzekucja obrońców Poczty Polskiej w Gdańsku",
+        "publisher": "Instytut Pamięci Narodowej",
+        "url": "https://ipn.gov.pl/pl/historia-z-ipn/230517,Egzekucja-obroncow-Poczty-Polskiej-w-Gdansku.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      },
+      {
+        "title": "1 września 1939 (piątek)",
+        "publisher": "Polskie miesiące (IPN)",
+        "url": "https://polskiemiesiace.ipn.gov.pl/mie/wszystkie-wydarzenia/wrzesien-1939/kalendarium/poczatek-ii-wojny-swiat/118319,1-wrzesnia-1939-piatek.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      }
+    ],
+    "verified": true
+  },
+  {
+    "id": "annexation-western-poland-1939",
+    "title": {
+      "en": "Annexation of western Poland to the Reich",
+      "pl": "Wcielenie zachodnich ziem Polski do Rzeszy"
+    },
+    "startDate": "1939-10-08",
+    "endDate": "1939-10-08",
+    "datePrecision": "day",
+    "location": {
+      "lat": 52.40066,
+      "lng": 16.91973,
+      "name": {
+        "en": "Western Poland (marker at Poznań)",
+        "pl": "Ziemie zachodnie (znacznik: Poznań)"
+      },
+      "precision": "region"
+    },
+    "type": "occupation_policy",
+    "belligerents": [
+      "Germany"
+    ],
+    "summary": {
+      "en": "By Hitler's decree of 8 October 1939 the western voivodeships of Poland were annexed to the Third Reich, creating among others the Reichsgau Wartheland (Warthegau); Gdańsk Pomerania became the Reichsgau Danzig-West Prussia from 26 October. In the annexed lands, mass deportations of Jews and Poles to the General Government preceded the creation of ghettos.",
+      "pl": "Na mocy dekretu Hitlera z 8 października 1939 r. zachodnie województwa Polski zostały wcielone do III Rzeszy; utworzono m.in. Okręg Rzeszy Kraj Warty, a Pomorze Gdańskie od 26 października stanowiło Okręg Rzeszy Gdańsk-Prusy Zachodnie. Na ziemiach wcielonych tworzenie gett poprzedziły masowe przesiedlenia Żydów i Polaków do Generalnego Gubernatorstwa."
+    },
+    "sources": [
+      {
+        "title": "Getta w okupowanej Polsce",
+        "publisher": "Żydowski Instytut Historyczny",
+        "url": "https://www.jhi.pl/artykuly/getta-w-okupowanej-polsce,4090",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      },
+      {
+        "title": "Zbrodnia Pomorska 1939 roku",
+        "publisher": "Przystanek Historia (IPN)",
+        "url": "https://przystanekhistoria.pl/pa2/teksty/73457,Zbrodnia-pomorska-1939-roku.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "The marker is placed at Poznań as a representative point for the annexed territories.",
+      "pl": "Znacznik umieszczono w Poznaniu jako punkt reprezentatywny dla ziem wcielonych."
+    }
+  },
+  {
+    "id": "fort-vii-camp-1939",
+    "title": {
+      "en": "Konzentrationslager Posen opened in Fort VII",
+      "pl": "Utworzenie obozu koncentracyjnego w Forcie VII"
+    },
+    "startDate": "1939-10-10",
+    "endDate": "1939-10-10",
+    "datePrecision": "day",
+    "location": {
+      "lat": 52.41698,
+      "lng": 16.87128,
+      "name": {
+        "en": "Fort VII, Poznań",
+        "pl": "Fort VII, Poznań"
+      },
+      "precision": "exact"
+    },
+    "type": "camp",
+    "belligerents": [
+      "Germany"
+    ],
+    "summary": {
+      "en": "On 10 October 1939 the Germans opened Konzentrationslager Posen in Fort VII in Poznań, which IPN describes as the first concentration camp they set up in occupied Poland. Its first prisoners were victims of the mass arrests of the Intelligenzaktion. Prisoners were executed in the fort itself and in nearby forests; from November 1939 the camp was run by the Gestapo as a transit camp.",
+      "pl": "10 października 1939 r. Niemcy uruchomili w poznańskim Forcie VII Konzentrationslager Posen – według IPN pierwszy obóz koncentracyjny utworzony przez nich w okupowanej Polsce. Pierwszymi więźniami były ofiary masowych aresztowań w ramach Intelligenzaktion. Więźniów rozstrzeliwano na terenie fortu i w okolicznych lasach; od listopada 1939 r. obóz podlegał Gestapo jako obóz przejściowy."
+    },
+    "casualties": {
+      "en": "The number of victims is estimated at over ten thousand ('kilkanaście tysięcy'); records were destroyed (Przystanek Historia/IPN).",
+      "pl": "Liczbę ofiar szacuje się na kilkanaście tysięcy; dokumentację zniszczono (Przystanek Historia/IPN)."
+    },
+    "sources": [
+      {
+        "title": "Fort VII w Poznaniu. Laboratorium zbrodni",
+        "publisher": "Przystanek Historia (IPN)",
+        "url": "https://przystanekhistoria.pl/pa2/tematy/obozy-koncentracyjne/101445,Fort-VII-w-Poznaniu-Laboratorium-zbrodni.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "Shown as a one-day event (opening); the camp operated for several years, but the source used here gives no closing date. The Auschwitz Museum describes Auschwitz as the first concentration camp in occupied Poland; the sources differ in how they classify Fort VII.",
+      "pl": "Pokazane jako wydarzenie jednodniowe (otwarcie); obóz działał kilka lat, ale wykorzystane źródło nie podaje daty jego likwidacji. Muzeum Auschwitz określa Auschwitz jako pierwszy obóz koncentracyjny w okupowanej Polsce; źródła różnie klasyfikują Fort VII."
+    }
+  },
+  {
+    "id": "gdynia-expulsions-1939",
+    "title": {
+      "en": "Expulsion of Poles from Gdynia",
+      "pl": "Wysiedlenia Polaków z Gdyni"
+    },
+    "startDate": "1939-10-15",
+    "endDate": "1942-10-31",
+    "datePrecision": "approximate",
+    "location": {
+      "lat": 54.5165,
+      "lng": 18.54027,
+      "name": {
+        "en": "Gdynia",
+        "pl": "Gdynia"
+      },
+      "precision": "town"
+    },
+    "type": "deportation",
+    "belligerents": [
+      "Germany"
+    ],
+    "summary": {
+      "en": "Gdynia was the first Polish city from which the German occupiers began expelling the Polish population, starting in mid-October 1939 and continuing until autumn 1942. IPN prosecutors in Gdańsk classified the expulsions as a Nazi crime against humanity – the serious persecution of the city's Polish population – and closed the investigation because the identified perpetrators were dead.",
+      "pl": "Gdynia była pierwszym polskim miastem, z którego niemiecki okupant zaczął wysiedlać ludność polską – od połowy października 1939 r. do jesieni 1942 r. Prokuratorzy IPN w Gdańsku uznali wysiedlenia za zbrodnię nazistowską stanowiącą zbrodnię przeciwko ludzkości – poważne prześladowanie polskiej ludności miasta – i umorzyli śledztwo, ponieważ ustaleni sprawcy nie żyją."
+    },
+    "casualties": {
+      "en": "About 70,000 Poles expelled (IPN investigation, reported by dzieje.pl/PAP).",
+      "pl": "Wysiedlono ok. 70 tys. Polaków (ustalenia śledztwa IPN za dzieje.pl/PAP)."
+    },
+    "sources": [
+      {
+        "title": "IPN uznał za zbrodnię przeciwko ludzkości wysiedlenie z Gdyni ok. 70 tys. Polaków",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/aktualnosci/ipn-uznal-za-zbrodnie-przeciwko-ludzkosci-wysiedlenie-z-gdyni-ok-70-tys-polakow",
+        "tier": 2,
+        "accessed": "2026-11-18"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "Dates approximate: 'mid-October 1939' to 'autumn 1942'. Only a tier-2 source (reporting the IPN investigation) was available; the IPN article on the expulsions could not be read in full.",
+      "pl": "Daty przybliżone: od „połowy października 1939 r.” do „jesieni 1942 r.”. Dostępne było jedynie źródło 2. kategorii (relacjonujące śledztwo IPN); artykułu IPN o wysiedleniach nie udało się odczytać w całości."
+    }
+  },
+  {
+    "id": "swiecie-patients-mniszek-1939",
+    "title": {
+      "en": "Murder of psychiatric patients from Świecie at Mniszek",
+      "pl": "Zamordowanie pacjentów szpitala w Świeciu (Mniszek)"
+    },
+    "startDate": "1939-10-15",
+    "endDate": "1939-10-21",
+    "datePrecision": "approximate",
+    "location": {
+      "lat": 53.48503,
+      "lng": 18.60309,
+      "name": {
+        "en": "Mniszek near Świecie",
+        "pl": "Mniszek pod Świeciem"
+      },
+      "precision": "town"
+    },
+    "type": "massacre",
+    "belligerents": [
+      "Germany"
+    ],
+    "summary": {
+      "en": "On 15 October 1939 the Germans began killing the patients of the psychiatric hospital in Świecie, an operation that lasted almost a week. Most were shot in a gravel pit at Mniszek near Świecie and the rest in the Szpęgawsk forest; about 120 children were taken to execution on the pretext of an outing. The hospital's doctor, Józef Bednarz, chose to stay with his patients and was killed with them.",
+      "pl": "15 października 1939 r. Niemcy rozpoczęli akcję eksterminacji pacjentów szpitala psychiatrycznego w Świeciu, która trwała blisko tydzień. Większość zamordowano w żwirowni w Mniszku pod Świeciem, pozostałych w Lesie Szpęgawskim; ok. 120 dzieci wywieziono na egzekucję pod pozorem wycieczki. Lekarz szpitala dr Józef Bednarz zdecydował się towarzyszyć swoim podopiecznym do końca i zginął razem z nimi."
+    },
+    "casualties": {
+      "en": "1,350 people murdered at Mniszek, the rest in the Szpęgawsk forest (IPN).",
+      "pl": "1350 osób zamordowano w Mniszku, pozostałych w Lesie Szpęgawskim (IPN)."
+    },
+    "sources": [
+      {
+        "title": "Zbrodnia Pomorska – sprawa ciągle otwarta",
+        "publisher": "Instytut Pamięci Narodowej",
+        "url": "https://ipn.gov.pl/pl/historia-z-ipn/248382,Zbrodnia-Pomorska-sprawa-ciagle-otwarta.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "IPN says the operation lasted 'almost a week'; the end date is approximate. That the hospital was in Świecie is inferred from IPN's description of Dr Bednarz and the location of the killings.",
+      "pl": "IPN podaje, że akcja trwała „blisko tydzień”; data końcowa jest przybliżona. Lokalizację szpitala w Świeciu ustalono na podstawie opisu dr. Bednarza i miejsca egzekucji w tekście IPN."
+    }
+  },
+  {
+    "id": "soviet-elections-1939",
+    "title": {
+      "en": "Soviet pseudo-elections and 'People's Assemblies'",
+      "pl": "Sowieckie pseudowybory i „Zgromadzenia Ludowe”"
+    },
+    "startDate": "1939-10-22",
+    "endDate": "1939-10-30",
+    "datePrecision": "day",
+    "location": {
+      "lat": 49.84195,
+      "lng": 24.03159,
+      "name": {
+        "en": "Soviet-occupied eastern Poland (marker at Lwów / Lviv)",
+        "pl": "Ziemie wschodnie pod okupacją sowiecką (znacznik: Lwów)"
+      },
+      "precision": "region"
+    },
+    "type": "occupation_policy",
+    "belligerents": [
+      "Soviet Union"
+    ],
+    "summary": {
+      "en": "On 22 October 1939 the Soviets organised pseudo-elections to the 'People's Assemblies' of Western Belarus and Western Ukraine, which, under Moscow's control, returned Soviet-backed candidates. The Assembly of Western Ukraine met in Lwów on 26–28 October and that of Western Belarus in Białystok on 28–30 October; both proclaimed Soviet power and asked to be incorporated into the Ukrainian and Belarusian SSRs.",
+      "pl": "22 października 1939 r. Sowieci zorganizowali na zagarniętych terenach pseudowybory do Zgromadzeń Ludowych Zachodniej Białorusi i Zachodniej Ukrainy, które pod kontrolą Moskwy wyłoniły wspieranych przez Sowietów kandydatów. Zgromadzenie Zachodniej Ukrainy obradowało we Lwowie 26–28 października, a Zachodniej Białorusi w Białymstoku 28–30 października; oba ustanowiły władzę sowiecką i wystąpiły o włączenie tych ziem do Ukraińskiej i Białoruskiej SRS."
+    },
+    "sources": [
+      {
+        "title": "83 lata temu kilkanaście milionów Polaków wbrew własnej woli otrzymało sowieckie obywatelstwo",
+        "publisher": "Instytut Pamięci Narodowej",
+        "url": "https://ipn.gov.pl/pl/dla-mediow/komunikaty/174435,83-lata-temu-kilkanascie-milionow-Polakow-wbrew-wlasnej-woli-otrzymalo-sowieckie.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      },
+      {
+        "title": "Sowieckie deportacje Polaków z Kresów Wschodnich",
+        "publisher": "Przystanek Historia (IPN)",
+        "url": "https://przystanekhistoria.pl/pa2/tematy/represje/91169,Sowieckie-deportacje-Polakow-z-Kresow-Wschodnich.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      }
+    ],
+    "verified": true
+  },
+  {
+    "id": "general-government-1939",
+    "title": {
+      "en": "Creation of the General Government",
+      "pl": "Utworzenie Generalnego Gubernatorstwa"
+    },
+    "startDate": "1939-10-26",
+    "endDate": "1939-10-26",
+    "datePrecision": "day",
+    "location": {
+      "lat": 50.05475,
+      "lng": 19.93611,
+      "name": {
+        "en": "Kraków (Wawel), seat of the General Government",
+        "pl": "Kraków (Wawel), siedziba Generalnego Gubernatorstwa"
+      },
+      "precision": "region"
+    },
+    "type": "occupation_policy",
+    "belligerents": [
+      "Germany"
+    ],
+    "summary": {
+      "en": "Under a decree of Adolf Hitler, the General Government was established on 26 October 1939 in the part of German-occupied Poland not annexed directly to the Reich. It was divided into four districts – Warsaw, Radom, Kraków and Lublin – and had about 1.5 million Jewish inhabitants; Kraków became its capital.",
+      "pl": "Na mocy dekretu Adolfa Hitlera 26 października 1939 r. na niewcielonym bezpośrednio do Rzeszy obszarze okupacji niemieckiej powstało Generalne Gubernatorstwo, podzielone na cztery dystrykty: warszawski, radomski, krakowski i lubelski. Mieszkało w nim ok. 1,5 mln Żydów; stolicą GG został Kraków."
+    },
+    "sources": [
+      {
+        "title": "Getta w okupowanej Polsce",
+        "publisher": "Żydowski Instytut Historyczny",
+        "url": "https://www.jhi.pl/artykuly/getta-w-okupowanej-polsce,4090",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      }
+    ],
+    "verified": true
+  },
+  {
+    "id": "fort-vii-gassings-1939",
+    "title": {
+      "en": "Gassing of psychiatric patients in Fort VII",
+      "pl": "Zagazowanie chorych psychicznie w Forcie VII"
+    },
+    "startDate": "1939-11-01",
+    "endDate": "1939-11-30",
+    "datePrecision": "month",
+    "location": {
+      "lat": 52.41698,
+      "lng": 16.87128,
+      "name": {
+        "en": "Fort VII, Poznań",
+        "pl": "Fort VII, Poznań"
+      },
+      "precision": "exact"
+    },
+    "type": "massacre",
+    "belligerents": [
+      "Germany"
+    ],
+    "summary": {
+      "en": "In November 1939 SS Sonderkommando Lange gassed several groups of psychiatric patients – from the hospitals in Owińska near Poznań and Dziekanka near Gniezno and from the psychiatric ward of a Poznań hospital – with carbon monoxide piped into a sealed bunker in Fort VII. It was one of the first experiments with mass gassing; the same unit later murdered Jews at Chełmno nad Nerem. The bodies were buried in mass graves in a forest near Oborniki.",
+      "pl": "W listopadzie 1939 r. Sonderkommando SS Lange zagazowało w uszczelnionym bunkrze Fortu VII tlenkiem węgla kilka grup chorych psychicznie – ze szpitali w Owińskach pod Poznaniem i Dziekance koło Gniezna oraz z oddziału psychiatrycznego szpitala w Poznaniu. Był to jeden z pierwszych eksperymentów z masowym gazowaniem ludzi; ten sam oddział mordował później Żydów w Chełmnie nad Nerem. Zwłoki chowano w masowych grobach w lesie koło Obornik."
+    },
+    "casualties": {
+      "en": "IPN states that about 1,000 patients from Owińska were killed in this way.",
+      "pl": "Według IPN w ten sposób zamordowano ok. 1000 pacjentów z Owińsk."
+    },
+    "sources": [
+      {
+        "title": "Fort VII w Poznaniu. Laboratorium zbrodni",
+        "publisher": "Przystanek Historia (IPN)",
+        "url": "https://przystanekhistoria.pl/pa2/tematy/obozy-koncentracyjne/101445,Fort-VII-w-Poznaniu-Laboratorium-zbrodni.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      },
+      {
+        "title": "Eutanazja – ukryte ludobójstwo pacjentów szpitali psychiatrycznych w Kraju Warty i na Pomorzu",
+        "publisher": "Instytut Pamięci Narodowej",
+        "url": "https://ipn.gov.pl/pl/aktualnosci/585,Eutanazja-ukryte-ludobojstwo-pacjentow-szpitali-psychiatrycznych-w-Kraju-Warty-i.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      }
+    ],
+    "verified": true
+  },
+  {
+    "id": "piasnica-1939",
+    "title": {
+      "en": "Piaśnica massacres",
+      "pl": "Zbrodnia w Piaśnicy"
+    },
+    "startDate": "1939-11-01",
+    "endDate": "1940-04-30",
+    "datePrecision": "approximate",
+    "location": {
+      "lat": 54.68413,
+      "lng": 18.19643,
+      "name": {
+        "en": "Piaśnica forests near Wejherowo (Neustadt)",
+        "pl": "Lasy Piaśnickie koło Wejherowa"
+      },
+      "precision": "town"
+    },
+    "type": "massacre",
+    "belligerents": [
+      "Germany"
+    ],
+    "summary": {
+      "en": "From about the turn of October and November 1939 until spring 1940, German SS and police units – including the SS Wachsturmbann Eimann and Gdynia police and Gestapo officers – carried out mass shootings in the Piaśnica forests north of Wejherowo. The victims included members of the Polish elite of Pomerania arrested from proscription lists in the 'Intelligenzaktion', Polish and Jewish residents of Gdynia, Wejherowo and Puck, people brought from the Reich, and psychiatric patients. On 11 November 1939 alone, 314 hostages were shot. In 1944 the Germans used Stutthof prisoners to remove traces of the crime and then murdered them.",
+      "pl": "Od przełomu października i listopada 1939 r. do wiosny 1940 r. niemieckie formacje SS i policji – m.in. Wachsturmbann SS „Eimann” oraz funkcjonariusze policji i Gestapo z Gdyni – dokonywały masowych egzekucji w Lasach Piaśnickich na północ od Wejherowa. Ofiarami byli m.in. przedstawiciele polskich elit Pomorza aresztowani na podstawie list proskrypcyjnych w ramach „Intelligenzaktion”, Polacy i Żydzi z Gdyni, Wejherowa i Pucka, osoby przywiezione z Rzeszy oraz pacjenci zakładów psychiatrycznych. Tylko 11 listopada 1939 r. rozstrzelano 314 zakładników. W 1944 r. Niemcy zacierali ślady zbrodni z udziałem więźniów obozu Stutthof, których następnie zamordowano."
+    },
+    "casualties": {
+      "en": "Polish researchers have estimated 12,000–14,000 victims, German researchers about 6,000; a 1974 report of the Gdańsk District Commission for the Investigation of Nazi Crimes gave 8,000–10,000 for the last three months of 1939 (Przystanek Historia/IPN).",
+      "pl": "Polscy badacze szacowali liczbę ofiar na 12–14 tys., niemieccy na ok. 6 tys.; sprawozdanie Okręgowej Komisji Badania Zbrodni Hitlerowskich w Gdańsku z 1974 r. podało 8–10 tys. zamordowanych w ostatnich trzech miesiącach 1939 r. (Przystanek Historia/IPN)."
+    },
+    "sources": [
+      {
+        "title": "Pomorski Katyń. Zbrodnia w Lasach Piaśnickich",
+        "publisher": "Przystanek Historia (IPN)",
+        "url": "https://przystanekhistoria.pl/pa2/teksty/64932,Pomorski-Katyn-Zbrodnia-w-Lasach-Piasnickich.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      },
+      {
+        "title": "Zbrodnia w Piaśnicy",
+        "publisher": "Muzeum II Wojny Światowej w Gdańsku",
+        "url": "https://muzeum1939.pl/zbrodnia-w-piasnicy/aktualnosci/2859.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "Dates are approximate: both sources give the start as the turn of October/November 1939; the end is given as 'the first months of 1940' (IPN) or 'spring 1940' (Museum of the Second World War). The marker is at the village of Wielka Piaśnica; the execution sites lie in the surrounding forest.",
+      "pl": "Daty przybliżone: oba źródła podają początek na przełomie października i listopada 1939 r.; koniec to „pierwsze miesiące 1940 r.” (IPN) lub „wiosna 1940 r.” (Muzeum II Wojny Światowej). Znacznik wskazuje wieś Wielka Piaśnica; miejsca egzekucji leżą w okolicznych lasach."
+    }
+  },
+  {
+    "id": "soviet-annexation-1939",
+    "title": {
+      "en": "Soviet annexation of eastern Poland",
+      "pl": "Aneksja ziem wschodnich II RP przez ZSRS"
+    },
+    "startDate": "1939-11-01",
+    "endDate": "1939-11-02",
+    "datePrecision": "day",
+    "location": {
+      "lat": 53.1275,
+      "lng": 23.14705,
+      "name": {
+        "en": "Soviet-occupied eastern Poland (marker at Białystok)",
+        "pl": "Ziemie wschodnie pod okupacją sowiecką (znacznik: Białystok)"
+      },
+      "precision": "region"
+    },
+    "type": "occupation_policy",
+    "belligerents": [
+      "Soviet Union"
+    ],
+    "summary": {
+      "en": "By decrees of 1 and 2 November 1939 the Supreme Soviet of the USSR incorporated 'Western Ukraine' into the Ukrainian SSR and 'Western Belarus' into the Belarusian SSR – more than half of Poland's territory with 13 million people. The unilateral annexation was not recognised by the Polish government-in-exile or its allies. A decree of 29 November 1939 then imposed Soviet citizenship on all Polish citizens in the annexed territory, which also made them liable for service in the Red Army.",
+      "pl": "Dekretami z 1 i 2 listopada 1939 r. Rada Najwyższa ZSRS włączyła „Zachodnią Ukrainę” do USRS, a „Zachodnią Białoruś” do BSRS – ponad połowę terytorium II RP z 13 mln mieszkańców. Jednostronnej aneksji nie uznał rząd RP na uchodźstwie ani sojusznicy. Dekret z 29 listopada 1939 r. narzucił wszystkim obywatelom polskim na zaanektowanym obszarze obywatelstwo sowieckie, co oznaczało m.in. obowiązek służby w Armii Czerwonej."
+    },
+    "sources": [
+      {
+        "title": "83 lata temu kilkanaście milionów Polaków wbrew własnej woli otrzymało sowieckie obywatelstwo",
+        "publisher": "Instytut Pamięci Narodowej",
+        "url": "https://ipn.gov.pl/pl/dla-mediow/komunikaty/174435,83-lata-temu-kilkanascie-milionow-Polakow-wbrew-wlasnej-woli-otrzymalo-sowieckie.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      }
+    ],
+    "verified": true
+  },
+  {
+    "id": "sonderaktion-krakau-1939",
+    "title": {
+      "en": "Sonderaktion Krakau",
+      "pl": "Sonderaktion Krakau"
+    },
+    "startDate": "1939-11-06",
+    "endDate": "1939-11-06",
+    "datePrecision": "day",
+    "location": {
+      "lat": 50.06086,
+      "lng": 19.93324,
+      "name": {
+        "en": "Collegium Novum, Kraków",
+        "pl": "Collegium Novum, Kraków"
+      },
+      "precision": "exact"
+    },
+    "type": "occupation_policy",
+    "belligerents": [
+      "Germany"
+    ],
+    "summary": {
+      "en": "At the demand of SS-Sturmbannführer Bruno Müller, the rector of the Jagiellonian University called a meeting of its professors and lecturers at Collegium Novum on 6 November 1939. After a short speech Müller had those assembled arrested – 183 people in all, including staff of the Mining Academy and the Academy of Commerce. They were taken via Kraków prisons and Wrocław (Breslau) to the Sachsenhausen concentration camp. IPN describes the operation as part of the planned elimination of Polish leadership and intellectual elites.",
+      "pl": "Na żądanie SS-Sturmbannführera Brunona Müllera rektor Uniwersytetu Jagiellońskiego zwołał na 6 listopada 1939 r. zebranie profesorów i wykładowców w Collegium Novum. Po krótkim wystąpieniu Müllera zgromadzonych aresztowano – łącznie 183 osoby, w tym pracowników Akademii Górniczej i Akademii Handlowej. Przez krakowskie więzienie i Wrocław trafili oni do obozu koncentracyjnego Sachsenhausen. IPN określa akcję jako część planowej likwidacji polskich warstw przywódczych i opiniotwórczych."
+    },
+    "sources": [
+      {
+        "title": "6 listopada będzie po wieczne czasy naszym świętem...",
+        "publisher": "Instytut Pamięci Narodowej",
+        "url": "https://ipn.gov.pl/pl/historia-z-ipn/121802,6-listopada-bedzie-po-wieczne-czasy-naszym-swietem.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      }
+    ],
+    "verified": true
+  },
+  {
+    "id": "jewish-armband-decree-1939",
+    "title": {
+      "en": "Compulsory Star of David armbands in the General Government",
+      "pl": "Nakaz noszenia opasek z gwiazdą Dawida w GG"
+    },
+    "startDate": "1939-12-01",
+    "endDate": "1939-12-01",
+    "datePrecision": "day",
+    "location": {
+      "lat": 50.05475,
+      "lng": 19.93611,
+      "name": {
+        "en": "General Government (marker at Kraków)",
+        "pl": "Generalne Gubernatorstwo (znacznik: Kraków)"
+      },
+      "precision": "region"
+    },
+    "type": "occupation_policy",
+    "belligerents": [
+      "Germany"
+    ],
+    "summary": {
+      "en": "Under a decree issued by Governor-General Hans Frank on 23 November 1939, from 1 December 1939 Jews throughout the General Government had to wear a white armband at least 10 cm wide with a Star of David on the right arm. Jewish shops also had to be marked, and further restrictions on Jewish life followed.",
+      "pl": "Na mocy rozporządzenia generalnego gubernatora Hansa Franka z 23 listopada 1939 r. od 1 grudnia 1939 r. Żydzi na terenie całego GG musieli nosić na prawym ramieniu białą opaskę o szerokości co najmniej 10 cm z gwiazdą Dawida. Obowiązek oznakowania objął także sklepy żydowskie, a za nim poszły kolejne ograniczenia życia żydowskiego."
+    },
+    "sources": [
+      {
+        "title": "Niemiecki okupant wobec Żydów w latach 1939–1941",
+        "publisher": "Przystanek Historia (IPN)",
+        "url": "https://przystanekhistoria.pl/pa2/tematy/zydzi/77968,Niemiecki-okupant-wobec-Zydow-w-latach-19391941.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "The source confirms the 1 December 1939 start of the obligation and the armband's description; the decree date of 23 November 1939 and the marking of shops come from the same source's discussion of Frank's regulations.",
+      "pl": "Źródło potwierdza wejście obowiązku w życie 1 grudnia 1939 r. i opis opaski; datę rozporządzenia (23 listopada 1939 r.) i oznakowanie sklepów podaje to samo źródło przy omówieniu rozporządzeń Franka."
+    }
+  },
+  {
+    "id": "dziekanka-patients-1939",
+    "title": {
+      "en": "Murder of Dziekanka hospital patients",
+      "pl": "Zamordowanie pacjentów szpitala w Dziekance"
+    },
+    "startDate": "1939-12-07",
+    "endDate": "1940-01-12",
+    "datePrecision": "day",
+    "location": {
+      "lat": 52.53028,
+      "lng": 17.57517,
+      "name": {
+        "en": "Dziekanka psychiatric hospital, Gniezno",
+        "pl": "Szpital psychiatryczny Dziekanka, Gniezno"
+      },
+      "precision": "exact"
+    },
+    "type": "massacre",
+    "belligerents": [
+      "Germany"
+    ],
+    "summary": {
+      "en": "Between 7 December 1939 and 12 January 1940 SS Sonderkommando Lange murdered patients of the Dziekanka psychiatric hospital in Gniezno. Dziekanka was also used as a fictitious burial place for patients murdered elsewhere, whose families received false death certificates.",
+      "pl": "Od 7 grudnia 1939 r. do 12 stycznia 1940 r. Sonderkommando SS Lange zamordowało pacjentów szpitala psychiatrycznego Dziekanka w Gnieźnie. Dziekanka służyła też jako fikcyjne miejsce pochówku pacjentów zamordowanych gdzie indziej, których rodzinom wysyłano fałszywe świadectwa zgonu."
+    },
+    "casualties": {
+      "en": "1,200 patients (IPN).",
+      "pl": "1200 pacjentów (IPN)."
+    },
+    "sources": [
+      {
+        "title": "Eutanazja – ukryte ludobójstwo pacjentów szpitali psychiatrycznych w Kraju Warty i na Pomorzu",
+        "publisher": "Instytut Pamięci Narodowej",
+        "url": "https://ipn.gov.pl/pl/aktualnosci/585,Eutanazja-ukryte-ludobojstwo-pacjentow-szpitali-psychiatrycznych-w-Kraju-Warty-i.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      }
+    ],
+    "verified": true
+  },
+  {
+    "id": "palmiry-executions-1939",
+    "title": {
+      "en": "Executions in the Palmiry forest",
+      "pl": "Egzekucje w Palmirach"
+    },
+    "startDate": "1939-12-07",
+    "endDate": "1941-07-17",
+    "datePrecision": "day",
+    "location": {
+      "lat": 52.36634,
+      "lng": 20.77851,
+      "name": {
+        "en": "Palmiry, Kampinos Forest",
+        "pl": "Palmiry, Puszcza Kampinoska"
+      },
+      "precision": "town"
+    },
+    "type": "massacre",
+    "belligerents": [
+      "Germany"
+    ],
+    "summary": {
+      "en": "From December 1939 to July 1941 the Germans carried out mass executions in the forest near Palmiry, north-west of Warsaw, bringing victims mainly from the Pawiak and Rakowiecka Street prisons. The first executions, on 7 and 8 December 1939, killed 80 and 70 people; the killings peaked in June 1940 during the AB-Aktion and continued after it ended. The execution pits were camouflaged and planted with young pines.",
+      "pl": "Od grudnia 1939 r. do lipca 1941 r. Niemcy przeprowadzali masowe egzekucje w lesie pod Palmirami na północny zachód od Warszawy, przywożąc ofiary głównie z Pawiaka i więzienia przy ul. Rakowieckiej. W pierwszych egzekucjach, 7 i 8 grudnia 1939 r., zginęło 80 i 70 osób; nasilenie mordów przypadło na czerwiec 1940 r., w czasie akcji AB, i trwały one także po jej zakończeniu. Doły śmierci maskowano i obsadzano młodymi sosnami."
+    },
+    "casualties": {
+      "en": "21 executions with over 1,700 victims between December 1939 and July 1941 (dzieje.pl/PAP).",
+      "pl": "21 egzekucji, w których zginęło ponad 1700 osób, od grudnia 1939 r. do lipca 1941 r. (dzieje.pl/PAP)."
+    },
+    "sources": [
+      {
+        "title": "Tylko sosny były świadkami. Egzekucje w Palmirach",
+        "publisher": "Przystanek Historia (IPN)",
+        "url": "https://przystanekhistoria.pl/pa2/teksty/62949,Tylko-sosny-byly-swiadkami-Egzekucje-w-Palmirach.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      },
+      {
+        "title": "20–21 czerwca 1940 r. Niemcy dokonali największej egzekucji w Palmirach",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/aktualnosci/20-21-czerwca-1940-r-niemcy-dokonali-najwiekszej-egzekucji-w-palmirach",
+        "tier": 2,
+        "accessed": "2026-11-18"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "The end date is the execution of 17 July 1941, which Przystanek Historia describes as considered the last mass execution in the Palmiry forest, while noting this is not certain.",
+      "pl": "Data końcowa to egzekucja 17 lipca 1941 r., uznawana – jak zaznacza Przystanek Historia, bez pewności – za ostatnią masową egzekucję w lesie palmirskim."
+    }
+  },
+  {
+    "id": "bochnia-1939",
+    "title": {
+      "en": "Bochnia reprisal execution",
+      "pl": "Egzekucja w Bochni"
+    },
+    "startDate": "1939-12-18",
+    "endDate": "1939-12-18",
+    "datePrecision": "day",
+    "location": {
+      "lat": 49.96936,
+      "lng": 20.43054,
+      "name": {
+        "en": "Uzbornia hill, Bochnia",
+        "pl": "Wzgórze Uzbornia, Bochnia"
+      },
+      "precision": "town"
+    },
+    "type": "massacre",
+    "belligerents": [
+      "Germany"
+    ],
+    "summary": {
+      "en": "After two members of the underground White Eagle Organisation attacked the German police post on Bochnia's market square on the evening of 16 December 1939, the Germans brought in an SS battalion and, in reprisal, shot civilians in groups of five on the Uzbornia hill, finishing off the wounded. The two attackers, captured on 17 December, were hanged.",
+      "pl": "Po napadzie dwóch członków konspiracyjnej Organizacji Orła Białego na posterunek niemieckiej policji przy bocheńskim rynku wieczorem 16 grudnia 1939 r. Niemcy sprowadzili do miasta batalion SS i w odwecie rozstrzelali cywilów na wzgórzu Uzbornia, po pięć osób naraz, dobijając rannych. Obu napastników, ujętych 17 grudnia, powieszono."
+    },
+    "casualties": {
+      "en": "52 people shot (dzieje.pl/PAP).",
+      "pl": "Rozstrzelano 52 osoby (dzieje.pl/PAP)."
+    },
+    "sources": [
+      {
+        "title": "„Za jednego Niemca stu Polaków”. Niemieckie zbrodnie na cywilach w Bochni i Wawrze",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/artykulyhistoryczne/za-jednego-niemca-stu-polakow-niemieckie-zbrodnie-na-cywilach-w-bochni-i-wawrze",
+        "tier": 2,
+        "accessed": "2026-11-18"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "Only a tier-2 source was available. It does not state the date explicitly but says the Wawer killings (27 December) came 'only nine days after' the Bochnia execution, which gives 18 December 1939.",
+      "pl": "Dostępne było jedynie źródło 2. kategorii. Nie podaje ono daty wprost, ale stwierdza, że zbrodnia w Wawrze (27 grudnia) nastąpiła „zaledwie po upływie dziewięciu dni” od egzekucji w Bochni, co daje 18 grudnia 1939 r."
+    }
+  },
+  {
+    "id": "radomsko-ghetto-1939",
+    "title": {
+      "en": "Ghetto established in Radomsko",
+      "pl": "Utworzenie getta w Radomsku"
+    },
+    "startDate": "1939-12-20",
+    "endDate": "1939-12-20",
+    "datePrecision": "day",
+    "location": {
+      "lat": 51.06748,
+      "lng": 19.44461,
+      "name": {
+        "en": "Radomsko",
+        "pl": "Radomsko"
+      },
+      "precision": "town"
+    },
+    "type": "occupation_policy",
+    "belligerents": [
+      "Germany"
+    ],
+    "summary": {
+      "en": "On 20 December 1939 the Germans established a ghetto in Radomsko, the second in the General Government after Piotrków Trybunalski.",
+      "pl": "20 grudnia 1939 r. Niemcy utworzyli getto w Radomsku – drugie w Generalnym Gubernatorstwie po Piotrkowie Trybunalskim."
+    },
+    "sources": [
+      {
+        "title": "Getta w okupowanej Polsce",
+        "publisher": "Żydowski Instytut Historyczny",
+        "url": "https://www.jhi.pl/artykuly/getta-w-okupowanej-polsce,4090",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      }
+    ],
+    "verified": true
+  },
+  {
+    "id": "wawer-1939",
+    "title": {
+      "en": "Wawer massacre",
+      "pl": "Zbrodnia w Wawrze"
+    },
+    "startDate": "1939-12-27",
+    "endDate": "1939-12-27",
+    "datePrecision": "day",
+    "location": {
+      "lat": 52.22036,
+      "lng": 21.13708,
+      "name": {
+        "en": "Wawer, Warsaw",
+        "pl": "Wawer, Warszawa"
+      },
+      "precision": "town"
+    },
+    "type": "massacre",
+    "belligerents": [
+      "Germany"
+    ],
+    "summary": {
+      "en": "On 26 December 1939 two criminals wanted for shooting a Polish police officer opened fire on a German patrol in a Wawer restaurant, killing two German NCOs. In reprisal German police rounded up men in Wawer and Anin overnight and, on 27 December, shot them after a summary court sentence. It was one of the first mass executions of civilians in occupied Poland; police commander Max Daume was later tried before the Supreme National Tribunal.",
+      "pl": "26 grudnia 1939 r. dwaj przestępcy, poszukiwani za postrzelenie policjanta granatowego, otworzyli w wawerskiej restauracji ogień do niemieckiego patrolu, zabijając dwóch niemieckich podoficerów. W odwecie niemiecka policja w nocy zatrzymała mężczyzn w Wawrze i Aninie, a 27 grudnia rozstrzelała ich po wyroku sądu doraźnego. Była to jedna z pierwszych masowych egzekucji ludności cywilnej w okupowanej Polsce; dowódca policji Max Daume odpowiadał później przed Najwyższym Trybunałem Narodowym."
+    },
+    "casualties": {
+      "en": "107 residents of Wawer and Anin (IPN).",
+      "pl": "107 mieszkańców Wawra i Anina (IPN)."
+    },
+    "sources": [
+      {
+        "title": "Zbrodnia w Wawrze",
+        "publisher": "Instytut Pamięci Narodowej",
+        "url": "https://ipn.gov.pl/pl/historia-z-ipn/233359,Zbrodnia-w-Wawrze.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      },
+      {
+        "title": "„Za jednego Niemca stu Polaków”. Niemieckie zbrodnie na cywilach w Bochni i Wawrze",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/artykulyhistoryczne/za-jednego-niemca-stu-polakow-niemieckie-zbrodnie-na-cywilach-w-bochni-i-wawrze",
+        "tier": 2,
+        "accessed": "2026-11-18"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "Some publications give 106 victims; IPN gives 107.",
+      "pl": "Niektóre publikacje podają 106 ofiar; IPN – 107."
+    }
+  }
+]

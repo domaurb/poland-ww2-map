@@ -1,0 +1,1525 @@
+[
+  {
+    "id": "wdp27-tempest-volhynia-1944",
+    "title": {
+      "en": "27th Volhynian Infantry Division of the Home Army in Operation Tempest",
+      "pl": "27. Wołyńska Dywizja Piechoty AK w akcji „Burza”"
+    },
+    "startDate": "1944-01-15",
+    "endDate": "1944-07-26",
+    "datePrecision": "day",
+    "location": {
+      "lat": 51.21208,
+      "lng": 24.70888,
+      "name": {
+        "en": "Volhynia (marker at Kowel)",
+        "pl": "Wołyń (znacznik: Kowel)"
+      },
+      "precision": "region"
+    },
+    "type": "battle",
+    "belligerents": [
+      "Poland (Home Army)",
+      "Germany",
+      "Ukrainian Insurgent Army (UPA)"
+    ],
+    "summary": {
+      "en": "On 15 January 1944 the Home Army in Volhynia mobilised over 6,000 soldiers for Operation Tempest, forming the 27th Volhynian Infantry Division on 28 January – the largest Polish partisan unit of the war. It was to protect the Polish population from the UPA and take part in liberating Volhynia, fighting some 60 battles in six months, against the Germans and the UPA, at times alongside the Red Army, for example at Turzysk on 20 March. On 25 July the Soviets demanded that it lay down its arms and forcibly disbanded it; some of its soldiers were shot or sent to labour camps, and the division was dissolved on 26 July near Stary Tartak.",
+      "pl": "15 stycznia 1944 r. AK na Wołyniu zmobilizowała w ramach akcji „Burza” ponad 6 tys. żołnierzy, z których 28 stycznia utworzono 27. Wołyńską Dywizję Piechoty AK – największą polską jednostkę partyzancką tej wojny. Miała chronić ludność polską przed UPA i uczestniczyć w wyzwalaniu Wołynia; w ciągu pół roku stoczyła ok. 60 bitew z Niemcami i UPA, niekiedy we współdziałaniu z Armią Czerwoną, np. pod Turzyskiem 20 marca. 25 lipca Sowieci zażądali złożenia broni i siłą rozformowali dywizję; część żołnierzy rozstrzelano lub wywieziono do łagrów, a 26 lipca pod Starym Tartakiem jednostkę rozwiązano."
+    },
+    "sources": [
+      {
+        "title": "80 lat temu 27 Wołyńska Dywizja Piechoty Armii Krajowej rozpoczęła Akcję „Burza”",
+        "publisher": "Instytut Pamięci Narodowej",
+        "url": "https://ipn.gov.pl/pl/dla-mediow/komunikaty/195991,80-lat-temu-27-Wolynska-Dywizja-Piechoty-Armii-Krajowej-rozpoczela-Akcje-Burza.html",
+        "tier": 1,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "The marker at Kowel is representative; the division operated across Volhynia and later in the Lublin region.",
+      "pl": "Znacznik w Kowlu jest reprezentatywny; dywizja działała na całym Wołyniu, a później na Lubelszczyźnie."
+    }
+  },
+  {
+    "id": "koniuchy-1944",
+    "title": {
+      "en": "Koniuchy massacre",
+      "pl": "Zbrodnia w Koniuchach"
+    },
+    "startDate": "1944-01-29",
+    "endDate": "1944-01-29",
+    "datePrecision": "day",
+    "location": {
+      "lat": 54.27842,
+      "lng": 25.24527,
+      "name": {
+        "en": "Koniuchy, near the Rudniki Forest (now Lithuania)",
+        "pl": "Koniuchy na skraju Puszczy Rudnickiej"
+      },
+      "precision": "town"
+    },
+    "type": "massacre",
+    "belligerents": [
+      "Soviet partisans"
+    ],
+    "summary": {
+      "en": "Koniuchy, a Polish village of over 300 inhabitants on the edge of the Rudniki Forest, had formed a self-defence unit against repeated looting by Soviet partisans based in the forest. In the night of 28–29 January 1944 a group of 120–150 Soviet partisans from several detachments surrounded the village and attacked at about 5 a.m., setting thatched roofs alight and firing on fleeing inhabitants; most buildings were burned.",
+      "pl": "Koniuchy, polska wieś licząca ponad 300 mieszkańców na skraju Puszczy Rudnickiej, utworzyła oddział samoobrony przeciwko powtarzającym się rabunkom ze strony stacjonujących w puszczy partyzantów sowieckich. W nocy z 28 na 29 stycznia 1944 r. grupa 120–150 partyzantów sowieckich z kilku oddziałów otoczyła wieś i ok. 5 rano przystąpiła do ataku, podpalając słomiane dachy i strzelając do uciekających mieszkańców; spłonęła większość zabudowań."
+    },
+    "casualties": {
+      "en": "At least 38 people killed, including women and small children, and over a dozen wounded (IPN).",
+      "pl": "Zginęło co najmniej 38 osób, w tym kobiety i małe dzieci, kilkanaście zostało rannych (IPN)."
+    },
+    "sources": [
+      {
+        "title": "Informacja o śledztwie dotyczącym zbrodni popełnionej w Koniuchach",
+        "publisher": "Instytut Pamięci Narodowej",
+        "url": "https://ipn.gov.pl/pl/dla-mediow/komunikaty/9980,Informacja-o-sledztwie-dotyczacym-zbrodni-popelnionej-w-Koniuchach.html",
+        "tier": 1,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true
+  },
+  {
+    "id": "kutschera-1944",
+    "title": {
+      "en": "Action 'Kutschera'",
+      "pl": "Akcja „Kutschera”"
+    },
+    "startDate": "1944-02-01",
+    "endDate": "1944-02-01",
+    "datePrecision": "day",
+    "location": {
+      "lat": 52.22148,
+      "lng": 21.02469,
+      "name": {
+        "en": "Aleje Ujazdowskie 23, Warsaw",
+        "pl": "Al. Ujazdowskie 23, Warszawa"
+      },
+      "precision": "exact"
+    },
+    "type": "resistance_operation",
+    "belligerents": [
+      "Poland (Home Army)",
+      "Germany"
+    ],
+    "summary": {
+      "en": "At about 9:10 on 1 February 1944, in front of the SS and Police headquarters in Aleje Ujazdowskie, a platoon of the Home Army Kedyw company 'Pegaz' (until January 1944 'Agat'), led by Bronisław Pietraszewicz 'Lot', carried out the underground's death sentence on Franz Kutschera, SS and Police Leader of the Warsaw District. The action, ordered by Kedyw commander August Emil Fieldorf 'Nil', lasted under two minutes; four participants were wounded and two others were killed afterwards.",
+      "pl": "Ok. godz. 9.10 1 lutego 1944 r., przed siedzibą dowódcy SS i Policji w Al. Ujazdowskich, pluton kompanii Kedywu AK „Pegaz” (do stycznia 1944 r. „Agat”) pod dowództwem Bronisława Pietraszewicza „Lota” wykonał wyrok Polskiego Państwa Podziemnego na Franzu Kutscherze, dowódcy SS i Policji dystryktu warszawskiego. Akcja, której decyzję podjął komendant Kedywu August Emil Fieldorf „Nil”, trwała niecałe dwie minuty; czterech uczestników zostało rannych, a dwóch innych zginęło później."
+    },
+    "sources": [
+      {
+        "title": "80. rocznica akcji bojowej „Kutschera”",
+        "publisher": "Instytut Pamięci Narodowej",
+        "url": "https://ipn.gov.pl/pl/aktualnosci/197011,80-rocznica-akcji-bojowej-Kutschera.html",
+        "tier": 1,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true
+  },
+  {
+    "id": "huta-pieniacka-1944",
+    "title": {
+      "en": "Huta Pieniacka massacre",
+      "pl": "Zbrodnia w Hucie Pieniackiej"
+    },
+    "startDate": "1944-02-28",
+    "endDate": "1944-02-28",
+    "datePrecision": "day",
+    "location": {
+      "lat": 49.90316,
+      "lng": 25.10024,
+      "name": {
+        "en": "Huta Pieniacka, near Brody (now Ukraine)",
+        "pl": "Huta Pieniacka koło Brodów"
+      },
+      "precision": "town"
+    },
+    "type": "massacre",
+    "belligerents": [
+      "Germany (4th SS Galician Volunteer Police Regiment)",
+      "Ukrainian Insurgent Army (UPA)"
+    ],
+    "summary": {
+      "en": "On 28 February 1944 Ukrainian soldiers of the 4th Galician SS Volunteer Police Regiment, linked to the 14th SS Division 'Galizien', together with UPA units, Ukrainian nationalists and Ukrainian inhabitants of nearby villages, entered the Polish village of Huta Pieniacka and carried out a pacification. Days earlier, on 23 February, the village self-defence had clashed with a patrol of the regiment, killing two Ukrainian soldiers; the Germans had information that Soviet partisans had been stationed in the village.",
+      "pl": "28 lutego 1944 r. ukraińscy żołnierze 4. Galicyjskiego Ochotniczego Pułku Policji SS, powiązanego z 14. Dywizją SS „Galizien”, wraz z oddziałami UPA, nacjonalistami ukraińskimi i ukraińskimi mieszkańcami okolicznych wsi wkroczyli do polskiej wsi Huta Pieniacka i przeprowadzili akcję pacyfikacyjną. Kilka dni wcześniej, 23 lutego, wiejska samoobrona starła się z patrolem pułku, zabijając dwóch ukraińskich żołnierzy; Niemcy mieli też informacje, że we wsi stacjonowali partyzanci radzieccy."
+    },
+    "casualties": {
+      "en": "More than 850 Poles killed; about 160 people survived (IPN).",
+      "pl": "Zginęło ponad 850 Polaków; przeżyło ok. 160 osób (IPN)."
+    },
+    "sources": [
+      {
+        "title": "Archiwum Pełne Pamięci: Zbrodnia w Hucie Pieniackiej",
+        "publisher": "Instytut Pamięci Narodowej",
+        "url": "https://ipn.gov.pl/pl/historia-z-ipn/139138,Archiwum-Pelne-Pamieci-Zbrodnia-w-Hucie-Pieniackiej.html",
+        "tier": 1,
+        "accessed": "2026-11-19"
+      },
+      {
+        "title": "Zbrodnia w Hucie Pieniackiej",
+        "publisher": "Przystanek Historia (IPN)",
+        "url": "https://przystanekhistoria.pl/pa2/tematy/martyrologia/105882,Zbrodnia-w-Hucie-Pieniackiej.html",
+        "tier": 1,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true
+  },
+  {
+    "id": "ulma-family-1944",
+    "title": {
+      "en": "Murder of the Ulma family and the Jews they sheltered",
+      "pl": "Zamordowanie rodziny Ulmów i ukrywanych przez nich Żydów"
+    },
+    "startDate": "1944-03-24",
+    "endDate": "1944-03-24",
+    "datePrecision": "day",
+    "location": {
+      "lat": 50.02451,
+      "lng": 22.31122,
+      "name": {
+        "en": "Markowa",
+        "pl": "Markowa"
+      },
+      "precision": "town"
+    },
+    "type": "massacre",
+    "belligerents": [
+      "Germany"
+    ],
+    "summary": {
+      "en": "In 1942 Józef and Wiktoria Ulma of Markowa took in eight Jews from Markowa and Łańcut – members of the Grünfeld, Didner and Goldman families. On 24 March 1944 German gendarmes from the Łańcut post, commanded by Lt Eilert Dieken, shot the Jews and the entire Ulma family. Since 2018, 24 March has been the National Day of Remembrance of Poles Rescuing Jews under German Occupation.",
+      "pl": "W 1942 r. Józef i Wiktoria Ulmowie z Markowej przyjęli pod swój dach ośmioro Żydów z Markowej i Łańcuta – członków rodzin Grünfeldów, Didnerów i Goldmanów. 24 marca 1944 r. niemieccy żandarmi z posterunku w Łańcucie, dowodzeni przez por. Eilerta Diekena, rozstrzelali ukrywanych Żydów i całą rodzinę Ulmów. Od 2018 r. 24 marca jest Narodowym Dniem Pamięci Polaków ratujących Żydów pod okupacją niemiecką."
+    },
+    "casualties": {
+      "en": "17 people, including 8 children (IPN).",
+      "pl": "17 osób, w tym ośmioro dzieci (IPN)."
+    },
+    "sources": [
+      {
+        "title": "78. rocznica zamordowania rodziny Ulmów",
+        "publisher": "Instytut Pamięci Narodowej",
+        "url": "https://ipn.gov.pl/pl/dla-mediow/komunikaty/161798,78-rocznica-zamordowania-rodziny-Ulmow.html",
+        "tier": 1,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true
+  },
+  {
+    "id": "hungarian-jews-auschwitz-1944",
+    "title": {
+      "en": "Deportation and murder of Hungarian Jews at Auschwitz",
+      "pl": "Deportacja i zagłada Żydów węgierskich w Auschwitz"
+    },
+    "startDate": "1944-05-15",
+    "endDate": "1944-07-08",
+    "datePrecision": "approximate",
+    "location": {
+      "lat": 50.03891,
+      "lng": 19.1713,
+      "name": {
+        "en": "Auschwitz II-Birkenau",
+        "pl": "Auschwitz II-Birkenau"
+      },
+      "precision": "exact"
+    },
+    "type": "massacre",
+    "belligerents": [
+      "Germany"
+    ],
+    "summary": {
+      "en": "From mid-May 1944 transports of Jews from German-occupied Hungary ('Sonderaktion Ungarn') arrived at Auschwitz; their murder in the gas chambers was reported by escapees, while women selected for labour were held unregistered in transit camps in Birkenau. Reports by escapees reached the West, provoking protests by the US President, Pope Pius XII and others, and in early July 1944 transports from Hungary stopped arriving.",
+      "pl": "Od połowy maja 1944 r. do Auschwitz przybywały transporty Żydów z okupowanych przez Niemcy Węgier („Sonderaktion Ungarn”); o ich mordowaniu w komorach gazowych donosili uciekinierzy, a wybrane do pracy kobiety przetrzymywano bez rejestracji w obozach przejściowych w Birkenau. Sprawozdania uciekinierów dotarły na Zachód, wywołując protesty m.in. prezydenta USA i papieża Piusa XII, a na początku lipca 1944 r. transporty z Węgier przestały nadchodzić."
+    },
+    "sources": [
+      {
+        "title": "Słownik pojęć",
+        "publisher": "Auschwitz-Birkenau State Museum",
+        "url": "https://www.auschwitz.org/media/slownik-pojec/",
+        "tier": 1,
+        "accessed": "2026-11-19"
+      },
+      {
+        "title": "Sprawozdania uciekinierów",
+        "publisher": "Auschwitz-Birkenau State Museum",
+        "url": "https://www.auschwitz.org/historia/informowanie-swiata/sprawozdania-uciekinierow",
+        "tier": 1,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "Dates approximate: 'mid-May' to 'early July' 1944. A total deportation figure is not given in the pages cited.",
+      "pl": "Daty przybliżone: od „połowy maja” do „początku lipca” 1944 r. Cytowane strony nie podają łącznej liczby deportowanych."
+    }
+  },
+  {
+    "id": "chelmno-second-phase-1944",
+    "title": {
+      "en": "Chełmno extermination camp reactivated",
+      "pl": "Ponowne uruchomienie obozu zagłady w Chełmnie"
+    },
+    "startDate": "1944-06-23",
+    "endDate": "1945-01-18",
+    "datePrecision": "day",
+    "location": {
+      "lat": 52.11281,
+      "lng": 18.75159,
+      "name": {
+        "en": "Chełmno nad Nerem",
+        "pl": "Chełmno nad Nerem"
+      },
+      "precision": "town"
+    },
+    "type": "camp",
+    "belligerents": [
+      "Germany"
+    ],
+    "summary": {
+      "en": "Closed in April 1943, Kulmhof was reactivated in spring 1944, mainly to murder Jews from the Łódź ghetto. Its dismantling began in August 1944 – barracks and crematoria were taken down and the gas vans removed – and the Jewish prisoners forced to erase its traces were gradually killed. In the night of 17–18 January 1945, as Soviet troops approached, the Germans shot the last Jewish workers held in a granary; only Szymon Srebrnik, wounded, and Mordechaj Żurawski, who escaped, survived.",
+      "pl": "Zamknięty w kwietniu 1943 r. obóz Kulmhof uruchomiono ponownie wiosną 1944 r., głównie w celu wymordowania Żydów z getta łódzkiego. Jego likwidację rozpoczęto w sierpniu 1944 r. – rozebrano baraki i piece krematoryjne, wywieziono samochody-komory gazowe – a żydowskich więźniów zmuszanych do zacierania śladów sukcesywnie mordowano. W nocy z 17 na 18 stycznia 1945 r., wobec zbliżania się wojsk sowieckich, Niemcy rozstrzelali ostatnich żydowskich robotników przetrzymywanych w spichlerzu; przeżyli jedynie ranny Szymon Srebrnik i Mordechaj Żurawski, któremu udało się zbiec."
+    },
+    "casualties": {
+      "en": "About 200,000 Jews murdered at Chełmno in total (dzieje.pl/PAP).",
+      "pl": "Łącznie w Chełmnie zamordowano ok. 200 tys. Żydów (dzieje.pl/PAP)."
+    },
+    "sources": [
+      {
+        "title": "79. rocznica ostatecznej likwidacji niemieckiego obozu zagłady w Chełmnie",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/wiadomosci/79-rocznica-ostateczna-likwidacja-niemieckiego-obozu-zaglady-w-chelmnie",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      },
+      {
+        "title": "80 lat temu rozpoczęły się masowe deportacje Żydów z Litzmannstadt Getto",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/aktualnosci/80-lat-temu-rozpoczela-sie-likwidacja-litzmannstadt-getto",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "Only tier-2 sources were used. The source gives 'spring 1944' for the reactivation; the start shown is the first Łódź deportation (23 June 1944).",
+      "pl": "Wykorzystano jedynie źródła 2. kategorii. Źródło podaje „wiosnę 1944 r.” jako czas wznowienia; jako początek przyjęto pierwszą deportację z Łodzi (23 czerwca 1944 r.)."
+    }
+  },
+  {
+    "id": "lodz-ghetto-liquidation-1944",
+    "title": {
+      "en": "Liquidation of the Łódź ghetto",
+      "pl": "Likwidacja getta łódzkiego"
+    },
+    "startDate": "1944-06-23",
+    "endDate": "1944-08-29",
+    "datePrecision": "day",
+    "location": {
+      "lat": 51.80159,
+      "lng": 19.44232,
+      "name": {
+        "en": "Łódź ghetto (Bałuty)",
+        "pl": "Getto łódzkie (Bałuty)"
+      },
+      "precision": "town"
+    },
+    "type": "deportation",
+    "belligerents": [
+      "Germany"
+    ],
+    "summary": {
+      "en": "On 23 June 1944 the Germans began mass deportations from Litzmannstadt Ghetto, the second-largest ghetto in occupied Poland – first to the reactivated Chełmno extermination camp and then to Auschwitz-Birkenau. The last transport left Łódź for Auschwitz on 29 August 1944.",
+      "pl": "23 czerwca 1944 r. Niemcy rozpoczęli masowe deportacje z Litzmannstadt Getto, drugiego co do wielkości getta w okupowanej Polsce – najpierw do ponownie uruchomionego obozu zagłady w Chełmnie nad Nerem, a następnie do Auschwitz-Birkenau. Ostatni transport odjechał z Łodzi do Auschwitz 29 sierpnia 1944 r."
+    },
+    "casualties": {
+      "en": "Of more than 200,000 people who passed through the ghetto, between 5,000 and 12,000 survived, according to different sources (dzieje.pl/PAP).",
+      "pl": "Spośród ponad 200 tys. osób przebywających w getcie przeżyło według różnych źródeł od 5 do 12 tys. (dzieje.pl/PAP)."
+    },
+    "sources": [
+      {
+        "title": "80 lat temu rozpoczęły się masowe deportacje Żydów z Litzmannstadt Getto",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/aktualnosci/80-lat-temu-rozpoczela-sie-likwidacja-litzmannstadt-getto",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      },
+      {
+        "title": "79. rocznica ostatecznej likwidacji niemieckiego obozu zagłady w Chełmnie",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/wiadomosci/79-rocznica-ostateczna-likwidacja-niemieckiego-obozu-zaglady-w-chelmnie",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "Only tier-2 sources were used. That the first deportations went to Chełmno is based on the dzieje.pl account of Chełmno's reactivation in spring 1944.",
+      "pl": "Wykorzystano jedynie źródła 2. kategorii. Informacja, że pierwsze deportacje kierowano do Chełmna, opiera się na relacji dzieje.pl o wznowieniu działania obozu wiosną 1944 r."
+    }
+  },
+  {
+    "id": "ostra-brama-1944",
+    "title": {
+      "en": "Operation 'Ostra Brama' (Wilno)",
+      "pl": "Operacja „Ostra Brama” (Wilno)"
+    },
+    "startDate": "1944-07-07",
+    "endDate": "1944-07-13",
+    "datePrecision": "day",
+    "location": {
+      "lat": 54.68705,
+      "lng": 25.28291,
+      "name": {
+        "en": "Wilno (Vilnius)",
+        "pl": "Wilno"
+      },
+      "precision": "town"
+    },
+    "type": "battle",
+    "belligerents": [
+      "Poland (Home Army)",
+      "Germany",
+      "Soviet Union"
+    ],
+    "summary": {
+      "en": "As part of Operation Tempest, Home Army units of the Wilno and Nowogródek districts under Lt-Col. Aleksander Krzyżanowski 'Wilk' attacked German-held Wilno at dawn on 7 July 1944, hoping to present the Soviets with an accomplished fact. Because of the rapid Red Army offensive the operation was brought forward and only about 30% of the planned Polish forces took part. The city was taken together with Soviet troops on 13 July; the Polish flag raised on Castle Hill was soon replaced with a Soviet one.",
+      "pl": "W ramach akcji „Burza” oddziały AK okręgów wileńskiego i nowogródzkiego pod dowództwem ppłk. Aleksandra Krzyżanowskiego „Wilka” uderzyły o świcie 7 lipca 1944 r. na zajęte przez Niemców Wilno, licząc na postawienie Sowietów przed faktem dokonanym. Z powodu szybkiej ofensywy Armii Czerwonej operację przyspieszono i wzięło w niej udział tylko ok. 30 proc. planowanych sił polskich. Miasto zdobyto wspólnie z wojskami sowieckimi 13 lipca; polska flaga wywieszona na Górze Zamkowej szybko została zastąpiona sowiecką."
+    },
+    "sources": [
+      {
+        "title": "Karol Nawrocki: Operacja „Ostra Brama” – burza ze wschodu",
+        "publisher": "Instytut Pamięci Narodowej",
+        "url": "https://ipn.gov.pl/pl/historia-z-ipn/202984,Karol-Nawrocki-Operacja-Ostra-Brama-burza-ze-wschodu.html",
+        "tier": 1,
+        "accessed": "2026-11-19"
+      },
+      {
+        "title": "Teodor Gąsiorowski: Burza nadeszła ze wschodu",
+        "publisher": "Instytut Pamięci Narodowej",
+        "url": "https://ipn.gov.pl/pl/historia-z-ipn/147107,Teodor-Gasiorowski-Burza-nadeszla-ze-wschodu.html",
+        "tier": 1,
+        "accessed": "2026-11-19"
+      },
+      {
+        "title": "Marek Gałęzowski: Akcja „Burza” i Powstanie Warszawskie",
+        "publisher": "Instytut Pamięci Narodowej",
+        "url": "https://ipn.gov.pl/pl/historia-z-ipn/archiwum/168497,Marek-Galezowski-Akcja-Burza-i-Powstanie-Warszawskie.html",
+        "tier": 1,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true
+  },
+  {
+    "id": "lublin-tempest-1944",
+    "title": {
+      "en": "Operation Tempest in the Lublin region",
+      "pl": "Akcja „Burza” na Lubelszczyźnie"
+    },
+    "startDate": "1944-07-14",
+    "endDate": "1944-07-29",
+    "datePrecision": "day",
+    "location": {
+      "lat": 51.21819,
+      "lng": 22.55468,
+      "name": {
+        "en": "Lublin region (marker at Lublin)",
+        "pl": "Lubelszczyzna (znacznik: Lublin)"
+      },
+      "precision": "region"
+    },
+    "type": "battle",
+    "belligerents": [
+      "Poland (Home Army)",
+      "Germany",
+      "Soviet Union"
+    ],
+    "summary": {
+      "en": "The order to begin Operation Tempest in the Home Army's Lublin District was issued on 14 July 1944. AK units freed more than a dozen small towns and for several days fought alongside the Red Army, setting up local administration subordinate to the government in London; within days they had to give way to representatives of the PKWN. AK soldiers were disarmed, arrested and deported to the USSR, and on 29 July Gen. Kazimierz Tumidajski ordered his units disbanded.",
+      "pl": "Rozkaz rozpoczęcia akcji „Burza” w Okręgu AK Lublin wydano 14 lipca 1944 r. Oddziały AK wyzwoliły kilkanaście miasteczek i przez kilka dni walczyły ramię w ramię z Armią Czerwoną, tworząc terenowe struktury władzy podległej rządowi londyńskiemu; po kilku dniach musiały ustąpić przedstawicielom PKWN. Żołnierzy AK rozbrajano, aresztowano i zsyłano do ZSRS, a 29 lipca gen. Kazimierz Tumidajski wydał rozkaz rozwiązania podległych mu oddziałów."
+    },
+    "sources": [
+      {
+        "title": "Teodor Gąsiorowski: Burza nadeszła ze wschodu",
+        "publisher": "Instytut Pamięci Narodowej",
+        "url": "https://ipn.gov.pl/pl/historia-z-ipn/147107,Teodor-Gasiorowski-Burza-nadeszla-ze-wschodu.html",
+        "tier": 1,
+        "accessed": "2026-11-19"
+      },
+      {
+        "title": "Marek Gałęzowski: Akcja „Burza” i Powstanie Warszawskie",
+        "publisher": "Instytut Pamięci Narodowej",
+        "url": "https://ipn.gov.pl/pl/historia-z-ipn/archiwum/168497,Marek-Galezowski-Akcja-Burza-i-Powstanie-Warszawskie.html",
+        "tier": 1,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true
+  },
+  {
+    "id": "wilno-ak-arrests-1944",
+    "title": {
+      "en": "NKVD arrests the Home Army commanders at Wilno",
+      "pl": "Aresztowanie dowództwa AK pod Wilnem przez NKWD"
+    },
+    "startDate": "1944-07-17",
+    "endDate": "1944-07-17",
+    "datePrecision": "day",
+    "location": {
+      "lat": 54.68705,
+      "lng": 25.28291,
+      "name": {
+        "en": "Wilno (Vilnius) area",
+        "pl": "Okolice Wilna"
+      },
+      "precision": "region"
+    },
+    "type": "occupation_policy",
+    "belligerents": [
+      "Soviet Union"
+    ],
+    "summary": {
+      "en": "On 17 July 1944, under the pretext of forming an independent Polish unit, Lt-Col. Aleksander Krzyżanowski 'Wilk' was invited to a meeting with the commander of the 3rd Belorussian Front, Gen. Ivan Chernyakhovsky, and the deputy People's Commissar for Internal Affairs, Gen. Ivan Serov, and was arrested by the NKVD. Within days the Soviets disarmed and interned the Home Army units; more than 5,000 soldiers were sent to labour camps.",
+      "pl": "17 lipca 1944 r., pod pretekstem utworzenia samodzielnej jednostki polskiej, ppłk Aleksander Krzyżanowski „Wilk” został zaproszony na spotkanie z dowódcą 3. Frontu Białoruskiego gen. Iwanem Czerniachowskim i zastępcą ludowego komisarza spraw wewnętrznych gen. Iwanem Sierowem i aresztowany przez NKWD. W ciągu kilku dni Sowieci rozbroili i internowali oddziały AK; ponad 5 tys. żołnierzy zesłano do łagrów."
+    },
+    "sources": [
+      {
+        "title": "Aresztowanie generała Aleksandra Krzyżanowskiego „Wilka” przez Sowietów",
+        "publisher": "Instytut Pamięci Narodowej",
+        "url": "https://ipn.gov.pl/pl/historia-z-ipn/225018,Aresztowanie-generala-Aleksandra-Krzyzanowskiego-Wilka-przez-Sowietow.html",
+        "tier": 1,
+        "accessed": "2026-11-19"
+      },
+      {
+        "title": "Marek Gałęzowski: Akcja „Burza” i Powstanie Warszawskie",
+        "publisher": "Instytut Pamięci Narodowej",
+        "url": "https://ipn.gov.pl/pl/historia-z-ipn/archiwum/168497,Marek-Galezowski-Akcja-Burza-i-Powstanie-Warszawskie.html",
+        "tier": 1,
+        "accessed": "2026-11-19"
+      },
+      {
+        "title": "Karol Nawrocki: Operacja „Ostra Brama” – burza ze wschodu",
+        "publisher": "Instytut Pamięci Narodowej",
+        "url": "https://ipn.gov.pl/pl/historia-z-ipn/202984,Karol-Nawrocki-Operacja-Ostra-Brama-burza-ze-wschodu.html",
+        "tier": 1,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true
+  },
+  {
+    "id": "pinczow-republic-1944",
+    "title": {
+      "en": "'Pińczów Republic'",
+      "pl": "„Rzeczpospolita Pińczowska”"
+    },
+    "startDate": "1944-07-20",
+    "endDate": "1944-08-07",
+    "datePrecision": "day",
+    "location": {
+      "lat": 50.52019,
+      "lng": 20.52562,
+      "name": {
+        "en": "Pińczów district",
+        "pl": "Obwód Pińczów"
+      },
+      "precision": "region"
+    },
+    "type": "resistance_operation",
+    "belligerents": [
+      "Poland (Home Army)",
+      "Germany"
+    ],
+    "summary": {
+      "en": "Between 20 and 28 July 1944 Home Army units, together with Peasants' Battalions, freed from German occupation the whole AK Pińczów district and the eastern part of Miechów county, largely by disarming isolated German posts. The Germans counter-attacked, entering Pińczów on 30 July and attacking Skalbmierz on 5 August, where over 20 soldiers and about 80 inhabitants were killed; they re-entered Skalbmierz on 7 August and further attacks followed.",
+      "pl": "W dniach 20–28 lipca 1944 r. oddziały AK wraz z Batalionami Chłopskimi wyzwoliły spod okupacji cały Obwód AK Pińczów oraz wschodnią część powiatu miechowskiego, w dużej mierze rozbrajając odosobnione niemieckie posterunki. Niemcy przystąpili do kontrataku: 30 lipca wkroczyli do Pińczowa, a 5 sierpnia uderzyli na Skalbmierz, gdzie poległo ponad 20 żołnierzy i zginęło ok. 80 mieszkańców; 7 sierpnia ponownie wdarli się do Skalbmierza, po czym następowały kolejne ataki."
+    },
+    "sources": [
+      {
+        "title": "Kawałek wolnej Polski między Krakowem a Kielcami",
+        "publisher": "Przystanek Historia (IPN)",
+        "url": "https://przystanekhistoria.pl/pa2/tematy/polskie-wojsko/122446,Kawalek-wolnej-Polski-miedzy-Krakowem-a-Kielcami.html",
+        "tier": 1,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "The end date shown (7 August) is the last date given in the cited source; fighting continued after it, and the source does not give an end date for the liberated area.",
+      "pl": "Data końcowa (7 sierpnia) to ostatnia data podana w cytowanym źródle; walki trwały dalej, a źródło nie podaje daty końca wyzwolonego obszaru."
+    }
+  },
+  {
+    "id": "majdanek-liberation-1944",
+    "title": {
+      "en": "Soviet capture of the Majdanek camp",
+      "pl": "Zajęcie obozu na Majdanku przez Armię Czerwoną"
+    },
+    "startDate": "1944-07-23",
+    "endDate": "1944-07-23",
+    "datePrecision": "day",
+    "location": {
+      "lat": 51.22532,
+      "lng": 22.60626,
+      "name": {
+        "en": "Majdanek, Lublin",
+        "pl": "Majdanek, Lublin"
+      },
+      "precision": "exact"
+    },
+    "type": "liberation",
+    "belligerents": [
+      "Soviet Union",
+      "Germany"
+    ],
+    "summary": {
+      "en": "On 23 July 1944 the Red Army took the German concentration camp KL Lublin (Majdanek), which had operated since 1941, freeing about 1,000 prisoners. Soon afterwards the Soviets set up an NKVD filtration camp on its grounds, where they held soldiers of the Home Army (AK) and the National Armed Forces (NSZ).",
+      "pl": "23 lipca 1944 r. Armia Czerwona zajęła niemiecki obóz koncentracyjny KL Lublin (Majdanek), działający od 1941 r., oswobadzając ok. 1000 więźniów. Wkrótce potem Sowieci utworzyli na jego terenie obóz filtracyjny NKWD, w którym więzili żołnierzy Armii Krajowej i Narodowych Sił Zbrojnych."
+    },
+    "sources": [
+      {
+        "title": "Oswobadzanie niemieckich obozów koncentracyjnych przez wojska sowieckie",
+        "publisher": "Przystanek Historia (IPN)",
+        "url": "https://przystanekhistoria.pl/pa2/tematy/obozy-koncentracyjne/78208,Oswobadzanie-niemieckich-obozow-koncentracyjnych-przez-wojska-sowieckie.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "The camp's operation in 1941–1944 will be added as a separate long-running event.",
+      "pl": "Funkcjonowanie obozu w latach 1941–1944 zostanie dodane jako osobne wydarzenie długotrwałe."
+    }
+  },
+  {
+    "id": "most-iii-1944",
+    "title": {
+      "en": "Operation 'Most III'",
+      "pl": "Operacja „Most III”"
+    },
+    "startDate": "1944-07-25",
+    "endDate": "1944-07-26",
+    "datePrecision": "day",
+    "location": {
+      "lat": 50.02599,
+      "lng": 20.96406,
+      "name": {
+        "en": "Landing strip near Tarnów (marker at Tarnów)",
+        "pl": "Lądowisko pod Tarnowem (znacznik: Tarnów)"
+      },
+      "precision": "region"
+    },
+    "type": "resistance_operation",
+    "belligerents": [
+      "Poland (Home Army)"
+    ],
+    "summary": {
+      "en": "In the night of 25–26 July 1944, in Operation 'Most III' (Bridge III), an Allied aircraft landed on a clandestine landing strip near Tarnów in occupied Poland, bringing among others the government emissary Jan Nowak-Jeziorański. On the return flight it carried Polish politicians and parts of the German V-2 rocket obtained by Home Army intelligence – material of great value to the Allies.",
+      "pl": "W nocy z 25 na 26 lipca 1944 r., w ramach operacji „Most III”, na konspiracyjnym lądowisku pod Tarnowem w okupowanej Polsce wylądował samolot aliancki, który przywiózł m.in. emisariusza rządu RP Jana Nowaka-Jeziorańskiego. W drogę powrotną zabrał polskich polityków oraz zdobyte przez wywiad AK części niemieckiej rakiety V-2 – materiał bezcenny dla aliantów."
+    },
+    "sources": [
+      {
+        "title": "80 lat temu na Zachód dotarły tajemnice niemieckiej „cudownej broni” – rakiet V-2",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/wiadomosci/80-lat-temu-na-zachod-dotarly-tajemnice-niemieckiej-cudownej-broni-rakiet-v-2",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "Only a tier-2 source was used; it places the landing strip near Tarnów without naming the village, so the marker is at Tarnów.",
+      "pl": "Wykorzystano jedynie źródło 2. kategorii; umiejscawia ono lądowisko pod Tarnowem bez podania nazwy wsi, dlatego znacznik umieszczono w Tarnowie."
+    }
+  },
+  {
+    "id": "pkwn-1944",
+    "title": {
+      "en": "PKWN established and brought to Chełm and Lublin",
+      "pl": "Utworzenie PKWN i jego przybycie do Chełma i Lublina"
+    },
+    "startDate": "1944-07-27",
+    "endDate": "1944-08-01",
+    "datePrecision": "day",
+    "location": {
+      "lat": 51.13392,
+      "lng": 23.47115,
+      "name": {
+        "en": "Chełm",
+        "pl": "Chełm"
+      },
+      "precision": "town"
+    },
+    "type": "occupation_policy",
+    "belligerents": [
+      "Soviet Union",
+      "Polish communists"
+    ],
+    "summary": {
+      "en": "On the evening of 22 July 1944 Radio Moscow announced the creation of the Polish Committee of National Liberation (PKWN), a communist-dominated quasi-government formed in Moscow under Stalin's control, and read out its manifesto, falsely stating that it had been proclaimed in Chełm. The committee's members were only brought to Chełm on 27 July and to Lublin on 1 August. In communist Poland, 22 July was celebrated as the National Day of the Rebirth of Poland.",
+      "pl": "Wieczorem 22 lipca 1944 r. Radio Moskwa poinformowało o utworzeniu Polskiego Komitetu Wyzwolenia Narodowego – zdominowanego przez komunistów quasi-rządu powstałego w Moskwie pod kontrolą Stalina – i odczytało jego manifest, podając nieprawdziwą informację, że ogłoszono go w Chełmie. Członków PKWN przewieziono do Chełma dopiero 27 lipca, a do Lublina 1 sierpnia. W PRL 22 lipca obchodzono jako Narodowe Święto Odrodzenia Polski."
+    },
+    "sources": [
+      {
+        "title": "80 lat temu komuniści ogłosili Manifest PKWN",
+        "publisher": "Instytut Pamięci Narodowej",
+        "url": "https://ipn.gov.pl/pl/dla-mediow/komunikaty/203882,TEKST-AUDIO-80-lat-temu-komunisci-oglosili-Manifest-PKWN.html",
+        "tier": 1,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "The event is dated from the committee's arrival in Chełm, because the manifesto was announced in Moscow, outside the map's area (IPN).",
+      "pl": "Wydarzenie datowano od przybycia komitetu do Chełma, ponieważ manifest ogłoszono w Moskwie, poza obszarem mapy (IPN)."
+    }
+  },
+  {
+    "id": "lwow-tempest-1944",
+    "title": {
+      "en": "Operation Tempest in Lwów and Soviet internment of the Home Army",
+      "pl": "Akcja „Burza” we Lwowie i internowanie żołnierzy AK"
+    },
+    "startDate": "1944-07-28",
+    "endDate": "1944-07-28",
+    "datePrecision": "day",
+    "location": {
+      "lat": 49.84195,
+      "lng": 24.03159,
+      "name": {
+        "en": "Lwów (Lviv)",
+        "pl": "Lwów"
+      },
+      "precision": "town"
+    },
+    "type": "occupation_policy",
+    "belligerents": [
+      "Poland (Home Army)",
+      "Soviet Union"
+    ],
+    "summary": {
+      "en": "About 5,000 Home Army soldiers under Col. Władysław Filipkowski 'Cis' took part in the fighting for Lwów in July 1944, using the support of advancing Soviet armour. On 28 July 1944, the day after the fighting ended, the Soviets interned the officers of the AK District Command, disarmed part of the AK units and interned their soldiers; considerable Polish forces then withdrew west to the Rzeszów and Lublin regions.",
+      "pl": "W walkach o Lwów w lipcu 1944 r. uczestniczyło ok. 5 tys. żołnierzy AK pod dowództwem płk. Władysława Filipkowskiego „Cisa”, korzystających ze wsparcia nadciągającej sowieckiej broni pancernej. 28 lipca 1944 r., dzień po zakończeniu walk, Sowieci internowali oficerów Komendy Okręgu, rozbroili część oddziałów AK i internowali ich żołnierzy; znaczne siły polskie odeszły wtedy na zachód, na Rzeszowszczyznę i Lubelszczyznę."
+    },
+    "sources": [
+      {
+        "title": "Teodor Gąsiorowski: Burza nadeszła ze wschodu",
+        "publisher": "Instytut Pamięci Narodowej",
+        "url": "https://ipn.gov.pl/pl/historia-z-ipn/147107,Teodor-Gasiorowski-Burza-nadeszla-ze-wschodu.html",
+        "tier": 1,
+        "accessed": "2026-11-19"
+      },
+      {
+        "title": "Marek Gałęzowski: Akcja „Burza” i Powstanie Warszawskie",
+        "publisher": "Instytut Pamięci Narodowej",
+        "url": "https://ipn.gov.pl/pl/historia-z-ipn/archiwum/168497,Marek-Galezowski-Akcja-Burza-i-Powstanie-Warszawskie.html",
+        "tier": 1,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "The source does not give the start date of the fighting for the city; the event is dated to the internment.",
+      "pl": "Źródło nie podaje daty rozpoczęcia walk o miasto; wydarzenie datowano na dzień internowania."
+    }
+  },
+  {
+    "id": "warsaw-uprising-1944",
+    "title": {
+      "en": "Warsaw Uprising",
+      "pl": "Powstanie Warszawskie"
+    },
+    "startDate": "1944-08-01",
+    "endDate": "1944-10-02",
+    "datePrecision": "day",
+    "location": {
+      "lat": 52.23281,
+      "lng": 21.01907,
+      "name": {
+        "en": "Warsaw",
+        "pl": "Warszawa"
+      },
+      "precision": "town"
+    },
+    "type": "uprising",
+    "belligerents": [
+      "Poland (Home Army)",
+      "Germany"
+    ],
+    "summary": {
+      "en": "The Home Army (AK) launched the Warsaw Uprising at 17:00 on 1 August 1944, aiming to free the capital from German occupation before Soviet forces arrived. About 45,000 AK soldiers in the Warsaw District, joined by some 2,500 fighters of other formations, faced around 25,000 well-armed German troops; in the first days the insurgents took much of the city centre, the Old Town and Wola. German counter-attacks, mass killings of civilians and very limited outside help led to the loss of one district after another, and on 2 October 1944 an agreement ending the fighting was signed in Ożarów. Afterwards the Germans systematically destroyed the city.",
+      "pl": "Armia Krajowa rozpoczęła Powstanie Warszawskie 1 sierpnia 1944 r. o godz. 17.00, dążąc do wyzwolenia stolicy spod okupacji niemieckiej przed wkroczeniem wojsk sowieckich. Ok. 45 tys. żołnierzy AK Okręgu Warszawskiego, wspartych przez ok. 2,5 tys. żołnierzy innych formacji, stanęło naprzeciw ok. 25 tys. dobrze uzbrojonych Niemców; w pierwszych dniach powstańcy opanowali znaczną część Śródmieścia, Stare Miasto i Wolę. Niemieckie kontrnatarcia, masowe mordy ludności cywilnej i bardzo ograniczona pomoc z zewnątrz doprowadziły do utraty kolejnych dzielnic; 2 października 1944 r. w Ożarowie podpisano układ o zaprzestaniu działań wojennych. Następnie Niemcy planowo niszczyli miasto."
+    },
+    "casualties": {
+      "en": "More than 18,000 insurgents and 180,000 civilians killed (Warsaw Rising Museum).",
+      "pl": "Zginęło przeszło 18 tys. powstańców i 180 tys. cywilów (Muzeum Powstania Warszawskiego)."
+    },
+    "sources": [
+      {
+        "title": "Powstanie Warszawskie",
+        "publisher": "Muzeum Powstania Warszawskiego",
+        "url": "https://www.1944.pl/artykul/powstanie-warszawskie,4736.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      }
+    ],
+    "verified": true
+  },
+  {
+    "id": "roma-camp-liquidation-1944",
+    "title": {
+      "en": "Liquidation of the 'Gypsy family camp' in Auschwitz-Birkenau",
+      "pl": "Likwidacja „obozu rodzinnego dla Cyganów” w Auschwitz-Birkenau"
+    },
+    "startDate": "1944-08-02",
+    "endDate": "1944-08-03",
+    "datePrecision": "day",
+    "location": {
+      "lat": 50.03891,
+      "lng": 19.1713,
+      "name": {
+        "en": "Auschwitz II-Birkenau",
+        "pl": "Auschwitz II-Birkenau"
+      },
+      "precision": "exact"
+    },
+    "type": "massacre",
+    "belligerents": [
+      "Germany"
+    ],
+    "summary": {
+      "en": "In the night of 2–3 August 1944 the Germans liquidated the 'family camp for Gypsies' (Zigeunerfamilienlager) in Birkenau, murdering in the gas chambers its last Roma and Sinti prisoners – children, women and men. From 1943, on Himmler's order, about 23,000 Roma and Sinti had been deported to Auschwitz, mainly from Germany, Austria, Bohemia and Poland. 2 August is commemorated as the Roma and Sinti Genocide Remembrance Day.",
+      "pl": "W nocy z 2 na 3 sierpnia 1944 r. Niemcy zlikwidowali „obóz rodzinny dla Cyganów” (Zigeunerfamilienlager) w Birkenau, mordując w komorach gazowych jego ostatnich więźniów – dzieci, kobiety i mężczyzn narodowości romskiej. Od 1943 r., na rozkaz Himmlera, deportowano do Auschwitz ok. 23 tys. Romów i Sinti, głównie z Niemiec, Austrii, Czech i Polski. 2 sierpnia obchodzony jest jako Dzień Pamięci o Zagładzie Sinti i Romów."
+    },
+    "casualties": {
+      "en": "About 4,300 people murdered that night; of the 21,000 Roma registered in the camp, about 19,000 died (Auschwitz-Birkenau State Museum).",
+      "pl": "Tej nocy zamordowano ok. 4,3 tys. osób; spośród 21 tys. zarejestrowanych w obozie Romów zginęło ok. 19 tys. (Państwowe Muzeum Auschwitz-Birkenau)."
+    },
+    "sources": [
+      {
+        "title": "79. rocznica likwidacji obozu Romów w Auschwitz",
+        "publisher": "Auschwitz-Birkenau State Museum",
+        "url": "https://www.auschwitz.org/muzeum/aktualnosci/79-rocznica-likwidacji-obozu-romow-w-auschwitz,2425.html",
+        "tier": 1,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "Other Museum publications give 2,897 victims for that night.",
+      "pl": "Inne publikacje Muzeum podają 2897 ofiar tej nocy."
+    }
+  },
+  {
+    "id": "ochota-massacre-1944",
+    "title": {
+      "en": "Ochota massacre",
+      "pl": "Rzeź Ochoty"
+    },
+    "startDate": "1944-08-04",
+    "endDate": "1944-08-11",
+    "datePrecision": "day",
+    "location": {
+      "lat": 52.21222,
+      "lng": 20.97263,
+      "name": {
+        "en": "Ochota district, Warsaw",
+        "pl": "Ochota, Warszawa"
+      },
+      "precision": "town"
+    },
+    "type": "massacre",
+    "belligerents": [
+      "Germany"
+    ],
+    "summary": {
+      "en": "At 10:00 on 4 August 1944, days after the outbreak of the Warsaw Uprising, units of the collaborationist SS RONA formation entered the Ochota district and began the mass murder of its inhabitants. Insurgent strongpoints at the Kaliska and Wawelska redoubts held out until 9 and 11 August.",
+      "pl": "4 sierpnia 1944 r. o godz. 10.00, kilka dni po wybuchu Powstania Warszawskiego, na Ochotę wkroczyły siły kolaboracyjnej formacji SS RONA, rozpoczynając masowy mord na mieszkańcach. Powstańcze punkty oporu – Reduta Kaliska i Reduta Wawelska – broniły się do 9 i 11 sierpnia."
+    },
+    "sources": [
+      {
+        "title": "Śladami powstańczej Ochoty – spacer w rocznicę rzezi Ochoty",
+        "publisher": "Instytut Pileckiego",
+        "url": "https://instytutpileckiego.pl/pl/edukacja/spacery/sladami-powstanczej-ochoty-spacer-w-rocznice-rzezi-ochoty?strona=2",
+        "tier": 1,
+        "accessed": "2026-11-19"
+      },
+      {
+        "title": "Powstanie Warszawskie",
+        "publisher": "Muzeum Powstania Warszawskiego",
+        "url": "https://www.1944.pl/artykul/powstanie-warszawskie,4736.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      },
+      {
+        "title": "Straty ludzkie w Powstaniu Warszawskim",
+        "publisher": "Przystanek Historia (IPN)",
+        "url": "https://przystanekhistoria.pl/pa2/tematy/okupacja-niemiecka/72174,Straty-ludzkie-w-Powstaniu-Warszawskim.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "The end date (11 August) is the fall of the Wawelska redoubt, used as an approximation; the killings in Ochota continued for days, and the total number of victims is not given in the sources cited.",
+      "pl": "Data końcowa (11 sierpnia) to upadek Reduty Wawelskiej, przyjęty jako przybliżenie; mordy na Ochocie trwały wiele dni, a cytowane źródła nie podają łącznej liczby ofiar."
+    }
+  },
+  {
+    "id": "wola-massacre-1944",
+    "title": {
+      "en": "Wola massacre",
+      "pl": "Rzeź Woli"
+    },
+    "startDate": "1944-08-05",
+    "endDate": "1944-08-06",
+    "datePrecision": "day",
+    "location": {
+      "lat": 52.23624,
+      "lng": 20.95478,
+      "name": {
+        "en": "Wola district, Warsaw",
+        "pl": "Wola, Warszawa"
+      },
+      "precision": "town"
+    },
+    "type": "massacre",
+    "belligerents": [
+      "Germany"
+    ],
+    "summary": {
+      "en": "On the morning of 5 August 1944 German forces under police general Heinz Reinefarth – including an SS Dirlewanger battalion and the collaborationist RONA formation – advanced along Wolska and Górczewska streets and began the mass murder of Wola's civilian population. People were first shot in their homes, cellars and courtyards; from the afternoon they were driven to selected sites, such as the railway workshops on Moczydło Street and the Ursus and Franaszek factories, and executed en masse. Mass killings continued on 6 August, then on a smaller scale after Erich von dem Bach-Zelewski forbade, mainly for military reasons, the killing of women and children.",
+      "pl": "Rano 5 sierpnia 1944 r. siły niemieckie pod dowództwem gen. policji Heinza Reinefartha – w tym batalion pułku SS „Dirlewanger” i kolaboracyjna formacja RONA – ruszyły wzdłuż ulic Wolskiej i Górczewskiej i rozpoczęły masowe mordowanie ludności cywilnej Woli. Początkowo zabijano ludzi w mieszkaniach, piwnicach i na podwórzach; od popołudnia spędzano ich w wybrane miejsca – m.in. do warsztatów kolejowych przy ul. Moczydło oraz fabryk „Ursus” i Franaszka – i tam rozstrzeliwano. Masowe mordy trwały 6 sierpnia, a następnie, na mniejszą skalę, po tym jak Erich von dem Bach-Zelewski, głównie ze względów militarnych, zabronił zabijania kobiet i dzieci."
+    },
+    "casualties": {
+      "en": "The exact number is unknown; current estimates range between 38,000 and 65,000 people (IPN).",
+      "pl": "Dokładna liczba ofiar pozostaje nieznana; obecnie szacuje się ją na 38–65 tys. osób (IPN)."
+    },
+    "sources": [
+      {
+        "title": "Maciej Żuczkowski: Rzeź Woli",
+        "publisher": "Instytut Pamięci Narodowej",
+        "url": "https://ipn.gov.pl/pl/aktualnosci/55879,Maciej-Zuczkowski-Rzez-Woli.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      },
+      {
+        "title": "Straty ludzkie w Powstaniu Warszawskim",
+        "publisher": "Przystanek Historia (IPN)",
+        "url": "https://przystanekhistoria.pl/pa2/tematy/okupacja-niemiecka/72174,Straty-ludzkie-w-Powstaniu-Warszawskim.html",
+        "tier": 1,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "The end date reflects the main mass killings described by IPN (5–6 August); some accounts date the massacre 5–7 August, and smaller-scale killings continued in Wola and other districts afterwards. Estimates differ widely: IPN gives 38,000–65,000; Przystanek Historia (IPN) notes that earlier figures of up to 60,000 have been revised and favours Marek Strok's estimate of about 15,000 murdered Wola residents, consistent with German estimates for 1–18 August.",
+      "pl": "Data końcowa odpowiada głównym masowym egzekucjom opisanym przez IPN (5–6 sierpnia); część opracowań datuje rzeź na 5–7 sierpnia, a na mniejszą skalę mordy trwały na Woli i w innych dzielnicach także później. Szacunki znacznie się różnią: IPN podaje 38–65 tys.; Przystanek Historia (IPN) wskazuje, że wcześniejsze liczby sięgające 60 tys. zostały zrewidowane, i przychyla się do szacunku Marka Stroka – ok. 15 tys. zamordowanych mieszkańców Woli, zbieżnego z szacunkami niemieckimi za 1–18 sierpnia."
+    }
+  },
+  {
+    "id": "pruszkow-dulag-1944",
+    "title": {
+      "en": "Transit camp Dulag 121 in Pruszków",
+      "pl": "Obóz przejściowy Dulag 121 w Pruszkowie"
+    },
+    "startDate": "1944-08-06",
+    "endDate": "1945-01-17",
+    "datePrecision": "day",
+    "location": {
+      "lat": 52.17196,
+      "lng": 20.80298,
+      "name": {
+        "en": "Pruszków",
+        "pl": "Pruszków"
+      },
+      "precision": "town"
+    },
+    "type": "camp",
+    "belligerents": [
+      "Germany"
+    ],
+    "summary": {
+      "en": "On 5 August 1944 the Germans set up a transit camp for Warsaw's civilian population, Durchgangslager 121, in the railway repair works in Pruszków; the first transport arrived on 6 August. Conditions were tragic. Those passing through were subjected to selection: about 150,000 were sent to forced labour in the Reich or to concentration camps, about 100,000 released or smuggled out, and the rest deported into the General Government. The camp was closed on 17 January 1945.",
+      "pl": "5 sierpnia 1944 r. Niemcy utworzyli w halach Zakładów Naprawczych Taboru Kolejowego w Pruszkowie obóz przejściowy dla ludności cywilnej Warszawy – Durchgangslager 121; pierwszy transport przybył 6 sierpnia. Panowały tam tragiczne warunki. Przechodzących przez obóz poddawano selekcji: ok. 150 tys. wywieziono na roboty do Rzeszy lub do obozów koncentracyjnych, ok. 100 tys. zwolniono lub wyprowadzono nielegalnie, a pozostałych wywieziono w głąb GG. Obóz zlikwidowano 17 stycznia 1945 r."
+    },
+    "casualties": {
+      "en": "About 650,000 people passed through the camp, including 550,000 Varsovians (Warsaw Rising Museum).",
+      "pl": "Przez obóz przeszło ok. 650 tys. osób, w tym 550 tys. warszawiaków (Muzeum Powstania Warszawskiego)."
+    },
+    "sources": [
+      {
+        "title": "Powstanie Warszawskie",
+        "publisher": "Muzeum Powstania Warszawskiego",
+        "url": "https://www.1944.pl/artykul/powstanie-warszawskie,4736.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      }
+    ],
+    "verified": true
+  },
+  {
+    "id": "studzianki-1944",
+    "title": {
+      "en": "Battle of Studzianki",
+      "pl": "Bitwa pod Studziankami"
+    },
+    "startDate": "1944-08-09",
+    "endDate": "1944-08-16",
+    "datePrecision": "day",
+    "location": {
+      "lat": 51.68829,
+      "lng": 21.32426,
+      "name": {
+        "en": "Studzianki, Magnuszew bridgehead",
+        "pl": "Studzianki, przyczółek warecko-magnuszewski"
+      },
+      "precision": "town"
+    },
+    "type": "battle",
+    "belligerents": [
+      "Poland (1st Polish Army)",
+      "Soviet Union",
+      "Germany"
+    ],
+    "summary": {
+      "en": "From 9 August 1944 the 1st Armoured Brigade 'Heroes of Westerplatte' of the Soviet-formed Polish army, about 2,200 men with 71 T-34 and 15 T-70 tanks under Col. Jan Mierzycan, fought the 'Hermann Göring' Panzer-Parachute Division on the Warka–Magnuszew bridgehead west of the Vistula. The crossroads at Studzianki changed hands seven times; by 16 August the brigade had lost 27 combat vehicles and destroyed about 30. The Polish Army Museum calls it the largest tank battle of the Polish Army on the Eastern Front.",
+      "pl": "Od 9 sierpnia 1944 r. 1. Brygada Pancerna im. Bohaterów Westerplatte sformowanego w ZSRS Wojska Polskiego – ok. 2200 żołnierzy, 71 czołgów T-34 i 15 lekkich T-70 pod dowództwem płk. Jana Mierzycana – walczyła na przyczółku warecko-magnuszewskim z Dywizją Pancerno-Spadochronową „Hermann Göring”. Skrzyżowanie dróg w Studziankach zdobywano siedmiokrotnie; do 16 sierpnia brygada straciła 27 pojazdów bojowych, niszcząc ok. 30. Muzeum Wojska Polskiego określa bitwę jako największą bitwę pancerną Wojska Polskiego na froncie wschodnim."
+    },
+    "sources": [
+      {
+        "title": "Początek bitwy pod Studziankami",
+        "publisher": "Muzeum Wojska Polskiego",
+        "url": "https://muzeumwp.pl/timeline/poczatek-bitwy-pod-studziankami/",
+        "tier": 1,
+        "accessed": "2026-11-19"
+      },
+      {
+        "title": "Kalendarz historyczny: 9 sierpnia",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/kalendarz-historyczny/9/8",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true
+  },
+  {
+    "id": "past-capture-1944",
+    "title": {
+      "en": "Capture of the PAST building",
+      "pl": "Zdobycie gmachu PAST-y"
+    },
+    "startDate": "1944-08-20",
+    "endDate": "1944-08-20",
+    "datePrecision": "day",
+    "location": {
+      "lat": 52.2363,
+      "lng": 21.00631,
+      "name": {
+        "en": "PAST building, Zielna Street, Warsaw",
+        "pl": "Gmach PAST-y, ul. Zielna, Warszawa"
+      },
+      "precision": "exact"
+    },
+    "type": "battle",
+    "belligerents": [
+      "Poland (Home Army)",
+      "Germany"
+    ],
+    "summary": {
+      "en": "In the night of 19–20 August 1944 insurgent units under Capt. Henryk Roycewicz 'Leliwa' attacked the eight-storey telephone exchange building (PAST) at Zielna 37/39, a German strongpoint firing on the city centre. After over a dozen hours of fighting they captured it, taking 121 Germans prisoner and seizing large quantities of arms; at least 17 insurgents were killed.",
+      "pl": "W nocy z 19 na 20 sierpnia 1944 r. oddziały powstańcze pod dowództwem rtm. Henryka Roycewicza „Leliwy” zaatakowały ośmiopiętrowy gmach Polskiej Akcyjnej Spółki Telefonicznej (PAST) przy Zielnej 37/39, niemiecki punkt ostrzeliwujący Śródmieście. Po kilkunastu godzinach walki zdobyli go, biorąc do niewoli 121 Niemców i zdobywając dużo broni; poległo co najmniej 17 powstańców."
+    },
+    "casualties": {
+      "en": "38 Germans killed, many wounded and burned, 121 taken prisoner; at least 17 insurgents killed (Warsaw Rising Museum).",
+      "pl": "38 zabitych Niemców, wielu rannych i poparzonych, 121 wziętych do niewoli; poległo nie mniej niż 17 powstańców (Muzeum Powstania Warszawskiego)."
+    },
+    "sources": [
+      {
+        "title": "Powstanie Warszawskie",
+        "publisher": "Muzeum Powstania Warszawskiego",
+        "url": "https://www.1944.pl/artykul/powstanie-warszawskie,4736.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      }
+    ],
+    "verified": true
+  },
+  {
+    "id": "old-town-fall-1944",
+    "title": {
+      "en": "Fall of the Old Town and evacuation through the sewers",
+      "pl": "Upadek Starego Miasta i ewakuacja kanałami"
+    },
+    "startDate": "1944-09-01",
+    "endDate": "1944-09-02",
+    "datePrecision": "day",
+    "location": {
+      "lat": 52.24952,
+      "lng": 21.01224,
+      "name": {
+        "en": "Old Town, Warsaw",
+        "pl": "Stare Miasto, Warszawa"
+      },
+      "precision": "town"
+    },
+    "type": "battle",
+    "belligerents": [
+      "Poland (Home Army)",
+      "Germany"
+    ],
+    "summary": {
+      "en": "After the Germans took Wola and Ochota they attacked the Old Town from 11 August, subjecting it to heavy artillery fire and air raids that reduced it to rubble. A breakout attempt failed, and from the evening of 1 September until the morning of 2 September the defenders under Col. Karol Ziemski 'Wachnowski' withdrew through the sewers. The Germans then occupied the ruined district and began mass killings of civilians and wounded insurgents.",
+      "pl": "Po zdobyciu Woli i Ochoty Niemcy od 11 sierpnia atakowali Stare Miasto, obracając je w gruzy ciężkim ostrzałem artyleryjskim i nalotami. Próba przebicia się nie powiodła się i od wieczora 1 września do rana 2 września obrońcy pod dowództwem płk. Karola Ziemskiego „Wachnowskiego” wycofali się kanałami. Niemcy zajęli zburzoną dzielnicę i rozpoczęli masowe mordy na ludności cywilnej i rannych żołnierzach."
+    },
+    "casualties": {
+      "en": "Of the insurgents evacuated, 4,500 reached the city centre and 800 Żoliborz; 35,000 people remained in the Old Town (Warsaw Rising Museum). Przystanek Historia estimates about 30,000 victims of the Old Town's defence and the subsequent hospital massacres.",
+      "pl": "Spośród ewakuowanych powstańców 4,5 tys. dotarło do Śródmieścia, a 800 na Żoliborz; na Starym Mieście zostało 35 tys. osób (Muzeum Powstania Warszawskiego). Przystanek Historia szacuje na ok. 30 tys. liczbę ofiar obrony Starego Miasta i późniejszych masakr szpitali."
+    },
+    "sources": [
+      {
+        "title": "Powstańcze dni: 2 września",
+        "publisher": "Muzeum Powstania Warszawskiego",
+        "url": "https://www.1944.pl/artykul/powstancze-dni-2-wrzesnia,5208.html",
+        "tier": 1,
+        "accessed": "2026-11-19"
+      },
+      {
+        "title": "Powstanie Warszawskie",
+        "publisher": "Muzeum Powstania Warszawskiego",
+        "url": "https://www.1944.pl/artykul/powstanie-warszawskie,4736.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      },
+      {
+        "title": "Straty ludzkie w Powstaniu Warszawskim",
+        "publisher": "Przystanek Historia (IPN)",
+        "url": "https://przystanekhistoria.pl/pa2/tematy/okupacja-niemiecka/72174,Straty-ludzkie-w-Powstaniu-Warszawskim.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      }
+    ],
+    "verified": true
+  },
+  {
+    "id": "warsaw-churches-bombing-1944",
+    "title": {
+      "en": "Bombing of the New Town churches",
+      "pl": "Bombardowanie kościołów Nowego Miasta"
+    },
+    "startDate": "1944-09-01",
+    "endDate": "1944-09-01",
+    "datePrecision": "day",
+    "location": {
+      "lat": 52.25304,
+      "lng": 21.00836,
+      "name": {
+        "en": "New Town (Nowe Miasto), Warsaw",
+        "pl": "Nowe Miasto, Warszawa"
+      },
+      "precision": "town"
+    },
+    "type": "bombing",
+    "belligerents": [
+      "Germany"
+    ],
+    "summary": {
+      "en": "Throughout the Warsaw Uprising Luftwaffe dive-bombers attacked the city with impunity, causing great civilian losses. On 1 September 1944 alone, more than 2,000 people were killed in the bombed churches of the Sacramentine Sisters, St Hyacinth and St Martin.",
+      "pl": "W czasie całego Powstania Warszawskiego bombowce nurkujące Luftwaffe bezkarnie atakowały miasto, powodując ogromne straty wśród ludności cywilnej. Tylko 1 września 1944 r. w zbombardowanych kościołach ss. Sakramentek, św. Jacka i św. Marcina zginęło ponad 2 tys. osób."
+    },
+    "casualties": {
+      "en": "More than 2,000 people killed on 1 September (Przystanek Historia/IPN).",
+      "pl": "Ponad 2 tys. zabitych 1 września (Przystanek Historia/IPN)."
+    },
+    "sources": [
+      {
+        "title": "Straty ludzkie w Powstaniu Warszawskim",
+        "publisher": "Przystanek Historia (IPN)",
+        "url": "https://przystanekhistoria.pl/pa2/tematy/okupacja-niemiecka/72174,Straty-ludzkie-w-Powstaniu-Warszawskim.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "St Martin's church stands in the Old Town; the marker is placed at the New Town Market Square near the other two churches.",
+      "pl": "Kościół św. Marcina leży na Starym Mieście; znacznik umieszczono na Rynku Nowego Miasta w pobliżu dwóch pozostałych kościołów."
+    }
+  },
+  {
+    "id": "praga-capture-1944",
+    "title": {
+      "en": "Soviet and Polish troops take Praga",
+      "pl": "Zajęcie Pragi przez wojska sowieckie i polskie"
+    },
+    "startDate": "1944-09-14",
+    "endDate": "1944-09-14",
+    "datePrecision": "day",
+    "location": {
+      "lat": 52.26488,
+      "lng": 21.02734,
+      "name": {
+        "en": "Praga, Warsaw",
+        "pl": "Praga, Warszawa"
+      },
+      "precision": "town"
+    },
+    "type": "battle",
+    "belligerents": [
+      "Soviet Union",
+      "Poland (1st Polish Army)",
+      "Germany"
+    ],
+    "summary": {
+      "en": "On 10 September 1944 troops of the 1st Belorussian Front together with the 1st Polish Army began an operation against Warsaw's right-bank district of Praga, which they captured on 14 September. The German command then concentrated on holding the front on the west bank of the Vistula.",
+      "pl": "10 września 1944 r. wojska 1. Frontu Białoruskiego wraz z 1. Armią WP rozpoczęły operację praską i 14 września zajęły Pragę. Dowództwo niemieckie skoncentrowało się wówczas na organizowaniu frontu na zachodnim brzegu Wisły."
+    },
+    "sources": [
+      {
+        "title": "Powstanie Warszawskie",
+        "publisher": "Muzeum Powstania Warszawskiego",
+        "url": "https://www.1944.pl/artykul/powstanie-warszawskie,4736.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      }
+    ],
+    "verified": true
+  },
+  {
+    "id": "berling-landing-1944",
+    "title": {
+      "en": "1st Polish Army landings on the west bank of the Vistula",
+      "pl": "Desant 1. Armii WP na lewy brzeg Wisły"
+    },
+    "startDate": "1944-09-16",
+    "endDate": "1944-09-21",
+    "datePrecision": "day",
+    "location": {
+      "lat": 52.23102,
+      "lng": 21.03745,
+      "name": {
+        "en": "Czerniaków bridgehead, Warsaw",
+        "pl": "Przyczółek Czerniakowski, Warszawa"
+      },
+      "precision": "town"
+    },
+    "type": "battle",
+    "belligerents": [
+      "Poland (1st Polish Army)",
+      "Poland (Home Army)",
+      "Germany"
+    ],
+    "summary": {
+      "en": "From mid-September 1944 soldiers of Gen. Zygmunt Berling's 1st Polish Army crossed from Praga and seized bridgeheads on the left bank of the Vistula at Czerniaków, Żoliborz and between the bridges, believing they were bringing help to the insurgents. Unprepared for street fighting, they suffered heavy losses and the attempt failed. The Warsaw Rising Museum notes that Stalin was satisfied, as it allowed him to deflect accusations of not helping the Uprising.",
+      "pl": "Od połowy września 1944 r. żołnierze 1. Armii WP gen. Zygmunta Berlinga przeprawili się z Pragi i opanowali przyczółki na lewym brzegu Wisły – na Czerniakowie, Żoliborzu i między mostami – wierząc, że niosą pomoc powstańcom. Nieprzygotowani do walk w mieście, ponieśli ciężkie straty, a próba zakończyła się niepowodzeniem. Muzeum Powstania Warszawskiego zauważa, że satysfakcję miał jedynie Stalin, który mógł oddalać oskarżenia o nieudzielenie pomocy Powstaniu."
+    },
+    "sources": [
+      {
+        "title": "Powstanie Warszawskie",
+        "publisher": "Muzeum Powstania Warszawskiego",
+        "url": "https://www.1944.pl/artykul/powstanie-warszawskie,4736.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "The Warsaw Rising Museum article gives the landing attempt as 16–21 September in one passage and 15–19 September in another.",
+      "pl": "Artykuł Muzeum Powstania Warszawskiego podaje w jednym miejscu 16–21 września, a w innym 15–19 września."
+    }
+  },
+  {
+    "id": "czerniakow-fall-1944",
+    "title": {
+      "en": "Fall of the Czerniaków bridgehead",
+      "pl": "Upadek Przyczółka Czerniakowskiego"
+    },
+    "startDate": "1944-09-23",
+    "endDate": "1944-09-23",
+    "datePrecision": "day",
+    "location": {
+      "lat": 52.23102,
+      "lng": 21.03745,
+      "name": {
+        "en": "Czerniaków bridgehead, Warsaw",
+        "pl": "Przyczółek Czerniakowski, Warszawa"
+      },
+      "precision": "town"
+    },
+    "type": "battle",
+    "belligerents": [
+      "Poland (Home Army)",
+      "Germany"
+    ],
+    "summary": {
+      "en": "Insurgents and soldiers of the 1st Polish Army besieged on the Czerniaków bridgehead by the Vistula held out under constant German attack until 23 September 1944, when the bridgehead fell. Soon afterwards the Germans took the remaining insurgent districts one by one.",
+      "pl": "Powstańcy i żołnierze 1. Armii WP osaczeni na Przyczółku Czerniakowskim nad Wisłą bronili się pod nieustannymi atakami niemieckimi do 23 września 1944 r., kiedy przyczółek upadł. Wkrótce potem Niemcy kolejno opanowali pozostałe dzielnice powstańcze."
+    },
+    "sources": [
+      {
+        "title": "Powstanie Warszawskie",
+        "publisher": "Muzeum Powstania Warszawskiego",
+        "url": "https://www.1944.pl/artykul/powstanie-warszawskie,4736.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      }
+    ],
+    "verified": true
+  },
+  {
+    "id": "mokotow-capitulation-1944",
+    "title": {
+      "en": "Capitulation of Mokotów",
+      "pl": "Kapitulacja Mokotowa"
+    },
+    "startDate": "1944-09-27",
+    "endDate": "1944-09-27",
+    "datePrecision": "day",
+    "location": {
+      "lat": 52.19367,
+      "lng": 21.04443,
+      "name": {
+        "en": "Mokotów, Warsaw",
+        "pl": "Mokotów, Warszawa"
+      },
+      "precision": "town"
+    },
+    "type": "battle",
+    "belligerents": [
+      "Poland (Home Army)",
+      "Germany"
+    ],
+    "summary": {
+      "en": "After the fall of the Czerniaków bridgehead the Germans turned on the remaining insurgent districts, and Mokotów capitulated on 27 September 1944.",
+      "pl": "Po upadku Przyczółka Czerniakowskiego Niemcy uderzyli na pozostałe dzielnice powstańcze; 27 września 1944 r. Mokotów skapitulował."
+    },
+    "sources": [
+      {
+        "title": "Powstanie Warszawskie",
+        "publisher": "Muzeum Powstania Warszawskiego",
+        "url": "https://www.1944.pl/artykul/powstanie-warszawskie,4736.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      }
+    ],
+    "verified": true
+  },
+  {
+    "id": "jaktorow-1944",
+    "title": {
+      "en": "Battle of Jaktorów",
+      "pl": "Bitwa pod Jaktorowem"
+    },
+    "startDate": "1944-09-29",
+    "endDate": "1944-09-29",
+    "datePrecision": "day",
+    "location": {
+      "lat": 52.09048,
+      "lng": 20.54763,
+      "name": {
+        "en": "Jaktorów",
+        "pl": "Jaktorów"
+      },
+      "precision": "town"
+    },
+    "type": "battle",
+    "belligerents": [
+      "Poland (Home Army)",
+      "Germany"
+    ],
+    "summary": {
+      "en": "On 27 September 1944, as the Uprising neared its end, about 1,400 soldiers of the Home Army group 'Kampinos' under Maj. Alfons Kotowski 'Okoń' set out from the Kampinos Forest towards the Świętokrzyskie Mountains. Caught by German forces near Jaktorów on 29 September, after losing men and equipment crossing the Utrata in the night, the group was broken up in one of the largest battles fought by the Home Army; 'Okoń' was killed.",
+      "pl": "27 września 1944 r., wobec bliskiego końca Powstania, ok. 1400 żołnierzy Grupy AK „Kampinos” pod dowództwem mjr. Alfonsa Kotowskiego „Okonia” wyruszyło z Puszczy Kampinoskiej w kierunku Gór Świętokrzyskich. Osaczona przez Niemców pod Jaktorowem 29 września, po nocnych stratach w ludziach i sprzęcie przy przeprawie przez Utratę, grupa została rozbita w jednej z największych bitew Armii Krajowej; „Okoń” poległ."
+    },
+    "sources": [
+      {
+        "title": "Bitwa pod Jaktorowem",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/artykuly-historyczne/bitwa-pod-jaktorowem",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "Only a tier-2 source was used. Loss figures differ between accounts and are not given here.",
+      "pl": "Wykorzystano jedynie źródło 2. kategorii. Liczby strat różnią się w relacjach i nie zostały tu podane."
+    }
+  },
+  {
+    "id": "zoliborz-capitulation-1944",
+    "title": {
+      "en": "Capitulation of Żoliborz",
+      "pl": "Kapitulacja Żoliborza"
+    },
+    "startDate": "1944-09-30",
+    "endDate": "1944-09-30",
+    "datePrecision": "day",
+    "location": {
+      "lat": 52.26759,
+      "lng": 20.9797,
+      "name": {
+        "en": "Żoliborz, Warsaw",
+        "pl": "Żoliborz, Warszawa"
+      },
+      "precision": "town"
+    },
+    "type": "battle",
+    "belligerents": [
+      "Poland (Home Army)",
+      "Germany"
+    ],
+    "summary": {
+      "en": "Żoliborz, where insurgents of Group 'North' had fought since the first day and which had received soldiers from the Old Town through the sewers, capitulated on 30 September 1944, three days after Mokotów. Negotiations followed, and on 2 October the agreement ending the Warsaw Uprising was signed.",
+      "pl": "Żoliborz, gdzie powstańcy Grupy „Północ” walczyli od pierwszego dnia i dokąd kanałami przeszli żołnierze ze Starówki, skapitulował 30 września 1944 r., trzy dni po Mokotowie. Nastąpiły pertraktacje, a 2 października podpisano umowę kończącą Powstanie Warszawskie."
+    },
+    "sources": [
+      {
+        "title": "Powstanie Warszawskie",
+        "publisher": "Muzeum Powstania Warszawskiego",
+        "url": "https://www.1944.pl/artykul/powstanie-warszawskie,4736.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      },
+      {
+        "title": "Powstańcze dni: 2 września",
+        "publisher": "Muzeum Powstania Warszawskiego",
+        "url": "https://www.1944.pl/artykul/powstancze-dni-2-wrzesnia,5208.html",
+        "tier": 1,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true
+  },
+  {
+    "id": "destruction-of-warsaw-1944",
+    "title": {
+      "en": "Planned destruction of Warsaw",
+      "pl": "Planowe niszczenie Warszawy"
+    },
+    "startDate": "1944-10-03",
+    "endDate": "1945-01-17",
+    "datePrecision": "approximate",
+    "location": {
+      "lat": 52.23281,
+      "lng": 21.01907,
+      "name": {
+        "en": "Warsaw",
+        "pl": "Warszawa"
+      },
+      "precision": "town"
+    },
+    "type": "other",
+    "belligerents": [
+      "Germany"
+    ],
+    "summary": {
+      "en": "After the capitulation of the Uprising, in breach of its terms, the Germans systematically destroyed Warsaw, demolishing most of its historic buildings, monuments, schools, churches and libraries and burning archives and works of art. The civilian population had been expelled, mostly via the Pruszków transit camp.",
+      "pl": "Po kapitulacji Powstania Niemcy, łamiąc postanowienia aktu kapitulacyjnego, planowo niszczyli Warszawę, burząc większość zabytków, pomników, szkół, kościołów i bibliotek oraz paląc archiwa i dzieła sztuki. Ludność cywilną wysiedlono, w większości przez obóz przejściowy w Pruszkowie."
+    },
+    "sources": [
+      {
+        "title": "Powstanie Warszawskie",
+        "publisher": "Muzeum Powstania Warszawskiego",
+        "url": "https://www.1944.pl/artykul/powstanie-warszawskie,4736.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "Dates approximate: from the day after the capitulation agreement until the Red Army entered the city (17 January 1945, the day the Pruszków camp was also closed).",
+      "pl": "Daty przybliżone: od dnia po podpisaniu układu kapitulacyjnego do wkroczenia Armii Czerwonej (17 stycznia 1945 r., w dniu likwidacji obozu w Pruszkowie)."
+    }
+  },
+  {
+    "id": "sonderkommando-revolt-1944",
+    "title": {
+      "en": "Sonderkommando revolt in Auschwitz-Birkenau",
+      "pl": "Bunt Sonderkommando w Auschwitz-Birkenau"
+    },
+    "startDate": "1944-10-07",
+    "endDate": "1944-10-07",
+    "datePrecision": "day",
+    "location": {
+      "lat": 50.03891,
+      "lng": 19.1713,
+      "name": {
+        "en": "Auschwitz II-Birkenau",
+        "pl": "Auschwitz II-Birkenau"
+      },
+      "precision": "exact"
+    },
+    "type": "uprising",
+    "belligerents": [
+      "Jewish prisoners",
+      "Germany"
+    ],
+    "summary": {
+      "en": "On 7 October 1944 prisoners of the Sonderkommando – the work unit, made up largely of Jewish prisoners, whom the Germans forced to work at the gas chambers, burning pits and crematoria – revolted in Birkenau. After the extermination of the Hungarian Jews the SS had begun reducing the unit, which had reached a record of over 870 prisoners, and an earlier selection had already killed almost 230 of them. When the SS opened fire on prisoners fleeing the courtyard of crematorium IV, some retreated into the building and set fire to it.",
+      "pl": "7 października 1944 r. w Birkenau zbuntowali się więźniowie Sonderkommando – komanda złożonego w większości z Żydów, zmuszanych przez Niemców do pracy przy komorach gazowych, dołach spaleniskowych i krematoriach. Po zagładzie Żydów węgierskich SS przystąpiła do redukcji komanda, które liczyło rekordowo ponad 870 więźniów; wcześniejsza selekcja kosztowała życie niemal 230 z nich. Gdy SS otworzyła ogień do więźniów uciekających z dziedzińca krematorium IV, część z nich wycofała się do budynku i podpaliła go."
+    },
+    "sources": [
+      {
+        "title": "The Revolt of Sonderkommando Prisoners (podcast)",
+        "publisher": "Auschwitz-Birkenau State Museum",
+        "url": "https://www.auschwitz.org/en/education/e-learning/podcast/the-revolt-of-sonderkommando-prisoners/",
+        "tier": 1,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true,
+    "casualties": {
+      "en": "About 450 prisoners were shot during the revolt, the fighting, the escapes and the subsequent executions (Auschwitz-Birkenau State Museum).",
+      "pl": "Ok. 450 więźniów zastrzelono podczas buntu, walk, ucieczek i późniejszej egzekucji (Państwowe Muzeum Auschwitz-Birkenau)."
+    }
+  },
+  {
+    "id": "majdanek-trial-1944",
+    "title": {
+      "en": "First trial of Majdanek camp staff",
+      "pl": "Pierwszy proces załogi Majdanka"
+    },
+    "startDate": "1944-11-27",
+    "endDate": "1944-12-03",
+    "datePrecision": "day",
+    "location": {
+      "lat": 51.22532,
+      "lng": 22.60626,
+      "name": {
+        "en": "Lublin (Majdanek)",
+        "pl": "Lublin (Majdanek)"
+      },
+      "precision": "town"
+    },
+    "type": "other",
+    "belligerents": [
+      "Poland"
+    ],
+    "summary": {
+      "en": "The first trial of German criminals held on Polish soil took place before the Special Criminal Court in Lublin and ended on 2 December 1944. Six former members of the Majdanek camp staff were tried, among them SS-Obersturmführer Anton Thernes, the guards Theodor Schöllen and Hermann Vögel, and two kapos; one of the kapos, Edmund Pohlmann, killed himself on 29 November. The five convicted were publicly hanged at Majdanek on 3 December 1944.",
+      "pl": "Pierwszy proces zbrodniarzy niemieckich przeprowadzony na ziemiach polskich toczył się przed Specjalnym Sądem Karnym w Lublinie i zakończył się 2 grudnia 1944 r. Przed sądem stanęło sześciu byłych członków załogi Majdanka, m.in. SS-Obersturmführer Anton Thernes, wartownicy Theodor Schöllen i Hermann Vögel oraz dwaj kapo; jeden z nich, Edmund Pohlmann, popełnił samobójstwo 29 listopada. Pięciu skazanych powieszono publicznie na Majdanku 3 grudnia 1944 r."
+    },
+    "sources": [
+      {
+        "title": "Kaci z Majdanka przed sądem",
+        "publisher": "Przystanek Historia (IPN)",
+        "url": "https://przystanekhistoria.pl/pa2/tematy/zbrodnie-niemieckie/111726,Kaci-z-Majdanka-przed-sadem.html",
+        "tier": 1,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "The start date (27 November) follows a photo caption in the source dating the hearings to 27–29 November 1944.",
+      "pl": "Data początkowa (27 listopada) opiera się na podpisie zdjęcia w źródle, datującym rozprawy na 27–29 listopada 1944 r."
+    }
+  }
+]

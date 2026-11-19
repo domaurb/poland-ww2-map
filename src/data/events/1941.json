@@ -1,0 +1,1044 @@
+[
+  {
+    "id": "krakow-ghetto-1941",
+    "title": {
+      "en": "Kraków ghetto established",
+      "pl": "Utworzenie getta w Krakowie"
+    },
+    "startDate": "1941-03-03",
+    "endDate": "1941-03-03",
+    "datePrecision": "day",
+    "location": {
+      "lat": 50.0431,
+      "lng": 19.95296,
+      "name": {
+        "en": "Podgórze, Kraków",
+        "pl": "Podgórze, Kraków"
+      },
+      "precision": "town"
+    },
+    "type": "occupation_policy",
+    "belligerents": [
+      "Germany"
+    ],
+    "summary": {
+      "en": "On 3 March 1941 the Germans established a ghetto in Kraków, the capital of the General Government. Of about 80,000 Jews who had lived in the city before the war, only about 15,000 were confined in it, the rest having been expelled; the Germans justified reducing the Jewish population by the city's status as capital.",
+      "pl": "3 marca 1941 r. Niemcy utworzyli getto w Krakowie, stolicy Generalnego Gubernatorstwa. Z ok. 80 tys. Żydów mieszkających w mieście przed wojną trafiło do niego jedynie ok. 15 tys., pozostałych wypędzono; zmniejszenie liczby Żydów uzasadniano rangą miasta jako stolicy."
+    },
+    "sources": [
+      {
+        "title": "Getta w okupowanej Polsce",
+        "publisher": "Żydowski Instytut Historyczny",
+        "url": "https://www.jhi.pl/artykuly/getta-w-okupowanej-polsce,4090",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      }
+    ],
+    "verified": true
+  },
+  {
+    "id": "igo-sym-1941",
+    "title": {
+      "en": "Assassination of Igo Sym",
+      "pl": "Zamach na Igo Syma"
+    },
+    "startDate": "1941-03-07",
+    "endDate": "1941-03-07",
+    "datePrecision": "day",
+    "location": {
+      "lat": 52.23281,
+      "lng": 21.01907,
+      "name": {
+        "en": "Warsaw",
+        "pl": "Warszawa"
+      },
+      "precision": "town"
+    },
+    "type": "resistance_operation",
+    "belligerents": [
+      "Poland",
+      "Germany"
+    ],
+    "summary": {
+      "en": "On 7 March 1941 a combat group of the Union of Armed Struggle (ZWZ) assassinated the actor Igo Sym, a Gestapo collaborator, in Warsaw. The Germans responded harshly: in the night of 7–8 March about 100 men and 18 women were arrested and held in Pawiak, and further executions at Palmiry followed.",
+      "pl": "7 marca 1941 r. grupa bojowa Związku Walki Zbrojnej dokonała w Warszawie zamachu na aktora Igo Syma, współpracownika Gestapo. Reakcja niemiecka była surowa: w nocy z 7 na 8 marca aresztowano ok. 100 mężczyzn i 18 kobiet, których osadzono na Pawiaku, a w Palmirach doszło do kolejnych egzekucji."
+    },
+    "sources": [
+      {
+        "title": "Tylko sosny były świadkami. Egzekucje w Palmirach",
+        "publisher": "Przystanek Historia (IPN)",
+        "url": "https://przystanekhistoria.pl/pa2/teksty/62949,Tylko-sosny-byly-swiadkami-Egzekucje-w-Palmirach.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      }
+    ],
+    "verified": true
+  },
+  {
+    "id": "lublin-ghetto-1941",
+    "title": {
+      "en": "Lublin ghetto established",
+      "pl": "Utworzenie getta w Lublinie"
+    },
+    "startDate": "1941-03-24",
+    "endDate": "1941-03-24",
+    "datePrecision": "day",
+    "location": {
+      "lat": 51.21819,
+      "lng": 22.55468,
+      "name": {
+        "en": "Lublin",
+        "pl": "Lublin"
+      },
+      "precision": "town"
+    },
+    "type": "occupation_policy",
+    "belligerents": [
+      "Germany"
+    ],
+    "summary": {
+      "en": "On 24 March 1941 the Germans established a ghetto in Lublin, confining about 37,000 people. The Lublin region had earlier been intended as a Jewish 'reservation', a plan later abandoned; the ghetto was fenced in February 1942 and divided into 'productive' and 'unproductive' parts as a prelude to its liquidation.",
+      "pl": "24 marca 1941 r. Niemcy utworzyli getto w Lublinie, w którym uwięziono ok. 37 tys. osób. Lubelszczyzna miała wcześniej stać się żydowskim „rezerwatem”, czego ostatecznie zaniechano; w lutym 1942 r. getto ogrodzono i podzielono na część „produktywną” i „nieproduktywną”, co było wstępem do jego likwidacji."
+    },
+    "sources": [
+      {
+        "title": "Getta w okupowanej Polsce",
+        "publisher": "Żydowski Instytut Historyczny",
+        "url": "https://www.jhi.pl/artykuly/getta-w-okupowanej-polsce,4090",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      }
+    ],
+    "verified": true
+  },
+  {
+    "id": "soviet-deportation-may-1941",
+    "title": {
+      "en": "Fourth Soviet deportation: Western Ukraine (May 1941)",
+      "pl": "Czwarta deportacja sowiecka: „Zachodnia Ukraina” (maj 1941)"
+    },
+    "startDate": "1941-05-22",
+    "endDate": "1941-05-22",
+    "datePrecision": "day",
+    "location": {
+      "lat": 49.55579,
+      "lng": 25.59238,
+      "name": {
+        "en": "Soviet-occupied south-eastern Poland (marker at Tarnopol / Ternopil)",
+        "pl": "Ziemie południowo-wschodnie pod okupacją sowiecką (znacznik: Tarnopol)"
+      },
+      "precision": "region"
+    },
+    "type": "deportation",
+    "belligerents": [
+      "Soviet Union"
+    ],
+    "summary": {
+      "en": "After a decision of 14 May 1941 to complete the 'cleansing' of the territories annexed in 1939–1940, the NKVD began deporting people from so-called Western Ukraine on 22 May 1941, a month before the German attack on the USSR.",
+      "pl": "Po decyzji KC WKP(b) z 14 maja 1941 r. o ostatecznym „oczyszczeniu” obszarów wcielonych w latach 1939–1940, 22 maja 1941 r. – na miesiąc przed atakiem Niemiec na ZSRS – NKWD zaczęło wysiedlać ludność z tzw. Zachodniej Ukrainy."
+    },
+    "sources": [
+      {
+        "title": "Sowieckie deportacje Polaków z Kresów Wschodnich",
+        "publisher": "Przystanek Historia (IPN)",
+        "url": "https://przystanekhistoria.pl/pa2/tematy/represje/91169,Sowieckie-deportacje-Polakow-z-Kresow-Wschodnich.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "The deportation covered a wide area; the marker at Tarnopol is only a representative location.",
+      "pl": "Deportacja objęła rozległy obszar; znacznik (Tarnopol) jest jedynie lokalizacją reprezentatywną."
+    }
+  },
+  {
+    "id": "soviet-deportation-jun-1941",
+    "title": {
+      "en": "Fourth Soviet deportation: Western Belarus (June 1941)",
+      "pl": "Czwarta deportacja sowiecka: „Zachodnia Białoruś” (czerwiec 1941)"
+    },
+    "startDate": "1941-06-20",
+    "endDate": "1941-06-22",
+    "datePrecision": "day",
+    "location": {
+      "lat": 53.59425,
+      "lng": 25.82163,
+      "name": {
+        "en": "Soviet-occupied north-eastern Poland (marker at Nowogródek)",
+        "pl": "Ziemie północno-wschodnie pod okupacją sowiecką (znacznik: Nowogródek)"
+      },
+      "precision": "region"
+    },
+    "type": "deportation",
+    "belligerents": [
+      "Soviet Union"
+    ],
+    "summary": {
+      "en": "In the night of 19–20 June 1941 the NKVD began deporting people from so-called Western Belarus, after operations in Lithuania, Latvia and Estonia from 14 June. The last trains left on 22 June 1941, the day Germany attacked the Soviet Union.",
+      "pl": "W nocy z 19 na 20 czerwca 1941 r. NKWD rozpoczęło wywózkę ludności z tzw. Zachodniej Białorusi, po operacjach na Litwie, Łotwie i w Estonii prowadzonych od 14 czerwca. Ostatnie transporty kolejowe odjechały 22 czerwca 1941 r., w dniu niemieckiej agresji na ZSRS."
+    },
+    "casualties": {
+      "en": "IPN estimates at least 300,000 people deported in all four mass deportations of 1940–1941 (some estimates up to about 1 million).",
+      "pl": "Według IPN w czterech wielkich deportacjach z lat 1940–1941 zesłano co najmniej 300 tys. osób (niektóre szacunki wskazują nawet ok. 1 mln)."
+    },
+    "sources": [
+      {
+        "title": "Sowieckie deportacje Polaków z Kresów Wschodnich",
+        "publisher": "Przystanek Historia (IPN)",
+        "url": "https://przystanekhistoria.pl/pa2/tematy/represje/91169,Sowieckie-deportacje-Polakow-z-Kresow-Wschodnich.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      },
+      {
+        "title": "Filip Musiał: Katyń – pamiętamy",
+        "publisher": "Instytut Pamięci Narodowej",
+        "url": "https://archiwum.ipn.gov.pl/pl/zbrodnia-katynska/142135,Filip-Musial-Katyn-pamietamy.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "The deportation covered a wide area; the marker at Nowogródek is only a representative location.",
+      "pl": "Deportacja objęła rozległy obszar; znacznik (Nowogródek) jest jedynie lokalizacją reprezentatywną."
+    }
+  },
+  {
+    "id": "barbarossa-1941",
+    "title": {
+      "en": "German invasion of the Soviet-occupied eastern territories",
+      "pl": "Atak Niemiec na ZSRS na wschodnich ziemiach II RP"
+    },
+    "startDate": "1941-06-22",
+    "endDate": "1941-06-22",
+    "datePrecision": "day",
+    "location": {
+      "lat": 52.09375,
+      "lng": 23.68519,
+      "name": {
+        "en": "Eastern Poland (marker at Brześć / Brest)",
+        "pl": "Wschodnie ziemie II RP (znacznik: Brześć)"
+      },
+      "precision": "region"
+    },
+    "type": "battle",
+    "belligerents": [
+      "Germany",
+      "Soviet Union"
+    ],
+    "summary": {
+      "en": "On 22 June 1941 Germany attacked the Soviet Union, and within days the Wehrmacht overran the eastern territories of pre-war Poland occupied by the USSR since 1939; the Łomża area was taken almost immediately and Lwów on 30 June. Retreating NKVD units massacred prisoners, and the German entry was followed by mass killings of Jews and the incorporation of the territories into new German administrative units such as the Białystok District.",
+      "pl": "22 czerwca 1941 r. Niemcy zaatakowały Związek Sowiecki i w ciągu kilku dni Wehrmacht zajął okupowane od 1939 r. przez ZSRS wschodnie ziemie II RP; Łomżyńskie zostało zajęte niemal natychmiast, a Lwów 30 czerwca. Wycofujące się NKWD mordowało więźniów, a po wkroczeniu Niemców doszło do masowych mordów na Żydach i włączenia tych ziem do nowych niemieckich jednostek administracyjnych, takich jak Okręg Białostocki."
+    },
+    "sources": [
+      {
+        "title": "Niemieckie zbrodnie na Żydach na ziemi łomżyńskiej latem 1941 roku",
+        "publisher": "Przystanek Historia (IPN)",
+        "url": "https://przystanekhistoria.pl/pa2/tematy/zbrodnie-niemieckie/93347,Niemieckie-zbrodnie-na-Zydach-na-ziemi-lomzynskiej-latem-1941-roku.html",
+        "tier": 1,
+        "accessed": "2026-11-19"
+      },
+      {
+        "title": "1 lipca 1941. Początek pogromów lwowskich",
+        "publisher": "Żydowski Instytut Historyczny",
+        "url": "https://www.jhi.pl/artykuly/1-lipca-1941-poczatek-pogromow-lwowskich,676",
+        "tier": 1,
+        "accessed": "2026-11-19"
+      },
+      {
+        "title": "10 sierpnia 1942 r. Niemcy rozpoczęli likwidację getta we Lwowie",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/aktualnosci/10-sierpnia-1942-r-niemcy-rozpoczeli-likwidacje-getta-we-lwowie",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "The marker at Brześć, on the 1941 German–Soviet border, is only a representative location.",
+      "pl": "Znacznik w Brześciu, na granicy niemiecko-sowieckiej z 1941 r., jest jedynie lokalizacją reprezentatywną."
+    }
+  },
+  {
+    "id": "nkvd-prison-massacres-1941",
+    "title": {
+      "en": "NKVD prison massacres",
+      "pl": "Mordy więzienne NKWD"
+    },
+    "startDate": "1941-06-22",
+    "endDate": "1941-08-28",
+    "datePrecision": "day",
+    "location": {
+      "lat": 49.84195,
+      "lng": 24.03159,
+      "name": {
+        "en": "Lwów (Lviv) and other towns",
+        "pl": "Lwów i inne miejscowości"
+      },
+      "precision": "region"
+    },
+    "type": "massacre",
+    "belligerents": [
+      "Soviet Union"
+    ],
+    "summary": {
+      "en": "After the German attack of 22 June 1941, NKVD officers murdered prisoners held in jails in the eastern territories, among others in Lwów, Złoczów and Tarnopol; many others were driven east on foot in an 'evacuation', and those who could not keep up were bayoneted. IPN prosecutors classified the killings in Lwów as war crimes, communist crimes and crimes against humanity committed on national and political grounds, but could not identify the direct perpetrators.",
+      "pl": "Po niemieckiej agresji z 22 czerwca 1941 r. funkcjonariusze NKWD mordowali więźniów przetrzymywanych w więzieniach na ziemiach wschodnich, m.in. we Lwowie, Złoczowie i Tarnopolu; wielu innych pędzono pieszo na wschód w ramach „ewakuacji”, a tych, którzy nie nadążali, zabijano bagnetami. Prokuratorzy IPN uznali zbrodnie we Lwowie za zbrodnie wojenne, komunistyczne i przeciwko ludzkości, popełnione z motywów narodowościowych i politycznych, nie zdołali jednak ustalić bezpośrednich sprawców."
+    },
+    "casualties": {
+      "en": "About 4,000 Polish citizens murdered in Lwów (IPN investigation, closed in 2015, reported by dzieje.pl/PAP).",
+      "pl": "Ok. 4 tys. obywateli polskich zamordowanych we Lwowie (śledztwo IPN umorzone w 2015 r., za dzieje.pl/PAP)."
+    },
+    "sources": [
+      {
+        "title": "IPN: po inwazji Niemiec na ZSRS NKWD zamordowało we Lwowie 4 tys. polskich obywateli",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/aktualnosci/ipn-po-inwazji-niemiec-na-zsrs-nkwd-zamordowalo-4-tys-polskich-obywateli",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      },
+      {
+        "title": "1 lipca 1941. Początek pogromów lwowskich",
+        "publisher": "Żydowski Instytut Historyczny",
+        "url": "https://www.jhi.pl/artykuly/1-lipca-1941-poczatek-pogromow-lwowskich,676",
+        "tier": 1,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "Dates follow IPN (22 June – 28 August 1941). Only a tier-2 report of the IPN decision and a tier-1 JHI mention were available; the Lwów prisons included Brygidki, Zamarstynów and Łącki Street. The JHI source notes that the victims were mainly Poles and Ukrainians.",
+      "pl": "Daty według IPN (22 czerwca – 28 sierpnia 1941 r.). Dostępna była relacja 2. kategorii z postanowienia IPN oraz wzmianka ŻIH (1. kategoria); we Lwowie chodziło m.in. o więzienia Brygidki, Zamarstynów i przy ul. Łąckiego. Źródło ŻIH podaje, że ofiarami byli głównie Polacy i Ukraińcy."
+    }
+  },
+  {
+    "id": "bialystok-synagogue-1941",
+    "title": {
+      "en": "Burning of the Great Synagogue and killings of Jews in Białystok",
+      "pl": "Spalenie Wielkiej Synagogi i mord na Żydach w Białymstoku"
+    },
+    "startDate": "1941-06-27",
+    "endDate": "1941-06-27",
+    "datePrecision": "day",
+    "location": {
+      "lat": 53.13071,
+      "lng": 23.15751,
+      "name": {
+        "en": "Great Synagogue, Białystok",
+        "pl": "Wielka Synagoga, Białystok"
+      },
+      "precision": "exact"
+    },
+    "type": "massacre",
+    "belligerents": [
+      "Germany"
+    ],
+    "summary": {
+      "en": "Days after the outbreak of the German–Soviet war the Wehrmacht took Białystok, where Jews made up over 40 per cent of the pre-war population. The Germans burned the Great Synagogue and in the first weeks of the occupation murdered several thousand of the city's Jews.",
+      "pl": "Kilka dni po wybuchu wojny niemiecko-sowieckiej Wehrmacht zajął Białystok, w którym Żydzi stanowili przed wojną ponad 40 proc. mieszkańców. Niemcy spalili Wielką Synagogę i w pierwszych tygodniach okupacji wymordowali kilka tysięcy miejscowych Żydów."
+    },
+    "casualties": {
+      "en": "JHI gives about 2,000 Jews killed in the pogrom; IPN gives several thousand murdered in the first weeks of the occupation.",
+      "pl": "ŻIH podaje ok. 2 tys. Żydów zamordowanych podczas pogromu; IPN – kilka tysięcy zamordowanych w pierwszych tygodniach okupacji."
+    },
+    "sources": [
+      {
+        "title": "80. rocznica powstania w getcie białostockim",
+        "publisher": "Instytut Pamięci Narodowej",
+        "url": "https://ipn.gov.pl/pl/dla-mediow/komunikaty/189220,TEKST-AUDIO-80-rocznica-powstania-w-getcie-bialostockim.html",
+        "tier": 1,
+        "accessed": "2026-11-19"
+      },
+      {
+        "title": "16 sierpnia 1943. Początek powstania w getcie w Białymstoku",
+        "publisher": "Żydowski Instytut Historyczny",
+        "url": "https://www.jhi.pl/artykuly/16-sierpnia-1943-poczatek-powstania-w-getcie-w-bialymstoku,712",
+        "tier": 1,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "IPN dates the German capture of Białystok to 27 June 1941, JHI to 26 June. The date shown follows IPN.",
+      "pl": "IPN datuje zajęcie Białegostoku przez Niemców na 27 czerwca 1941 r., ŻIH na 26 czerwca. Przyjęto datę IPN."
+    }
+  },
+  {
+    "id": "lwow-pogroms-1941",
+    "title": {
+      "en": "Lwów pogroms",
+      "pl": "Pogromy we Lwowie"
+    },
+    "startDate": "1941-07-01",
+    "endDate": "1941-07-27",
+    "datePrecision": "day",
+    "location": {
+      "lat": 49.84195,
+      "lng": 24.03159,
+      "name": {
+        "en": "Lwów (Lviv)",
+        "pl": "Lwów"
+      },
+      "precision": "town"
+    },
+    "type": "massacre",
+    "summary": {
+      "en": "The Germans took Lwów on 30 June 1941, and from 1 July pogroms of Jews broke out in the city, continuing intermittently until 27 July. The perpetrators were German and Ukrainian soldiers, members of the Ukrainian militia and local residents; Jews were blamed for the NKVD prison massacres, for which the NKVD was in fact responsible. In the further pogrom known as the 'Petlura Days', from 25 July, more than 2,000 Jews were murdered over several days.",
+      "pl": "Niemcy zajęli Lwów 30 czerwca 1941 r., a od 1 lipca w mieście wybuchły pogromy Żydów, trwające z przerwami do 27 lipca. Sprawcami byli żołnierze niemieccy i ukraińscy, członkowie milicji ukraińskiej oraz miejscowa ludność; Żydów obwiniano za mordy więzienne NKWD, za które w rzeczywistości odpowiadało NKWD. W kolejnym pogromie, zwanym „Dniami Petlury”, od 25 lipca w ciągu kilku dni zamordowano ponad 2 tys. Żydów."
+    },
+    "casualties": {
+      "en": "More than 2,000 Jews murdered during the 'Petlura Days' alone (dzieje.pl/PAP); the total for July 1941 is not given in these sources.",
+      "pl": "Ponad 2 tys. Żydów zamordowanych podczas samych „Dni Petlury” (dzieje.pl/PAP); łącznej liczby ofiar z lipca 1941 r. źródła te nie podają."
+    },
+    "sources": [
+      {
+        "title": "1 lipca 1941. Początek pogromów lwowskich",
+        "publisher": "Żydowski Instytut Historyczny",
+        "url": "https://www.jhi.pl/artykuly/1-lipca-1941-poczatek-pogromow-lwowskich,676",
+        "tier": 1,
+        "accessed": "2026-11-19"
+      },
+      {
+        "title": "10 sierpnia 1942 r. Niemcy rozpoczęli likwidację getta we Lwowie",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/aktualnosci/10-sierpnia-1942-r-niemcy-rozpoczeli-likwidacje-getta-we-lwowie",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true
+  },
+  {
+    "id": "ponary-1941",
+    "title": {
+      "en": "Ponary executions",
+      "pl": "Egzekucje w Ponarach"
+    },
+    "startDate": "1941-07-01",
+    "endDate": "1944-07-31",
+    "datePrecision": "approximate",
+    "location": {
+      "lat": 54.62634,
+      "lng": 25.16103,
+      "name": {
+        "en": "Ponary (Paneriai), near Wilno",
+        "pl": "Ponary koło Wilna"
+      },
+      "precision": "exact"
+    },
+    "type": "massacre",
+    "belligerents": [
+      "Germany"
+    ],
+    "summary": {
+      "en": "From early July 1941 to 1944 German units, assisted by Lithuanian collaborationist formations – in particular the special squad Ypatingasis būrys subordinated to the SD and Sipo – carried out mass shootings in the Ponary forest near Wilno. Most victims were Jews from the Wilno region, but Poles, Belarusians, Roma, Tatars, Lithuanians accused of anti-German activity and Red Army prisoners of war were also killed there. Before the Wilno ghetto was created on 6 September 1941, 13,000–18,000 of the city's Jews had already been shot at Ponary.",
+      "pl": "Od początku lipca 1941 r. do 1944 r. niemieckie oddziały przy udziale litewskich formacji kolaboracyjnych – zwłaszcza oddziału specjalnego Ypatingasis būrys podległego SD i Sipo – dokonywały masowych rozstrzeliwań w lesie w Ponarach koło Wilna. Większość ofiar stanowili Żydzi z Wileńszczyzny, ale ginęli tu także Polacy, Białorusini, Romowie, Tatarzy, Litwini oskarżani o działalność antyniemiecką oraz jeńcy Armii Czerwonej. Zanim 6 września 1941 r. utworzono getto wileńskie, w Ponarach rozstrzelano już 13–18 tys. wileńskich Żydów."
+    },
+    "casualties": {
+      "en": "About 100,000 people murdered in 1941–1944; Poles are estimated at about 2% of the victims (Przystanek Historia/IPN).",
+      "pl": "Ok. 100 tys. zamordowanych w latach 1941–1944; Polacy stanowili szacunkowo ok. 2% ofiar (Przystanek Historia/IPN)."
+    },
+    "sources": [
+      {
+        "title": "Ponary – miejsce kaźni",
+        "publisher": "Przystanek Historia (IPN)",
+        "url": "https://przystanekhistoria.pl/pa2/tematy/zbrodnie-niemieckie/34462,Ponary-miejsce-kazni.html",
+        "tier": 1,
+        "accessed": "2026-11-19"
+      },
+      {
+        "title": "Getta w okupowanej Polsce",
+        "publisher": "Żydowski Instytut Historyczny",
+        "url": "https://www.jhi.pl/artykuly/getta-w-okupowanej-polsce,4090",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "Dates approximate: 'early July 1941' to 1944; the end is shown as July 1944.",
+      "pl": "Daty przybliżone: od „początku lipca 1941 r.” do 1944 r.; jako koniec przyjęto lipiec 1944 r."
+    }
+  },
+  {
+    "id": "lwow-professors-1941",
+    "title": {
+      "en": "Murder of the Lwów professors",
+      "pl": "Mord profesorów lwowskich"
+    },
+    "startDate": "1941-07-04",
+    "endDate": "1941-07-04",
+    "datePrecision": "day",
+    "location": {
+      "lat": 49.82688,
+      "lng": 24.01206,
+      "name": {
+        "en": "Wulka Hills (Wzgórza Wuleckie), Lwów",
+        "pl": "Wzgórza Wuleckie, Lwów"
+      },
+      "precision": "town"
+    },
+    "type": "massacre",
+    "belligerents": [
+      "Germany"
+    ],
+    "summary": {
+      "en": "In the night of 3–4 July 1941 patrols of the SS and Gestapo, with Ukrainian guides and interpreters, arrested 52 people in Lwów – scholars of the city's universities, members of their families, servants and guests, among them the writer Tadeusz Boy-Żeleński. On the morning of 4 July most were shot on the Wulka Hills; only Prof. Franciszek Groër was released.",
+      "pl": "W nocy z 3 na 4 lipca 1941 r. patrole SS i gestapo z ukraińskimi przewodnikami i tłumaczami aresztowały we Lwowie 52 osoby – uczonych lwowskich uczelni, członków ich rodzin, służbę i gości, wśród nich pisarza Tadeusza Boya-Żeleńskiego. Rankiem 4 lipca większość z nich rozstrzelano na Wzgórzach Wuleckich; uwolniono jedynie prof. Franciszka Groëra."
+    },
+    "casualties": {
+      "en": "40 people killed on 4 July and two more the next day (Przystanek Historia/IPN).",
+      "pl": "4 lipca zamordowano 40 osób, a nazajutrz jeszcze dwie (Przystanek Historia/IPN)."
+    },
+    "sources": [
+      {
+        "title": "Wzgórza Wuleckie spłynęły krwią",
+        "publisher": "Przystanek Historia (IPN)",
+        "url": "https://przystanekhistoria.pl/pa2/teksty/92969,Wzgorza-Wuleckie-splynely-krwia.html",
+        "tier": 1,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "Who drew up the proscription lists remains unclear in the literature.",
+      "pl": "Kto przygotował listy proskrypcyjne, pozostaje w literaturze niejasne."
+    }
+  },
+  {
+    "id": "radzilow-1941",
+    "title": {
+      "en": "Radziłów massacre",
+      "pl": "Zbrodnia w Radziłowie"
+    },
+    "startDate": "1941-07-07",
+    "endDate": "1941-07-08",
+    "datePrecision": "day",
+    "location": {
+      "lat": 53.40978,
+      "lng": 22.40939,
+      "name": {
+        "en": "Radziłów",
+        "pl": "Radziłów"
+      },
+      "precision": "town"
+    },
+    "type": "massacre",
+    "summary": {
+      "en": "On the morning of 7 July 1941 Germans arrived in Radziłów and ordered the town's representatives to 'cleanse' it of Jews. According to the IPN investigation, a group of at least a dozen local Polish residents then gathered the Jews in the market square and drove them into an empty barn, which was doused with petrol and set on fire; those escaping were shot or thrown back in, the firearms having been handed to the perpetrators by the Germans. On that day and the next, Jews in hiding were hunted down and killed.",
+      "pl": "Rankiem 7 lipca 1941 r. do Radziłowa przyjechali Niemcy, którzy nakazali przedstawicielom miasteczka „oczyszczenie” go z Żydów. Według ustaleń śledztwa IPN grupa co najmniej kilkunastu polskich mieszkańców Radziłowa zgromadziła Żydów na rynku i zagnała do pustej stodoły, którą oblano benzyną i podpalono; uciekających zabijano z broni palnej lub wrzucano z powrotem, a broń wręczyli sprawcom Niemcy. Tego dnia i następnego wyszukiwano i zabijano ukrywających się Żydów."
+    },
+    "casualties": {
+      "en": "The number of victims cannot be established precisely; IPN estimates between 100 and 1,000 people.",
+      "pl": "Liczby ofiar nie można dokładnie ustalić; IPN szacuje ją na od 100 do 1000 osób."
+    },
+    "sources": [
+      {
+        "title": "Śledztwa zakończone wydaniem postanowienia o umorzeniu – Oddziałowa Komisja w Białymstoku (śledztwo S 47/11/Zn, Radziłów)",
+        "publisher": "Instytut Pamięci Narodowej",
+        "url": "https://ipn.gov.pl/pl/sledztwa-i-lustracja/sciganie-zbrodni-przeciwko-nar/sledztwa-1/oddzialowa-komisja-w-bialymsto/31527,Sledztwa-zakonczone-wydaniem-postanowienia-o-umorzeniu.html",
+        "tier": 1,
+        "accessed": "2026-11-19"
+      },
+      {
+        "title": "Niemieckie zbrodnie na Żydach na ziemi łomżyńskiej latem 1941 roku",
+        "publisher": "Przystanek Historia (IPN)",
+        "url": "https://przystanekhistoria.pl/pa2/tematy/zbrodnie-niemieckie/93347,Niemieckie-zbrodnie-na-Zydach-na-ziemi-lomzynskiej-latem-1941-roku.html",
+        "tier": 1,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "IPN closed the investigation because the identified Polish perpetrators were dead; a Hamburg prosecutor discontinued proceedings against the German commander Hermann Schaper in 1965. Przystanek Historia (IPN) cites witnesses stating that Schaper's unit began the killing in Radziłów. IPN notes that the degree of Polish and German participation differed between the some 30 anti-Jewish outbreaks in the Białystok region in 1941.",
+      "pl": "IPN umorzył śledztwo, ponieważ ustaleni polscy sprawcy nie żyją; prokuratura w Hamburgu umorzyła w 1965 r. postępowanie wobec niemieckiego dowódcy Hermanna Schapera. Przystanek Historia (IPN) przytacza świadków, według których mord w Radziłowie zapoczątkował oddział Schapera. IPN zaznacza, że stopień udziału Polaków i Niemców różnił się w poszczególnych spośród ok. 30 wystąpień antyżydowskich na Białostocczyźnie w 1941 r."
+    }
+  },
+  {
+    "id": "jedwabne-1941",
+    "title": {
+      "en": "Jedwabne massacre",
+      "pl": "Zbrodnia w Jedwabnem"
+    },
+    "startDate": "1941-07-10",
+    "endDate": "1941-07-10",
+    "datePrecision": "day",
+    "location": {
+      "lat": 53.28673,
+      "lng": 22.30214,
+      "name": {
+        "en": "Jedwabne",
+        "pl": "Jedwabne"
+      },
+      "precision": "town"
+    },
+    "type": "massacre",
+    "summary": {
+      "en": "On 10 July 1941, in German-occupied Jedwabne, Jewish residents were gathered in the market square and driven to a barn on the edge of the town, where at least 300 people of all ages were locked inside and burned alive; at least 40 others were killed beforehand. The IPN investigation concluded in 2003 that the direct perpetrators were at least about 40 Polish men from Jedwabne and the surrounding area, acting at German inspiration. It attributed responsibility in the broader sense (sensu largo) to the Germans, finding that the presence of German gendarmes amounted to permission for the crime.",
+      "pl": "10 lipca 1941 r. w okupowanym przez Niemców Jedwabnem żydowskich mieszkańców zgromadzono na rynku i zaprowadzono do stodoły na skraju miejscowości, gdzie co najmniej 300 osób obojga płci i w różnym wieku zamknięto i spalono żywcem; co najmniej 40 innych zabito wcześniej. Śledztwo IPN zakończone w 2003 r. ustaliło, że bezpośrednimi wykonawcami zbrodni (sprawcami sensu stricto) byli polscy mieszkańcy Jedwabnego i okolic – co najmniej około 40 mężczyzn działających z niemieckiej inspiracji. Sprawstwo sensu largo przypisano Niemcom, uznając, że obecność niemieckich żandarmów była równoznaczna z przyzwoleniem na zbrodnię."
+    },
+    "casualties": {
+      "en": "Not fewer than 340 Jewish victims (IPN, 2003).",
+      "pl": "Nie mniej niż 340 ofiar narodowości żydowskiej (IPN, 2003)."
+    },
+    "sources": [
+      {
+        "title": "Komunikat dot. postanowienia o umorzeniu śledztwa w sprawie zabójstwa obywateli polskich narodowości żydowskiej w Jedwabnem w dniu 10 lipca 1941 r.",
+        "publisher": "Instytut Pamięci Narodowej",
+        "url": "https://ipn.gov.pl/pl/dla-mediow/komunikaty/10057,Komunikat-dot-postanowienia-o-umorzeniu-sledztwa-w-sprawie-zabojstwa-obywateli-p.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      },
+      {
+        "title": "Postanowienie o umorzeniu śledztwa, sygn. S 1/00/Zn (30 czerwca 2003)",
+        "publisher": "Instytut Pamięci Narodowej",
+        "url": "https://ipn.gov.pl/download/1/66087/SledztwowsprawiezaboojstwawJedwabnem.pdf",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "Earlier accounts and investigations cited about 1,600 victims; the IPN investigation, which included exhumation work in 2001, established a minimum of 340. The 2003 decision discontinued the investigation because no living perpetrators were found other than those already tried in Polish courts (1949, 1953).",
+      "pl": "We wcześniejszych relacjach i postępowaniach podawano ok. 1600 ofiar; śledztwo IPN, obejmujące czynności ekshumacyjne w 2001 r., ustaliło liczbę co najmniej 340. Postanowieniem z 2003 r. śledztwo umorzono wobec niewykrycia innych żyjących sprawców niż osądzeni wcześniej przez polskie sądy (1949, 1953)."
+    }
+  },
+  {
+    "id": "bialystok-ghetto-1941",
+    "title": {
+      "en": "Białystok ghetto",
+      "pl": "Getto białostockie"
+    },
+    "startDate": "1941-08-01",
+    "endDate": "1943-08-20",
+    "datePrecision": "approximate",
+    "location": {
+      "lat": 53.1275,
+      "lng": 23.14705,
+      "name": {
+        "en": "Białystok",
+        "pl": "Białystok"
+      },
+      "precision": "town"
+    },
+    "type": "camp",
+    "belligerents": [
+      "Germany"
+    ],
+    "summary": {
+      "en": "Around the turn of July and August 1941 the Germans confined the Jews of Białystok and the surrounding area – about 50,000 people – in a ghetto cut off from the outside world. In February 1943 they carried out the first large liquidation action, deporting about 10,000 people to Treblinka II; the final liquidation in August 1943 met armed resistance.",
+      "pl": "Na przełomie lipca i sierpnia 1941 r. Niemcy stłoczyli Żydów z Białegostoku i okolic – ok. 50 tys. osób – w getcie odizolowanym od świata zewnętrznego. W lutym 1943 r. przeprowadzili pierwszą dużą akcję likwidacyjną, wywożąc ok. 10 tys. osób do obozu zagłady Treblinka II; ostateczna likwidacja w sierpniu 1943 r. napotkała zbrojny opór."
+    },
+    "sources": [
+      {
+        "title": "80. rocznica powstania w getcie białostockim",
+        "publisher": "Instytut Pamięci Narodowej",
+        "url": "https://ipn.gov.pl/pl/dla-mediow/komunikaty/189220,TEKST-AUDIO-80-rocznica-powstania-w-getcie-bialostockim.html",
+        "tier": 1,
+        "accessed": "2026-11-19"
+      },
+      {
+        "title": "16 sierpnia 1943. Początek powstania w getcie w Białymstoku",
+        "publisher": "Żydowski Instytut Historyczny",
+        "url": "https://www.jhi.pl/artykuly/16-sierpnia-1943-poczatek-powstania-w-getcie-w-bialymstoku,712",
+        "tier": 1,
+        "accessed": "2026-11-19"
+      },
+      {
+        "title": "Getta w okupowanej Polsce",
+        "publisher": "Żydowski Instytut Historyczny",
+        "url": "https://www.jhi.pl/artykuly/getta-w-okupowanej-polsce,4090",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "The start is approximate ('turn of July and August 1941'); JHI gives 40,000–60,000 inhabitants. The end date is the end of the uprising (see separate event).",
+      "pl": "Początek przybliżony („przełom lipca i sierpnia 1941 r.”); ŻIH podaje 40–60 tys. mieszkańców. Data końcowa to koniec powstania (osobne wydarzenie)."
+    }
+  },
+  {
+    "id": "czerwony-bor-1941",
+    "title": {
+      "en": "Murder of Zambrów Jews in the Czerwony Bór forest",
+      "pl": "Mord na Żydach z Zambrowa w Czerwonym Borze"
+    },
+    "startDate": "1941-08-01",
+    "endDate": "1941-09-30",
+    "datePrecision": "month",
+    "location": {
+      "lat": 53.04246,
+      "lng": 22.11411,
+      "name": {
+        "en": "Czerwony Bór forest near Zambrów",
+        "pl": "Las Czerwony Bór koło Zambrowa"
+      },
+      "precision": "town"
+    },
+    "type": "massacre",
+    "belligerents": [
+      "Germany"
+    ],
+    "summary": {
+      "en": "In August and September 1941 the Germans murdered 2,000 Jews from Zambrów in the forests of Czerwony Bór.",
+      "pl": "W sierpniu i wrześniu 1941 r. Niemcy zgładzili w lasach Czerwonego Boru 2 tys. Żydów z Zambrowa."
+    },
+    "casualties": {
+      "en": "2,000 Jews (JHI).",
+      "pl": "2 tys. Żydów (ŻIH)."
+    },
+    "sources": [
+      {
+        "title": "Getta w okupowanej Polsce",
+        "publisher": "Żydowski Instytut Historyczny",
+        "url": "https://www.jhi.pl/artykuly/getta-w-okupowanej-polsce,4090",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      }
+    ],
+    "verified": true
+  },
+  {
+    "id": "gielczyn-1941",
+    "title": {
+      "en": "Murder of Łomża Jews at Giełczyn",
+      "pl": "Mord na Żydach łomżyńskich w Giełczynie"
+    },
+    "startDate": "1941-08-01",
+    "endDate": "1941-08-31",
+    "datePrecision": "month",
+    "location": {
+      "lat": 53.12359,
+      "lng": 22.07228,
+      "name": {
+        "en": "Giełczyn forest near Łomża",
+        "pl": "Las koło Giełczyna pod Łomżą"
+      },
+      "precision": "town"
+    },
+    "type": "massacre",
+    "belligerents": [
+      "Germany"
+    ],
+    "summary": {
+      "en": "In August 1941 the Germans murdered more than 2,000 Jews from Łomża in the forests near Giełczyn. That summer a small German unit under SS-Obersturmführer Hermann Schaper operated in the Łomża area; IPN-affiliated research attributes a series of killings of Jews in the region to it.",
+      "pl": "W sierpniu 1941 r. Niemcy zamordowali w lasach koło Giełczyna ponad 2 tys. Żydów z Łomży. Latem tego roku w Łomżyńskiem działał niewielki niemiecki oddział pod dowództwem SS-Obersturmführera Hermanna Schapera, któremu badania związane z IPN przypisują szereg mordów na Żydach w regionie."
+    },
+    "casualties": {
+      "en": "More than 2,000 Jews (JHI).",
+      "pl": "Ponad 2 tys. Żydów (ŻIH)."
+    },
+    "sources": [
+      {
+        "title": "Getta w okupowanej Polsce",
+        "publisher": "Żydowski Instytut Historyczny",
+        "url": "https://www.jhi.pl/artykuly/getta-w-okupowanej-polsce,4090",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      },
+      {
+        "title": "Niemieckie zbrodnie na Żydach na ziemi łomżyńskiej latem 1941 roku",
+        "publisher": "Przystanek Historia (IPN)",
+        "url": "https://przystanekhistoria.pl/pa2/tematy/zbrodnie-niemieckie/93347,Niemieckie-zbrodnie-na-Zydach-na-ziemi-lomzynskiej-latem-1941-roku.html",
+        "tier": 1,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true
+  },
+  {
+    "id": "tykocin-1941",
+    "title": {
+      "en": "Murder of the Jews of Tykocin (Łopuchowo forest)",
+      "pl": "Zagłada Żydów z Tykocina (Las Łopuchowski)"
+    },
+    "startDate": "1941-08-25",
+    "endDate": "1941-08-26",
+    "datePrecision": "day",
+    "location": {
+      "lat": 53.1672,
+      "lng": 22.67732,
+      "name": {
+        "en": "Łopuchowo forest near Tykocin",
+        "pl": "Las Łopuchowski koło Tykocina"
+      },
+      "precision": "town"
+    },
+    "type": "massacre",
+    "belligerents": [
+      "Germany"
+    ],
+    "summary": {
+      "en": "On 25 and 26 August 1941 the Germans murdered the Jewish inhabitants of Tykocin in the forest near the village of Łopuchowo, where pits had been dug beforehand. A witness saw Hermann Schaper in Tykocin during the killing, and the German investigator Martin Opitz attributed its command to him.",
+      "pl": "25 i 26 sierpnia 1941 r. Niemcy zamordowali żydowskich mieszkańców Tykocina w lesie koło wsi Łopuchowo, gdzie wcześniej wykopano doły. Świadek widział w Tykocinie w czasie eksterminacji Hermanna Schapera, a niemiecki śledczy Martin Opitz przypisywał mu kierowanie tym mordem."
+    },
+    "casualties": {
+      "en": "More than 2,000 Jews (Przystanek Historia/IPN).",
+      "pl": "Ponad 2 tys. Żydów (Przystanek Historia/IPN)."
+    },
+    "sources": [
+      {
+        "title": "Niemieckie zbrodnie na Żydach na ziemi łomżyńskiej latem 1941 roku",
+        "publisher": "Przystanek Historia (IPN)",
+        "url": "https://przystanekhistoria.pl/pa2/tematy/zbrodnie-niemieckie/93347,Niemieckie-zbrodnie-na-Zydach-na-ziemi-lomzynskiej-latem-1941-roku.html",
+        "tier": 1,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true
+  },
+  {
+    "id": "auschwitz-first-gassing-1941",
+    "title": {
+      "en": "First mass gassing with Zyklon B in Auschwitz",
+      "pl": "Pierwsze masowe zabicie gazem Cyklon B w Auschwitz"
+    },
+    "startDate": "1941-09-03",
+    "endDate": "1941-09-03",
+    "datePrecision": "day",
+    "location": {
+      "lat": 50.0264,
+      "lng": 19.20396,
+      "name": {
+        "en": "Block 11, Auschwitz I",
+        "pl": "Blok 11, Auschwitz I"
+      },
+      "precision": "exact"
+    },
+    "type": "massacre",
+    "belligerents": [
+      "Germany"
+    ],
+    "summary": {
+      "en": "On 3 September 1941 the SS carried out the first mass killing of people with Zyklon B gas in the cellars of Block 11 in Auschwitz I. The victims were about 600 Soviet prisoners of war and about 250 Polish prisoners.",
+      "pl": "3 września 1941 r. SS przeprowadziła w podziemiach bloku 11 w Auschwitz I pierwsze masowe uśmiercenie ludzi gazem Cyklon B. Ofiarami było ok. 600 sowieckich jeńców wojennych i ok. 250 Polaków."
+    },
+    "casualties": {
+      "en": "About 600 Soviet POWs and about 250 Poles (Auschwitz-Birkenau State Museum).",
+      "pl": "Ok. 600 sowieckich jeńców i ok. 250 Polaków (Państwowe Muzeum Auschwitz-Birkenau)."
+    },
+    "sources": [
+      {
+        "title": "Kalendarium: 1941",
+        "publisher": "Auschwitz-Birkenau State Museum",
+        "url": "https://www.auschwitz.org/historia/kalendarium/rok1941/",
+        "tier": 1,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "Some Museum materials describe the experiment as taking place between 3 and 5 September 1941.",
+      "pl": "Niektóre materiały Muzeum podają, że próba trwała od 3 do 5 września 1941 r."
+    }
+  },
+  {
+    "id": "wilno-ghetto-1941",
+    "title": {
+      "en": "Wilno ghetto established",
+      "pl": "Utworzenie getta wileńskiego"
+    },
+    "startDate": "1941-09-06",
+    "endDate": "1941-09-06",
+    "datePrecision": "day",
+    "location": {
+      "lat": 54.68705,
+      "lng": 25.28291,
+      "name": {
+        "en": "Wilno (Vilnius)",
+        "pl": "Wilno"
+      },
+      "precision": "town"
+    },
+    "type": "occupation_policy",
+    "belligerents": [
+      "Germany"
+    ],
+    "summary": {
+      "en": "On 6 September 1941 the Germans created a ghetto in Wilno, home to about 55,000 Jews when the city was taken. By then 13,000–18,000 of them had been shot at Ponary; by the end of 1941 mass executions had reduced the ghetto's population to about 15,000.",
+      "pl": "6 września 1941 r. Niemcy utworzyli getto w Wilnie, gdzie w chwili wkroczenia Niemców mieszkało ok. 55 tys. Żydów. Do tego czasu w Ponarach rozstrzelano 13–18 tys. z nich; do końca 1941 r. na skutek masowych egzekucji liczba ludzi w getcie zmniejszyła się do ok. 15 tys."
+    },
+    "sources": [
+      {
+        "title": "Getta w okupowanej Polsce",
+        "publisher": "Żydowski Instytut Historyczny",
+        "url": "https://www.jhi.pl/artykuly/getta-w-okupowanej-polsce,4090",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      }
+    ],
+    "verified": true
+  },
+  {
+    "id": "birkenau-construction-1941",
+    "title": {
+      "en": "Construction of Auschwitz II-Birkenau begins",
+      "pl": "Rozpoczęcie budowy Auschwitz II-Birkenau"
+    },
+    "startDate": "1941-10-01",
+    "endDate": "1941-10-31",
+    "datePrecision": "month",
+    "location": {
+      "lat": 50.03891,
+      "lng": 19.1713,
+      "name": {
+        "en": "Brzezinka (Birkenau)",
+        "pl": "Brzezinka (Birkenau)"
+      },
+      "precision": "exact"
+    },
+    "type": "camp",
+    "belligerents": [
+      "Germany"
+    ],
+    "summary": {
+      "en": "In October 1941 the Germans began building the second part of the camp, Auschwitz II-Birkenau, on the site of the demolished village of Brzezinka, and set up a camp for Soviet prisoners of war in Auschwitz I. From 1942 Auschwitz also functioned as the largest extermination centre for Jews deported from almost all of German-occupied Europe.",
+      "pl": "W październiku 1941 r. Niemcy rozpoczęli na terenie zburzonej wsi Brzezinka budowę drugiej części obozu, Auschwitz II-Birkenau, oraz utworzyli w Auschwitz I obóz dla sowieckich jeńców wojennych. Od 1942 r. Auschwitz był także największym ośrodkiem zagłady Żydów deportowanych z niemal całej okupowanej przez Niemcy Europy."
+    },
+    "sources": [
+      {
+        "title": "Kalendarium: 1941",
+        "publisher": "Auschwitz-Birkenau State Museum",
+        "url": "https://www.auschwitz.org/historia/kalendarium/rok1941/",
+        "tier": 1,
+        "accessed": "2026-11-19"
+      },
+      {
+        "title": "Basic information on Auschwitz",
+        "publisher": "Auschwitz-Birkenau State Museum",
+        "url": "https://www.auschwitz.org/en/press/basic-information-on-auschwitz/",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      }
+    ],
+    "verified": true
+  },
+  {
+    "id": "majdanek-camp-1941",
+    "title": {
+      "en": "Majdanek concentration camp (KL Lublin)",
+      "pl": "Obóz koncentracyjny na Majdanku (KL Lublin)"
+    },
+    "startDate": "1941-10-01",
+    "endDate": "1944-07-22",
+    "datePrecision": "approximate",
+    "location": {
+      "lat": 51.22532,
+      "lng": 22.60626,
+      "name": {
+        "en": "Majdanek, Lublin",
+        "pl": "Majdanek, Lublin"
+      },
+      "precision": "exact"
+    },
+    "type": "camp",
+    "belligerents": [
+      "Germany"
+    ],
+    "summary": {
+      "en": "Set up on Heinrich Himmler's decision of July 1941 and operating from October 1941, the camp in Lublin's Majdanek district was initially called a prisoner-of-war camp of the Waffen-SS and was renamed Konzentrationslager Lublin in February 1943. It was intended for 25,000–50,000 prisoners as slave labour and was also a killing site in Aktion Reinhardt; it functioned until July 1944.",
+      "pl": "Utworzony z decyzji Heinricha Himmlera z lipca 1941 r. i działający od października 1941 r. obóz na lubelskim Majdanku nosił początkowo nazwę obozu jenieckiego Waffen-SS, a w lutym 1943 r. przemianowano go na Konzentrationslager Lublin. Przeznaczony był dla 25–50 tys. więźniów jako darmowej siły roboczej i był również miejscem kaźni w ramach akcji „Reinhardt”; funkcjonował do lipca 1944 r."
+    },
+    "sources": [
+      {
+        "title": "Niemieckie obozy na ziemiach polskich 1939–1945",
+        "publisher": "Przystanek Historia (IPN)",
+        "url": "https://przystanekhistoria.pl/pa2/tematy/obozy-koncentracyjne/61575,Niemieckie-obozy-na-ziemiach-polskich-1939-1945.html",
+        "tier": 1,
+        "accessed": "2026-11-18"
+      },
+      {
+        "title": "80. rocznica rozpoczęcia Akcji Reinhardt – zagłady Żydów w Generalnym Gubernatorstwie",
+        "publisher": "Instytut Pamięci Narodowej",
+        "url": "https://ipn.gov.pl/pl/dla-mediow/komunikaty/161365,80-rocznica-rozpoczecia-Akcji-Reinhardt-zaglady-Zydow-w-Generalnym-Gubernatorstw.html",
+        "tier": 1,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "The start is given only as October 1941. The end date is the day before the Red Army entered the camp (separate event, 23 July 1944).",
+      "pl": "Początek podano jedynie jako październik 1941 r. Data końcowa to dzień przed wkroczeniem Armii Czerwonej do obozu (osobne wydarzenie, 23 lipca 1944 r.)."
+    }
+  },
+  {
+    "id": "death-penalty-decree-1941",
+    "title": {
+      "en": "Death penalty for leaving ghettos and for sheltering Jews",
+      "pl": "Kara śmierci za opuszczenie getta i ukrywanie Żydów"
+    },
+    "startDate": "1941-10-15",
+    "endDate": "1941-10-15",
+    "datePrecision": "day",
+    "location": {
+      "lat": 50.05475,
+      "lng": 19.93611,
+      "name": {
+        "en": "General Government (marker at Kraków)",
+        "pl": "Generalne Gubernatorstwo (znacznik: Kraków)"
+      },
+      "precision": "region"
+    },
+    "type": "occupation_policy",
+    "belligerents": [
+      "Germany"
+    ],
+    "summary": {
+      "en": "On 15 October 1941 Governor-General Hans Frank issued a regulation threatening the death penalty for Jews who left their designated residential areas without authorisation and for anyone who knowingly sheltered them. IPN describes it as the first legal act providing for the death penalty for Poles who helped Jews; some 400 ghettos and Jewish quarters existed in the General Government at various times.",
+      "pl": "15 października 1941 r. generalny gubernator Hans Frank wydał rozporządzenie przewidujące karę śmierci dla Żydów opuszczających bez zezwolenia wyznaczone im dzielnice oraz dla osób świadomie udzielających im schronienia. IPN określa je jako pierwszy akt prawny przewidujący karę śmierci dla Polaków za pomoc Żydom; w GG istniało w różnych okresach ok. 400 dzielnic żydowskich i gett."
+    },
+    "sources": [
+      {
+        "title": "Alicja Gontarek: Śmierć za dobro. Rozporządzenie Hansa Franka z 15 października 1941 r. a kwestia relacji polsko-żydowskich w czasach Zagłady",
+        "publisher": "Instytut Pamięci Narodowej",
+        "url": "https://ipn.gov.pl/pl/historia-z-ipn/152422,Alicja-Gontarek-Smierc-za-dobro-Rozporzadzenie-Hansa-Franka-z-15-pazdziernika-19.html",
+        "tier": 1,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true
+  },
+  {
+    "id": "chelmno-camp-1941",
+    "title": {
+      "en": "Chełmno (Kulmhof) extermination camp",
+      "pl": "Obóz zagłady w Chełmnie nad Nerem (Kulmhof)"
+    },
+    "startDate": "1941-12-08",
+    "endDate": "1943-04-11",
+    "datePrecision": "day",
+    "location": {
+      "lat": 52.11281,
+      "lng": 18.75159,
+      "name": {
+        "en": "Chełmno nad Nerem",
+        "pl": "Chełmno nad Nerem"
+      },
+      "precision": "town"
+    },
+    "type": "camp",
+    "belligerents": [
+      "Germany"
+    ],
+    "summary": {
+      "en": "On 8 December 1941 the Germans murdered with exhaust gas about 700 Jews brought the day before from nearby Koło, starting the operation of Kulmhof, the first German extermination camp in occupied Poland, set up on the order of Warthegau governor Arthur Greiser. Victims were killed in gas vans and buried in the Rzuchów forest; from 16 January 1942 Jews from the Łódź ghetto were deported there. The camp operated in this phase until 11 April 1943.",
+      "pl": "8 grudnia 1941 r. Niemcy zamordowali spalinami ok. 700 Żydów przywiezionych dzień wcześniej z pobliskiego Koła, rozpoczynając działalność Kulmhof – pierwszego niemieckiego obozu zagłady na okupowanych ziemiach polskich, założonego z rozkazu namiestnika Kraju Warty Arthura Greisera. Ofiary zabijano w samochodach-komorach gazowych i grzebano w Lesie Rzuchowskim; od 16 stycznia 1942 r. deportowano tu Żydów z getta łódzkiego. W tej fazie obóz działał do 11 kwietnia 1943 r."
+    },
+    "sources": [
+      {
+        "title": "Rozpoczęcie działalności KL Kulmhof, pierwszego niemieckiego obozu zagłady na ziemiach polskich",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/aktualnosci/rozpoczecie-dzialalnosci-kl-kulmhof-pierwszego-niemieckiego-obozu-zaglady-na",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "Only a tier-2 source was used. The camp was reactivated in 1944 (to be added with the 1944 events). Victim totals differ: about 200,000 according to the museum and PAP, 160,000–180,000 in other estimates.",
+      "pl": "Wykorzystano jedynie źródło 2. kategorii. Obóz uruchomiono ponownie w 1944 r. (zostanie dodany z wydarzeniami z 1944 r.). Szacunki liczby ofiar się różnią: ok. 200 tys. według muzeum i PAP, 160–180 tys. w innych szacunkach."
+    }
+  }
+]
