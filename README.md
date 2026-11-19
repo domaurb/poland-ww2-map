@@ -25,13 +25,13 @@ Both need an internet connection for the OpenStreetMap base map; the event data 
   the part under **Soviet control is tinted red** (dashed red line: the Soviet zone's edge). The zones follow the
   partition from 6 October 1939, Wilno's Lithuanian interlude, and full German control from 22 June 1941 until
   Soviet forces re-entered pre-war Poland on 3–4 January 1944. From then until 8 May 1945 there is no open data on
-  the front lines, so control is **approximated** from the documented capture dates of about 70 towns
+  the front lines, so control is **approximated** from the documented capture dates of about 80 towns
   (`scripts/front-anchors.json`, each with its source): every place takes the date of its nearest anchor town, with
   pockets for the Vistula bridgeheads, the Poznań fortress and the Hel Peninsula. Edges are therefore rough, and
   places that held out longer than their surroundings (e.g. Grudziądz) or fell earlier (e.g. Kołomyja in March 1944)
-  are not shown separately. Only dates confirmed by Polish institutional sources are used: for Kowel, Baranowicze,
-  Lida, Pińsk, Stanisławów and Brześć none was found, so the areas nearest those towns are left untinted from
-  January 1944 (marked `unconfirmed` in that file).
+  are not shown separately. Dates come from Polish institutional sources (IPN, Przystanek Historia, dzieje.pl)
+  wherever they give one; for Polesie, the Nowogródek region, Kowel, Brześć and Stanisławów, where none does, they
+  come from Yad Vashem's community histories and the USHMM Holocaust Encyclopedia (marked `tier: 3`).
   Each layer can be switched off.
 - **Most significant events:** a selection of 100 events, listed in date order without numbers. How it was chosen is
   explained on the About page and in `docs/most-significant-events.md`.

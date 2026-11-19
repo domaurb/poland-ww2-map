@@ -1,5 +1,5 @@
 {
- "_about": "Dated anchor towns for the approximate German/Soviet control zones from 4 January 1944 to 8 May 1945 (see build-borders.py). `soviet` is the first day the town is shown as Soviet-held (null = German-held to the end of the map). `by: true` means the source gives a date by which the place had been reached, not the exact day. `confidence`: `source` = the date was read on the cited page (Polish institutional sources only); `unconfirmed` = no such source gives a date, so the town only delimits an area that is left untinted from 4 January 1944. Pockets (`radiusKm`) are areas around the point that override the surrounding cells: bridgeheads held by Soviet forces, or fortresses and peninsulas held by German forces longer than their surroundings. Coordinates are filled in by geocoding `query` with OpenStreetMap Nominatim (cached in front-anchors.geo.json).",
+ "_about": "Dated anchor towns for the approximate German/Soviet control zones from 4 January 1944 to 8 May 1945 (see build-borders.py). `soviet` is the first day the town is shown as Soviet-held (null = German-held to the end of the map). `by: true` means the source gives a date by which the place had been reached, not the exact day. `confidence`: `source` = the date was read on the cited page. Polish institutional sources are used wherever they give a date; for parts of today's Belarus and Ukraine where none does, the dates come from Yad Vashem's community histories and the USHMM Holocaust Encyclopedia (`tier: 3`). Yad Vashem's page for Antopol (10 July 1944) is not used because it conflicts with every surrounding town (16–21 July). Pockets (`radiusKm`) are areas around the point that override the surrounding cells: bridgeheads held by Soviet forces, or fortresses and peninsulas held by German forces longer than their surroundings. Coordinates are filled in by geocoding `query` with OpenStreetMap Nominatim (cached in front-anchors.geo.json).",
  "anchors": [
   {
    "name": "Sarny",
@@ -39,25 +39,108 @@
    "source": "https://przystanekhistoria.pl/pa2/teksty/62808,Okreg-AK-Tarnopol.html"
   },
   {
+   "name": "Stołpce",
+   "query": "Stowbtsy",
+   "soviet": "1944-07-02",
+   "confidence": "source",
+   "tier": 3,
+   "source": "https://collections.yadvashem.org/en/untold-stories/community/14622444-Stolpce"
+  },
+  {
+   "name": "Łachwa",
+   "query": "Lakhva",
+   "soviet": "1944-07-02",
+   "confidence": "source",
+   "tier": 3,
+   "source": "https://collections.yadvashem.org/en/untold-stories/community/14621670-Lachwa"
+  },
+  {
+   "name": "Świerżeń Nowy",
+   "query": "Новы Свержань",
+   "soviet": "1944-07-02",
+   "confidence": "source",
+   "tier": 3,
+   "source": "https://collections.yadvashem.org/en/untold-stories/community/14622445-Swierzen-Nowy"
+  },
+  {
+   "name": "Wołożyn",
+   "query": "Valozhyn",
+   "soviet": "1944-07-05",
+   "confidence": "source",
+   "tier": 3,
+   "source": "https://collections.yadvashem.org/en/untold-stories/community/14622365-Wolozyn"
+  },
+  {
+   "name": "Iwieniec",
+   "query": "Ivyanets",
+   "soviet": "1944-07-06",
+   "confidence": "source",
+   "tier": 3,
+   "source": "https://collections.yadvashem.org/en/untold-stories/community/14622477-Iwieniec"
+  },
+  {
    "name": "Kowel",
    "query": "Kovel, Ukraine",
-   "soviet": null,
-   "confidence": "unconfirmed",
-   "note": "No date confirmed by a Polish institutional source; the area nearest this town is left untinted from January 1944."
+   "soviet": "1944-07-06",
+   "confidence": "source",
+   "tier": 3,
+   "source": "https://collections.yadvashem.org/en/untold-stories/community/14622122-Kowel"
   },
   {
-   "name": "Baranowicze",
-   "query": "Baranavichy, Belarus",
-   "soviet": null,
-   "confidence": "unconfirmed",
-   "note": "No date confirmed by a Polish institutional source; the area nearest this town is left untinted from January 1944."
+   "name": "Iwje",
+   "query": "Iwye",
+   "soviet": "1944-07-08",
+   "confidence": "source",
+   "tier": 3,
+   "source": "https://collections.yadvashem.org/en/untold-stories/community/14622353"
   },
   {
-   "name": "Lida",
-   "query": "Lida, Belarus",
-   "soviet": null,
-   "confidence": "unconfirmed",
-   "note": "No date confirmed by a Polish institutional source; the area nearest this town is left untinted from January 1944."
+   "name": "Lubcz",
+   "query": "Lyubcha",
+   "soviet": "1944-07-08",
+   "confidence": "source",
+   "tier": 3,
+   "source": "https://collections.yadvashem.org/en/untold-stories/community/14622354-Lubcza-na-Niemnem"
+  },
+  {
+   "name": "Dawidgródek",
+   "query": "Davyd-Haradok",
+   "soviet": "1944-07-09",
+   "confidence": "source",
+   "tier": 3,
+   "source": "https://collections.yadvashem.org/en/untold-stories/community/14622221-Dawidgrodek"
+  },
+  {
+   "name": "Werenów",
+   "query": "Voranava",
+   "soviet": "1944-07-11",
+   "confidence": "source",
+   "tier": 3,
+   "source": "https://collections.yadvashem.org/en/untold-stories/community/14622355-Woronow"
+  },
+  {
+   "name": "Horodno",
+   "query": "Гарадная",
+   "soviet": "1944-07-12",
+   "confidence": "source",
+   "tier": 3,
+   "source": "https://collections.yadvashem.org/en/untold-stories/community/14622234-Horodno"
+  },
+  {
+   "name": "Żołudek",
+   "query": "Zhaludok",
+   "soviet": "1944-07-12",
+   "confidence": "source",
+   "tier": 3,
+   "source": "https://collections.yadvashem.org/en/untold-stories/community/14622342-Zoludek"
+  },
+  {
+   "name": "Raduń",
+   "query": "Radun, Belarus",
+   "soviet": "1944-07-13",
+   "confidence": "source",
+   "tier": 3,
+   "source": "https://collections.yadvashem.org/en/untold-stories/community/14622359-Radun"
   },
   {
    "name": "Wilno",
@@ -67,11 +150,13 @@
    "source": "https://dzieje.pl/kalendarz-historyczny/13/7"
   },
   {
-   "name": "Pińsk",
-   "query": "Pinsk, Belarus",
-   "soviet": null,
-   "confidence": "unconfirmed",
-   "note": "No date confirmed by a Polish institutional source; the area nearest this town is left untinted from January 1944."
+   "name": "Pohost Zahorodzki",
+   "query": "Пагост, Пінскі раён",
+   "soviet": "1944-07-15",
+   "confidence": "source",
+   "tier": 3,
+   "source": "https://collections.yadvashem.org/en/untold-stories/community/14622268-Pohost-Zagorodski",
+   "note": "Source: on or close to 15 July 1944."
   },
   {
    "name": "Grodno",
@@ -83,12 +168,12 @@
    "note": "By 16 July 1944 the Red Army had reached the line Niemen–Grodno–Świsłocz–Prużana."
   },
   {
-   "name": "Świsłocz",
-   "query": "Svislach, Hrodna Region, Belarus",
+   "name": "Janów Poleski",
+   "query": "Ivanava",
    "soviet": "1944-07-16",
-   "by": true,
    "confidence": "source",
-   "source": "https://przystanekhistoria.pl/pa2/teksty/125239,Burza-na-Bialostocczyznie.html"
+   "tier": 3,
+   "source": "https://collections.yadvashem.org/en/untold-stories/community/14622433-Janow"
   },
   {
    "name": "Prużana",
@@ -97,6 +182,30 @@
    "by": true,
    "confidence": "source",
    "source": "https://przystanekhistoria.pl/pa2/teksty/125239,Burza-na-Bialostocczyznie.html"
+  },
+  {
+   "name": "Świsłocz",
+   "query": "Svislach, Hrodna Region, Belarus",
+   "soviet": "1944-07-16",
+   "by": true,
+   "confidence": "source",
+   "source": "https://przystanekhistoria.pl/pa2/teksty/125239,Burza-na-Bialostocczyznie.html"
+  },
+  {
+   "name": "Drohiczyn Poleski",
+   "query": "Drahichyn",
+   "soviet": "1944-07-17",
+   "confidence": "source",
+   "tier": 3,
+   "source": "https://collections.yadvashem.org/en/untold-stories/community/14622229"
+  },
+  {
+   "name": "Dywin",
+   "query": "Дзівін",
+   "soviet": "1944-07-21",
+   "confidence": "source",
+   "tier": 3,
+   "source": "https://collections.yadvashem.org/en/untold-stories/community/14622228-Dywin"
   },
   {
    "name": "Hrubieszów",
@@ -130,13 +239,6 @@
    "source": "https://dzieje.pl/kalendarz-historyczny/24/7"
   },
   {
-   "name": "Lwów",
-   "query": "Lviv, Ukraine",
-   "soviet": "1944-07-27",
-   "confidence": "source",
-   "source": "https://dzieje.pl/kalendarz-historyczny/27/7"
-  },
-  {
    "name": "Białystok",
    "query": "Białystok, Poland",
    "soviet": "1944-07-27",
@@ -144,19 +246,11 @@
    "source": "https://dzieje.pl/kalendarz-historyczny/27/7"
   },
   {
-   "name": "Stanisławów",
-   "query": "Івано-Франківськ, Івано-Франківська міська громада, Україна",
-   "soviet": null,
-   "confidence": "unconfirmed",
-   "note": "No date confirmed by a Polish institutional source; the area nearest this town is left untinted from January 1944."
-  },
-  {
-   "name": "Przemyśl",
-   "query": "Przemyśl, Poland",
+   "name": "Lwów",
+   "query": "Lviv, Ukraine",
    "soviet": "1944-07-27",
    "confidence": "source",
-   "source": "https://przystanekhistoria.pl/pa2/teksty/127702,Akcja-Burza-na-Rzeszowszczyznie.html",
-   "note": "Home Army units freed the city on 24–26 July; Red Army vanguards entered on 27 July."
+   "source": "https://dzieje.pl/kalendarz-historyczny/27/7"
   },
   {
    "name": "Magnuszew bridgehead",
@@ -168,6 +262,14 @@
    "note": "Bridgehead west of the Vistula; the radius is a rough size."
   },
   {
+   "name": "Przemyśl",
+   "query": "Przemyśl, Poland",
+   "soviet": "1944-07-27",
+   "confidence": "source",
+   "source": "https://przystanekhistoria.pl/pa2/teksty/127702,Akcja-Burza-na-Rzeszowszczyznie.html",
+   "note": "Home Army units freed the city on 24–26 July; Red Army vanguards entered on 27 July."
+  },
+  {
    "name": "Puławy bridgehead",
    "query": "Puławy, Poland",
    "soviet": "1944-07-27",
@@ -177,11 +279,20 @@
    "note": "Bridgehead west of the Vistula; the radius is a rough size."
   },
   {
+   "name": "Stanisławów",
+   "query": "Івано-Франківськ, Івано-Франківська міська громада, Україна",
+   "soviet": "1944-07-27",
+   "confidence": "source",
+   "tier": 3,
+   "source": "https://encyclopedia.ushmm.org/content/en/article/stanislawow"
+  },
+  {
    "name": "Brześć",
    "query": "Brest, Belarus",
-   "soviet": null,
-   "confidence": "unconfirmed",
-   "note": "No date confirmed by a Polish institutional source; the area nearest this town is left untinted from January 1944."
+   "soviet": "1944-07-28",
+   "confidence": "source",
+   "tier": 3,
+   "source": "https://collections.yadvashem.org/en/untold-stories/community/14622217"
   },
   {
    "name": "Otwock",
@@ -240,13 +351,6 @@
    "source": "https://dzieje.pl/kalendarz-historyczny/15/1"
   },
   {
-   "name": "Radom",
-   "query": "Radom, Poland",
-   "soviet": "1945-01-16",
-   "confidence": "source",
-   "source": "https://dzieje.pl/kalendarz-historyczny/16/1"
-  },
-  {
    "name": "Częstochowa",
    "query": "Częstochowa, Poland",
    "soviet": "1945-01-16",
@@ -275,6 +379,21 @@
    "source": "https://ipn.gov.pl/pl/historia-z-ipn/archiwum/143434,Wsio-wystrelam-Armia-Czerwona-w-Malopolsce-w-1945-roku-odc-1.html"
   },
   {
+   "name": "Radom",
+   "query": "Radom, Poland",
+   "soviet": "1945-01-16",
+   "confidence": "source",
+   "source": "https://dzieje.pl/kalendarz-historyczny/16/1"
+  },
+  {
+   "name": "Ciechanów",
+   "query": "Ciechanów, Poland",
+   "soviet": "1945-01-17",
+   "confidence": "source",
+   "source": "https://przystanekhistoria.pl/pa2/tematy/zbrodnie-niemieckie/105138,Mord-w-Ciechanowie.html",
+   "note": "The Germans murdered prisoners in the night of 16–17 January 1945, on the eve of the Red Army's entry."
+  },
+  {
    "name": "Gorlice",
    "query": "Gorlice, Poland",
    "soviet": "1945-01-17",
@@ -290,14 +409,6 @@
    "source": "https://dzieje.pl/kalendarz-historyczny/17/1"
   },
   {
-   "name": "Ciechanów",
-   "query": "Ciechanów, Poland",
-   "soviet": "1945-01-17",
-   "confidence": "source",
-   "source": "https://przystanekhistoria.pl/pa2/tematy/zbrodnie-niemieckie/105138,Mord-w-Ciechanowie.html",
-   "note": "The Germans murdered prisoners in the night of 16–17 January 1945, on the eve of the Red Army's entry."
-  },
-  {
    "name": "Kraków",
    "query": "Kraków, Poland",
    "soviet": "1945-01-18",
@@ -306,15 +417,15 @@
    "note": "Northern part 18 January, southern part 19 January."
   },
   {
-   "name": "Tarnów",
-   "query": "Tarnów, Poland",
+   "name": "Limanowa",
+   "query": "Limanowa, Poland",
    "soviet": "1945-01-18",
    "confidence": "source",
    "source": "https://ipn.gov.pl/pl/historia-z-ipn/archiwum/143434,Wsio-wystrelam-Armia-Czerwona-w-Malopolsce-w-1945-roku-odc-1.html"
   },
   {
-   "name": "Limanowa",
-   "query": "Limanowa, Poland",
+   "name": "Tarnów",
+   "query": "Tarnów, Poland",
    "soviet": "1945-01-18",
    "confidence": "source",
    "source": "https://ipn.gov.pl/pl/historia-z-ipn/archiwum/143434,Wsio-wystrelam-Armia-Czerwona-w-Malopolsce-w-1945-roku-odc-1.html"
@@ -327,23 +438,8 @@
    "source": "https://przystanekhistoria.pl/pa2/tematy/zbrodnie-niemieckie/109266,Najwieksza-niemiecka-zbrodnia-na-terenie-Lodzi-Likwidacja-wiezienia-na-Radogoszc.html"
   },
   {
-   "name": "Nowy Sącz",
-   "query": "Nowy Sącz, Poland",
-   "soviet": "1945-01-20",
-   "confidence": "source",
-   "source": "https://ipn.gov.pl/pl/historia-z-ipn/archiwum/143434,Wsio-wystrelam-Armia-Czerwona-w-Malopolsce-w-1945-roku-odc-1.html",
-   "note": "Source: 19/20 January."
-  },
-  {
    "name": "Brzesko",
    "query": "Brzesko, Poland",
-   "soviet": "1945-01-20",
-   "confidence": "source",
-   "source": "https://ipn.gov.pl/pl/historia-z-ipn/archiwum/143434,Wsio-wystrelam-Armia-Czerwona-w-Malopolsce-w-1945-roku-odc-1.html"
-  },
-  {
-   "name": "Olkusz",
-   "query": "Olkusz, Poland",
    "soviet": "1945-01-20",
    "confidence": "source",
    "source": "https://ipn.gov.pl/pl/historia-z-ipn/archiwum/143434,Wsio-wystrelam-Armia-Czerwona-w-Malopolsce-w-1945-roku-odc-1.html"
@@ -355,6 +451,21 @@
    "confidence": "source",
    "source": "https://przystanekhistoria.pl/download/166/105109/TragediawcieniuwyzwoleniaGornySlaskw1945.pdf",
    "note": "Map 2, p. 72 (dates of capture of towns)."
+  },
+  {
+   "name": "Nowy Sącz",
+   "query": "Nowy Sącz, Poland",
+   "soviet": "1945-01-20",
+   "confidence": "source",
+   "source": "https://ipn.gov.pl/pl/historia-z-ipn/archiwum/143434,Wsio-wystrelam-Armia-Czerwona-w-Malopolsce-w-1945-roku-odc-1.html",
+   "note": "Source: 19/20 January."
+  },
+  {
+   "name": "Olkusz",
+   "query": "Olkusz, Poland",
+   "soviet": "1945-01-20",
+   "confidence": "source",
+   "source": "https://ipn.gov.pl/pl/historia-z-ipn/archiwum/143434,Wsio-wystrelam-Armia-Czerwona-w-Malopolsce-w-1945-roku-odc-1.html"
   },
   {
    "name": "Bochnia",
@@ -378,14 +489,6 @@
    "source": "https://ipn.gov.pl/pl/historia-z-ipn/archiwum/143434,Wsio-wystrelam-Armia-Czerwona-w-Malopolsce-w-1945-roku-odc-1.html"
   },
   {
-   "name": "Tarnowskie Góry",
-   "query": "Tarnowskie Góry, Poland",
-   "soviet": "1945-01-22",
-   "confidence": "source",
-   "source": "https://przystanekhistoria.pl/download/166/105109/TragediawcieniuwyzwoleniaGornySlaskw1945.pdf",
-   "note": "Map 2, p. 72."
-  },
-  {
    "name": "Poznań (approach)",
    "query": "Swarzędz, Poland",
    "soviet": "1945-01-22",
@@ -394,13 +497,20 @@
    "note": "The battle for Poznań began on 22 January 1945; the anchor for the surrounding area is placed just east of the city, with the city itself as a German-held pocket."
   },
   {
-   "name": "Poznań (fortress)",
-   "query": "Poznań, Poland",
-   "soviet": "1945-02-23",
-   "radiusKm": 6,
+   "name": "Tarnowskie Góry",
+   "query": "Tarnowskie Góry, Poland",
+   "soviet": "1945-01-22",
    "confidence": "source",
-   "source": "https://dzieje.pl/aktualnosci/70-lat-temu-rozpoczela-sie-ofensywa-styczniowa-armii-czerwonej",
-   "note": "Poznań was taken on 23 February 1945; the radius is a rough size of the besieged city."
+   "source": "https://przystanekhistoria.pl/download/166/105109/TragediawcieniuwyzwoleniaGornySlaskw1945.pdf",
+   "note": "Map 2, p. 72."
+  },
+  {
+   "name": "Ostrów Wielkopolski",
+   "query": "Ostrów Wielkopolski, Poland",
+   "soviet": "1945-01-23",
+   "confidence": "source",
+   "note": "A Soviet armoured patrol and the Home Army took over the city on 23 January 1945; Soviet tanks then helped hold it against a German attack on 24 January.",
+   "source": "https://przystanekhistoria.pl/pa2/tematy/okupacja-niemiecka/123921,Akcja-Burza-na-terenach-Pomorza-i-Wielkopolski.html"
   },
   {
    "name": "Bydgoszcz",
@@ -415,14 +525,6 @@
    "soviet": "1945-01-24",
    "confidence": "source",
    "source": "https://ipn.gov.pl/pl/historia-z-ipn/archiwum/143434,Wsio-wystrelam-Armia-Czerwona-w-Malopolsce-w-1945-roku-odc-1.html"
-  },
-  {
-   "name": "Ostrów Wielkopolski",
-   "query": "Ostrów Wielkopolski, Poland",
-   "soviet": "1945-01-23",
-   "confidence": "source",
-   "note": "A Soviet armoured patrol and the Home Army took over the city on 23 January 1945; Soviet tanks then helped hold it against a German attack on 24 January.",
-   "source": "https://przystanekhistoria.pl/pa2/tematy/okupacja-niemiecka/123921,Akcja-Burza-na-terenach-Pomorza-i-Wielkopolski.html"
   },
   {
    "name": "Katowice",
@@ -474,6 +576,15 @@
    "soviet": "1945-02-12",
    "confidence": "source",
    "source": "https://ipn.gov.pl/pl/historia-z-ipn/archiwum/143434,Wsio-wystrelam-Armia-Czerwona-w-Malopolsce-w-1945-roku-odc-1.html"
+  },
+  {
+   "name": "Poznań (fortress)",
+   "query": "Poznań, Poland",
+   "soviet": "1945-02-23",
+   "radiusKm": 6,
+   "confidence": "source",
+   "source": "https://dzieje.pl/aktualnosci/70-lat-temu-rozpoczela-sie-ofensywa-styczniowa-armii-czerwonej",
+   "note": "Poznań was taken on 23 February 1945; the radius is a rough size of the besieged city."
   },
   {
    "name": "Żory",
