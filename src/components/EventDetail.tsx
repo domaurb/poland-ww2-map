@@ -1,12 +1,24 @@
-import type { HistEvent } from "../data/schema";
+import { useEffect, useState } from "react";
+import { loadEventDetail } from "../data/loadEvents";
+import type { EventIndex, HistEvent } from "../data/schema";
 import { STRINGS, TYPE_LABELS, belligerentLabel, type Lang } from "../i18n";
 import { formatDate, formatEventDates } from "../lib/dates";
 import { markerSvg } from "./markerIcon";
 
-type Props = { event: HistEvent; lang: Lang; onBack: () => void; onShowOnMap: () => void };
+type Props = { event: EventIndex; lang: Lang; onBack: () => void; onShowOnMap: () => void };
 
 export default function EventDetail({ event: e, lang, onBack, onShowOnMap }: Props) {
   const t = STRINGS[lang];
+  // The full text (summary, sources, notes) is loaded on demand, one chunk per year.
+  const [loaded, setLoaded] = useState<HistEvent | null>(null);
+  const full = loaded?.id === e.id ? loaded : null;
+  useEffect(() => {
+    let alive = true;
+    loadEventDetail(e).then((d) => alive && setLoaded(d));
+    return () => {
+      alive = false;
+    };
+  }, [e]);
   return (
     <article className="detail" aria-labelledby="detail-title">
       <div className="detail-nav">
@@ -46,37 +58,41 @@ export default function EventDetail({ event: e, lang, onBack, onShowOnMap }: Pro
         <dd>
           {e.location.name[lang]} <span className="muted">({t.precision[e.location.precision]})</span>
         </dd>
-        {e.belligerents && e.belligerents.length > 0 && (
+        {full?.belligerents && full.belligerents.length > 0 && (
           <>
             <dt>{t.belligerents}</dt>
-            <dd>{e.belligerents.map((b) => belligerentLabel(b, lang)).join(" · ")}</dd>
+            <dd>{full.belligerents.map((b) => belligerentLabel(b, lang)).join(" · ")}</dd>
           </>
         )}
       </dl>
 
+      {!full ? (
+        <p className="muted" aria-live="polite">{t.loading}</p>
+      ) : (
+        <>
       <section>
         <h3>{t.summary}</h3>
-        <p>{e.summary[lang]}</p>
+        <p>{full.summary[lang]}</p>
       </section>
 
-      {e.casualties && (
+      {full.casualties && (
         <section>
           <h3>{t.casualties}</h3>
-          <p>{e.casualties[lang]}</p>
+          <p>{full.casualties[lang]}</p>
         </section>
       )}
 
-      {e.notes && (
+      {full.notes && (
         <section className="notes">
           <h3>{t.notes}</h3>
-          <p>{e.notes[lang]}</p>
+          <p>{full.notes[lang]}</p>
         </section>
       )}
 
       <section>
         <h3>{t.sources}</h3>
         <ol className="sources">
-          {e.sources.map((s) => (
+          {full.sources.map((s) => (
             <li key={s.url}>
               <a href={s.url} target="_blank" rel="noopener noreferrer">
                 {s.title}
@@ -92,6 +108,8 @@ export default function EventDetail({ event: e, lang, onBack, onShowOnMap }: Pro
           ))}
         </ol>
       </section>
+        </>
+      )}
     </article>
   );
 }

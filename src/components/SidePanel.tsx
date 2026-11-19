@@ -1,5 +1,5 @@
 import type { ReactNode } from "react";
-import type { HistEvent } from "../data/schema";
+import type { EventIndex } from "../data/schema";
 import { STRINGS, type Lang } from "../i18n";
 import { formatDate } from "../lib/dates";
 import type { Mode } from "../lib/urlState";
@@ -10,10 +10,10 @@ type Props = {
   lang: Lang;
   mode: Mode;
   date: string;
-  began: HistEvent[];
-  ongoing: HistEvent[];
-  ranked: HistEvent[];
-  selected: HistEvent | null;
+  began: EventIndex[];
+  ongoing: EventIndex[];
+  ranked: EventIndex[];
+  selected: EventIndex | null;
   selectedId: string | null;
   expanded: boolean;
   hasNextEvent: boolean;

@@ -1,5 +1,7 @@
 import { MapContainer, TileLayer, ZoomControl } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
+import type { BorderKey } from "../lib/urlState";
+import BordersLayer from "./BordersLayer";
 import ClusterLayer, { type MarkerItem } from "./ClusterLayer";
 
 type Props = {
@@ -9,13 +11,15 @@ type Props = {
   revealToken: number;
   selectedPoint: [number, number] | null;
   label: string;
+  borders: Set<BorderKey>;
+  borderDate: string | null;
 };
 
 // Centred on the union of 1939 and present-day Poland.
 const CENTER: [number, number] = [52.2, 21.8];
 const BOUNDS: [[number, number], [number, number]] = [[44.5, 8.0], [58.5, 36.0]];
 
-export default function MapView({ items, selectedId, onSelect, revealToken, selectedPoint, label }: Props) {
+export default function MapView({ items, selectedId, onSelect, revealToken, selectedPoint, label, borders, borderDate }: Props) {
   return (
     <div className="map-wrap" role="region" aria-label={label}>
       <MapContainer
@@ -32,11 +36,12 @@ export default function MapView({ items, selectedId, onSelect, revealToken, sele
         {/* Standard OSM raster tiles (no API key; OSMF tile usage policy), muted with a CSS filter. */}
         <TileLayer
           url="https://tile.openstreetmap.org/{z}/{x}/{y}.png"
-          attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+          attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors · Borders: <a href="https://www.openhistoricalmap.org">OpenHistoricalMap</a> (CC0)'
           maxZoom={19}
           className="basemap"
         />
         <ZoomControl position="topleft" />
+        <BordersLayer visible={borders} date={borderDate} />
         <ClusterLayer items={items} selectedId={selectedId} onSelect={onSelect} revealToken={revealToken} selectedPoint={selectedPoint} />
       </MapContainer>
     </div>

@@ -2,7 +2,9 @@ import { useMemo } from "react";
 import { RANGE_END, RANGE_START } from "../data/constants";
 import { STRINGS, type Lang } from "../i18n";
 import { formatDate, formatWeekday, fromDay, LAST_DAY, monthTicks, toDay } from "../lib/dates";
+import type { EventIndex } from "../data/schema";
 import type { Speed } from "../lib/urlState";
+import DensityStrip from "./DensityStrip";
 
 type Props = {
   lang: Lang;
@@ -18,6 +20,7 @@ type Props = {
   onNextEvent: () => void;
   onTogglePlay: () => void;
   onSpeed: (s: Speed) => void;
+  events: EventIndex[];
 };
 
 const Icon = ({ d, label }: { d: string; label?: string }) => (
@@ -86,6 +89,9 @@ export default function TimelineBar(p: Props) {
         </label>
       </div>
 
+      <div className="density-wrap" inert={p.disabled}>
+        <DensityStrip events={p.events} date={p.date} lang={p.lang} onDate={p.onDate} />
+      </div>
       <div className="slider" inert={p.disabled}>
         <input
           type="range"

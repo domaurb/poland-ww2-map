@@ -1,5 +1,7 @@
 import { EVENT_TYPES, TYPE_STYLE, type EventType, type Family } from "../data/constants";
 import { FAMILY_LABELS, STRINGS, TYPE_LABELS, type Lang } from "../i18n";
+import { BORDER_KEYS, type BorderKey } from "../lib/urlState";
+import { BORDER_STYLE } from "./borderStyle";
 import { markerSvg } from "./markerIcon";
 
 type Props = {
@@ -9,11 +11,13 @@ type Props = {
   counts: Partial<Record<EventType, number>>;
   onTypes: (types: Set<EventType>) => void;
   onVerifiedOnly: (v: boolean) => void;
+  borders: Set<BorderKey>;
+  onBorders: (b: Set<BorderKey>) => void;
 };
 
 const FAMILIES: Family[] = ["military", "civilian", "resistance", "other"];
 
-export default function LegendFilters({ lang, types, verifiedOnly, counts, onTypes, onVerifiedOnly }: Props) {
+export default function LegendFilters({ lang, types, verifiedOnly, counts, onTypes, onVerifiedOnly, borders, onBorders }: Props) {
   const t = STRINGS[lang];
   const toggle = (type: EventType) => {
     const next = new Set(types);
@@ -49,6 +53,31 @@ export default function LegendFilters({ lang, types, verifiedOnly, counts, onTyp
         <input type="checkbox" checked={verifiedOnly} onChange={(e) => onVerifiedOnly(e.target.checked)} />
         <span>{t.verifiedOnly}</span>
       </label>
+      <fieldset className="legend-family">
+        <legend>{t.borders}</legend>
+        {BORDER_KEYS.map((b) => {
+          const st = BORDER_STYLE[b];
+          return (
+            <label key={b} className="legend-item">
+              <input
+                type="checkbox"
+                checked={borders.has(b)}
+                onChange={() => {
+                  const next = new Set(borders);
+                  if (next.has(b)) next.delete(b);
+                  else next.add(b);
+                  onBorders(next);
+                }}
+              />
+              <svg className="legend-line" width="28" height="10" aria-hidden="true">
+                <line x1="2" y1="5" x2="26" y2="5" stroke={st.color} strokeWidth={st.weight} strokeDasharray={st.dashArray} strokeLinecap="round" />
+              </svg>
+              <span>{t.borderLabels[b]}</span>
+            </label>
+          );
+        })}
+        <p className="legend-note">{t.bordersNote}</p>
+      </fieldset>
       <ul className="legend-key" aria-label={t.legendAndFilters}>
         <li>
           <span dangerouslySetInnerHTML={{ __html: markerSvg("battle", "began", { size: 20 }) }} /> {t.markerBegan}

@@ -1,14 +1,18 @@
-import { useMemo } from "react";
+import { useEffect, useState } from "react";
 import { CORRECTIONS_URL } from "../config";
-import { ALL_EVENTS } from "../data/loadEvents";
+import { loadAllEvents } from "../data/loadEvents";
 import type { Lang } from "../i18n";
 
 type Institution = { publisher: string; tier: number; host: string; citations: number };
 
 function useInstitutions(): Institution[] {
-  return useMemo(() => {
-    const map = new Map<string, Institution>();
-    for (const e of ALL_EVENTS)
+  const [rows, setRows] = useState<Institution[]>([]);
+  useEffect(() => {
+    let alive = true;
+    loadAllEvents().then((all) => {
+      if (!alive) return;
+      const map = new Map<string, Institution>();
+      for (const e of all)
       for (const s of e.sources) {
         const key = `${s.publisher}|${s.tier}`;
         const host = new URL(s.url).host;
@@ -16,8 +20,13 @@ function useInstitutions(): Institution[] {
         if (cur) cur.citations++;
         else map.set(key, { publisher: s.publisher, tier: s.tier, host, citations: 1 });
       }
-    return [...map.values()].sort((a, b) => a.tier - b.tier || b.citations - a.citations || a.publisher.localeCompare(b.publisher));
+      setRows([...map.values()].sort((a, b) => a.tier - b.tier || b.citations - a.citations || a.publisher.localeCompare(b.publisher)));
+    });
+    return () => {
+      alive = false;
+    };
   }, []);
+  return rows;
 }
 
 const TEXT = {
@@ -49,6 +58,7 @@ const TEXT = {
     credits: [
       "Base map: © OpenStreetMap contributors (standard tile layer, displayed in muted tones).",
       "Event coordinates: looked up with OpenStreetMap Nominatim (© OpenStreetMap contributors, ODbL); each lookup is recorded in the project's gazetteer file.",
+      "Historical borders (Poland on 31 August 1939, the General Government, the Soviet border 1939–1941) and present-day borders: OpenHistoricalMap contributors (CC0 1.0), clipped and simplified.",
       "Code: MIT licence. Event data: Creative Commons Attribution 4.0 (CC BY 4.0). Quoted institutions retain the rights to their own publications.",
     ],
   },
@@ -80,6 +90,7 @@ const TEXT = {
     credits: [
       "Mapa podkładowa: © współtwórcy OpenStreetMap (standardowa warstwa kafelków, w stonowanych barwach).",
       "Współrzędne wydarzeń: ustalone za pomocą OpenStreetMap Nominatim (© współtwórcy OpenStreetMap, ODbL); każde wyszukiwanie zapisano w pliku gazetera projektu.",
+      "Granice historyczne (Polska z 31 sierpnia 1939 r., Generalne Gubernatorstwo, granica ZSRS z lat 1939–1941) i współczesne: współtwórcy OpenHistoricalMap (CC0 1.0), przycięte i uproszczone.",
       "Kod: licencja MIT. Dane o wydarzeniach: Creative Commons Uznanie autorstwa 4.0 (CC BY 4.0). Prawa do własnych publikacji zachowują cytowane instytucje.",
     ],
   },
@@ -89,7 +100,7 @@ export default function AboutPage({ lang }: { lang: Lang }) {
   const t = TEXT[lang];
   const institutions = useInstitutions();
   return (
-    <main className="about" id="main">
+    <main className="about" id="main" tabIndex={-1}>
       <article>
         <h2>{t.title}</h2>
         <p className="lede">{t.intro}</p>

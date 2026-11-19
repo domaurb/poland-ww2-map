@@ -126,6 +126,8 @@ export default function App() {
       counts={TYPE_COUNTS as Partial<Record<EventType, number>>}
       onTypes={(types) => update({ types })}
       onVerifiedOnly={(verifiedOnly) => update({ verifiedOnly })}
+      borders={s.borders}
+      onBorders={(borders) => update({ borders })}
     />
   );
 
@@ -151,6 +153,8 @@ export default function App() {
               revealToken={revealToken}
               selectedPoint={selected ? [selected.location.lat, selected.location.lng] : null}
               label={t.map}
+              borders={s.borders}
+              borderDate={s.mode === "overview" ? null : s.date}
             />
             <SidePanel
               lang={s.lang}
@@ -185,6 +189,7 @@ export default function App() {
             onNextEvent={() => nextEvent && setDate(nextEvent)}
             onTogglePlay={togglePlay}
             onSpeed={(speed) => update({ speed })}
+            events={filtered}
           />
         </>
       )}

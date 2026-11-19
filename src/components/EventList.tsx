@@ -1,10 +1,10 @@
-import type { HistEvent } from "../data/schema";
+import type { EventIndex } from "../data/schema";
 import { STRINGS, TYPE_LABELS, type Lang } from "../i18n";
 import { formatEventDates } from "../lib/dates";
 import { markerSvg, type MarkerVariant } from "./markerIcon";
 
 type Props = {
-  events: HistEvent[];
+  events: EventIndex[];
   lang: Lang;
   variant: MarkerVariant;
   selectedId: string | null;

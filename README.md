@@ -1,10 +1,8 @@
 # Poland 1939–1945 — an interactive map
 
-A static, bilingual (English/Polish) web map of significant Second World War events on Polish lands,
-explorable day by day from 1 September 1939 to 8 May 1945, with a view of the most significant events (a selection of 100, shown in date order).
-
-**Status:** test build. Data phases 2a–2f are done (300 events, 1 September 1939 – 8 May 1945, all checked against
-Polish institutional sources). Phase 3 (selection of the most significant events, see `docs/most-significant-events.md`) is done. Still to come: historical borders and the density strip.
+A static, bilingual (English/Polish) web map of significant Second World War events on Polish lands, explorable day
+by day from 1 September 1939 to 8 May 1945. It contains **300 events**, each checked against at least one Polish
+institutional source, and a view of the **most significant events** – a selection of 100, shown in date order.
 
 ## Try it
 
@@ -15,27 +13,79 @@ Polish institutional sources). Phase 3 (selection of the most significant events
 
 Both need an internet connection for the OpenStreetMap base map; the event data is bundled.
 
-## Quick start
+## What the map does
+
+- **Timeline:** date picker, a slider across the whole war, play/pause at three speeds, previous/next day and
+  previous/next date on which an event began. Above the slider, a **density strip** shows how many events begin in
+  each week (hover for the count, click to jump there).
+- **Markers:** colour by family (military, crimes and repression, resistance, other), a glyph per event type, filled
+  for events beginning on the selected day and outlined for ongoing ones; clustered where they overlap.
+- **Borders:** Poland on 31 August 1939, present-day Poland, and occupation borders that follow the selected date
+  (the General Government from 26 October 1939, the Soviet border until 21 June 1941). Each can be switched off.
+- **Most significant events:** a selection of 100 events, listed in date order without numbers. How it was chosen is
+  explained on the About page and in `docs/most-significant-events.md`.
+- **Event details:** dates and their precision, location and its precision, parties involved, summary, casualty
+  figures (with differing figures noted), notes and uncertainties, and the sources with their tier.
+- **Filters:** by event type and verified status. Every view is a **shareable URL**
+  (e.g. `?date=1944-08-01&lang=pl&event=warsaw-uprising-1944`).
+- **Accessible:** keyboard-operable, skip links, live date announcements, labelled controls, colour never the only
+  cue, respects "reduce motion"; checked with axe (no violations on the main views). On phones the panel becomes a
+  bottom sheet.
+
+## Development
 
 ```bash
 npm install
-npm run dev        # local dev server
-npm run validate   # check all event data (add --final once ranks 1–100 are assigned)
-npm test           # unit tests
-npm run build      # static build in dist/
+npm run dev             # local dev server
+npm run validate        # check all event data (schema, dates, coordinates, sources, the 1–100 selection)
+npm test                # unit tests
+npm run lint            # oxlint
+npm run build           # static build in dist/
 npm run build:portable  # single self-contained HTML file in dist-portable/
 ```
 
-## Releases
-
-Pushing a tag such as `v0.2.0` runs `.github/workflows/release.yml`, which builds both downloads and attaches them
-to a GitHub Release. `.github/workflows/pages.yml` validates, tests and deploys the site to GitHub Pages.
+Stack: Vite, React, TypeScript, react-leaflet with marker clustering; zod for data validation (build-time only).
+The first page load contains only a slim index of the events; full texts are loaded per year when an event or the
+About page is opened, and the border geometry is loaded when a border layer is shown.
 
 ## Data
 
-- `src/data/events/<year>.json` — events, one file per start year, validated against `src/data/schema.ts`.
-- `src/data/places.json` → `npm run geocode` → `src/data/gazetteer.json` — every event coordinate comes from a
-  recorded OpenStreetMap Nominatim lookup and is copied into the events by the script.
-- `src/data/exceptions.json` — documented exceptions (e.g. events outside the Poland bounding box).
+| Path | What it is |
+|---|---|
+| `src/data/events/<year>.json` | Events, one file per start year, validated against `src/data/schema.ts` |
+| `src/data/places.json` → `src/data/gazetteer.json` | Place lookups; `npm run geocode` resolves new places with OpenStreetMap Nominatim (1 request/s) and copies coordinates into the events |
+| `src/data/exceptions.json` | Documented exceptions, e.g. events outside the map area (Katyń) |
+| `src/data/borders.json` | Border lines from OpenHistoricalMap, rebuilt with `python3 scripts/build-borders.py` (needs `shapely`) |
+| `scripts/significant-events.py` | The selection of most significant events; `--apply` writes `significanceRank` into the events |
 
-Code: MIT (see `LICENSE`). Data: CC BY 4.0, gazetteer ODbL (see `src/data/LICENSE.md`).
+### Adding or correcting an event
+
+1. Add or edit the event in the file for its start year (see the schema for every field; both `en` and `pl` texts
+   are required).
+2. Cite at least one source you actually opened. Mark `verified: true` only if a tier-1 or tier-2 source confirms the
+   event; otherwise give the reason in `notes`.
+3. For a new place, add an entry to `places.json` and run `npm run geocode`.
+4. Run `npm run validate` and `npm test`.
+
+### Source policy
+
+Polish state institutions are preferred: **tier 1** – IPN and its portals, the Pilecki Institute, the Museum of the
+Second World War, the Warsaw Rising Museum, the Auschwitz-Birkenau Museum, the Jewish Historical Institute, the
+Polish Army Museum and others; **tier 2** – Polish academic institutions and dzieje.pl; **tier 3** – USHMM,
+Yad Vashem, IWM. Wikipedia is not cited. Summaries are in our own words; casualty figures appear only as a cited
+source gives them, with differing figures recorded.
+
+Found a mistake? [Report a correction](https://github.com/domaurb/poland-ww2-map/issues/new).
+
+## Deployment
+
+- `.github/workflows/pages.yml` lints, validates, tests and deploys `main` to GitHub Pages.
+- `.github/workflows/ci.yml` runs the same checks on pull requests and other branches.
+- `.github/workflows/release.yml` builds the two downloads and publishes a GitHub Release, either when a `v*` tag is
+  pushed or when run manually from the Actions tab with a tag name.
+
+## Licences and credits
+
+- Code: MIT (`LICENSE`). Event data: CC BY 4.0. Gazetteer: ODbL. Borders: CC0 (see `src/data/LICENSE.md`).
+- Base map © OpenStreetMap contributors; borders © OpenHistoricalMap contributors (CC0).
+- The event data was compiled with the assistance of an AI system and reviewed in stages; it may contain errors.

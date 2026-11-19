@@ -2,10 +2,10 @@ import { useEffect, useRef } from "react";
 import { useMap } from "react-leaflet";
 import L from "leaflet";
 import "leaflet.markercluster";
-import type { HistEvent } from "../data/schema";
+import type { EventIndex } from "../data/schema";
 import { markerSvg, type MarkerVariant } from "./markerIcon";
 
-export type MarkerItem = { event: HistEvent; variant: MarkerVariant; label: string };
+export type MarkerItem = { event: EventIndex; variant: MarkerVariant; label: string };
 
 type Props = {
   items: MarkerItem[];
@@ -34,6 +34,7 @@ export default function ClusterLayer({ items, selectedId, onSelect, revealToken,
       showCoverageOnHover: false,
       maxClusterRadius: 36,
       spiderfyOnMaxZoom: true,
+      animate: !window.matchMedia?.("(prefers-reduced-motion: reduce)").matches,
       iconCreateFunction: (cluster) => {
         const n = cluster.getChildCount();
         const size = n < 10 ? 30 : n < 50 ? 36 : 42;
@@ -110,10 +111,13 @@ export default function ClusterLayer({ items, selectedId, onSelect, revealToken,
     if (!revealToken || !selectedId) return;
     const entry = markersRef.current.get(selectedId);
     const group = groupRef.current;
+    // Honour the OS "reduce motion" setting: jump instead of animating.
+    const animate = !window.matchMedia?.("(prefers-reduced-motion: reduce)").matches;
     if (entry && group) {
-      group.zoomToShowLayer(entry.marker, () => map.panTo(entry.marker.getLatLng(), { animate: true }));
+      group.zoomToShowLayer(entry.marker, () => map.panTo(entry.marker.getLatLng(), { animate }));
     } else if (selectedPoint) {
-      map.flyTo(selectedPoint, Math.max(map.getZoom(), 8));
+      if (animate) map.flyTo(selectedPoint, Math.max(map.getZoom(), 8));
+      else map.setView(selectedPoint, Math.max(map.getZoom(), 8), { animate: false });
     }
     // Only react to explicit reveal requests.
     // eslint-disable-next-line react-hooks/exhaustive-deps

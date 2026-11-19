@@ -45,3 +45,6 @@ export const EventSchema = z
 export type HistEvent = z.infer<typeof EventSchema>;
 export type Source = z.infer<typeof SourceSchema>;
 export type Bilingual = z.infer<typeof Bilingual>;
+
+/** The fields the map, lists and filters need; full texts are loaded on demand. */
+export type EventIndex = Pick<HistEvent, "id" | "title" | "startDate" | "endDate" | "datePrecision" | "location" | "type" | "verified" | "significanceRank">;

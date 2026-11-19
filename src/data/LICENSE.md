@@ -10,3 +10,6 @@ https://www.openstreetmap.org/copyright
 
 Event summaries are original text. The publications cited in each event's `sources`
 remain the property of their respective institutions.
+
+`borders.json` is derived from OpenHistoricalMap boundary relations, which are dedicated to the public
+domain under **CC0 1.0** (https://www.openhistoricalmap.org). It is rebuilt by `scripts/build-borders.py`.

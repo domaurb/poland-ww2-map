@@ -2,7 +2,7 @@ import { describe, expect, it } from "vitest";
 import { EVENT_TYPES } from "../data/constants";
 import type { HistEvent } from "../data/schema";
 import { addDays, formatEventDates, fromDay, LAST_DAY, monthTicks, toDay } from "./dates";
-import { applyFilters, eventsOnDate, nextDate, prevDate, startDates } from "./events";
+import { applyFilters, eventsOnDate, nextDate, prevDate, significantEvents, startDates } from "./events";
 import { parseUrl, toSearch } from "./urlState";
 
 const ev = (id: string, startDate: string, endDate: string, extra: Partial<HistEvent> = {}): HistEvent => ({
@@ -93,5 +93,31 @@ describe("URL state", () => {
   });
   it("derives the date from a linked event when no date is given", () => {
     expect(parseUrl("?event=x", () => "1943-04-19").date).toBe("1943-04-19");
+  });
+});
+
+describe("most significant events", () => {
+  it("lists only selected events, in date order regardless of internal order", () => {
+    const list = significantEvents([
+      ev("b", "1944-08-01", "1944-10-02", { significanceRank: 1 }),
+      ev("a", "1939-09-01", "1939-09-07", { significanceRank: 7 }),
+      ev("c", "1940-01-01", "1940-01-01"),
+    ]);
+    expect(list.map((e) => e.id)).toEqual(["a", "b"]);
+  });
+});
+
+describe("border layers in the URL", () => {
+  it("defaults to the 1939 and occupation borders and keeps them out of the URL", () => {
+    const s = parseUrl("?date=1940-01-01&lang=en");
+    expect([...s.borders].sort()).toEqual(["1939", "occupation"]);
+    expect(toSearch(s)).not.toContain("borders");
+  });
+  it("round-trips a custom selection and 'none'", () => {
+    const s = parseUrl("?date=1940-01-01&lang=en&borders=today");
+    expect([...s.borders]).toEqual(["today"]);
+    expect(toSearch(s)).toContain("borders=today");
+    expect(toSearch({ ...s, borders: new Set() })).toContain("borders=none");
+    expect(parseUrl("?borders=none").borders.size).toBe(0);
   });
 });
