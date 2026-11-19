@@ -44,9 +44,6 @@ const TEXT = {
       ["Tier 2", "Polish academic and other established institutions — e.g. the Polish Academy of Sciences, Polish universities, dzieje.pl (Museum of Polish History / PAP)."],
       ["Tier 3", "Reputable international institutions — e.g. USHMM, Yad Vashem, Imperial War Museums — used to fill gaps or note differing figures."],
     ],
-    verifyTitle: "Verified and unverified events",
-    verify:
-      "An event is marked verified only if its facts were checked against at least one tier-1 or tier-2 source. Unverified events carry a “?” badge on the map and a notice in their description; you can hide them with the “Verified events only” filter.",
     instTitle: "Institutions cited",
     instCols: ["Institution", "Tier", "Citations"],
     aiTitle: "How this data was compiled",
@@ -76,9 +73,6 @@ const TEXT = {
       ["Kategoria 2", "Polskie instytucje naukowe i inne uznane instytucje – m.in. Polska Akademia Nauk, polskie uczelnie, dzieje.pl (Muzeum Historii Polski / PAP)."],
       ["Kategoria 3", "Renomowane instytucje międzynarodowe – m.in. USHMM, Yad Vashem, Imperial War Museums – wykorzystywane do uzupełniania luk lub odnotowania rozbieżnych danych."],
     ],
-    verifyTitle: "Wydarzenia zweryfikowane i niezweryfikowane",
-    verify:
-      "Wydarzenie oznaczamy jako zweryfikowane tylko wtedy, gdy jego fakty sprawdzono w co najmniej jednym źródle 1. lub 2. kategorii. Wydarzenia niezweryfikowane mają na mapie znaczek „?” i stosowną informację w opisie; filtr „Tylko zweryfikowane” pozwala je ukryć.",
     instTitle: "Cytowane instytucje",
     instCols: ["Instytucja", "Kategoria", "Cytowania"],
     aiTitle: "Jak opracowano dane",
@@ -118,9 +112,6 @@ export default function AboutPage({ lang }: { lang: Lang }) {
             </div>
           ))}
         </dl>
-
-        <h3>{t.verifyTitle}</h3>
-        <p>{t.verify}</p>
 
         <h3>{t.instTitle}</h3>
         <table className="institutions">
