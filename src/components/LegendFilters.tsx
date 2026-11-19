@@ -69,9 +69,15 @@ export default function LegendFilters({ lang, types, verifiedOnly, counts, onTyp
                   onBorders(next);
                 }}
               />
-              <svg className="legend-line" width="28" height="10" aria-hidden="true">
-                <line x1="2" y1="5" x2="26" y2="5" stroke={st.color} strokeWidth={st.weight} strokeDasharray={st.dashArray} strokeLinecap="round" />
-              </svg>
+              {st.fill ? (
+                <svg className="legend-line" width="28" height="14" aria-hidden="true">
+                  <rect x="2" y="2" width="24" height="10" rx="2" fill={st.fillColor ?? st.color} fillOpacity={st.fill * 2} stroke={st.color} strokeWidth={1.6} strokeDasharray={st.dashArray} />
+                </svg>
+              ) : (
+                <svg className="legend-line" width="28" height="14" aria-hidden="true">
+                  <line x1="2" y1="7" x2="26" y2="7" stroke={st.color} strokeWidth={st.weight} strokeDasharray={st.dashArray} strokeLinecap="round" />
+                </svg>
+              )}
               <span>{t.borderLabels[b]}</span>
             </label>
           );

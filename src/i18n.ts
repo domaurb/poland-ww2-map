@@ -73,9 +73,10 @@ const en = {
   borderLabels: {
     "1939": "Poland, 31 August 1939",
     today: "Present-day Poland",
-    occupation: "Occupation borders on the selected date",
-  } as Record<"1939" | "today" | "occupation", string>,
-  bordersNote: "Occupation borders: the General Government (from 26 October 1939) and the Soviet border (to 21 June 1941). Source: OpenHistoricalMap.",
+    german: "German-controlled, on the selected date",
+    soviet: "Soviet-controlled, on the selected date",
+  } as Record<"1939" | "today" | "german" | "soviet", string>,
+  bordersNote: "Tinted areas show who controlled Poland's 1939 territory: partitioned from 6 October 1939, all under German control from 22 June 1941 until Soviet forces re-entered in January 1944 (front lines after that are not drawn). The dotted brown line is the General Government. Source: OpenHistoricalMap.",
 };
 
 type Strings = typeof en;
@@ -155,9 +156,10 @@ const pl: Strings = {
   borderLabels: {
     "1939": "Polska, 31 sierpnia 1939 r.",
     today: "Polska współczesna",
-    occupation: "Granice okupacyjne w wybranym dniu",
+    german: "Pod kontrolą niemiecką, w wybranym dniu",
+    soviet: "Pod kontrolą sowiecką, w wybranym dniu",
   },
-  bordersNote: "Granice okupacyjne: Generalne Gubernatorstwo (od 26 października 1939 r.) i granica ZSRS (do 21 czerwca 1941 r.). Źródło: OpenHistoricalMap."
+  bordersNote: "Zabarwione obszary pokazują, kto kontrolował terytorium Polski z 1939 r.: podział od 6 października 1939 r., od 22 czerwca 1941 r. całość pod kontrolą niemiecką aż do wkroczenia wojsk sowieckich w styczniu 1944 r. (późniejsze linie frontu nie są zaznaczone). Kropkowana brązowa linia to granica Generalnego Gubernatorstwa. Źródło: OpenHistoricalMap."
 };
 
 export const STRINGS: Record<Lang, Strings> = { en, pl };

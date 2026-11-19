@@ -108,9 +108,9 @@ describe("most significant events", () => {
 });
 
 describe("border layers in the URL", () => {
-  it("defaults to the 1939 and occupation borders and keeps them out of the URL", () => {
+  it("defaults to the 1939 border and both occupation zones and keeps them out of the URL", () => {
     const s = parseUrl("?date=1940-01-01&lang=en");
-    expect([...s.borders].sort()).toEqual(["1939", "occupation"]);
+    expect([...s.borders].sort()).toEqual(["1939", "german", "soviet"]);
     expect(toSearch(s)).not.toContain("borders");
   });
   it("round-trips a custom selection and 'none'", () => {
@@ -119,5 +119,8 @@ describe("border layers in the URL", () => {
     expect(toSearch(s)).toContain("borders=today");
     expect(toSearch({ ...s, borders: new Set() })).toContain("borders=none");
     expect(parseUrl("?borders=none").borders.size).toBe(0);
+  });
+  it("reads the old single 'occupation' switch as both zones", () => {
+    expect([...parseUrl("?borders=1939,occupation").borders].sort()).toEqual(["1939", "german", "soviet"]);
   });
 });

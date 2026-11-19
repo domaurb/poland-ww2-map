@@ -5,9 +5,9 @@ import { clampIso, isIsoDate } from "./dates";
 export type Mode = "date" | "overview";
 export type Page = "map" | "about";
 export type Speed = "day" | "week" | "month";
-export type BorderKey = "1939" | "today" | "occupation";
-export const BORDER_KEYS: BorderKey[] = ["1939", "today", "occupation"];
-export const DEFAULT_BORDERS: BorderKey[] = ["1939", "occupation"];
+export type BorderKey = "1939" | "today" | "german" | "soviet";
+export const BORDER_KEYS: BorderKey[] = ["1939", "today", "german", "soviet"];
+export const DEFAULT_BORDERS: BorderKey[] = ["1939", "german", "soviet"];
 
 export type UrlState = {
   date: string;
@@ -37,7 +37,13 @@ export function parseUrl(search: string, eventStart?: (id: string) => string | u
   );
   const bordersParam = q.get("borders");
   const borders = new Set<BorderKey>(
-    bordersParam === null ? DEFAULT_BORDERS : bordersParam.split(",").filter((b): b is BorderKey => (BORDER_KEYS as string[]).includes(b)),
+    bordersParam === null
+      ? DEFAULT_BORDERS
+      : bordersParam
+          .split(",")
+          // "occupation" was the single switch in earlier links; it now means both zones.
+          .flatMap((b) => (b === "occupation" ? ["german", "soviet"] : [b]))
+          .filter((b): b is BorderKey => (BORDER_KEYS as string[]).includes(b)),
   );
   const lang = q.get("lang");
   const speed = q.get("speed");

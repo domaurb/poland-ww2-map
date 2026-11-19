@@ -20,8 +20,12 @@ Both need an internet connection for the OpenStreetMap base map; the event data 
   each week (hover for the count, click to jump there).
 - **Markers:** colour by family (military, crimes and repression, resistance, other), a glyph per event type, filled
   for events beginning on the selected day and outlined for ongoing ones; clustered where they overlap.
-- **Borders:** Poland on 31 August 1939, present-day Poland, and occupation borders that follow the selected date
-  (the General Government from 26 October 1939, the Soviet border until 21 June 1941). Each can be switched off.
+- **Borders and occupation zones:** Poland on 31 August 1939 and present-day Poland as lines; on the selected date,
+  the part of 1939 Poland under **German control is tinted brown** (dotted brown line: the General Government) and
+  the part under **Soviet control is tinted red** (dashed red line: the Soviet zone's edge). The zones follow the
+  partition from 6 October 1939, Wilno's Lithuanian interlude, and full German control from 22 June 1941 until
+  Soviet forces re-entered pre-war Poland on 3–4 January 1944; later front lines are not drawn. Each layer can be
+  switched off.
 - **Most significant events:** a selection of 100 events, listed in date order without numbers. How it was chosen is
   explained on the About page and in `docs/most-significant-events.md`.
 - **Event details:** dates and their precision, location and its precision, parties involved, summary, casualty
