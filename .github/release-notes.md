@@ -1,4 +1,4 @@
-Test build of the interactive WWII map of Poland (data phases 2a–2e: 229 events, 1939–1945).
+Test build of the interactive WWII map of Poland (data phases 2a–2f: 300 events, 1939–1945).
 
 **Downloads**
 - `poland-ww2-map.html` — the whole app in one file. Download it and double-click to open in your browser.
@@ -6,4 +6,4 @@ Test build of the interactive WWII map of Poland (data phases 2a–2e: 229 event
 
 Both need an internet connection for the OpenStreetMap base map; the event data is bundled.
 
-Not yet included: gap-filling batch, top-100 Overview ranking (Phase 3), historical borders and density strip (Phase 4).
+Not yet included: top-100 Overview ranking (Phase 3), historical borders and density strip (Phase 4).

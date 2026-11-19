@@ -410,6 +410,51 @@
     }
   },
   {
+    "id": "firlej-execution-1940",
+    "title": {
+      "en": "Public execution at Firlej",
+      "pl": "Publiczna egzekucja na Firleju"
+    },
+    "startDate": "1940-04-04",
+    "endDate": "1940-04-04",
+    "datePrecision": "day",
+    "location": {
+      "lat": 51.4505,
+      "lng": 21.14899,
+      "name": {
+        "en": "Firlej, Radom",
+        "pl": "Firlej, Radom"
+      },
+      "precision": "town"
+    },
+    "type": "massacre",
+    "belligerents": [
+      "Germany"
+    ],
+    "summary": {
+      "en": "On 4 April 1940 the Germans carried out a public execution at Firlej near Radom, killing inhabitants of the villages of Gałki, Gielniów and Mechlin for helping the unit of Maj. Henryk Dobrzański 'Hubal'.",
+      "pl": "4 kwietnia 1940 r. Niemcy dokonali publicznej egzekucji na Firleju pod Radomiem, zabijając mieszkańców wsi Gałki, Gielniów i Mechlin za pomoc oddziałowi mjr. Henryka Dobrzańskiego „Hubala”."
+    },
+    "casualties": {
+      "en": "145 people on 4 April 1940; 12,000–15,000 were murdered at Firlej in mass executions during the war (dzieje.pl calendar).",
+      "pl": "145 osób 4 kwietnia 1940 r.; w masowych egzekucjach na Firleju Niemcy zamordowali w czasie wojny 12–15 tys. osób (kalendarium dzieje.pl)."
+    },
+    "sources": [
+      {
+        "title": "Kalendarz historyczny: 4 kwietnia",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/kalendarz-historyczny/4/4",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "Based only on a short entry in the dzieje.pl historical calendar; to be expanded when a fuller institutional source is found.",
+      "pl": "Oparte wyłącznie na krótkiej notce kalendarium dzieje.pl; do rozszerzenia po znalezieniu pełniejszego źródła instytucjonalnego."
+    }
+  },
+  {
     "id": "soviet-deportation-apr-1940",
     "title": {
       "en": "Second mass Soviet deportation (13 April 1940)",
@@ -648,6 +693,51 @@
     }
   },
   {
+    "id": "brzask-execution-1940",
+    "title": {
+      "en": "Executions in the 'Brzask' wood near Skarżysko-Kamienna",
+      "pl": "Egzekucje w lasku „Brzask” koło Skarżyska-Kamiennej"
+    },
+    "startDate": "1940-06-29",
+    "endDate": "1940-06-29",
+    "datePrecision": "day",
+    "location": {
+      "lat": 51.11388,
+      "lng": 20.85788,
+      "name": {
+        "en": "Brzask wood, Skarżysko-Kamienna",
+        "pl": "Lasek „Brzask”, Skarżysko-Kamienna"
+      },
+      "precision": "town"
+    },
+    "type": "massacre",
+    "belligerents": [
+      "Germany"
+    ],
+    "summary": {
+      "en": "On 29 June 1940, as part of the AB-Aktion, the Germans shot Poles from the surrounding localities in the 'Brzask' wood near Skarżysko-Kamienna.",
+      "pl": "29 czerwca 1940 r., w ramach akcji AB, Niemcy rozstrzelali w lasku „Brzask” koło Skarżyska-Kamiennej Polaków z okolicznych miejscowości."
+    },
+    "casualties": {
+      "en": "About 760 Poles (dzieje.pl calendar).",
+      "pl": "Ok. 760 Polaków (kalendarium dzieje.pl)."
+    },
+    "sources": [
+      {
+        "title": "Kalendarz historyczny: 29 czerwca",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/kalendarz-historyczny/29/6",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "Based only on a short entry in the dzieje.pl historical calendar; to be expanded when a fuller institutional source is found.",
+      "pl": "Oparte wyłącznie na krótkiej notce kalendarium dzieje.pl; do rozszerzenia po znalezieniu pełniejszego źródła instytucjonalnego."
+    }
+  },
+  {
     "id": "gross-rosen-camp-1940",
     "title": {
       "en": "Gross-Rosen concentration camp",
@@ -735,6 +825,58 @@
       }
     ],
     "verified": true
+  },
+  {
+    "id": "aktion-saybusch-1940",
+    "title": {
+      "en": "Aktion Saybusch: expulsions from the Żywiec region",
+      "pl": "Aktion Saybusch – wysiedlenia z Żywiecczyzny"
+    },
+    "startDate": "1940-09-22",
+    "endDate": "1940-12-31",
+    "datePrecision": "approximate",
+    "location": {
+      "lat": 49.68903,
+      "lng": 19.20305,
+      "name": {
+        "en": "Żywiec region",
+        "pl": "Żywiecczyzna"
+      },
+      "precision": "region"
+    },
+    "type": "deportation",
+    "belligerents": [
+      "Germany"
+    ],
+    "summary": {
+      "en": "In the night of 21–22 September 1940 German police, including the 82nd and 83rd police battalions, began expelling Poles from villages around Żywiec, in the area annexed to the Reich's Upper Silesian province, to make room for German settlers. The authorities waited until after the harvest so that settlers would find full granaries. Residents were given at most half an hour, had to leave valuables behind and were taken to collection camps in Żywiec, Rajcza and Sucha Beskidzka before deportation to the General Government. The action covered some 30–35 localities until it was halted in December 1940.",
+      "pl": "W nocy z 21 na 22 września 1940 r. niemiecka policja, w tym 82. i 83. batalion policji, rozpoczęła wysiedlanie Polaków ze wsi wokół Żywca, na terenie wcielonym do śląskiej prowincji Rzeszy, aby zrobić miejsce dla niemieckich osadników. Władze odczekały do zakończenia żniw, by osadnicy zastali pełne spichlerze. Mieszkańcy mieli najwyżej pół godziny, musieli zostawić kosztowności i trafiali do obozów zbiorczych w Żywcu, Rajczy i Suchej Beskidzkiej, skąd wywożono ich do Generalnego Gubernatorstwa. Akcja objęła ok. 30–35 miejscowości, aż w grudniu 1940 r. ją przerwano."
+    },
+    "casualties": {
+      "en": "About 20,000 Poles from 35 localities by December 1940 (dzieje.pl calendar).",
+      "pl": "Ok. 20 tys. Polaków z 35 miejscowości do grudnia 1940 r. (kalendarium dzieje.pl)."
+    },
+    "sources": [
+      {
+        "title": "Mirosław Sikora: „Aktion Saybusch”. Wysiedlenia Polaków na Żywiecczyźnie w 1940 r.",
+        "publisher": "Instytut Pamięci Narodowej",
+        "url": "https://ipn.gov.pl/pl/historia-z-ipn/139750,Miroslaw-Sikora-Aktion-Saybusch-Wysiedlenia-Polakow-na-Zywiecczyznie-w-1940-r.html",
+        "tier": 1,
+        "accessed": "2026-11-19"
+      },
+      {
+        "title": "Kalendarz historyczny: 22 września",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/kalendarz-historyczny/22/9",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "The end date is approximate: the action was halted in December 1940 and briefly resumed at the turn of January and February 1941 (IPN).",
+      "pl": "Data końcowa jest przybliżona: akcję przerwano w grudniu 1940 r. i na krótko wznowiono na przełomie stycznia i lutego 1941 r. (IPN)."
+    }
   },
   {
     "id": "oneg-szabat-1940",

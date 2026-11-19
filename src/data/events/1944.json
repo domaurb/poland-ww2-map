@@ -43,6 +43,48 @@
     }
   },
   {
+    "id": "grodkowice-1944",
+    "title": {
+      "en": "Attack on Hans Frank's train at Grodkowice",
+      "pl": "Zamach na pociąg Hansa Franka w Grodkowicach"
+    },
+    "startDate": "1944-01-29",
+    "endDate": "1944-01-29",
+    "datePrecision": "day",
+    "location": {
+      "lat": 49.97505,
+      "lng": 20.26826,
+      "name": {
+        "en": "Grodkowice near Kraków",
+        "pl": "Grodkowice pod Krakowem"
+      },
+      "precision": "town"
+    },
+    "type": "resistance_operation",
+    "belligerents": [
+      "Poland (Home Army)",
+      "Germany"
+    ],
+    "summary": {
+      "en": "On 29 January 1944 Home Army Kedyw units made an unsuccessful attempt to blow up the train of Governor-General Hans Frank at Grodkowice near Kraków.",
+      "pl": "29 stycznia 1944 r. w Grodkowicach pod Krakowem oddziały Kedywu Armii Krajowej dokonały nieudanego zamachu na pociąg generalnego gubernatora Hansa Franka."
+    },
+    "sources": [
+      {
+        "title": "Kalendarz historyczny: 29 stycznia",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/kalendarz-historyczny/29/1",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "Based only on a short entry in the dzieje.pl historical calendar; to be expanded when a fuller institutional source is found.",
+      "pl": "Oparte wyłącznie na krótkiej notce kalendarium dzieje.pl; do rozszerzenia po znalezieniu pełniejszego źródła instytucjonalnego."
+    }
+  },
+  {
     "id": "koniuchy-1944",
     "title": {
       "en": "Koniuchy massacre",
@@ -122,6 +164,96 @@
     "verified": true
   },
   {
+    "id": "janow-county-pacification-1944",
+    "title": {
+      "en": "Pacification of villages in Janów Lubelski county",
+      "pl": "Pacyfikacja wsi w powiecie janowskim"
+    },
+    "startDate": "1944-02-02",
+    "endDate": "1944-02-02",
+    "datePrecision": "day",
+    "location": {
+      "lat": 50.70659,
+      "lng": 22.41107,
+      "name": {
+        "en": "Janów Lubelski county",
+        "pl": "Powiat janowski"
+      },
+      "precision": "region"
+    },
+    "type": "massacre",
+    "belligerents": [
+      "Germany"
+    ],
+    "summary": {
+      "en": "On 2 February 1944 the Germans burned six villages in Janów Lubelski county and murdered their inhabitants.",
+      "pl": "2 lutego 1944 r. Niemcy spalili w powiecie janowskim sześć wsi, a ich mieszkańców wymordowali."
+    },
+    "casualties": {
+      "en": "800 to 1,300 Poles killed (dzieje.pl calendar).",
+      "pl": "Zginęło od 800 do 1300 Polaków (kalendarium dzieje.pl)."
+    },
+    "sources": [
+      {
+        "title": "Kalendarz historyczny: 2 lutego",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/kalendarz-historyczny/2/2",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "The calendar does not name the villages; the marker at Janów Lubelski is representative. Based only on a short entry in the dzieje.pl historical calendar; to be expanded when a fuller institutional source is found.",
+      "pl": "Kalendarium nie wymienia nazw wsi; znacznik w Janowie Lubelskim jest reprezentatywny. Oparte wyłącznie na krótkiej notce kalendarium dzieje.pl; do rozszerzenia po znalezieniu pełniejszego źródła instytucjonalnego."
+    }
+  },
+  {
+    "id": "podkamien-rohatyn-1944",
+    "title": {
+      "en": "UPA killings in Podkamień (Rohatyn county)",
+      "pl": "Zbrodnia UPA w Podkamieniu (pow. rohatyński)"
+    },
+    "startDate": "1944-02-19",
+    "endDate": "1944-02-19",
+    "datePrecision": "day",
+    "location": {
+      "lat": 49.44672,
+      "lng": 24.4669,
+      "name": {
+        "en": "Podkamień, Rohatyn county (now Ukraine)",
+        "pl": "Podkamień, pow. rohatyński"
+      },
+      "precision": "town"
+    },
+    "type": "massacre",
+    "belligerents": [
+      "Ukrainian Insurgent Army (UPA)"
+    ],
+    "summary": {
+      "en": "On 19 February 1944 a UPA unit murdered Polish inhabitants of the village of Podkamień in Rohatyn county, Stanisławów voivodeship. According to the UPA's own report, many Poles could not be killed because they had found shelter with local Ukrainians.",
+      "pl": "19 lutego 1944 r. oddział UPA zamordował polskich mieszkańców wsi Podkamień w powiecie rohatyńskim województwa stanisławowskiego. Według meldunku UPA wielu Polaków nie zdołano zabić, gdyż znaleźli schronienie u miejscowych Ukraińców."
+    },
+    "casualties": {
+      "en": "About 60 Poles (dzieje.pl calendar).",
+      "pl": "Ok. 60 Polaków (kalendarium dzieje.pl)."
+    },
+    "sources": [
+      {
+        "title": "Kalendarz historyczny: 19 lutego",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/kalendarz-historyczny/19/2",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "Based only on a short entry in the dzieje.pl historical calendar; to be expanded when a fuller institutional source is found.",
+      "pl": "Oparte wyłącznie na krótkiej notce kalendarium dzieje.pl; do rozszerzenia po znalezieniu pełniejszego źródła instytucjonalnego."
+    }
+  },
+  {
     "id": "huta-pieniacka-1944",
     "title": {
       "en": "Huta Pieniacka massacre",
@@ -171,6 +303,147 @@
     "verified": true
   },
   {
+    "id": "ringelblum-bunker-1944",
+    "title": {
+      "en": "Discovery of the 'Krysia' bunker and murder of Emanuel Ringelblum",
+      "pl": "Odkrycie bunkra „Krysia” i zamordowanie Emanuela Ringelbluma"
+    },
+    "startDate": "1944-03-07",
+    "endDate": "1944-03-10",
+    "datePrecision": "day",
+    "location": {
+      "lat": 52.2115,
+      "lng": 20.97771,
+      "name": {
+        "en": "81 Grójecka Street, Warsaw",
+        "pl": "ul. Grójecka 81, Warszawa"
+      },
+      "precision": "exact"
+    },
+    "type": "massacre",
+    "belligerents": [
+      "Germany"
+    ],
+    "summary": {
+      "en": "On 7 March 1944 the Gestapo, with Polish 'blue' police, raided the property of the Wolski family at Grójecka Street, under whose greenhouse 38 Jews were hiding in the 'Krysia' bunker – among them Emanuel Ringelblum, creator of the Warsaw Ghetto Underground Archive, with his wife and son. The Germans clearly knew whom they were looking for. The Jews and their Polish protectors Mieczysław Wolski and his nephew Janusz Wysocki were taken to Pawiak, and the bunker was blown up. Ringelblum reportedly refused a plan to rescue him without his family. They were shot in the ruins of the ghetto; underground reports point to 10 March.",
+      "pl": "7 marca 1944 r. gestapo wraz z policją granatową wkroczyło na posesję rodziny Wolskich przy ul. Grójeckiej, gdzie pod szklarnią w bunkrze „Krysia” ukrywało się 38 Żydów – wśród nich Emanuel Ringelblum, twórca Podziemnego Archiwum Getta Warszawskiego, z żoną i synem. Niemcy wiedzieli, kogo szukają. Żydów oraz ich polskich opiekunów – Mieczysława Wolskiego i jego siostrzeńca Janusza Wysockiego – wywieziono na Pawiak, a bunkier wysadzono. Ringelblum miał odmówić udziału w planie ratowania go bez rodziny. Rozstrzelano ich w ruinach getta; raporty podziemia wskazują na 10 marca."
+    },
+    "sources": [
+      {
+        "title": "Ostatnie dni Emanuela Ringelbluma",
+        "publisher": "Żydowski Instytut Historyczny",
+        "url": "https://www.jhi.pl/artykuly/ostatnie-dni-emanuela-ringelbluma,93",
+        "tier": 1,
+        "accessed": "2026-11-19"
+      },
+      {
+        "title": "Kalendarz historyczny: 10 marca",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/kalendarz-historyczny/10/3",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      },
+      {
+        "title": "Kalendarz historyczny: 7 marca",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/kalendarz-historyczny/7/3",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "The exact date of death is not documented; historians generally say they were shot a few days after the arrest, and the ŻIH points to reports of 10 March. The calendar gives the address as Grójecka 77, the ŻIH as Grójecka 81.",
+      "pl": "Dokładna data śmierci nie jest udokumentowana; historycy piszą zwykle o rozstrzelaniu kilka dni po aresztowaniu, a ŻIH wskazuje na raporty z 10 marca. Kalendarium podaje adres Grójecka 77, ŻIH – Grójecka 81."
+    }
+  },
+  {
+    "id": "sahryn-1944",
+    "title": {
+      "en": "Attack of Home Army and Peasants' Battalions units on Sahryń",
+      "pl": "Uderzenie oddziałów AK i BCh na Sahryń"
+    },
+    "startDate": "1944-03-10",
+    "endDate": "1944-03-10",
+    "datePrecision": "day",
+    "location": {
+      "lat": 50.67821,
+      "lng": 23.79338,
+      "name": {
+        "en": "Sahryń, Hrubieszów county",
+        "pl": "Sahryń, pow. hrubieszowski"
+      },
+      "precision": "town"
+    },
+    "type": "massacre",
+    "belligerents": [
+      "Poland (Peasants' Battalions, BCh; Home Army)"
+    ],
+    "summary": {
+      "en": "On 10 March 1944, in a planned reprisal operation, Home Army and Peasants' Battalions units attacked more than a dozen Ukrainian-inhabited villages in the Lublin region, including Sahryń. The village was surrounded at dawn; after a short exchange of fire the attackers broke in, while armed Ukrainians – 60 to 80 members of the self-defence, Ukrainian auxiliary police and other formations – held out longer at the cemetery and the Orthodox church. Armed Ukrainians were killed in combat or shot; during house searches civilians were also killed regardless of sex or age, buildings were set on fire, and people hiding in shelters died in the flames or from grenades. Most victims were civilians. The IPN describes the action as collective responsibility applied to the Ukrainian population, set against the UPA's mass murders of Poles and fears that they would spread to the Lublin region.",
+      "pl": "10 marca 1944 r. oddziały AK i BCh w ramach zaplanowanej akcji odwetowej zaatakowały na Lubelszczyźnie kilkanaście wsi zamieszkanych przez Ukraińców, w tym Sahryń. Wieś okrążono o świcie; po krótkiej wymianie strzałów napastnicy wdarli się do niej, a uzbrojeni Ukraińcy – od 60 do 80 członków samoobrony, Ukraińskiej Policji Pomocniczej i innych formacji – bronili się dłużej na cmentarzu i w cerkwi. Uzbrojonych zabijano w walce lub rozstrzeliwano; podczas kontroli zabudowań zabijano też cywilów bez względu na płeć i wiek, podpalano budynki, a ukryci w schronach ginęli w pożarach lub od granatów. Większość ofiar stanowili cywile. IPN ocenia akcję jako zastosowanie odpowiedzialności zbiorowej wobec ludności ukraińskiej, na tle masowych zbrodni UPA na Polakach i obaw przed ich przeniesieniem na Lubelszczyznę."
+    },
+    "sources": [
+      {
+        "title": "Informacja na temat uderzenia oddziałów AK i BCh na Sahryń",
+        "publisher": "Instytut Pamięci Narodowej",
+        "url": "https://ipn.gov.pl/pl/aktualnosci/57010,Informacja-na-temat-uderzenia-oddzialow-AK-i-BCh-na-Sahryn.html",
+        "tier": 1,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "The IPN statement consulted does not give a casualty figure; it cites the detailed studies of Grzegorz Motyka, Mariusz Zajączkowski and Igor Hałagida.",
+      "pl": "Wykorzystany komunikat IPN nie podaje liczby ofiar; odsyła do szczegółowych opracowań Grzegorza Motyki, Mariusza Zajączkowskiego i Igora Hałagidy."
+    }
+  },
+  {
+    "id": "palikrowy-1944",
+    "title": {
+      "en": "Palikrowy massacre",
+      "pl": "Zbrodnia w Palikrowach"
+    },
+    "startDate": "1944-03-12",
+    "endDate": "1944-03-12",
+    "datePrecision": "day",
+    "location": {
+      "lat": 49.91295,
+      "lng": 25.33825,
+      "name": {
+        "en": "Palikrowy, Brody county (now Ukraine)",
+        "pl": "Palikrowy, pow. brodzki"
+      },
+      "precision": "town"
+    },
+    "type": "massacre",
+    "belligerents": [
+      "Ukrainian nationalists"
+    ],
+    "summary": {
+      "en": "On 12 March 1944 Ukrainian nationalists murdered Polish inhabitants of Palikrowy in Brody county, Eastern Galicia.",
+      "pl": "12 marca 1944 r. w Palikrowach w powiecie brodzkim w Galicji Wschodniej ukraińscy nacjonaliści zamordowali polskich mieszkańców wsi."
+    },
+    "casualties": {
+      "en": "About 360 Poles (dzieje.pl calendar).",
+      "pl": "Ok. 360 osób narodowości polskiej (kalendarium dzieje.pl)."
+    },
+    "sources": [
+      {
+        "title": "Kalendarz historyczny: 12 marca",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/kalendarz-historyczny/12/3",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "Based only on a short entry in the dzieje.pl historical calendar; to be expanded when a fuller institutional source is found.",
+      "pl": "Oparte wyłącznie na krótkiej notce kalendarium dzieje.pl; do rozszerzenia po znalezieniu pełniejszego źródła instytucjonalnego."
+    }
+  },
+  {
     "id": "ulma-family-1944",
     "title": {
       "en": "Murder of the Ulma family and the Jews they sheltered",
@@ -210,6 +483,103 @@
       }
     ],
     "verified": true
+  },
+  {
+    "id": "kuty-upa-1944",
+    "title": {
+      "en": "UPA attacks on Kuty",
+      "pl": "Napady UPA na Kuty"
+    },
+    "startDate": "1944-04-21",
+    "endDate": "1944-04-21",
+    "datePrecision": "day",
+    "location": {
+      "lat": 48.26268,
+      "lng": 25.18187,
+      "name": {
+        "en": "Kuty on the Czeremosz (now Ukraine)",
+        "pl": "Kuty nad Czeremoszem"
+      },
+      "precision": "town"
+    },
+    "type": "massacre",
+    "belligerents": [
+      "Ukrainian Insurgent Army (UPA)"
+    ],
+    "summary": {
+      "en": "On 21 April 1944 UPA units massacred inhabitants of Kuty on the Czeremosz, the culmination of Ukrainian attacks on the town that had continued since March 1944; the victims were Poles and Armenians.",
+      "pl": "21 kwietnia 1944 r. oddziały UPA dokonały masakry mieszkańców Kut nad Czeremoszem – kulminacji ukraińskich napadów na miejscowość trwających od marca 1944 r.; ofiarami byli Polacy i Ormianie."
+    },
+    "casualties": {
+      "en": "About 200 Poles and Armenians in the attacks since March 1944 (dzieje.pl calendar).",
+      "pl": "Ok. 200 Polaków i Ormian w napadach od marca 1944 r. (kalendarium dzieje.pl)."
+    },
+    "sources": [
+      {
+        "title": "Kalendarz historyczny: 21 kwietnia",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/kalendarz-historyczny/21/4",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "Based only on a short entry in the dzieje.pl historical calendar; to be expanded when a fuller institutional source is found.",
+      "pl": "Oparte wyłącznie na krótkiej notce kalendarium dzieje.pl; do rozszerzenia po znalezieniu pełniejszego źródła instytucjonalnego."
+    }
+  },
+  {
+    "id": "owczarnia-1944",
+    "title": {
+      "en": "Owczarnia: murder of Home Army soldiers by an AL unit",
+      "pl": "Zbrodnia w Owczarni na żołnierzach AK"
+    },
+    "startDate": "1944-05-04",
+    "endDate": "1944-05-04",
+    "datePrecision": "day",
+    "location": {
+      "lat": 51.21819,
+      "lng": 22.55468,
+      "name": {
+        "en": "Owczarnia, Lublin region (representative marker in Lublin)",
+        "pl": "Owczarnia na Lubelszczyźnie (znacznik reprezentatywny w Lublinie)"
+      },
+      "precision": "region"
+    },
+    "type": "massacre",
+    "belligerents": [
+      "Polish communist partisans (AL)"
+    ],
+    "summary": {
+      "en": "On the evening of 4 May 1944, near Owczarnia, a unit of the 3rd company of the Home Army's 15th Infantry Regiment waiting for an Allied arms drop was fired on by a communist People's Army (AL) unit led by Bolesław Kaźmirak 'Cień'. After both sides agreed to stop fighting and line up facing each other, 'Cień' shot the AK commander and his men opened fire on the surprised soldiers.",
+      "pl": "Wczesnym wieczorem 4 maja 1944 r. pod Owczarnią oddział 3. kompanii 15. pułku piechoty AK oczekujący na zrzut alianckiej broni został ostrzelany przez oddział komunistycznej Armii Ludowej Bolesława Kaźmiraka „Cienia”. Gdy obie strony uzgodniły przerwanie walki i ustawiły się w dwuszeregu naprzeciw siebie, „Cień” zastrzelił dowódcę AK, a jego ludzie otworzyli ogień do zaskoczonych żołnierzy."
+    },
+    "casualties": {
+      "en": "18 AK soldiers killed, including the commander, and 13 wounded (dzieje.pl).",
+      "pl": "Zginęło 18 żołnierzy AK (w tym dowódca), 13 zostało rannych (dzieje.pl)."
+    },
+    "sources": [
+      {
+        "title": "80 lat temu w Owczarni oddział AL zamordował 18 żołnierzy Armii Krajowej",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/wiadomosci/80-lat-temu-w-owczarni-oddzial-al-zamordowal-18-zolnierzy-armii-krajowej",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      },
+      {
+        "title": "Kalendarz historyczny: 4 maja",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/kalendarz-historyczny/4/5",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "The village of Owczarnia could not be located in OpenStreetMap; the marker in Lublin stands for the Lublin region.",
+      "pl": "Wsi Owczarnia nie udało się zlokalizować w OpenStreetMap; znacznik w Lublinie oznacza Lubelszczyznę."
+    }
   },
   {
     "id": "hungarian-jews-auschwitz-1944",
@@ -257,6 +627,206 @@
     "notes": {
       "en": "Dates approximate: 'mid-May' to 'early July' 1944. A total deportation figure is not given in the pages cited.",
       "pl": "Daty przybliżone: od „połowy maja” do „początku lipca” 1944 r. Cytowane strony nie podają łącznej liczby deportowanych."
+    }
+  },
+  {
+    "id": "tannenberg-ship-1944",
+    "title": {
+      "en": "Sinking of the German ship Tannenberg on the Vistula",
+      "pl": "Zatopienie niemieckiego statku „Tannenberg” na Wiśle"
+    },
+    "startDate": "1944-05-31",
+    "endDate": "1944-05-31",
+    "datePrecision": "day",
+    "location": {
+      "lat": 50.52648,
+      "lng": 21.62963,
+      "name": {
+        "en": "Vistula near Machów",
+        "pl": "Wisła koło Machowa"
+      },
+      "precision": "town"
+    },
+    "type": "resistance_operation",
+    "belligerents": [
+      "Poland (Peasants' Battalions, BCh; Home Army)",
+      "Germany"
+    ],
+    "summary": {
+      "en": "On 31 May 1944 soldiers of the Peasants' Battalions, supported by Home Army units, sank the ship Tannenberg, which was carrying German soldiers on the Vistula near Machów.",
+      "pl": "31 maja 1944 r. żołnierze Batalionów Chłopskich wspierani przez oddziały Armii Krajowej zatopili na Wiśle w okolicach Machowa statek „Tannenberg” przewożący żołnierzy niemieckich."
+    },
+    "sources": [
+      {
+        "title": "Kalendarz historyczny: 31 maja",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/kalendarz-historyczny/31/5",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "Based only on a short entry in the dzieje.pl historical calendar; to be expanded when a fuller institutional source is found.",
+      "pl": "Oparte wyłącznie na krótkiej notce kalendarium dzieje.pl; do rozszerzenia po znalezieniu pełniejszego źródła instytucjonalnego."
+    }
+  },
+  {
+    "id": "konskie-prison-raid-1944",
+    "title": {
+      "en": "Home Army frees prisoners in Końskie",
+      "pl": "Uwolnienie więźniów w Końskich przez AK"
+    },
+    "startDate": "1944-06-05",
+    "endDate": "1944-06-06",
+    "datePrecision": "day",
+    "location": {
+      "lat": 51.19102,
+      "lng": 20.40718,
+      "name": {
+        "en": "Końskie",
+        "pl": "Końskie"
+      },
+      "precision": "town"
+    },
+    "type": "resistance_operation",
+    "belligerents": [
+      "Poland (Home Army)",
+      "Germany"
+    ],
+    "summary": {
+      "en": "In the night of 5–6 June 1944 the Home Army unit of Antoni Heda 'Szary' freed prisoners from the German prison in Końskie.",
+      "pl": "W nocy z 5 na 6 czerwca 1944 r. oddział AK Antoniego Hedy „Szarego” uwolnił więźniów z niemieckiego więzienia w Końskich."
+    },
+    "casualties": {
+      "en": "Over 60 people freed (dzieje.pl calendar).",
+      "pl": "Uwolniono ponad 60 osób (kalendarium dzieje.pl)."
+    },
+    "sources": [
+      {
+        "title": "Kalendarz historyczny: 5 czerwca",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/kalendarz-historyczny/5/6",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "Based only on a short entry in the dzieje.pl historical calendar; to be expanded when a fuller institutional source is found.",
+      "pl": "Oparte wyłącznie na krótkiej notce kalendarium dzieje.pl; do rozszerzenia po znalezieniu pełniejszego źródła instytucjonalnego."
+    }
+  },
+  {
+    "id": "glinciszki-dubinki-1944",
+    "title": {
+      "en": "Glinciszki massacre and the Dubinki reprisal",
+      "pl": "Zbrodnia w Glinciszkach i odwet w Dubinkach"
+    },
+    "startDate": "1944-06-20",
+    "endDate": "1944-06-23",
+    "datePrecision": "day",
+    "location": {
+      "lat": 54.98373,
+      "lng": 25.23061,
+      "name": {
+        "en": "Glinciszki, Wilno region (now Lithuania)",
+        "pl": "Glinciszki na Wileńszczyźnie"
+      },
+      "precision": "town"
+    },
+    "type": "massacre",
+    "belligerents": [
+      "Lithuanian police (German-controlled)",
+      "Poland (Home Army)"
+    ],
+    "summary": {
+      "en": "On 20 June 1944 Lithuanian police collaborating with the Germans pacified the Polish village of Glinciszki in the Wilno region, murdering its inhabitants, including women and children. In reprisal, on 23 June, two sub-units of the Home Army's 5th Wilno Brigade raided the village of Dubinki on pre-war Lithuanian territory with orders to shoot Lithuanian collaborators named on a list compiled by AK intelligence; 27 Lithuanian civilians, including women and children, were killed.",
+      "pl": "20 czerwca 1944 r. litewska policja współpracująca z Niemcami dokonała pacyfikacji polskiej wsi Glinciszki na Wileńszczyźnie, mordując jej mieszkańców, w tym kobiety i dzieci. W odwecie 23 czerwca dwa pododdziały 5. Brygady Wileńskiej AK podjęły wypad na wieś Dubinki na przedwojennym terytorium Litwy z zadaniem rozstrzelania litewskich kolaborantów z listy wywiadu AK; zginęło 27 litewskich cywilów, w tym kobiety i dzieci."
+    },
+    "casualties": {
+      "en": "38 or 39 Poles in Glinciszki (dzieje.pl; the IPN gives 36); 27 Lithuanians in Dubinki.",
+      "pl": "38 lub 39 Polaków w Glinciszkach (dzieje.pl; IPN podaje 36); 27 Litwinów w Dubinkach."
+    },
+    "sources": [
+      {
+        "title": "Upamiętnienie 80. rocznicy zbrodni dokonanej na Polakach w Glinciszkach",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/wiadomosci/upamietnienie-80-rocznicy-zbrodni-dokonanej-na-polakach-w-glinciszkach",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      },
+      {
+        "title": "Major Zygmunt Szendzielarz zasłużył na dobrą pamięć w przestrzeni publicznej Państwa Polskiego",
+        "publisher": "Instytut Pamięci Narodowej",
+        "url": "https://ipn.gov.pl/pl/dla-mediow/komunikaty/80331,Major-Zygmunt-Szendzielarz-zasluzyl-na-dobra-pamiec-w-przestrzeni-publicznej-Pan.html",
+        "tier": 1,
+        "accessed": "2026-11-19"
+      },
+      {
+        "title": "Kalendarz historyczny: 20 czerwca",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/kalendarz-historyczny/20/6",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      },
+      {
+        "title": "Kalendarz historyczny: 23 czerwca",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/kalendarz-historyczny/23/6",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "The IPN states that the killing of civilians in Dubinki was not ordered by the brigade commander Maj. Zygmunt Szendzielarz 'Łupaszka', who did not take part. Dubinki lay outside the 1939 Polish border, so the marker is at Glinciszki.",
+      "pl": "IPN stwierdza, że śmierć cywilów w Dubinkach nie była wynikiem rozkazów dowódcy brygady mjr. Zygmunta Szendzielarza „Łupaszki”, który nie uczestniczył w tych wydarzeniach. Dubinki leżały poza granicą Polski z 1939 r., dlatego znacznik umieszczono w Glinciszkach."
+    }
+  },
+  {
+    "id": "osuchy-1944",
+    "title": {
+      "en": "Operation Sturmwind II and the Battle of Osuchy",
+      "pl": "Operacja „Sturmwind II” i bitwa pod Osuchami"
+    },
+    "startDate": "1944-06-21",
+    "endDate": "1944-06-25",
+    "datePrecision": "day",
+    "location": {
+      "lat": 50.40047,
+      "lng": 22.96774,
+      "name": {
+        "en": "Osuchy, Solska Forest",
+        "pl": "Osuchy, Puszcza Solska"
+      },
+      "precision": "town"
+    },
+    "type": "battle",
+    "belligerents": [
+      "Poland (Home Army)",
+      "Poland (Peasants' Battalions, BCh)",
+      "Polish communist partisans (AL)",
+      "Soviet partisans",
+      "Germany"
+    ],
+    "summary": {
+      "en": "After Operation Sturmwind I in the Janów forests, German forces of about 30,000 men, including Kalmyk cavalry and with armour, artillery and air support, launched Sturmwind II against Home Army, Peasants' Battalions, People's Army and Soviet partisans in the Solska Forest. From 21 June 1944 the ring closed. The AL units broke out on 22 June and the Soviet group in the night of 23–24 June, both with heavy losses. The remaining AK and BCh units under Maj. Edward Markiewicz 'Kalina' were pressed into the fork of the Tanew and Sopot rivers; 'Kalina' died on 24 June in unexplained circumstances. On 25 June, at Osuchy on the Sopot, they fought one of the largest and bloodiest partisan battles on Polish soil; captured partisans were executed.",
+      "pl": "Po operacji „Sturmwind I” w Lasach Janowskich siły niemieckie liczące ok. 30 tys. żołnierzy, w tym kawalerię kałmucką, ze wsparciem broni pancernej, artylerii i lotnictwa, rozpoczęły operację „Sturmwind II” przeciwko oddziałom AK, BCh, AL i partyzantki sowieckiej w Puszczy Solskiej. Od 21 czerwca 1944 r. kocioł się zamknął. Oddziały AL wyszły z okrążenia 22 czerwca, a zgrupowanie sowieckie w nocy z 23 na 24 czerwca – obie z dużymi stratami. Pozostałe oddziały AK i BCh pod dowództwem mjr. Edwarda Markiewicza „Kaliny” zepchnięto w widły Tanwi i Sopotu; „Kalina” zginął 24 czerwca w niewyjaśnionych okolicznościach. 25 czerwca pod Osuchami nad Sopotem stoczyły jedną z największych i najkrwawszych bitew partyzanckich na ziemiach polskich; wziętych do niewoli partyzantów rozstrzeliwano."
+    },
+    "sources": [
+      {
+        "title": "Ryszard Sodel: Bitwa pod Osuchami. Wielkie starcie w Puszczy Solskiej",
+        "publisher": "Instytut Pamięci Narodowej",
+        "url": "https://ipn.gov.pl/pl/historia-z-ipn/220476,Ryszard-Sodel-Bitwa-pod-Osuchami-Wielkie-starcie-w-Puszczy-Solskiej.html",
+        "tier": 1,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "The IPN article consulted does not give casualty figures; 'Kalina' probably took his own life.",
+      "pl": "Wykorzystany artykuł IPN nie podaje liczby ofiar; „Kalina” prawdopodobnie popełnił samobójstwo."
     }
   },
   {
@@ -556,6 +1126,96 @@
     }
   },
   {
+    "id": "lublin-castle-massacre-1944",
+    "title": {
+      "en": "Massacre of prisoners in Lublin Castle",
+      "pl": "Zbrodnia na więźniach Zamku Lubelskiego"
+    },
+    "startDate": "1944-07-22",
+    "endDate": "1944-07-22",
+    "datePrecision": "day",
+    "location": {
+      "lat": 51.25046,
+      "lng": 22.57172,
+      "name": {
+        "en": "Lublin Castle",
+        "pl": "Zamek Lubelski"
+      },
+      "precision": "exact"
+    },
+    "type": "massacre",
+    "belligerents": [
+      "Germany"
+    ],
+    "summary": {
+      "en": "On 22 July 1944, hours before leaving Lublin, German forces murdered Poles and Jews held in the prison in Lublin Castle, including women and children.",
+      "pl": "22 lipca 1944 r., na kilka godzin przed opuszczeniem Lublina, wojska niemieckie zamordowały Polaków i Żydów przetrzymywanych w więzieniu na Zamku Lubelskim, w tym kobiety i dzieci."
+    },
+    "casualties": {
+      "en": "About 300 people (dzieje.pl calendar).",
+      "pl": "Ok. 300 osób (kalendarium dzieje.pl)."
+    },
+    "sources": [
+      {
+        "title": "Kalendarz historyczny: 22 lipca",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/kalendarz-historyczny/22/7",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "Based only on a short entry in the dzieje.pl historical calendar; to be expanded when a fuller institutional source is found.",
+      "pl": "Oparte wyłącznie na krótkiej notce kalendarium dzieje.pl; do rozszerzenia po znalezieniu pełniejszego źródła instytucjonalnego."
+    }
+  },
+  {
+    "id": "chlaniow-1944",
+    "title": {
+      "en": "Pacification of Chłaniów",
+      "pl": "Pacyfikacja Chłaniowa"
+    },
+    "startDate": "1944-07-23",
+    "endDate": "1944-07-23",
+    "datePrecision": "day",
+    "location": {
+      "lat": 50.8366,
+      "lng": 22.87221,
+      "name": {
+        "en": "Chłaniów, Krasnystaw county",
+        "pl": "Chłaniów, pow. krasnostawski"
+      },
+      "precision": "town"
+    },
+    "type": "massacre",
+    "belligerents": [
+      "Ukrainian Self-Defence Legion (German-controlled)"
+    ],
+    "summary": {
+      "en": "On 23 July 1944 the Ukrainian Self-Defence Legion, collaborating with the Germans, pacified the Polish village of Chłaniów and neighbouring localities in Krasnystaw county.",
+      "pl": "23 lipca 1944 r. współpracujący z Niemcami Ukraiński Legion Samoobrony dokonał pacyfikacji polskiej wsi Chłaniów i przyległych miejscowości w powiecie krasnostawskim."
+    },
+    "casualties": {
+      "en": "Over 40 people (dzieje.pl calendar).",
+      "pl": "Ponad 40 osób (kalendarium dzieje.pl)."
+    },
+    "sources": [
+      {
+        "title": "Kalendarz historyczny: 23 lipca",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/kalendarz-historyczny/23/7",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "Based only on a short entry in the dzieje.pl historical calendar; to be expanded when a fuller institutional source is found.",
+      "pl": "Oparte wyłącznie na krótkiej notce kalendarium dzieje.pl; do rozszerzenia po znalezieniu pełniejszego źródła instytucjonalnego."
+    }
+  },
+  {
     "id": "majdanek-liberation-1944",
     "title": {
       "en": "Soviet capture of the Majdanek camp",
@@ -598,6 +1258,52 @@
     }
   },
   {
+    "id": "grabinski-forest-1944",
+    "title": {
+      "en": "Execution in the Grabiński forest near Iwonicz-Zdrój",
+      "pl": "Egzekucja w Lesie Grabińskim koło Iwonicza-Zdroju"
+    },
+    "startDate": "1944-07-24",
+    "endDate": "1944-07-24",
+    "datePrecision": "day",
+    "location": {
+      "lat": 49.56967,
+      "lng": 21.79323,
+      "name": {
+        "en": "Grabiński forest near Iwonicz-Zdrój",
+        "pl": "Las Grabiński koło Iwonicza-Zdroju"
+      },
+      "precision": "town"
+    },
+    "type": "massacre",
+    "belligerents": [
+      "Germany (Gestapo)",
+      "Ukrainian SS formation"
+    ],
+    "summary": {
+      "en": "On 24 July 1944 Gestapo officers and members of a Ukrainian SS formation shot Poles previously held in the prison in Jasło in the Grabiński forest near Iwonicz-Zdrój.",
+      "pl": "24 lipca 1944 r. w Lesie Grabińskim koło Iwonicza-Zdroju funkcjonariusze gestapo i ukraińskiej formacji SS rozstrzelali Polaków przetrzymywanych wcześniej w więzieniu w Jaśle."
+    },
+    "casualties": {
+      "en": "72 Poles (dzieje.pl calendar).",
+      "pl": "72 Polaków (kalendarium dzieje.pl)."
+    },
+    "sources": [
+      {
+        "title": "Kalendarz historyczny: 24 lipca",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/kalendarz-historyczny/24/7",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "Based only on a short entry in the dzieje.pl historical calendar; to be expanded when a fuller institutional source is found.",
+      "pl": "Oparte wyłącznie na krótkiej notce kalendarium dzieje.pl; do rozszerzenia po znalezieniu pełniejszego źródła instytucjonalnego."
+    }
+  },
+  {
     "id": "most-iii-1944",
     "title": {
       "en": "Operation 'Most III'",
@@ -636,6 +1342,48 @@
     "notes": {
       "en": "Only a tier-2 source was used; it places the landing strip near Tarnów without naming the village, so the marker is at Tarnów.",
       "pl": "Wykorzystano jedynie źródło 2. kategorii; umiejscawia ono lądowisko pod Tarnowem bez podania nazwy wsi, dlatego znacznik umieszczono w Tarnowie."
+    }
+  },
+  {
+    "id": "radzymin-tank-battle-1944",
+    "title": {
+      "en": "Tank battle near Radzymin",
+      "pl": "Bitwa pancerna pod Radzyminem"
+    },
+    "startDate": "1944-07-25",
+    "endDate": "1944-07-25",
+    "datePrecision": "day",
+    "location": {
+      "lat": 52.41763,
+      "lng": 21.18078,
+      "name": {
+        "en": "Radzymin, north-east of Warsaw",
+        "pl": "Radzymin na przedpolach Warszawy"
+      },
+      "precision": "town"
+    },
+    "type": "battle",
+    "belligerents": [
+      "Soviet Union",
+      "Germany"
+    ],
+    "summary": {
+      "en": "On 25 July 1944 a tank battle began near Radzymin on the approaches to Warsaw, which the Red Army lost. At the cost of heavy losses the Germans halted the Soviet offensive, which indirectly contributed to the front stopping on the Vistula.",
+      "pl": "25 lipca 1944 r. pod Radzyminem na przedpolach Warszawy rozpoczęła się przegrana przez Armię Czerwoną bitwa pancerna. Za cenę dużych strat Niemcom udało się powstrzymać ofensywę przeciwnika, co pośrednio przyczyniło się do zatrzymania frontu na linii Wisły."
+    },
+    "sources": [
+      {
+        "title": "Kalendarz historyczny: 25 lipca",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/kalendarz-historyczny/25/7",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "Only the start date is given by the source. Based only on a short entry in the dzieje.pl historical calendar; to be expanded when a fuller institutional source is found.",
+      "pl": "Źródło podaje jedynie datę rozpoczęcia. Oparte wyłącznie na krótkiej notce kalendarium dzieje.pl; do rozszerzenia po znalezieniu pełniejszego źródła instytucjonalnego."
     }
   },
   {
@@ -872,6 +1620,62 @@
     }
   },
   {
+    "id": "gesiowka-liberation-1944",
+    "title": {
+      "en": "Insurgents liberate the Gęsiówka camp",
+      "pl": "Wyzwolenie „Gęsiówki” przez powstańców"
+    },
+    "startDate": "1944-08-05",
+    "endDate": "1944-08-05",
+    "datePrecision": "day",
+    "location": {
+      "lat": 52.25033,
+      "lng": 20.9979,
+      "name": {
+        "en": "Gęsia Street, Muranów, Warsaw",
+        "pl": "ul. Gęsia, Muranów, Warszawa"
+      },
+      "precision": "town"
+    },
+    "type": "uprising",
+    "belligerents": [
+      "Poland (Home Army)",
+      "Germany"
+    ],
+    "summary": {
+      "en": "On 5 August 1944, the fifth day of the Warsaw Uprising, soldiers of the Home Army 'Zośka' battalion captured the German concentration camp KL Warschau in Gęsia Street in a daring action, freeing the Jewish prisoners – citizens of various European countries. Battalion commander Ryszard Białous 'Jerzy' recalled the Germans fleeing into the ruins and crowds of prisoners in striped uniforms running towards the insurgents. Many of those freed joined the fighting.",
+      "pl": "5 sierpnia 1944 r., piątego dnia Powstania Warszawskiego, żołnierze batalionu AK „Zośka” po brawurowej akcji zdobyli niemiecki obóz koncentracyjny KL Warschau przy ul. Gęsiej, uwalniając więźniów żydowskich – obywateli różnych krajów Europy. Dowódca batalionu Ryszard Białous „Jerzy” wspominał uciekających w ruiny Niemców i tłum więźniów w pasiakach biegnących w stronę powstańców. Wielu uwolnionych przyłączyło się do walki."
+    },
+    "casualties": {
+      "en": "348 Jewish prisoners freed (dzieje.pl/PAP; about 350 according to the dzieje.pl calendar).",
+      "pl": "Uwolniono 348 więźniów żydowskich (dzieje.pl/PAP; według kalendarium dzieje.pl ok. 350)."
+    },
+    "sources": [
+      {
+        "title": "Obóz koncentracyjny na terenie ruin getta warszawskiego („Gęsiówka”)",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/aktualnosci/oboz-koncentracyjny-na-terenie-ruin-getta-warszawskiego-gesiowka",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      },
+      {
+        "title": "Uroczystości w 80. rocznicę wyzwolenia „Gęsiówki” przez powstańców warszawskich",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/wiadomosci/uroczystosci-w-80-rocznice-wyzwolenia-gesiowki-przez-powstancow-warszawskich",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      },
+      {
+        "title": "Kalendarz historyczny: 5 sierpnia",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/kalendarz-historyczny/5/8",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true
+  },
+  {
     "id": "wola-massacre-1944",
     "title": {
       "en": "Wola massacre",
@@ -922,6 +1726,95 @@
       "en": "The end date reflects the main mass killings described by IPN (5–6 August); some accounts date the massacre 5–7 August, and smaller-scale killings continued in Wola and other districts afterwards. Estimates differ widely: IPN gives 38,000–65,000; Przystanek Historia (IPN) notes that earlier figures of up to 60,000 have been revised and favours Marek Strok's estimate of about 15,000 murdered Wola residents, consistent with German estimates for 1–18 August.",
       "pl": "Data końcowa odpowiada głównym masowym egzekucjom opisanym przez IPN (5–6 sierpnia); część opracowań datuje rzeź na 5–7 sierpnia, a na mniejszą skalę mordy trwały na Woli i w innych dzielnicach także później. Szacunki znacznie się różnią: IPN podaje 38–65 tys.; Przystanek Historia (IPN) wskazuje, że wcześniejsze liczby sięgające 60 tys. zostały zrewidowane, i przychyla się do szacunku Marka Stroka – ok. 15 tys. zamordowanych mieszkańców Woli, zbieżnego z szacunkami niemieckimi za 1–18 sierpnia."
     }
+  },
+  {
+    "id": "baligrod-1944",
+    "title": {
+      "en": "UPA massacre in Baligród",
+      "pl": "Zbrodnia UPA w Baligrodzie"
+    },
+    "startDate": "1944-08-06",
+    "endDate": "1944-08-06",
+    "datePrecision": "day",
+    "location": {
+      "lat": 49.3368,
+      "lng": 22.28663,
+      "name": {
+        "en": "Baligród, near Lesko",
+        "pl": "Baligród koło Leska"
+      },
+      "precision": "town"
+    },
+    "type": "massacre",
+    "belligerents": [
+      "Ukrainian Insurgent Army (UPA)"
+    ],
+    "summary": {
+      "en": "In 1944 Ukrainian nationalists began a campaign to clear the Bieszczady of Poles. At dawn on Sunday 6 August 1944 a UPA battalion of about 210 men commanded by Volodymyr Shchyhelsky 'Burlaka', wearing Ukrainian police uniforms, surrounded Baligród and entered just after morning Mass, identifying Poles by the nationality entry in their identity cards and working from a list of some 40 names. A plan to kill the people gathered in the church was thwarted by a Greek Catholic priest who stood in front of its doors.",
+      "pl": "W 1944 r. nacjonaliści ukraińscy rozpoczęli akcję oczyszczania Bieszczadów z ludności polskiej. O świcie w niedzielę 6 sierpnia 1944 r. kureń UPA liczący ok. 210 ludzi pod dowództwem Włodzimierza Szczygelskiego „Burłaki”, w mundurach ukraińskiej policji, otoczył Baligród i wkroczył do miasteczka tuż po porannej mszy, identyfikując Polaków po wpisie narodowości w kenkarcie i posługując się listą ok. 40 nazwisk. Zamiar wymordowania ludzi zgromadzonych w kościele udaremnił greckokatolicki kapłan, który stanął przed drzwiami świątyni."
+    },
+    "casualties": {
+      "en": "39 Polish men and one Ukrainian whose identity card listed him as Polish (Przystanek Historia); the dzieje.pl calendar gives 42.",
+      "pl": "39 polskich mężczyzn i jeden Ukrainiec, w którego kenkarcie wpisano narodowość polską (Przystanek Historia); kalendarium dzieje.pl podaje 42."
+    },
+    "sources": [
+      {
+        "title": "Krwawa niedziela 6 sierpnia 1944 roku – czystka etniczna w Baligrodzie",
+        "publisher": "Przystanek Historia (IPN)",
+        "url": "https://przystanekhistoria.pl/pa2/teksty/85393,Krwawa-niedziela-6-sierpnia-1944-roku-czystka-etniczna-w-Baligrodzie.html",
+        "tier": 1,
+        "accessed": "2026-11-19"
+      },
+      {
+        "title": "Kalendarz historyczny: 6 sierpnia",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/kalendarz-historyczny/6/8",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true
+  },
+  {
+    "id": "krakow-black-sunday-1944",
+    "title": {
+      "en": "Kraków's 'Black Sunday' round-up",
+      "pl": "Krakowska „czarna niedziela”"
+    },
+    "startDate": "1944-08-06",
+    "endDate": "1944-08-06",
+    "datePrecision": "day",
+    "location": {
+      "lat": 50.0615,
+      "lng": 19.93711,
+      "name": {
+        "en": "Kraków",
+        "pl": "Kraków"
+      },
+      "precision": "town"
+    },
+    "type": "occupation_policy",
+    "belligerents": [
+      "Germany"
+    ],
+    "summary": {
+      "en": "On the morning of Sunday 6 August 1944, two days after the outbreak of the Warsaw Uprising, police forces sealed off all streets leading to the centre of Kraków and from the early afternoon until late at night carried out simultaneous round-ups across the city, the largest of the occupation. Young men were taken from streets, parks, restaurants, trams, cabs and Vistula beaches, and flats were searched. The aim was to prevent a possible uprising in Kraków; those detained were treated as hostages, and people linked to the underground were sought out.",
+      "pl": "W niedzielny poranek 6 sierpnia 1944 r., dwa dni po wybuchu Powstania Warszawskiego, siły policyjne obsadziły wyloty wszystkich ulic prowadzących do centrum Krakowa, a od wczesnego popołudnia do późnej nocy przeprowadziły jednocześnie w wielu punktach miasta obławę – największą w okresie okupacji. Młodych mężczyzn zabierano z ulic, parków, lokali, tramwajów, dorożek i nadwiślańskich plaż, przeczesywano też mieszkania. Celem było zapobieżenie ewentualnemu powstaniu w Krakowie; zatrzymanych traktowano jako zakładników, wyszukując osoby związane z podziemiem."
+    },
+    "casualties": {
+      "en": "About 6,000 men taken to the Płaszów camp (Przystanek Historia).",
+      "pl": "Ok. 6 tys. mężczyzn trafiło do KL Plaszow (Przystanek Historia)."
+    },
+    "sources": [
+      {
+        "title": "Krakowska „czarna niedziela”",
+        "publisher": "Przystanek Historia (IPN)",
+        "url": "https://przystanekhistoria.pl/pa2/tematy/zbrodnie-niemieckie/117789,Krakowska-czarna-niedziela.html",
+        "tier": 1,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true
   },
   {
     "id": "pruszkow-dulag-1944",
@@ -1048,6 +1941,48 @@
         "url": "https://www.1944.pl/artykul/powstanie-warszawskie,4736.html",
         "tier": 1,
         "accessed": "2026-11-18"
+      }
+    ],
+    "verified": true
+  },
+  {
+    "id": "surkonty-1944",
+    "title": {
+      "en": "Battle of Surkonty",
+      "pl": "Bitwa pod Surkontami"
+    },
+    "startDate": "1944-08-21",
+    "endDate": "1944-08-21",
+    "datePrecision": "day",
+    "location": {
+      "lat": 53.94381,
+      "lng": 24.97227,
+      "name": {
+        "en": "Surkonty, near Lida (now Belarus)",
+        "pl": "Surkonty koło Lidy"
+      },
+      "precision": "town"
+    },
+    "type": "battle",
+    "belligerents": [
+      "Poland (Home Army)",
+      "Soviet Union (NKVD)"
+    ],
+    "summary": {
+      "en": "On 21 August 1944 about 80 Home Army soldiers under Lt Col. Maciej Kalenkiewicz 'Kotwicz', camped in an open clearing at Surkonty, were attacked by an NKVD operational group of about a hundred men. The Poles won the first clash, but at about 5 p.m. a whole battalion of the 32nd NKVD Motorised Rifle Regiment attacked with air support. Kalenkiewicz – a co-founder of the Cichociemni and of the Polish airborne forces – was killed with several of his officers. It was the first battle between the Home Army and Soviet forces.",
+      "pl": "21 sierpnia 1944 r. ok. 80 żołnierzy AK ppłk. Macieja Kalenkiewicza „Kotwicza”, kwaterujących na otwartej polanie w Surkontach, zostało zaatakowanych przez ok. stuosobową sowiecką grupę operacyjną NKWD. Pierwsze starcie wygrali Polacy, ale ok. godz. 17 uderzył cały batalion 32. zmotoryzowanego pułku strzeleckiego NKWD ze wsparciem lotnictwa. Poległ Kalenkiewicz – współtwórca koncepcji cichociemnych i polskich wojsk spadochronowych – wraz z kilkoma oficerami. Była to pierwsza bitwa AK z oddziałami sowieckimi."
+    },
+    "casualties": {
+      "en": "Probably about 20 partisans broke out; Soviet losses are given as anywhere from 64 to 132 killed (IPN).",
+      "pl": "Z okrążenia wydostało się prawdopodobnie ok. 20 partyzantów; straty sowieckie podaje się od 64 do 132 zabitych (IPN)."
+    },
+    "sources": [
+      {
+        "title": "Bitwa pod Surkontami – pierwsze starcie AK z Sowietami",
+        "publisher": "Instytut Pamięci Narodowej",
+        "url": "https://ipn.gov.pl/pl/historia-z-ipn/227900,Bitwa-pod-Surkontami-pierwsze-starcie-AK-z-Sowietami.html",
+        "tier": 1,
+        "accessed": "2026-11-19"
       }
     ],
     "verified": true

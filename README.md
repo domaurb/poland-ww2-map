@@ -3,9 +3,8 @@
 A static, bilingual (English/Polish) web map of significant Second World War events on Polish lands,
 explorable day by day from 1 September 1939 to 8 May 1945, with an Overview of the 100 most significant events.
 
-**Status:** test build. Data phases 2a–2e are done (229 events, 1 September 1939 – 8 May 1945, all checked against
-Polish institutional sources). Still to come: gap-filling, the top-100 Overview ranking, historical borders and the
-density strip.
+**Status:** test build. Data phases 2a–2f are done (300 events, 1 September 1939 – 8 May 1945, all checked against
+Polish institutional sources). Still to come: the top-100 Overview ranking, historical borders and the density strip.
 
 ## Try it
 

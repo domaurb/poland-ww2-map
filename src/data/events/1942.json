@@ -37,6 +37,47 @@
     "verified": true
   },
   {
+    "id": "bollwerk-1942",
+    "title": {
+      "en": "Operation 'Bollwerk' in Poznań",
+      "pl": "Akcja „Bollwerk” w Poznaniu"
+    },
+    "startDate": "1942-02-20",
+    "endDate": "1942-02-20",
+    "datePrecision": "day",
+    "location": {
+      "lat": 52.40693,
+      "lng": 16.94244,
+      "name": {
+        "en": "Chwaliszewo, Poznań",
+        "pl": "Chwaliszewo, Poznań"
+      },
+      "precision": "town"
+    },
+    "type": "resistance_operation",
+    "belligerents": [
+      "Poland (Home Army)"
+    ],
+    "summary": {
+      "en": "On 20 February 1942 a group of Home Army soldiers and residents of Poznań's Chwaliszewo district carried out the sabotage action 'Bollwerk', setting fire to German warehouses in which uniforms, food and weapons were destroyed.",
+      "pl": "20 lutego 1942 r. oddział złożony z żołnierzy AK i mieszkańców poznańskiego Chwaliszewa przeprowadził dywersyjno-sabotażową akcję „Bollwerk”, podpalając niemieckie magazyny, w których spłonęły mundury, żywność i broń."
+    },
+    "sources": [
+      {
+        "title": "Kalendarz historyczny: 20 lutego",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/kalendarz-historyczny/20/2",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "Based only on a short entry in the dzieje.pl historical calendar; to be expanded when a fuller institutional source is found.",
+      "pl": "Oparte wyłącznie na krótkiej notce kalendarium dzieje.pl; do rozszerzenia po znalezieniu pełniejszego źródła instytucjonalnego."
+    }
+  },
+  {
     "id": "reinhardt-lublin-deportation-1942",
     "title": {
       "en": "Start of Aktion Reinhardt: Lublin ghetto deportations to Bełżec",
@@ -122,6 +163,51 @@
     "verified": true
   },
   {
+    "id": "warsaw-ghetto-bloody-night-1942",
+    "title": {
+      "en": "Night of terror in the Warsaw ghetto",
+      "pl": "Nocna akcja terroru w getcie warszawskim"
+    },
+    "startDate": "1942-04-17",
+    "endDate": "1942-04-18",
+    "datePrecision": "day",
+    "location": {
+      "lat": 52.24696,
+      "lng": 20.99123,
+      "name": {
+        "en": "Warsaw ghetto",
+        "pl": "Getto warszawskie"
+      },
+      "precision": "town"
+    },
+    "type": "massacre",
+    "belligerents": [
+      "Germany"
+    ],
+    "summary": {
+      "en": "In the night of 17–18 April 1942 the Gestapo murdered people in the streets of the Warsaw ghetto – the first organised terror action inside the closed district.",
+      "pl": "W nocy z 17 na 18 kwietnia 1942 r. gestapo mordowało ludzi na ulicach warszawskiego getta – była to pierwsza zorganizowana akcja terroru na terenie dzielnicy zamkniętej."
+    },
+    "casualties": {
+      "en": "52 people (dzieje.pl calendar).",
+      "pl": "52 osoby (kalendarium dzieje.pl)."
+    },
+    "sources": [
+      {
+        "title": "Kalendarz historyczny: 17 kwietnia",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/kalendarz-historyczny/17/4",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "Based only on a short entry in the dzieje.pl historical calendar; to be expanded when a fuller institutional source is found.",
+      "pl": "Oparte wyłącznie na krótkiej notce kalendarium dzieje.pl; do rozszerzenia po znalezieniu pełniejszego źródła instytucjonalnego."
+    }
+  },
+  {
     "id": "sobibor-camp-1942",
     "title": {
       "en": "Sobibór extermination camp",
@@ -164,6 +250,234 @@
     "notes": {
       "en": "The start is approximate: IPN says the camp began operating at the 'end of spring 1942'.",
       "pl": "Początek przybliżony: IPN podaje, że obóz zaczął działać „pod koniec wiosny 1942 r.”."
+    }
+  },
+  {
+    "id": "krakow-ghetto-deportation-1942",
+    "title": {
+      "en": "First deportation from the Kraków ghetto",
+      "pl": "Pierwsza akcja deportacyjna w getcie krakowskim"
+    },
+    "startDate": "1942-05-28",
+    "endDate": "1942-06-08",
+    "datePrecision": "day",
+    "location": {
+      "lat": 50.0431,
+      "lng": 19.95296,
+      "name": {
+        "en": "Kraków ghetto, Podgórze",
+        "pl": "Getto krakowskie, Podgórze"
+      },
+      "precision": "town"
+    },
+    "type": "deportation",
+    "belligerents": [
+      "Germany"
+    ],
+    "summary": {
+      "en": "From 28 May to 8 June 1942 the Germans carried out the first deportation action in the Kraków ghetto, sending Jews to the Bełżec extermination camp. The Yiddish poet and songwriter Mordechai Gebirtig was shot in the ghetto on 4 June during the action.",
+      "pl": "Od 28 maja do 8 czerwca 1942 r. Niemcy przeprowadzili pierwszą akcję deportacyjną w getcie krakowskim, wywożąc Żydów do obozu zagłady w Bełżcu. 4 czerwca, w trakcie akcji, zastrzelony został w getcie Mordechaj Gebirtig – poeta piszący w jidysz i pieśniarz."
+    },
+    "casualties": {
+      "en": "About 5,000 Jews deported to Bełżec (dzieje.pl calendar).",
+      "pl": "Ok. 5 tys. Żydów wywiezionych do Bełżca (kalendarium dzieje.pl)."
+    },
+    "sources": [
+      {
+        "title": "Kalendarz historyczny: 28 maja",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/kalendarz-historyczny/28/5",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      },
+      {
+        "title": "Kalendarz historyczny: 4 czerwca",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/kalendarz-historyczny/4/6",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "Based only on a short entry in the dzieje.pl historical calendar; to be expanded when a fuller institutional source is found.",
+      "pl": "Oparte wyłącznie na krótkiej notce kalendarium dzieje.pl; do rozszerzenia po znalezieniu pełniejszego źródła instytucjonalnego."
+    }
+  },
+  {
+    "id": "magdalenka-execution-1942",
+    "title": {
+      "en": "Execution of Pawiak prisoners near Magdalenka",
+      "pl": "Egzekucja więźniów Pawiaka koło Magdalenki"
+    },
+    "startDate": "1942-05-28",
+    "endDate": "1942-05-28",
+    "datePrecision": "day",
+    "location": {
+      "lat": 52.09271,
+      "lng": 20.90676,
+      "name": {
+        "en": "Sękocin Forest near Magdalenka",
+        "pl": "Las Sękociński koło Magdalenki"
+      },
+      "precision": "town"
+    },
+    "type": "massacre",
+    "belligerents": [
+      "Germany"
+    ],
+    "summary": {
+      "en": "On 28 May 1942 the Germans shot prisoners from the Pawiak prison in the Sękocin Forest near Magdalenka, south-west of Warsaw.",
+      "pl": "28 maja 1942 r. Niemcy rozstrzelali w Lesie Sękocińskim koło Magdalenki pod Warszawą więźniów Pawiaka."
+    },
+    "casualties": {
+      "en": "223 Pawiak prisoners (dzieje.pl calendar).",
+      "pl": "223 więźniów Pawiaka (kalendarium dzieje.pl)."
+    },
+    "sources": [
+      {
+        "title": "Kalendarz historyczny: 28 maja",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/kalendarz-historyczny/28/5",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "Based only on a short entry in the dzieje.pl historical calendar; to be expanded when a fuller institutional source is found.",
+      "pl": "Oparte wyłącznie na krótkiej notce kalendarium dzieje.pl; do rozszerzenia po znalezieniu pełniejszego źródła instytucjonalnego."
+    }
+  },
+  {
+    "id": "auschwitz-penal-company-1942",
+    "title": {
+      "en": "Murder of the Birkenau penal company",
+      "pl": "Zamordowanie więźniów kompanii karnej w Birkenau"
+    },
+    "startDate": "1942-06-11",
+    "endDate": "1942-06-11",
+    "datePrecision": "day",
+    "location": {
+      "lat": 50.03891,
+      "lng": 19.1713,
+      "name": {
+        "en": "Auschwitz II-Birkenau",
+        "pl": "Auschwitz II-Birkenau"
+      },
+      "precision": "exact"
+    },
+    "type": "massacre",
+    "belligerents": [
+      "Germany"
+    ],
+    "summary": {
+      "en": "In June 1942, in reprisal for an attempted revolt and escape, the Germans murdered Polish prisoners working in the penal company at Auschwitz-Birkenau.",
+      "pl": "W czerwcu 1942 r., w odwecie za próbę buntu i ucieczki, Niemcy zamordowali polskich więźniów pracujących w kompanii karnej w Auschwitz-Birkenau."
+    },
+    "casualties": {
+      "en": "300 Poles (dzieje.pl calendar).",
+      "pl": "300 Polaków (kalendarium dzieje.pl)."
+    },
+    "sources": [
+      {
+        "title": "Kalendarz historyczny: 11 czerwca",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/kalendarz-historyczny/11/6",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "Based only on a short entry in the dzieje.pl historical calendar; to be expanded when a fuller institutional source is found.",
+      "pl": "Oparte wyłącznie na krótkiej notce kalendarium dzieje.pl; do rozszerzenia po znalezieniu pełniejszego źródła instytucjonalnego."
+    }
+  },
+  {
+    "id": "auschwitz-escape-1942",
+    "title": {
+      "en": "Escape from Auschwitz in SS uniforms",
+      "pl": "Ucieczka z Auschwitz w mundurach SS"
+    },
+    "startDate": "1942-06-20",
+    "endDate": "1942-06-20",
+    "datePrecision": "day",
+    "location": {
+      "lat": 50.0264,
+      "lng": 19.20396,
+      "name": {
+        "en": "Auschwitz I, Oświęcim",
+        "pl": "Auschwitz I, Oświęcim"
+      },
+      "precision": "exact"
+    },
+    "type": "resistance_operation",
+    "belligerents": [
+      "Polish prisoners"
+    ],
+    "summary": {
+      "en": "On 20 June 1942 four Polish prisoners – Kazimierz Piechowski, Eugeniusz Bendera, Stanisław Jaster and Józef Lempart – escaped from the German Auschwitz camp in a stolen car, wearing SS uniforms.",
+      "pl": "20 czerwca 1942 r. czterej polscy więźniowie – Kazimierz Piechowski, Eugeniusz Bendera, Stanisław Jaster i Józef Lempart – uciekli z niemieckiego obozu Auschwitz skradzionym samochodem, przebrani w mundury SS."
+    },
+    "sources": [
+      {
+        "title": "Kalendarz historyczny: 20 czerwca",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/kalendarz-historyczny/20/6",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "Based only on a short entry in the dzieje.pl historical calendar; to be expanded when a fuller institutional source is found.",
+      "pl": "Oparte wyłącznie na krótkiej notce kalendarium dzieje.pl; do rozszerzenia po znalezieniu pełniejszego źródła instytucjonalnego."
+    }
+  },
+  {
+    "id": "warzyce-forest-1942",
+    "title": {
+      "en": "Murder of Jews in the Warzyce forest",
+      "pl": "Zbrodnia na Żydach w Lesie Warzyckim"
+    },
+    "startDate": "1942-07-03",
+    "endDate": "1942-07-03",
+    "datePrecision": "day",
+    "location": {
+      "lat": 49.76438,
+      "lng": 21.53291,
+      "name": {
+        "en": "Warzyce forest near Jasło",
+        "pl": "Las Warzycki koło Jasła"
+      },
+      "precision": "town"
+    },
+    "type": "massacre",
+    "belligerents": [
+      "Germany"
+    ],
+    "summary": {
+      "en": "On 3 July 1942 the Germans murdered Jews in the Warzyce forest near Jasło.",
+      "pl": "3 lipca 1942 r. Niemcy zamordowali Żydów w Lesie Warzyckim koło Jasła."
+    },
+    "casualties": {
+      "en": "850 Jews (dzieje.pl calendar).",
+      "pl": "850 Żydów (kalendarium dzieje.pl)."
+    },
+    "sources": [
+      {
+        "title": "Kalendarz historyczny: 3 lipca",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/kalendarz-historyczny/3/7",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "Based only on a short entry in the dzieje.pl historical calendar; to be expanded when a fuller institutional source is found.",
+      "pl": "Oparte wyłącznie na krótkiej notce kalendarium dzieje.pl; do rozszerzenia po znalezieniu pełniejszego źródła instytucjonalnego."
     }
   },
   {
@@ -290,6 +604,110 @@
     }
   },
   {
+    "id": "korczak-deportation-1942",
+    "title": {
+      "en": "Janusz Korczak and the children of the Orphans' Home",
+      "pl": "Janusz Korczak i dzieci z Domu Sierot"
+    },
+    "startDate": "1942-08-05",
+    "endDate": "1942-08-05",
+    "datePrecision": "day",
+    "location": {
+      "lat": 52.25228,
+      "lng": 20.9891,
+      "name": {
+        "en": "Umschlagplatz, Warsaw",
+        "pl": "Umschlagplatz, Warszawa"
+      },
+      "precision": "exact"
+    },
+    "type": "deportation",
+    "belligerents": [
+      "Germany"
+    ],
+    "summary": {
+      "en": "On 5 August 1942, the fifteenth day of the Great Deportation from the Warsaw ghetto, Janusz Korczak – doctor, educator and writer – walked with Stefania Wilczyńska, the staff and the children of the Orphans' Home at 16 Sienna Street to the Umschlagplatz, a four-hour march, refusing offers to save himself. They were deported to Treblinka. Exactly when and where Korczak died is not known: perhaps at the Umschlagplatz, in the overcrowded train, or in Treblinka on 6 August. About 4,000 children from nearly thirty orphanages were deported to Treblinka during the action.",
+      "pl": "5 sierpnia 1942 r., w 15. dniu wielkiej akcji likwidacyjnej getta warszawskiego, Janusz Korczak – lekarz, pedagog i pisarz – wraz ze Stefanią Wilczyńską, współpracownikami i dziećmi z Domu Sierot przy ul. Siennej 16 przeszedł w czterogodzinnym marszu na Umschlagplatz, odmawiając ratowania się. Wywieziono ich do Treblinki. Nie wiadomo dokładnie, kiedy i gdzie Korczak zginął: może na Umschlagplatzu, w przepełnionym pociągu albo w Treblince 6 sierpnia. W czasie akcji wywieziono do Treblinki ok. 4 tys. dzieci z blisko trzydziestu sierocińców."
+    },
+    "casualties": {
+      "en": "About 200 children from the Orphans' Home, with their carers (IPN).",
+      "pl": "Ok. 200 wychowanków Domu Sierot wraz z opiekunami (IPN)."
+    },
+    "sources": [
+      {
+        "title": "„Nie chciał opuścić dzieci nawet na minutę”. 5 sierpnia 1942 roku Janusz Korczak poszedł na Umschlagplatz",
+        "publisher": "Żydowski Instytut Historyczny",
+        "url": "https://www.jhi.pl/artykuly/5-sierpnia-1942-janusz-korczak-idzie-z-dziecmi-na-umschlagplatz,5978",
+        "tier": 1,
+        "accessed": "2026-11-19"
+      },
+      {
+        "title": "80. rocznica śmierci Janusza Korczaka",
+        "publisher": "Instytut Pamięci Narodowej",
+        "url": "https://ipn.gov.pl/pl/dla-mediow/komunikaty/168646,80-rocznica-smierci-Janusza-Korczaka.html",
+        "tier": 1,
+        "accessed": "2026-11-19"
+      },
+      {
+        "title": "Kalendarz historyczny: 5 sierpnia",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/kalendarz-historyczny/5/8",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "Sources give 5 or 6 August 1942 for the deportation; a court once fixed the date of death as 7 August (ŻIH).",
+      "pl": "Źródła podają 5 lub 6 sierpnia 1942 r. jako datę deportacji; sąd przyjął kiedyś za datę śmierci 7 sierpnia (ŻIH)."
+    }
+  },
+  {
+    "id": "krzemieniec-ghetto-liquidation-1942",
+    "title": {
+      "en": "Liquidation of the Krzemieniec ghetto",
+      "pl": "Likwidacja getta w Krzemieńcu"
+    },
+    "startDate": "1942-08-10",
+    "endDate": "1942-08-10",
+    "datePrecision": "day",
+    "location": {
+      "lat": 50.0961,
+      "lng": 25.72608,
+      "name": {
+        "en": "Krzemieniec (now Kremenets, Ukraine)",
+        "pl": "Krzemieniec"
+      },
+      "precision": "town"
+    },
+    "type": "massacre",
+    "belligerents": [
+      "Germany"
+    ],
+    "summary": {
+      "en": "On 10 August 1942 the Germans began liquidating the ghetto in Krzemieniec in Volhynia, murdering its Jewish inhabitants.",
+      "pl": "10 sierpnia 1942 r. Niemcy rozpoczęli likwidację getta w Krzemieńcu na Wołyniu, mordując jego żydowskich mieszkańców."
+    },
+    "casualties": {
+      "en": "About 6,500 Jews (dzieje.pl calendar).",
+      "pl": "Ok. 6,5 tys. Żydów (kalendarium dzieje.pl)."
+    },
+    "sources": [
+      {
+        "title": "Kalendarz historyczny: 10 sierpnia",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/kalendarz-historyczny/10/8",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "Based only on a short entry in the dzieje.pl historical calendar; to be expanded when a fuller institutional source is found.",
+      "pl": "Oparte wyłącznie na krótkiej notce kalendarium dzieje.pl; do rozszerzenia po znalezieniu pełniejszego źródła instytucjonalnego."
+    }
+  },
+  {
     "id": "lwow-great-action-1942",
     "title": {
       "en": "'Great Action' in the Lwów ghetto",
@@ -332,6 +750,239 @@
     "notes": {
       "en": "Only a tier-2 source was used. The ghetto's creation is dated to 6 November 1941 by a decree of Governor Lasch; other sources give September or October 1941.",
       "pl": "Wykorzystano jedynie źródło 2. kategorii. Utworzenie getta datuje się na 6 listopada 1941 r. (zarządzenie gubernatora Lascha); inne źródła podają wrzesień lub październik 1941 r."
+    }
+  },
+  {
+    "id": "radom-ghetto-liquidation-1942",
+    "title": {
+      "en": "Liquidation of the Radom ghetto",
+      "pl": "Likwidacja getta w Radomiu"
+    },
+    "startDate": "1942-08-16",
+    "endDate": "1942-08-18",
+    "datePrecision": "day",
+    "location": {
+      "lat": 51.41673,
+      "lng": 21.16074,
+      "name": {
+        "en": "Radom",
+        "pl": "Radom"
+      },
+      "precision": "town"
+    },
+    "type": "deportation",
+    "belligerents": [
+      "Germany"
+    ],
+    "summary": {
+      "en": "From 16 to 18 August 1942 the Germans liquidated the 'large ghetto' in Radom, deporting its inhabitants to the Treblinka extermination camp.",
+      "pl": "W dniach 16–18 sierpnia 1942 r. Niemcy zlikwidowali „duże getto” w Radomiu, wywożąc jego mieszkańców do obozu zagłady w Treblince."
+    },
+    "casualties": {
+      "en": "About 30,000 Jews deported to Treblinka (dzieje.pl calendar; about 20,000 in an entry for the first days).",
+      "pl": "Ok. 30 tys. Żydów wywiezionych do Treblinki (kalendarium dzieje.pl; w notce o pierwszych dniach – ok. 20 tys.)."
+    },
+    "sources": [
+      {
+        "title": "Kalendarz historyczny: 16 sierpnia",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/kalendarz-historyczny/16/8",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      },
+      {
+        "title": "Kalendarz historyczny: 18 sierpnia",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/kalendarz-historyczny/18/8",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "Based only on a short entry in the dzieje.pl historical calendar; to be expanded when a fuller institutional source is found.",
+      "pl": "Oparte wyłącznie na krótkiej notce kalendarium dzieje.pl; do rozszerzenia po znalezieniu pełniejszego źródła instytucjonalnego."
+    }
+  },
+  {
+    "id": "otwock-ghetto-liquidation-1942",
+    "title": {
+      "en": "Liquidation of the Otwock ghetto",
+      "pl": "Likwidacja getta w Otwocku"
+    },
+    "startDate": "1942-08-19",
+    "endDate": "1942-08-19",
+    "datePrecision": "day",
+    "location": {
+      "lat": 52.10412,
+      "lng": 21.26811,
+      "name": {
+        "en": "Otwock",
+        "pl": "Otwock"
+      },
+      "precision": "town"
+    },
+    "type": "deportation",
+    "belligerents": [
+      "Germany"
+    ],
+    "summary": {
+      "en": "On 19 August 1942 the Germans liquidated the ghetto in Otwock, deporting its inhabitants to Treblinka. Some were murdered on the spot – about 600 were shot in the forest by Reymonta Street – and in the following days more than 2,000 people who had hidden from the transport were killed.",
+      "pl": "19 sierpnia 1942 r. Niemcy zlikwidowali getto w Otwocku, wywożąc jego mieszkańców do Treblinki. Część zamordowano na miejscu – w lesie przy ul. Reymonta zastrzelono ok. 600 osób – a w kolejnych dniach zabito ponad 2 tys. osób, które ukryły się przed transportem."
+    },
+    "casualties": {
+      "en": "7,000–10,000 deported to Treblinka; about 600 shot during the action and over 2,000 in the following days (dzieje.pl calendar).",
+      "pl": "7–10 tys. wywiezionych do Treblinki; ok. 600 zastrzelonych w czasie akcji i ponad 2 tys. w kolejnych dniach (kalendarium dzieje.pl)."
+    },
+    "sources": [
+      {
+        "title": "Kalendarz historyczny: 19 sierpnia",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/kalendarz-historyczny/19/8",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "Based only on a short entry in the dzieje.pl historical calendar; to be expanded when a fuller institutional source is found.",
+      "pl": "Oparte wyłącznie na krótkiej notce kalendarium dzieje.pl; do rozszerzenia po znalezieniu pełniejszego źródła instytucjonalnego."
+    }
+  },
+  {
+    "id": "kielce-ghetto-liquidation-1942",
+    "title": {
+      "en": "Liquidation of the Kielce ghetto",
+      "pl": "Likwidacja getta w Kielcach"
+    },
+    "startDate": "1942-08-20",
+    "endDate": "1942-08-24",
+    "datePrecision": "day",
+    "location": {
+      "lat": 50.87199,
+      "lng": 20.63105,
+      "name": {
+        "en": "Kielce",
+        "pl": "Kielce"
+      },
+      "precision": "town"
+    },
+    "type": "deportation",
+    "belligerents": [
+      "Germany"
+    ],
+    "summary": {
+      "en": "From 20 to 24 August 1942 the Germans liquidated the Kielce ghetto, deporting its inhabitants to Treblinka and killing others inside the ghetto.",
+      "pl": "W dniach 20–24 sierpnia 1942 r. Niemcy zlikwidowali getto w Kielcach, wywożąc jego mieszkańców do Treblinki i mordując część na terenie getta."
+    },
+    "casualties": {
+      "en": "About 20,000 Jews deported to Treblinka; 1,200–1,500 murdered in the ghetto (dzieje.pl calendar).",
+      "pl": "Ok. 20 tys. Żydów wywiezionych do Treblinki; 1200–1500 zamordowanych na terenie getta (kalendarium dzieje.pl)."
+    },
+    "sources": [
+      {
+        "title": "Kalendarz historyczny: 20 sierpnia",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/kalendarz-historyczny/20/8",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "Based only on a short entry in the dzieje.pl historical calendar; to be expanded when a fuller institutional source is found.",
+      "pl": "Oparte wyłącznie na krótkiej notce kalendarium dzieje.pl; do rozszerzenia po znalezieniu pełniejszego źródła instytucjonalnego."
+    }
+  },
+  {
+    "id": "warsaw-soviet-air-raid-1942",
+    "title": {
+      "en": "Soviet air raid on Warsaw",
+      "pl": "Sowiecki nalot na Warszawę"
+    },
+    "startDate": "1942-08-20",
+    "endDate": "1942-08-20",
+    "datePrecision": "day",
+    "location": {
+      "lat": 52.23281,
+      "lng": 21.01907,
+      "name": {
+        "en": "Warsaw",
+        "pl": "Warszawa"
+      },
+      "precision": "town"
+    },
+    "type": "bombing",
+    "belligerents": [
+      "Soviet Union",
+      "Germany"
+    ],
+    "summary": {
+      "en": "On 20 August 1942 Soviet aircraft bombed German-occupied Warsaw. Civilian losses were much higher than German ones: German losses were put at about 60 killed and 300 wounded.",
+      "pl": "20 sierpnia 1942 r. sowieckie lotnictwo zbombardowało okupowaną Warszawę. Straty wśród ludności cywilnej były znacznie wyższe niż niemieckie, które szacowano na ok. 60 zabitych i 300 rannych."
+    },
+    "casualties": {
+      "en": "About 200 civilians killed and 800 wounded (dzieje.pl calendar).",
+      "pl": "Ok. 200 zabitych i 800 rannych cywilów (kalendarium dzieje.pl)."
+    },
+    "sources": [
+      {
+        "title": "Kalendarz historyczny: 20 sierpnia",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/kalendarz-historyczny/20/8",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "Based only on a short entry in the dzieje.pl historical calendar; to be expanded when a fuller institutional source is found.",
+      "pl": "Oparte wyłącznie na krótkiej notce kalendarium dzieje.pl; do rozszerzenia po znalezieniu pełniejszego źródła instytucjonalnego."
+    }
+  },
+  {
+    "id": "nowy-targ-ghetto-liquidation-1942",
+    "title": {
+      "en": "Liquidation of the Nowy Targ ghetto",
+      "pl": "Likwidacja getta w Nowym Targu"
+    },
+    "startDate": "1942-08-30",
+    "endDate": "1942-08-30",
+    "datePrecision": "day",
+    "location": {
+      "lat": 49.48182,
+      "lng": 20.03054,
+      "name": {
+        "en": "Nowy Targ",
+        "pl": "Nowy Targ"
+      },
+      "precision": "town"
+    },
+    "type": "massacre",
+    "belligerents": [
+      "Germany"
+    ],
+    "summary": {
+      "en": "On 30 August 1942 the German occupation authorities liquidated the ghetto in Nowy Targ, which held about 2,500 Jews: most were murdered at the local Jewish cemetery, about 100 were sent to a forced-labour camp and the rest were deported to the Bełżec extermination camp.",
+      "pl": "30 sierpnia 1942 r. niemieckie władze okupacyjne zlikwidowały getto w Nowym Targu, w którym przebywało ok. 2,5 tys. Żydów: większość zamordowano na miejscowym cmentarzu żydowskim, ok. 100 osób umieszczono w obozie pracy przymusowej, a pozostałych wywieziono do obozu zagłady w Bełżcu."
+    },
+    "casualties": {
+      "en": "About 1,500 Jews murdered at the cemetery (dzieje.pl calendar).",
+      "pl": "Ok. 1,5 tys. Żydów zamordowanych na cmentarzu (kalendarium dzieje.pl)."
+    },
+    "sources": [
+      {
+        "title": "Kalendarz historyczny: 30 sierpnia",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/kalendarz-historyczny/30/8",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "Based only on a short entry in the dzieje.pl historical calendar; to be expanded when a fuller institutional source is found.",
+      "pl": "Oparte wyłącznie na krótkiej notce kalendarium dzieje.pl; do rozszerzenia po znalezieniu pełniejszego źródła instytucjonalnego."
     }
   },
   {
@@ -380,6 +1031,51 @@
     }
   },
   {
+    "id": "dzialoszyce-1942",
+    "title": {
+      "en": "Mass shooting of Jews in Działoszyce",
+      "pl": "Masowa egzekucja Żydów w Działoszycach"
+    },
+    "startDate": "1942-09-03",
+    "endDate": "1942-09-03",
+    "datePrecision": "day",
+    "location": {
+      "lat": 50.36547,
+      "lng": 20.35215,
+      "name": {
+        "en": "Jewish cemetery, Działoszyce",
+        "pl": "Cmentarz żydowski w Działoszycach"
+      },
+      "precision": "town"
+    },
+    "type": "massacre",
+    "belligerents": [
+      "Germany"
+    ],
+    "summary": {
+      "en": "On 3 September 1942 the Germans shot Jews at the Jewish cemetery in Działoszyce.",
+      "pl": "3 września 1942 r. Niemcy rozstrzelali Żydów na cmentarzu żydowskim w Działoszycach."
+    },
+    "casualties": {
+      "en": "About 1,500 Jews (dzieje.pl calendar).",
+      "pl": "Ok. 1,5 tys. Żydów (kalendarium dzieje.pl)."
+    },
+    "sources": [
+      {
+        "title": "Kalendarz historyczny: 3 września",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/kalendarz-historyczny/3/9",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "Based only on a short entry in the dzieje.pl historical calendar; to be expanded when a fuller institutional source is found.",
+      "pl": "Oparte wyłącznie na krótkiej notce kalendarium dzieje.pl; do rozszerzenia po znalezieniu pełniejszego źródła instytucjonalnego."
+    }
+  },
+  {
     "id": "czestochowa-ghetto-liquidation-1942",
     "title": {
       "en": "Liquidation of the Częstochowa ghetto",
@@ -419,6 +1115,163 @@
       "en": "Only a tier-2 source was used. The end date is approximate ('just over two weeks').",
       "pl": "Wykorzystano jedynie źródło 2. kategorii. Data końcowa przybliżona („nieco ponad dwa tygodnie”)."
     }
+  },
+  {
+    "id": "wieniec-1942",
+    "title": {
+      "en": "Operation 'Wieniec' and the German reprisal",
+      "pl": "Akcja „Wieniec” i niemiecki odwet"
+    },
+    "startDate": "1942-10-07",
+    "endDate": "1942-10-16",
+    "datePrecision": "day",
+    "location": {
+      "lat": 52.23281,
+      "lng": 21.01907,
+      "name": {
+        "en": "Railway lines around Warsaw",
+        "pl": "Linie kolejowe wokół Warszawy"
+      },
+      "precision": "region"
+    },
+    "type": "resistance_operation",
+    "belligerents": [
+      "Poland (Home Army)",
+      "Germany"
+    ],
+    "summary": {
+      "en": "In the night of 7–8 October 1942 sabotage units of the Warsaw Home Army Kedyw blew up tracks on the railway lines around the Warsaw junction, through which most German trains to the eastern front passed, delaying transports for many hours; no member of the underground was killed. In reprisal the Germans set up gallows next to the tracks – in Pelcowizna, Rembertów, Marki and at 12 Mszczonowska Street – and on 16 October hanged 50 people so that rail passengers could see them; 39 prisoners were also shot. Communist propaganda later presented the hanged as communists, though only some had links to the communist party.",
+      "pl": "W nocy z 7 na 8 października 1942 r. oddziały dywersyjne warszawskiego Kedywu AK wysadziły tory na liniach wokół warszawskiego węzła kolejowego, przez który przechodziła większość niemieckich pociągów na front wschodni, opóźniając transporty o wiele godzin; żaden z konspiratorów nie zginął. W odwecie Niemcy ustawili szubienice przy torach – na Pelcowiźnie, w Rembertowie, Markach i przy ul. Mszczonowskiej 12 – i 16 października powiesili 50 osób, tak by widzieli je pasażerowie pociągów; rozstrzelano też 39 więźniów. Propaganda komunistyczna przedstawiała później powieszonych jako komunistów, choć tylko część z nich była związana z PPR."
+    },
+    "casualties": {
+      "en": "50 hanged and 39 shot in reprisal (dzieje.pl/PAP).",
+      "pl": "W odwecie powieszono 50 osób i rozstrzelano 39 (dzieje.pl/PAP)."
+    },
+    "sources": [
+      {
+        "title": "80 lat temu oddziały AK przeprowadziły akcję „Wieniec”",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/wiadomosci/80-lat-temu-oddzialy-ak-przeprowadzily-akcje-wieniec",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      },
+      {
+        "title": "Kalendarz historyczny: 7 października",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/kalendarz-historyczny/7/10",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      },
+      {
+        "title": "Kalendarz historyczny: 16 października",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/kalendarz-historyczny/16/10",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "The marker is representative: the action targeted six lines around the Warsaw railway junction.",
+      "pl": "Znacznik jest reprezentatywny – akcja objęła sześć linii wokół warszawskiego węzła kolejowego."
+    }
+  },
+  {
+    "id": "gl-cafe-club-1942",
+    "title": {
+      "en": "Gwardia Ludowa bombs German-only venues in Warsaw",
+      "pl": "Zamachy Gwardii Ludowej na lokale „nur für Deutsche” w Warszawie"
+    },
+    "startDate": "1942-10-24",
+    "endDate": "1942-10-24",
+    "datePrecision": "day",
+    "location": {
+      "lat": 52.23214,
+      "lng": 21.0204,
+      "name": {
+        "en": "Café Club, Aleje Jerozolimskie / Nowy Świat, Warsaw",
+        "pl": "Café Club, róg Al. Jerozolimskich i Nowego Światu, Warszawa"
+      },
+      "precision": "exact"
+    },
+    "type": "resistance_operation",
+    "belligerents": [
+      "Polish communist partisans (GL)",
+      "Germany"
+    ],
+    "summary": {
+      "en": "On 24 October 1942, in response to the execution of dozens of Pawiak prisoners, the communist Gwardia Ludowa carried out bomb attacks on two German-only venues in Warsaw: the Café Club at the corner of Aleje Jerozolimskie and Nowy Świat, and the Mitropa restaurant at the Main Railway Station.",
+      "pl": "24 października 1942 r., w odpowiedzi na egzekucję kilkudziesięciu więźniów Pawiaka, komunistyczna Gwardia Ludowa dokonała zamachów bombowych na dwa lokale przeznaczone wyłącznie dla Niemców w Warszawie: Café Club na rogu Al. Jerozolimskich i Nowego Światu oraz restaurację Mitropa na Dworcu Głównym."
+    },
+    "sources": [
+      {
+        "title": "Kalendarz historyczny: 24 października",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/kalendarz-historyczny/24/10",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "Based only on a short entry in the dzieje.pl historical calendar; to be expanded when a fuller institutional source is found.",
+      "pl": "Oparte wyłącznie na krótkiej notce kalendarium dzieje.pl; do rozszerzenia po znalezieniu pełniejszego źródła instytucjonalnego."
+    }
+  },
+  {
+    "id": "plaszow-camp-1942",
+    "title": {
+      "en": "Płaszów camp",
+      "pl": "Obóz w Płaszowie"
+    },
+    "startDate": "1942-11-27",
+    "endDate": "1945-01-14",
+    "datePrecision": "day",
+    "location": {
+      "lat": 50.03239,
+      "lng": 19.96337,
+      "name": {
+        "en": "Płaszów, Kraków",
+        "pl": "Płaszów, Kraków"
+      },
+      "precision": "town"
+    },
+    "type": "camp",
+    "belligerents": [
+      "Germany"
+    ],
+    "summary": {
+      "en": "The camp at Płaszów, built on the site of Jewish cemeteries, began as a forced-labour camp of the SS and Police Leader in the Kraków district: on 27 November 1942 Julian Scherner ordered Jews working for the armaments industry and the army to be concentrated there, and the first workers were housed in unfinished barracks in December. Under commandant Amon Göth (11 February 1943 – 13 September 1944), who also led the liquidation of the Kraków and Tarnów ghettos, it became notorious for terror and executions. It became a concentration camp (KL Plaszow) on 10 January 1944. Tens of thousands of Jews and Poles passed through it. In summer and autumn 1944 most prisoners were sent to camps in the Reich, including Auschwitz, Mauthausen and Gross-Rosen; on 14 January 1945 the Germans left, marching the last group of over 600 prisoners towards Oświęcim. Göth was tried in Kraków and sentenced to death in 1946.",
+      "pl": "Obóz w Płaszowie, zbudowany na terenie cmentarzy żydowskich, powstał jako obóz pracy przymusowej dowódcy SS i policji w dystrykcie krakowskim: 27 listopada 1942 r. Julian Scherner nakazał skoncentrowanie tam Żydów pracujących dla przemysłu zbrojeniowego i wojska, a w grudniu pierwsze grupy robotników zakwaterowano w niedokończonych barakach. Za komendanta Amona Götha (11 lutego 1943 – 13 września 1944), który kierował też likwidacją gett w Krakowie i Tarnowie, obóz stał się miejscem terroru i egzekucji. 10 stycznia 1944 r. przekształcono go w obóz koncentracyjny (KL Plaszow). Przeszło przez niego kilkadziesiąt tysięcy Żydów i Polaków. Latem i jesienią 1944 r. większość więźniów wysłano do obozów w Rzeszy, m.in. do Auschwitz, Mauthausen i Gross-Rosen; 14 stycznia 1945 r. Niemcy opuścili obóz, prowadząc ostatnią grupę ponad 600 więźniów w kierunku Oświęcimia. Götha osądzono w Krakowie i w 1946 r. skazano na śmierć."
+    },
+    "casualties": {
+      "en": "Several thousand people died in the camp itself; Göth's court accepted 8,000 deaths in the camp; the IPN historical guide estimates the remains of up to 8,000–10,000 victims on its grounds, about half of them murdered in the camp.",
+      "pl": "W samym obozie zginęło kilka tysięcy osób; sąd w procesie Götha przyjął 8 tys. ofiar w obozie; przewodnik IPN szacuje, że na jego terenie pozostały szczątki nawet 8–10 tys. ofiar, z czego ok. połowa zamordowana w samym obozie."
+    },
+    "sources": [
+      {
+        "title": "Ryszard Kotarba, Niemiecki obóz w Płaszowie 1942–1945. Przewodnik historyczny (wyd. II)",
+        "publisher": "Instytut Pamięci Narodowej",
+        "url": "https://ipn.gov.pl/download/1/66053/KotarbaRNiemieckiobozwPlaszowie1942-1945PrzewodnikhistorycznywydanieII.pdf",
+        "tier": 1,
+        "accessed": "2026-11-19"
+      },
+      {
+        "title": "Morderca z Płaszowa",
+        "publisher": "Przystanek Historia (IPN)",
+        "url": "https://przystanekhistoria.pl/pa2/tematy/obozy-koncentracyjne/85948,Morderca-z-Plaszowa.html",
+        "tier": 1,
+        "accessed": "2026-11-19"
+      },
+      {
+        "title": "Martyna Grądzka: Proces „kata z Płaszowa”",
+        "publisher": "Instytut Pamięci Narodowej",
+        "url": "https://ipn.gov.pl/pl/historia-z-ipn/169381,Martyna-Gradzka-Proces-kata-z-Plaszowa.html",
+        "tier": 1,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true
   },
   {
     "id": "zamosc-expulsions-1942",
@@ -556,6 +1409,51 @@
       }
     ],
     "verified": true
+  },
+  {
+    "id": "stary-ciepielow-1942",
+    "title": {
+      "en": "Murder of Poles who helped Jews in Stary Ciepielów",
+      "pl": "Zbrodnia na Polakach pomagających Żydom w Starym Ciepielowie"
+    },
+    "startDate": "1942-12-06",
+    "endDate": "1942-12-06",
+    "datePrecision": "day",
+    "location": {
+      "lat": 51.25445,
+      "lng": 21.59805,
+      "name": {
+        "en": "Stary Ciepielów, near Radom",
+        "pl": "Stary Ciepielów koło Radomia"
+      },
+      "precision": "town"
+    },
+    "type": "massacre",
+    "belligerents": [
+      "Germany"
+    ],
+    "summary": {
+      "en": "On 6 December 1942 German gendarmes began reprisals against the civilian population of Stary Ciepielów near Radom, targeting Poles who helped Jews; executions were also carried out in nearby Rekówka, Świesielice and Zajączków.",
+      "pl": "6 grudnia 1942 r. niemiecka żandarmeria rozpoczęła represje wobec ludności Starego Ciepielowa koło Radomia, wymierzone w Polaków udzielających pomocy Żydom; egzekucji dokonywano także w pobliskich Rekówce, Świesielicach i Zajączkowie."
+    },
+    "casualties": {
+      "en": "38 people, including children, killed by January 1943 (dzieje.pl calendar).",
+      "pl": "Do stycznia 1943 r. zamordowano łącznie 38 osób, w tym dzieci (kalendarium dzieje.pl)."
+    },
+    "sources": [
+      {
+        "title": "Kalendarz historyczny: 6 grudnia",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/kalendarz-historyczny/6/12",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "Based only on a short entry in the dzieje.pl historical calendar; to be expanded when a fuller institutional source is found.",
+      "pl": "Oparte wyłącznie na krótkiej notce kalendarium dzieje.pl; do rozszerzenia po znalezieniu pełniejszego źródła instytucjonalnego."
+    }
   },
   {
     "id": "wojda-1942",

@@ -203,5 +203,18 @@ const BELLIGERENTS_PL: Record<string, string> = {
   "United States": "Stany Zjednoczone",
   "Jewish prisoners": "Więźniowie żydowscy",
   "Jewish underground": "Podziemie żydowskie",
+  "Germany (Volksdeutscher Selbstschutz)": "Niemcy (Volksdeutscher Selbstschutz)",
+  "Ukrainian auxiliary police": "Ukraińska policja pomocnicza",
+  "Ukrainian nationalists": "Nacjonaliści ukraińscy",
+  "Polish Police in the General Government ('blue' police)": "Policja Polska Generalnego Gubernatorstwa (granatowa)",
+  "Polish self-defence": "Polska samoobrona",
+  "Polish prisoners": "Więźniowie polscy",
+  "Polish communist partisans (GL)": "Komunistyczna partyzantka (GL)",
+  "Polish communist partisans (AL)": "Komunistyczna partyzantka (AL)",
+  "Lithuanian police (German-controlled)": "Policja litewska (pod kontrolą niemiecką)",
+  "Germany (14th Waffen-SS Division 'Galizien')": "Niemcy (14. Dywizja Grenadierów Waffen-SS „Galizien”)",
+  "Germany (Gestapo)": "Niemcy (gestapo)",
+  "Ukrainian SS formation": "Ukraińska formacja SS",
+  "Ukrainian Self-Defence Legion (German-controlled)": "Ukraiński Legion Samoobrony (pod kontrolą niemiecką)",
 };
 export const belligerentLabel = (name: string, lang: Lang) => (lang === "pl" ? (BELLIGERENTS_PL[name] ?? name) : name);

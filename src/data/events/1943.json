@@ -1,5 +1,47 @@
 [
   {
+    "id": "pinsk-prison-raid-1943",
+    "title": {
+      "en": "Home Army raid on the Pińsk prison",
+      "pl": "Rozbicie więzienia w Pińsku przez AK"
+    },
+    "startDate": "1943-01-18",
+    "endDate": "1943-01-18",
+    "datePrecision": "day",
+    "location": {
+      "lat": 52.11139,
+      "lng": 26.10253,
+      "name": {
+        "en": "Pińsk (now Belarus)",
+        "pl": "Pińsk"
+      },
+      "precision": "town"
+    },
+    "type": "resistance_operation",
+    "belligerents": [
+      "Poland (Home Army)",
+      "Germany"
+    ],
+    "summary": {
+      "en": "On 18 January 1943 a Home Army unit led by Lt Jan Piwnik carried out a daring raid on the German prison in Pińsk, freeing among others the Cichociemny paratrooper Alfred Paczkowski 'Wania'.",
+      "pl": "18 stycznia 1943 r. oddział AK dowodzony przez por. Jana Piwnika przeprowadził brawurową akcję rozbicia niemieckiego więzienia w Pińsku, uwalniając m.in. cichociemnego Alfreda Paczkowskiego „Wanię”."
+    },
+    "sources": [
+      {
+        "title": "Kalendarz historyczny: 18 stycznia",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/kalendarz-historyczny/18/1",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "Based only on a short entry in the dzieje.pl historical calendar; to be expanded when a fuller institutional source is found.",
+      "pl": "Oparte wyłącznie na krótkiej notce kalendarium dzieje.pl; do rozszerzenia po znalezieniu pełniejszego źródła instytucjonalnego."
+    }
+  },
+  {
     "id": "warsaw-january-resistance-1943",
     "title": {
       "en": "January self-defence in the Warsaw ghetto",
@@ -176,6 +218,48 @@
     }
   },
   {
+    "id": "opatow-prison-raid-1943",
+    "title": {
+      "en": "Raid on the German prison in Opatów",
+      "pl": "Rozbicie niemieckiego więzienia w Opatowie"
+    },
+    "startDate": "1943-03-12",
+    "endDate": "1943-03-12",
+    "datePrecision": "day",
+    "location": {
+      "lat": 50.80177,
+      "lng": 21.42383,
+      "name": {
+        "en": "Opatów",
+        "pl": "Opatów"
+      },
+      "precision": "town"
+    },
+    "type": "resistance_operation",
+    "belligerents": [
+      "Poland (Home Army)",
+      "Germany"
+    ],
+    "summary": {
+      "en": "On 12 March 1943 the 'Jędrusie' unit, linked to the Kielce-region underground organisation Odwet, together with Home Army soldiers broke into the German prison in Opatów and freed several dozen prisoners.",
+      "pl": "12 marca 1943 r. oddział „Jędrusiów”, związany z działającą na Kielecczyźnie organizacją konspiracyjną Odwet, wspólnie z żołnierzami AK rozbił niemieckie więzienie w Opatowie, uwalniając kilkudziesięciu więźniów."
+    },
+    "sources": [
+      {
+        "title": "Kalendarz historyczny: 12 marca",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/kalendarz-historyczny/12/3",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "Based only on a short entry in the dzieje.pl historical calendar; to be expanded when a fuller institutional source is found.",
+      "pl": "Oparte wyłącznie na krótkiej notce kalendarium dzieje.pl; do rozszerzenia po znalezieniu pełniejszego źródła instytucjonalnego."
+    }
+  },
+  {
     "id": "krakow-ghetto-liquidation-1943",
     "title": {
       "en": "Liquidation of the Kraków ghetto",
@@ -256,6 +340,51 @@
     "notes": {
       "en": "Only a tier-2 source was used. It states that 21 prisoners were freed in the action (code-named 'Meksyk II'), while Broniewski's report written immediately afterwards gave 25.",
       "pl": "Wykorzystano jedynie źródło 2. kategorii. Podaje ono, że w akcji (kryptonim „Meksyk II”) uwolniono 21 więźniów, natomiast w raporcie sporządzonym bezpośrednio po akcji Broniewski podał 25."
+    }
+  },
+  {
+    "id": "lipniki-1943",
+    "title": {
+      "en": "Lipniki massacre",
+      "pl": "Zbrodnia w Lipnikach"
+    },
+    "startDate": "1943-03-26",
+    "endDate": "1943-03-27",
+    "datePrecision": "day",
+    "location": {
+      "lat": 51.00923,
+      "lng": 26.23652,
+      "name": {
+        "en": "Lipniki, Volhynia (now Ukraine)",
+        "pl": "Lipniki na Wołyniu"
+      },
+      "precision": "town"
+    },
+    "type": "massacre",
+    "belligerents": [
+      "Ukrainian Insurgent Army (UPA)"
+    ],
+    "summary": {
+      "en": "In the night of 26–27 March 1943 a UPA unit commanded by Ivan Lytvynchuk 'Dubovyi' massacred the Polish inhabitants of Lipniki in Volhynia. Among those who survived was two-year-old Mirosław Hermaszewski, later Poland's first cosmonaut.",
+      "pl": "W nocy z 26 na 27 marca 1943 r. oddział UPA dowodzony przez Iwana Łytwyńczuka „Dubowego” dokonał masakry polskich mieszkańców wsi Lipniki na Wołyniu. Wśród ocalałych był dwuletni Mirosław Hermaszewski, późniejszy pierwszy polski kosmonauta."
+    },
+    "casualties": {
+      "en": "179 Poles, four Jews and a Russian woman (dzieje.pl calendar).",
+      "pl": "179 Polaków, czworo Żydów i Rosjanka (kalendarium dzieje.pl)."
+    },
+    "sources": [
+      {
+        "title": "Kalendarz historyczny: 26 marca",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/kalendarz-historyczny/26/3",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "Based only on a short entry in the dzieje.pl historical calendar; to be expanded when a fuller institutional source is found.",
+      "pl": "Oparte wyłącznie na krótkiej notce kalendarium dzieje.pl; do rozszerzenia po znalezieniu pełniejszego źródła instytucjonalnego."
     }
   },
   {
@@ -429,6 +558,98 @@
     }
   },
   {
+    "id": "szarajowka-1943",
+    "title": {
+      "en": "Pacification of Szarajówka",
+      "pl": "Pacyfikacja Szarajówki"
+    },
+    "startDate": "1943-05-18",
+    "endDate": "1943-05-18",
+    "datePrecision": "day",
+    "location": {
+      "lat": 50.37027,
+      "lng": 22.85208,
+      "name": {
+        "en": "Szarajówka, Zamość region",
+        "pl": "Szarajówka na Zamojszczyźnie"
+      },
+      "precision": "town"
+    },
+    "type": "massacre",
+    "belligerents": [
+      "Germany",
+      "Ukrainian auxiliary police"
+    ],
+    "summary": {
+      "en": "On 18 May 1943 German gendarmes and Ukrainian auxiliary police units pacified the village of Szarajówka in the Zamość region, forcing inhabitants, many of them women and children, into houses and stables and burning them alive.",
+      "pl": "18 maja 1943 r. żandarmeria niemiecka i oddziały ukraińskiej policji pomocniczej dokonały pacyfikacji wsi Szarajówka na Zamojszczyźnie, wpychając mieszkańców, w tym wiele kobiet i dzieci, do domów i stajni i paląc ich żywcem."
+    },
+    "casualties": {
+      "en": "At least 58 people burned alive (dzieje.pl calendar).",
+      "pl": "Co najmniej 58 osób spalonych żywcem (kalendarium dzieje.pl)."
+    },
+    "sources": [
+      {
+        "title": "Kalendarz historyczny: 18 maja",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/kalendarz-historyczny/18/5",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "Based only on a short entry in the dzieje.pl historical calendar; to be expanded when a fuller institutional source is found.",
+      "pl": "Oparte wyłącznie na krótkiej notce kalendarium dzieje.pl; do rozszerzenia po znalezieniu pełniejszego źródła instytucjonalnego."
+    }
+  },
+  {
+    "id": "celestynow-1943",
+    "title": {
+      "en": "Kedyw frees prisoners at Celestynów station",
+      "pl": "Odbicie więźniów na stacji w Celestynowie"
+    },
+    "startDate": "1943-05-20",
+    "endDate": "1943-05-20",
+    "datePrecision": "day",
+    "location": {
+      "lat": 52.05904,
+      "lng": 21.38381,
+      "name": {
+        "en": "Celestynów railway station",
+        "pl": "Stacja kolejowa Celestynów"
+      },
+      "precision": "town"
+    },
+    "type": "resistance_operation",
+    "belligerents": [
+      "Poland (Home Army)",
+      "Germany"
+    ],
+    "summary": {
+      "en": "On 20 May 1943 at Celestynów station a special unit of the Home Army Kedyw led by Tadeusz Zawadzki 'Zośka' freed political prisoners being transported by the Germans from the prison in Lublin Castle to Auschwitz.",
+      "pl": "20 maja 1943 r. na stacji kolejowej w Celestynowie oddział dyspozycyjny Kedywu KG AK dowodzony przez Tadeusza Zawadzkiego „Zośkę” uwolnił więźniów politycznych przewożonych przez Niemców z więzienia na Zamku Lubelskim do KL Auschwitz."
+    },
+    "casualties": {
+      "en": "49 prisoners freed (dzieje.pl calendar).",
+      "pl": "Uwolniono 49 więźniów (kalendarium dzieje.pl)."
+    },
+    "sources": [
+      {
+        "title": "Kalendarz historyczny: 20 maja",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/kalendarz-historyczny/20/5",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "Based only on a short entry in the dzieje.pl historical calendar; to be expanded when a fuller institutional source is found.",
+      "pl": "Oparte wyłącznie na krótkiej notce kalendarium dzieje.pl; do rozszerzenia po znalezieniu pełniejszego źródła instytucjonalnego."
+    }
+  },
+  {
     "id": "lwow-ghetto-liquidation-1943",
     "title": {
       "en": "Final liquidation of the Lwów ghetto",
@@ -468,6 +689,245 @@
       "en": "Only a tier-2 source was used; it gives only the month.",
       "pl": "Wykorzystano jedynie źródło 2. kategorii; podaje ono tylko miesiąc."
     }
+  },
+  {
+    "id": "sochy-1943",
+    "title": {
+      "en": "Pacification of Sochy",
+      "pl": "Pacyfikacja Soch"
+    },
+    "startDate": "1943-06-01",
+    "endDate": "1943-06-01",
+    "datePrecision": "day",
+    "location": {
+      "lat": 50.58345,
+      "lng": 22.94863,
+      "name": {
+        "en": "Sochy, near Zwierzyniec",
+        "pl": "Sochy koło Zwierzyńca"
+      },
+      "precision": "town"
+    },
+    "type": "massacre",
+    "belligerents": [
+      "Germany"
+    ],
+    "summary": {
+      "en": "On 1 June 1943 the Germans pacified the village of Sochy in the Zamość region, murdering its inhabitants, including many women and children.",
+      "pl": "1 czerwca 1943 r. Niemcy dokonali pacyfikacji wsi Sochy na Zamojszczyźnie, mordując jej mieszkańców, w tym wiele kobiet i dzieci."
+    },
+    "casualties": {
+      "en": "Over 180 people (dzieje.pl calendar).",
+      "pl": "Ponad 180 osób (kalendarium dzieje.pl)."
+    },
+    "sources": [
+      {
+        "title": "Kalendarz historyczny: 1 czerwca",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/kalendarz-historyczny/1/6",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "Based only on a short entry in the dzieje.pl historical calendar; to be expanded when a fuller institutional source is found.",
+      "pl": "Oparte wyłącznie na krótkiej notce kalendarium dzieje.pl; do rozszerzenia po znalezieniu pełniejszego źródła instytucjonalnego."
+    }
+  },
+  {
+    "id": "grot-arrest-1943",
+    "title": {
+      "en": "Arrest of Gen. Stefan Rowecki 'Grot'",
+      "pl": "Aresztowanie gen. Stefana Roweckiego „Grota”"
+    },
+    "startDate": "1943-06-30",
+    "endDate": "1943-06-30",
+    "datePrecision": "day",
+    "location": {
+      "lat": 52.22235,
+      "lng": 20.98402,
+      "name": {
+        "en": "14 Spiska Street, Ochota, Warsaw",
+        "pl": "ul. Spiska 14, Ochota, Warszawa"
+      },
+      "precision": "exact"
+    },
+    "type": "occupation_policy",
+    "belligerents": [
+      "Germany"
+    ],
+    "summary": {
+      "en": "On 30 June 1943 the Gestapo arrested the Home Army commander Gen. Stefan Rowecki 'Grot' in a building at 14 Spiska Street in Warsaw – one of the most dramatic moments in the history of the Polish Underground State. A network of Gestapo agents created by Ludwik Kalkstein was key to his capture; Eugeniusz Świerczewski, who knew Rowecki personally, is said to have recognised him in the street, followed him and phoned the Gestapo. He was later sentenced and executed by the underground. Rowecki was taken to Berlin and then Sachsenhausen, and according to the IPN investigation was murdered there between 2 and 7 August 1944 on Himmler's special order.",
+      "pl": "30 czerwca 1943 r. gestapo aresztowało komendanta głównego AK gen. Stefana Roweckiego „Grota” w kamienicy przy ul. Spiskiej 14 w Warszawie – był to jeden z najbardziej dramatycznych momentów w dziejach Polskiego Państwa Podziemnego. Kluczowa dla jego ujęcia była siatka agentów gestapo stworzona przez Ludwika Kalksteina; Eugeniusz Świerczewski, który znał Roweckiego osobiście, miał go rozpoznać na ulicy, śledzić i zawiadomić telefonicznie gestapo. Został później skazany i stracony przez podziemie. Roweckiego przewieziono do Berlina, a następnie do Sachsenhausen, gdzie – według ustaleń śledztwa IPN – zamordowano go między 2 a 7 sierpnia 1944 r. na specjalny rozkaz Himmlera."
+    },
+    "sources": [
+      {
+        "title": "80 lat temu został aresztowany gen. Stefan Rowecki „Grot” – dowódca Armii Krajowej",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/wiadomosci/80-lat-temu-zostal-aresztowany-gen-stefan-rowecki-grot-dowodca-armii-krajowej",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      },
+      {
+        "title": "Paweł Popiel: Wyrok na Eugeniusza Świerczewskiego",
+        "publisher": "Instytut Pamięci Narodowej",
+        "url": "https://ipn.gov.pl/pl/historia-z-ipn/220401,Pawel-Popiel-Wyrok-na-Eugeniusza-Swierczewskiego.html",
+        "tier": 1,
+        "accessed": "2026-11-19"
+      },
+      {
+        "title": "Kalendarz historyczny: 30 czerwca",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/kalendarz-historyczny/30/6",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "Historians disagree on how the arrest came about: Witold Pronobis blames Świerczewski's betrayal, while Andrzej Chmielarz and Andrzej Krzysztof Kunert lean towards chance (IPN).",
+      "pl": "Historycy spierają się co do okoliczności aresztowania: Witold Pronobis obciąża zdradą Świerczewskiego, a Andrzej Chmielarz i Andrzej Krzysztof Kunert skłaniają się ku tezie o przypadku (IPN)."
+    }
+  },
+  {
+    "id": "majdan-stary-1943",
+    "title": {
+      "en": "Pacification of Majdan Stary",
+      "pl": "Pacyfikacja Majdanu Starego"
+    },
+    "startDate": "1943-07-02",
+    "endDate": "1943-07-02",
+    "datePrecision": "day",
+    "location": {
+      "lat": 50.47213,
+      "lng": 22.71772,
+      "name": {
+        "en": "Majdan Stary, Zamość region",
+        "pl": "Majdan Stary na Zamojszczyźnie"
+      },
+      "precision": "town"
+    },
+    "type": "massacre",
+    "belligerents": [
+      "Germany (14th Waffen-SS Division 'Galizien')"
+    ],
+    "summary": {
+      "en": "On 2 July 1943, during the pacification of the village of Majdan Stary in the Zamość region by the Ukrainian 14th Waffen-SS Grenadier Division 'Galizien', several dozen Poles were murdered.",
+      "pl": "2 lipca 1943 r. podczas pacyfikacji wsi Majdan Stary na Zamojszczyźnie przez ukraińską 14. Dywizję Grenadierów Waffen-SS „Galizien” zamordowano kilkudziesięciu Polaków."
+    },
+    "sources": [
+      {
+        "title": "Kalendarz historyczny: 2 lipca",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/kalendarz-historyczny/2/7",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "Based only on a short entry in the dzieje.pl historical calendar; to be expanded when a fuller institutional source is found.",
+      "pl": "Oparte wyłącznie na krótkiej notce kalendarium dzieje.pl; do rozszerzenia po znalezieniu pełniejszego źródła instytucjonalnego."
+    }
+  },
+  {
+    "id": "szczurowa-1943",
+    "title": {
+      "en": "Massacre of the Roma of Szczurowa",
+      "pl": "Zbrodnia na Romach w Szczurowej"
+    },
+    "startDate": "1943-07-03",
+    "endDate": "1943-07-03",
+    "datePrecision": "day",
+    "location": {
+      "lat": 50.11904,
+      "lng": 20.63737,
+      "name": {
+        "en": "Szczurowa cemetery",
+        "pl": "Cmentarz w Szczurowej"
+      },
+      "precision": "town"
+    },
+    "type": "massacre",
+    "belligerents": [
+      "Germany",
+      "Polish Police in the General Government ('blue' police)"
+    ],
+    "summary": {
+      "en": "On the morning of 3 July 1943 German gendarmes, accompanied by Polish 'blue' police, surrounded the Roma settlement in Szczurowa – a community of about 130 settled Roma, well integrated with the village, known for its band – and took the inhabitants to the local cemetery, where they were shot within a few hours. The main perpetrator was the German gendarme Engelbert Guzdek. Villagers tried to save their Roma neighbours and managed to get a few people, including the young Krystyna Cioroń, out of the transport. The grave is one of the largest Roma mass graves in Poland.",
+      "pl": "Rankiem 3 lipca 1943 r. niemieccy żandarmi wraz z policją granatową otoczyli osadę romską w Szczurowej – społeczność ok. 130 Romów osiadłych, dobrze zżytych z wsią, znanych z miejscowej orkiestry – i przewieźli mieszkańców na cmentarz, gdzie w ciągu kilku godzin ich rozstrzelano. Głównym sprawcą był niemiecki żandarm Engelbert Guzdek. Mieszkańcy wsi próbowali ratować romskich sąsiadów i podstępem wydostali z transportu kilka osób, m.in. kilkuletnią Krystynę Cioroń. Mogiła należy do największych zbiorowych grobów romskich w Polsce."
+    },
+    "casualties": {
+      "en": "93 Roma, nearly all the Roma inhabitants of the village (IPN; dzieje.pl/PAP).",
+      "pl": "93 Romów – niemal wszyscy romscy mieszkańcy wsi (IPN; dzieje.pl/PAP)."
+    },
+    "sources": [
+      {
+        "title": "(Nie)odkryta Zagłada",
+        "publisher": "Instytut Pamięci Narodowej",
+        "url": "https://ipn.gov.pl/pl/publikacje/nie-tylko-o-ksiazkach/103971,Nieodkryta-zaglada.html",
+        "tier": 1,
+        "accessed": "2026-11-19"
+      },
+      {
+        "title": "Tablica pamiątkowa na zakończenie Międzynarodowego Taboru Pamięci Romów",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/aktualnosci/tablica-pamiatkowa-na-zakonczenie-miedzynarodowego-taboru-pamieci-romow",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true
+  },
+  {
+    "id": "przebraze-1943",
+    "title": {
+      "en": "Defence of Przebraże",
+      "pl": "Obrona Przebraża"
+    },
+    "startDate": "1943-07-04",
+    "endDate": "1943-07-31",
+    "datePrecision": "day",
+    "location": {
+      "lat": 50.90488,
+      "lng": 25.55579,
+      "name": {
+        "en": "Przebraże, near Łuck (now Ukraine)",
+        "pl": "Przebraże koło Łucka"
+      },
+      "precision": "town"
+    },
+    "type": "resistance_operation",
+    "belligerents": [
+      "Polish self-defence",
+      "Ukrainian Insurgent Army (UPA)"
+    ],
+    "summary": {
+      "en": "From spring 1943 the large Polish colony of Przebraże in Łuck county was a well-organised self-defence centre, formed in response to UPA killings of Poles in neighbouring districts; it sheltered refugees from attacked and threatened villages and became the largest Polish self-defence centre in Volhynia. During the UPA attack of 4–5 July 1943 the defenders held, although Poles were killed in many surrounding settlements; a second, larger assault on 31 July was repulsed in heavy fighting.",
+      "pl": "Od wiosny 1943 r. duża polska kolonia Przebraże w powiecie łuckim była dobrze zorganizowanym ośrodkiem samoobrony, powstałym w odpowiedzi na mordy UPA na Polakach w sąsiednich gminach; chroniła uchodźców z atakowanych i zagrożonych miejscowości i stała się największym ośrodkiem polskiej samoobrony na Wołyniu. Podczas napadu UPA 4–5 lipca 1943 r. obrońcy utrzymali się, choć w wielu okolicznych miejscowościach zginęli Polacy; drugi, silniejszy atak 31 lipca odparto w ciężkim boju."
+    },
+    "casualties": {
+      "en": "At least 12,000 Poles survived thanks to the self-defence (Prof. Damian Markowski via PAP).",
+      "pl": "Dzięki samoobronie ocalało co najmniej 12 tys. Polaków (prof. Damian Markowski za PAP)."
+    },
+    "sources": [
+      {
+        "title": "Lipiec 1943 roku na Wołyniu",
+        "publisher": "Przystanek Historia (IPN)",
+        "url": "https://przystanekhistoria.pl/pa2/tematy/oun-upa/70878,Lipiec-1943-roku-na-Wolyniu.html",
+        "tier": 1,
+        "accessed": "2026-11-19"
+      },
+      {
+        "title": "Prof. Damian Markowski: Przebraże było polską republiką partyzancką w samym środku ludobójstwa",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/wiadomosci/prof-damian-markowski-przebraze-bylo-polska-republika-partyzancka-w-samym-srodku",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true
   },
   {
     "id": "volhynia-bloody-sunday-1943",
@@ -560,6 +1020,166 @@
     }
   },
   {
+    "id": "krasowo-czestki-1943",
+    "title": {
+      "en": "Pacification of Krasowo-Częstki",
+      "pl": "Pacyfikacja Krasowa-Częstek"
+    },
+    "startDate": "1943-07-17",
+    "endDate": "1943-07-17",
+    "datePrecision": "day",
+    "location": {
+      "lat": 52.84944,
+      "lng": 22.68056,
+      "name": {
+        "en": "Krasowo-Częstki, near Wysokie Mazowieckie",
+        "pl": "Krasowo-Częstki koło Wysokiego Mazowieckiego"
+      },
+      "precision": "town"
+    },
+    "type": "massacre",
+    "belligerents": [
+      "Germany"
+    ],
+    "summary": {
+      "en": "On 17 July 1943 the Germans pacified the village of Krasowo-Częstki near Wysokie Mazowieckie in the Białystok region, murdering its inhabitants.",
+      "pl": "17 lipca 1943 r. Niemcy dokonali pacyfikacji wsi Krasowo-Częstki koło Wysokiego Mazowieckiego na Białostocczyźnie, mordując jej mieszkańców."
+    },
+    "casualties": {
+      "en": "About 260 people, including 189 women and children (dzieje.pl calendar).",
+      "pl": "Ok. 260 osób, w tym 189 kobiet i dzieci (kalendarium dzieje.pl)."
+    },
+    "sources": [
+      {
+        "title": "Kalendarz historyczny: 17 lipca",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/kalendarz-historyczny/17/7",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "Based only on a short entry in the dzieje.pl historical calendar; to be expanded when a fuller institutional source is found.",
+      "pl": "Oparte wyłącznie na krótkiej notce kalendarium dzieje.pl; do rozszerzenia po znalezieniu pełniejszego źródła instytucjonalnego."
+    }
+  },
+  {
+    "id": "kl-warschau-1943",
+    "title": {
+      "en": "KL Warschau ('Gęsiówka')",
+      "pl": "KL Warschau („Gęsiówka”)"
+    },
+    "startDate": "1943-07-19",
+    "endDate": "1944-08-05",
+    "datePrecision": "day",
+    "location": {
+      "lat": 52.25033,
+      "lng": 20.9979,
+      "name": {
+        "en": "Gęsia Street, Muranów, Warsaw",
+        "pl": "ul. Gęsia, Muranów, Warszawa"
+      },
+      "precision": "town"
+    },
+    "type": "camp",
+    "belligerents": [
+      "Germany"
+    ],
+    "summary": {
+      "en": "On 11 June 1943, after the suppression of the ghetto uprising, Himmler ordered a concentration camp to be set up in the ruins of the Warsaw ghetto, along Gęsia Street. The first 300 prisoners arrived on 19 July 1943. Mostly foreign Jews – from Greece, France, Germany, Austria, Belgium and the Netherlands, later about 3,000 from Hungary – were brought from Auschwitz to demolish the ghetto ruins, sort rubble and search for valuables. From April 1944 it was a subcamp of Majdanek. At the end of July 1944 the SS evacuated it, shooting about 400 sick prisoners and marching the rest to Kutno, from where they were sent to Dachau. The remaining prisoners were freed by insurgents on 5 August 1944.",
+      "pl": "11 czerwca 1943 r., po stłumieniu powstania w getcie, Himmler wydał rozkaz utworzenia obozu koncentracyjnego w ruinach getta warszawskiego, wzdłuż ul. Gęsiej. Pierwszych 300 więźniów przywieziono 19 lipca 1943 r. Z Auschwitz sprowadzano głównie Żydów z zagranicy – z Grecji, Francji, Niemiec, Austrii, Belgii i Holandii, później ok. 3 tys. z Węgier – do wyburzania ruin getta, sortowania gruzu i poszukiwania kosztowności. Od kwietnia 1944 r. był podobozem Majdanka. Pod koniec lipca 1944 r. SS ewakuowało obóz, rozstrzeliwując ok. 400 chorych więźniów i pędząc pozostałych do Kutna, skąd wywieziono ich do Dachau. Pozostałych więźniów uwolnili powstańcy 5 sierpnia 1944 r."
+    },
+    "casualties": {
+      "en": "About 400 sick prisoners shot during the evacuation; up to 2,000 – about half the marchers – may have died on the death march to Kutno (dzieje.pl).",
+      "pl": "Ok. 400 chorych więźniów rozstrzelanych podczas ewakuacji; w marszu śmierci do Kutna mogło zginąć nawet 2 tys. osób, czyli połowa maszerujących (dzieje.pl)."
+    },
+    "sources": [
+      {
+        "title": "Obóz koncentracyjny na terenie ruin getta warszawskiego („Gęsiówka”)",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/aktualnosci/oboz-koncentracyjny-na-terenie-ruin-getta-warszawskiego-gesiowka",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      },
+      {
+        "title": "Uroczystości w 80. rocznicę wyzwolenia „Gęsiówki” przez powstańców warszawskich",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/wiadomosci/uroczystosci-w-80-rocznice-wyzwolenia-gesiowki-przez-powstancow-warszawskich",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      },
+      {
+        "title": "Kalendarz historyczny: 11 czerwca",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/kalendarz-historyczny/11/6",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true
+  },
+  {
+    "id": "bedzin-sosnowiec-ghetto-uprising-1943",
+    "title": {
+      "en": "Liquidation of the Będzin and Sosnowiec ghettos and Jewish resistance",
+      "pl": "Likwidacja gett w Będzinie i Sosnowcu i żydowski opór"
+    },
+    "startDate": "1943-08-01",
+    "endDate": "1943-08-03",
+    "datePrecision": "day",
+    "location": {
+      "lat": 50.33563,
+      "lng": 19.11733,
+      "name": {
+        "en": "Będzin (Kamionka/Warpie ghetto)",
+        "pl": "Będzin (getto)"
+      },
+      "precision": "town"
+    },
+    "type": "uprising",
+    "belligerents": [
+      "Jewish Combat Organization (ŻOB)",
+      "Germany"
+    ],
+    "summary": {
+      "en": "On 1 August 1943 the Germans began the final liquidation of the neighbouring ghettos of Będzin and Sosnowiec. Members of the Jewish Combat Organisation in Będzin, in agreement with the resistance in Sosnowiec, took up armed struggle from bunkers built after the ghettos were sealed, with about twenty revolvers and dozens of grenades and homemade bombs. In the night of 2–3 August the German cordon came under fire from several ghetto buildings; most of the fighters, including their leader Frumka Płotnicka, were killed. The inhabitants were deported to Auschwitz.",
+      "pl": "1 sierpnia 1943 r. Niemcy przystąpili do ostatecznej likwidacji sąsiadujących gett w Będzinie i Sosnowcu. Członkowie Żydowskiej Organizacji Bojowej w Będzinie, w porozumieniu z ruchem oporu w Sosnowcu, podjęli walkę zbrojną z bunkrów zbudowanych po zamknięciu gett, mając ok. dwudziestu rewolwerów oraz kilkadziesiąt granatów i bomb domowej roboty. W nocy z 2 na 3 sierpnia kordon niemiecki znalazł się pod ostrzałem z kilku budynków getta; większość bojowników, w tym ich przywódczyni Frumka Płotnicka, zginęła. Mieszkańców wywieziono do Auschwitz."
+    },
+    "casualties": {
+      "en": "In May 1943 the Będzin ghetto held 18,670 Jews; over 30,000 Jews of Będzin died during the war (dzieje.pl/PAP).",
+      "pl": "W maju 1943 r. w getcie będzińskim przebywało 18 670 Żydów; w czasie wojny zginęło ponad 30 tys. będzińskich Żydów (dzieje.pl/PAP)."
+    },
+    "sources": [
+      {
+        "title": "„A tutaj było kiedyś tak rajsko”. Krótka historia getta w Będzinie",
+        "publisher": "Żydowski Instytut Historyczny",
+        "url": "https://www.jhi.pl/artykuly/a-tutaj-bylo-kiedys-tak-rajsko-krotka-historia-getta-w-bedzinie,4369",
+        "tier": 1,
+        "accessed": "2026-11-19"
+      },
+      {
+        "title": "W Będzinie uroczystości w 75. rocznicę rozpoczęcia likwidacji getta",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/aktualnosci/bedzin-uroczystosci-w-75-rocznice-rozpoczecia-likwidacji-getta",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      },
+      {
+        "title": "Kalendarz historyczny: 1 sierpnia",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/kalendarz-historyczny/1/8",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "The end date marks the last fighting reported by the German police; deportations continued in the following days.",
+      "pl": "Data końcowa oznacza ostatnie walki opisane w raporcie niemieckiej policji; deportacje trwały w kolejnych dniach."
+    }
+  },
+  {
     "id": "treblinka-revolt-1943",
     "title": {
       "en": "Treblinka prisoners' revolt",
@@ -607,6 +1227,143 @@
       }
     ],
     "verified": true
+  },
+  {
+    "id": "jaslo-prison-raid-1943",
+    "title": {
+      "en": "Home Army frees prisoners in Jasło",
+      "pl": "Uwolnienie więźniów w Jaśle przez AK"
+    },
+    "startDate": "1943-08-05",
+    "endDate": "1943-08-05",
+    "datePrecision": "day",
+    "location": {
+      "lat": 49.74705,
+      "lng": 21.47431,
+      "name": {
+        "en": "Jasło",
+        "pl": "Jasło"
+      },
+      "precision": "town"
+    },
+    "type": "resistance_operation",
+    "belligerents": [
+      "Poland (Home Army)",
+      "Germany"
+    ],
+    "summary": {
+      "en": "On 5 August 1943 a Home Army unit carried out a successful action freeing prisoners from the German prison in Jasło.",
+      "pl": "5 sierpnia 1943 r. oddział AK przeprowadził udaną akcję uwolnienia więźniów z niemieckiego więzienia w Jaśle."
+    },
+    "casualties": {
+      "en": "About 180 prisoners freed (dzieje.pl calendar).",
+      "pl": "Uwolniono ok. 180 osób (kalendarium dzieje.pl)."
+    },
+    "sources": [
+      {
+        "title": "Kalendarz historyczny: 5 sierpnia",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/kalendarz-historyczny/5/8",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "Based only on a short entry in the dzieje.pl historical calendar; to be expanded when a fuller institutional source is found.",
+      "pl": "Oparte wyłącznie na krótkiej notce kalendarium dzieje.pl; do rozszerzenia po znalezieniu pełniejszego źródła instytucjonalnego."
+    }
+  },
+  {
+    "id": "borow-murder-1943",
+    "title": {
+      "en": "Murder of Gwardia Ludowa partisans near Borów",
+      "pl": "Mord pod Borowem"
+    },
+    "startDate": "1943-08-09",
+    "endDate": "1943-08-09",
+    "datePrecision": "day",
+    "location": {
+      "lat": 50.79587,
+      "lng": 21.9097,
+      "name": {
+        "en": "Borów, near Kraśnik",
+        "pl": "Borów koło Kraśnika"
+      },
+      "precision": "town"
+    },
+    "type": "massacre",
+    "belligerents": [
+      "Polish anti-communist underground (NSZ)"
+    ],
+    "summary": {
+      "en": "On 9 August 1943 a National Armed Forces (NSZ) unit commanded by a deserter from the Home Army lured partisans of the communist Gwardia Ludowa into an ambush near Borów and murdered them. The Home Army command condemned the crime.",
+      "pl": "9 sierpnia 1943 r. dowodzony przez dezertera z szeregów AK oddział Narodowych Sił Zbrojnych zwabił w zasadzkę i zamordował pod Borowem partyzantów komunistycznej Gwardii Ludowej. Zbrodnię potępiło dowództwo Armii Krajowej."
+    },
+    "casualties": {
+      "en": "At least 26 GL partisans (dzieje.pl calendar).",
+      "pl": "Co najmniej 26 partyzantów GL (kalendarium dzieje.pl)."
+    },
+    "sources": [
+      {
+        "title": "Kalendarz historyczny: 9 sierpnia",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/kalendarz-historyczny/9/8",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "The calendar does not name the exact place; the marker at Borów near Kraśnik follows the place name only and is approximate. Based only on a short entry in the dzieje.pl historical calendar; to be expanded when a fuller institutional source is found.",
+      "pl": "Kalendarium nie precyzuje miejsca; znacznik w Borowie koło Kraśnika opiera się wyłącznie na nazwie i jest przybliżony. Oparte wyłącznie na krótkiej notce kalendarium dzieje.pl; do rozszerzenia po znalezieniu pełniejszego źródła instytucjonalnego."
+    }
+  },
+  {
+    "id": "gorale-bank-action-1943",
+    "title": {
+      "en": "Operation 'Góral': seizure of banknote transport",
+      "pl": "Akcja „Góral” – zdobycie transportu pieniędzy"
+    },
+    "startDate": "1943-08-12",
+    "endDate": "1943-08-12",
+    "datePrecision": "day",
+    "location": {
+      "lat": 52.24779,
+      "lng": 21.01356,
+      "name": {
+        "en": "Castle Square, Warsaw",
+        "pl": "pl. Zamkowy, Warszawa"
+      },
+      "precision": "exact"
+    },
+    "type": "resistance_operation",
+    "belligerents": [
+      "Poland (Home Army)",
+      "Germany"
+    ],
+    "summary": {
+      "en": "On 12 August 1943 the special unit 'Osa-Kosa' of the Home Army Kedyw attacked, near Castle Square in Warsaw, a transport of money being taken from the German-run Issuing Bank, seizing a large sum for the underground.",
+      "pl": "12 sierpnia 1943 r. specjalny oddział „Osa-Kosa” Kedywu KG AK zaatakował przy pl. Zamkowym w Warszawie transport pieniędzy wywożonych z Banku Emisyjnego, zdobywając dla podziemia znaczną sumę."
+    },
+    "casualties": {
+      "en": "About 106 million złoty and an unknown amount of German marks seized (dzieje.pl calendar).",
+      "pl": "Zdobyto ok. 106 mln zł oraz nieznaną ilość marek niemieckich (kalendarium dzieje.pl)."
+    },
+    "sources": [
+      {
+        "title": "Kalendarz historyczny: 12 sierpnia",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/kalendarz-historyczny/12/8",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "The calendar entry does not use the operation's code name; 'Góral' is its commonly used name. Based only on a short entry in the dzieje.pl historical calendar; to be expanded when a fuller institutional source is found.",
+      "pl": "Notka kalendarium nie podaje kryptonimu akcji; „Góral” to jej powszechnie używana nazwa. Oparte wyłącznie na krótkiej notce kalendarium dzieje.pl; do rozszerzenia po znalezieniu pełniejszego źródła instytucjonalnego."
+    }
   },
   {
     "id": "bialystok-ghetto-uprising-1943",
@@ -662,6 +1419,138 @@
     }
   },
   {
+    "id": "mszana-dolna-1943",
+    "title": {
+      "en": "Execution of Jews in Mszana Dolna",
+      "pl": "Egzekucja Żydów w Mszanie Dolnej"
+    },
+    "startDate": "1943-08-19",
+    "endDate": "1943-08-19",
+    "datePrecision": "day",
+    "location": {
+      "lat": 49.67798,
+      "lng": 20.08201,
+      "name": {
+        "en": "Mszana Dolna",
+        "pl": "Mszana Dolna"
+      },
+      "precision": "town"
+    },
+    "type": "massacre",
+    "belligerents": [
+      "Germany"
+    ],
+    "summary": {
+      "en": "On 19 August 1943, on the orders of Heinrich Hamann, head of the Gestapo in Nowy Sącz, the Germans carried out a mass execution of Jews in Mszana Dolna.",
+      "pl": "19 sierpnia 1943 r., na polecenie szefa sądeckiego gestapo Heinricha Hamanna, Niemcy przeprowadzili w Mszanie Dolnej egzekucję Żydów."
+    },
+    "casualties": {
+      "en": "881 Jews (dzieje.pl calendar).",
+      "pl": "881 Żydów (kalendarium dzieje.pl)."
+    },
+    "sources": [
+      {
+        "title": "Kalendarz historyczny: 19 sierpnia",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/kalendarz-historyczny/19/8",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "Based only on a short entry in the dzieje.pl historical calendar; to be expanded when a fuller institutional source is found.",
+      "pl": "Oparte wyłącznie na krótkiej notce kalendarium dzieje.pl; do rozszerzenia po znalezieniu pełniejszego źródła instytucjonalnego."
+    }
+  },
+  {
+    "id": "naroch-kmicic-1943",
+    "title": {
+      "en": "Destruction of the 'Kmicic' unit by Soviet partisans",
+      "pl": "Rozbicie oddziału „Kmicica” przez partyzantkę sowiecką"
+    },
+    "startDate": "1943-08-26",
+    "endDate": "1943-08-26",
+    "datePrecision": "day",
+    "location": {
+      "lat": 54.93717,
+      "lng": 26.68975,
+      "name": {
+        "en": "Lake Narocz (now Belarus)",
+        "pl": "Jezioro Narocz"
+      },
+      "precision": "region"
+    },
+    "type": "massacre",
+    "belligerents": [
+      "Soviet partisans"
+    ],
+    "summary": {
+      "en": "On 26 August 1943 the Home Army partisan unit of 2nd Lt Antoni Burzyński 'Kmicic' from the Wilno District was treacherously destroyed by Soviet partisans near Lake Narocz; the Soviets shot 'Kmicic', his partisans and members of the local underground.",
+      "pl": "26 sierpnia 1943 r. oddział partyzancki Okręgu Wileńskiego AK ppor. Antoniego Burzyńskiego „Kmicica” został podstępnie rozbity nad jeziorem Narocz przez partyzantkę sowiecką; Sowieci rozstrzelali „Kmicica”, jego partyzantów i członków konspiracji terenowej."
+    },
+    "casualties": {
+      "en": "'Kmicic', 56 partisans and 20 members of the local underground shot (dzieje.pl calendar).",
+      "pl": "Rozstrzelano „Kmicica”, 56 partyzantów i 20 członków konspiracji terenowej (kalendarium dzieje.pl)."
+    },
+    "sources": [
+      {
+        "title": "Kalendarz historyczny: 26 sierpnia",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/kalendarz-historyczny/26/8",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "Based only on a short entry in the dzieje.pl historical calendar; to be expanded when a fuller institutional source is found.",
+      "pl": "Oparte wyłącznie na krótkiej notce kalendarium dzieje.pl; do rozszerzenia po znalezieniu pełniejszego źródła instytucjonalnego."
+    }
+  },
+  {
+    "id": "ozarow-renner-1943",
+    "title": {
+      "en": "NSZ ambush near Ożarów kills Gen. Kurt Renner",
+      "pl": "Zasadzka NSZ pod Ożarowem – śmierć gen. Kurta Rennera"
+    },
+    "startDate": "1943-08-26",
+    "endDate": "1943-08-26",
+    "datePrecision": "day",
+    "location": {
+      "lat": 50.88641,
+      "lng": 21.66562,
+      "name": {
+        "en": "Ożarów",
+        "pl": "Ożarów"
+      },
+      "precision": "town"
+    },
+    "type": "resistance_operation",
+    "belligerents": [
+      "Polish anti-communist underground (NSZ)",
+      "Germany"
+    ],
+    "summary": {
+      "en": "On 26 August 1943 the German general Kurt Renner was killed near Ożarów in an ambush organised by a National Armed Forces (NSZ) unit commanded by Cpl Tomasz Wójcik 'Tarzan'.",
+      "pl": "26 sierpnia 1943 r. pod Ożarowem, w zasadzce zorganizowanej przez oddział Narodowych Sił Zbrojnych pod dowództwem plut. Tomasza Wójcika „Tarzana”, zginął niemiecki gen. Kurt Renner."
+    },
+    "sources": [
+      {
+        "title": "Kalendarz historyczny: 26 sierpnia",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/kalendarz-historyczny/26/8",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "Based only on a short entry in the dzieje.pl historical calendar; to be expanded when a fuller institutional source is found.",
+      "pl": "Oparte wyłącznie na krótkiej notce kalendarium dzieje.pl; do rozszerzenia po znalezieniu pełniejszego źródła instytucjonalnego."
+    }
+  },
+  {
     "id": "ostrowki-wola-ostrowiecka-1943",
     "title": {
       "en": "Massacres of Ostrówki and Wola Ostrowiecka",
@@ -701,6 +1590,47 @@
       }
     ],
     "verified": true
+  },
+  {
+    "id": "przemysl-ghetto-liquidation-1943",
+    "title": {
+      "en": "Liquidation of the Przemyśl ghetto",
+      "pl": "Likwidacja getta w Przemyślu"
+    },
+    "startDate": "1943-09-11",
+    "endDate": "1943-09-11",
+    "datePrecision": "day",
+    "location": {
+      "lat": 49.78355,
+      "lng": 22.7885,
+      "name": {
+        "en": "Przemyśl",
+        "pl": "Przemyśl"
+      },
+      "precision": "town"
+    },
+    "type": "deportation",
+    "belligerents": [
+      "Germany"
+    ],
+    "summary": {
+      "en": "On 11 September 1943 the Germans liquidated the ghetto in Przemyśl, deporting the Jews still living there to Auschwitz-Birkenau.",
+      "pl": "11 września 1943 r. Niemcy zlikwidowali getto w Przemyślu, wysyłając żyjących tam jeszcze Żydów do obozu zagłady Auschwitz-Birkenau."
+    },
+    "sources": [
+      {
+        "title": "Kalendarz historyczny: 11 września",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/kalendarz-historyczny/11/9",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "Based only on a short entry in the dzieje.pl historical calendar; to be expanded when a fuller institutional source is found.",
+      "pl": "Oparte wyłącznie na krótkiej notce kalendarium dzieje.pl; do rozszerzenia po znalezieniu pełniejszego źródła instytucjonalnego."
+    }
   },
   {
     "id": "sobibor-revolt-1943",
@@ -746,6 +1676,51 @@
       }
     ],
     "verified": true
+  },
+  {
+    "id": "warsaw-street-executions-1943",
+    "title": {
+      "en": "Street executions in Warsaw",
+      "pl": "Egzekucje uliczne w Warszawie"
+    },
+    "startDate": "1943-10-15",
+    "endDate": "1944-01-31",
+    "datePrecision": "approximate",
+    "location": {
+      "lat": 52.23281,
+      "lng": 21.01907,
+      "name": {
+        "en": "Warsaw",
+        "pl": "Warszawa"
+      },
+      "precision": "town"
+    },
+    "type": "massacre",
+    "belligerents": [
+      "Germany"
+    ],
+    "summary": {
+      "en": "After Franz Kutschera became SS and Police Leader in Warsaw, the Germans unleashed terror on an unprecedented scale, using Hans Frank's decree of 2 October 1943 'on combating attacks on German reconstruction work', which sanctioned collective responsibility. Round-ups and public executions became daily occurrences: victims were people caught at random in street round-ups as well as members of the underground, who were also killed secretly as 'political prisoners', usually in the ruins of the ghetto.",
+      "pl": "Po objęciu przez Franza Kutscherę funkcji dowódcy SS i policji w Warszawie Niemcy rozpętali terror na niespotykaną skalę, wykorzystując rozporządzenie Hansa Franka z 2 października 1943 r. „o zwalczaniu zamachów na niemieckie dzieło odbudowy”, sankcjonujące zasadę odpowiedzialności zbiorowej. Łapanki i egzekucje publiczne stały się codziennością: ofiarami byli przypadkowi ludzie schwytani w obławach, a także osoby związane z podziemiem, mordowane też potajemnie jako „więźniowie polityczni”, najczęściej w ruinach getta."
+    },
+    "casualties": {
+      "en": "About 5,000 Poles killed between mid-October 1943 and the end of January 1944, at least 1,200 of them executed in the streets by machine-gun fire or on gallows (IPN).",
+      "pl": "Od połowy października 1943 r. do końca stycznia 1944 r. zamordowano ok. 5 tys. Polaków, z czego co najmniej 1,2 tys. stracono na ulicach salwami karabinów maszynowych lub na szubienicach (IPN)."
+    },
+    "sources": [
+      {
+        "title": "Anna Zechenter: Franz Kutschera",
+        "publisher": "Instytut Pamięci Narodowej",
+        "url": "https://ipn.gov.pl/pl/historia-z-ipn/213041,Anna-Zechenter-Franz-Kutschera.html",
+        "tier": 1,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "The dates are approximate, following the IPN's 'mid-October 1943 to the end of January 1944'.",
+      "pl": "Daty są przybliżone, zgodnie z określeniem IPN „od połowy października 1943 do końca stycznia 1944 r.”."
+    }
   },
   {
     "id": "erntefest-1943",

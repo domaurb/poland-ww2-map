@@ -399,6 +399,54 @@
     }
   },
   {
+    "id": "soldau-camp-1939",
+    "title": {
+      "en": "German camp Soldau in Działdowo",
+      "pl": "Niemiecki obóz Soldau w Działdowie"
+    },
+    "startDate": "1939-09-01",
+    "endDate": "1945-01-31",
+    "datePrecision": "month",
+    "location": {
+      "lat": 53.23465,
+      "lng": 20.18178,
+      "name": {
+        "en": "Działdowo (Soldau)",
+        "pl": "Działdowo (Soldau)"
+      },
+      "precision": "town"
+    },
+    "type": "camp",
+    "belligerents": [
+      "Germany"
+    ],
+    "summary": {
+      "en": "The camp in Działdowo was an important link in the German terror system in northern Poland. From September to December 1939 it was a transit camp for prisoners of war, including soldiers from Modlin; from 1940 a transit camp, and from about October 1941 to January 1945 a 'labour education camp'. Whatever its formal name, its main task was the planned extermination of the Polish elite of northern Mazovia – intelligentsia, teachers, doctors and especially clergy – as well as Jews; victims of the Intelligenzaktion died there. Archbishop Antoni Julian Nowowiejski of Płock was tortured to death there, probably on 28 May 1941. From March 1944 the Germans exhumed, burned and ground the remains to conceal the crime.",
+      "pl": "Obóz w Działdowie był ważnym ogniwem niemieckiego systemu terroru na północy Polski. Od września do grudnia 1939 r. był obozem przejściowym dla jeńców wojennych, m.in. żołnierzy z Modlina; od 1940 r. obozem przejściowym, a od ok. października 1941 r. do stycznia 1945 r. „wychowawczym obozem pracy”. Niezależnie od formalnej nazwy jego podstawowym zadaniem była planowa eksterminacja polskiej elity północnego Mazowsza – inteligencji, nauczycieli, lekarzy, a zwłaszcza duchowieństwa – oraz Żydów; ginęły tu ofiary Intelligenzaktion. Zamęczono tu arcybiskupa płockiego Antoniego Juliana Nowowiejskiego, prawdopodobnie 28 maja 1941 r. Od marca 1944 r. Niemcy ekshumowali, palili i mielili szczątki, by zatrzeć ślady zbrodni."
+    },
+    "casualties": {
+      "en": "At least 8,000 murdered, according to the IPN's 2022 discovery of nearly 17 tonnes of human ashes; earlier research by Fr Marian Ofiara estimated 25,000–30,000 of over 60,000 prisoners. 96 clergy were murdered there.",
+      "pl": "Co najmniej 8 tys. zamordowanych według odkrycia IPN z 2022 r. (prawie 17 ton prochów ludzkich); wcześniejsze badania ks. Mariana Ofiary szacowały liczbę zamordowanych na 25–30 tys. spośród ponad 60 tys. więźniów. Zamordowano tam 96 duchownych."
+    },
+    "sources": [
+      {
+        "title": "IPN odnalazł dowód niemieckiej zbrodni – odkryto masowy grób więźniów niemieckiego obozu w Działdowie",
+        "publisher": "Instytut Pamięci Narodowej",
+        "url": "https://ipn.gov.pl/pl/aktualnosci/167870,IPN-odnalazl-dowod-niemieckiej-zbrodni-odkryto-masowy-grob-wiezniow-niemieckiego.html",
+        "tier": 1,
+        "accessed": "2026-11-19"
+      },
+      {
+        "title": "Eksterminacja duchowieństwa katolickiego w niemieckim obozie Soldau",
+        "publisher": "Przystanek Historia (IPN)",
+        "url": "https://przystanekhistoria.pl/pa2/teksty/115397,Eksterminacja-duchowienstwa-katolickiego-w-niemieckim-obozie-Soldau.html",
+        "tier": 1,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true
+  },
+  {
     "id": "tuchola-forest-1939",
     "title": {
       "en": "Battle of the Tuchola Forest",
@@ -1915,6 +1963,50 @@
     "verified": true
   },
   {
+    "id": "government-crosses-into-romania-1939",
+    "title": {
+      "en": "President and government cross into Romania",
+      "pl": "Władze RP przekraczają granicę rumuńską"
+    },
+    "startDate": "1939-09-17",
+    "endDate": "1939-09-18",
+    "datePrecision": "day",
+    "location": {
+      "lat": 48.26268,
+      "lng": 25.18187,
+      "name": {
+        "en": "Kuty on the Czeremosz (now Ukraine)",
+        "pl": "Kuty nad Czeremoszem"
+      },
+      "precision": "town"
+    },
+    "type": "other",
+    "belligerents": [
+      "Poland"
+    ],
+    "summary": {
+      "en": "After the Soviet invasion, with the Red Army about 30 km away, the President, the government and the Commander-in-Chief crossed the bridge over the Czeremosz at Kuty into Romania in the night of 17–18 September 1939, among crowds of refugees. Kuty, where the last cabinet meeting was held, was where President Ignacy Mościcki issued an appeal to the nation condemning the Soviet invasion. Those who crossed included Prime Minister Felicjan Sławoj Składkowski, Marshal Edward Rydz-Śmigły and Foreign Minister Józef Beck.",
+      "pl": "Po sowieckiej agresji, gdy Armia Czerwona była już ok. 30 km od Kut, prezydent, rząd i Naczelny Wódz w nocy z 17 na 18 września 1939 r. przekroczyli most graniczny na Czeremoszu i przejechali do Rumunii w tłumie uchodźców. W Kutach odbyło się ostatnie posiedzenie gabinetu, a prezydent Ignacy Mościcki wydał stamtąd odezwę do narodu piętnującą sowiecki najazd. Granicę przekroczyli m.in. premier Felicjan Sławoj Składkowski, marszałek Edward Rydz-Śmigły i minister spraw zagranicznych Józef Beck."
+    },
+    "sources": [
+      {
+        "title": "Włodzimierz Suleja: Nad Sekwaną i w sojuszniczym Londynie",
+        "publisher": "Instytut Pamięci Narodowej",
+        "url": "https://ipn.gov.pl/pl/historia-z-ipn/150632,Wlodzimierz-Suleja-Nad-Sekwana-i-w-sojuszniczym-Londynie.html",
+        "tier": 1,
+        "accessed": "2026-11-19"
+      },
+      {
+        "title": "W Kutach uroczystości poświęcone 80. rocznicy wybuchu II wojny światowej",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/aktualnosci/w-kutach-uroczystosci-poswiecone-80-rocznicy-wybuchu-ii-wojny-swiatowej",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true
+  },
+  {
     "id": "sarny-fortified-area-1939",
     "title": {
       "en": "Defence of the Sarny Fortified Area",
@@ -3153,6 +3245,51 @@
     "verified": true
   },
   {
+    "id": "barbarka-executions-1939",
+    "title": {
+      "en": "Executions in the Barbarka forest",
+      "pl": "Egzekucje w lesie Barbarka"
+    },
+    "startDate": "1939-10-28",
+    "endDate": "1940-01-10",
+    "datePrecision": "day",
+    "location": {
+      "lat": 53.05382,
+      "lng": 18.54165,
+      "name": {
+        "en": "Barbarka forest, Toruń",
+        "pl": "Las Barbarka, Toruń"
+      },
+      "precision": "town"
+    },
+    "type": "massacre",
+    "belligerents": [
+      "Germany (Volksdeutscher Selbstschutz)"
+    ],
+    "summary": {
+      "en": "From 28 October 1939 to 10 January 1940 the German Volksdeutscher Selbstschutz carried out mass executions in the Barbarka forest near Toruń, murdering representatives of the Polish intelligentsia and of the economic and political elites of Toruń and the surrounding area – part of the extermination of Polish elites in Pomerania.",
+      "pl": "Od 28 października 1939 r. do 10 stycznia 1940 r. niemiecki Volksdeutscher Selbstschutz dokonywał masowych egzekucji w lesie Barbarka pod Toruniem, mordując przedstawicieli polskiej inteligencji oraz elit gospodarczych i politycznych Torunia i okolic – w ramach eksterminacji polskich elit na Pomorzu."
+    },
+    "casualties": {
+      "en": "600–1,200 people (dzieje.pl calendar).",
+      "pl": "600–1200 osób (kalendarium dzieje.pl)."
+    },
+    "sources": [
+      {
+        "title": "Kalendarz historyczny: 10 stycznia",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/kalendarz-historyczny/10/1",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "Based only on a short entry in the dzieje.pl historical calendar; to be expanded when a fuller institutional source is found.",
+      "pl": "Oparte wyłącznie na krótkiej notce kalendarium dzieje.pl; do rozszerzenia po znalezieniu pełniejszego źródła instytucjonalnego."
+    }
+  },
+  {
     "id": "fort-vii-gassings-1939",
     "title": {
       "en": "Gassing of psychiatric patients in Fort VII",
@@ -3285,6 +3422,54 @@
         "url": "https://ipn.gov.pl/pl/dla-mediow/komunikaty/174435,83-lata-temu-kilkanascie-milionow-Polakow-wbrew-wlasnej-woli-otrzymalo-sowieckie.html",
         "tier": 1,
         "accessed": "2026-11-18"
+      }
+    ],
+    "verified": true
+  },
+  {
+    "id": "poznan-expulsions-1939",
+    "title": {
+      "en": "Expulsions from Poznań and the Główna camp",
+      "pl": "Wysiedlenia z Poznania i obóz na Głównej"
+    },
+    "startDate": "1939-11-05",
+    "endDate": "1940-05-20",
+    "datePrecision": "day",
+    "location": {
+      "lat": 52.42115,
+      "lng": 16.96987,
+      "name": {
+        "en": "Lager Glowna, Poznań",
+        "pl": "Obóz na Głównej, Poznań"
+      },
+      "precision": "town"
+    },
+    "type": "deportation",
+    "belligerents": [
+      "Germany"
+    ],
+    "summary": {
+      "en": "As part of the germanisation of the Wartheland, which aimed to remove non-German inhabitants, mass expulsions of Poles from Poznań began at dawn on 5 November 1939. Families were given 15–30 minutes to leave, could take only hand luggage and a little money, and were held in a transit camp in former army warehouses at Główna before being deported to the General Government. Those held included members of the elites – doctors, scholars, teachers, priests, officers and officials such as Poznań's president Cyryl Ratajski. The camp operated until 20 May 1940.",
+      "pl": "W ramach germanizacji Kraju Warty, zakładającej usunięcie ludności nieniemieckiej, o świcie 5 listopada 1939 r. rozpoczęły się masowe wysiedlenia Polaków z Poznania. Rodziny miały 15–30 minut na opuszczenie domu, mogły zabrać tylko bagaż podręczny i niewielką kwotę pieniędzy, a następnie trafiały do obozu przejściowego w dawnych magazynach wojskowych na Głównej, skąd wywożono je do Generalnego Gubernatorstwa. Osadzono tam m.in. przedstawicieli elit – lekarzy, naukowców, nauczycieli, księży, oficerów i urzędników, w tym prezydenta Poznania Cyryla Ratajskiego. Obóz działał do 20 maja 1940 r."
+    },
+    "casualties": {
+      "en": "About 33,500 people passed through the camp, of whom nearly 33,000 were deported – over 31,000 Poles, 1,112 Jews and about 450 Roma; at least 26 died in the camp, including five children (IPN).",
+      "pl": "Przez obóz przeszło ok. 33,5 tys. osób, z których prawie 33 tys. wysiedlono – ponad 31 tys. Polaków, 1112 Żydów i ok. 450 Romów; w obozie zmarło co najmniej 26 osób, w tym pięcioro dzieci (IPN)."
+    },
+    "sources": [
+      {
+        "title": "Wysiedlenia ludności polskiej z Kraju Warty",
+        "publisher": "Przystanek Historia (IPN)",
+        "url": "https://przystanekhistoria.pl/pa2/teksty/119739,Wysiedlenia-ludnosci-polskiej-z-Kraju-Warty.html",
+        "tier": 1,
+        "accessed": "2026-11-19"
+      },
+      {
+        "title": "Lager Glowna (1939–1940)",
+        "publisher": "Instytut Pamięci Narodowej",
+        "url": "https://ipn.gov.pl/pl/archiwa/pion-archiwalny-ipn/poznan/przykladowe-dokumenty/43373,Lager-Glowna-1939-1940.html",
+        "tier": 1,
+        "accessed": "2026-11-19"
       }
     ],
     "verified": true

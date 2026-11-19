@@ -37,6 +37,47 @@
     "verified": true
   },
   {
+    "id": "volksliste-decree-1941",
+    "title": {
+      "en": "Decree on the German People's List (Volksliste)",
+      "pl": "Rozporządzenie o niemieckiej liście narodowościowej (Volksliste)"
+    },
+    "startDate": "1941-03-04",
+    "endDate": "1941-03-04",
+    "datePrecision": "day",
+    "location": {
+      "lat": 52.40066,
+      "lng": 16.91973,
+      "name": {
+        "en": "Polish lands annexed to the Reich (symbolic marker in Poznań)",
+        "pl": "Ziemie wcielone do Rzeszy (znacznik symboliczny w Poznaniu)"
+      },
+      "precision": "region"
+    },
+    "type": "occupation_policy",
+    "belligerents": [
+      "Germany"
+    ],
+    "summary": {
+      "en": "On 4 March 1941 the German occupation authorities issued a decree on the German People's List (Deutsche Volksliste) and German citizenship in the Polish territories annexed to the Reich, the instrument used to classify the population of those lands by nationality.",
+      "pl": "4 marca 1941 r. niemieckie władze okupacyjne wydały rozporządzenie o tzw. niemieckiej liście narodowościowej (Deutsche Volksliste) i niemieckiej przynależności państwowej na ziemiach wcielonych do Rzeszy – narzędzie klasyfikowania narodowościowego ludności tych terenów."
+    },
+    "sources": [
+      {
+        "title": "Kalendarz historyczny: 4 marca",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/kalendarz-historyczny/4/3",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "The decree applied to all annexed territories; the marker in Poznań, capital of the Wartheland, is symbolic. Based only on a short entry in the dzieje.pl historical calendar; to be expanded when a fuller institutional source is found.",
+      "pl": "Rozporządzenie obowiązywało na wszystkich ziemiach wcielonych; znacznik w Poznaniu, stolicy Kraju Warty, jest symboliczny. Oparte wyłącznie na krótkiej notce kalendarium dzieje.pl; do rozszerzenia po znalezieniu pełniejszego źródła instytucjonalnego."
+    }
+  },
+  {
     "id": "igo-sym-1941",
     "title": {
       "en": "Assassination of Igo Sym",
@@ -749,6 +790,47 @@
     "verified": true
   },
   {
+    "id": "kolbe-death-1941",
+    "title": {
+      "en": "Murder of Fr Maximilian Kolbe in Auschwitz",
+      "pl": "Zamordowanie o. Maksymiliana Kolbego w Auschwitz"
+    },
+    "startDate": "1941-08-14",
+    "endDate": "1941-08-14",
+    "datePrecision": "day",
+    "location": {
+      "lat": 50.0264,
+      "lng": 19.20396,
+      "name": {
+        "en": "Auschwitz I, Oświęcim",
+        "pl": "Auschwitz I, Oświęcim"
+      },
+      "precision": "exact"
+    },
+    "type": "massacre",
+    "belligerents": [
+      "Germany"
+    ],
+    "summary": {
+      "en": "On 14 August 1941 the Franciscan friar Maximilian Maria Kolbe – missionary and founder of the monasteries at Niepokalanów and Nagasaki – was murdered in the German Auschwitz camp. He was canonised by Pope John Paul II in 1982.",
+      "pl": "14 sierpnia 1941 r. w niemieckim obozie Auschwitz zamordowany został o. Maksymilian Maria Kolbe, franciszkanin, misjonarz, założyciel klasztorów w Niepokalanowie i Nagasaki. W 1982 r. został kanonizowany przez papieża Jana Pawła II."
+    },
+    "sources": [
+      {
+        "title": "Kalendarz historyczny: 14 sierpnia",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/kalendarz-historyczny/14/8",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "Based only on a short entry in the dzieje.pl historical calendar; to be expanded when a fuller institutional source is found.",
+      "pl": "Oparte wyłącznie na krótkiej notce kalendarium dzieje.pl; do rozszerzenia po znalezieniu pełniejszego źródła instytucjonalnego."
+    }
+  },
+  {
     "id": "tykocin-1941",
     "title": {
       "en": "Murder of the Jews of Tykocin (Łopuchowo forest)",
@@ -964,6 +1046,55 @@
     }
   },
   {
+    "id": "stanislawow-bloody-sunday-1941",
+    "title": {
+      "en": "'Bloody Sunday' in Stanisławów",
+      "pl": "„Krwawa niedziela” w Stanisławowie"
+    },
+    "startDate": "1941-10-12",
+    "endDate": "1941-10-12",
+    "datePrecision": "day",
+    "location": {
+      "lat": 48.92248,
+      "lng": 24.71033,
+      "name": {
+        "en": "Jewish cemetery, Stanisławów (now Ivano-Frankivsk)",
+        "pl": "Cmentarz żydowski w Stanisławowie"
+      },
+      "precision": "town"
+    },
+    "type": "massacre",
+    "belligerents": [
+      "Germany",
+      "Ukrainian auxiliary police"
+    ],
+    "summary": {
+      "en": "On 12 October 1941, the Jewish holiday of Hoshana Rabbah, German forces supported by Ukrainian police gathered thousands of Jews on the market square of Stanisławów and drove them to the Jewish cemetery, where mass graves had been prepared, beating and torturing them on the way; the shooting went on until evening. The local German administration did not wait for the killing centres to be built. A ghetto was created in Stanisławów at the end of 1941.",
+      "pl": "12 października 1941 r., w żydowskie święto Hoszana Raba, Niemcy wspierani przez policję ukraińską zgromadzili tysiące Żydów na rynku w Stanisławowie i popędzili ich na cmentarz żydowski, gdzie przygotowano masowe groby, bijąc i torturując ich po drodze; egzekucja trwała do wieczora. Miejscowa administracja niemiecka nie czekała na uruchomienie ośrodków zagłady. Pod koniec 1941 r. utworzono w Stanisławowie getto."
+    },
+    "casualties": {
+      "en": "10,000 to about 12,000 Jews (Przystanek Historia); 8,000–12,000 according to the USHMM.",
+      "pl": "Od 10 do ok. 12 tys. Żydów (Przystanek Historia); według USHMM 8–12 tys."
+    },
+    "sources": [
+      {
+        "title": "Największy „żydowski hotel” w Stanisławowie",
+        "publisher": "Przystanek Historia (IPN)",
+        "url": "https://przystanekhistoria.pl/pa2/tematy/polacy-ratujacy-zydow/88865,Najwiekszy-zydowski-hotel-w-Stanislawowie.html",
+        "tier": 1,
+        "accessed": "2026-11-19"
+      },
+      {
+        "title": "Stanislawów (now Ivano-Frankivsk)",
+        "publisher": "United States Holocaust Memorial Museum",
+        "url": "https://encyclopedia.ushmm.org/content/en/article/stanislawow",
+        "tier": 3,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true
+  },
+  {
     "id": "death-penalty-decree-1941",
     "title": {
       "en": "Death penalty for leaving ghettos and for sheltering Jews",
@@ -999,6 +1130,51 @@
       }
     ],
     "verified": true
+  },
+  {
+    "id": "death-wall-first-execution-1941",
+    "title": {
+      "en": "First execution at the Death Wall in Auschwitz",
+      "pl": "Pierwsza egzekucja pod Ścianą Straceń w Auschwitz"
+    },
+    "startDate": "1941-11-11",
+    "endDate": "1941-11-11",
+    "datePrecision": "day",
+    "location": {
+      "lat": 50.0264,
+      "lng": 19.20396,
+      "name": {
+        "en": "Death Wall, Auschwitz I",
+        "pl": "Ściana Straceń, Auschwitz I"
+      },
+      "precision": "exact"
+    },
+    "type": "massacre",
+    "belligerents": [
+      "Germany"
+    ],
+    "summary": {
+      "en": "On 11 November 1941, in the first execution at the Death Wall in Auschwitz, the Germans shot Polish prisoners. At least several thousand people, mostly Poles, were shot there during the war.",
+      "pl": "11 listopada 1941 r., w pierwszej egzekucji pod Ścianą Straceń w Auschwitz, Niemcy rozstrzelali polskich więźniów. W czasie wojny rozstrzelano tam co najmniej kilka tysięcy osób, głównie Polaków."
+    },
+    "casualties": {
+      "en": "151 Polish prisoners (dzieje.pl calendar).",
+      "pl": "151 polskich więźniów (kalendarium dzieje.pl)."
+    },
+    "sources": [
+      {
+        "title": "Kalendarz historyczny: 11 listopada",
+        "publisher": "dzieje.pl (Muzeum Historii Polski / PAP)",
+        "url": "https://dzieje.pl/kalendarz-historyczny/11/11",
+        "tier": 2,
+        "accessed": "2026-11-19"
+      }
+    ],
+    "verified": true,
+    "notes": {
+      "en": "Based only on a short entry in the dzieje.pl historical calendar; to be expanded when a fuller institutional source is found.",
+      "pl": "Oparte wyłącznie na krótkiej notce kalendarium dzieje.pl; do rozszerzenia po znalezieniu pełniejszego źródła instytucjonalnego."
+    }
   },
   {
     "id": "chelmno-camp-1941",

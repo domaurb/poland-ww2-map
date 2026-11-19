@@ -42,7 +42,10 @@
         "ak-founded-1942",
         "destruction-of-warsaw-1944",
         "warsaw-entry-1945",
-        "ak-dissolution-1945"
+        "ak-dissolution-1945",
+        "warsaw-soviet-air-raid-1942",
+        "wieniec-1942",
+        "warsaw-street-executions-1943"
       ]
     },
     {
@@ -101,7 +104,10 @@
       "events": [
         "auschwitz-camp-1940",
         "auschwitz-first-gassing-1941",
-        "pilecki-escape-1943"
+        "pilecki-escape-1943",
+        "kolbe-death-1941",
+        "auschwitz-escape-1942",
+        "death-wall-first-execution-1941"
       ]
     },
     {
@@ -112,7 +118,8 @@
         "birkenau-construction-1941",
         "hungarian-jews-auschwitz-1944",
         "roma-camp-liquidation-1944",
-        "sonderkommando-revolt-1944"
+        "sonderkommando-revolt-1944",
+        "auschwitz-penal-company-1942"
       ]
     },
     {
@@ -121,7 +128,8 @@
       "events": [
         "warsaw-ghetto-sealed-1940",
         "oneg-szabat-1940",
-        "warsaw-january-resistance-1943"
+        "warsaw-january-resistance-1943",
+        "warsaw-ghetto-bloody-night-1942"
       ]
     },
     {
@@ -135,7 +143,8 @@
       "key": "umschlagplatz",
       "query": "Umschlagplatz, Warszawa",
       "events": [
-        "grossaktion-warschau-1942"
+        "grossaktion-warschau-1942",
+        "korczak-deportation-1942"
       ]
     },
     {
@@ -290,14 +299,16 @@
       "query": "Rynek Główny, Kraków",
       "events": [
         "krakow-occupied-1939",
-        "krakow-1945"
+        "krakow-1945",
+        "krakow-black-sunday-1944"
       ]
     },
     {
       "key": "janow-lub",
       "query": "Janów Lubelski, Poland",
       "events": [
-        "janow-lubelski-bombing-1939"
+        "janow-lubelski-bombing-1939",
+        "janow-county-pacification-1944"
       ]
     },
     {
@@ -340,7 +351,8 @@
       "query": "Końskie, Poland",
       "events": [
         "konskie-1939",
-        "hubal-unit-1939"
+        "hubal-unit-1939",
+        "konskie-prison-raid-1944"
       ]
     },
     {
@@ -508,7 +520,8 @@
       "key": "poznan",
       "query": "Poznań, Poland",
       "events": [
-        "annexation-western-poland-1939"
+        "annexation-western-poland-1939",
+        "volksliste-decree-1941"
       ]
     },
     {
@@ -674,7 +687,8 @@
       "query": "Podgórze, Kraków",
       "events": [
         "krakow-ghetto-1941",
-        "krakow-ghetto-liquidation-1943"
+        "krakow-ghetto-liquidation-1943",
+        "krakow-ghetto-deportation-1942"
       ]
     },
     {
@@ -683,7 +697,8 @@
       "events": [
         "lublin-ghetto-1941",
         "reinhardt-lublin-deportation-1942",
-        "lublin-tempest-1944"
+        "lublin-tempest-1944",
+        "owczarnia-1944"
       ]
     },
     {
@@ -707,7 +722,8 @@
       "key": "pinsk",
       "query": "Pinsk, Belarus",
       "events": [
-        "soviet-deportation-jun-1940"
+        "soviet-deportation-jun-1940",
+        "pinsk-prison-raid-1943"
       ]
     },
     {
@@ -1013,7 +1029,8 @@
       "key": "kielce",
       "query": "Kielce, Poland",
       "events": [
-        "kielce-1945"
+        "kielce-1945",
+        "kielce-ghetto-liquidation-1942"
       ]
     },
     {
@@ -1224,6 +1241,372 @@
       "query": "Kuryłówka, Poland",
       "events": [
         "kurylowka-1945"
+      ]
+    },
+    {
+      "key": "kuty",
+      "query": "Кути, Косівський район",
+      "events": [
+        "government-crosses-into-romania-1939",
+        "kuty-upa-1944"
+      ]
+    },
+    {
+      "key": "dzialdowo",
+      "query": "Działdowo, Poland",
+      "events": [
+        "soldau-camp-1939"
+      ]
+    },
+    {
+      "key": "barbarka",
+      "query": "Barbarka, Toruń",
+      "events": [
+        "barbarka-executions-1939"
+      ]
+    },
+    {
+      "key": "glowna",
+      "query": "Główna, Poznań",
+      "events": [
+        "poznan-expulsions-1939"
+      ]
+    },
+    {
+      "key": "zywiec",
+      "query": "Żywiec, Poland",
+      "events": [
+        "aktion-saybusch-1940"
+      ]
+    },
+    {
+      "key": "stanislawow",
+      "query": "Івано-Франківськ",
+      "events": [
+        "stanislawow-bloody-sunday-1941"
+      ]
+    },
+    {
+      "key": "chwaliszewo",
+      "query": "Chwaliszewo, Poznań",
+      "events": [
+        "bollwerk-1942"
+      ]
+    },
+    {
+      "key": "radom",
+      "query": "Radom, Poland",
+      "events": [
+        "radom-ghetto-liquidation-1942"
+      ]
+    },
+    {
+      "key": "otwock",
+      "query": "Otwock, Poland",
+      "events": [
+        "otwock-ghetto-liquidation-1942"
+      ]
+    },
+    {
+      "key": "nowy-swiat",
+      "query": "Nowy Świat, Warszawa",
+      "events": [
+        "gl-cafe-club-1942"
+      ]
+    },
+    {
+      "key": "plaszow",
+      "query": "Płaszów Niemiecki nazistowski obóz koncentracyjny, Kraków",
+      "events": [
+        "plaszow-camp-1942"
+      ]
+    },
+    {
+      "key": "stary-ciepielow",
+      "query": "Stary Ciepielów, Poland",
+      "events": [
+        "stary-ciepielow-1942"
+      ]
+    },
+    {
+      "key": "lipniki",
+      "query": "Lipniki, Kostopil",
+      "events": [
+        "lipniki-1943"
+      ]
+    },
+    {
+      "key": "szarajowka",
+      "query": "Szarajówka, Poland",
+      "events": [
+        "szarajowka-1943"
+      ]
+    },
+    {
+      "key": "celestynow",
+      "query": "Celestynów, powiat otwocki",
+      "events": [
+        "celestynow-1943"
+      ]
+    },
+    {
+      "key": "sochy",
+      "query": "Sochy, gmina Zwierzyniec",
+      "events": [
+        "sochy-1943"
+      ]
+    },
+    {
+      "key": "spiska",
+      "query": "Spiska 14, Warszawa",
+      "events": [
+        "grot-arrest-1943"
+      ]
+    },
+    {
+      "key": "szczurowa",
+      "query": "Szczurowa, Poland",
+      "events": [
+        "szczurowa-1943"
+      ]
+    },
+    {
+      "key": "przebraze",
+      "query": "Przebraże",
+      "events": [
+        "przebraze-1943"
+      ]
+    },
+    {
+      "key": "krasowo",
+      "query": "Krasowo-Częstki, Poland",
+      "events": [
+        "krasowo-czestki-1943"
+      ]
+    },
+    {
+      "key": "gesiowka",
+      "query": "Gęsia, Warszawa",
+      "events": [
+        "kl-warschau-1943",
+        "gesiowka-liberation-1944"
+      ]
+    },
+    {
+      "key": "bedzin",
+      "query": "Będzin, Poland",
+      "events": [
+        "bedzin-sosnowiec-ghetto-uprising-1943"
+      ]
+    },
+    {
+      "key": "borow",
+      "query": "Borów, gmina Annopol",
+      "events": [
+        "borow-murder-1943"
+      ]
+    },
+    {
+      "key": "plac-zamkowy",
+      "query": "Plac Zamkowy, Warszawa",
+      "events": [
+        "gorale-bank-action-1943"
+      ]
+    },
+    {
+      "key": "narocz",
+      "query": "Нарач",
+      "events": [
+        "naroch-kmicic-1943"
+      ]
+    },
+    {
+      "key": "sahryn",
+      "query": "Sahryń, Poland",
+      "events": [
+        "sahryn-1944"
+      ]
+    },
+    {
+      "key": "grojecka",
+      "query": "Grójecka 81, Warszawa",
+      "events": [
+        "ringelblum-bunker-1944"
+      ]
+    },
+    {
+      "key": "palikrowy",
+      "query": "Palikrowy",
+      "events": [
+        "palikrowy-1944"
+      ]
+    },
+    {
+      "key": "machow",
+      "query": "Machów, Tarnobrzeg",
+      "events": [
+        "tannenberg-ship-1944"
+      ]
+    },
+    {
+      "key": "glinciszki",
+      "query": "Glinciszki",
+      "events": [
+        "glinciszki-dubinki-1944"
+      ]
+    },
+    {
+      "key": "osuchy",
+      "query": "Osuchy, Poland",
+      "events": [
+        "osuchy-1944"
+      ]
+    },
+    {
+      "key": "zamek-lubelski",
+      "query": "Zamek, Lublin",
+      "events": [
+        "lublin-castle-massacre-1944"
+      ]
+    },
+    {
+      "key": "radzymin",
+      "query": "Radzymin, Poland",
+      "events": [
+        "radzymin-tank-battle-1944"
+      ]
+    },
+    {
+      "key": "baligrod",
+      "query": "Baligród, Poland",
+      "events": [
+        "baligrod-1944"
+      ]
+    },
+    {
+      "key": "surkonty",
+      "query": "Surkonty",
+      "events": [
+        "surkonty-1944"
+      ]
+    },
+    {
+      "key": "firlej",
+      "query": "Firlej, Radom",
+      "events": [
+        "firlej-execution-1940"
+      ]
+    },
+    {
+      "key": "skarzysko",
+      "query": "Skarżysko-Kamienna, Poland",
+      "events": [
+        "brzask-execution-1940"
+      ]
+    },
+    {
+      "key": "magdalenka",
+      "query": "Magdalenka, Poland",
+      "events": [
+        "magdalenka-execution-1942"
+      ]
+    },
+    {
+      "key": "warzyce",
+      "query": "Warzyce, Poland",
+      "events": [
+        "warzyce-forest-1942"
+      ]
+    },
+    {
+      "key": "krzemieniec",
+      "query": "Кременець",
+      "events": [
+        "krzemieniec-ghetto-liquidation-1942"
+      ]
+    },
+    {
+      "key": "nowy-targ",
+      "query": "Nowy Targ, Poland",
+      "events": [
+        "nowy-targ-ghetto-liquidation-1942"
+      ]
+    },
+    {
+      "key": "dzialoszyce",
+      "query": "Działoszyce, Poland",
+      "events": [
+        "dzialoszyce-1942"
+      ]
+    },
+    {
+      "key": "opatow",
+      "query": "Opatów, Poland",
+      "events": [
+        "opatow-prison-raid-1943"
+      ]
+    },
+    {
+      "key": "majdan-stary",
+      "query": "Majdan Stary, gmina Księżpol",
+      "events": [
+        "majdan-stary-1943"
+      ]
+    },
+    {
+      "key": "jaslo",
+      "query": "Jasło, Poland",
+      "events": [
+        "jaslo-prison-raid-1943"
+      ]
+    },
+    {
+      "key": "mszana",
+      "query": "Mszana Dolna, Poland",
+      "events": [
+        "mszana-dolna-1943"
+      ]
+    },
+    {
+      "key": "ozarow",
+      "query": "Ożarów, powiat opatowski",
+      "events": [
+        "ozarow-renner-1943"
+      ]
+    },
+    {
+      "key": "przemysl",
+      "query": "Przemyśl, Poland",
+      "events": [
+        "przemysl-ghetto-liquidation-1943"
+      ]
+    },
+    {
+      "key": "grodkowice",
+      "query": "Grodkowice, Poland",
+      "events": [
+        "grodkowice-1944"
+      ]
+    },
+    {
+      "key": "podkamien-rohatyn",
+      "query": "Підкамінь, Рогатинська міська громада",
+      "events": [
+        "podkamien-rohatyn-1944"
+      ]
+    },
+    {
+      "key": "chlaniow",
+      "query": "Chłaniów, Poland",
+      "events": [
+        "chlaniow-1944"
+      ]
+    },
+    {
+      "key": "iwonicz",
+      "query": "Iwonicz-Zdrój, Poland",
+      "events": [
+        "grabinski-forest-1944"
       ]
     }
   ]

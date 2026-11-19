@@ -67,6 +67,17 @@
       "type": "museum",
       "resolved": "2026-11-18"
     },
+    "baligrod": {
+      "query": "Baligród, Poland",
+      "lat": 49.3368,
+      "lng": 22.28663,
+      "displayName": "Baligród, gmina Baligród, powiat leski, województwo podkarpackie, 38-606, Polska",
+      "osmType": "relation",
+      "osmId": 6954582,
+      "class": "boundary",
+      "type": "administrative",
+      "resolved": "2026-11-19"
+    },
     "baluty": {
       "query": "Bałuty, Łódź",
       "lat": 51.80159,
@@ -77,6 +88,28 @@
       "class": "boundary",
       "type": "administrative",
       "resolved": "2026-11-18"
+    },
+    "barbarka": {
+      "query": "Barbarka, Toruń",
+      "lat": 53.05382,
+      "lng": 18.54165,
+      "displayName": "Barbarka, Toruń, województwo kujawsko-pomorskie, 87-119, Polska",
+      "osmType": "node",
+      "osmId": 1539630148,
+      "class": "place",
+      "type": "suburb",
+      "resolved": "2026-11-19"
+    },
+    "bedzin": {
+      "query": "Będzin, Poland",
+      "lat": 50.33563,
+      "lng": 19.11733,
+      "displayName": "Będzin, powiat będziński, Górnośląsko-Zagłębiowska Metropolia, województwo śląskie, Polska",
+      "osmType": "relation",
+      "osmId": 2832465,
+      "class": "boundary",
+      "type": "administrative",
+      "resolved": "2026-11-19"
     },
     "belzec": {
       "query": "Bełżec, Poland",
@@ -132,6 +165,17 @@
       "class": "boundary",
       "type": "administrative",
       "resolved": "2026-11-18"
+    },
+    "borow": {
+      "query": "Borów, gmina Annopol",
+      "lat": 50.79587,
+      "lng": 21.9097,
+      "displayName": "Borów, gmina Annopol, powiat kraśnicki, województwo lubelskie, Polska",
+      "osmType": "relation",
+      "osmId": 7449747,
+      "class": "boundary",
+      "type": "administrative",
+      "resolved": "2026-11-19"
     },
     "borownica": {
       "query": "Borownica, gmina Bircza",
@@ -199,6 +243,17 @@
       "type": "pedestrian",
       "resolved": "2026-11-18"
     },
+    "celestynow": {
+      "query": "Celestynów, powiat otwocki",
+      "lat": 52.05904,
+      "lng": 21.38381,
+      "displayName": "Celestynów, gmina Celestynów, powiat otwocki, województwo mazowieckie, 05-430, Polska",
+      "osmType": "relation",
+      "osmId": 11213051,
+      "class": "boundary",
+      "type": "administrative",
+      "resolved": "2026-11-19"
+    },
     "chelm": {
       "query": "Chełm, Poland",
       "lat": 51.13392,
@@ -219,6 +274,28 @@
       "osmId": 31626431,
       "class": "place",
       "type": "village",
+      "resolved": "2026-11-19"
+    },
+    "chlaniow": {
+      "query": "Chłaniów, Poland",
+      "lat": 50.8366,
+      "lng": 22.87221,
+      "displayName": "Chłaniów, gmina Żółkiewka, powiat krasnostawski, województwo lubelskie, Polska",
+      "osmType": "relation",
+      "osmId": 7430610,
+      "class": "boundary",
+      "type": "administrative",
+      "resolved": "2026-11-19"
+    },
+    "chwaliszewo": {
+      "query": "Chwaliszewo, Poznań",
+      "lat": 52.40693,
+      "lng": 16.94244,
+      "displayName": "Chwaliszewo, Stare Miasto, Poznań, województwo wielkopolskie, 61-102, Polska",
+      "osmType": "node",
+      "osmId": 1428185848,
+      "class": "place",
+      "type": "hamlet",
       "resolved": "2026-11-19"
     },
     "ciepielow": {
@@ -287,6 +364,28 @@
       "type": "administrative",
       "resolved": "2026-11-18"
     },
+    "dzialdowo": {
+      "query": "Działdowo, Poland",
+      "lat": 53.23465,
+      "lng": 20.18178,
+      "displayName": "Działdowo, powiat działdowski, województwo warmińsko-mazurskie, 13-201, Polska",
+      "osmType": "relation",
+      "osmId": 2784365,
+      "class": "boundary",
+      "type": "administrative",
+      "resolved": "2026-11-19"
+    },
+    "dzialoszyce": {
+      "query": "Działoszyce, Poland",
+      "lat": 50.36547,
+      "lng": 20.35215,
+      "displayName": "Działoszyce, gmina Działoszyce, powiat pińczowski, województwo świętokrzyskie, Polska",
+      "osmType": "relation",
+      "osmId": 2907558,
+      "class": "boundary",
+      "type": "administrative",
+      "resolved": "2026-11-19"
+    },
     "dziekanka": {
       "query": "Dziekanka, Gniezno",
       "lat": 52.53028,
@@ -297,6 +396,17 @@
       "class": "place",
       "type": "neighbourhood",
       "resolved": "2026-11-18"
+    },
+    "firlej": {
+      "query": "Firlej, Radom",
+      "lat": 51.4505,
+      "lng": 21.14899,
+      "displayName": "Firlej, Radom, województwo mazowieckie, Polska",
+      "osmType": "relation",
+      "osmId": 2622601,
+      "class": "boundary",
+      "type": "administrative",
+      "resolved": "2026-11-19"
     },
     "fordon": {
       "query": "Fordon, Bydgoszcz",
@@ -353,6 +463,17 @@
       "type": "administrative",
       "resolved": "2026-11-18"
     },
+    "gesiowka": {
+      "query": "Gęsia, Warszawa",
+      "lat": 52.25033,
+      "lng": 20.9979,
+      "displayName": "Gęsia, Muranów, Śródmieście, Warszawa, województwo mazowieckie, 00-159, Polska",
+      "osmType": "way",
+      "osmId": 1487832139,
+      "class": "highway",
+      "type": "living_street",
+      "resolved": "2026-11-19"
+    },
     "ghetto-heroes": {
       "query": "Pomnik Bohaterów Getta, Warszawa",
       "lat": 52.24974,
@@ -375,6 +496,28 @@
       "type": "administrative",
       "resolved": "2026-11-19"
     },
+    "glinciszki": {
+      "query": "Glinciszki",
+      "lat": 54.98373,
+      "lng": 25.23061,
+      "displayName": "Glinciszki, Starostwo podbrzeskie, Samorząd rejonu wileńskiego, Okręg wileński, 14292, Litwa",
+      "osmType": "relation",
+      "osmId": 17566584,
+      "class": "boundary",
+      "type": "administrative",
+      "resolved": "2026-11-19"
+    },
+    "glowna": {
+      "query": "Główna, Poznań",
+      "lat": 52.42115,
+      "lng": 16.96987,
+      "displayName": "Główna, Poznań, województwo wielkopolskie, Polska",
+      "osmType": "relation",
+      "osmId": 3469020,
+      "class": "boundary",
+      "type": "administrative",
+      "resolved": "2026-11-19"
+    },
     "gorajec": {
       "query": "Gorajec, gmina Cieszanów",
       "lat": 50.26915,
@@ -382,6 +525,17 @@
       "displayName": "Gorajec, gmina Cieszanów, powiat lubaczowski, województwo podkarpackie, Polska",
       "osmType": "relation",
       "osmId": 5438343,
+      "class": "boundary",
+      "type": "administrative",
+      "resolved": "2026-11-19"
+    },
+    "grodkowice": {
+      "query": "Grodkowice, Poland",
+      "lat": 49.97505,
+      "lng": 20.26826,
+      "displayName": "Grodkowice, gmina Kłaj, powiat wielicki, województwo małopolskie, Polska",
+      "osmType": "relation",
+      "osmId": 3333880,
       "class": "boundary",
       "type": "administrative",
       "resolved": "2026-11-19"
@@ -396,6 +550,17 @@
       "class": "boundary",
       "type": "administrative",
       "resolved": "2026-11-18"
+    },
+    "grojecka": {
+      "query": "Grójecka 81, Warszawa",
+      "lat": 52.2115,
+      "lng": 20.97771,
+      "displayName": "81/87, Grójecka, Osiedle Grójecka, Stara Ochota, Ochota, Warszawa, województwo mazowieckie, 02-094, Polska",
+      "osmType": "relation",
+      "osmId": 19509456,
+      "class": "building",
+      "type": "apartments",
+      "resolved": "2026-11-19"
     },
     "gross-rosen": {
       "query": "Muzeum Gross-Rosen, Rogoźnica",
@@ -452,6 +617,17 @@
       "type": "administrative",
       "resolved": "2026-11-18"
     },
+    "iwonicz": {
+      "query": "Iwonicz-Zdrój, Poland",
+      "lat": 49.56967,
+      "lng": 21.79323,
+      "displayName": "Iwonicz-Zdrój, gmina Iwonicz-Zdrój, powiat krośnieński, województwo podkarpackie, 38-440, Polska",
+      "osmType": "relation",
+      "osmId": 3015693,
+      "class": "boundary",
+      "type": "administrative",
+      "resolved": "2026-11-19"
+    },
     "jablon": {
       "query": "Jabłoń, powiat parczewski",
       "lat": 51.72595,
@@ -494,6 +670,17 @@
       "osmId": 337513916,
       "class": "place",
       "type": "village",
+      "resolved": "2026-11-19"
+    },
+    "jaslo": {
+      "query": "Jasło, Poland",
+      "lat": 49.74705,
+      "lng": 21.47431,
+      "displayName": "Jasło, powiat jasielski, województwo podkarpackie, Polska",
+      "osmType": "relation",
+      "osmId": 2906320,
+      "class": "boundary",
+      "type": "administrative",
       "resolved": "2026-11-19"
     },
     "jaworow": {
@@ -683,6 +870,17 @@
       "type": "village",
       "resolved": "2026-11-19"
     },
+    "krasowo": {
+      "query": "Krasowo-Częstki, Poland",
+      "lat": 52.84944,
+      "lng": 22.68056,
+      "displayName": "Krasowo-Częstki, gmina Nowe Piekuty, powiat wysokomazowiecki, województwo podlaskie, Polska",
+      "osmType": "relation",
+      "osmId": 7058460,
+      "class": "boundary",
+      "type": "administrative",
+      "resolved": "2026-11-19"
+    },
     "krojanty": {
       "query": "Krojanty, Poland",
       "lat": 53.72663,
@@ -693,6 +891,17 @@
       "class": "place",
       "type": "village",
       "resolved": "2026-11-18"
+    },
+    "krzemieniec": {
+      "query": "Кременець",
+      "lat": 50.0961,
+      "lng": 25.72608,
+      "displayName": "Krzemieniec, Кременецька міська громада, Rejon krzemieniecki, Obwód tarnopolski, Ukraina",
+      "osmType": "relation",
+      "osmId": 7083185,
+      "class": "boundary",
+      "type": "administrative",
+      "resolved": "2026-11-19"
     },
     "kurylowka": {
       "query": "Kuryłówka, Poland",
@@ -715,6 +924,17 @@
       "class": "boundary",
       "type": "administrative",
       "resolved": "2026-11-18"
+    },
+    "kuty": {
+      "query": "Кути, Косівський район",
+      "lat": 48.26268,
+      "lng": 25.18187,
+      "displayName": "Kuty, Кутська селищна громада, Rejon kosowski, Obwód iwanofrankiwski, 78665, Ukraina",
+      "osmType": "relation",
+      "osmId": 8839102,
+      "class": "boundary",
+      "type": "administrative",
+      "resolved": "2026-11-19"
     },
     "lambinowice": {
       "query": "Łambinowice, Poland",
@@ -747,6 +967,17 @@
       "osmId": 2511660823,
       "class": "railway",
       "type": "station",
+      "resolved": "2026-11-19"
+    },
+    "lipniki": {
+      "query": "Lipniki, Kostopil",
+      "lat": 51.00923,
+      "lng": 26.23652,
+      "displayName": "Lipniki, Костопільська міська громада, Rejon rówieński, Obwód rówieński, 35021, Ukraina",
+      "osmType": "node",
+      "osmId": 4295225875,
+      "class": "place",
+      "type": "locality",
       "resolved": "2026-11-19"
     },
     "lopuchowo": {
@@ -803,6 +1034,39 @@
       "class": "amenity",
       "type": "townhall",
       "resolved": "2026-11-18"
+    },
+    "machow": {
+      "query": "Machów, Tarnobrzeg",
+      "lat": 50.52648,
+      "lng": 21.62963,
+      "displayName": "Machów, Nagnajów, Tarnobrzeg, województwo podkarpackie, 39-442, Polska",
+      "osmType": "node",
+      "osmId": 12143803575,
+      "class": "place",
+      "type": "neighbourhood",
+      "resolved": "2026-11-19"
+    },
+    "magdalenka": {
+      "query": "Magdalenka, Poland",
+      "lat": 52.09271,
+      "lng": 20.90676,
+      "displayName": "Magdalenka, gmina Lesznowola, powiat piaseczyński, województwo mazowieckie, 05-825, Polska",
+      "osmType": "relation",
+      "osmId": 4252066,
+      "class": "boundary",
+      "type": "administrative",
+      "resolved": "2026-11-19"
+    },
+    "majdan-stary": {
+      "query": "Majdan Stary, gmina Księżpol",
+      "lat": 50.47213,
+      "lng": 22.71772,
+      "displayName": "Majdan Stary, gmina Księżpol, powiat biłgorajski, województwo lubelskie, Polska",
+      "osmType": "relation",
+      "osmId": 7083449,
+      "class": "boundary",
+      "type": "administrative",
+      "resolved": "2026-11-19"
     },
     "majdanek": {
       "query": "Państwowe Muzeum na Majdanku, Lublin",
@@ -925,6 +1189,17 @@
       "type": "village",
       "resolved": "2026-11-18"
     },
+    "mszana": {
+      "query": "Mszana Dolna, Poland",
+      "lat": 49.67798,
+      "lng": 20.08201,
+      "displayName": "Mszana Dolna, powiat limanowski, województwo małopolskie, 34-730, Polska",
+      "osmType": "relation",
+      "osmId": 2433336,
+      "class": "boundary",
+      "type": "administrative",
+      "resolved": "2026-11-19"
+    },
     "muranow": {
       "query": "Muranów, Warszawa",
       "lat": 52.24696,
@@ -947,6 +1222,17 @@
       "type": "administrative",
       "resolved": "2026-11-19"
     },
+    "narocz": {
+      "query": "Нарач",
+      "lat": 54.93717,
+      "lng": 26.68975,
+      "displayName": "Narocz, Нарацкі сельскі Савет, rejon miadziolski, Obwód miński, 222396, Białoruś",
+      "osmType": "relation",
+      "osmId": 7552538,
+      "class": "boundary",
+      "type": "administrative",
+      "resolved": "2026-11-19"
+    },
     "nowogrodek": {
       "query": "Navahrudak, Belarus",
       "lat": 53.59425,
@@ -957,6 +1243,28 @@
       "class": "boundary",
       "type": "administrative",
       "resolved": "2026-11-18"
+    },
+    "nowy-swiat": {
+      "query": "Nowy Świat, Warszawa",
+      "lat": 52.23214,
+      "lng": 21.0204,
+      "displayName": "Nowy Świat, Powiśle-Skarpa, Śródmieście Północne, Śródmieście, Warszawa, województwo mazowieckie, 00-373, Polska",
+      "osmType": "way",
+      "osmId": 4966673,
+      "class": "highway",
+      "type": "residential",
+      "resolved": "2026-11-19"
+    },
+    "nowy-targ": {
+      "query": "Nowy Targ, Poland",
+      "lat": 49.48182,
+      "lng": 20.03054,
+      "displayName": "Nowy Targ, powiat nowotarski, województwo małopolskie, Polska",
+      "osmType": "relation",
+      "osmId": 2433339,
+      "class": "boundary",
+      "type": "administrative",
+      "resolved": "2026-11-19"
     },
     "ochota": {
       "query": "Ochota, Warszawa",
@@ -991,6 +1299,17 @@
       "type": "administrative",
       "resolved": "2026-11-19"
     },
+    "opatow": {
+      "query": "Opatów, Poland",
+      "lat": 50.80177,
+      "lng": 21.42383,
+      "displayName": "Opatów, gmina Opatów, powiat opatowski, województwo świętokrzyskie, Polska",
+      "osmType": "relation",
+      "osmId": 2966733,
+      "class": "boundary",
+      "type": "administrative",
+      "resolved": "2026-11-19"
+    },
     "ostrowki": {
       "query": "Ostrówki, Рівненська сільська громада",
       "lat": 51.26298,
@@ -1000,6 +1319,50 @@
       "osmId": 3789832569,
       "class": "place",
       "type": "locality",
+      "resolved": "2026-11-19"
+    },
+    "osuchy": {
+      "query": "Osuchy, Poland",
+      "lat": 50.40047,
+      "lng": 22.96774,
+      "displayName": "Osuchy, gmina Łukowa, powiat biłgorajski, województwo lubelskie, Polska",
+      "osmType": "relation",
+      "osmId": 7082070,
+      "class": "boundary",
+      "type": "administrative",
+      "resolved": "2026-11-19"
+    },
+    "otwock": {
+      "query": "Otwock, Poland",
+      "lat": 52.10412,
+      "lng": 21.26811,
+      "displayName": "Otwock, powiat otwocki, województwo mazowieckie, Polska",
+      "osmType": "relation",
+      "osmId": 336206,
+      "class": "boundary",
+      "type": "administrative",
+      "resolved": "2026-11-19"
+    },
+    "ozarow": {
+      "query": "Ożarów, powiat opatowski",
+      "lat": 50.88641,
+      "lng": 21.66562,
+      "displayName": "Ożarów, gmina Ożarów, powiat opatowski, województwo świętokrzyskie, Polska",
+      "osmType": "relation",
+      "osmId": 2966066,
+      "class": "boundary",
+      "type": "administrative",
+      "resolved": "2026-11-19"
+    },
+    "palikrowy": {
+      "query": "Palikrowy",
+      "lat": 49.91295,
+      "lng": 25.33825,
+      "displayName": "Palikrowy, Підкамінська селищна громада, Rejon złoczowski, Obwód lwowski, 80672, Ukraina",
+      "osmType": "relation",
+      "osmId": 9566351,
+      "class": "boundary",
+      "type": "administrative",
       "resolved": "2026-11-19"
     },
     "palmiry": {
@@ -1101,6 +1464,28 @@
       "type": "administrative",
       "resolved": "2026-11-19"
     },
+    "plac-zamkowy": {
+      "query": "Plac Zamkowy, Warszawa",
+      "lat": 52.24779,
+      "lng": 21.01356,
+      "displayName": "Plac Zamkowy, Staromiejskie, Stare Miasto, Śródmieście, Warszawa, województwo mazowieckie, 00-267, Polska",
+      "osmType": "way",
+      "osmId": 506485222,
+      "class": "highway",
+      "type": "pedestrian",
+      "resolved": "2026-11-19"
+    },
+    "plaszow": {
+      "query": "Płaszów Niemiecki nazistowski obóz koncentracyjny, Kraków",
+      "lat": 50.03239,
+      "lng": 19.96337,
+      "displayName": "Płaszów Niemiecki nazistowski obóz koncentracyjny, Abrahama, Stare Podgórze, Podgórze, Kraków, województwo małopolskie, 30-555, Polska",
+      "osmType": "node",
+      "osmId": 8443485943,
+      "class": "historic",
+      "type": "memorial",
+      "resolved": "2026-11-19"
+    },
     "poczta-gdansk": {
       "query": "Plac Obrońców Poczty Polskiej, Gdańsk",
       "lat": 54.35542,
@@ -1133,6 +1518,17 @@
       "class": "boundary",
       "type": "administrative",
       "resolved": "2026-11-18"
+    },
+    "podkamien-rohatyn": {
+      "query": "Підкамінь, Рогатинська міська громада",
+      "lat": 49.44672,
+      "lng": 24.4669,
+      "displayName": "Podkamień, Рогатинська міська громада, Rejon iwano-frankiwski, Obwód iwanofrankiwski, 77014, Ukraina",
+      "osmType": "node",
+      "osmId": 337558873,
+      "class": "place",
+      "type": "village",
+      "resolved": "2026-11-19"
     },
     "ponary": {
       "query": "Paneriai Memorial",
@@ -1189,6 +1585,28 @@
       "type": "administrative",
       "resolved": "2026-11-19"
     },
+    "przebraze": {
+      "query": "Przebraże",
+      "lat": 50.90488,
+      "lng": 25.55579,
+      "displayName": "Hajowe (Przebraże), Ківерцівська міська громада, Rejon łucki, Ukraina",
+      "osmType": "way",
+      "osmId": 30723067,
+      "class": "place",
+      "type": "village",
+      "resolved": "2026-11-19"
+    },
+    "przemysl": {
+      "query": "Przemyśl, Poland",
+      "lat": 49.78355,
+      "lng": 22.7885,
+      "displayName": "Przemyśl, województwo podkarpackie, Polska",
+      "osmType": "relation",
+      "osmId": 3027886,
+      "class": "boundary",
+      "type": "administrative",
+      "resolved": "2026-11-19"
+    },
     "przemyslowa": {
       "query": "Przemysłowa, Łódź",
       "lat": 51.7933,
@@ -1233,6 +1651,17 @@
       "type": "museum",
       "resolved": "2026-11-19"
     },
+    "radom": {
+      "query": "Radom, Poland",
+      "lat": 51.41673,
+      "lng": 21.16074,
+      "displayName": "Radom, województwo mazowieckie, Polska",
+      "osmType": "relation",
+      "osmId": 2904795,
+      "class": "boundary",
+      "type": "administrative",
+      "resolved": "2026-11-19"
+    },
     "radomsko": {
       "query": "Radomsko, Poland",
       "lat": 51.06748,
@@ -1262,6 +1691,28 @@
       "displayName": "Radzionków, powiat tarnogórski, Górnośląsko-Zagłębiowska Metropolia, województwo śląskie, 41-922, Polska",
       "osmType": "relation",
       "osmId": 2808861,
+      "class": "boundary",
+      "type": "administrative",
+      "resolved": "2026-11-19"
+    },
+    "radzymin": {
+      "query": "Radzymin, Poland",
+      "lat": 52.41763,
+      "lng": 21.18078,
+      "displayName": "Radzymin, gmina Radzymin, powiat wołomiński, województwo mazowieckie, 05-250, Polska",
+      "osmType": "relation",
+      "osmId": 2997464,
+      "class": "boundary",
+      "type": "administrative",
+      "resolved": "2026-11-19"
+    },
+    "sahryn": {
+      "query": "Sahryń, Poland",
+      "lat": 50.67821,
+      "lng": 23.79338,
+      "displayName": "Sahryń, gmina Werbkowice, powiat hrubieszowski, województwo lubelskie, Polska",
+      "osmType": "relation",
+      "osmId": 7144855,
       "class": "boundary",
       "type": "administrative",
       "resolved": "2026-11-19"
@@ -1332,6 +1783,17 @@
       "type": "village",
       "resolved": "2026-11-19"
     },
+    "skarzysko": {
+      "query": "Skarżysko-Kamienna, Poland",
+      "lat": 51.11388,
+      "lng": 20.85788,
+      "displayName": "Skarżysko-Kamienna, powiat skarżyski, województwo świętokrzyskie, Polska",
+      "osmType": "relation",
+      "osmId": 2908875,
+      "class": "boundary",
+      "type": "administrative",
+      "resolved": "2026-11-19"
+    },
     "skierbieszow": {
       "query": "Skierbieszów, Poland",
       "lat": 50.85203,
@@ -1376,6 +1838,17 @@
       "type": "monument",
       "resolved": "2026-11-19"
     },
+    "sochy": {
+      "query": "Sochy, gmina Zwierzyniec",
+      "lat": 50.58345,
+      "lng": 22.94863,
+      "displayName": "Sochy, gmina Zwierzyniec, powiat zamojski, województwo lubelskie, Polska",
+      "osmType": "relation",
+      "osmId": 6054727,
+      "class": "boundary",
+      "type": "administrative",
+      "resolved": "2026-11-19"
+    },
     "sopockinie": {
       "query": "Сапоцкін",
       "lat": 53.83123,
@@ -1387,6 +1860,28 @@
       "type": "administrative",
       "resolved": "2026-11-18"
     },
+    "spiska": {
+      "query": "Spiska 14, Warszawa",
+      "lat": 52.22235,
+      "lng": 20.98402,
+      "displayName": "14, Spiska, Stara Ochota, Ochota, Warszawa, województwo mazowieckie, 02-302, Polska",
+      "osmType": "way",
+      "osmId": 382223462,
+      "class": "building",
+      "type": "apartments",
+      "resolved": "2026-11-19"
+    },
+    "stanislawow": {
+      "query": "Івано-Франківськ",
+      "lat": 48.92248,
+      "lng": 24.71033,
+      "displayName": "Iwano-Frankiwsk, Івано-Франківська міська громада, Rejon iwano-frankiwski, Obwód iwanofrankiwski, Ukraina",
+      "osmType": "relation",
+      "osmId": 2362670,
+      "class": "boundary",
+      "type": "administrative",
+      "resolved": "2026-11-19"
+    },
     "stare-miasto": {
       "query": "Stare Miasto, Warszawa",
       "lat": 52.24952,
@@ -1394,6 +1889,17 @@
       "displayName": "Stare Miasto, Śródmieście, Warszawa, województwo mazowieckie, Polska",
       "osmType": "relation",
       "osmId": 11191573,
+      "class": "boundary",
+      "type": "administrative",
+      "resolved": "2026-11-19"
+    },
+    "stary-ciepielow": {
+      "query": "Stary Ciepielów, Poland",
+      "lat": 51.25445,
+      "lng": 21.59805,
+      "displayName": "Stary Ciepielów, gmina Ciepielów, powiat lipski, województwo mazowieckie, Polska",
+      "osmType": "relation",
+      "osmId": 3646201,
       "class": "boundary",
       "type": "administrative",
       "resolved": "2026-11-19"
@@ -1431,6 +1937,17 @@
       "type": "administrative",
       "resolved": "2026-11-18"
     },
+    "surkonty": {
+      "query": "Surkonty",
+      "lat": 53.94381,
+      "lng": 24.97227,
+      "displayName": "Surkonty, Sielsowiet Bolciszki, Rejon werenowski, Obwód grodzieński, Białoruś",
+      "osmType": "relation",
+      "osmId": 5513040,
+      "class": "boundary",
+      "type": "administrative",
+      "resolved": "2026-11-19"
+    },
     "swinoujscie": {
       "query": "Świnoujście, Poland",
       "lat": 53.90975,
@@ -1453,6 +1970,17 @@
       "type": "town",
       "resolved": "2026-11-18"
     },
+    "szarajowka": {
+      "query": "Szarajówka, Poland",
+      "lat": 50.37027,
+      "lng": 22.85208,
+      "displayName": "Szarajówka, gmina Łukowa, powiat biłgorajski, województwo lubelskie, Polska",
+      "osmType": "relation",
+      "osmId": 7082077,
+      "class": "boundary",
+      "type": "administrative",
+      "resolved": "2026-11-19"
+    },
     "szczecin": {
       "query": "Wały Chrobrego, Szczecin",
       "lat": 53.42872,
@@ -1474,6 +2002,17 @@
       "class": "boundary",
       "type": "administrative",
       "resolved": "2026-11-18"
+    },
+    "szczurowa": {
+      "query": "Szczurowa, Poland",
+      "lat": 50.11904,
+      "lng": 20.63737,
+      "displayName": "Szczurowa, gmina Szczurowa, powiat brzeski, województwo małopolskie, 32-820, Polska",
+      "osmType": "relation",
+      "osmId": 6074215,
+      "class": "boundary",
+      "type": "administrative",
+      "resolved": "2026-11-19"
     },
     "szpegawsk": {
       "query": "Szpęgawsk, Poland",
@@ -1606,6 +2145,17 @@
       "class": "boundary",
       "type": "administrative",
       "resolved": "2026-11-18"
+    },
+    "warzyce": {
+      "query": "Warzyce, Poland",
+      "lat": 49.76438,
+      "lng": 21.53291,
+      "displayName": "Warzyce, gmina Jasło, powiat jasielski, województwo podkarpackie, Polska",
+      "osmType": "relation",
+      "osmId": 6907095,
+      "class": "boundary",
+      "type": "administrative",
+      "resolved": "2026-11-19"
     },
     "wawel": {
       "query": "Wawel, Kraków",
@@ -1816,6 +2366,17 @@
       "type": "administrative",
       "resolved": "2026-11-18"
     },
+    "zamek-lubelski": {
+      "query": "Zamek, Lublin",
+      "lat": 51.25046,
+      "lng": 22.57172,
+      "displayName": "Zamek w Lublinie, 9, Zamkowa, Podzamcze, Stare Miasto, Lublin, województwo lubelskie, 20-117, Polska",
+      "osmType": "way",
+      "osmId": 48500136,
+      "class": "building",
+      "type": "castle",
+      "resolved": "2026-11-19"
+    },
     "zaspa": {
       "query": "Zaspa, Gdańsk",
       "lat": 54.39987,
@@ -1837,6 +2398,17 @@
       "class": "boundary",
       "type": "administrative",
       "resolved": "2026-11-18"
+    },
+    "zywiec": {
+      "query": "Żywiec, Poland",
+      "lat": 49.68903,
+      "lng": 19.20305,
+      "displayName": "Żywiec, powiat żywiecki, województwo śląskie, 34-300, Polska",
+      "osmType": "relation",
+      "osmId": 2705721,
+      "class": "boundary",
+      "type": "administrative",
+      "resolved": "2026-11-19"
     }
   }
 }
