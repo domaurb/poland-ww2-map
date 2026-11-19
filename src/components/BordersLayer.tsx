@@ -10,7 +10,7 @@ type Geometry =
   | { type: "MultiPolygon"; coordinates: number[][][][] };
 type Dated = { validFrom: string | null; validTo: string | null };
 type Line = Dated & { id: string; geometry: Geometry };
-type Zone = Dated & { power: "german" | "soviet"; shape: string };
+type Zone = Dated & { power: "german" | "soviet"; scope?: "state"; shape: string };
 type Cell = { name: string; soviet: string | null; unknown?: boolean; geometry: Geometry };
 type Borders = {
   layers: Line[];
@@ -20,7 +20,15 @@ type Borders = {
 };
 
 const keyOf = (id: string): BorderKey =>
-  id === "poland-1939" ? "1939" : id === "poland-today" ? "today" : id.startsWith("soviet") ? "soviet" : "german";
+  id === "poland-1939"
+    ? "1939"
+    : id === "neighbours-1939"
+      ? "neighbours"
+      : id === "poland-today"
+        ? "today"
+        : id.startsWith("soviet")
+          ? "soviet"
+          : "german";
 
 const flip = (ring: number[][]) => ring.map(([lng, lat]) => [lat, lng] as [number, number]);
 const linePositions = (g: Geometry) =>
@@ -79,7 +87,7 @@ export default function BordersLayer({ visible, date }: Props) {
           const st = BORDER_STYLE[z.power];
           return (
             <Polygon
-              key={`${z.power}-${z.validFrom}`}
+              key={`${z.scope ?? "poland"}-${z.power}-${z.validFrom}`}
               positions={polygonPositions(data.shapes[z.shape])}
               interactive={false}
               pathOptions={{ stroke: false, fillColor: st.fillColor ?? st.color, fillOpacity: st.fill }}

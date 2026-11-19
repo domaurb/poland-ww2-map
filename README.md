@@ -20,6 +20,11 @@ Both need an internet connection for the OpenStreetMap base map; the event data 
   each week (hover for the count, click to jump there).
 - **Markers:** colour by family (military, crimes and repression, resistance, other), a glyph per event type, filled
   for events beginning on the selected day and outlined for ongoing ones; clustered where they overlap.
+- **Neighbouring states:** the land borders between Poland's neighbours on 31 August 1939, drawn lighter than
+  Poland's; on the selected date the **German Reich is tinted brown and the Soviet Union red** within their borders
+  that day (OpenHistoricalMap; Bessarabia and Northern Bukovina are counted as Romanian until 28 June 1940, which
+  OpenHistoricalMap's Soviet boundary gets wrong). These are state borders, so Soviet territory occupied by Germany in
+  1941–44 stays red.
 - **Borders and occupation zones:** Poland on 31 August 1939 and present-day Poland as lines; on the selected date,
   the part of 1939 Poland under **German control is tinted brown** (dotted brown line: the General Government) and
   the part under **Soviet control is tinted red** (dashed red line: the Soviet zone's edge). The zones follow the

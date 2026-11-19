@@ -110,7 +110,7 @@ describe("most significant events", () => {
 describe("border layers in the URL", () => {
   it("defaults to the 1939 border and both occupation zones and keeps them out of the URL", () => {
     const s = parseUrl("?date=1940-01-01&lang=en");
-    expect([...s.borders].sort()).toEqual(["1939", "german", "soviet"]);
+    expect([...s.borders].sort()).toEqual(["1939", "german", "neighbours", "soviet"]);
     expect(toSearch(s)).not.toContain("borders");
   });
   it("round-trips a custom selection and 'none'", () => {

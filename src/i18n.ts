@@ -68,11 +68,12 @@ const en = {
   borders: "Borders",
   borderLabels: {
     "1939": "Poland, 31 August 1939",
+    neighbours: "Neighbouring countries, 31 August 1939",
     today: "Present-day Poland",
-    german: "German-controlled, on the selected date",
-    soviet: "Soviet-controlled, on the selected date",
-  } as Record<"1939" | "today" | "german" | "soviet", string>,
-  bordersNote: "Tinted areas show who controlled Poland's 1939 territory: partitioned from 6 October 1939, all under German control from 22 June 1941. From January 1944 the front is approximated from the documented capture dates of about 80 towns (each place takes the date of the nearest one), so its edges are rough. The dotted brown line is the General Government. Sources: OpenHistoricalMap; IPN, Przystanek Historia, dzieje.pl; Yad Vashem and USHMM for parts of today's Belarus and Ukraine.",
+    german: "German territory and German-controlled land, on the selected date",
+    soviet: "Soviet territory and Soviet-controlled land, on the selected date",
+  } as Record<"1939" | "neighbours" | "today" | "german" | "soviet", string>,
+  bordersNote: "Outside 1939 Poland, the German Reich is tinted brown and the Soviet Union red, within their borders on the selected date. Inside it, tints show who controlled the territory: partitioned from 6 October 1939, all under German control from 22 June 1941. From January 1944 the front is approximated from the documented capture dates of about 80 towns (each place takes the date of the nearest one), so its edges are rough. The dotted brown line is the General Government. Sources: OpenHistoricalMap; IPN, Przystanek Historia, dzieje.pl; Yad Vashem and USHMM for parts of today's Belarus and Ukraine.",
 };
 
 type Strings = typeof en;
@@ -147,11 +148,12 @@ const pl: Strings = {
   borders: "Granice",
   borderLabels: {
     "1939": "Polska, 31 sierpnia 1939 r.",
+    neighbours: "Państwa sąsiednie, 31 sierpnia 1939 r.",
     today: "Polska współczesna",
-    german: "Pod kontrolą niemiecką, w wybranym dniu",
-    soviet: "Pod kontrolą sowiecką, w wybranym dniu",
+    german: "Terytorium Niemiec i ziemie pod kontrolą niemiecką, w wybranym dniu",
+    soviet: "Terytorium ZSRS i ziemie pod kontrolą sowiecką, w wybranym dniu",
   },
-  bordersNote: "Zabarwione obszary pokazują, kto kontrolował terytorium Polski z 1939 r.: podział od 6 października 1939 r., od 22 czerwca 1941 r. całość pod kontrolą niemiecką. Od stycznia 1944 r. przebieg frontu jest przybliżony na podstawie udokumentowanych dat zajęcia ok. 80 miejscowości (każde miejsce przyjmuje datę najbliższej z nich), więc jego granice są orientacyjne. Kropkowana brązowa linia to granica Generalnego Gubernatorstwa. Źródła: OpenHistoricalMap; IPN, Przystanek Historia, dzieje.pl; dla części dzisiejszej Białorusi i Ukrainy Yad Vashem i USHMM."
+  bordersNote: "Poza Polską z 1939 r. Rzesza Niemiecka jest zabarwiona na brązowo, a ZSRS na czerwono, w granicach z wybranego dnia. Na terytorium Polski z 1939 r. kolory pokazują, kto je kontrolował: podział od 6 października 1939 r., od 22 czerwca 1941 r. całość pod kontrolą niemiecką. Od stycznia 1944 r. przebieg frontu jest przybliżony na podstawie udokumentowanych dat zajęcia ok. 80 miejscowości (każde miejsce przyjmuje datę najbliższej z nich), więc jego granice są orientacyjne. Kropkowana brązowa linia to granica Generalnego Gubernatorstwa. Źródła: OpenHistoricalMap; IPN, Przystanek Historia, dzieje.pl; dla części dzisiejszej Białorusi i Ukrainy Yad Vashem i USHMM."
 };
 
 export const STRINGS: Record<Lang, Strings> = { en, pl };

@@ -8,15 +8,19 @@ Output:
   derived by splitting the 1939 territory along the occupiers' boundaries. Periods follow the start/end dates
   of the OpenHistoricalMap relations; Wilno, handed to Lithuania on 28 October 1939, is in neither zone until
   the Soviet annexation of Lithuania.
+- `neighbours-1939` layer and `scope: "state"` zones: the land borders between Poland's neighbours on 31 August 1939,
+  and the territory of the German Reich and the Soviet Union outside 1939 Poland on each date.
 - `frontCells`: from 4 January 1944, an approximation of the front built from dated anchor towns
   (scripts/front-anchors.json, geocoded with OpenStreetMap Nominatim and cached in front-anchors.geo.json).
 """
 import json, math, os, subprocess, sys, time, urllib.parse
+from datetime import date, timedelta
 from shapely.affinity import scale
 from shapely.geometry import LineString, MultiLineString, MultiPoint, Point, box, mapping
 from shapely.ops import linemerge, polygonize, unary_union, voronoi_diagram
 
-BBOX = (13.0, 47.0, 29.5, 57.0)   # lon/lat, a little larger than the map's maxBounds
+BBOX = (13.0, 47.0, 29.5, 57.0)   # lon/lat: Poland and its surroundings
+WIDE = (2.0, 40.0, 42.0, 63.0)    # lon/lat: wider than the map's maxBounds, for the neighbouring states
 TOL = 0.004                      # ~300–450 m
 URL = "https://overpass-api.openhistoricalmap.org/api/interpreter"
 POLAND_1939, POLAND_TODAY = 2741574, 2870169
@@ -24,10 +28,11 @@ GG_1939, GG_1941 = 2693083, 2693084
 REICH_1939 = 2704716             # Deutsches Reich 1939-10-26 → 1940-05-18 (later 1940–41 changes lie outside the map area)
 BERLIN, MINSK = Point(13.40, 52.52), Point(27.56, 53.90)
 
-_cache = {}
-def lines(rel):
-    if rel not in _cache:
-        s, w, n, e = BBOX[1], BBOX[0], BBOX[3], BBOX[2]
+_cache, _ways = {}, {}
+def lines(rel, bbox=BBOX):
+    key = (rel, bbox)
+    if key not in _cache:
+        s, w, n, e = bbox[1], bbox[0], bbox[3], bbox[2]
         q = f"[out:json][timeout:120];relation({rel});way(r)({s},{w},{n},{e});out geom;"
         for attempt in range(5):   # the public server rate-limits; back off and retry
             out = subprocess.run(["curl", "-sS", "-m", "180", "--data-urlencode", f"data={q}", URL], capture_output=True, text=True).stdout
@@ -38,11 +43,12 @@ def lines(rel):
                 time.sleep(15 * (attempt + 1))
         else:
             sys.exit(f"could not fetch relation {rel}")
-        ls = [LineString([(p["lon"], p["lat"]) for p in w["geometry"]]) for w in ways if len(w.get("geometry", [])) > 1]
+        _ways[key] = {w["id"]: LineString([(p["lon"], p["lat"]) for p in w["geometry"]]) for w in ways if len(w.get("geometry", [])) > 1}
+        ls = list(_ways[key].values())
         if not ls:
             sys.exit(f"no geometry for relation {rel}")
-        _cache[rel] = linemerge(MultiLineString(ls))
-    return _cache[rel]
+        _cache[key] = linemerge(MultiLineString(ls))
+    return _cache[key]
 
 frame = box(*BBOX)
 def area_containing(rel, point):
@@ -58,8 +64,8 @@ def polygon_of(rel):
 
 def rnd(c):
     return [rnd(x) for x in c] if isinstance(c[0], (list, tuple)) else [round(c[0], 4), round(c[1], 4)]
-def geo(g, simplify=True):
-    m = mapping(g.simplify(TOL, preserve_topology=True) if simplify else g)
+def geo(g, simplify=True, tol=TOL):
+    m = mapping(g.simplify(tol, preserve_topology=True) if simplify else g)
     return {"type": m["type"], "coordinates": rnd(m["coordinates"])}
 
 out = {"_attribution": "Boundaries from OpenHistoricalMap contributors (CC0 1.0, https://www.openhistoricalmap.org), clipped and simplified.", "layers": [], "zones": []}
@@ -142,6 +148,53 @@ out["frontCells"] = {"validFrom": "1944-01-04", "validTo": None, "cells": [
     {"name": c["name"], "soviet": c["soviet"], **({"unknown": True} if c["unknown"] else {}), "geometry": geo(c["g"].buffer(0), simplify=False)}
     for c in cells if not c["g"].is_empty]}
 print("front cells:", len(out["frontCells"]["cells"]))
+# Poland's neighbours on 31 August 1939: their land borders with one another (ways shared by two of these relations,
+# so coastlines and Poland's own border are left out), drawn lighter than Poland's.
+NEIGHBOURS_1939 = {"German Reich": 2704709, "Lithuania": 2855606, "Latvia": 2704702, "Soviet Union": 2851157,
+                   "Kingdom of Romania": 2693259, "Kingdom of Hungary": 2747871, "Slovak Republic": 2692768}
+wide = box(*WIDE)
+for rel in NEIGHBOURS_1939.values():
+    lines(rel, WIDE)
+seen = {}
+for rel in NEIGHBOURS_1939.values():
+    for wid in _ways[(rel, WIDE)]:
+        seen[wid] = seen.get(wid, 0) + 1
+shared = [g for rel in NEIGHBOURS_1939.values() for wid, g in _ways[(rel, WIDE)].items() if seen[wid] > 1]
+nb = linemerge(unary_union(shared)).intersection(wide).difference(poland.boundary.buffer(0.02))
+out["layers"].append({"id": "neighbours-1939", "validFrom": None, "validTo": None, "geometry": geo(nb, tol=0.006)})
+print("neighbour border segments:", len(getattr(nb, "geoms", [nb])))
+
+# The German Reich and the Soviet Union outside 1939 Poland, per OpenHistoricalMap period (each relation's end date is
+# the next one's start). Inside 1939 Poland the occupation zones above apply instead.
+def before(day):
+    return (date.fromisoformat(day) - timedelta(days=1)).isoformat()
+STATES = {
+  "german": ([BERLIN, Point(20.51, 54.71), Point(16.37, 48.21)],   # Berlin, Königsberg, Vienna
+             [(2704709, "1939-09-01"), (2704716, "1939-10-26"), (2704715, "1940-05-18"), (2704714, "1940-06-01"),
+              (2704713, "1940-08-02"), (2704717, "1941-04-14"), (2692712, "1941-08-01")]),
+  "soviet": ([MINSK],
+             [(2851157, "1939-09-01"), (2848248, "1939-10-06"), (2848241, "1939-10-28"), (2851878, "1940-03-12"),
+              (2848258, "1940-06-28"), (2848256, "1940-08-03"), (2848811, "1940-08-05"), (2848812, "1940-08-06"),
+              (2851156, "1941-07-17"), (2852346, "1944-09-19"), (2957472, "1944-10-11")]),
+}
+_rf = list(polygonize(unary_union([lines(2693259, WIDE).intersection(wide), wide.boundary])))
+romania_1921 = unary_union([f for f in _rf if f.contains(Point(26.10, 44.43)) or f.contains(Point(28.86, 47.01))])   # Bucharest, Chișinău
+for power, (refs, periods) in STATES.items():
+    for i, (rel, vf) in enumerate(periods):
+        vt = before(periods[i + 1][1]) if i + 1 < len(periods) else "1945-05-08"
+        faces = list(polygonize(unary_union([lines(rel, WIDE).intersection(wide), wide.boundary])))
+        own = unary_union([f for f in faces if any(f.contains(r) for r in refs)])
+        if own.is_empty:
+            sys.exit(f"no reference point inside relation {rel}")
+        area = own.difference(poland)
+        if power == "soviet" and vf < "1940-06-28":
+            # OpenHistoricalMap already counts Bessarabia and Northern Bukovina as Soviet from March 1940; they stayed
+            # Romanian (its relation 2693259, valid to 1940-06-28) until the annexation of 28 June 1940.
+            area = area.difference(romania_1921)
+        area = area.buffer(0)
+        out["zones"].append({"power": power, "scope": "state", "relation": rel, "validFrom": vf, "validTo": vt, "geometry": geo(area, tol=0.01)})
+        print("state", power, vf, vt, f"{area.area:.2f}")
+
 # Merge consecutive Soviet-edge layers whose lines are identical (changes outside Poland only).
 merged = []
 for l in out["layers"]:
