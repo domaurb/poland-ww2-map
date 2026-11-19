@@ -1,0 +1,382 @@
+{
+ "Sarny, Ukraine": {
+  "lat": 51.335,
+  "lng": 26.61713,
+  "displayName": "Сарни, Сарненська міська громада, Сарненський район, Рівненська область, Україна"
+ },
+ "Lutsk, Ukraine": {
+  "lat": 50.74507,
+  "lng": 25.32008,
+  "displayName": "Луцьк, Луцька міська громада, Луцький район, Волинська область, Україна"
+ },
+ "Pidvolochysk, Ukraine": {
+  "lat": 49.53136,
+  "lng": 26.14408,
+  "displayName": "Підволочиськ, Підволочиська селищна громада, Тернопільський район, Тернопільська область, 47800, Україна"
+ },
+ "Kovel, Ukraine": {
+  "lat": 51.21208,
+  "lng": 24.70888,
+  "displayName": "Ковель, Ковельська міська громада, Ковельський район, Україна"
+ },
+ "Baranavichy, Belarus": {
+  "lat": 53.13229,
+  "lng": 26.01842,
+  "displayName": "Баранавічы, Брэсцкая вобласць, Беларусь"
+ },
+ "Lida, Belarus": {
+  "lat": 53.89164,
+  "lng": 25.30229,
+  "displayName": "Ліда, Лідскі раён, Гродзенская вобласць, Беларусь"
+ },
+ "Vilnius, Lithuania": {
+  "lat": 54.68705,
+  "lng": 25.28291,
+  "displayName": "Vilnius, Vilniaus miesto savivaldybė, Vilniaus apskritis, Lietuva"
+ },
+ "Pinsk, Belarus": {
+  "lat": 52.11139,
+  "lng": 26.10253,
+  "displayName": "Пінск, Брэсцкая вобласць, Беларусь"
+ },
+ "Hrodna, Belarus": {
+  "lat": 53.68346,
+  "lng": 23.83426,
+  "displayName": "Гродна, Гродзенская вобласць, Беларусь"
+ },
+ "Svislach, Hrodna Region, Belarus": {
+  "lat": 53.03655,
+  "lng": 24.09418,
+  "displayName": "Свіслач, Свіслацкі раён, Гродзенская вобласць, 231960, Беларусь"
+ },
+ "Pruzhany, Belarus": {
+  "lat": 52.55819,
+  "lng": 24.45671,
+  "displayName": "Пружаны, Пружанскі раён, Брэсцкая вобласць, Беларусь"
+ },
+ "Hrubieszów, Poland": {
+  "lat": 50.8068,
+  "lng": 23.88635,
+  "displayName": "Hrubieszów, powiat hrubieszowski, województwo lubelskie, 22-500, Polska"
+ },
+ "Tomaszów Lubelski, Poland": {
+  "lat": 50.44693,
+  "lng": 23.41656,
+  "displayName": "Tomaszów Lubelski, powiat tomaszowski, województwo lubelskie, 22-600, Polska"
+ },
+ "Chełm, Poland": {
+  "lat": 51.13392,
+  "lng": 23.47115,
+  "displayName": "Chełm, województwo lubelskie, Polska"
+ },
+ "Lublin, Poland": {
+  "lat": 51.21819,
+  "lng": 22.55468,
+  "displayName": "Lublin, województwo lubelskie, Polska"
+ },
+ "Lviv, Ukraine": {
+  "lat": 49.84195,
+  "lng": 24.03159,
+  "displayName": "Львів, Львівська міська громада, Львівський район, Львівська область, Україна"
+ },
+ "Białystok, Poland": {
+  "lat": 53.1275,
+  "lng": 23.14705,
+  "displayName": "Białystok, powiat białostocki, województwo podlaskie, Polska"
+ },
+ "Przemyśl, Poland": {
+  "lat": 49.78355,
+  "lng": 22.7885,
+  "displayName": "Przemyśl, województwo podkarpackie, Polska"
+ },
+ "Brest, Belarus": {
+  "lat": 52.09375,
+  "lng": 23.68519,
+  "displayName": "Брэст, Брэсцкая вобласць, Беларусь"
+ },
+ "Otwock, Poland": {
+  "lat": 52.11617,
+  "lng": 21.29346,
+  "displayName": "Otwock, powiat otwocki, województwo mazowieckie, Polska"
+ },
+ "Mińsk Mazowiecki, Poland": {
+  "lat": 52.1812,
+  "lng": 21.55874,
+  "displayName": "Mińsk Mazowiecki, powiat miński, województwo mazowieckie, Polska"
+ },
+ "Rzeszów, Poland": {
+  "lat": 50.01332,
+  "lng": 22.01617,
+  "displayName": "Rzeszów, województwo podkarpackie, Polska"
+ },
+ "Sandomierz, Poland": {
+  "lat": 50.67931,
+  "lng": 21.74951,
+  "displayName": "Sandomierz, powiat sandomierski, województwo świętokrzyskie, Polska"
+ },
+ "Łomża, Poland": {
+  "lat": 53.18243,
+  "lng": 22.05218,
+  "displayName": "Łomża, województwo podlaskie, Polska"
+ },
+ "Praga-Południe, Warszawa": {
+  "lat": 52.2374,
+  "lng": 21.07126,
+  "displayName": "Praga-Południe, Warszawa, województwo mazowieckie, Polska"
+ },
+ "Suwałki, Poland": {
+  "lat": 54.10278,
+  "lng": 22.93211,
+  "displayName": "Suwałki, gmina Suwałki, województwo podlaskie, Polska"
+ },
+ "Kielce, Poland": {
+  "lat": 50.87199,
+  "lng": 20.63105,
+  "displayName": "Kielce, województwo świętokrzyskie, Polska"
+ },
+ "Radom, Poland": {
+  "lat": 51.41673,
+  "lng": 21.16074,
+  "displayName": "Radom, województwo mazowieckie, Polska"
+ },
+ "Częstochowa, Poland": {
+  "lat": 50.809,
+  "lng": 19.12441,
+  "displayName": "Częstochowa, województwo śląskie, Polska"
+ },
+ "Dąbrowa Tarnowska, Poland": {
+  "lat": 50.17435,
+  "lng": 20.98507,
+  "displayName": "Dąbrowa Tarnowska, gmina Dąbrowa Tarnowska, powiat dąbrowski, województwo małopolskie, 33-200, Polska"
+ },
+ "Jasło, Poland": {
+  "lat": 49.74696,
+  "lng": 21.49358,
+  "displayName": "Jasło, powiat jasielski, województwo podkarpackie, Polska"
+ },
+ "Miechów, Poland": {
+  "lat": 50.3566,
+  "lng": 20.02769,
+  "displayName": "Miechów, gmina Miechów, powiat miechowski, województwo małopolskie, Polska"
+ },
+ "Gorlice, Poland": {
+  "lat": 49.66633,
+  "lng": 21.16348,
+  "displayName": "Gorlice, powiat gorlicki, województwo małopolskie, Polska"
+ },
+ "Wola, Warszawa": {
+  "lat": 52.23624,
+  "lng": 20.95478,
+  "displayName": "Wola, Warszawa, województwo mazowieckie, Polska"
+ },
+ "Ciechanów, Poland": {
+  "lat": 52.88198,
+  "lng": 20.61915,
+  "displayName": "Ciechanów, powiat ciechanowski, województwo mazowieckie, Polska"
+ },
+ "Kraków, Poland": {
+  "lat": 50.04694,
+  "lng": 19.99715,
+  "displayName": "Kraków, województwo małopolskie, Polska"
+ },
+ "Tarnów, Poland": {
+  "lat": 50.02599,
+  "lng": 20.96406,
+  "displayName": "Tarnów, województwo małopolskie, Polska"
+ },
+ "Limanowa, Poland": {
+  "lat": 49.70617,
+  "lng": 20.42173,
+  "displayName": "Limanowa, powiat limanowski, województwo małopolskie, Polska"
+ },
+ "Łódź, Poland": {
+  "lat": 51.76873,
+  "lng": 19.45699,
+  "displayName": "Łódź, województwo łódzkie, Polska"
+ },
+ "Nowy Sącz, Poland": {
+  "lat": 49.6103,
+  "lng": 20.71494,
+  "displayName": "Nowy Sącz, województwo małopolskie, Polska"
+ },
+ "Brzesko, Poland": {
+  "lat": 49.96784,
+  "lng": 20.60685,
+  "displayName": "Brzesko, gmina Brzesko, powiat brzeski, województwo małopolskie, Polska"
+ },
+ "Olkusz, Poland": {
+  "lat": 50.27882,
+  "lng": 19.55963,
+  "displayName": "Olkusz, gmina Olkusz, powiat olkuski, województwo małopolskie, Polska"
+ },
+ "Lubliniec, Poland": {
+  "lat": 50.64322,
+  "lng": 18.68606,
+  "displayName": "Lubliniec, powiat lubliniecki, województwo śląskie, Polska"
+ },
+ "Bochnia, Poland": {
+  "lat": 49.97468,
+  "lng": 20.42533,
+  "displayName": "Bochnia, powiat bocheński, województwo małopolskie, 32-700, Polska"
+ },
+ "Gniezno, Poland": {
+  "lat": 52.53597,
+  "lng": 17.59589,
+  "displayName": "Gniezno, powiat gnieźnieński, województwo wielkopolskie, 62-200, Polska"
+ },
+ "Myślenice, Poland": {
+  "lat": 49.83461,
+  "lng": 19.93843,
+  "displayName": "Myślenice, gmina Myślenice, powiat myślenicki, województwo małopolskie, 32-400, Polska"
+ },
+ "Tarnowskie Góry, Poland": {
+  "lat": 50.46541,
+  "lng": 18.83359,
+  "displayName": "Tarnowskie Góry, powiat tarnogórski, Górnośląsko-Zagłębiowska Metropolia, województwo śląskie, Polska"
+ },
+ "Swarzędz, Poland": {
+  "lat": 52.41037,
+  "lng": 17.0771,
+  "displayName": "Swarzędz, gmina Swarzędz, powiat poznański, województwo wielkopolskie, 62-020, Polska"
+ },
+ "Bydgoszcz, Poland": {
+  "lat": 53.12971,
+  "lng": 18.02945,
+  "displayName": "Bydgoszcz, województwo kujawsko-pomorskie, Polska"
+ },
+ "Chrzanów, Poland": {
+  "lat": 50.14119,
+  "lng": 19.40285,
+  "displayName": "Chrzanów, gmina Chrzanów, powiat chrzanowski, województwo małopolskie, 32-500, Polska"
+ },
+ "Ostrów Wielkopolski, Poland": {
+  "lat": 51.64719,
+  "lng": 17.80376,
+  "displayName": "Ostrów Wielkopolski, powiat ostrowski, województwo wielkopolskie, 63-400, Polska"
+ },
+ "Katowice, Poland": {
+  "lat": 50.2599,
+  "lng": 19.02159,
+  "displayName": "Katowice, Górnośląsko-Zagłębiowska Metropolia, województwo śląskie, Polska"
+ },
+ "Wadowice, Poland": {
+  "lat": 49.88345,
+  "lng": 19.49253,
+  "displayName": "Wadowice, gmina Wadowice, powiat wadowicki, województwo małopolskie, 34-100, Polska"
+ },
+ "Nowy Targ, Poland": {
+  "lat": 49.48182,
+  "lng": 20.03054,
+  "displayName": "Nowy Targ, powiat nowotarski, województwo małopolskie, Polska"
+ },
+ "Zakopane, Poland": {
+  "lat": 49.29691,
+  "lng": 19.95048,
+  "displayName": "Zakopane, powiat tatrzański, województwo małopolskie, Polska"
+ },
+ "Toruń, Poland": {
+  "lat": 53.01454,
+  "lng": 18.59658,
+  "displayName": "Toruń, województwo kujawsko-pomorskie, Polska"
+ },
+ "Pszczyna, Poland": {
+  "lat": 49.97781,
+  "lng": 18.94237,
+  "displayName": "Pszczyna, gmina Pszczyna, powiat pszczyński, województwo śląskie, 43-200, Polska"
+ },
+ "Biała, Bielsko-Biała, Poland": {
+  "lat": 49.83465,
+  "lng": 19.05856,
+  "displayName": "Bielsko-Biała Wschód, Piekarska, Biała Wschód, Bielsko-Biała, województwo śląskie, 43-350, Polska"
+ },
+ "Żory, Poland": {
+  "lat": 50.03889,
+  "lng": 18.68061,
+  "displayName": "Żory, województwo śląskie, Polska"
+ },
+ "Rybnik, Poland": {
+  "lat": 50.11057,
+  "lng": 18.55319,
+  "displayName": "Rybnik, województwo śląskie, Polska"
+ },
+ "Wodzisław Śląski, Poland": {
+  "lat": 50.00231,
+  "lng": 18.44811,
+  "displayName": "Wodzisław Śląski, powiat wodzisławski, województwo śląskie, Polska"
+ },
+ "Gdynia, Poland": {
+  "lat": 54.5165,
+  "lng": 18.54027,
+  "displayName": "Gdynia, województwo pomorskie, Polska"
+ },
+ "Żywiec, Poland": {
+  "lat": 49.7065,
+  "lng": 19.21915,
+  "displayName": "Żywiec, powiat żywiecki, województwo śląskie, 34-300, Polska"
+ },
+ "Cieszyn, Poland": {
+  "lat": 49.75577,
+  "lng": 18.65623,
+  "displayName": "Cieszyn, powiat cieszyński, województwo śląskie, 43-400, Polska"
+ },
+ "Magnuszew, Poland": {
+  "lat": 51.76242,
+  "lng": 21.3828,
+  "displayName": "Magnuszew, gmina Magnuszew, powiat kozienicki, województwo mazowieckie, 26-910, Polska"
+ },
+ "Puławy, Poland": {
+  "lat": 51.41717,
+  "lng": 21.97206,
+  "displayName": "Puławy, powiat puławski, województwo lubelskie, 24-111, Polska"
+ },
+ "Poznań, Poland": {
+  "lat": 52.40066,
+  "lng": 16.91973,
+  "displayName": "Poznań, powiat poznański, województwo wielkopolskie, Polska"
+ },
+ "Władysławowo, Poland": {
+  "lat": 54.79013,
+  "lng": 18.40873,
+  "displayName": "Władysławowo, gmina Władysławowo, powiat pucki, województwo pomorskie, Polska"
+ },
+ "Kuźnica, gmina Jastarnia, Poland": {
+  "lat": 54.73448,
+  "lng": 18.58204,
+  "displayName": "Kuźnica, gmina Jastarnia, powiat pucki, województwo pomorskie, 84-140, Polska"
+ },
+ "Jastarnia, Poland": {
+  "lat": 54.70276,
+  "lng": 18.67129,
+  "displayName": "Jastarnia, gmina Jastarnia, powiat pucki, województwo pomorskie, 84-140, Polska"
+ },
+ "Jurata, Poland": {
+  "lat": 54.68494,
+  "lng": 18.71341,
+  "displayName": "Jurata, Aleja Wojska Polskiego, Jurata, gmina Jastarnia, powiat pucki, województwo pomorskie, 84-141, Polska"
+ },
+ "Hel, Poland": {
+  "lat": 54.60664,
+  "lng": 18.80271,
+  "displayName": "Hel, powiat pucki, województwo pomorskie, 84-150, Polska"
+ },
+ "Рівне, Рівненська міська громада, Україна": {
+  "lat": 50.61962,
+  "lng": 26.25132,
+  "displayName": "Рівне, Рівненська міська громада, Рівненський район, Рівненська область, Україна"
+ },
+ "Тернопіль, Тернопільська міська громада, Україна": {
+  "lat": 49.55579,
+  "lng": 25.59238,
+  "displayName": "Тернопіль, Тернопільська міська громада, Тернопільський район, Тернопільська область, Україна"
+ },
+ "Івано-Франківськ, Івано-Франківська міська громада, Україна": {
+  "lat": 48.92248,
+  "lng": 24.71033,
+  "displayName": "Івано-Франківськ, Івано-Франківська міська громада, Івано-Франківський район, Івано-Франківська область, Україна"
+ },
+ "Chałupy, gmina Władysławowo, Poland": {
+  "lat": 54.76153,
+  "lng": 18.5026,
+  "displayName": "Chałupy, Kaperska, Chałupy, gmina Władysławowo, powiat pucki, województwo pomorskie, 84-131, Polska"
+ }
+}

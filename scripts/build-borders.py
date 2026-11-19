@@ -8,10 +8,13 @@ Output:
   derived by splitting the 1939 territory along the occupiers' boundaries. Periods follow the start/end dates
   of the OpenHistoricalMap relations; Wilno, handed to Lithuania on 28 October 1939, is in neither zone until
   the Soviet annexation of Lithuania.
+- `frontCells`: from 4 January 1944, an approximation of the front built from dated anchor towns
+  (scripts/front-anchors.json, geocoded with OpenStreetMap Nominatim and cached in front-anchors.geo.json).
 """
-import json, subprocess, sys, time
-from shapely.geometry import LineString, MultiLineString, Point, box, mapping
-from shapely.ops import linemerge, polygonize, unary_union
+import json, math, os, subprocess, sys, time, urllib.parse
+from shapely.affinity import scale
+from shapely.geometry import LineString, MultiLineString, MultiPoint, Point, box, mapping
+from shapely.ops import linemerge, polygonize, unary_union, voronoi_diagram
 
 BBOX = (13.0, 47.0, 29.5, 57.0)   # lon/lat, a little larger than the map's maxBounds
 TOL = 0.004                      # ~300–450 m
@@ -55,8 +58,8 @@ def polygon_of(rel):
 
 def rnd(c):
     return [rnd(x) for x in c] if isinstance(c[0], (list, tuple)) else [round(c[0], 4), round(c[1], 4)]
-def geo(g):
-    m = mapping(g.simplify(TOL, preserve_topology=True))
+def geo(g, simplify=True):
+    m = mapping(g.simplify(TOL, preserve_topology=True) if simplify else g)
     return {"type": m["type"], "coordinates": rnd(m["coordinates"])}
 
 out = {"_attribution": "Boundaries from OpenHistoricalMap contributors (CC0 1.0, https://www.openhistoricalmap.org), clipped and simplified.", "layers": [], "zones": []}
@@ -89,8 +92,54 @@ for rel, vf, vt, how in PERIODS:
     print("zones", vf, vt, f"soviet {soviet.area:.2f}", f"german {german.area:.2f}", f"poland {poland.area:.2f}")
 # After the German attack on the USSR the whole 1939 territory came under German control, until Soviet forces
 # re-entered pre-war Polish territory near Sarny in the night of 3–4 January 1944 (dzieje.pl historical calendar,
-# 3 and 4 January). The front lines after that are not drawn.
+# 3 and 4 January).
 out["zones"].append({"power": "german", "validFrom": "1941-06-22", "validTo": "1944-01-03", "geometry": geo(poland)})
+
+# 4 January 1944 – 8 May 1945: no open data on the front lines exists, so control is approximated from dated anchor
+# towns (scripts/front-anchors.json). Each point of 1939 Poland belongs to its nearest anchor (a Voronoi cell, in a
+# projection that keeps distances roughly true at 52°N) and is Soviet-held from that anchor's date. Pockets override
+# the cells around them. The client tints each cell by comparing the selected date with the cell's date.
+HERE = os.path.dirname(os.path.abspath(__file__))
+anchors = json.load(open(os.path.join(HERE, "front-anchors.json")))["anchors"]
+GEO_CACHE = os.path.join(HERE, "front-anchors.geo.json")
+geo_cache = json.load(open(GEO_CACHE)) if os.path.exists(GEO_CACHE) else {}
+def geocode(q):
+    if q not in geo_cache:
+        url = "https://nominatim.openstreetmap.org/search?format=json&limit=1&q=" + urllib.parse.quote(q)
+        res = json.loads(subprocess.run(["curl", "-sS", "-m", "60", "-A", "poland-ww2-map build script", url], capture_output=True, text=True).stdout)
+        if not res:
+            sys.exit(f"geocoding failed: {q}")
+        geo_cache[q] = {"lat": round(float(res[0]["lat"]), 5), "lng": round(float(res[0]["lon"]), 5), "displayName": res[0]["display_name"]}
+        time.sleep(1.1)   # Nominatim usage policy: at most one request per second
+    return Point(geo_cache[q]["lng"], geo_cache[q]["lat"])
+KX = math.cos(math.radians(52))
+proj = lambda g: scale(g, xfact=KX, yfact=1, origin=(0, 0))
+unproj = lambda g: scale(g, xfact=1 / KX, yfact=1, origin=(0, 0))
+KM = 1 / 111.32   # degrees of latitude per km
+HEL = ["Władysławowo, Poland", "Chałupy, gmina Władysławowo, Poland", "Kuźnica, gmina Jastarnia, Poland", "Jastarnia, Poland", "Jurata, Poland", "Hel, Poland"]
+poland_s = poland.simplify(TOL, preserve_topology=True).buffer(0)
+sites = [a for a in anchors if "radiusKm" not in a and "pocket" not in a]
+pts = [proj(geocode(a["query"])) for a in sites]
+vor = voronoi_diagram(MultiPoint(pts), envelope=proj(frame))
+cells = []
+for a, pt in zip(sites, pts):
+    cell = next(c for c in vor.geoms if c.contains(pt))
+    cells.append({"name": a["name"], "soviet": a["soviet"], "g": unproj(cell).intersection(poland_s)})
+for a in anchors:
+    if "radiusKm" in a:
+        pocket = unproj(proj(geocode(a["query"])).buffer(a["radiusKm"] * KM, 32))
+    elif a.get("pocket") == "hel":
+        pocket = LineString([geocode(q) for q in HEL]).buffer(0.03)
+    else:
+        continue
+    pocket = pocket.intersection(poland_s)
+    for c in cells:
+        c["g"] = c["g"].difference(pocket)
+    cells.append({"name": a["name"], "soviet": a["soviet"], "g": pocket})
+json.dump(geo_cache, open(GEO_CACHE, "w"), ensure_ascii=False, indent=1)
+out["frontCells"] = {"validFrom": "1944-01-04", "validTo": None, "cells": [
+    {"name": c["name"], "soviet": c["soviet"], "geometry": geo(c["g"].buffer(0), simplify=False)} for c in cells if not c["g"].is_empty]}
+print("front cells:", len(out["frontCells"]["cells"]))
 # Merge consecutive Soviet-edge layers whose lines are identical (changes outside Poland only).
 merged = []
 for l in out["layers"]:

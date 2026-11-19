@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { Pane, Polygon, Polyline } from "react-leaflet";
 import type { BorderKey } from "../lib/urlState";
 import { BORDER_STYLE } from "./borderStyle";
@@ -11,7 +11,13 @@ type Geometry =
 type Dated = { validFrom: string | null; validTo: string | null };
 type Line = Dated & { id: string; geometry: Geometry };
 type Zone = Dated & { power: "german" | "soviet"; shape: string };
-type Borders = { layers: Line[]; zones: Zone[]; shapes: Record<string, Geometry> };
+type Cell = { name: string; soviet: string | null; geometry: Geometry };
+type Borders = {
+  layers: Line[];
+  zones: Zone[];
+  shapes: Record<string, Geometry>;
+  frontCells: { validFrom: string; cells: Cell[] };
+};
 
 const keyOf = (id: string): BorderKey =>
   id === "poland-1939" ? "1939" : id === "poland-today" ? "today" : id.startsWith("soviet") ? "soviet" : "german";
@@ -41,10 +47,31 @@ export default function BordersLayer({ visible, date }: Props) {
       alive = false;
     };
   }, [visible, data]);
+  // From January 1944 control is approximated from dated anchor towns: each cell is Soviet-held from its date.
+  // All cells of one side go into a single polygon so that shared edges leave no seams.
+  const front = useMemo(() => {
+    if (!data || !date || date < data.frontCells.validFrom) return null;
+    const sides = { german: [] as ReturnType<typeof polygonPositions>, soviet: [] as ReturnType<typeof polygonPositions> };
+    for (const c of data.frontCells.cells) sides[c.soviet && date >= c.soviet ? "soviet" : "german"].push(...polygonPositions(c.geometry));
+    return sides;
+  }, [data, date]);
   if (!data) return null;
   return (
     <>
       <Pane name="zones" style={{ zIndex: 350 }}>
+        {front &&
+          (["german", "soviet"] as const).map((power) => {
+            if (!visible.has(power) || !front[power].length) return null;
+            const st = BORDER_STYLE[power];
+            return (
+              <Polygon
+                key={`front-${power}`}
+                positions={front[power]}
+                interactive={false}
+                pathOptions={{ stroke: false, fillColor: st.fillColor ?? st.color, fillOpacity: st.fill }}
+              />
+            );
+          })}
         {data.zones.map((z) => {
           if (!visible.has(z.power) || !validOn(z, date)) return null;
           const st = BORDER_STYLE[z.power];
