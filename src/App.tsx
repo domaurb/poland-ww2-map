@@ -61,7 +61,7 @@ export default function App() {
   const selected = s.event ? (EVENTS_BY_ID.get(s.event) ?? null) : null;
 
   const markerItems = useMemo<MarkerItem[]>(() => {
-    const label = (e: (typeof ALL_EVENTS)[number], extra = "") => `${e.title[s.lang]}${extra}${e.verified ? "" : ` (${t.unverified})`}`;
+    const label = (e: (typeof ALL_EVENTS)[number], extra = "") => `${e.title[s.lang]}${extra}`;
     if (s.mode === "overview")
       return ranked.map((e) => ({ event: e, variant: "began", label: label(e) }));
     return [

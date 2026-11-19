@@ -43,8 +43,8 @@ export default function EventDetail({ event: e, lang, onBack, onShowOnMap }: Pro
         </div>
       </header>
 
-      <p className={`verify-flag ${e.verified ? "is-verified" : "is-unverified"}`}>
-        <strong>{e.verified ? t.verified : t.unverified}</strong> — {e.verified ? t.verifiedExplain : t.unverifiedExplain}
+      <p className="verify-flag">
+        <strong>{t.verified}</strong> — {t.verifiedExplain}
       </p>
 
       <dl className="facts">

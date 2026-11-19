@@ -85,9 +85,6 @@ export default function LegendFilters({ lang, types, counts, onTypes, borders, o
         <li>
           <span dangerouslySetInnerHTML={{ __html: markerSvg("battle", "ongoing", { size: 18 }) }} /> {t.markerOngoing}
         </li>
-        <li>
-          <span dangerouslySetInnerHTML={{ __html: markerSvg("battle", "began", { size: 20, unverified: true }) }} /> {t.markerUnverified}
-        </li>
       </ul>
     </details>
   );

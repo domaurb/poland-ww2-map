@@ -71,8 +71,7 @@ for (const e of events) {
     if (!isRealDate(s.accessed)) err(e.id, `source accessed date ${s.accessed} invalid`);
   }
   const bestTier = Math.min(...e.sources.map((s) => s.tier));
-  if (e.verified && bestTier > 2) err(e.id, "verified=true requires at least one tier-1 or tier-2 source");
-  if (!e.verified && !e.notes) err(e.id, "unverified events must explain why in notes");
+  if (bestTier > 2) err(e.id, "every event must be confirmed by at least one tier-1 or tier-2 source");
   if (e.significanceRank !== undefined && (e.significanceRank < 1 || e.significanceRank > 100))
     err(e.id, `significanceRank ${e.significanceRank} outside 1–100`);
 }
@@ -109,15 +108,12 @@ if (missingRanks.length) {
 // ---- report ----------------------------------------------------------------
 const count = <T,>(xs: T[], key: (x: T) => string) =>
   xs.reduce<Record<string, number>>((acc, x) => ((acc[key(x)] = (acc[key(x)] ?? 0) + 1), acc), {});
-const unverified = events.filter((e) => !e.verified);
 const noTier1 = events.filter((e) => !e.sources.some((s) => s.tier === 1));
 const publishers = count(events.flatMap((e) => e.sources), (s) => `${s.publisher} (tier ${s.tier})`);
 
 console.log(`\nEvents: ${events.length} in ${files.length} file(s)`);
 console.log("By start year:", count(events, (e) => e.startDate.slice(0, 4)));
 console.log("By type:", Object.fromEntries(EVENT_TYPES.map((t) => [t, events.filter((e) => e.type === t).length]).filter(([, n]) => n)));
-console.log(`Verified: ${events.length - unverified.length}/${events.length} (${events.length ? Math.round((100 * (events.length - unverified.length)) / events.length) : 0}%)`);
-console.log(`Unverified events: ${unverified.length}${unverified.length ? " – " + unverified.map((e) => e.id).join(", ") : ""}`);
 console.log(`Events lacking a tier-1 source: ${noTier1.length}${noTier1.length ? " – " + noTier1.map((e) => e.id).join(", ") : ""}`);
 console.log("Source citations by publisher:");
 for (const [p, n] of Object.entries(publishers).sort((a, b) => b[1] - a[1])) console.log(`  ${String(n).padStart(3)}  ${p}`);

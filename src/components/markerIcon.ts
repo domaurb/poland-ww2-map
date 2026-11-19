@@ -32,7 +32,7 @@ export function glyphPath(glyph: Glyph, color: string, strokeWidth = 1.8) {
 export function markerSvg(
   type: EventType,
   variant: MarkerVariant,
-  opts: { unverified?: boolean; selected?: boolean; size?: number } = {},
+  opts: { selected?: boolean; size?: number } = {},
 ) {
   const { family, glyph } = TYPE_STYLE[type];
   const color = FAMILY_COLORS[family];
@@ -43,8 +43,5 @@ export function markerSvg(
     : `<circle cx="10" cy="10" r="8.6" fill="${color}" stroke="#fff" stroke-width="1.6"/>`;
   const glyphColor = hollow ? color : "#fff";
   const halo = opts.selected ? `<circle cx="10" cy="10" r="10.4" fill="none" stroke="#1d1d1b" stroke-width="1.6"/>` : "";
-  const badge = opts.unverified
-    ? `<g transform="translate(14.2 1.2)"><circle cx="2.8" cy="2.8" r="3.3" fill="#fff" stroke="#1d1d1b" stroke-width="0.9"/><text x="2.8" y="4.7" font-size="5.4" font-weight="700" text-anchor="middle" fill="#1d1d1b" font-family="system-ui, sans-serif">?</text></g>`
-    : "";
-  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="-1 -1 22 22" width="${size}" height="${size}" aria-hidden="true" focusable="false">${halo}${disc}${glyphPath(glyph, glyphColor, hollow ? 1.6 : 1.9)}${badge}</svg>`;
+  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="-1 -1 22 22" width="${size}" height="${size}" aria-hidden="true" focusable="false">${halo}${disc}${glyphPath(glyph, glyphColor, hollow ? 1.6 : 1.9)}</svg>`;
 }

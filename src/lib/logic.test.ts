@@ -50,7 +50,7 @@ describe("dates", () => {
 describe("event queries", () => {
   const events = [
     ev("uprising", "1944-08-01", "1944-10-02", { type: "uprising" }),
-    ev("wola", "1944-08-05", "1944-08-06", { type: "massacre", verified: false, notes: { en: "n", pl: "n" } }),
+    ev("wola", "1944-08-05", "1944-08-06", { type: "massacre" }),
     ev("other-day", "1944-08-05", "1944-08-05"),
   ];
   it("splits began vs ongoing, inclusive of both ends", () => {

@@ -37,7 +37,7 @@ export const EventSchema = z
     casualties: Bilingual.optional(),
     significanceRank: z.number().int().optional(),
     sources: z.array(SourceSchema).min(1, "at least one source is required"),
-    verified: z.boolean(),
+    verified: z.literal(true), // only verified events are published
     notes: Bilingual.optional(),
   })
   .strict();

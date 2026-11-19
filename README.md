@@ -36,7 +36,7 @@ Both need an internet connection for the OpenStreetMap base map; the event data 
   explained on the About page and in `docs/most-significant-events.md`.
 - **Event details:** dates and their precision, location and its precision, parties involved, summary, casualty
   figures (with differing figures noted), notes and uncertainties, and the sources with their tier.
-- **Filters:** by event type and verified status. Every view is a **shareable URL**
+- **Filters:** by event type. Every view is a **shareable URL**
   (e.g. `?date=1944-08-01&lang=pl&event=warsaw-uprising-1944`).
 - **Accessible:** keyboard-operable, skip links, live date announcements, labelled controls, colour never the only
   cue, respects "reduce motion"; checked with axe (no violations on the main views). On phones the panel becomes a
@@ -72,8 +72,8 @@ About page is opened, and the border geometry is loaded when a border layer is s
 
 1. Add or edit the event in the file for its start year (see the schema for every field; both `en` and `pl` texts
    are required).
-2. Cite at least one source you actually opened. Mark `verified: true` only if a tier-1 or tier-2 source confirms the
-   event; otherwise give the reason in `notes`.
+2. Cite at least one source you actually opened. Only verified events are published: each needs `verified: true` and
+   at least one tier-1 or tier-2 source confirming it (the validator rejects anything else).
 3. For a new place, add an entry to `places.json` and run `npm run geocode`.
 4. Run `npm run validate` and `npm test`.
 
