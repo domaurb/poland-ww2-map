@@ -6,7 +6,13 @@ Test build of the interactive WWII map of Poland (300 verified events, 1939–19
 
 Both need an internet connection for the OpenStreetMap base map; the event data is bundled.
 
-**New since v0.3.0**
+**New since v0.3.1**
+- Western Europe: Denmark, Norway, the Netherlands, Belgium, Luxembourg and France are green while German-occupied (from April–June 1940; the Vichy zone from November 1942) and purple once liberated by the Western Allies.
+- German land taken by the Western Allies in 1944–45 is shown in purple (new legend switch); land taken by the Red Army stays red.
+- The Soviet tint no longer stops at a hard edge when the map is fully zoomed out on a large screen.
+- Every anchor town, date and source is listed in the `scripts/*-anchors.json` files.
+
+**Earlier (v0.3.1)**
 - German control is now shown in green (instead of brown), so it stands out from the Soviet red; checked for red–green colour blindness.
 - Poland's neighbours on 31 August 1939 are drawn (lighter lines), and the German Reich and the Soviet Union are tinted within their borders on the selected date.
 - Soviet land held by Germany or Romania in 1941–44 turns green, and German land taken by the Red Army in 1945 turns red, both approximated from documented occupation and capture dates of nearby towns.
