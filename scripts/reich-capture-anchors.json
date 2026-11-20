@@ -1,0 +1,356 @@
+{
+ "_about": "Dated anchor towns for Soviet capture of German Reich territory outside 1939 Poland, 12 January – 8 May 1945 (see build-borders.py). `soviet` is the first day the place is shown as Soviet-held; null means German-held to the end of the map. Every place in Reich territory takes the date of its nearest anchor within `radiusKm` (default 100); beyond that it stays German, which includes areas taken by the Western Allies. Anchors marked `pocket` (Wrocław, Żuławy, the Vistula Spit) are circles of `radiusKm` that override their surroundings, because they held out longer. `by`, `approx` and `confidence: search-quote` as in the other anchor files.",
+ "anchors": [
+  {
+   "name": "Insterburg",
+   "query": "Chernyakhovsk, Russia",
+   "soviet": "1945-01-22",
+   "source": "https://www.iwm.org.uk/collections/item/object/205401665",
+   "note": "Imperial War Museum photo caption: Red Army sappers in the captured town of Insterburg, 21–22 January 1945 (the site refuses automated access).",
+   "confidence": "search-quote"
+  },
+  {
+   "name": "Olsztyn",
+   "query": "Olsztyn, Poland",
+   "soviet": "1945-01-22",
+   "source": "https://dzieje.pl/kalendarz-historyczny/22/1"
+  },
+  {
+   "name": "Lidzbark Warmiński",
+   "query": "Lidzbark Warmiński, Poland",
+   "soviet": "1945-01-31",
+   "source": "https://edukacja.ipn.gov.pl/download/210/1193460/1305miniWystawakatarzynkiskompresowany.pdf"
+  },
+  {
+   "name": "Elbląg",
+   "query": "Elbląg, Poland",
+   "soviet": "1945-02-10",
+   "source": "https://dzieje.pl/kalendarz-historyczny/10/2"
+  },
+  {
+   "name": "Gdańsk",
+   "query": "Gdańsk, Poland",
+   "soviet": "1945-03-30",
+   "source": "https://dzieje.pl/kalendarz-historyczny/30/3"
+  },
+  {
+   "name": "Königsberg",
+   "query": "Kaliningrad, Russia",
+   "soviet": "1945-04-09",
+   "source": "https://dzieje.pl/kalendarz-historyczny/9/4"
+  },
+  {
+   "name": "Żuławy",
+   "query": "Nowy Dwór Gdański, Poland",
+   "soviet": null,
+   "source": "https://dzieje.pl/wiadomosci/80-lat-temu-zakonczyla-sie-ii-wojna-swiatowa",
+   "note": "German troops in the Vistula delta (Żuławy) laid down their arms only with the general capitulation of 8 May 1945.",
+   "radiusKm": 20,
+   "pocket": true
+  },
+  {
+   "name": "Vistula Spit",
+   "query": "Kąty Rybackie, Poland",
+   "soviet": null,
+   "source": "https://dzieje.pl/wiadomosci/80-lat-temu-zakonczyla-sie-ii-wojna-swiatowa",
+   "note": "As Żuławy.",
+   "radiusKm": 8,
+   "pocket": true
+  },
+  {
+   "name": "Koszalin",
+   "query": "Koszalin, Poland",
+   "soviet": "1945-03-04",
+   "source": "https://dzieje.pl/kalendarz-historyczny/4/3"
+  },
+  {
+   "name": "Słupsk",
+   "query": "Słupsk, Poland",
+   "soviet": "1945-03-08",
+   "source": "https://dzieje.pl/kalendarz-historyczny/8/3"
+  },
+  {
+   "name": "Kołobrzeg",
+   "query": "Kołobrzeg, Poland",
+   "soviet": "1945-03-18",
+   "source": "https://dzieje.pl/kalendarz-historyczny/18/3"
+  },
+  {
+   "name": "Szczecin",
+   "query": "Szczecin, Poland",
+   "soviet": "1945-04-26",
+   "source": "https://dzieje.pl/kalendarz-historyczny/28/4",
+   "note": "Taken two days before the Polish administration arrived on 28 April 1945."
+  },
+  {
+   "name": "Gorzów Wielkopolski",
+   "query": "Gorzów Wielkopolski, Poland",
+   "soviet": "1945-01-30",
+   "source": "https://dzieje.pl/aktualnosci/w-sobote-dzien-pioniera-wazna-data-w-historii-gorzowa"
+  },
+  {
+   "name": "Kostrzyn",
+   "query": "Kostrzyn nad Odrą, Poland",
+   "soviet": "1945-03-30",
+   "source": "https://dzieje.pl/aktualnosci/12-dni-twierdzy-w-kostrzynie-nad-odra"
+  },
+  {
+   "name": "Sachsenhausen (Oranienburg)",
+   "query": "Oranienburg, Germany",
+   "soviet": "1945-04-22",
+   "source": "https://dzieje.pl/kalendarz-historyczny/22/4",
+   "note": "Red Army and Polish troops liberated the Sachsenhausen camp."
+  },
+  {
+   "name": "Berlin",
+   "query": "Berlin, Germany",
+   "soviet": "1945-05-02",
+   "source": "https://dzieje.pl/kalendarz-historyczny/2/5",
+   "note": "The source dates the raising of the Polish flag after the capture of Berlin to 2 May 1945.",
+   "by": true
+  },
+  {
+   "name": "Byczyna",
+   "query": "Byczyna, Poland",
+   "soviet": "1945-01-19",
+   "source": "https://przystanekhistoria.pl/download/166/105109/TragediawcieniuwyzwoleniaGornySlaskw1945.pdf",
+   "note": "IPN, 'Tragedia w cieniu „wyzwolenia”. Górny Śląsk w 1945 roku', map 2, p. 72 (dates of capture of towns)."
+  },
+  {
+   "name": "Dobrodzień",
+   "query": "Dobrodzień, Poland",
+   "soviet": "1945-01-20",
+   "source": "https://przystanekhistoria.pl/download/166/105109/TragediawcieniuwyzwoleniaGornySlaskw1945.pdf",
+   "note": "IPN, 'Tragedia w cieniu „wyzwolenia”. Górny Śląsk w 1945 roku', map 2, p. 72 (dates of capture of towns)."
+  },
+  {
+   "name": "Kluczbork",
+   "query": "Kluczbork, Poland",
+   "soviet": "1945-01-21",
+   "source": "https://przystanekhistoria.pl/download/166/105109/TragediawcieniuwyzwoleniaGornySlaskw1945.pdf",
+   "note": "IPN, 'Tragedia w cieniu „wyzwolenia”. Górny Śląsk w 1945 roku', map 2, p. 72 (dates of capture of towns)."
+  },
+  {
+   "name": "Olesno",
+   "query": "Olesno, Poland",
+   "soviet": "1945-01-21",
+   "source": "https://przystanekhistoria.pl/download/166/105109/TragediawcieniuwyzwoleniaGornySlaskw1945.pdf",
+   "note": "IPN, 'Tragedia w cieniu „wyzwolenia”. Górny Śląsk w 1945 roku', map 2, p. 72 (dates of capture of towns)."
+  },
+  {
+   "name": "Strzelce Opolskie",
+   "query": "Strzelce Opolskie, Poland",
+   "soviet": "1945-01-21",
+   "source": "https://przystanekhistoria.pl/download/166/105109/TragediawcieniuwyzwoleniaGornySlaskw1945.pdf",
+   "note": "IPN, 'Tragedia w cieniu „wyzwolenia”. Górny Śląsk w 1945 roku', map 2, p. 72 (dates of capture of towns)."
+  },
+  {
+   "name": "Opole",
+   "query": "Opole, Poland",
+   "soviet": "1945-01-24",
+   "source": "https://przystanekhistoria.pl/download/166/105109/TragediawcieniuwyzwoleniaGornySlaskw1945.pdf",
+   "note": "IPN, 'Tragedia w cieniu „wyzwolenia”. Górny Śląsk w 1945 roku', map 2, p. 72 (dates of capture of towns)."
+  },
+  {
+   "name": "Gliwice",
+   "query": "Gliwice, Poland",
+   "soviet": "1945-01-24",
+   "source": "https://przystanekhistoria.pl/download/166/105109/TragediawcieniuwyzwoleniaGornySlaskw1945.pdf",
+   "note": "IPN, 'Tragedia w cieniu „wyzwolenia”. Górny Śląsk w 1945 roku', map 2, p. 72 (dates of capture of towns)."
+  },
+  {
+   "name": "Zabrze",
+   "query": "Zabrze, Poland",
+   "soviet": "1945-01-26",
+   "source": "https://przystanekhistoria.pl/download/166/105109/TragediawcieniuwyzwoleniaGornySlaskw1945.pdf",
+   "note": "IPN, 'Tragedia w cieniu „wyzwolenia”. Górny Śląsk w 1945 roku', map 2, p. 72 (dates of capture of towns)."
+  },
+  {
+   "name": "Bytom",
+   "query": "Bytom, Poland",
+   "soviet": "1945-01-27",
+   "source": "https://przystanekhistoria.pl/download/166/105109/TragediawcieniuwyzwoleniaGornySlaskw1945.pdf",
+   "note": "IPN, 'Tragedia w cieniu „wyzwolenia”. Górny Śląsk w 1945 roku', map 2, p. 72 (dates of capture of towns)."
+  },
+  {
+   "name": "Kędzierzyn",
+   "query": "Kędzierzyn-Koźle, Poland",
+   "soviet": "1945-01-31",
+   "source": "https://przystanekhistoria.pl/download/166/105109/TragediawcieniuwyzwoleniaGornySlaskw1945.pdf",
+   "note": "IPN, 'Tragedia w cieniu „wyzwolenia”. Górny Śląsk w 1945 roku', map 2, p. 72 (dates of capture of towns)."
+  },
+  {
+   "name": "Prudnik",
+   "query": "Prudnik, Poland",
+   "soviet": "1945-03-18",
+   "source": "https://przystanekhistoria.pl/download/166/105109/TragediawcieniuwyzwoleniaGornySlaskw1945.pdf",
+   "note": "IPN, 'Tragedia w cieniu „wyzwolenia”. Górny Śląsk w 1945 roku', map 2, p. 72 (dates of capture of towns)."
+  },
+  {
+   "name": "Koźle",
+   "query": "Koźle, Kędzierzyn-Koźle",
+   "soviet": "1945-03-20",
+   "source": "https://przystanekhistoria.pl/download/166/105109/TragediawcieniuwyzwoleniaGornySlaskw1945.pdf",
+   "note": "IPN, 'Tragedia w cieniu „wyzwolenia”. Górny Śląsk w 1945 roku', map 2, p. 72 (dates of capture of towns)."
+  },
+  {
+   "name": "Nysa",
+   "query": "Nysa, Poland",
+   "soviet": "1945-03-24",
+   "source": "https://przystanekhistoria.pl/download/166/105109/TragediawcieniuwyzwoleniaGornySlaskw1945.pdf",
+   "note": "IPN, 'Tragedia w cieniu „wyzwolenia”. Górny Śląsk w 1945 roku', map 2, p. 72 (dates of capture of towns)."
+  },
+  {
+   "name": "Głubczyce",
+   "query": "Głubczyce, Poland",
+   "soviet": "1945-03-24",
+   "source": "https://przystanekhistoria.pl/download/166/105109/TragediawcieniuwyzwoleniaGornySlaskw1945.pdf",
+   "note": "IPN, 'Tragedia w cieniu „wyzwolenia”. Górny Śląsk w 1945 roku', map 2, p. 72 (dates of capture of towns)."
+  },
+  {
+   "name": "Racibórz",
+   "query": "Racibórz, Poland",
+   "soviet": "1945-04-01",
+   "source": "https://przystanekhistoria.pl/download/166/105109/TragediawcieniuwyzwoleniaGornySlaskw1945.pdf",
+   "note": "IPN, 'Tragedia w cieniu „wyzwolenia”. Górny Śląsk w 1945 roku', map 2, p. 72 (dates of capture of towns)."
+  },
+  {
+   "name": "Opava",
+   "query": "Opava, Czechia",
+   "soviet": "1945-04-24",
+   "source": "https://przystanekhistoria.pl/download/166/105109/TragediawcieniuwyzwoleniaGornySlaskw1945.pdf",
+   "note": "IPN, 'Tragedia w cieniu „wyzwolenia”. Górny Śląsk w 1945 roku', map 2, p. 72 (dates of capture of towns)."
+  },
+  {
+   "name": "Hlučín",
+   "query": "Hlučín, Czechia",
+   "soviet": "1945-04-29",
+   "source": "https://przystanekhistoria.pl/download/166/105109/TragediawcieniuwyzwoleniaGornySlaskw1945.pdf",
+   "note": "IPN, 'Tragedia w cieniu „wyzwolenia”. Górny Śląsk w 1945 roku', map 2, p. 72 (dates of capture of towns)."
+  },
+  {
+   "name": "Ostrava",
+   "query": "Ostrava, Czechia",
+   "soviet": "1945-04-30",
+   "source": "https://przystanekhistoria.pl/download/166/105109/TragediawcieniuwyzwoleniaGornySlaskw1945.pdf",
+   "note": "IPN, 'Tragedia w cieniu „wyzwolenia”. Górny Śląsk w 1945 roku', map 2, p. 72 (dates of capture of towns)."
+  },
+  {
+   "name": "Krnov",
+   "query": "Krnov, Czechia",
+   "soviet": "1945-05-06",
+   "source": "https://przystanekhistoria.pl/download/166/105109/TragediawcieniuwyzwoleniaGornySlaskw1945.pdf",
+   "note": "IPN, 'Tragedia w cieniu „wyzwolenia”. Górny Śląsk w 1945 roku', map 2, p. 72 (dates of capture of towns)."
+  },
+  {
+   "name": "Otmuchów",
+   "query": "Otmuchów, Poland",
+   "soviet": "1945-05-08",
+   "source": "https://przystanekhistoria.pl/download/166/105109/TragediawcieniuwyzwoleniaGornySlaskw1945.pdf",
+   "note": "IPN, 'Tragedia w cieniu „wyzwolenia”. Górny Śląsk w 1945 roku', map 2, p. 72 (dates of capture of towns)."
+  },
+  {
+   "name": "Paczków",
+   "query": "Paczków, Poland",
+   "soviet": null,
+   "source": "https://przystanekhistoria.pl/download/166/105109/TragediawcieniuwyzwoleniaGornySlaskw1945.pdf",
+   "note": "Captured on 9 May 1945 (IPN map), after the end of the map."
+  },
+  {
+   "name": "Głuchołazy",
+   "query": "Głuchołazy, Poland",
+   "soviet": null,
+   "source": "https://przystanekhistoria.pl/download/166/105109/TragediawcieniuwyzwoleniaGornySlaskw1945.pdf",
+   "note": "Captured on 9 May 1945 (IPN map), after the end of the map."
+  },
+  {
+   "name": "Gross-Rosen (Rogoźnica)",
+   "query": "Rogoźnica, Strzegom",
+   "soviet": "1945-02-14",
+   "source": "https://dzieje.pl/kalendarz-historyczny/14/2",
+   "note": "The Red Army liberated the Gross-Rosen camp."
+  },
+  {
+   "name": "Łambinowice",
+   "query": "Łambinowice, Poland",
+   "soviet": "1945-03-17",
+   "source": "https://dzieje.pl/kalendarz-historyczny/17/3",
+   "note": "The Red Army reached Stalag 344 Lamsdorf."
+  },
+  {
+   "name": "Wrocław (fortress)",
+   "query": "Wrocław, Poland",
+   "soviet": "1945-05-06",
+   "source": "https://dzieje.pl/kalendarz-historyczny/6/5",
+   "note": "Besieged from mid-February; the garrison capitulated on 6 May 1945. The radius is a rough size of the besieged city.",
+   "radiusKm": 8,
+   "pocket": true
+  },
+  {
+   "name": "Vienna",
+   "query": "Vienna, Austria",
+   "soviet": "1945-04-15",
+   "source": "https://encyclopedia.ushmm.org/content/en/article/vienna",
+   "note": "Source: the Red Army took control of Vienna in April 1945 (day not given).",
+   "approx": true
+  },
+  {
+   "name": "Lwówek Śląski",
+   "query": "Lwówek Śląski, Poland",
+   "soviet": null,
+   "source": "https://przystanekhistoria.pl/pa2/teksty/81337,Rezultatem-tej-historii-jest-nienawisc-Niemcy-Polacy-i-Rosjanie-na-Dolnym-Slasku.html",
+   "note": "From mid-February 1945 the front ran along the Lusatian Neisse and just north of Lwówek Śląski, Złotoryja and Strzelin, and held there until the capitulation, so this town and the mountains south of it stayed German."
+  },
+  {
+   "name": "Złotoryja",
+   "query": "Złotoryja, Poland",
+   "soviet": null,
+   "source": "https://przystanekhistoria.pl/pa2/teksty/81337,Rezultatem-tej-historii-jest-nienawisc-Niemcy-Polacy-i-Rosjanie-na-Dolnym-Slasku.html",
+   "note": "From mid-February 1945 the front ran along the Lusatian Neisse and just north of Lwówek Śląski, Złotoryja and Strzelin, and held there until the capitulation, so this town and the mountains south of it stayed German."
+  },
+  {
+   "name": "Strzelin",
+   "query": "Strzelin, Poland",
+   "soviet": null,
+   "source": "https://przystanekhistoria.pl/pa2/teksty/81337,Rezultatem-tej-historii-jest-nienawisc-Niemcy-Polacy-i-Rosjanie-na-Dolnym-Slasku.html",
+   "note": "From mid-February 1945 the front ran along the Lusatian Neisse and just north of Lwówek Śląski, Złotoryja and Strzelin, and held there until the capitulation, so this town and the mountains south of it stayed German."
+  },
+  {
+   "name": "Jelenia Góra",
+   "query": "Jelenia Góra, Poland",
+   "soviet": null,
+   "source": "https://przystanekhistoria.pl/pa2/teksty/81337,Rezultatem-tej-historii-jest-nienawisc-Niemcy-Polacy-i-Rosjanie-na-Dolnym-Slasku.html",
+   "note": "From mid-February 1945 the front ran along the Lusatian Neisse and just north of Lwówek Śląski, Złotoryja and Strzelin, and held there until the capitulation, so this town and the mountains south of it stayed German."
+  },
+  {
+   "name": "Wałbrzych",
+   "query": "Wałbrzych, Poland",
+   "soviet": null,
+   "source": "https://przystanekhistoria.pl/pa2/teksty/81337,Rezultatem-tej-historii-jest-nienawisc-Niemcy-Polacy-i-Rosjanie-na-Dolnym-Slasku.html",
+   "note": "From mid-February 1945 the front ran along the Lusatian Neisse and just north of Lwówek Śląski, Złotoryja and Strzelin, and held there until the capitulation, so this town and the mountains south of it stayed German."
+  },
+  {
+   "name": "Świdnica",
+   "query": "Świdnica, Poland",
+   "soviet": null,
+   "source": "https://przystanekhistoria.pl/pa2/teksty/81337,Rezultatem-tej-historii-jest-nienawisc-Niemcy-Polacy-i-Rosjanie-na-Dolnym-Slasku.html",
+   "note": "From mid-February 1945 the front ran along the Lusatian Neisse and just north of Lwówek Śląski, Złotoryja and Strzelin, and held there until the capitulation, so this town and the mountains south of it stayed German."
+  },
+  {
+   "name": "Kłodzko",
+   "query": "Kłodzko, Poland",
+   "soviet": null,
+   "source": "https://przystanekhistoria.pl/pa2/teksty/81337,Rezultatem-tej-historii-jest-nienawisc-Niemcy-Polacy-i-Rosjanie-na-Dolnym-Slasku.html",
+   "note": "From mid-February 1945 the front ran along the Lusatian Neisse and just north of Lwówek Śląski, Złotoryja and Strzelin, and held there until the capitulation, so this town and the mountains south of it stayed German."
+  },
+  {
+   "name": "Legnica",
+   "query": "Legnica, Poland",
+   "soviet": "1945-02-15",
+   "by": true,
+   "approx": true,
+   "source": "https://przystanekhistoria.pl/pa2/teksty/81337,Rezultatem-tej-historii-jest-nienawisc-Niemcy-Polacy-i-Rosjanie-na-Dolnym-Slasku.html",
+   "note": "North of the front that stabilised in mid-February 1945 (the source: Wrocław was encircled in mid-February, and the front settled just north of Złotoryja)."
+  }
+ ]
+}

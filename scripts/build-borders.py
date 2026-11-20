@@ -12,6 +12,8 @@ Output:
   and the territory of the German Reich and the Soviet Union outside 1939 Poland on each date.
 - `occupationCells`: from 22 June 1941, German and Romanian control of Soviet territory, approximated from dated
   anchor towns (scripts/soviet-occupation-anchors.json).
+- `reichCells`: from 12 January 1945, Soviet capture of German Reich territory outside 1939 Poland
+  (scripts/reich-capture-anchors.json).
 - `frontCells`: from 4 January 1944, an approximation of the front built from dated anchor towns
   (scripts/front-anchors.json, geocoded with OpenStreetMap Nominatim and cached in front-anchors.geo.json).
 """
@@ -115,7 +117,14 @@ geo_cache = json.load(open(GEO_CACHE)) if os.path.exists(GEO_CACHE) else {}
 def geocode(q):
     if q not in geo_cache:
         url = "https://nominatim.openstreetmap.org/search?format=json&limit=1&q=" + urllib.parse.quote(q)
-        res = json.loads(subprocess.run(["curl", "-sS", "-m", "60", "-A", "poland-ww2-map build script", url], capture_output=True, text=True).stdout)
+        for attempt in range(5):   # the public server rate-limits; back off and retry
+            try:
+                res = json.loads(subprocess.run(["curl", "-sS", "-m", "60", "-A", "poland-ww2-map build script", url], capture_output=True, text=True).stdout)
+                break
+            except json.JSONDecodeError:
+                time.sleep(10 * (attempt + 1))
+        else:
+            sys.exit(f"geocoding failed: {q}")
         if not res:
             sys.exit(f"geocoding failed: {q}")
         geo_cache[q] = {"lat": round(float(res[0]["lat"]), 5), "lng": round(float(res[0]["lon"]), 5), "displayName": res[0]["display_name"]}
@@ -228,6 +237,35 @@ json.dump(geo_cache, open(GEO_CACHE, "w"), ensure_ascii=False, indent=1)
 out["occupationCells"] = {"validFrom": INVASION, "cells": [
     {"name": c["name"], "german": c["german"], "geometry": geo(c["g"].buffer(0), simplify=False)} for c in ocells if not c["g"].is_empty]}
 print("occupation cells:", len(out["occupationCells"]["cells"]))
+
+# 12 January – 8 May 1945: Soviet capture of German Reich territory outside 1939 Poland, from dated anchor towns
+# (scripts/reich-capture-anchors.json). Each place turns Soviet on the date of its nearest anchor within that anchor's
+# radius; pockets that held out longer override their surroundings; everything else stays German. These cells replace
+# the Reich state tint from 12 January 1945.
+OFFENSIVE = "1945-01-12"
+for z in out["zones"]:
+    if z.get("scope") == "state" and z["power"] == "german" and z["validTo"] >= OFFENSIVE:
+        z["validTo"] = before(OFFENSIVE)
+rca = json.load(open(os.path.join(HERE, "reich-capture-anchors.json")))["anchors"]
+reich_s = state_area[("german", "1941-08-01")].simplify(0.01, preserve_topology=True).buffer(0)
+sites = [a for a in rca if not a.get("pocket")]
+rpts = [proj(geocode(a["query"])) for a in sites]
+rvor = voronoi_diagram(MultiPoint(rpts), envelope=proj(wide))
+rcells = []
+for p_, a in zip(rpts, sites):
+    cell = next(c for c in rvor.geoms if c.contains(p_)).intersection(p_.buffer(a.get("radiusKm", 100) * KM, 32))
+    rcells.append({"name": a["name"], "soviet": a["soviet"], "g": unproj(cell).intersection(reich_s)})
+for a in rca:
+    if a.get("pocket"):
+        pocket = unproj(proj(geocode(a["query"])).buffer(a["radiusKm"] * KM, 32)).intersection(reich_s)
+        for c in rcells:
+            c["g"] = c["g"].difference(pocket)
+        rcells.append({"name": a["name"], "soviet": a["soviet"], "g": pocket})
+rcells.append({"name": "(not taken by the Red Army)", "soviet": None, "g": reich_s.difference(unary_union([c["g"] for c in rcells]))})
+json.dump(geo_cache, open(GEO_CACHE, "w"), ensure_ascii=False, indent=1)
+out["reichCells"] = {"validFrom": OFFENSIVE, "cells": [
+    {"name": c["name"], "soviet": c["soviet"], "geometry": geo(c["g"].buffer(0), simplify=False)} for c in rcells if not c["g"].is_empty]}
+print("reich cells:", len(out["reichCells"]["cells"]))
 
 # Merge consecutive Soviet-edge layers whose lines are identical (changes outside Poland only).
 merged = []

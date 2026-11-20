@@ -933,5 +933,255 @@
   "lat": 46.64013,
   "lng": 32.61439,
   "displayName": "Херсон, Херсонська міська громада, Херсонський район, Херсонська область, 73000-73480, Україна"
+ },
+ "Chernyakhovsk, Russia": {
+  "lat": 54.63553,
+  "lng": 21.80998,
+  "displayName": "Черняховск, Черняховский муниципальный округ, Калининградская область, Северо-Западный федеральный округ, Россия"
+ },
+ "Olsztyn, Poland": {
+  "lat": 53.77668,
+  "lng": 20.47651,
+  "displayName": "Olsztyn, województwo warmińsko-mazurskie, Polska"
+ },
+ "Lidzbark Warmiński, Poland": {
+  "lat": 54.12594,
+  "lng": 20.58056,
+  "displayName": "Lidzbark Warmiński, powiat lidzbarski, województwo warmińsko-mazurskie, Polska"
+ },
+ "Elbląg, Poland": {
+  "lat": 54.15587,
+  "lng": 19.40446,
+  "displayName": "Elbląg, województwo warmińsko-mazurskie, Polska"
+ },
+ "Gdańsk, Poland": {
+  "lat": 54.34829,
+  "lng": 18.65402,
+  "displayName": "Gdańsk, województwo pomorskie, Polska"
+ },
+ "Kaliningrad, Russia": {
+  "lat": 54.71013,
+  "lng": 20.51058,
+  "displayName": "Калининград, городской округ Калининград, Калининградская область, Северо-Западный федеральный округ, Россия"
+ },
+ "Koszalin, Poland": {
+  "lat": 54.20718,
+  "lng": 16.21754,
+  "displayName": "Koszalin, województwo zachodniopomorskie, Polska"
+ },
+ "Słupsk, Poland": {
+  "lat": 54.46358,
+  "lng": 17.02095,
+  "displayName": "Słupsk, województwo pomorskie, 76-200, Polska"
+ },
+ "Kołobrzeg, Poland": {
+  "lat": 54.17607,
+  "lng": 15.57655,
+  "displayName": "Kołobrzeg, powiat kołobrzeski, województwo zachodniopomorskie, 78-100, Polska"
+ },
+ "Szczecin, Poland": {
+  "lat": 53.42981,
+  "lng": 14.59287,
+  "displayName": "Szczecin, województwo zachodniopomorskie, Polska"
+ },
+ "Gorzów Wielkopolski, Poland": {
+  "lat": 52.73058,
+  "lng": 15.21076,
+  "displayName": "Gorzów Wielkopolski, województwo lubuskie, Polska"
+ },
+ "Kostrzyn nad Odrą, Poland": {
+  "lat": 52.58987,
+  "lng": 14.65363,
+  "displayName": "Kostrzyn nad Odrą, powiat gorzowski, województwo lubuskie, 66-470, Polska"
+ },
+ "Oranienburg, Germany": {
+  "lat": 52.75294,
+  "lng": 13.24576,
+  "displayName": "Oranienburg, Oberhavel, Brandenburg, 16515, Deutschland"
+ },
+ "Berlin, Germany": {
+  "lat": 52.51739,
+  "lng": 13.39513,
+  "displayName": "Berlin, Deutschland"
+ },
+ "Byczyna, Poland": {
+  "lat": 51.11424,
+  "lng": 18.21433,
+  "displayName": "Byczyna, gmina Byczyna, powiat kluczborski, województwo opolskie, 46-220, Polska"
+ },
+ "Dobrodzień, Poland": {
+  "lat": 50.72886,
+  "lng": 18.44434,
+  "displayName": "Dobrodzień, gmina Dobrodzień, powiat oleski, województwo opolskie, 46-380, Polska"
+ },
+ "Kluczbork, Poland": {
+  "lat": 50.97307,
+  "lng": 18.21401,
+  "displayName": "Kluczbork, gmina Kluczbork, powiat kluczborski, województwo opolskie, Polska"
+ },
+ "Olesno, Poland": {
+  "lat": 50.87666,
+  "lng": 18.42195,
+  "displayName": "Olesno, gmina Olesno, powiat oleski, województwo opolskie, 46-300, Polska"
+ },
+ "Strzelce Opolskie, Poland": {
+  "lat": 50.5109,
+  "lng": 18.30045,
+  "displayName": "Strzelce Opolskie, gmina Strzelce Opolskie, powiat strzelecki, województwo opolskie, 47-100, Polska"
+ },
+ "Opole, Poland": {
+  "lat": 50.66682,
+  "lng": 17.92364,
+  "displayName": "Opole, województwo opolskie, Polska"
+ },
+ "Gliwice, Poland": {
+  "lat": 50.30113,
+  "lng": 18.66235,
+  "displayName": "Gliwice, Górnośląsko-Zagłębiowska Metropolia, województwo śląskie, Polska"
+ },
+ "Zabrze, Poland": {
+  "lat": 50.31428,
+  "lng": 18.78158,
+  "displayName": "Zabrze, Górnośląsko-Zagłębiowska Metropolia, województwo śląskie, Polska"
+ },
+ "Bytom, Poland": {
+  "lat": 50.36529,
+  "lng": 18.87226,
+  "displayName": "Bytom, Górnośląsko-Zagłębiowska Metropolia, województwo śląskie, Polska"
+ },
+ "Kędzierzyn-Koźle, Poland": {
+  "lat": 50.34488,
+  "lng": 18.21096,
+  "displayName": "Kędzierzyn-Koźle, powiat kędzierzyńsko-kozielski, województwo opolskie, Polska"
+ },
+ "Prudnik, Poland": {
+  "lat": 50.32172,
+  "lng": 17.5801,
+  "displayName": "Prudnik, gmina Prudnik, powiat prudnicki, województwo opolskie, 48-200, Polska"
+ },
+ "Koźle, Kędzierzyn-Koźle": {
+  "lat": 50.33586,
+  "lng": 18.14442,
+  "displayName": "Koźle, Kędzierzyn-Koźle, powiat kędzierzyńsko-kozielski, województwo opolskie, 47-205, Polska"
+ },
+ "Nysa, Poland": {
+  "lat": 50.4738,
+  "lng": 17.33247,
+  "displayName": "Nysa, gmina Nysa, powiat nyski, województwo opolskie, Polska"
+ },
+ "Głubczyce, Poland": {
+  "lat": 50.20011,
+  "lng": 17.8302,
+  "displayName": "Głubczyce, gmina Głubczyce, powiat głubczycki, województwo opolskie, 48-100, Polska"
+ },
+ "Racibórz, Poland": {
+  "lat": 50.09173,
+  "lng": 18.21968,
+  "displayName": "Racibórz, powiat raciborski, województwo śląskie, Polska"
+ },
+ "Opava, Czechia": {
+  "lat": 49.9389,
+  "lng": 17.90242,
+  "displayName": "Opava, okres Opava, Moravskoslezský kraj, Česko"
+ },
+ "Hlučín, Czechia": {
+  "lat": 49.89675,
+  "lng": 18.18704,
+  "displayName": "Hlučín, okres Opava, Moravskoslezský kraj, Česko"
+ },
+ "Ostrava, Czechia": {
+  "lat": 49.8354,
+  "lng": 18.29298,
+  "displayName": "Ostrava, okres Ostrava-město, Moravskoslezský kraj, Česko"
+ },
+ "Krnov, Czechia": {
+  "lat": 50.08989,
+  "lng": 17.70408,
+  "displayName": "Krnov, okres Bruntál, Moravskoslezský kraj, 794 01, Česko"
+ },
+ "Otmuchów, Poland": {
+  "lat": 50.46535,
+  "lng": 17.17305,
+  "displayName": "Otmuchów, gmina Otmuchów, powiat nyski, województwo opolskie, 48-385, Polska"
+ },
+ "Paczków, Poland": {
+  "lat": 50.46429,
+  "lng": 17.00639,
+  "displayName": "Paczków, gmina Paczków, powiat nyski, województwo opolskie, Polska"
+ },
+ "Głuchołazy, Poland": {
+  "lat": 50.31708,
+  "lng": 17.38338,
+  "displayName": "Głuchołazy, gmina Głuchołazy, powiat nyski, województwo opolskie, 48-340, Polska"
+ },
+ "Rogoźnica, Strzegom": {
+  "lat": 51.01041,
+  "lng": 16.29121,
+  "displayName": "Rogoźnica, gmina Strzegom, powiat świdnicki, województwo dolnośląskie, Polska"
+ },
+ "Łambinowice, Poland": {
+  "lat": 50.53844,
+  "lng": 17.55964,
+  "displayName": "Łambinowice, gmina Łambinowice, powiat nyski, województwo opolskie, 48-316, Polska"
+ },
+ "Vienna, Austria": {
+  "lat": 48.20835,
+  "lng": 16.3725,
+  "displayName": "Wien, Österreich"
+ },
+ "Nowy Dwór Gdański, Poland": {
+  "lat": 54.21463,
+  "lng": 19.11508,
+  "displayName": "Nowy Dwór Gdański, gmina Nowy Dwór Gdański, powiat nowodworski, województwo pomorskie, Polska"
+ },
+ "Kąty Rybackie, Poland": {
+  "lat": 54.33997,
+  "lng": 19.22953,
+  "displayName": "Kąty Rybackie, gmina Sztutowo, powiat nowodworski, województwo pomorskie, 82-104, Polska"
+ },
+ "Wrocław, Poland": {
+  "lat": 51.12631,
+  "lng": 16.9782,
+  "displayName": "Wrocław, województwo dolnośląskie, Polska"
+ },
+ "Lwówek Śląski, Poland": {
+  "lat": 51.11089,
+  "lng": 15.585,
+  "displayName": "Lwówek Śląski, gmina Lwówek Śląski, powiat lwówecki, województwo dolnośląskie, Polska"
+ },
+ "Złotoryja, Poland": {
+  "lat": 51.12241,
+  "lng": 15.91945,
+  "displayName": "Złotoryja, powiat złotoryjski, województwo dolnośląskie, Polska"
+ },
+ "Strzelin, Poland": {
+  "lat": 50.78092,
+  "lng": 17.06839,
+  "displayName": "Strzelin, gmina Strzelin, powiat strzeliński, województwo dolnośląskie, 57-100, Polska"
+ },
+ "Jelenia Góra, Poland": {
+  "lat": 50.9031,
+  "lng": 15.73443,
+  "displayName": "Jelenia Góra, województwo dolnośląskie, Polska"
+ },
+ "Wałbrzych, Poland": {
+  "lat": 50.78522,
+  "lng": 16.28464,
+  "displayName": "Wałbrzych, województwo dolnośląskie, Polska"
+ },
+ "Świdnica, Poland": {
+  "lat": 50.84248,
+  "lng": 16.48705,
+  "displayName": "Świdnica, powiat świdnicki, województwo dolnośląskie, Polska"
+ },
+ "Kłodzko, Poland": {
+  "lat": 50.43865,
+  "lng": 16.65519,
+  "displayName": "Kłodzko, powiat kłodzki, województwo dolnośląskie, Polska"
+ },
+ "Legnica, Poland": {
+  "lat": 51.20816,
+  "lng": 16.16032,
+  "displayName": "Legnica, województwo dolnośląskie, 59-220, Polska"
  }
 }

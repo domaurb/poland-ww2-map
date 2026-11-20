@@ -18,6 +18,7 @@ type Borders = {
   shapes: Record<string, Geometry>;
   frontCells: { validFrom: string; cells: Cell[] };
   occupationCells: { validFrom: string; cells: OccCell[] };
+  reichCells: { validFrom: string; cells: Cell[] };
 };
 /** A part of Soviet territory with the periods it was held by Germany or Romania: [first day, first day back]. */
 type OccCell = { name: string; german: [string, string | null][]; geometry: Geometry };
@@ -58,15 +59,18 @@ export default function BordersLayer({ visible, date }: Props) {
       alive = false;
     };
   }, [visible, data]);
-  // From January 1944 control is approximated from dated anchor towns: each cell is Soviet-held from its date.
-  // Cells around towns with no confirmed date are left untinted.
+  // From January 1944 (Poland) and January 1945 (German territory) control is approximated from dated anchor towns:
+  // each cell is Soviet-held from its date. Cells around towns with no confirmed date are left untinted.
   // All cells of one side go into a single polygon so that shared edges leave no seams.
   const front = useMemo(() => {
-    if (!data || !date || date < data.frontCells.validFrom) return null;
+    if (!data || !date) return null;
     const sides = { german: [] as ReturnType<typeof polygonPositions>, soviet: [] as ReturnType<typeof polygonPositions> };
-    for (const c of data.frontCells.cells)
-      if (!c.unknown) sides[c.soviet && date >= c.soviet ? "soviet" : "german"].push(...polygonPositions(c.geometry));
-    return sides;
+    for (const set of [data.frontCells, data.reichCells]) {
+      if (date < set.validFrom) continue;
+      for (const c of set.cells)
+        if (!c.unknown) sides[c.soviet && date >= c.soviet ? "soviet" : "german"].push(...polygonPositions(c.geometry));
+    }
+    return sides.german.length || sides.soviet.length ? sides : null;
   }, [data, date]);
   // From 22 June 1941 Soviet territory is drawn from these cells instead of the state tint.
   const occupation = useMemo(() => {
