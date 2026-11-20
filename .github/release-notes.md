@@ -6,9 +6,9 @@ Test build of the interactive WWII map of Poland (300 verified events, 1939–19
 
 Both need an internet connection for the OpenStreetMap base map; the event data is bundled.
 
-**New since v0.2**
-- Borders: Poland in 1939 and today, and the General Government.
-- Occupation zones, tinted brown (German) and red (Soviet) for the selected date: the 1939–41 partition, full German control from June 1941, and from January 1944 an approximate front built from confirmed capture dates of Polish towns. Areas with no confirmed date are left untinted.
-- Timeline density strip above the slider (events per week; click to jump).
-- Only verified events are shown; the "Verified events only" filter and the "unverified" markers are gone.
-- Polish translation review, accessibility and performance improvements.
+**New since v0.3.0**
+- German control is now shown in green (instead of brown), so it stands out from the Soviet red; checked for red–green colour blindness.
+- Poland's neighbours on 31 August 1939 are drawn (lighter lines), and the German Reich and the Soviet Union are tinted within their borders on the selected date.
+- Soviet land held by Germany or Romania in 1941–44 turns green, and German land taken by the Red Army in 1945 turns red, both approximated from documented occupation and capture dates of nearby towns.
+- The 1944 front in eastern Poland is now fully tinted, using dated towns in Polesie, the Nowogródek region, Kowel, Brześć, Stanisławów and Antopol.
+- Every anchor town, date and source is listed in `scripts/front-anchors.json`, `scripts/soviet-occupation-anchors.json` and `scripts/reich-capture-anchors.json`.
