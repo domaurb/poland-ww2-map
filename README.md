@@ -28,7 +28,8 @@ Both need an internet connection for the OpenStreetMap base map; the event data 
   (`scripts/soviet-occupation-anchors.json`: Yad Vashem community histories, the Belarusian Encyclopedia, Ukrainian
   academic encyclopedias, the USHMM, and for a few Russian cities the Great Russian Encyclopedia as quoted in search
   results). Each place takes the dates of its nearest anchor town within 150 km; Moscow and Leningrad are fixed as never
-  taken, and Courland stays German until the surrender. Areas held by Finland, and short changes of hands such as
+  taken, and Courland stays German until the surrender. Estonia follows the Estonian Institute of Historical
+  Memory (Tallinn, Narva, and the western islands, where fighting lasted until the end of November 1944). Areas held by Finland, and short changes of hands such as
   Kharkov's in February–March 1943, are not shown.
   From 12 January 1945, German territory taken by the Red Army turns **red** on the capture date of its nearest
   anchor town within 100 km (`scripts/reich-capture-anchors.json`: dzieje.pl, the IPN map of Upper Silesia in 1945,

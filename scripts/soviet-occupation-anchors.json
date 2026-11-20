@@ -994,6 +994,46 @@
    "source": "https://dzieje.pl/wiadomosci/80-lat-temu-zakonczyla-sie-ii-wojna-swiatowa",
    "note": "As Liepāja.",
    "approx": true
+  },
+  {
+   "name": "Tallinn",
+   "query": "Tallinn, Estonia",
+   "german": [
+    [
+     "1941-08-28",
+     "1944-09-22"
+    ]
+   ],
+   "source": "https://czasopisma.ipn.gov.pl/index.php/inrr/article/download/2477/2546/3722",
+   "note": "Toomas Hiio (Estonian Institute of Historical Memory), Institute of National Remembrance Review 5/2023. The Wehrmacht reached Tallinn on 28 August 1941; Red Army units entered it on 22 September 1944."
+  },
+  {
+   "name": "Saaremaa",
+   "query": "Kuressaare, Estonia",
+   "german": [
+    [
+     "1941-10-21",
+     "1944-11-30"
+    ]
+   ],
+   "by": true,
+   "approx": true,
+   "source": "https://czasopisma.ipn.gov.pl/index.php/inrr/article/download/2477/2546/3722",
+   "note": "Toomas Hiio (Estonian Institute of Historical Memory), Institute of National Remembrance Review 5/2023. The Wehrmacht had taken the western islands by 21 October 1941; the battles on the islands lasted until the end of November 1944 (most of Saaremaa fell earlier, in October)."
+  },
+  {
+   "name": "Narva",
+   "query": "Narva, Estonia",
+   "german": [
+    [
+     null,
+     "1944-07-31"
+    ]
+   ],
+   "by": true,
+   "approx": true,
+   "source": "https://czasopisma.ipn.gov.pl/index.php/inrr/article/download/2477/2546/3722",
+   "note": "Toomas Hiio (Estonian Institute of Historical Memory), Institute of National Remembrance Review 5/2023. Narva was on the front line from February to the end of July 1944; occupation date taken from the nearest town with one."
   }
  ]
 }

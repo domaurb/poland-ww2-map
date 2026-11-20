@@ -1623,5 +1623,20 @@
   "lat": 50.94319,
   "lng": 17.29571,
   "displayName": "Oława, powiat oławski, województwo dolnośląskie, Polska"
+ },
+ "Tallinn, Estonia": {
+  "lat": 59.43724,
+  "lng": 24.75727,
+  "displayName": "Tallinn, Harju maakond, Eesti"
+ },
+ "Kuressaare, Estonia": {
+  "lat": 58.25277,
+  "lng": 22.48492,
+  "displayName": "Kuressaare linn, Saaremaa vald, Saare maakond, Eesti"
+ },
+ "Narva, Estonia": {
+  "lat": 59.37675,
+  "lng": 28.19193,
+  "displayName": "Narva linn, Ida-Viru maakond, Eesti"
  }
 }
