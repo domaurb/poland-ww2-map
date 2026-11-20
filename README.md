@@ -30,7 +30,7 @@ Both need an internet connection for the OpenStreetMap base map; the event data 
   results). Each place takes the dates of its nearest anchor town within 150 km; Moscow and Leningrad are fixed as never
   taken, and Courland stays German until the surrender. Estonia follows the Estonian Institute of Historical
   Memory (Tallinn, Narva, and the western islands, where fighting lasted until the end of November 1944). Areas held by Finland, and short changes of hands such as
-  Kharkov's in February–March 1943, are not shown.
+  Kharkov's in February–March 1943, are not shown, and the Demyansk pocket south of Lake Ilmen has no dated town.
   From 12 January 1945, German territory taken by the Red Army turns **red** on the capture date of its nearest
   anchor town within 100 km (`scripts/reich-capture-anchors.json`: dzieje.pl, the IPN map of Upper Silesia in 1945,
   Przystanek Historia on Lower Silesia, T. Ginter's maps in an IPN exhibition for Warmia, Masuria and the Vistula
@@ -39,7 +39,7 @@ Both need an internet connection for the OpenStreetMap base map; the event data 
   that stabilised in February stay German to the end. German land taken by the **Western Allies** turns **purple**
   the same way, from Aachen in October 1944 (USHMM articles on the US divisions and the camps they liberated;
   dzieje.pl for the Polish 1st Armoured Division and the capitulation in north-west Germany). Mecklenburg and parts
-  of Brandenburg and Saxony have no dated towns and stay green until the end.
+  of Saxony, the Brno area of Moravia and the Mecklenburg Baltic coast have no dated towns and stay green until the end.
   **Western Europe** is green from its occupation (Denmark and Norway 9 April 1940, the Netherlands, Belgium and
   Luxembourg 10 May, France's occupied zone 22 June 1940 and the Vichy zone 11 November 1942; USHMM) and purple from its
   liberation, taken from the nearest dated town (`scripts/west-occupation-anchors.json`: USHMM, CegeSoma, dzieje.pl,

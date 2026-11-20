@@ -228,6 +228,8 @@ for z in out["zones"]:
         z["validTo"] = before(INVASION)
 occ = json.load(open(os.path.join(HERE, "soviet-occupation-anchors.json")))["anchors"]
 soviet_s = state_area[("soviet", "1941-07-17")].simplify(0.01, preserve_topology=True).buffer(0)
+opockets = [a for a in occ if a.get("pocket")]
+occ = [a for a in occ if not a.get("pocket")]
 opts = [proj(geocode(a["query"])) for a in occ]
 known = [(p, a["german"][0][0]) for p, a in zip(opts, occ) if a["german"] and a["german"][0][0]]
 for p, a in zip(opts, occ):   # a town with only a liberation date takes the occupation date of the nearest town with one
@@ -240,11 +242,16 @@ for p, a in zip(opts, occ):
     g = unproj(cell).intersection(soviet_s)
     if not g.is_empty:
         ocells.append({"name": a["name"], "german": a["german"], "g": g})
+for a in opockets:
+    pocket = unproj(proj(geocode(a["query"])).buffer(a["radiusKm"] * KM, 32)).intersection(soviet_s)
+    for c in ocells:
+        c["g"] = c["g"].difference(pocket)
+    ocells.append({"name": a["name"], "german": a["german"], "g": pocket})
 rest = soviet_s.difference(unary_union([c["g"] for c in ocells]))
 ocells.append({"name": "(no occupation)", "german": [], "g": rest})
 json.dump(geo_cache, open(GEO_CACHE, "w"), ensure_ascii=False, indent=1)
 out["occupationCells"] = {"validFrom": INVASION, "cells": [
-    {"name": c["name"], "german": c["german"], "geometry": geo(c["g"].buffer(0), simplify=False)} for c in ocells if not c["g"].is_empty]}
+    {"name": c["name"], "german": c["german"], "geometry": geo(polys(c["g"]), simplify=False)} for c in ocells if not polys(c["g"]).is_empty]}
 print("occupation cells:", len(out["occupationCells"]["cells"]))
 
 # October 1944 – 8 May 1945: capture of German Reich territory outside 1939 Poland by the Red Army or the Western
@@ -262,7 +269,7 @@ rpts = [proj(geocode(a["query"])) for a in sites]
 rvor = voronoi_diagram(MultiPoint(rpts), envelope=proj(wide))
 rcells = []
 for p_, a in zip(rpts, sites):
-    cell = next(c for c in rvor.geoms if c.contains(p_)).intersection(p_.buffer(a.get("radiusKm", 100) * KM, 32))
+    cell = next(c for c in rvor.geoms if c.contains(p_)).intersection(p_.buffer(a.get("radiusKm", 120 if a.get("allied") else 100) * KM, 32))
     rcells.append({"name": a["name"], "soviet": a.get("soviet"), "allied": a.get("allied"), "g": unproj(cell).intersection(reich_s)})
 for a in rca:
     if a.get("pocket"):

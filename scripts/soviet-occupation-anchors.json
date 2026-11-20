@@ -1,5 +1,5 @@
 {
- "_about": "Dated anchor towns for German (and Romanian) control of Soviet territory, 22 June 1941 – 8 May 1945 (see build-borders.py). `german` lists the periods each town was held, as [first day held, first day back in Soviet hands]; null as the second date means held to the end of the map; null as the first date means the source gives only a liberation date, so the occupation date of the nearest town that has one is used. An empty list means never occupied. Every place in Soviet territory takes the periods of its nearest anchor within `radiusKm` (default 150); beyond that it counts as never occupied. `approx` marks a day chosen within the month or part of month the source gives (quoted in `note`); `confidence: search-quote` marks a date read from the source's text as quoted in search results, because the site refuses automated access. Areas held by Finland are not shown.",
+ "_about": "Dated anchor towns for German (and Romanian) control of Soviet territory, 22 June 1941 – 8 May 1945 (see build-borders.py). `german` lists the periods each town was held, as [first day held, first day back in Soviet hands]; null as the second date means held to the end of the map; null as the first date means the source gives only a liberation date, so the occupation date of the nearest town that has one is used. An empty list means never occupied. Every place in Soviet territory takes the periods of its nearest anchor within `radiusKm` (default 150); beyond that it counts as never occupied. `approx` marks a day chosen within the month or part of month the source gives (quoted in `note`); `confidence: search-quote` marks a date read from the source's text as quoted in search results, because the site refuses automated access. Anchors marked `pocket` are circles of `radiusKm` that override their surroundings (Sevastopol, which held out until July 1942). Areas held by Finland are not shown.",
  "anchors": [
   {
    "name": "Minsk",
@@ -218,7 +218,9 @@
      "1944-07-23"
     ]
    ],
-   "source": "https://collections.yadvashem.org/en/untold-stories/community/14621907-Pskov"
+   "source": "https://collections.yadvashem.org/en/untold-stories/community/14621907-Pskov",
+   "radiusKm": 170,
+   "note": "Reach widened slightly to cover south-eastern Estonia (occupied from July 1941; Estonian Institute of Historical Memory)."
   },
   {
    "name": "Ostrov",
@@ -953,8 +955,9 @@
     ]
    ],
    "source": "https://encyclopedia.ushmm.org/content/en/article/riga",
-   "note": "Source: occupied in early July 1941; liberated on 13 October 1944.",
-   "approx": true
+   "note": "Source: occupied in early July 1941; liberated on 13 October 1944. Its reach is widened to cover northern Latvia and the Valga area, all occupied from June–July 1941 (USHMM, Latvia).",
+   "approx": true,
+   "radiusKm": 200
   },
   {
    "name": "Kaunas",
@@ -1005,7 +1008,8 @@
     ]
    ],
    "source": "https://czasopisma.ipn.gov.pl/index.php/inrr/article/download/2477/2546/3722",
-   "note": "Toomas Hiio (Estonian Institute of Historical Memory), Institute of National Remembrance Review 5/2023. The Wehrmacht reached Tallinn on 28 August 1941; Red Army units entered it on 22 September 1944."
+   "note": "Toomas Hiio (Estonian Institute of Historical Memory), Institute of National Remembrance Review 5/2023. The Wehrmacht reached Tallinn on 28 August 1941; Red Army units entered it on 22 September 1944. Its reach is widened to cover southern Estonia, which the source describes as occupied throughout (the Wehrmacht crossed Estonia's southern border in early July 1941).",
+   "radiusKm": 230
   },
   {
    "name": "Saaremaa",
@@ -1034,6 +1038,140 @@
    "approx": true,
    "source": "https://czasopisma.ipn.gov.pl/index.php/inrr/article/download/2477/2546/3722",
    "note": "Toomas Hiio (Estonian Institute of Historical Memory), Institute of National Remembrance Review 5/2023. Narva was on the front line from February to the end of July 1944; occupation date taken from the nearest town with one."
+  },
+  {
+   "name": "Pochep",
+   "query": "Pochep, Bryansk Oblast",
+   "german": [
+    [
+     "1941-08-22",
+     "1943-09-21"
+    ]
+   ],
+   "source": "https://collections.yadvashem.org/en/untold-stories/community/14621529-Pochep"
+  },
+  {
+   "name": "Kirovograd",
+   "query": "Kropyvnytskyi, Ukraine",
+   "german": [
+    [
+     "1941-08-14",
+     "1944-01-08"
+    ]
+   ],
+   "source": "https://collections.yadvashem.org/en/untold-stories/community/14622008-Kirovograd"
+  },
+  {
+   "name": "Pologi",
+   "query": "Polohy, Ukraine",
+   "german": [
+    [
+     "1941-10-05",
+     "1943-09-17"
+    ]
+   ],
+   "source": "https://collections.yadvashem.org/en/untold-stories/community/14621808"
+  },
+  {
+   "name": "Chongar",
+   "query": "Чонгар, Генічеський район",
+   "german": [
+    [
+     "1941-08-15",
+     "1943-10-30"
+    ]
+   ],
+   "source": "https://collections.yadvashem.org/en/untold-stories/community/14621790-Chongar"
+  },
+  {
+   "name": "Dzhankoy",
+   "query": "Dzhankoi",
+   "german": [
+    [
+     "1941-10-31",
+     "1944-04-11"
+    ]
+   ],
+   "source": "https://collections.yadvashem.org/en/untold-stories/community/14621584-Dzhankoy"
+  },
+  {
+   "name": "Feodosiya",
+   "query": "Feodosia",
+   "german": [
+    [
+     "1941-11-03",
+     "1941-12-29"
+    ],
+    [
+     "1942-01-17",
+     "1944-04-13"
+    ]
+   ],
+   "source": "https://collections.yadvashem.org/en/untold-stories/community/14621875-Feodosiya",
+   "note": "The Red Army held the city between 29 December 1941 and 17 January 1942."
+  },
+  {
+   "name": "Sevastopol (besieged until July 1942)",
+   "query": "Sevastopol",
+   "german": [
+    [
+     "1942-07-04",
+     "1944-05-09"
+    ]
+   ],
+   "pocket": true,
+   "radiusKm": 22,
+   "source": "https://resource.history.org.ua/cgi-bin/eiu/history.exe?I21DBN=EIU&P21DBN=EIU&S21STN=1&S21REF=10&S21FMT=eiu_all&C21COM=S&S21CNR=20&S21P01=0&S21P02=0&S21P03=TRN%3D&S21COLORTERMS=0&S21STR=Sevastopol_mst",
+   "note": "Encyclopedia of the History of Ukraine (Institute of History of Ukraine, NAS of Ukraine). The city held out for 250 days and was occupied from 4 July 1942 to 9 May 1944; the radius is a rough size of the besieged area."
+  },
+  {
+   "name": "Chernivtsi",
+   "query": "Chernivtsi, Ukraine",
+   "german": [
+    [
+     "1941-07-05",
+     "1944-03-29"
+    ]
+   ],
+   "source": "https://resource.history.org.ua/cgi-bin/eiu/history.exe?I21DBN=EIU&P21DBN=EIU&S21STN=1&S21REF=10&S21FMT=eiu_all&C21COM=S&S21CNR=20&S21P01=0&S21P02=0&S21P03=TRN%3D&S21COLORTERMS=0&S21STR=Chernivtsi_mst",
+   "note": "Encyclopedia of the History of Ukraine (Institute of History of Ukraine, NAS of Ukraine). Taken by Romanian troops on 5 July (the page misprints the year as 1940) and retaken by Soviet troops on 29 March 1944."
+  },
+  {
+   "name": "Khotyn",
+   "query": "Khotyn, Ukraine",
+   "german": [
+    [
+     "1941-07-06",
+     "1944-04-03"
+    ]
+   ],
+   "source": "https://resource.history.org.ua/cgi-bin/eiu/history.exe?I21DBN=EIU&P21DBN=EIU&S21STN=1&S21REF=10&S21FMT=eiu_all&C21COM=S&S21CNR=20&S21P01=0&S21P02=0&S21P03=TRN%3D&S21COLORTERMS=0&S21STR=Khotyn_mst",
+   "note": "Encyclopedia of the History of Ukraine (Institute of History of Ukraine, NAS of Ukraine). Romanian troops."
+  },
+  {
+   "name": "Bolhrad",
+   "query": "Bolhrad, Ukraine",
+   "german": [
+    [
+     "1941-07-22",
+     "1944-08-25"
+    ]
+   ],
+   "source": "https://resource.history.org.ua/cgi-bin/eiu/history.exe?I21DBN=EIU&P21DBN=EIU&S21STN=1&S21REF=10&S21FMT=eiu_all&C21COM=S&S21CNR=20&S21P01=0&S21P02=0&S21P03=TRN%3D&S21COLORTERMS=0&S21STR=Bolhrad_mst",
+   "note": "Encyclopedia of the History of Ukraine (Institute of History of Ukraine, NAS of Ukraine). Romanian troops."
+  },
+  {
+   "name": "Telšiai",
+   "query": "Telšiai, Lithuania",
+   "german": [
+    [
+     "1941-06-26",
+     "1944-08-31"
+    ]
+   ],
+   "approx": true,
+   "source": "https://collections.yadvashem.org/en/untold-stories/community/14621769-Telsiai",
+   "note": "Source: occupied on 26 June 1941, liberated 'in the summer of 1944'; shown by the end of August. Keeps the Courland pocket from extending into western Lithuania."
   }
  ]
 }

@@ -1,5 +1,5 @@
 {
- "_about": "Dated anchor towns for the capture of German Reich territory outside 1939 Poland, October 1944 – 8 May 1945 (see build-borders.py): by the Red Army (`soviet`) or by the Western Allies (`allied`), each the first day the place is shown as taken; `soviet: null` without `allied` means German-held to the end of the map. Every place in Reich territory takes the date of its nearest anchor within `radiusKm` (default 100); beyond that it stays German. Anchors marked `pocket` (Wrocław, Żuławy, the Vistula Spit) are circles of `radiusKm` that override their surroundings, because they held out longer. `by`, `approx` and `confidence: search-quote` as in the other anchor files.",
+ "_about": "Dated anchor towns for the capture of German Reich territory outside 1939 Poland, October 1944 – 8 May 1945 (see build-borders.py): by the Red Army (`soviet`) or by the Western Allies (`allied`), each the first day the place is shown as taken; `soviet: null` without `allied` means German-held to the end of the map. Every place in Reich territory takes the date of its nearest anchor within `radiusKm` (default 100 for Red Army captures, 120 for the Western Allies, whose dated towns are more evenly spread); beyond that it stays German. Anchors marked `pocket` (Wrocław, Żuławy, the Vistula Spit) are circles of `radiusKm` that override their surroundings, because they held out longer. `by`, `approx` and `confidence: search-quote` as in the other anchor files.",
  "anchors": [
   {
    "name": "Insterburg",
@@ -455,7 +455,9 @@
    "name": "Zwickau",
    "query": "Zwickau, Germany",
    "allied": "1945-04-18",
-   "source": "https://encyclopedia.ushmm.org/content/en/article/the-89th-infantry-division"
+   "source": "https://encyclopedia.ushmm.org/content/en/article/the-89th-infantry-division",
+   "radiusKm": 25,
+   "note": "Its reach is kept small: the line where US and Soviet forces met lay close by."
   },
   {
    "name": "Leipzig",
@@ -721,6 +723,121 @@
    "approx": true,
    "source": "https://przystanekhistoria.pl/pa2/teksty/81337,Rezultatem-tej-historii-jest-nienawisc-Niemcy-Polacy-i-Rosjanie-na-Dolnym-Slasku.html",
    "note": "North of the front that stabilised in mid-February 1945 along the Lusatian Neisse and just north of Lwówek Śląski, Złotoryja and Strzelin (Przystanek Historia)."
+  },
+  {
+   "name": "Hadamar",
+   "query": "Hadamar, Germany",
+   "allied": "1945-03-26",
+   "source": "https://encyclopedia.ushmm.org/content/en/article/the-2nd-infantry-division"
+  },
+  {
+   "name": "Krefeld",
+   "query": "Krefeld, Germany",
+   "allied": "1945-03-05",
+   "source": "https://encyclopedia.ushmm.org/content/en/article/the-102nd-infantry-division",
+   "approx": true,
+   "note": "Source: captured by the US 102nd Infantry Division in early March 1945."
+  },
+  {
+   "name": "Ohrdruf (Gotha)",
+   "query": "Ohrdruf, Germany",
+   "allied": "1945-04-04",
+   "source": "https://encyclopedia.ushmm.org/content/en/article/the-4th-armored-division",
+   "note": "The 4th Armored and 89th Infantry Divisions overran the Ohrdruf camp near Gotha."
+  },
+  {
+   "name": "Coburg",
+   "query": "Coburg, Germany",
+   "allied": "1945-04-11",
+   "source": "https://encyclopedia.ushmm.org/content/en/article/the-11th-armored-division"
+  },
+  {
+   "name": "Bayreuth",
+   "query": "Bayreuth, Germany",
+   "allied": "1945-04-14",
+   "source": "https://encyclopedia.ushmm.org/content/en/article/the-11th-armored-division"
+  },
+  {
+   "name": "Magdeburg",
+   "query": "Magdeburg, Germany",
+   "allied": "1945-04-18",
+   "source": "https://encyclopedia.ushmm.org/content/en/article/the-30th-infantry-division"
+  },
+  {
+   "name": "Kaufering (Landsberg)",
+   "query": "Landsberg am Lech, Germany",
+   "allied": "1945-04-27",
+   "source": "https://encyclopedia.ushmm.org/content/en/article/the-12th-armored-division",
+   "note": "US units overran the Kaufering subcamps of Dachau in the Landsberg area."
+  },
+  {
+   "name": "Mühldorf",
+   "query": "Mühldorf am Inn, Germany",
+   "allied": "1945-05-03",
+   "source": "https://encyclopedia.ushmm.org/content/en/article/the-99th-infantry-division",
+   "note": "Source: 3–4 May 1945."
+  },
+  {
+   "name": "Wöbbelin (Ludwigslust)",
+   "query": "Ludwigslust, Germany",
+   "allied": "1945-05-02",
+   "source": "https://encyclopedia.ushmm.org/content/en/article/the-82nd-airborne-division",
+   "radiusKm": 50,
+   "note": "Its reach is kept small: the line where US and Soviet forces met lay close by."
+  },
+  {
+   "name": "Ebensee",
+   "query": "Ebensee, Austria",
+   "allied": "1945-05-04",
+   "source": "https://encyclopedia.ushmm.org/content/en/article/the-80th-infantry-division",
+   "note": "Source: 4–5 May 1945."
+  },
+  {
+   "name": "Pilsen",
+   "query": "Plzeň, Czechia",
+   "allied": "1945-05-08",
+   "source": "https://encyclopedia.ushmm.org/content/en/article/the-2nd-infantry-division",
+   "by": true,
+   "note": "The 2nd Infantry Division occupied Pilsen when the war in Europe ended. Its reach is kept small: US forces stopped west of Prague.",
+   "radiusKm": 40
+  },
+  {
+   "name": "Stuttgart",
+   "query": "Stuttgart, Germany",
+   "allied": "1945-04-30",
+   "source": "https://www.defense.gouv.fr/chemins-memoire/histoire-memoires/ressources-historiques/seconde-guerre-mondiale/operations-militaires/1944-12",
+   "by": true,
+   "approx": true,
+   "confidence": "search-quote",
+   "note": "French Ministry of the Armed Forces, as quoted in search results: the French First Army crossed the Rhine on 31 March 1945 and took Karlsruhe and Stuttgart in April."
+  },
+  {
+   "name": "Freiburg",
+   "query": "Freiburg im Breisgau, Germany",
+   "allied": "1945-04-30",
+   "source": "https://www.defense.gouv.fr/chemins-memoire/histoire-memoires/ressources-historiques/seconde-guerre-mondiale/operations-militaires/1944-12",
+   "by": true,
+   "approx": true,
+   "confidence": "search-quote",
+   "note": "French Ministry of the Armed Forces, as quoted in search results: French units reached Stuttgart, Freiburg and Ulm by the end of the war; shown by the end of April 1945."
+  },
+  {
+   "name": "Bregenz",
+   "query": "Bregenz, Austria",
+   "allied": "1945-04-27",
+   "source": "https://www.defense.gouv.fr/chemins-memoire/histoire-memoires/ressources-historiques/seconde-guerre-mondiale/operations-militaires/1944-12",
+   "approx": true,
+   "confidence": "search-quote",
+   "note": "French Ministry of the Armed Forces, as quoted in search results: the French First Army entered Austria on 27 April 1945."
+  },
+  {
+   "name": "Ravensbrück (Fürstenberg)",
+   "query": "Fürstenberg/Havel, Germany",
+   "soviet": "1945-04-30",
+   "by": true,
+   "approx": true,
+   "source": "https://encyclopedia.ushmm.org/content/en/article/ravensbrueck",
+   "note": "Soviet troops liberated the Ravensbrück camp in April 1945 (day not given); shown by the end of April."
   }
  ]
 }

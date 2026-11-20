@@ -6,7 +6,12 @@ Test build of the interactive WWII map of Poland (300 verified events, 1939–19
 
 Both need an internet connection for the OpenStreetMap base map; the event data is bundled.
 
-**New since v0.3.2**
+**New since v0.3.3**
+- Estonia added to the 1941–44 occupation (Tallinn, Narva, Saaremaa); Saaremaa no longer shows German at the end of the war.
+- Audit of all territory tints, fixing: Crimea (Simferopol; Sevastopol held until July 1942), Northern Bukovina and southern Bessarabia (Romanian-held 1941–44), Bryansk, the Azov coast near Melitopol, southern Estonia, Courland no longer spilling into western Lithuania, and western and central Germany (Hesse, Thuringia, Franconia, Bavaria, Swabia, Baden, Mecklenburg west of the Soviet line, Pilsen, Salzburg) now turning purple on their capture dates, while Rostock, Dresden and Chemnitz no longer wrongly turn purple.
+- Known remaining approximations: the Demyansk pocket, the Mecklenburg Baltic coast, eastern Saxony and the Brno area have no dated towns.
+
+**Earlier (v0.3.3)**
 - Fixed areas wrongly shown as German-held at the end of the war: Klaipėda, eastern Masuria (Biała Piska, Ełk, Gołdap), the Piła–Krajenka area and parts of Lower Silesia now turn red on their capture dates (IPN maps by T. Ginter, Polish Army Museum, IPN Review, Przystanek Historia).
 - Courland (Liepāja, Ventspils), the Hel Peninsula, Żuławy, the Vistula Spit and the Lower Silesian mountains correctly stay German until the capitulation.
 

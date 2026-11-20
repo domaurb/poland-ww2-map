@@ -1638,5 +1638,135 @@
   "lat": 59.37675,
   "lng": 28.19193,
   "displayName": "Narva linn, Ida-Viru maakond, Eesti"
+ },
+ "Pochep, Bryansk Oblast": {
+  "lat": 52.92878,
+  "lng": 33.45442,
+  "displayName": "Почеп, Почепское городское поселение, Почепский район, Брянская область, Центральный федеральный округ, Россия"
+ },
+ "Kropyvnytskyi, Ukraine": {
+  "lat": 48.51058,
+  "lng": 32.26563,
+  "displayName": "Кропивницький, Кропивницька міська громада, Кропивницький район, Кіровоградська область, 25000-25490, Україна"
+ },
+ "Polohy, Ukraine": {
+  "lat": 47.47848,
+  "lng": 36.25314,
+  "displayName": "Пологи, Пологівська міська громада, Пологівський район, Запорізька область, 70600-70614, Україна"
+ },
+ "Чонгар, Генічеський район": {
+  "lat": 46.03118,
+  "lng": 34.5454,
+  "displayName": "Чонгар, Генічеська міська громада, Генічеський район, Херсонська область, 75570, Україна"
+ },
+ "Dzhankoi": {
+  "lat": 45.71197,
+  "lng": 34.39274,
+  "displayName": "Джанкой, Джанкойський район, Республика Крым, Україна"
+ },
+ "Feodosia": {
+  "lat": 45.03367,
+  "lng": 35.37536,
+  "displayName": "Феодосия, Феодосійський район, Автономна Республіка Крим, 298100-298175, Україна"
+ },
+ "Chernivtsi, Ukraine": {
+  "lat": 48.28647,
+  "lng": 25.93765,
+  "displayName": "Чернівці, Чернівецька міська громада, Чернівецький район, Чернівецька область, Україна"
+ },
+ "Khotyn, Ukraine": {
+  "lat": 48.50684,
+  "lng": 26.48591,
+  "displayName": "Хотин, Хотинська міська громада, Дністровський район, Чернівецька область, 60000-60005, Україна"
+ },
+ "Bolhrad, Ukraine": {
+  "lat": 45.67791,
+  "lng": 28.61324,
+  "displayName": "Болград, Болградська міська громада, Болградський район, Одеська область, 68702, Україна"
+ },
+ "Sevastopol": {
+  "lat": 44.60544,
+  "lng": 33.52208,
+  "displayName": "Севастополь, 299000-299699, Україна"
+ },
+ "Telšiai, Lithuania": {
+  "lat": 55.98461,
+  "lng": 22.24908,
+  "displayName": "Telšiai, Telšių miesto seniūnija, Telšių rajono savivaldybė, Telšių apskritis, Lietuva"
+ },
+ "Hadamar, Germany": {
+  "lat": 50.4587,
+  "lng": 8.05793,
+  "displayName": "Hadamar, Landkreis Limburg-Weilburg, Hessen, 65589, Deutschland"
+ },
+ "Krefeld, Germany": {
+  "lat": 51.33312,
+  "lng": 6.56233,
+  "displayName": "Krefeld, Nordrhein-Westfalen, Deutschland"
+ },
+ "Ohrdruf, Germany": {
+  "lat": 50.82701,
+  "lng": 10.73195,
+  "displayName": "Ohrdruf, Landkreis Gotha, Thüringen, 99885, Deutschland"
+ },
+ "Coburg, Germany": {
+  "lat": 50.25822,
+  "lng": 10.96456,
+  "displayName": "Coburg, Bayern, 96450, Deutschland"
+ },
+ "Bayreuth, Germany": {
+  "lat": 49.94463,
+  "lng": 11.57435,
+  "displayName": "Bayreuth, Bayern, Deutschland"
+ },
+ "Magdeburg, Germany": {
+  "lat": 52.13148,
+  "lng": 11.64008,
+  "displayName": "Magdeburg, Sachsen-Anhalt, Deutschland"
+ },
+ "Landsberg am Lech, Germany": {
+  "lat": 48.04975,
+  "lng": 10.87687,
+  "displayName": "Landsberg am Lech, Landkreis Landsberg am Lech, Bayern, 86899, Deutschland"
+ },
+ "Mühldorf am Inn, Germany": {
+  "lat": 48.2405,
+  "lng": 12.5251,
+  "displayName": "Mühldorf a. Inn, Landkreis Mühldorf am Inn, Bayern, 84453, Deutschland"
+ },
+ "Ludwigslust, Germany": {
+  "lat": 53.33002,
+  "lng": 11.49936,
+  "displayName": "Ludwigslust, Ludwigslust-Parchim, Mecklenburg-Vorpommern, 19288, Deutschland"
+ },
+ "Ebensee, Austria": {
+  "lat": 47.81224,
+  "lng": 13.77417,
+  "displayName": "Ebensee am Traunsee, Bezirk Gmunden, Oberösterreich, 4802, Österreich"
+ },
+ "Plzeň, Czechia": {
+  "lat": 49.74774,
+  "lng": 13.37752,
+  "displayName": "Plzeň, okres Plzeň-město, Plzeňský kraj, Česko"
+ },
+ "Stuttgart, Germany": {
+  "lat": 48.77845,
+  "lng": 9.18001,
+  "displayName": "Stuttgart, Baden-Württemberg, Deutschland"
+ },
+ "Freiburg im Breisgau, Germany": {
+  "lat": 47.99609,
+  "lng": 7.8494,
+  "displayName": "Freiburg im Breisgau, Baden-Württemberg, Deutschland"
+ },
+ "Bregenz, Austria": {
+  "lat": 47.50258,
+  "lng": 9.74729,
+  "displayName": "Bregenz, Bezirk Bregenz, Vorarlberg, Österreich"
+ },
+ "Fürstenberg/Havel, Germany": {
+  "lat": 53.18524,
+  "lng": 13.14568,
+  "displayName": "Fürstenberg/Havel, Oberhavel, Brandenburg, 16798, Deutschland"
  }
 }
