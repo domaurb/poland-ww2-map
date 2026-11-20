@@ -563,6 +563,164 @@
    "source": "https://www.cheminsdememoire.gouv.fr/fr/23-novembre-1944-liberation-de-strasbourg",
    "confidence": "search-quote",
    "note": "Chemins de mémoire, as quoted in search results: Task Force Rouvillois entered the city on 23 November 1944."
+  },
+  {
+   "name": "Pisz",
+   "query": "Pisz, Poland",
+   "soviet": "1945-01-24",
+   "source": "https://edukacja.ipn.gov.pl/download/210/1193460/1305miniWystawakatarzynkiskompresowany.pdf",
+   "note": "IPN exhibition '1945. Zniewolenie, nie wyzwolenie', maps by T. Ginter: areas taken by the Red Army by the given date."
+  },
+  {
+   "name": "Szczytno",
+   "query": "Szczytno, Poland",
+   "soviet": "1945-01-24",
+   "source": "https://edukacja.ipn.gov.pl/download/210/1193460/1305miniWystawakatarzynkiskompresowany.pdf",
+   "note": "IPN exhibition '1945. Zniewolenie, nie wyzwolenie', maps by T. Ginter: areas taken by the Red Army by the given date."
+  },
+  {
+   "name": "Ostróda",
+   "query": "Ostróda, Poland",
+   "soviet": "1945-01-24",
+   "source": "https://edukacja.ipn.gov.pl/download/210/1193460/1305miniWystawakatarzynkiskompresowany.pdf",
+   "note": "IPN exhibition '1945. Zniewolenie, nie wyzwolenie', maps by T. Ginter: areas taken by the Red Army by the given date."
+  },
+  {
+   "name": "Morąg",
+   "query": "Morąg, Poland",
+   "soviet": "1945-01-24",
+   "source": "https://edukacja.ipn.gov.pl/download/210/1193460/1305miniWystawakatarzynkiskompresowany.pdf",
+   "note": "IPN exhibition '1945. Zniewolenie, nie wyzwolenie', maps by T. Ginter: areas taken by the Red Army by the given date."
+  },
+  {
+   "name": "Wehlau",
+   "query": "Znamensk, Kaliningrad Oblast",
+   "soviet": "1945-01-24",
+   "source": "https://edukacja.ipn.gov.pl/download/210/1193460/1305miniWystawakatarzynkiskompresowany.pdf",
+   "note": "IPN exhibition '1945. Zniewolenie, nie wyzwolenie', maps by T. Ginter: areas taken by the Red Army by the given date."
+  },
+  {
+   "name": "Labiau",
+   "query": "Polessk, Russia",
+   "soviet": "1945-01-24",
+   "source": "https://edukacja.ipn.gov.pl/download/210/1193460/1305miniWystawakatarzynkiskompresowany.pdf",
+   "note": "IPN exhibition '1945. Zniewolenie, nie wyzwolenie', maps by T. Ginter: areas taken by the Red Army by the given date."
+  },
+  {
+   "name": "Pasłęk",
+   "query": "Pasłęk, Poland",
+   "soviet": "1945-01-27",
+   "source": "https://edukacja.ipn.gov.pl/download/210/1193460/1305miniWystawakatarzynkiskompresowany.pdf",
+   "note": "IPN exhibition '1945. Zniewolenie, nie wyzwolenie', maps by T. Ginter: areas taken by the Red Army by the given date."
+  },
+  {
+   "name": "Węgorzewo",
+   "query": "Węgorzewo, Poland",
+   "soviet": "1945-01-27",
+   "source": "https://edukacja.ipn.gov.pl/download/210/1193460/1305miniWystawakatarzynkiskompresowany.pdf",
+   "note": "IPN exhibition '1945. Zniewolenie, nie wyzwolenie', maps by T. Ginter: areas taken by the Red Army by the given date."
+  },
+  {
+   "name": "Gerdauen",
+   "query": "Zheleznodorozhny, Kaliningrad Oblast",
+   "soviet": "1945-01-27",
+   "source": "https://edukacja.ipn.gov.pl/download/210/1193460/1305miniWystawakatarzynkiskompresowany.pdf",
+   "note": "IPN exhibition '1945. Zniewolenie, nie wyzwolenie', maps by T. Ginter: areas taken by the Red Army by the given date."
+  },
+  {
+   "name": "Dobre Miasto",
+   "query": "Dobre Miasto, Poland",
+   "soviet": "1945-02-02",
+   "source": "https://edukacja.ipn.gov.pl/download/210/1193460/1305miniWystawakatarzynkiskompresowany.pdf",
+   "note": "IPN exhibition '1945. Zniewolenie, nie wyzwolenie', maps by T. Ginter: areas taken by the Red Army by the given date."
+  },
+  {
+   "name": "Orneta",
+   "query": "Orneta, Poland",
+   "soviet": "1945-02-15",
+   "source": "https://edukacja.ipn.gov.pl/download/210/1193460/1305miniWystawakatarzynkiskompresowany.pdf",
+   "note": "IPN exhibition '1945. Zniewolenie, nie wyzwolenie', maps by T. Ginter: areas taken by the Red Army by the given date."
+  },
+  {
+   "name": "Lębork",
+   "query": "Lębork, Poland",
+   "soviet": "1945-03-12",
+   "source": "https://edukacja.ipn.gov.pl/download/210/1193460/1305miniWystawakatarzynkiskompresowany.pdf",
+   "note": "IPN exhibition '1945. Zniewolenie, nie wyzwolenie', maps by T. Ginter: areas taken by the Red Army by the given date."
+  },
+  {
+   "name": "Braniewo",
+   "query": "Braniewo, Poland",
+   "soviet": "1945-03-20",
+   "source": "https://edukacja.ipn.gov.pl/download/210/1193460/1305miniWystawakatarzynkiskompresowany.pdf",
+   "note": "IPN exhibition '1945. Zniewolenie, nie wyzwolenie', maps by T. Ginter: areas taken by the Red Army by the given date."
+  },
+  {
+   "name": "Heiligenbeil",
+   "query": "Mamonovo, Russia",
+   "soviet": "1945-03-27",
+   "source": "https://edukacja.ipn.gov.pl/download/210/1193460/1305miniWystawakatarzynkiskompresowany.pdf",
+   "note": "IPN exhibition '1945. Zniewolenie, nie wyzwolenie', maps by T. Ginter: areas taken by the Red Army by the given date."
+  },
+  {
+   "name": "Kętrzyn",
+   "query": "Kętrzyn, Poland",
+   "soviet": "1945-01-27",
+   "source": "https://edukacja.ipn.gov.pl/download/210/1193460/1305miniWystawakatarzynkiskompresowany.pdf",
+   "note": "'Wojsko sowieckie zajęło miasto 27 stycznia 1945 r.' (IPN exhibition)."
+  },
+  {
+   "name": "Wałcz",
+   "query": "Wałcz, Poland",
+   "soviet": "1945-02-10",
+   "by": true,
+   "source": "https://muzeumwp.pl/timeline/poczatek-walk-o-wal-pomorski/",
+   "note": "Polish Army Museum: the key position of the Pomeranian Wall near Wałcz was broken on 6 February 1945, with fighting until 10 February."
+  },
+  {
+   "name": "Klaipėda",
+   "query": "Klaipėda, Lithuania",
+   "soviet": "1945-02-01",
+   "by": true,
+   "approx": true,
+   "source": "https://czasopisma.ipn.gov.pl/index.php/inrr/article/download/2477/2546/3722",
+   "note": "Institute of National Remembrance Review: after November 1944 the Soviet 16th Lithuanian Rifle Division was sent to take Klaipėda, and in February 1945 it went back to Courland; shown as Soviet from 1 February 1945 at the latest."
+  },
+  {
+   "name": "Żary",
+   "query": "Żary, Poland",
+   "soviet": "1945-02-15",
+   "by": true,
+   "approx": true,
+   "source": "https://przystanekhistoria.pl/pa2/teksty/81337,Rezultatem-tej-historii-jest-nienawisc-Niemcy-Polacy-i-Rosjanie-na-Dolnym-Slasku.html",
+   "note": "North of the front that stabilised in mid-February 1945 along the Lusatian Neisse and just north of Lwówek Śląski, Złotoryja and Strzelin (Przystanek Historia)."
+  },
+  {
+   "name": "Żagań",
+   "query": "Żagań, Poland",
+   "soviet": "1945-02-15",
+   "by": true,
+   "approx": true,
+   "source": "https://przystanekhistoria.pl/pa2/teksty/81337,Rezultatem-tej-historii-jest-nienawisc-Niemcy-Polacy-i-Rosjanie-na-Dolnym-Slasku.html",
+   "note": "North of the front that stabilised in mid-February 1945 along the Lusatian Neisse and just north of Lwówek Śląski, Złotoryja and Strzelin (Przystanek Historia)."
+  },
+  {
+   "name": "Bolesławiec",
+   "query": "Bolesławiec, Poland",
+   "soviet": "1945-02-15",
+   "by": true,
+   "approx": true,
+   "source": "https://przystanekhistoria.pl/pa2/teksty/81337,Rezultatem-tej-historii-jest-nienawisc-Niemcy-Polacy-i-Rosjanie-na-Dolnym-Slasku.html",
+   "note": "North of the front that stabilised in mid-February 1945 along the Lusatian Neisse and just north of Lwówek Śląski, Złotoryja and Strzelin (Przystanek Historia)."
+  },
+  {
+   "name": "Oława",
+   "query": "Oława, Poland",
+   "soviet": "1945-02-15",
+   "by": true,
+   "approx": true,
+   "source": "https://przystanekhistoria.pl/pa2/teksty/81337,Rezultatem-tej-historii-jest-nienawisc-Niemcy-Polacy-i-Rosjanie-na-Dolnym-Slasku.html",
+   "note": "North of the front that stabilised in mid-February 1945 along the Lusatian Neisse and just north of Lwówek Śląski, Złotoryja and Strzelin (Przystanek Historia)."
   }
  ]
 }

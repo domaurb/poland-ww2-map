@@ -1518,5 +1518,110 @@
   "lat": 43.70094,
   "lng": 7.26839,
   "displayName": "Nice, Alpes-Maritimes, Provence-Alpes-Côte d'Azur, France métropolitaine, France"
+ },
+ "Pisz, Poland": {
+  "lat": 53.62906,
+  "lng": 21.80825,
+  "displayName": "Pisz, gmina Pisz, powiat piski, województwo warmińsko-mazurskie, 12-200, Polska"
+ },
+ "Szczytno, Poland": {
+  "lat": 53.56549,
+  "lng": 20.99159,
+  "displayName": "Szczytno, powiat szczycieński, województwo warmińsko-mazurskie, 12-100, Polska"
+ },
+ "Ostróda, Poland": {
+  "lat": 53.70285,
+  "lng": 19.9623,
+  "displayName": "Ostróda, powiat ostródzki, województwo warmińsko-mazurskie, Polska"
+ },
+ "Morąg, Poland": {
+  "lat": 53.912,
+  "lng": 19.92799,
+  "displayName": "Morąg, gmina Morąg, powiat ostródzki, województwo warmińsko-mazurskie, 14-300, Polska"
+ },
+ "Znamensk, Kaliningrad Oblast": {
+  "lat": 54.61894,
+  "lng": 21.23288,
+  "displayName": "Знаменск, Гвардейский муниципальный округ, Калининградская область, Северо-Западный федеральный округ, 238200, Россия"
+ },
+ "Polessk, Russia": {
+  "lat": 54.86276,
+  "lng": 21.10986,
+  "displayName": "Полесск, Полесский муниципальный округ, Калининградская область, Северо-Западный федеральный округ, 238630, Россия"
+ },
+ "Pasłęk, Poland": {
+  "lat": 54.06263,
+  "lng": 19.65654,
+  "displayName": "Pasłęk, gmina Pasłęk, powiat elbląski, województwo warmińsko-mazurskie, 14-400, Polska"
+ },
+ "Węgorzewo, Poland": {
+  "lat": 54.21382,
+  "lng": 21.74166,
+  "displayName": "Węgorzewo, gmina Węgorzewo, powiat węgorzewski, województwo warmińsko-mazurskie, Polska"
+ },
+ "Zheleznodorozhny, Kaliningrad Oblast": {
+  "lat": 54.3608,
+  "lng": 21.30546,
+  "displayName": "Железнодорожный, Правдинский муниципальный округ, Калининградская область, Северо-Западный федеральный округ, Россия"
+ },
+ "Dobre Miasto, Poland": {
+  "lat": 53.98689,
+  "lng": 20.39734,
+  "displayName": "Dobre Miasto, gmina Dobre Miasto, powiat olsztyński, województwo warmińsko-mazurskie, 11-040, Polska"
+ },
+ "Orneta, Poland": {
+  "lat": 54.11555,
+  "lng": 20.13034,
+  "displayName": "Orneta, gmina Orneta, powiat lidzbarski, województwo warmińsko-mazurskie, 11-130, Polska"
+ },
+ "Lębork, Poland": {
+  "lat": 54.52956,
+  "lng": 17.74025,
+  "displayName": "Lębork, powiat lęborski, województwo pomorskie, 84-300, Polska"
+ },
+ "Braniewo, Poland": {
+  "lat": 54.37913,
+  "lng": 19.82222,
+  "displayName": "Braniewo, powiat braniewski, województwo warmińsko-mazurskie, Polska"
+ },
+ "Mamonovo, Russia": {
+  "lat": 54.46363,
+  "lng": 19.94143,
+  "displayName": "Мамоново, Мамоновский городской округ, Калининградская область, Северо-Западный федеральный округ, Россия"
+ },
+ "Kętrzyn, Poland": {
+  "lat": 54.07642,
+  "lng": 21.37526,
+  "displayName": "Kętrzyn, powiat kętrzyński, województwo warmińsko-mazurskie, 11-401, Polska"
+ },
+ "Wałcz, Poland": {
+  "lat": 53.26975,
+  "lng": 16.46707,
+  "displayName": "Wałcz, powiat wałecki, województwo zachodniopomorskie, Polska"
+ },
+ "Klaipėda, Lithuania": {
+  "lat": 55.71275,
+  "lng": 21.13505,
+  "displayName": "Klaipėda, Klaipėdos miesto savivaldybė, Klaipėdos apskritis, Lietuva"
+ },
+ "Żary, Poland": {
+  "lat": 51.63852,
+  "lng": 15.14225,
+  "displayName": "Żary, powiat żarski, województwo lubuskie, Polska"
+ },
+ "Żagań, Poland": {
+  "lat": 51.61481,
+  "lng": 15.32037,
+  "displayName": "Żagań, powiat żagański, województwo lubuskie, 68-100, Polska"
+ },
+ "Bolesławiec, Poland": {
+  "lat": 51.26303,
+  "lng": 15.5651,
+  "displayName": "Bolesławiec, powiat bolesławiecki, województwo dolnośląskie, Polska"
+ },
+ "Oława, Poland": {
+  "lat": 50.94319,
+  "lng": 17.29571,
+  "displayName": "Oława, powiat oławski, województwo dolnośląskie, Polska"
  }
 }

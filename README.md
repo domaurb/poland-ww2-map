@@ -32,7 +32,8 @@ Both need an internet connection for the OpenStreetMap base map; the event data 
   Kharkov's in February–March 1943, are not shown.
   From 12 January 1945, German territory taken by the Red Army turns **red** on the capture date of its nearest
   anchor town within 100 km (`scripts/reich-capture-anchors.json`: dzieje.pl, the IPN map of Upper Silesia in 1945,
-  Przystanek Historia on Lower Silesia, the USHMM for Vienna, the Imperial War Museum for Insterburg). Wrocław, the
+  Przystanek Historia on Lower Silesia, T. Ginter's maps in an IPN exhibition for Warmia, Masuria and the Vistula
+  Lagoon, the Polish Army Museum for the Pomeranian Wall, the USHMM for Vienna, the Imperial War Museum for Insterburg). Wrocław, the
   Vistula delta and the Vistula Spit are pockets that held out longer; the Lower Silesian mountains south of the front
   that stabilised in February stay German to the end. German land taken by the **Western Allies** turns **purple**
   the same way, from Aachen in October 1944 (USHMM articles on the US divisions and the camps they liberated;
