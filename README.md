@@ -34,7 +34,10 @@ Both need an internet connection for the OpenStreetMap base map; the event data 
   anchor town within 100 km (`scripts/reich-capture-anchors.json`: dzieje.pl, the IPN map of Upper Silesia in 1945,
   Przystanek Historia on Lower Silesia, the USHMM for Vienna, the Imperial War Museum for Insterburg). Wrocław, the
   Vistula delta and the Vistula Spit are pockets that held out longer; the Lower Silesian mountains south of the front
-  that stabilised in February stay German to the end, as do areas taken by the Western Allies.
+  that stabilised in February stay German to the end. German land taken by the **Western Allies** turns **purple**
+  the same way, from Aachen in October 1944 (USHMM articles on the US divisions and the camps they liberated;
+  dzieje.pl for the Polish 1st Armoured Division and the capitulation in north-west Germany). Mecklenburg and parts
+  of Brandenburg and Saxony have no dated towns and stay green until the end.
 - **Borders and occupation zones:** Poland on 31 August 1939 and present-day Poland as lines; on the selected date,
   the part of 1939 Poland under **German control is tinted green** (dotted green line: the General Government) and
   the part under **Soviet control is tinted red** (dashed red line: the Soviet zone's edge). The zones follow the

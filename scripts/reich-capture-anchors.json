@@ -1,5 +1,5 @@
 {
- "_about": "Dated anchor towns for Soviet capture of German Reich territory outside 1939 Poland, 12 January – 8 May 1945 (see build-borders.py). `soviet` is the first day the place is shown as Soviet-held; null means German-held to the end of the map. Every place in Reich territory takes the date of its nearest anchor within `radiusKm` (default 100); beyond that it stays German, which includes areas taken by the Western Allies. Anchors marked `pocket` (Wrocław, Żuławy, the Vistula Spit) are circles of `radiusKm` that override their surroundings, because they held out longer. `by`, `approx` and `confidence: search-quote` as in the other anchor files.",
+ "_about": "Dated anchor towns for the capture of German Reich territory outside 1939 Poland, October 1944 – 8 May 1945 (see build-borders.py): by the Red Army (`soviet`) or by the Western Allies (`allied`), each the first day the place is shown as taken; `soviet: null` without `allied` means German-held to the end of the map. Every place in Reich territory takes the date of its nearest anchor within `radiusKm` (default 100); beyond that it stays German. Anchors marked `pocket` (Wrocław, Żuławy, the Vistula Spit) are circles of `radiusKm` that override their surroundings, because they held out longer. `by`, `approx` and `confidence: search-quote` as in the other anchor files.",
  "anchors": [
   {
    "name": "Insterburg",
@@ -351,6 +351,188 @@
    "approx": true,
    "source": "https://przystanekhistoria.pl/pa2/teksty/81337,Rezultatem-tej-historii-jest-nienawisc-Niemcy-Polacy-i-Rosjanie-na-Dolnym-Slasku.html",
    "note": "North of the front that stabilised in mid-February 1945 (the source: Wrocław was encircled in mid-February, and the front settled just north of Złotoryja)."
+  },
+  {
+   "name": "Aachen",
+   "query": "Aachen, Germany",
+   "allied": "1944-10-25",
+   "source": "https://encyclopedia.ushmm.org/content/en/article/the-1st-infantry-division",
+   "note": "Source: captured by the US 1st Infantry Division in late October 1944.",
+   "approx": true
+  },
+  {
+   "name": "Trier",
+   "query": "Trier, Germany",
+   "allied": "1945-03-02",
+   "source": "https://encyclopedia.ushmm.org/content/en/article/the-10th-armored-division"
+  },
+  {
+   "name": "Remagen",
+   "query": "Remagen, Germany",
+   "allied": "1945-03-07",
+   "source": "https://encyclopedia.ushmm.org/content/en/article/the-9th-armored-division"
+  },
+  {
+   "name": "Cologne",
+   "query": "Köln, Germany",
+   "allied": "1945-03-15",
+   "source": "https://encyclopedia.ushmm.org/content/en/article/the-104th-infantry-division",
+   "note": "Source: captured by the US 104th Infantry Division in March 1945.",
+   "approx": true
+  },
+  {
+   "name": "Bonn",
+   "query": "Bonn, Germany",
+   "allied": "1945-03-16",
+   "source": "https://encyclopedia.ushmm.org/content/en/article/the-1st-infantry-division",
+   "note": "Source: the 1st Infantry Division captured Bonn and crossed the Rhine on 16 March 1945.",
+   "by": true
+  },
+  {
+   "name": "Ludwigshafen",
+   "query": "Ludwigshafen am Rhein, Germany",
+   "allied": "1945-03-21",
+   "source": "https://encyclopedia.ushmm.org/content/en/article/the-12th-armored-division"
+  },
+  {
+   "name": "Mainz",
+   "query": "Mainz, Germany",
+   "allied": "1945-03-22",
+   "source": "https://encyclopedia.ushmm.org/content/en/article/the-90th-infantry-division"
+  },
+  {
+   "name": "Heidelberg",
+   "query": "Heidelberg, Germany",
+   "allied": "1945-03-30",
+   "source": "https://encyclopedia.ushmm.org/content/en/article/the-63rd-infantry-division"
+  },
+  {
+   "name": "Eisenach",
+   "query": "Eisenach, Germany",
+   "allied": "1945-04-08",
+   "source": "https://encyclopedia.ushmm.org/content/en/article/the-89th-infantry-division"
+  },
+  {
+   "name": "Hannover",
+   "query": "Hannover, Germany",
+   "allied": "1945-04-10",
+   "source": "https://encyclopedia.ushmm.org/content/en/article/the-84th-infantry-division"
+  },
+  {
+   "name": "Nordhausen",
+   "query": "Nordhausen, Germany",
+   "allied": "1945-04-11",
+   "source": "https://encyclopedia.ushmm.org/content/en/article/the-3rd-armored-division"
+  },
+  {
+   "name": "Buchenwald (Weimar)",
+   "query": "Weimar, Germany",
+   "allied": "1945-04-11",
+   "source": "https://encyclopedia.ushmm.org/content/en/article/liberation-of-nazi-camps",
+   "note": "US forces liberated the Buchenwald camp near Weimar."
+  },
+  {
+   "name": "Oberlangen",
+   "query": "Oberlangen, Germany",
+   "allied": "1945-04-12",
+   "source": "https://dzieje.pl/kalendarz-historyczny/12/4",
+   "note": "The Polish 1st Armoured Division liberated the Oberlangen POW camp."
+  },
+  {
+   "name": "Dortmund",
+   "query": "Dortmund, Germany",
+   "allied": "1945-04-13",
+   "source": "https://encyclopedia.ushmm.org/content/en/article/the-95th-infantry-division"
+  },
+  {
+   "name": "Bergen-Belsen",
+   "query": "Bergen, Celle, Germany",
+   "allied": "1945-04-15",
+   "source": "https://encyclopedia.ushmm.org/content/en/article/bergen-belsen",
+   "note": "British forces liberated the camp."
+  },
+  {
+   "name": "Zwickau",
+   "query": "Zwickau, Germany",
+   "allied": "1945-04-18",
+   "source": "https://encyclopedia.ushmm.org/content/en/article/the-89th-infantry-division"
+  },
+  {
+   "name": "Leipzig",
+   "query": "Leipzig, Germany",
+   "allied": "1945-04-19",
+   "source": "https://encyclopedia.ushmm.org/content/en/article/the-69th-infantry-division"
+  },
+  {
+   "name": "Nuremberg",
+   "query": "Nürnberg, Germany",
+   "allied": "1945-04-20",
+   "source": "https://encyclopedia.ushmm.org/content/en/article/the-45th-infantry-division"
+  },
+  {
+   "name": "Flossenbürg",
+   "query": "Flossenbürg, Germany",
+   "allied": "1945-04-23",
+   "source": "https://encyclopedia.ushmm.org/content/en/article/flossenbuerg"
+  },
+  {
+   "name": "Dachau",
+   "query": "Dachau, Germany",
+   "allied": "1945-04-29",
+   "source": "https://encyclopedia.ushmm.org/content/en/article/dachau"
+  },
+  {
+   "name": "Munich",
+   "query": "München, Germany",
+   "allied": "1945-04-30",
+   "source": "https://encyclopedia.ushmm.org/content/en/article/the-20th-armored-division"
+  },
+  {
+   "name": "Innsbruck",
+   "query": "Innsbruck, Austria",
+   "allied": "1945-05-03",
+   "source": "https://encyclopedia.ushmm.org/content/en/article/the-103rd-infantry-division"
+  },
+  {
+   "name": "Neuengamme (Hamburg)",
+   "query": "Neuengamme, Hamburg",
+   "allied": "1945-05-04",
+   "source": "https://encyclopedia.ushmm.org/content/en/article/neuengamme",
+   "note": "British forces arrived at the camp."
+  },
+  {
+   "name": "Kiel",
+   "query": "Kiel, Germany",
+   "allied": "1945-05-05",
+   "source": "https://dzieje.pl/kalendarz-historyczny/4/5",
+   "note": "German forces in north-west Germany, the Netherlands and Denmark capitulated to the British; the surrender was signed on 4 May 1945, and these areas are shown as taken from the next day."
+  },
+  {
+   "name": "Flensburg",
+   "query": "Flensburg, Germany",
+   "allied": "1945-05-05",
+   "source": "https://dzieje.pl/kalendarz-historyczny/4/5",
+   "note": "As Kiel."
+  },
+  {
+   "name": "Linz",
+   "query": "Linz, Austria",
+   "allied": "1945-05-05",
+   "source": "https://encyclopedia.ushmm.org/content/en/article/the-11th-armored-division",
+   "note": "The 26th Infantry Division's article says 4 May."
+  },
+  {
+   "name": "Wilhelmshaven",
+   "query": "Wilhelmshaven, Germany",
+   "allied": "1945-05-06",
+   "source": "https://dzieje.pl/kalendarz-historyczny/6/5",
+   "note": "The Polish 1st Armoured Division took the naval base."
+  },
+  {
+   "name": "Zwodau (Svatava)",
+   "query": "Svatava, Czechia",
+   "allied": "1945-05-07",
+   "source": "https://encyclopedia.ushmm.org/content/en/article/the-9th-armored-division"
   }
  ]
 }

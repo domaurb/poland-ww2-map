@@ -1183,5 +1183,145 @@
   "lat": 51.20816,
   "lng": 16.16032,
   "displayName": "Legnica, województwo dolnośląskie, 59-220, Polska"
+ },
+ "Aachen, Germany": {
+  "lat": 50.77635,
+  "lng": 6.08386,
+  "displayName": "Aachen, Städteregion Aachen, Nordrhein-Westfalen, Deutschland"
+ },
+ "Trier, Germany": {
+  "lat": 49.75962,
+  "lng": 6.64419,
+  "displayName": "Trier, Trierweiler, Rheinland-Pfalz, Deutschland"
+ },
+ "Remagen, Germany": {
+  "lat": 50.57921,
+  "lng": 7.22868,
+  "displayName": "Remagen, Landkreis Ahrweiler, Rheinland-Pfalz, 53424, Deutschland"
+ },
+ "Köln, Germany": {
+  "lat": 50.93836,
+  "lng": 6.95997,
+  "displayName": "Köln, Nordrhein-Westfalen, Deutschland"
+ },
+ "Bonn, Germany": {
+  "lat": 50.73526,
+  "lng": 7.10246,
+  "displayName": "Bonn, Nordrhein-Westfalen, Deutschland"
+ },
+ "Ludwigshafen am Rhein, Germany": {
+  "lat": 49.47041,
+  "lng": 8.43816,
+  "displayName": "Ludwigshafen am Rhein, Rheinland-Pfalz, Deutschland"
+ },
+ "Mainz, Germany": {
+  "lat": 49.99952,
+  "lng": 8.27363,
+  "displayName": "Mainz, Rheinland-Pfalz, Deutschland"
+ },
+ "Heidelberg, Germany": {
+  "lat": 49.40936,
+  "lng": 8.69472,
+  "displayName": "Heidelberg, Baden-Württemberg, Deutschland"
+ },
+ "Eisenach, Germany": {
+  "lat": 50.97471,
+  "lng": 10.31936,
+  "displayName": "Eisenach, Wartburgkreis, Thüringen, 99817, Deutschland"
+ },
+ "Hannover, Germany": {
+  "lat": 52.37448,
+  "lng": 9.73855,
+  "displayName": "Hannover, Region Hannover, Niedersachsen, Deutschland"
+ },
+ "Nordhausen, Germany": {
+  "lat": 51.50516,
+  "lng": 10.79253,
+  "displayName": "Nordhausen, Landkreis Nordhausen, Thüringen, 99734, Deutschland"
+ },
+ "Weimar, Germany": {
+  "lat": 50.97933,
+  "lng": 11.32979,
+  "displayName": "Weimar, Thüringen, Deutschland"
+ },
+ "Oberlangen, Germany": {
+  "lat": 52.84845,
+  "lng": 7.26802,
+  "displayName": "Oberlangen, Samtgemeinde Lathen, Landkreis Emsland, Niedersachsen, Deutschland"
+ },
+ "Dortmund, Germany": {
+  "lat": 51.51423,
+  "lng": 7.46528,
+  "displayName": "Dortmund, Nordrhein-Westfalen, Deutschland"
+ },
+ "Bergen, Celle, Germany": {
+  "lat": 52.79898,
+  "lng": 9.99446,
+  "displayName": "Bergen, Landkreis Celle, Niedersachsen, 29303, Deutschland"
+ },
+ "Zwickau, Germany": {
+  "lat": 50.7185,
+  "lng": 12.49393,
+  "displayName": "Zwickau, Sachsen, Deutschland"
+ },
+ "Leipzig, Germany": {
+  "lat": 51.34063,
+  "lng": 12.37473,
+  "displayName": "Leipzig, Sachsen, Deutschland"
+ },
+ "Nürnberg, Germany": {
+  "lat": 49.45387,
+  "lng": 11.0773,
+  "displayName": "Nürnberg, Bayern, Deutschland"
+ },
+ "Flossenbürg, Germany": {
+  "lat": 49.73299,
+  "lng": 12.34982,
+  "displayName": "Flossenbürg, Landkreis Neustadt an der Waldnaab, Bayern, 92696, Deutschland"
+ },
+ "Dachau, Germany": {
+  "lat": 48.25951,
+  "lng": 11.43467,
+  "displayName": "Dachau, Landkreis Dachau, Bayern, 85221, Deutschland"
+ },
+ "München, Germany": {
+  "lat": 48.13711,
+  "lng": 11.57538,
+  "displayName": "München, Bayern, Deutschland"
+ },
+ "Innsbruck, Austria": {
+  "lat": 47.26543,
+  "lng": 11.39277,
+  "displayName": "Innsbruck, Tirol, Österreich"
+ },
+ "Neuengamme, Hamburg": {
+  "lat": 53.4379,
+  "lng": 10.22609,
+  "displayName": "Neuengamme, Bergedorf, Hamburg, Deutschland"
+ },
+ "Kiel, Germany": {
+  "lat": 54.32271,
+  "lng": 10.13556,
+  "displayName": "Kiel, Altenholz, Schleswig-Holstein, Deutschland"
+ },
+ "Flensburg, Germany": {
+  "lat": 54.7833,
+  "lng": 9.43333,
+  "displayName": "Flensburg, Schleswig-Holstein, Deutschland"
+ },
+ "Linz, Austria": {
+  "lat": 48.30591,
+  "lng": 14.2862,
+  "displayName": "Linz, Oberösterreich, Österreich"
+ },
+ "Wilhelmshaven, Germany": {
+  "lat": 53.52788,
+  "lng": 8.1063,
+  "displayName": "Wilhelmshaven, Wangerland, Niedersachsen, Deutschland"
+ },
+ "Svatava, Czechia": {
+  "lat": 50.19226,
+  "lng": 12.62504,
+  "displayName": "Svatava, okres Sokolov, Karlovarský kraj, 357 03, Česko"
  }
 }

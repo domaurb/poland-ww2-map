@@ -5,9 +5,9 @@ import { clampIso, isIsoDate } from "./dates";
 export type Mode = "date" | "overview";
 export type Page = "map" | "about";
 export type Speed = "day" | "week" | "month";
-export type BorderKey = "1939" | "neighbours" | "today" | "german" | "soviet";
-export const BORDER_KEYS: BorderKey[] = ["1939", "neighbours", "today", "german", "soviet"];
-export const DEFAULT_BORDERS: BorderKey[] = ["1939", "neighbours", "german", "soviet"];
+export type BorderKey = "1939" | "neighbours" | "today" | "german" | "soviet" | "allied";
+export const BORDER_KEYS: BorderKey[] = ["1939", "neighbours", "today", "german", "soviet", "allied"];
+export const DEFAULT_BORDERS: BorderKey[] = ["1939", "neighbours", "german", "soviet", "allied"];
 
 export type UrlState = {
   date: string;

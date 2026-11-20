@@ -18,7 +18,7 @@ type Borders = {
   shapes: Record<string, Geometry>;
   frontCells: { validFrom: string; cells: Cell[] };
   occupationCells: { validFrom: string; cells: OccCell[] };
-  reichCells: { validFrom: string; cells: Cell[] };
+  reichCells: { validFrom: string; cells: (Cell & { allied?: string })[] };
 };
 /** A part of Soviet territory with the periods it was held by Germany or Romania: [first day, first day back]. */
 type OccCell = { name: string; german: [string, string | null][]; geometry: Geometry };
@@ -64,13 +64,20 @@ export default function BordersLayer({ visible, date }: Props) {
   // All cells of one side go into a single polygon so that shared edges leave no seams.
   const front = useMemo(() => {
     if (!data || !date) return null;
-    const sides = { german: [] as ReturnType<typeof polygonPositions>, soviet: [] as ReturnType<typeof polygonPositions> };
-    for (const set of [data.frontCells, data.reichCells]) {
+    const sides = {
+      german: [] as ReturnType<typeof polygonPositions>,
+      soviet: [] as ReturnType<typeof polygonPositions>,
+      allied: [] as ReturnType<typeof polygonPositions>,
+    };
+    for (const set of [data.frontCells, data.reichCells] as { validFrom: string; cells: (Cell & { allied?: string })[] }[]) {
       if (date < set.validFrom) continue;
-      for (const c of set.cells)
-        if (!c.unknown) sides[c.soviet && date >= c.soviet ? "soviet" : "german"].push(...polygonPositions(c.geometry));
+      for (const c of set.cells) {
+        if (c.unknown) continue;
+        const side = c.soviet && date >= c.soviet ? "soviet" : c.allied && date >= c.allied ? "allied" : "german";
+        sides[side].push(...polygonPositions(c.geometry));
+      }
     }
-    return sides.german.length || sides.soviet.length ? sides : null;
+    return sides.german.length || sides.soviet.length || sides.allied.length ? sides : null;
   }, [data, date]);
   // From 22 June 1941 Soviet territory is drawn from these cells instead of the state tint.
   const occupation = useMemo(() => {
@@ -103,7 +110,7 @@ export default function BordersLayer({ visible, date }: Props) {
             );
           })}
         {front &&
-          (["german", "soviet"] as const).map((power) => {
+          (["german", "soviet", "allied"] as const).map((power) => {
             if (!visible.has(power) || !front[power].length) return null;
             const st = BORDER_STYLE[power];
             return (

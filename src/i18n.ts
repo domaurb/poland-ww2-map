@@ -72,8 +72,9 @@ const en = {
     today: "Present-day Poland",
     german: "German territory and German-controlled land, on the selected date",
     soviet: "Soviet territory and Soviet-controlled land, on the selected date",
-  } as Record<"1939" | "neighbours" | "today" | "german" | "soviet", string>,
-  bordersNote: "Outside 1939 Poland, the German Reich is tinted green and the Soviet Union red, within their borders on the selected date; Soviet land held by Germany or Romania in 1941–44 is green, and German land taken by the Red Army in 1945 turns red, both approximated from the documented occupation and capture dates of nearby towns. Inside 1939 Poland, tints show who controlled the territory: partitioned from 6 October 1939, all under German control from 22 June 1941. From January 1944 the front is approximated from the documented capture dates of about 80 towns (each place takes the date of the nearest one), so its edges are rough. The dotted green line is the General Government. Sources: OpenHistoricalMap; IPN, Przystanek Historia, dzieje.pl; Yad Vashem and USHMM for parts of today's Belarus and Ukraine.",
+    allied: "German land taken by the Western Allies, on the selected date",
+  } as Record<"1939" | "neighbours" | "today" | "german" | "soviet" | "allied", string>,
+  bordersNote: "Outside 1939 Poland, the German Reich is tinted green and the Soviet Union red, within their borders on the selected date; Soviet land held by Germany or Romania in 1941–44 is green, German land taken by the Red Army turns red and land taken by the Western Allies purple, all approximated from the documented occupation and capture dates of nearby towns. Inside 1939 Poland, tints show who controlled the territory: partitioned from 6 October 1939, all under German control from 22 June 1941. From January 1944 the front is approximated from the documented capture dates of about 80 towns (each place takes the date of the nearest one), so its edges are rough. The dotted green line is the General Government. Sources: OpenHistoricalMap; IPN, Przystanek Historia, dzieje.pl; Yad Vashem and USHMM for parts of today's Belarus and Ukraine.",
 };
 
 type Strings = typeof en;
@@ -152,8 +153,9 @@ const pl: Strings = {
     today: "Polska współczesna",
     german: "Terytorium Niemiec i ziemie pod kontrolą niemiecką, w wybranym dniu",
     soviet: "Terytorium ZSRS i ziemie pod kontrolą sowiecką, w wybranym dniu",
+    allied: "Ziemie niemieckie zajęte przez zachodnich aliantów, w wybranym dniu",
   },
-  bordersNote: "Poza Polską z 1939 r. Rzesza Niemiecka jest zabarwiona na zielono, a ZSRS na czerwono, w granicach z wybranego dnia; ziemie sowieckie zajęte w latach 1941–1944 przez Niemcy lub Rumunię są zielone, a ziemie niemieckie zajęte przez Armię Czerwoną w 1945 r. stają się czerwone – w obu przypadkach w przybliżeniu na podstawie udokumentowanych dat zajęcia pobliskich miejscowości. Na terytorium Polski z 1939 r. kolory pokazują, kto je kontrolował: podział od 6 października 1939 r., od 22 czerwca 1941 r. całość pod kontrolą niemiecką. Od stycznia 1944 r. przebieg frontu jest przybliżony na podstawie udokumentowanych dat zajęcia ok. 80 miejscowości (każde miejsce przyjmuje datę najbliższej z nich), więc jego granice są orientacyjne. Kropkowana zielona linia to granica Generalnego Gubernatorstwa. Źródła: OpenHistoricalMap; IPN, Przystanek Historia, dzieje.pl; dla części dzisiejszej Białorusi i Ukrainy Yad Vashem i USHMM."
+  bordersNote: "Poza Polską z 1939 r. Rzesza Niemiecka jest zabarwiona na zielono, a ZSRS na czerwono, w granicach z wybranego dnia; ziemie sowieckie zajęte w latach 1941–1944 przez Niemcy lub Rumunię są zielone, ziemie niemieckie zajęte przez Armię Czerwoną stają się czerwone, a zajęte przez zachodnich aliantów – fioletowe; wszystko w przybliżeniu na podstawie udokumentowanych dat zajęcia pobliskich miejscowości. Na terytorium Polski z 1939 r. kolory pokazują, kto je kontrolował: podział od 6 października 1939 r., od 22 czerwca 1941 r. całość pod kontrolą niemiecką. Od stycznia 1944 r. przebieg frontu jest przybliżony na podstawie udokumentowanych dat zajęcia ok. 80 miejscowości (każde miejsce przyjmuje datę najbliższej z nich), więc jego granice są orientacyjne. Kropkowana zielona linia to granica Generalnego Gubernatorstwa. Źródła: OpenHistoricalMap; IPN, Przystanek Historia, dzieje.pl; dla części dzisiejszej Białorusi i Ukrainy Yad Vashem i USHMM."
 };
 
 export const STRINGS: Record<Lang, Strings> = { en, pl };
