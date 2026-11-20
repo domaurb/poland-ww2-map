@@ -21,10 +21,10 @@ Both need an internet connection for the OpenStreetMap base map; the event data 
 - **Markers:** colour by family (military, crimes and repression, resistance, other), a glyph per event type, filled
   for events beginning on the selected day and outlined for ongoing ones; clustered where they overlap.
 - **Neighbouring states:** the land borders between Poland's neighbours on 31 August 1939, drawn lighter than
-  Poland's; on the selected date the **German Reich is tinted brown and the Soviet Union red** within their borders
+  Poland's; on the selected date the **German Reich is tinted green and the Soviet Union red** within their borders
   that day (OpenHistoricalMap; Bessarabia and Northern Bukovina are counted as Romanian until 28 June 1940, which
   OpenHistoricalMap's Soviet boundary gets wrong). From 22 June 1941, Soviet land held by Germany or Romania is
-  **brown**, approximated like the 1944 front in Poland from the occupation and liberation dates of about 90 towns
+  **green**, approximated like the 1944 front in Poland from the occupation and liberation dates of about 90 towns
   (`scripts/soviet-occupation-anchors.json`: Yad Vashem community histories, the Belarusian Encyclopedia, Ukrainian
   academic encyclopedias, the USHMM, and for a few Russian cities the Great Russian Encyclopedia as quoted in search
   results). Each place takes the dates of its nearest anchor town within 150 km; Moscow and Leningrad are fixed as never
@@ -36,7 +36,7 @@ Both need an internet connection for the OpenStreetMap base map; the event data 
   Vistula delta and the Vistula Spit are pockets that held out longer; the Lower Silesian mountains south of the front
   that stabilised in February stay German to the end, as do areas taken by the Western Allies.
 - **Borders and occupation zones:** Poland on 31 August 1939 and present-day Poland as lines; on the selected date,
-  the part of 1939 Poland under **German control is tinted brown** (dotted brown line: the General Government) and
+  the part of 1939 Poland under **German control is tinted green** (dotted green line: the General Government) and
   the part under **Soviet control is tinted red** (dashed red line: the Soviet zone's edge). The zones follow the
   partition from 6 October 1939, Wilno's Lithuanian interlude, and full German control from 22 June 1941 until
   Soviet forces re-entered pre-war Poland on 3–4 January 1944. From then until 8 May 1945 there is no open data on
