@@ -6,7 +6,11 @@ Test build of the interactive WWII map of Poland (300 verified events, 1939–19
 
 Both need an internet connection for the OpenStreetMap base map; the event data is bundled.
 
-**New since v0.3.1**
+**New since v0.3.2**
+- Fixed areas wrongly shown as German-held at the end of the war: Klaipėda, eastern Masuria (Biała Piska, Ełk, Gołdap), the Piła–Krajenka area and parts of Lower Silesia now turn red on their capture dates (IPN maps by T. Ginter, Polish Army Museum, IPN Review, Przystanek Historia).
+- Courland (Liepāja, Ventspils), the Hel Peninsula, Żuławy, the Vistula Spit and the Lower Silesian mountains correctly stay German until the capitulation.
+
+**Earlier (v0.3.2)**
 - Western Europe: Denmark, Norway, the Netherlands, Belgium, Luxembourg and France are green while German-occupied (from April–June 1940; the Vichy zone from November 1942) and purple once liberated by the Western Allies.
 - German land taken by the Western Allies in 1944–45 is shown in purple (new legend switch); land taken by the Red Army stays red.
 - The Soviet tint no longer stops at a hard edge when the map is fully zoomed out on a large screen.
