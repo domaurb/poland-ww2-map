@@ -24,7 +24,7 @@ from shapely.geometry import LineString, MultiLineString, MultiPoint, Point, box
 from shapely.ops import linemerge, polygonize, unary_union, voronoi_diagram
 
 BBOX = (13.0, 47.0, 29.5, 57.0)   # lon/lat: Poland and its surroundings
-WIDE = (2.0, 40.0, 42.0, 63.0)    # lon/lat: wider than the map's maxBounds, for the neighbouring states
+WIDE = (-25.0, 28.0, 70.0, 72.0)  # lon/lat: wider than a fully zoomed-out view on a large screen, for the neighbouring states
 TOL = 0.004                      # ~300–450 m
 URL = "https://overpass-api.openhistoricalmap.org/api/interpreter"
 POLAND_1939, POLAND_TODAY = 2741574, 2870169
