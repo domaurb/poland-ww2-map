@@ -19,6 +19,7 @@ type Borders = {
   frontCells: { validFrom: string; cells: Cell[] };
   occupationCells: { validFrom: string; cells: OccCell[] };
   reichCells: { validFrom: string; cells: (Cell & { allied?: string })[] };
+  westCells: { validFrom: string; cells: OccCell[] };
 };
 /** A part of Soviet territory with the periods it was held by Germany or Romania: [first day, first day back]. */
 type OccCell = { name: string; german: [string, string | null][]; geometry: Geometry };
@@ -92,10 +93,34 @@ export default function BordersLayer({ visible, date }: Props) {
     }
     return sides;
   }, [data, date]);
+  // Western Europe: green while occupied, purple once liberated by the Western Allies, untinted before the invasion.
+  const west = useMemo(() => {
+    if (!data || !date || date < data.westCells.validFrom) return null;
+    const sides = { german: [] as ReturnType<typeof polygonPositions>, allied: [] as ReturnType<typeof polygonPositions> };
+    for (const c of data.westCells.cells) {
+      const [from, to] = c.german[0];
+      if (date < from) continue;
+      sides[to && date >= to ? "allied" : "german"].push(...polygonPositions(c.geometry));
+    }
+    return sides;
+  }, [data, date]);
   if (!data) return null;
   return (
     <>
       <Pane name="zones" style={{ zIndex: 350 }}>
+        {west &&
+          (["german", "allied"] as const).map((power) => {
+            if (!visible.has(power) || !west[power].length) return null;
+            const st = BORDER_STYLE[power];
+            return (
+              <Polygon
+                key={`west-${power}`}
+                positions={west[power]}
+                interactive={false}
+                pathOptions={{ stroke: false, fillColor: st.fillColor ?? st.color, fillOpacity: st.fill }}
+              />
+            );
+          })}
         {occupation &&
           (["german", "soviet"] as const).map((power) => {
             if (!visible.has(power) || !occupation[power].length) return null;

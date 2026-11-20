@@ -533,6 +533,36 @@
    "query": "Svatava, Czechia",
    "allied": "1945-05-07",
    "source": "https://encyclopedia.ushmm.org/content/en/article/the-9th-armored-division"
+  },
+  {
+   "name": "Luxembourg",
+   "query": "Luxembourg, Luxembourg",
+   "allied": "1944-09-10",
+   "source": "https://luxembourg.public.lu/en/society-and-culture/history/second-world-war.html",
+   "note": "Luxembourg (annexed by Germany) was liberated by the American army on 10 September 1944."
+  },
+  {
+   "name": "Vianden",
+   "query": "Vianden, Luxembourg",
+   "allied": "1945-02-22",
+   "source": "https://luxembourg.public.lu/en/society-and-culture/history/second-world-war.html",
+   "note": "The north of Luxembourg was finally freed with the liberation of Vianden on 22 February 1945."
+  },
+  {
+   "name": "Metz",
+   "query": "Metz, France",
+   "allied": "1944-11-15",
+   "approx": true,
+   "source": "https://encyclopedia.ushmm.org/content/en/article/the-95th-infantry-division",
+   "note": "Captured by the US 95th Infantry Division in November 1944 (day not given)."
+  },
+  {
+   "name": "Strasbourg",
+   "query": "Strasbourg, France",
+   "allied": "1944-11-23",
+   "source": "https://www.cheminsdememoire.gouv.fr/fr/23-novembre-1944-liberation-de-strasbourg",
+   "confidence": "search-quote",
+   "note": "Chemins de mémoire, as quoted in search results: Task Force Rouvillois entered the city on 23 November 1944."
   }
  ]
 }

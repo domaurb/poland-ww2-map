@@ -15,13 +15,15 @@ Output:
 - `reichCells`: from October 1944, capture of German Reich territory outside 1939 Poland by the Red Army or the
   Western Allies
   (scripts/reich-capture-anchors.json).
+- `westCells`: from April 1940, German occupation and Allied liberation of Western Europe
+  (scripts/west-occupation-anchors.json).
 - `frontCells`: from 4 January 1944, an approximation of the front built from dated anchor towns
   (scripts/front-anchors.json, geocoded with OpenStreetMap Nominatim and cached in front-anchors.geo.json).
 """
 import json, math, os, subprocess, sys, time, urllib.parse
 from datetime import date, timedelta
 from shapely.affinity import scale
-from shapely.geometry import LineString, MultiLineString, MultiPoint, Point, box, mapping
+from shapely.geometry import LineString, MultiLineString, MultiPoint, Point, Polygon, box, mapping
 from shapely.ops import linemerge, polygonize, unary_union, voronoi_diagram
 
 BBOX = (13.0, 47.0, 29.5, 57.0)   # lon/lat: Poland and its surroundings
@@ -69,6 +71,12 @@ def polygon_of(rel):
 
 def rnd(c):
     return [rnd(x) for x in c] if isinstance(c[0], (list, tuple)) else [round(c[0], 4), round(c[1], 4)]
+def polys(g):
+    """Only the polygonal parts of a geometry (intersections can leave stray lines or points)."""
+    if g.geom_type in ("Polygon", "MultiPolygon"):
+        return g.buffer(0)
+    parts = [x for x in getattr(g, "geoms", []) if x.geom_type in ("Polygon", "MultiPolygon")]
+    return unary_union(parts).buffer(0) if parts else Polygon()
 def geo(g, simplify=True, tol=TOL):
     m = mapping(g.simplify(tol, preserve_topology=True) if simplify else g)
     return {"type": m["type"], "coordinates": rnd(m["coordinates"])}
@@ -268,6 +276,45 @@ out["reichCells"] = {"validFrom": OFFENSIVE, "cells": [
     {"name": c["name"], "soviet": c["soviet"], **({"allied": c["allied"]} if c["allied"] else {}), "geometry": geo(c["g"].buffer(0), simplify=False)}
     for c in rcells if not c["g"].is_empty]}
 print("reich cells:", len(out["reichCells"]["cells"]))
+
+# 9 April 1940 – 8 May 1945: German occupation of Western Europe (scripts/west-occupation-anchors.json). Each region
+# (a country, or France's occupied and Vichy zones) has its occupation date; each place takes the liberation date of
+# its nearest anchor town, with pockets overriding their surroundings. Annexed areas are Reich territory (above).
+west = json.load(open(os.path.join(HERE, "west-occupation-anchors.json")))
+def faces_of(rel, refs):
+    faces = list(polygonize(unary_union([lines(rel, WIDE).intersection(wide), wide.boundary])))
+    return unary_union([f for f in faces if any(f.contains(Point(*r)) for r in refs)])
+wsites = [a for a in west["anchors"] if not a.get("pocket")]
+wpts = [proj(geocode(a["query"])) for a in wsites]
+wvor = voronoi_diagram(MultiPoint(wpts), envelope=proj(wide))
+wcells = []
+for reg in west["regions"]:
+    area = faces_of(reg["relation"], reg["refs"]).difference(reich_s).simplify(0.01, preserve_topology=True).buffer(0)
+    # Occupation-date sub-areas: the whole region, or (France) the cells of its occupation anchors.
+    if reg.get("occupationAnchors"):
+        opts_ = [proj(geocode(o["query"])) for o in reg["occupationAnchors"]]
+        ov = voronoi_diagram(MultiPoint(opts_), envelope=proj(wide))
+        subs = [(unproj(next(c for c in ov.geoms if c.contains(p_))).intersection(area), o["occupied"]) for p_, o in zip(opts_, reg["occupationAnchors"])]
+    else:
+        subs = [(area, reg["occupied"])]
+    rcount = len(wcells)
+    for sub, occ_date in subs:
+        for p_, a in zip(wpts, wsites):
+            g = unproj(next(c for c in wvor.geoms if c.contains(p_))).intersection(sub)
+            if not g.is_empty:
+                wcells.append({"name": f'{a["name"]} ({reg["name"]})', "german": [[occ_date, a["liberated"]]], "g": g})
+        for a in west["anchors"]:
+            if a.get("pocket"):
+                pocket = unproj(proj(geocode(a["query"])).buffer(a["radiusKm"] * KM, 32)).intersection(sub)
+                if pocket.is_empty:
+                    continue
+                for c in wcells[rcount:]:
+                    c["g"] = c["g"].difference(pocket)
+                wcells.append({"name": a["name"], "german": [[occ_date, a["liberated"]]], "g": pocket})
+json.dump(geo_cache, open(GEO_CACHE, "w"), ensure_ascii=False, indent=1)
+out["westCells"] = {"validFrom": min(r["occupied"] for r in west["regions"]), "cells": [
+    {"name": c["name"], "german": c["german"], "geometry": geo(polys(c["g"]), simplify=False)} for c in wcells if not polys(c["g"]).is_empty]}
+print("west cells:", len(out["westCells"]["cells"]))
 
 # Merge consecutive Soviet-edge layers whose lines are identical (changes outside Poland only).
 merged = []

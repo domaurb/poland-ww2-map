@@ -1323,5 +1323,200 @@
   "lat": 50.19226,
   "lng": 12.62504,
   "displayName": "Svatava, okres Sokolov, Karlovarský kraj, 357 03, Česko"
+ },
+ "Luxembourg, Luxembourg": {
+  "lat": 49.61128,
+  "lng": 6.1298,
+  "displayName": "Luxembourg, Canton Luxembourg, Lëtzebuerg"
+ },
+ "Vianden, Luxembourg": {
+  "lat": 49.93892,
+  "lng": 6.19964,
+  "displayName": "Vianden, Canton Vianden, Lëtzebuerg"
+ },
+ "Metz, France": {
+  "lat": 49.1197,
+  "lng": 6.17636,
+  "displayName": "Metz, Moselle, Grand Est, France métropolitaine, France"
+ },
+ "Strasbourg, France": {
+  "lat": 48.58461,
+  "lng": 7.75071,
+  "displayName": "Strasbourg, Bas-Rhin, Collectivité européenne d'Alsace, Grand Est, France métropolitaine, France"
+ },
+ "Falaise, Calvados": {
+  "lat": 48.89647,
+  "lng": -0.19991,
+  "displayName": "Falaise, Caen, Calvados, Normandie, France métropolitaine, 14700, France"
+ },
+ "Paris, France": {
+  "lat": 48.85889,
+  "lng": 2.32004,
+  "displayName": "Paris, Île-de-France, France métropolitaine, France"
+ },
+ "Bordeaux, France": {
+  "lat": 44.84123,
+  "lng": -0.58004,
+  "displayName": "Bordeaux, Gironde, Nouvelle-Aquitaine, France métropolitaine, France"
+ },
+ "Marseille, France": {
+  "lat": 43.2964,
+  "lng": 5.37779,
+  "displayName": "Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, France"
+ },
+ "Lille, France": {
+  "lat": 50.63657,
+  "lng": 3.06353,
+  "displayName": "Lille, Nord, Hauts-de-France, France métropolitaine, France"
+ },
+ "Lyon, France": {
+  "lat": 45.75781,
+  "lng": 4.83201,
+  "displayName": "Lyon, Métropole de Lyon, Rhône, Auvergne-Rhône-Alpes, France métropolitaine, France"
+ },
+ "Brest, France": {
+  "lat": 48.39123,
+  "lng": -4.48511,
+  "displayName": "Brest, Finistère, Bretagne, France métropolitaine, 29200, France"
+ },
+ "Bruxelles, Belgium": {
+  "lat": 50.84674,
+  "lng": 4.35249,
+  "displayName": "Bruxelles - Brussel, Brussel-Hoofdstad - Bruxelles-Capitale, Région de Bruxelles-Capitale - Brussels Hoofdstedelijk Gewest, België / Belgique / Belgien"
+ },
+ "Antwerpen, Belgium": {
+  "lat": 51.22111,
+  "lng": 4.39971,
+  "displayName": "Antwerpen, Vlaanderen, België / Belgique / Belgien"
+ },
+ "Gent, Belgium": {
+  "lat": 51.05383,
+  "lng": 3.72501,
+  "displayName": "Gent, Oost-Vlaanderen, Vlaanderen, België / Belgique / Belgien"
+ },
+ "Eindhoven, Netherlands": {
+  "lat": 51.44856,
+  "lng": 5.45012,
+  "displayName": "Eindhoven, Noord-Brabant, Nederland"
+ },
+ "Breda, Netherlands": {
+  "lat": 51.58878,
+  "lng": 4.77602,
+  "displayName": "Breda, Noord-Brabant, Nederland"
+ },
+ "Amsterdam, Netherlands": {
+  "lat": 52.37308,
+  "lng": 4.89245,
+  "displayName": "Amsterdam, Noord-Holland, Nederland"
+ },
+ "København, Denmark": {
+  "lat": 55.68672,
+  "lng": 12.57007,
+  "displayName": "København, Københavns Kommune, Region Hovedstaden, 1357, Danmark"
+ },
+ "Aarhus, Denmark": {
+  "lat": 56.14963,
+  "lng": 10.2134,
+  "displayName": "Aarhus, Aarhus Kommune, Region Midtjylland, 8000, Danmark"
+ },
+ "Oslo, Norway": {
+  "lat": 59.91333,
+  "lng": 10.73897,
+  "displayName": "Oslo, Norge"
+ },
+ "Bayeux, France": {
+  "lat": 49.27646,
+  "lng": -0.70247,
+  "displayName": "Bayeux, Calvados, Normandie, France métropolitaine, 14400, France"
+ },
+ "Dunkerque, France": {
+  "lat": 51.03477,
+  "lng": 2.37725,
+  "displayName": "Dunkerque, Nord, Hauts-de-France, France métropolitaine, France"
+ },
+ "Lorient, France": {
+  "lat": 47.74773,
+  "lng": -3.36609,
+  "displayName": "Lorient, Morbihan, Bretagne, France métropolitaine, 56100, France"
+ },
+ "Saint-Nazaire, France": {
+  "lat": 47.27335,
+  "lng": -2.21389,
+  "displayName": "Saint-Nazaire, Loire-Atlantique, Pays de la Loire, France métropolitaine, 44600, France"
+ },
+ "La Rochelle, France": {
+  "lat": 46.15973,
+  "lng": -1.1516,
+  "displayName": "La Rochelle, Charente-Maritime, Nouvelle-Aquitaine, France métropolitaine, 17000, France"
+ },
+ "Royan, France": {
+  "lat": 45.62453,
+  "lng": -1.02876,
+  "displayName": "Royan, Rochefort, Charente-Maritime, Nouvelle-Aquitaine, France métropolitaine, 17200, France"
+ },
+ "Rouen, France": {
+  "lat": 49.44046,
+  "lng": 1.09397,
+  "displayName": "Rouen, Seine-Maritime, Normandie, France métropolitaine, France"
+ },
+ "Nantes, France": {
+  "lat": 47.21864,
+  "lng": -1.55414,
+  "displayName": "Nantes, Loire-Atlantique, Pays de la Loire, France métropolitaine, France"
+ },
+ "Tours, France": {
+  "lat": 47.39005,
+  "lng": 0.68893,
+  "displayName": "Tours, Indre-et-Loire, Centre-Val de Loire, France métropolitaine, France"
+ },
+ "Dijon, France": {
+  "lat": 47.32158,
+  "lng": 5.04147,
+  "displayName": "Dijon, Côte-d'Or, Bourgogne-Franche-Comté, France métropolitaine, 21000, France"
+ },
+ "Reims, France": {
+  "lat": 49.25779,
+  "lng": 4.03193,
+  "displayName": "Reims, Marne, Grand Est, France métropolitaine, 51100, France"
+ },
+ "Bayonne, France": {
+  "lat": 43.49451,
+  "lng": -1.47367,
+  "displayName": "Bayonne, Pyrénées-Atlantiques, Nouvelle-Aquitaine, France métropolitaine, 64100, France"
+ },
+ "Vichy, France": {
+  "lat": 46.12402,
+  "lng": 3.42037,
+  "displayName": "Vichy, Allier, Auvergne-Rhône-Alpes, France métropolitaine, 03200, France"
+ },
+ "Toulouse, France": {
+  "lat": 43.60446,
+  "lng": 1.44424,
+  "displayName": "Toulouse, Haute-Garonne, Occitanie, France métropolitaine, France"
+ },
+ "Limoges, France": {
+  "lat": 45.83542,
+  "lng": 1.26448,
+  "displayName": "Limoges, Haute-Vienne, Nouvelle-Aquitaine, France métropolitaine, France"
+ },
+ "Clermont-Ferrand, France": {
+  "lat": 45.77746,
+  "lng": 3.08194,
+  "displayName": "Clermont-Ferrand, Puy-de-Dôme, Auvergne-Rhône-Alpes, France métropolitaine, France"
+ },
+ "Montpellier, France": {
+  "lat": 43.61124,
+  "lng": 3.87673,
+  "displayName": "Montpellier, Hérault, Occitanie, France métropolitaine, France"
+ },
+ "Grenoble, France": {
+  "lat": 45.18756,
+  "lng": 5.73578,
+  "displayName": "Grenoble, Isère, Auvergne-Rhône-Alpes, France métropolitaine, France"
+ },
+ "Nice, France": {
+  "lat": 43.70094,
+  "lng": 7.26839,
+  "displayName": "Nice, Alpes-Maritimes, Provence-Alpes-Côte d'Azur, France métropolitaine, France"
  }
 }

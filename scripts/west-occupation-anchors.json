@@ -1,0 +1,352 @@
+{
+ "_about": "German occupation of Western Europe, 9 April 1940 – 8 May 1945 (see build-borders.py). `regions` give each country's occupation date, from OpenHistoricalMap boundaries (France's two zones from `occupationAnchors`: each place takes the date of the nearest such town); `anchors` give liberation dates. Each place takes the occupation date of its region and the liberation date of its nearest anchor; `liberated: null` means German-held to the end of the map. Anchors marked `pocket` are circles of `radiusKm` that override their surroundings. Annexed Alsace-Lorraine, Luxembourg and Eupen-Malmedy are handled as German Reich territory (reich-capture-anchors.json). `approx` and `confidence: search-quote` as in the other anchor files.",
+ "regions": [
+  {
+   "name": "Denmark",
+   "relation": 2869937,
+   "refs": [
+    [
+     12.57,
+     55.68
+    ],
+    [
+     10.21,
+     56.16
+    ],
+    [
+     10.39,
+     55.4
+    ]
+   ],
+   "occupied": "1940-04-09",
+   "source": "https://encyclopedia.ushmm.org/content/en/article/denmark"
+  },
+  {
+   "name": "Norway",
+   "relation": 2851798,
+   "refs": [
+    [
+     10.75,
+     59.91
+    ]
+   ],
+   "occupied": "1940-04-09",
+   "source": "https://encyclopedia.ushmm.org/content/en/article/norway",
+   "note": "Invaded on 9 April 1940; the north held out until Norway surrendered on 10 June."
+  },
+  {
+   "name": "Netherlands",
+   "relation": 2883430,
+   "refs": [
+    [
+     4.9,
+     52.37
+    ]
+   ],
+   "occupied": "1940-05-10",
+   "source": "https://encyclopedia.ushmm.org/content/en/article/the-netherlands",
+   "note": "Date of the invasion; the conquest took several days."
+  },
+  {
+   "name": "Belgium",
+   "relation": 2800293,
+   "refs": [
+    [
+     4.35,
+     50.85
+    ]
+   ],
+   "occupied": "1940-05-10",
+   "source": "https://encyclopedia.ushmm.org/content/en/article/belgium",
+   "note": "Date of the invasion; Belgium capitulated on 28 May."
+  },
+  {
+   "name": "France",
+   "relation": 2696299,
+   "refs": [
+    [
+     2.35,
+     48.86
+    ]
+   ],
+   "occupied": "1940-06-22",
+   "source": "https://encyclopedia.ushmm.org/content/en/article/france",
+   "note": "OpenHistoricalMap has no demarcation line, so the 1940–42 zones are approximated from towns on each side: by the armistice of 22 June 1940 Germany occupied northern France and the Atlantic coast down to Spain; southern France, with the regime's seat at Vichy, stayed unoccupied until 11 November 1942 (USHMM).",
+   "occupationAnchors": [
+    {
+     "name": "Paris",
+     "query": "Paris, France",
+     "occupied": "1940-06-22"
+    },
+    {
+     "name": "Lille",
+     "query": "Lille, France",
+     "occupied": "1940-06-22"
+    },
+    {
+     "name": "Rouen",
+     "query": "Rouen, France",
+     "occupied": "1940-06-22"
+    },
+    {
+     "name": "Brest",
+     "query": "Brest, France",
+     "occupied": "1940-06-22"
+    },
+    {
+     "name": "Nantes",
+     "query": "Nantes, France",
+     "occupied": "1940-06-22"
+    },
+    {
+     "name": "Tours",
+     "query": "Tours, France",
+     "occupied": "1940-06-22"
+    },
+    {
+     "name": "Dijon",
+     "query": "Dijon, France",
+     "occupied": "1940-06-22"
+    },
+    {
+     "name": "Reims",
+     "query": "Reims, France",
+     "occupied": "1940-06-22"
+    },
+    {
+     "name": "Bordeaux",
+     "query": "Bordeaux, France",
+     "occupied": "1940-06-22"
+    },
+    {
+     "name": "Bayonne",
+     "query": "Bayonne, France",
+     "occupied": "1940-06-22"
+    },
+    {
+     "name": "Vichy",
+     "query": "Vichy, France",
+     "occupied": "1942-11-11"
+    },
+    {
+     "name": "Lyon",
+     "query": "Lyon, France",
+     "occupied": "1942-11-11"
+    },
+    {
+     "name": "Marseille",
+     "query": "Marseille, France",
+     "occupied": "1942-11-11"
+    },
+    {
+     "name": "Toulouse",
+     "query": "Toulouse, France",
+     "occupied": "1942-11-11"
+    },
+    {
+     "name": "Limoges",
+     "query": "Limoges, France",
+     "occupied": "1942-11-11"
+    },
+    {
+     "name": "Clermont-Ferrand",
+     "query": "Clermont-Ferrand, France",
+     "occupied": "1942-11-11"
+    },
+    {
+     "name": "Montpellier",
+     "query": "Montpellier, France",
+     "occupied": "1942-11-11"
+    },
+    {
+     "name": "Grenoble",
+     "query": "Grenoble, France",
+     "occupied": "1942-11-11"
+    },
+    {
+     "name": "Nice",
+     "query": "Nice, France",
+     "occupied": "1942-11-11"
+    }
+   ]
+  }
+ ],
+ "anchors": [
+  {
+   "name": "Normandy beachhead (Bayeux)",
+   "query": "Bayeux, France",
+   "liberated": "1944-06-06",
+   "source": "https://encyclopedia.ushmm.org/content/en/article/france",
+   "note": "Allied landing in Normandy on 6 June 1944 (D-Day); the radius is a rough size of the first beachhead.",
+   "radiusKm": 30,
+   "pocket": true
+  },
+  {
+   "name": "Falaise",
+   "query": "Falaise, Calvados",
+   "liberated": "1944-08-21",
+   "source": "https://dzieje.pl/kalendarz-historyczny/21/8",
+   "note": "End of the battle of the Falaise pocket."
+  },
+  {
+   "name": "Paris",
+   "query": "Paris, France",
+   "liberated": "1944-08-25",
+   "source": "https://encyclopedia.ushmm.org/content/en/article/france"
+  },
+  {
+   "name": "Bordeaux",
+   "query": "Bordeaux, France",
+   "liberated": "1944-08-28",
+   "source": "https://www.cheminsdememoire.gouv.fr/fr/revue/liberer-la-france",
+   "note": "Chemins de mémoire (French Ministry of the Armed Forces), as quoted in search results; the site could not be reached.",
+   "confidence": "search-quote"
+  },
+  {
+   "name": "Marseille",
+   "query": "Marseille, France",
+   "liberated": "1944-08-28",
+   "source": "https://www.cheminsdememoire.gouv.fr/fr/la-liberation-de-marseille",
+   "note": "Chemins de mémoire, as quoted in search results; its pages give 28 and 29 August.",
+   "confidence": "search-quote"
+  },
+  {
+   "name": "Lille",
+   "query": "Lille, France",
+   "liberated": "1944-09-02",
+   "source": "https://www.cheminsdememoire.gouv.fr/fr/revue/1944-la-rupture-0",
+   "note": "Chemins de mémoire, as quoted in search results.",
+   "confidence": "search-quote"
+  },
+  {
+   "name": "Lyon",
+   "query": "Lyon, France",
+   "liberated": "1944-09-03",
+   "source": "https://www.cheminsdememoire.gouv.fr/fr/revue/liberer-la-france",
+   "note": "Chemins de mémoire, as quoted in search results.",
+   "confidence": "search-quote"
+  },
+  {
+   "name": "Brest",
+   "query": "Brest, France",
+   "liberated": "1944-09-15",
+   "source": "https://www.cheminsdememoire.gouv.fr/fr/revue/liberer-la-france",
+   "note": "Chemins de mémoire, as quoted in search results: liberated in September 1944 (day not given).",
+   "approx": true,
+   "confidence": "search-quote"
+  },
+  {
+   "name": "Brussels",
+   "query": "Bruxelles, Belgium",
+   "liberated": "1944-09-03",
+   "source": "https://www.cegesoma.be/en/publication/bruxelles-ville-lib%C3%A9r%C3%A9e-1944-1945",
+   "note": "CegeSoma (State Archives in Belgium): 'In the evening of 3 September 1944, Brussels is a liberated city.'"
+  },
+  {
+   "name": "Antwerp",
+   "query": "Antwerpen, Belgium",
+   "liberated": "1944-09-04",
+   "source": "https://encyclopedia.ushmm.org/content/en/article/the-11th-armoured-division-great-britain"
+  },
+  {
+   "name": "Ghent",
+   "query": "Gent, Belgium",
+   "liberated": "1944-09-14",
+   "source": "https://dzieje.pl/kalendarz-historyczny/14/9",
+   "note": "Taken by the Polish 1st Armoured Division."
+  },
+  {
+   "name": "Eindhoven",
+   "query": "Eindhoven, Netherlands",
+   "liberated": "1944-09-18",
+   "source": "https://www.iwm.org.uk/history/the-story-of-operation-market-garden-in-photos",
+   "note": "Imperial War Museum, as quoted in search results (the site refuses automated access).",
+   "confidence": "search-quote"
+  },
+  {
+   "name": "Breda",
+   "query": "Breda, Netherlands",
+   "liberated": "1944-10-29",
+   "source": "https://dzieje.pl/kalendarz-historyczny/29/10",
+   "note": "Entered by the Polish 1st Armoured Division."
+  },
+  {
+   "name": "Amsterdam",
+   "query": "Amsterdam, Netherlands",
+   "liberated": "1945-05-05",
+   "source": "https://dzieje.pl/kalendarz-historyczny/4/5",
+   "note": "German forces in the Netherlands, Denmark and north-west Germany capitulated; signed on 4 May 1945, shown from the next day."
+  },
+  {
+   "name": "Copenhagen",
+   "query": "København, Denmark",
+   "liberated": "1945-05-05",
+   "source": "https://dzieje.pl/kalendarz-historyczny/4/5",
+   "note": "As Amsterdam."
+  },
+  {
+   "name": "Aarhus",
+   "query": "Aarhus, Denmark",
+   "liberated": "1945-05-05",
+   "source": "https://dzieje.pl/kalendarz-historyczny/4/5",
+   "note": "As Amsterdam."
+  },
+  {
+   "name": "Oslo",
+   "query": "Oslo, Norway",
+   "liberated": null,
+   "source": "https://encyclopedia.ushmm.org/content/en/article/norway",
+   "note": "German forces in Norway surrendered on 8 May 1945."
+  },
+  {
+   "name": "Dunkirk pocket",
+   "query": "Dunkerque, France",
+   "liberated": null,
+   "source": "https://www.defense.gouv.fr/mission-liberation/vivre-liberation/liberation-via-ses-historiens/regards-dhistoriens-liberation/commemoration-of",
+   "note": "French Ministry of the Armed Forces (Mission Libération), as quoted in search results: the Atlantic and Dunkirk pockets surrendered between 7 and 11 May 1945; Royan on 17 April. The radius is a rough size.",
+   "pocket": true,
+   "radiusKm": 18,
+   "confidence": "search-quote"
+  },
+  {
+   "name": "Lorient pocket",
+   "query": "Lorient, France",
+   "liberated": null,
+   "source": "https://www.defense.gouv.fr/mission-liberation/vivre-liberation/liberation-via-ses-historiens/regards-dhistoriens-liberation/commemoration-of",
+   "note": "French Ministry of the Armed Forces (Mission Libération), as quoted in search results: the Atlantic and Dunkirk pockets surrendered between 7 and 11 May 1945; Royan on 17 April. The radius is a rough size.",
+   "pocket": true,
+   "radiusKm": 18,
+   "confidence": "search-quote"
+  },
+  {
+   "name": "Saint-Nazaire pocket",
+   "query": "Saint-Nazaire, France",
+   "liberated": null,
+   "source": "https://www.defense.gouv.fr/mission-liberation/vivre-liberation/liberation-via-ses-historiens/regards-dhistoriens-liberation/commemoration-of",
+   "note": "French Ministry of the Armed Forces (Mission Libération), as quoted in search results: the Atlantic and Dunkirk pockets surrendered between 7 and 11 May 1945; Royan on 17 April. The radius is a rough size.",
+   "pocket": true,
+   "radiusKm": 18,
+   "confidence": "search-quote"
+  },
+  {
+   "name": "La Rochelle pocket",
+   "query": "La Rochelle, France",
+   "liberated": null,
+   "source": "https://www.defense.gouv.fr/mission-liberation/vivre-liberation/liberation-via-ses-historiens/regards-dhistoriens-liberation/commemoration-of",
+   "note": "French Ministry of the Armed Forces (Mission Libération), as quoted in search results: the Atlantic and Dunkirk pockets surrendered between 7 and 11 May 1945; Royan on 17 April. The radius is a rough size.",
+   "pocket": true,
+   "radiusKm": 18,
+   "confidence": "search-quote"
+  },
+  {
+   "name": "Royan pocket",
+   "query": "Royan, France",
+   "liberated": "1945-04-17",
+   "source": "https://www.defense.gouv.fr/mission-liberation/vivre-liberation/liberation-via-ses-historiens/regards-dhistoriens-liberation/commemoration-of",
+   "note": "French Ministry of the Armed Forces (Mission Libération), as quoted in search results: the Atlantic and Dunkirk pockets surrendered between 7 and 11 May 1945; Royan on 17 April. The radius is a rough size.",
+   "pocket": true,
+   "radiusKm": 18,
+   "confidence": "search-quote"
+  }
+ ]
+}

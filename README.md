@@ -38,6 +38,12 @@ Both need an internet connection for the OpenStreetMap base map; the event data 
   the same way, from Aachen in October 1944 (USHMM articles on the US divisions and the camps they liberated;
   dzieje.pl for the Polish 1st Armoured Division and the capitulation in north-west Germany). Mecklenburg and parts
   of Brandenburg and Saxony have no dated towns and stay green until the end.
+  **Western Europe** is green from its occupation (Denmark and Norway 9 April 1940, the Netherlands, Belgium and
+  Luxembourg 10 May, France's occupied zone 22 June 1940 and the Vichy zone 11 November 1942; USHMM) and purple from its
+  liberation, taken from the nearest dated town (`scripts/west-occupation-anchors.json`: USHMM, CegeSoma, dzieje.pl,
+  and Chemins de mémoire as quoted in search results). The 1940–42 demarcation line in France is approximated from
+  towns on each side; Norway and the Atlantic and Dunkirk pockets stay German until the end. Annexed Alsace-Lorraine
+  and Luxembourg follow the German-territory file.
 - **Borders and occupation zones:** Poland on 31 August 1939 and present-day Poland as lines; on the selected date,
   the part of 1939 Poland under **German control is tinted green** (dotted green line: the General Government) and
   the part under **Soviet control is tinted red** (dashed red line: the Soviet zone's edge). The zones follow the
